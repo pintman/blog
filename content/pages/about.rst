@@ -1,11 +1,15 @@
 About
 #####
+
+:title: Über
 :date: 2014-09-14 11:54
 :author: marco.bakera
 :slug: about
 :status: published
 
-|Marco Bakera|\ Dies ist das Blog von Marco Bakera. Ich bin Lehrer für
+|Marco Bakera|
+
+Dies ist das Blog von Marco Bakera. Ich bin Lehrer für
 Informatik und Mathematik an der Technischen Beruflichen Schule 1 in
 Bochum (kurz `TBS1 <http://www.tbs1.de>`__).
 
