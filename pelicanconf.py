@@ -37,5 +37,7 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 #THEME = "simple"
-#THEME = "notmyidea"
-THEME = "pelican-elegant"
+THEME = "notmyidea"
+
+# http://oncrashreboot.com/elegant-best-pelican-theme-features
+#THEME = "pelican-elegant"
