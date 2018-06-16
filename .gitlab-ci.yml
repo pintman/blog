@@ -3,7 +3,7 @@ image: python:3-alpine
 pages:
   script:
   - pip install pelican markdown typogrify
-  - pelican -s publishconf.py
+  - pelican -o public -s publishconf.py
 
   artifacts:
     paths:
