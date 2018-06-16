@@ -31,7 +31,7 @@ wie einer Unterhose oder Zahnbürste.
 -  Laptop
 -  Pegelwandler
 
-.. |image0| image:: https://www.bakera.de/wp/wp-content/uploads/2017/12/34c3-tuwat.png
+.. |image0| image:: images/34c3-tuwat.png
    :class: alignnone size-full wp-image-2147
    :width: 289px
    :height: 168px

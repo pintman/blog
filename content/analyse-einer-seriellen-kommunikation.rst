@@ -99,18 +99,17 @@ Mich hat erstaunt, dass es wenig Rauschen um die eigentlichen Nutzdaten
 der beiden Bitmuster gibt. Im Wesentlichen werden die Bitmuster genau in
 den Signalen abgebildet.
 
-.. |SerielleKommunikation_Aufbau| image:: https://www.bakera.de/wp/wp-content/uploads/2014/12/SerielleKommunikation_Aufbau-1021x1024.jpg
+.. |SerielleKommunikation_Aufbau| image:: images/SerielleKommunikation_Aufbau-1021x1024.jpg
    :class: alignnone size-large wp-image-1563
    :width: 625px
    :height: 626px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/12/SerielleKommunikation_Aufbau.jpg
-.. |LogicSniffer| image:: https://www.bakera.de/wp/wp-content/uploads/2014/12/LogicSniffer-1024x120.png
+
+.. |LogicSniffer| image:: images/LogicSniffer-1024x120.png
    :class: alignnone size-large wp-image-1567
    :width: 625px
    :height: 73px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/12/LogicSniffer.png
-.. |OLS-Analyse| image:: https://www.bakera.de/wp/wp-content/uploads/2014/12/OLS-Analyse.png
+
+.. |OLS-Analyse| image:: images/OLS-Analyse.png
    :class: alignnone size-full wp-image-1561
    :width: 935px
    :height: 468px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/12/OLS-Analyse.png

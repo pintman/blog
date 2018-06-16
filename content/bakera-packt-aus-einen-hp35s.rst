@@ -25,8 +25,7 @@ zwischen Mathematik und Programmierung, Nerdtum auf beiden Seiten und
 ein Prachtstück handwerklicher Ingenieurskunst. Ich übertreibe natürlich
 schamlos, aber das darf man in solchen Videos natürlich auch.
 
-.. |cc: Stefan Vorkoetter| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/hp35s-165x300.jpg
+.. |cc: Stefan Vorkoetter| image:: images/hp35s-165x300b.jpg
    :class: size-medium wp-image-1139
    :width: 165px
    :height: 300px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/06/hp35s.jpg

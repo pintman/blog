@@ -48,7 +48,7 @@ sozialer?" <https://youtu.be/ntwqFCcGA9c?t=19m50s>`__
 
  
 
-.. |(cc) by-nc-cd 2.0 von DAVID MELCHOR DIAZ| image:: https://www.bakera.de/wp/wp-content/uploads/2015/05/6198533837_68f9873b4a_z.jpg
+.. |(cc) by-nc-cd 2.0 von DAVID MELCHOR DIAZ| image:: images/6198533837_68f9873b4a_z.jpg
    :class: size-full wp-image-1728
    :width: 640px
    :height: 640px

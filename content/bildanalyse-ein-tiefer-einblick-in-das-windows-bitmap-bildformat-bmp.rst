@@ -80,12 +80,11 @@ einem
 Das Team von `Hak5 <https://hak5.org/>`__ hat einen solchen Hack `schon
 einmal vorgestellt <http://youtu.be/Nwc2g4eGvTs?t=6m27s>`__.
 
-.. |Pixelbild| image:: https://www.bakera.de/wp/wp-content/uploads/2014/11/Pixelbild.png
+.. |Pixelbild| image:: images/Pixelbild.png
    :class: alignleft wp-image-1511 size-full
    :width: 757px
    :height: 500px
-.. |Zusammenhang_Bitmap_Bild| image:: https://www.bakera.de/wp/wp-content/uploads/2014/12/Zusammenhang_Bitmap_Bild.png
+.. |Zusammenhang_Bitmap_Bild| image:: images/Zusammenhang_Bitmap_Bild.png
    :class: alignnone size-full wp-image-1526
    :width: 549px
    :height: 385px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/12/Zusammenhang_Bitmap_Bild.png

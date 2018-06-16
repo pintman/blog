@@ -24,8 +24,7 @@ bewertet werden. Oder im übertragenen Sinne: unsere Daten sagen viel
 stets interpretieren und dürfen keine Maschinen wichtige Entscheidungen
 aufgrund von Daten für uns treffen lassen.
 
-.. |cc: Schutz| image:: http://www.bakera.de/wp/wp-content/uploads/2014/07/Anscombes_Quartet.png
+.. |cc: Schutz| image:: images/Anscombes_Quartet.png
    :class: size-full wp-image-1252
    :width: 1000px
    :height: 727px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/07/Anscombes_Quartet.png

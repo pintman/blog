@@ -12,8 +12,7 @@ Wer mag nur dieser bärtige Mensch sein, der beim
 `Avaus-Adventure <http://www.avausadventure.com/>`__\ direkt vor mir
 steht und von GNU/Linux erzählt?
 
-.. |Avausadventure| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/Avausadventure.png
+.. |Avausadventure| image:: images/Avausadventure.png
    :class: alignnone wp-image-1149 size-full
    :width: 960px
    :height: 386px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/06/Avausadventure.png

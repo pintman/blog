@@ -45,8 +45,7 @@ gut gefallen, das unterschiedliche nerdige Themen kurz vorgestellt.
 Vieles war mir schon bekannt, einiges hatte ich vergessen, anderes war
 mir neu.
 
-.. |image0| image:: https://www.bakera.de/wp/wp-content/uploads/2018/01/Fnord_logo.jpg
+.. |image0| image:: images/Fnord_logo.jpg
    :class: size-full wp-image-2213
    :width: 530px
    :height: 246px
-   :target: https://www.bakera.de/wp/wp-content/uploads/2018/01/Fnord_logo.jpg
