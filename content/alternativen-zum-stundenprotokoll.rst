@@ -1,0 +1,54 @@
+Alternativen zum Stundenprotokoll
+#################################
+:date: 2015-05-10 13:55
+:author: marco.bakera
+:category: Bildung
+:slug: alternativen-zum-stundenprotokoll
+:status: published
+
+[caption id="attachment\_1728" align="alignnone" width="640"]\ |(cc)
+by-nc-cd 2.0 von DAVID MELCHOR DIAZ| (cc) by-nc-nd 2.0 von DAVID MELCHOR
+DIAZ[/caption]
+
+Wie kann der Inhalt einer Stunde, also das, was ich persönlich als
+Schülerin oder Schüler "mitgenommen" habe, zusammengefasst werden? Wie
+kann ich das Gelernte darstellen, festhalten und teilen? Eine beliebte
+Form ist die des Stundenprotokolls, in dem wesentliche Inhalte oder aber
+der Verlauf in Textform oder tabellarisch festgehalten werden. Diese
+Form kann aufgelockert werden, indem man mehr Freiheiten bei der
+Erstellung zugesteht. Die folgenden Möglichkeiten zur Erstellung
+interessanter Artefakte sind mir eingefallen.
+
+Das Protokoll kann bestehen aus
+
+-  einer eigenen
+   `Visualisierung <http://www.bakera.de/wp/2014/05/lernen-durch-lehren-eine-visualisierung/>`__
+-  einer textuellen Zusammenfassung
+-  einem Video
+-  einem Podcast
+-  einem Blogartikel
+-  einen neuen oder korrigierten Wikiartikel
+-  einer Diskussion bei Facebook, in einem Forum oder bei Twitter
+-  einem Gedicht
+-  einem Merksatz
+-  einem guten Internetlink oder einer Linksammlung
+-  einer selbst erstellten Übungsaufgabe
+-  einem Spickzettel für eine Klassenarbeit
+-  einer Schilderung eines persönlichen Erlebnisses
+-  einem
+   `Comic <http://www.bakera.de/wp/2014/08/graphic-novel-comics-und-sequentielle-kunst/>`__
+-  selbst gezeichneten `Sketchnotes <https://youtu.be/hJKK9m5-xEY>`__
+
+Fällt euch noch mehr ein? Dann hinterlasst eure Ideen in den
+Kommentaren.
+
+Inspiriert zu diesem Beitrag hat mich der Vortrag am 6.5. von Christian
+Spannagel zum Thema `"Machen soziale Medien das Lernen
+sozialer?" <https://youtu.be/ntwqFCcGA9c?t=19m50s>`__
+
+ 
+
+.. |(cc) by-nc-cd 2.0 von DAVID MELCHOR DIAZ| image:: https://www.bakera.de/wp/wp-content/uploads/2015/05/6198533837_68f9873b4a_z.jpg
+   :class: size-full wp-image-1728
+   :width: 640px
+   :height: 640px
