@@ -7,10 +7,11 @@ Ein Besuch im größten Computermuseum der Welt
 :slug: ein-besuch-im-groessten-computermuseum-der-welt
 :status: published
 
-[caption id="attachment\_951" align="alignnone" width="1024"]\ |Foto von
-Johann H. Addicks - addicks@gmx.net (Lizenz Creative Commons BY-NC-ND
-3.0)| Foto von Johann H. Addicks unter einer `Creative Commons
-Lizenz <http://creativecommons.org/licenses/by-nc-nd/3.0/>`__.[/caption]
+|Foto von Johann H. Addicks - addicks@gmx.net (Lizenz Creative Commons BY-NC-ND
+3.0)| 
+
+Foto von Johann H. Addicks unter einer `Creative Commons
+Lizenz <http://creativecommons.org/licenses/by-nc-nd/3.0/>`__.
 
 Ich hatte es mir schon lange vorgenommen: Irgendwann wollte ich mir das
 größte Computermuseum der Welt einmal anschauen. Es geht um das `Heinz
@@ -24,10 +25,11 @@ thematisch alles um die vor-elektronische Zeit von der Keilschrift bis
 in die 1950er Jahre. Hier lerne ich die Rechenmaschine
 `Brunsviga <https://de.wikipedia.org/wiki/Brunsviga>`__ kennen.
 
-[caption id="attachment\_963" align="alignnone"
-width="1546"]\ |Brunsviga - Ein Tischrechner mit Walzenbetrieb aus
-Braunschweig..| Brunsviga - Ein Tischrechner mit Walzenbetrieb aus
-Braunschweig..[/caption]
+|Brunsviga - Ein Tischrechner mit Walzenbetrieb aus
+Braunschweig..| 
+
+Brunsviga - Ein Tischrechner mit Walzenbetrieb aus
+Braunschweig..
 
 Es ist eine mechanische Rechenmaschine, die die vier Grundrechenarten
 Plus, Minus, Mal und Geteilt beherrscht. Mit den Hebeln in der Mitte
@@ -50,10 +52,7 @@ Ich lerne auch das
 kennen - naja, eigentlich kannte ich es schon aus meinem Studium. Aber
 die raumgreifende Visualisierung lässt mich doch einem Moment verharren.
 
-[caption id="attachment\_955" align="alignnone" width="2592"]\ |Das
-Mooresche Gesetz - Endlich habe ich es leibhaftig vor mir gesehen.| Das
-Mooresche Gesetz - Endlich habe ich es leibhaftig vor mir
-gesehen.[/caption]
+|Das Mooresche Gesetz - Endlich habe ich es leibhaftig vor mir gesehen.| 
 
 Und so ist es mit zahlreichen Dingen, die ich im Museum sehe. Vieles ist
 mir bereits bekannt - entweder habe ich darüber gelesen, ein Bild davon
@@ -85,8 +84,7 @@ etwas mehr aus meinem Fachbereich zu "begreifen".
 Ich freue mich schon auf den nächsten Besuch - dann werde ich mir auch
 die Taschenrechnerwand noch einmal etwas genauer ansehen.
 
-[caption id="attachment\_956" align="alignnone" width="1024"]\ |Die
-Taschnrechnerwand| Die Taschnrechnerwand[/caption]
+|Die Taschnrechnerwand|
 
 .. raw:: html
 

@@ -6,9 +6,9 @@ Alternativen zum Stundenprotokoll
 :slug: alternativen-zum-stundenprotokoll
 :status: published
 
-[caption id="attachment\_1728" align="alignnone" width="640"]\ |(cc)
-by-nc-cd 2.0 von DAVID MELCHOR DIAZ| (cc) by-nc-nd 2.0 von DAVID MELCHOR
-DIAZ[/caption]
+|(cc) by-nc-cd 2.0 von DAVID MELCHOR DIAZ| 
+
+(cc) by-nc-nd 2.0 von DAVID MELCHOR DIAZ
 
 Wie kann der Inhalt einer Stunde, also das, was ich persönlich als
 Schülerin oder Schüler "mitgenommen" habe, zusammengefasst werden? Wie

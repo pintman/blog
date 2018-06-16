@@ -7,8 +7,9 @@ Bakera packt aus: einen HP 35s
 :slug: bakera-packt-aus-einen-hp35s
 :status: published
 
-[caption id="attachment\_1139" align="alignright" width="165"]\ |cc:
-Stefan Vorkoetter| cc: Stefan Vorkoetter[/caption]
+|cc: Stefan Vorkoetter| 
+
+cc: Stefan Vorkoetter
 
 Die Unsitte, sich über Dinge zu freuen und durch ein Auspackvideo zu
 dokumentieren, habe ich noch nie verstanden. Deshalb habe ich selbst ein

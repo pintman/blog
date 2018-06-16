@@ -7,8 +7,9 @@ Bilder sagen mehr als Zahlen - manchmal
 :slug: bilder-sagen-mehr-als-zahlen-manchmal
 :status: published
 
-[caption id="attachment\_1252" align="alignnone" width="1000"]\ |cc:
-Schutz| cc: Schutz[/caption]
+|cc: Schutz| 
+
+cc: Schutz
 
 Das `Anscombe
 Quartett <https://de.wikipedia.org/wiki/Anscombe-Quartett>`__ ist eine

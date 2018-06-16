@@ -7,8 +7,9 @@ Erste Programme für den HP 35s
 :slug: erste-programme-fuer-den-hp35s
 :status: published
 
-[caption id="attachment\_1143" align="alignnone" width="406"]\ |cc:
-Stefan Vorkoetter| cc: Stefan Vorkoetter[/caption]
+|cc: Stefan Vorkoetter| 
+
+cc: Stefan Vorkoetter
 
 Erst `kürzlich habe ich einen neuen Taschenrechner
 erhalten <http://www.bakera.de/wp/2014/06/bakera-packt-aus-einen-hp35s/>`__

@@ -6,8 +6,7 @@ Emotionale Funktionen
 :slug: emotionale-funktionen
 :status: published
 
-[caption id="attachment\_1222" align="alignnone" width="1100"]\ |von
-Maya Eilam und Kurt Vonnegut| von Maya Eilam und Kurt Vonnegut[/caption]
+|von Maya Eilam und Kurt Vonnegut|
 
 Schriftsteller und Autor `Kurt Vonnegut schrieb kurz nach dem zweiten
 Weltkrieg eine

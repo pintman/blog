@@ -6,9 +6,7 @@ Graphic Novel ✍ Comics ☺ und sequentielle Kunst  ❦
 :slug: graphic-novel-comics-und-sequentielle-kunst
 :status: published
 
-[caption id="attachment\_1301" align="alignnone" width="1200"]\ |Comic
-Strip von Elisabeth Hass (The Noun Project)| Comic Strip von Elisabeth
-Hass (The Noun Project)[/caption]
+|Comic Strip von Elisabeth Hass (The Noun Project)| 
 
 Die Begriffe Graphic Novel, Comic und sequentielle Kunst meinen
 eigentlich alle dasselbe. Sie erzählen eine Geschichte in mehreren
@@ -72,9 +70,9 @@ wollen oder Vorbehalte gegenüber dem Genre haben.
 Kostprobe gefällig? Hier versucht sich McCloud z.B. an einer Definition
 des Comic-Begriffes in Form eines Comic-Strips.
 
-[caption id="attachment\_1321" align="alignnone" width="189"]\ |aus:
-"Comics richtig lesen", S. 13| aus: "Comics richtig lesen", S.
-13[/caption]
+|aus: "Comics richtig lesen", S. 13| 
+
+aus: "Comics richtig lesen", S. 13
 
 Weitere interessante Comics, die ich in den letzten Tagen und Wochen
 gelesen habe, sind die spannende post-apokalyptische Serie `The Walking

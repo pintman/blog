@@ -7,8 +7,9 @@
 :slug: 34c3-gute-unterhaltung
 :status: published
 
-[caption id="attachment\_2213" align="alignnone" width="530"]\ |image0|
-CC BY-SA Jackytar[/caption]
+|image0|
+
+CC BY-SA Jackytar
 
 Neben rein technischen Vorträgen gab es beim letzten 34C3 auch solche
 mit größeren Unterhaltungswert.

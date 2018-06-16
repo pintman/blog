@@ -6,8 +6,9 @@ Buchtipp: "Little Brother" von Cory Doctorow
 :slug: buchtipp-little-brother-von-cory-doctorow
 :status: published
 
-[caption id="attachment\_1594" align="alignnone" width="398"]\ |cc:
-Richard Wilkinson| cc: Richard Wilkinson[/caption]
+|cc: Richard Wilkinson| 
+
+cc: Richard Wilkinson
 
 In dem Roman "Little Brother" erzählt Cory Doctorow die Geschichte der
 Geheimdienste nach den Anschlägen auf das World Trade Center in einem

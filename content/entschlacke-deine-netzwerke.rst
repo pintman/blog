@@ -6,8 +6,9 @@ Entschlacke deine Netzwerke
 :slug: entschlacke-deine-netzwerke
 :status: published
 
-[caption id="attachment\_1249" align="alignnone" width="586"]\ |cc: mkh
-marketing| cc: mkh marketing[/caption]
+|cc: mkh marketing| 
+
+cc: mkh marketing
 
 Ab und zu kann es durchaus nützlich sein, das eigene soziale Netzwerk zu
 entschlacken. Insbesondere dann, wenn man sich über Beiträge in seiner

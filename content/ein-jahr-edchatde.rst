@@ -7,8 +7,9 @@ Ein Jahr #EDchatDE
 :slug: ein-jahr-edchatde
 :status: published
 
-[caption id="attachment\_1262" align="alignnone" width="200"]\ |cc:
-André J. Spang| cc: André J. Spang[/caption]
+|cc: André J. Spang| 
+
+cc: André J. Spang
 
 Gestern Abend um 20 Uhr trafen sich wieder einmal viele begeisterte
 Lehrerinnen und Lehrer im Twitterchat

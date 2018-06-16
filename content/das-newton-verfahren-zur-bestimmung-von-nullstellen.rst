@@ -9,8 +9,9 @@ Das Newton-Verfahren zur Bestimmung von Nullstellen
 
  
 
-[caption id="attachment\_1171" align="alignnone" width="408"]\ |(cc)
-Stefan Vorkoetter| (cc) Stefan Vorkoetter[/caption]
+|(cc) Stefan Vorkoetter| 
+
+(cc) Stefan Vorkoetter
 
 Isaac Newton hat vor über 300 Jahren ein
 `Verfahren <https://de.wikipedia.org/wiki/Newton-Verfahren>`__
