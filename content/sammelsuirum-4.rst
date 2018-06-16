@@ -6,8 +6,7 @@ Sammelsuirum (4)
 :slug: sammelsuirum-4
 :status: published
 
-[caption id="attachment\_1475" align="alignnone" width="512"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik|
 
 Die Woche ist mal wieder um. Die wichtigsten Links, die mir begegnet
 sind, stehen unten.
@@ -44,7 +43,9 @@ sind, stehen unten.
    `Wine <https://appdb.winehq.org/objectManager.php?sClass=version&iId=22306>`__
    macht es möglich.
 
-.. |cc: Freepik| image:: http://www.bakera.de/wp/wp-content/uploads/2014/10/wwwSitzen.png
+.. |cc: Freepik| image:: images/wwwSitzen2.png
    :class: size-full wp-image-1475
-   :width: 512px
-   :height: 512px
+   :width: 506px
+   :height: 334px
+   :alt: cc: Freepik
+
