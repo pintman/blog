@@ -8,4 +8,4 @@ Newsfeed
 Dieser Blog kann auch über einen Feedreader gelesen werden. Verwende
 dazu folgende Feed-URL:
 
-`www.bakera.de/wp/feed <//www.bakera.de/wp/feed/>`__
+`<https://pintman.gitlab.io/blog/feeds/all.atom.xml>`__
