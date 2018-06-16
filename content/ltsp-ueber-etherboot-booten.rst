@@ -2,7 +2,7 @@ LTSP über Etherboot booten
 ##########################
 :date: 2013-12-23 10:39
 :author: marco.bakera
-:category: Informatik, Linux, Tools
+:tags: Informatik, Linux, Tools
 :slug: ltsp-ueber-etherboot-booten
 :status: published
 

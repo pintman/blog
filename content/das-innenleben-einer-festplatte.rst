@@ -2,7 +2,7 @@ Das Innenleben einer Festplatte
 ###############################
 :date: 2011-06-08 10:08
 :author: admin
-:category: Bildung, Video
+:tags: Bildung, Video
 :slug: das-innenleben-einer-festplatte
 :status: published
 

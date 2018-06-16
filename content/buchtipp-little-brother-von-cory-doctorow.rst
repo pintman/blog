@@ -2,7 +2,7 @@ Buchtipp: "Little Brother" von Cory Doctorow
 ############################################
 :date: 2015-03-02 19:03
 :author: marco.bakera
-:category: Buch, Hardware, Informatik, Linux, Mathe, Programmierung, Tipp
+:tags: Buch, Hardware, Informatik, Linux, Mathe, Programmierung, Tipp
 :slug: buchtipp-little-brother-von-cory-doctorow
 :status: published
 

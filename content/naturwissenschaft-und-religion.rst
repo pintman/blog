@@ -2,7 +2,7 @@ Naturwissenschaft und Religion
 ##############################
 :date: 2008-04-03 16:33
 :author: admin
-:category: Audio, Wissenschaft
+:tags: Audio, Wissenschaft
 :slug: naturwissenschaft-und-religion
 :status: published
 

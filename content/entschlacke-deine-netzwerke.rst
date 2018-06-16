@@ -2,7 +2,7 @@ Entschlacke deine Netzwerke
 ###########################
 :date: 2014-06-28 10:19
 :author: marco.bakera
-:category: Tipp
+:tags: Tipp
 :slug: entschlacke-deine-netzwerke
 :status: published
 

@@ -2,7 +2,7 @@ Bochumer Labortage
 ##################
 :date: 2010-09-25 09:43
 :author: admin
-:category: Programmierung, Termin, Wissenschaft
+:tags: Programmierung, Termin, Wissenschaft
 :slug: bochumer-labortage
 :status: published
 

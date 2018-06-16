@@ -2,7 +2,7 @@ Eine öffentliche und verteilte Bibliothek
 #########################################
 :date: 2016-01-18 19:20
 :author: marco.bakera
-:category: Bildung, Buch, Informatik
+:tags: Bildung, Buch, Informatik
 :slug: eine-oeffentliche-und-verteilte-bibliothek
 :status: published
 

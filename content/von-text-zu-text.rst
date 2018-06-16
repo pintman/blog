@@ -2,7 +2,7 @@ Von Text zu Text
 ################
 :date: 2006-02-21 22:43
 :author: admin
-:category: Informatik, LaTex
+:tags: Informatik, LaTex
 :slug: von-text-zu-text
 :status: published
 

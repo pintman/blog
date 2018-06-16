@@ -2,7 +2,7 @@ Pseudowissenschaften, Reputationssysteme, Grails, TU-Logo, Getting Things Done
 ##############################################################################
 :date: 2008-02-23 09:56
 :author: admin
-:category: Programmierung
+:tags: Programmierung
 :slug: pseudowissenschaften-reputationssysteme-grails-tu-logo-getting-things-done
 :status: published
 

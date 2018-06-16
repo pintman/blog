@@ -2,7 +2,7 @@ Brainfuck-Interpreter in Scratch
 ################################
 :date: 2012-12-07 14:00
 :author: admin
-:category: Programmierung, Spaß
+:tags: Programmierung, Spaß
 :slug: brainfuck-interpreter-in-scratch
 :status: published
 

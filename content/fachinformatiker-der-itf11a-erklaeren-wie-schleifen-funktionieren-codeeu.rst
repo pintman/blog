@@ -2,7 +2,7 @@ Fachinformatiker der ITF11a erklären, wie Schleifen funktionieren #codeEU
 #########################################################################
 :date: 2013-11-29 22:24
 :author: marco.bakera
-:category: Informatik, Programmierung, Video
+:tags: Informatik, Programmierung, Video
 :slug: fachinformatiker-der-itf11a-erklaeren-wie-schleifen-funktionieren-codeeu
 :status: published
 

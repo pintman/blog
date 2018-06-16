@@ -2,7 +2,7 @@
 ################################
 :date: 2012-04-13 22:05
 :author: admin
-:category: Text
+:tags: Text
 :slug: ein-einstieg-in-textadventures
 :status: published
 

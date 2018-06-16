@@ -2,7 +2,7 @@ Fingerzeig
 ##########
 :date: 2004-01-01 00:00
 :author: admin
-:category: Geschichten, Kunst
+:tags: Geschichten, Kunst
 :slug: fingerzeig
 :status: published
 

@@ -2,7 +2,7 @@ Mailboxen, Fidonetz und Netzwerke der 90er Jahre
 ################################################
 :date: 2018-01-02 15:14
 :author: marco.bakera
-:category: Gesellschaft, Informatik
+:tags: Gesellschaft, Informatik
 :tags: 34c3
 :slug: mailboxen-fidonetz-und-netzwerke-der-90er-jahre
 :status: published

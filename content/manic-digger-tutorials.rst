@@ -2,7 +2,7 @@ Manic Digger Tutorials
 ######################
 :date: 2013-04-01 11:03
 :author: admin
-:category: Programmierung, Video
+:tags: Programmierung, Video
 :slug: manic-digger-tutorials
 :status: published
 

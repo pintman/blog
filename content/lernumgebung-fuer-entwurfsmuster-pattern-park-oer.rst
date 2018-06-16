@@ -2,7 +2,7 @@ Lernumgebung für Entwurfsmuster: Pattern Park
 #############################################
 :date: 2013-10-03 16:55
 :author: marco.bakera
-:category: Bildung, Programmierung
+:tags: Bildung, Programmierung
 :slug: lernumgebung-fuer-entwurfsmuster-pattern-park-oer
 :status: published
 

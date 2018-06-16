@@ -2,7 +2,7 @@ Die Pomodoro-Technik
 ####################
 :date: 2011-06-13 19:53
 :author: admin
-:category: Bildung, Tipp
+:tags: Bildung, Tipp
 :slug: die-pomodoro-technik
 :status: published
 

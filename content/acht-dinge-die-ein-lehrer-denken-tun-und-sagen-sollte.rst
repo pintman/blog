@@ -2,7 +2,7 @@ Acht Dinge, die ein Lehrer denken, tun und sagen sollte
 #######################################################
 :date: 2013-05-29 12:17
 :author: marco.bakera
-:category: Bildung, Tipp
+:tags: Bildung, Tipp
 :slug: acht-dinge-die-ein-lehrer-denken-tun-und-sagen-sollte
 :status: published
 

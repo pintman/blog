@@ -2,7 +2,7 @@ Marco macht Mucke»
 ##################
 :date: 2005-04-16 20:08
 :author: admin
-:category: Unkategorisiert
+:tags: Unkategorisiert
 :slug: marco-macht-mucke
 :status: published
 

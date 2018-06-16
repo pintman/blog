@@ -2,7 +2,7 @@ Die Zukunft der Programmierung
 ##############################
 :date: 2013-07-31 10:19
 :author: marco.bakera
-:category: Programmierung, Video, Wissenschaft
+:tags: Programmierung, Video, Wissenschaft
 :slug: die-zukunft-der-programmierung
 :status: published
 

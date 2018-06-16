@@ -2,7 +2,7 @@ Fotostream
 ##########
 :date: 2005-05-04 06:41
 :author: admin
-:category: Kunst
+:tags: Kunst
 :slug: fotostream
 :status: published
 

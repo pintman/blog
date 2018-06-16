@@ -2,7 +2,7 @@ Gestern ging es in Mathematik um Funktionen
 ###########################################
 :date: 2013-10-02 16:08
 :author: marco.bakera
-:category: Mathe
+:tags: Mathe
 :slug: gestern-ging-es-in-mathematik-um-funktionen-oer-tafelbild
 :status: published
 

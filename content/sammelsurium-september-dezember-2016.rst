@@ -2,7 +2,7 @@ Sammelsurium September-Dezember 2016
 ####################################
 :date: 2017-01-06 09:14
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: sammelsurium-september-dezember-2016
 :status: published
 

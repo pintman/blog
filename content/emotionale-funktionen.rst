@@ -2,7 +2,7 @@ Emotionale Funktionen
 #####################
 :date: 2014-06-24 10:36
 :author: marco.bakera
-:category: Geschichten, Mathe, Video
+:tags: Geschichten, Mathe, Video
 :slug: emotionale-funktionen
 :status: published
 

@@ -2,7 +2,7 @@ Kunst ist...
 ############
 :date: 2005-08-14 08:13
 :author: admin
-:category: Kunst, Mathe
+:tags: Kunst, Mathe
 :slug: kunst-ist
 :status: published
 

@@ -2,7 +2,7 @@ Ich bin Wiki-Admin
 ##################
 :date: 2013-05-13 17:23
 :author: marco.bakera
-:category: Bildung, Tipp
+:tags: Bildung, Tipp
 :slug: ich-bin-wiki-admin
 :status: published
 

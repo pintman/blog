@@ -2,7 +2,7 @@ Seiten aus einem PDF-Dokument als Bild abspeichern
 ##################################################
 :date: 2014-03-16 20:35
 :author: marco.bakera
-:category: Linux
+:tags: Linux
 :slug: seiten-aus-einem-pdf-dokument-als-bild-abspeichern-linux
 :status: published
 

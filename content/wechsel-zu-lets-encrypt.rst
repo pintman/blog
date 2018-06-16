@@ -2,7 +2,7 @@ Wechsel zu "let's encrypt"
 ##########################
 :date: 2017-04-13 16:20
 :author: marco.bakera
-:category: Linux
+:tags: Linux
 :slug: wechsel-zu-lets-encrypt
 :status: published
 

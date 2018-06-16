@@ -2,7 +2,7 @@ LiveCoding mit Fluxus
 #####################
 :date: 2013-05-09 12:57
 :author: admin
-:category: Programmierung, Video
+:tags: Programmierung, Video
 :slug: livecoding-mit-fluxus
 :status: published
 

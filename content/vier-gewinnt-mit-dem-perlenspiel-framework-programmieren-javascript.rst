@@ -2,7 +2,7 @@ Vier Gewinnt mit dem Perlenspiel-Framework programmieren
 ########################################################
 :date: 2013-10-28 16:53
 :author: marco.bakera
-:category: Bildung, JavaScript, Programmierung, Spiele
+:tags: Bildung, JavaScript, Programmierung, Spiele
 :slug: vier-gewinnt-mit-dem-perlenspiel-framework-programmieren-javascript
 :status: published
 

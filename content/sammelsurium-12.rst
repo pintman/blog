@@ -2,7 +2,7 @@ Sammelsurium
 ############
 :date: 2015-03-07 17:36
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :tags: Beamer, Bildung, ISS, POV-Ray, RSS, Snowden, Vektorrechung, video, YouTube
 :slug: sammelsurium-12
 :status: published

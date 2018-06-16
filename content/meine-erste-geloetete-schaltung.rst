@@ -2,7 +2,7 @@ Meine erste gelötete Schaltung
 ##############################
 :date: 2014-12-27 22:59
 :author: marco.bakera
-:category: Hardware
+:tags: Hardware
 :tags: Löten
 :slug: meine-erste-geloetete-schaltung
 :status: published

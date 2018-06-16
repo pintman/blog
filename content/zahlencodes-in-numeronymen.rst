@@ -2,7 +2,7 @@ Zahlencodes in Numeronymen
 ##########################
 :date: 2013-05-26 10:16
 :author: marco.bakera
-:category: Spaß, Text
+:tags: Spaß, Text
 :slug: zahlencodes-in-numeronymen
 :status: published
 

@@ -2,7 +2,7 @@ USB-Sticks und SD-Karten validieren
 ###################################
 :date: 2018-01-05 10:45
 :author: marco.bakera
-:category: Hardware, Linux, Tipp, Tools
+:tags: Hardware, Linux, Tipp, Tools
 :slug: usb-sticks-und-sd-karten-validieren
 :status: published
 

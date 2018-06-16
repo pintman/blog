@@ -2,7 +2,7 @@ Eindrücke vom 34c3
 ##################
 :date: 2018-01-03 10:10
 :author: marco.bakera
-:category: Informatik
+:tags: Informatik
 :tags: 34c3
 :slug: eindruecke-vom-34c3
 :status: published

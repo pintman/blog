@@ -2,7 +2,7 @@ Eine Dependance der Alten Nationalgalerie Berlin in Dortmund
 ############################################################
 :date: 2005-07-24 19:40
 :author: admin
-:category: Kunst
+:tags: Kunst
 :slug: eine-dependance-der-alten-nationalgalerie-berlin-in-dortmund
 :status: published
 

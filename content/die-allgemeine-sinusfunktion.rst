@@ -2,7 +2,7 @@ Die allgemeine Sinusfunktion
 ############################
 :date: 2009-09-18 17:03
 :author: admin
-:category: Mathe, Tipp
+:tags: Mathe, Tipp
 :slug: die-allgemeine-sinusfunktion
 :status: published
 

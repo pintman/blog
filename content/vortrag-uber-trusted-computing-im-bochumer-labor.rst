@@ -2,7 +2,7 @@ Vortrag über Trusted Computing im Bochumer Labor
 ################################################
 :date: 2010-09-13 10:30
 :author: admin
-:category: Informatik, Termin
+:tags: Informatik, Termin
 :slug: vortrag-uber-trusted-computing-im-bochumer-labor
 :status: published
 

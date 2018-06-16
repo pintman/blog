@@ -2,7 +2,7 @@ Y f = f(Y f)
 ############
 :date: 2006-01-13 10:28
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: y-f-fy-f
 :status: published
 

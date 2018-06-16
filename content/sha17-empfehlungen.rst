@@ -2,7 +2,7 @@ SHA17 - Empfehlungen
 ####################
 :date: 2017-10-27 16:14
 :author: marco.bakera
-:category: Hardware, Informatik, Video
+:tags: Hardware, Informatik, Video
 :slug: sha17-empfehlungen
 :status: published
 

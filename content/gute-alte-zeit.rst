@@ -2,7 +2,7 @@ Gute alte Zeit
 ##############
 :date: 2013-06-28 12:05
 :author: marco.bakera
-:category: Spiele
+:tags: Spiele
 :slug: gute-alte-zeit
 :status: published
 

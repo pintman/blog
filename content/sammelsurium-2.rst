@@ -2,7 +2,7 @@ Sammelsurium (2)
 ################
 :date: 2014-10-24 13:00
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: sammelsurium-2
 :status: published
 

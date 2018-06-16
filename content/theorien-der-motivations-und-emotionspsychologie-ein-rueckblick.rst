@@ -2,7 +2,7 @@ Theorien der Motivations- und Emotionspsychologie - ein Rückblick
 #################################################################
 :date: 2015-09-20 12:36
 :author: marco.bakera
-:category: Bildung, Gesellschaft, Video
+:tags: Bildung, Gesellschaft, Video
 :tags: Psychologie
 :slug: theorien-der-motivations-und-emotionspsychologie-ein-rueckblick
 :status: published

@@ -2,7 +2,7 @@ Sammelsurium: Cloud, MediaWiki, Windows, Comic, Dortmund, RSS, Minecraft, gpg, A
 ##########################################################################################
 :date: 2015-04-04 10:21
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :tags: Algorithmen, Cloud, Comic, Dortmund, gpg, MediaWiki, Minecraft, RSS, Windows
 :slug: sammelsurium-cloud-mediawiki-windows-comic-dortmund-rss-minecraft-gpg-algorithmen
 :status: published

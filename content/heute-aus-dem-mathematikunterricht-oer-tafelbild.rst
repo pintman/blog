@@ -2,7 +2,7 @@ Heute aus dem Mathematikunterricht
 ##################################
 :date: 2013-09-26 16:17
 :author: marco.bakera
-:category: Bildung, Mathe
+:tags: Bildung, Mathe
 :slug: heute-aus-dem-mathematikunterricht-oer-tafelbild
 :status: published
 

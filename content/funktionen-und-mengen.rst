@@ -2,7 +2,7 @@ Funktionen und Mengen
 #####################
 :date: 2006-02-17 20:57
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: funktionen-und-mengen
 :status: published
 

@@ -2,7 +2,7 @@ Dortmunder Fitnessstudios im Test
 #################################
 :date: 2005-05-16 16:48
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: dortmunder-fitnessstudios-im-test
 :status: published
 

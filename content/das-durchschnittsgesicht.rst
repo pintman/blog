@@ -2,7 +2,7 @@ Das Durchschnittsgesicht
 ########################
 :date: 2005-08-01 21:24
 :author: admin
-:category: Kunst, Spaß
+:tags: Kunst, Spaß
 :slug: das-durchschnittsgesicht
 :status: published
 

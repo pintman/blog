@@ -2,7 +2,7 @@ Kleines Linux: TinyCore
 #######################
 :date: 2014-09-03 18:06
 :author: marco.bakera
-:category: Linux
+:tags: Linux
 :slug: kleines-linux-tinycore
 :status: published
 

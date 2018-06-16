@@ -2,7 +2,7 @@
 #######
 :date: 2007-02-18 08:48
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: bashrc
 :status: published
 

@@ -2,7 +2,7 @@
 ########
 :date: 2018-01-03 12:20
 :author: marco.bakera
-:category: Informatik
+:tags: Informatik
 :slug:  
 :status: draft
 

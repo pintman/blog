@@ -2,7 +2,7 @@
 ################################################################
 :date: 2013-11-25 19:50
 :author: marco.bakera
-:category: Bildung, Programmierung, Termin
+:tags: Bildung, Programmierung, Termin
 :slug: 25-11-30-11-europe-code-week-denn-programmieren-macht-spass
 :status: published
 

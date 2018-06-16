@@ -2,7 +2,7 @@ Seite durchsuchen
 #################
 :date: 2005-04-23 21:02
 :author: admin
-:category: Unkategorisiert
+:tags: Unkategorisiert
 :slug: seite-durchsuchen
 :status: published
 

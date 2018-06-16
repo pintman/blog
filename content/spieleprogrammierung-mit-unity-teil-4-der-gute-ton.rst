@@ -2,7 +2,7 @@ Spieleprogrammierung mit Unity: Teil 4 - Der gute Ton
 #####################################################
 :date: 2014-01-06 23:33
 :author: marco.bakera
-:category: Programmierung, Video
+:tags: Programmierung, Video
 :slug: spieleprogrammierung-mit-unity-teil-4-der-gute-ton
 :status: published
 

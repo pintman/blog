@@ -2,7 +2,7 @@ Remote Desktops
 ###############
 :date: 2017-11-02 13:28
 :author: marco.bakera
-:category: Linux, Windows
+:tags: Linux, Windows
 :slug: remote-desktops
 :status: published
 

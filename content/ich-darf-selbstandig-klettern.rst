@@ -2,7 +2,7 @@ Ich darf selbständig Klettern
 #############################
 :date: 2008-07-17 18:35
 :author: admin
-:category: Spaß, Sport
+:tags: Spaß, Sport
 :slug: ich-darf-selbstandig-klettern
 :status: published
 

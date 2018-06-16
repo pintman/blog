@@ -2,7 +2,7 @@ Allerlei interessante Quartetts
 ###############################
 :date: 2005-09-18 07:32
 :author: admin
-:category: Kunst
+:tags: Kunst
 :slug: allerlei-interessante-quartetts
 :status: published
 

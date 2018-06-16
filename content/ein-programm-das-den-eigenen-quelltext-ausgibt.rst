@@ -2,7 +2,7 @@ Ein Programm, das den eigenen Quelltext ausgibt
 ###############################################
 :date: 2014-05-02 18:15
 :author: marco.bakera
-:category: Programmierung, Spaß
+:tags: Programmierung, Spaß
 :slug: ein-programm-das-den-eigenen-quelltext-ausgibt
 :status: published
 

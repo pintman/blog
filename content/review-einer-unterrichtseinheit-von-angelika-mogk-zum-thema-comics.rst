@@ -2,7 +2,7 @@ Review einer Unterrichtseinheit von Angelika Mogk zum Thema Comics
 ##################################################################
 :date: 2014-06-03 16:04
 :author: marco.bakera
-:category: Bildung
+:tags: Bildung
 :tags: ldl, ldlmooc, mooc
 :slug: review-einer-unterrichtseinheit-von-angelika-mogk-zum-thema-comics
 :status: published

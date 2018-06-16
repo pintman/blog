@@ -2,7 +2,7 @@ VRMAG - LIFE INSIDE A WATER BOTTLE
 ##################################
 :date: 2005-10-11 13:21
 :author: admin
-:category: Film, Kunst
+:tags: Film, Kunst
 :slug: vrmag-life-inside-a-water-bottle
 :status: published
 

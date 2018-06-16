@@ -2,7 +2,7 @@ Morgen wird umgezogen
 #####################
 :date: 2005-03-18 11:12
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: morgen-wird-umgezogen
 :status: published
 

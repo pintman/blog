@@ -2,7 +2,7 @@ Backup über SSH und eine Pipe
 #############################
 :date: 2014-09-28 16:36
 :author: marco.bakera
-:category: Linux, Tipp
+:tags: Linux, Tipp
 :slug: backup-ueber-ssh-und-eine-pipe
 :status: published
 

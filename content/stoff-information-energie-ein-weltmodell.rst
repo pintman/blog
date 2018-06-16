@@ -2,7 +2,7 @@ Stoff, Information, Energie - Ein Weltmodell
 ############################################
 :date: 2014-06-23 13:06
 :author: marco.bakera
-:category: Bildung, Informatik, Kunst, Video, Wissenschaft
+:tags: Bildung, Informatik, Kunst, Video, Wissenschaft
 :slug: stoff-information-energie-ein-weltmodell
 :status: published
 

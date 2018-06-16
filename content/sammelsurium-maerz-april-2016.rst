@@ -2,7 +2,7 @@ Sammelsurium - März, April 2016
 ###############################
 :date: 2016-05-01 13:28
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: sammelsurium-maerz-april-2016
 :status: published
 

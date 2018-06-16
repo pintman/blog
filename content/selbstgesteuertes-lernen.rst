@@ -2,7 +2,7 @@ Selbstgesteuertes Lernen
 ########################
 :date: 2010-11-30 09:56
 :author: admin
-:category: Bildung, Video
+:tags: Bildung, Video
 :slug: selbstgesteuertes-lernen
 :status: published
 

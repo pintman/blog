@@ -2,7 +2,7 @@ Spielereien auf der Kommandozeile: Temperaturanzeige
 ####################################################
 :date: 2014-01-26 18:02
 :author: marco.bakera
-:category: Linux, Programmierung
+:tags: Linux, Programmierung
 :slug: spielereien-auf-der-kommandozeile-temperaturanzeige
 :status: published
 

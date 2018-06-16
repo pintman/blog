@@ -2,7 +2,7 @@
 #######################################################
 :date: 2005-04-17 20:17
 :author: admin
-:category: Audio
+:tags: Audio
 :slug: podcast-3-interview-mit-dem-bensemann-ist-erschienen
 :status: published
 

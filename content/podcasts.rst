@@ -2,7 +2,7 @@ Podcasts
 ########
 :date: 2005-03-02 19:49
 :author: admin
-:category: Audio
+:tags: Audio
 :slug: podcasts
 :status: published
 

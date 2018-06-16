@@ -2,7 +2,7 @@ Die Lebenswelt heutiger Studenten
 #################################
 :date: 2010-07-12 11:00
 :author: admin
-:category: Video
+:tags: Video
 :slug: die-lebenswelt-heutiger-studenten
 :status: published
 

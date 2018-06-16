@@ -2,7 +2,7 @@ Mathematische Stilblüten
 ########################
 :date: 2010-07-14 20:06
 :author: admin
-:category: Kunst, Mathe, Spaß
+:tags: Kunst, Mathe, Spaß
 :slug: mathematische-stilbluten
 :status: published
 

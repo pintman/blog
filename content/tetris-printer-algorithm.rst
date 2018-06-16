@@ -2,7 +2,7 @@ Tetris Printer Algorithm
 ########################
 :date: 2013-06-04 18:01
 :author: marco.bakera
-:category: Kunst, Programmierung, Video
+:tags: Kunst, Programmierung, Video
 :slug: tetris-printer-algorithm
 :status: published
 

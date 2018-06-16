@@ -2,7 +2,7 @@ Spielehersteller kooperieren mit der Rüstungsindustrie
 ######################################################
 :date: 2014-06-01 11:59
 :author: marco.bakera
-:category: Informatik, Video
+:tags: Informatik, Video
 :slug: spielehersteller-kooperieren-mit-der-ruestungsindustrie
 :status: published
 

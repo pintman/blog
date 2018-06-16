@@ -2,7 +2,7 @@
 ##############################################
 :date: 2005-04-28 05:25
 :author: admin
-:category: Audio
+:tags: Audio
 :slug: podcast-4-eine-improvisation-ist-erschienen
 :status: published
 

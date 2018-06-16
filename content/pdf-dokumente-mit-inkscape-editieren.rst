@@ -2,7 +2,7 @@ PDF Dokumente mit Inkscape editieren
 ####################################
 :date: 2008-10-12 15:36
 :author: admin
-:category: Tipp, Tools
+:tags: Tipp, Tools
 :slug: pdf-dokumente-mit-inkscape-editieren
 :status: published
 

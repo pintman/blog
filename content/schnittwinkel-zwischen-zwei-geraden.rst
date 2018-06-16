@@ -2,7 +2,7 @@ Schnittwinkel zwischen zwei Geraden
 ###################################
 :date: 2015-02-15 09:44
 :author: marco.bakera
-:category: Bildung, Mathe
+:tags: Bildung, Mathe
 :tags: ldl, Tafelbild, Vektorrechnung
 :slug: schnittwinkel-zwischen-zwei-geraden
 :status: published

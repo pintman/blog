@@ -2,7 +2,7 @@ Farbwechselspiel in Javascript programmieren
 ############################################
 :date: 2013-11-02 14:41
 :author: marco.bakera
-:category: JavaScript, Programmierung
+:tags: JavaScript, Programmierung
 :slug: farbwechselspiel-in-javascript-programmieren-perlenspiel
 :status: published
 

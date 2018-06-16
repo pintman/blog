@@ -2,7 +2,7 @@ Charset - Encoding - Font
 #########################
 :date: 2017-12-09 10:46
 :author: marco.bakera
-:category: Informatik, Video
+:tags: Informatik, Video
 :slug: charset-encoding-font
 :status: published
 

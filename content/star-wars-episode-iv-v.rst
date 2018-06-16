@@ -2,7 +2,7 @@ Star Wars Episode IV.V
 ######################
 :date: 2007-10-14 08:23
 :author: admin
-:category: Film, Spaß
+:tags: Film, Spaß
 :slug: star-wars-episode-iv-v
 :status: published
 

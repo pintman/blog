@@ -2,7 +2,7 @@ Worn das Wiesel
 ###############
 :date: 2005-04-23 11:04
 :author: admin
-:category: Audio
+:tags: Audio
 :slug: worn-das-wiesel
 :status: published
 

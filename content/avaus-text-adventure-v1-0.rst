@@ -2,7 +2,7 @@ Avaus Text Adventure v1.0
 #########################
 :date: 2014-06-15 16:22
 :author: marco.bakera
-:category: Informatik, Spiele
+:tags: Informatik, Spiele
 :slug: avaus-text-adventure-v1-0
 :status: published
 

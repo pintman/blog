@@ -2,7 +2,7 @@ Totes Baby lag 27 Jahre im Bauch
 ################################
 :date: 2005-07-28 07:00
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: totes-baby-lag-27-jahre-im-bauch
 :status: published
 

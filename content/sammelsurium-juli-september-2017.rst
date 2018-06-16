@@ -2,7 +2,7 @@ Sammelsurium Juli-September 2017
 ################################
 :date: 2017-10-02 12:21
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: sammelsurium-juli-september-2017
 :status: published
 

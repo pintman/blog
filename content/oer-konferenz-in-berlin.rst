@@ -2,7 +2,7 @@ OER-Konferenz in Berlin
 #######################
 :date: 2013-09-20 16:56
 :author: marco.bakera
-:category: Bildung
+:tags: Bildung
 :slug: oer-konferenz-in-berlin
 :status: published
 

@@ -2,7 +2,7 @@ optische Täuschung
 ##################
 :date: 2005-10-24 07:11
 :author: admin
-:category: Kunst
+:tags: Kunst
 :slug: optische-tauschung
 :status: published
 

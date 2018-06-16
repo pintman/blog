@@ -2,7 +2,7 @@ Sammelsurium - Dezember 2015
 ############################
 :date: 2016-01-01 15:27
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: sammelsurium-20
 :status: published
 

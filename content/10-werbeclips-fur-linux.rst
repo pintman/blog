@@ -2,7 +2,7 @@
 #######################
 :date: 2008-05-03 09:20
 :author: admin
-:category: Video
+:tags: Video
 :slug: 10-werbeclips-fur-linux
 :status: published
 

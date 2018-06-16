@@ -2,7 +2,7 @@ Pizza-Volumen
 #############
 :date: 2011-01-25 10:02
 :author: admin
-:category: Bildung, Mathe, Spaß
+:tags: Bildung, Mathe, Spaß
 :slug: pizza-volumen
 :status: published
 

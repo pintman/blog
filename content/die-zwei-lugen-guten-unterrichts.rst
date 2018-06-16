@@ -2,7 +2,7 @@ Die zwei Lügen guten Unterrichts
 ################################
 :date: 2011-06-06 10:52
 :author: admin
-:category: Bildung
+:tags: Bildung
 :slug: die-zwei-lugen-guten-unterrichts
 :status: published
 

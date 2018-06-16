@@ -2,7 +2,7 @@ Ein eigener PyPI-Server
 #######################
 :date: 2017-11-20 20:23
 :author: marco.bakera
-:category: Informatik, Programmierung, Python
+:tags: Informatik, Programmierung, Python
 :slug: ein-eigener-pypi-server
 :status: published
 

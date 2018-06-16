@@ -2,7 +2,7 @@ Es lebt»
 ########
 :date: 2005-04-25 20:52
 :author: admin
-:category: Film
+:tags: Film
 :slug: es-lebt
 :status: published
 

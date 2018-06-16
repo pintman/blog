@@ -2,7 +2,7 @@ Monster
 #######
 :date: 2004-01-01 00:00
 :author: admin
-:category: Film
+:tags: Film
 :slug: monster
 :status: published
 

@@ -2,7 +2,7 @@ Joseph Weizenbaum ist tot
 #########################
 :date: 2008-03-17 07:53
 :author: admin
-:category: Informatik, Wissenschaft
+:tags: Informatik, Wissenschaft
 :slug: joseph-weizenbaum-ist-tot
 :status: published
 

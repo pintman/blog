@@ -2,7 +2,7 @@ Bizarre Wissenschaft
 ####################
 :date: 2008-03-03 16:07
 :author: admin
-:category: Spaß, Wissenschaft
+:tags: Spaß, Wissenschaft
 :slug: bizarre-wissenschaft
 :status: published
 

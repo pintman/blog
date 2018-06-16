@@ -2,7 +2,7 @@ Spieleprogrammierung mit Unity - Teil 3: GUI-Anzeige
 ####################################################
 :date: 2013-12-14 12:43
 :author: marco.bakera
-:category: Bildung, Programmierung, Video
+:tags: Bildung, Programmierung, Video
 :slug: spieleprogrammierung-mit-unity-teil-3-gui-anzeige
 :status: published
 

@@ -2,7 +2,7 @@ Mediawiki unter docker
 ######################
 :date: 2015-08-12 15:31
 :author: marco.bakera
-:category: Informatik, Linux, Video
+:tags: Informatik, Linux, Video
 :tags: debian, docker, ubuntu
 :slug: mediawiki-unter-docker
 :status: published

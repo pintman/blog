@@ -2,7 +2,7 @@ Entwicklungsumgebungen für C++ im Vergleich
 ###########################################
 :date: 2010-07-09 12:00
 :author: admin
-:category: Informatik, Programmierung, Tools
+:tags: Informatik, Programmierung, Tools
 :slug: entwicklungsumgebungen-fur-c-im-vergleich
 :status: published
 

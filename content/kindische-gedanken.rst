@@ -2,7 +2,7 @@ Kindische Gedanken
 ##################
 :date: 2010-05-05 20:56
 :author: admin
-:category: Video
+:tags: Video
 :slug: kindische-gedanken
 :status: published
 

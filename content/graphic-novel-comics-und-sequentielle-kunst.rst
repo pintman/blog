@@ -2,7 +2,7 @@ Graphic Novel ✍ Comics ☺ und sequentielle Kunst  ❦
 ##################################################
 :date: 2014-08-20 17:05
 :author: marco.bakera
-:category: Bildung, Comic, Tipp, Video
+:tags: Bildung, Comic, Tipp, Video
 :slug: graphic-novel-comics-und-sequentielle-kunst
 :status: published
 

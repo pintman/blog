@@ -2,7 +2,7 @@ Frohes neues Jahr
 #################
 :date: 2013-01-01 09:48
 :author: admin
-:category: Mathe, Programmierung, Spaß, Spiele
+:tags: Mathe, Programmierung, Spaß, Spiele
 :slug: frohes-neues-jahr
 :status: published
 

@@ -2,7 +2,7 @@ XP, Programmiersprachen und Dylan
 #################################
 :date: 2006-05-28 20:51
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: xp-programmiersprachen-und-dylan
 :status: published
 

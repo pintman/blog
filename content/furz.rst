@@ -2,7 +2,7 @@ Furz
 ####
 :date: 2004-01-01 10:00
 :author: admin
-:category: Comic, Kunst
+:tags: Comic, Kunst
 :slug: furz
 :status: published
 

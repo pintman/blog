@@ -2,7 +2,7 @@ Tutorial: Binding Sourcen in C#
 ###############################
 :date: 2013-01-04 10:07
 :author: admin
-:category: Programmierung
+:tags: Programmierung
 :slug: tutorial-binding-sourcen-in-c
 :status: published
 

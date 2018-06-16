@@ -2,7 +2,7 @@ Interview mit Robin Milner
 ##########################
 :date: 2008-03-31 16:59
 :author: admin
-:category: Informatik, Wissenschaft
+:tags: Informatik, Wissenschaft
 :slug: interview-mit-robin-milner
 :status: published
 

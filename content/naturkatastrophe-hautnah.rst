@@ -2,7 +2,7 @@ Naturkatastrophe hautnah
 ########################
 :date: 2005-10-07 23:50
 :author: admin
-:category: Film
+:tags: Film
 :slug: naturkatastrophe-hautnah
 :status: published
 

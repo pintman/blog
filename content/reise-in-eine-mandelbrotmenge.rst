@@ -2,7 +2,7 @@ Reise in eine Mandelbrotmenge
 #############################
 :date: 2012-11-09 14:00
 :author: admin
-:category: Mathe, Wissenschaft
+:tags: Mathe, Wissenschaft
 :slug: reise-in-eine-mandelbrotmenge
 :status: published
 

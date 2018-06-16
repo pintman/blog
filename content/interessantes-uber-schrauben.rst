@@ -2,7 +2,7 @@ Interessantes über Schrauben
 ############################
 :date: 2005-04-06 07:34
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: interessantes-uber-schrauben
 :status: published
 

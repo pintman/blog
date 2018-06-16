@@ -2,7 +2,7 @@ Was ich so mache
 ################
 :date: 2005-02-02 18:55
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: was-ich-so-mache
 :status: published
 

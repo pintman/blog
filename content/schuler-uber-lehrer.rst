@@ -2,7 +2,7 @@ Schüler über Lehrer
 ###################
 :date: 2010-10-23 13:08
 :author: admin
-:category: Bildung, Video
+:tags: Bildung, Video
 :slug: schuler-uber-lehrer
 :status: published
 

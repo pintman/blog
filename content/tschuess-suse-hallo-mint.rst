@@ -2,7 +2,7 @@ Tschüss Suse, Hallo Mint
 ########################
 :date: 2017-04-12 09:06
 :author: marco.bakera
-:category: Informatik, Linux
+:tags: Informatik, Linux
 :slug: tschuess-suse-hallo-mint
 :status: published
 

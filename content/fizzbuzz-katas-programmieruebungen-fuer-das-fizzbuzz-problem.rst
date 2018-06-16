@@ -2,7 +2,7 @@ FizzBuzz Katas - Programmierübungen für das FizzBuzz-Problem
 ############################################################
 :date: 2017-04-18 11:45
 :author: marco.bakera
-:category: Bildung, Informatik, Programmierung, Video
+:tags: Bildung, Informatik, Programmierung, Video
 :slug: fizzbuzz-katas-programmieruebungen-fuer-das-fizzbuzz-problem
 :status: published
 

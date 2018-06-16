@@ -2,7 +2,7 @@ Authentifizierung mit OpenID
 ############################
 :date: 2014-04-08 15:10
 :author: marco.bakera
-:category: Informatik, Video
+:tags: Informatik, Video
 :tags: screencast, video
 :slug: authentifizierung-mit-openid
 :status: published

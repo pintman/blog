@@ -2,7 +2,7 @@ Nachtrag: Pruefung Graphische Systeme / Betriebssysteme
 #######################################################
 :date: 2005-08-03 12:44
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: nachtrag-pruefung-graphische-systeme-betriebssysteme
 :status: published
 

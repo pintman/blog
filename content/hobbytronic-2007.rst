@@ -2,7 +2,7 @@ Hobbytronic 2007
 ################
 :date: 2007-05-26 13:48
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: hobbytronic-2007
 :status: published
 

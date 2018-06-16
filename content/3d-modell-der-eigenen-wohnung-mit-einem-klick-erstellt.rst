@@ -2,7 +2,7 @@
 ######################################################
 :date: 2013-11-18 15:34
 :author: marco.bakera
-:category: Kunst
+:tags: Kunst
 :slug: 3d-modell-der-eigenen-wohnung-mit-einem-klick-erstellt
 :status: published
 

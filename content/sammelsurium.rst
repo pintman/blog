@@ -2,7 +2,7 @@ Sammelsurium (1)
 ################
 :date: 2014-10-17 15:45
 :author: marco.bakera
-:category: Linkliste, Tipp
+:tags: Linkliste, Tipp
 :slug: sammelsurium
 :status: published
 

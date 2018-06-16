@@ -2,7 +2,7 @@ Einfache Rechenregeln
 #####################
 :date: 2013-09-26 16:23
 :author: marco.bakera
-:category: Bildung, Mathe
+:tags: Bildung, Mathe
 :slug: einfache-rechenregeln-oer-tafelbild
 :status: published
 

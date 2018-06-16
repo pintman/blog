@@ -2,7 +2,7 @@ Mächtiger Dateimanager in Emacs
 ###############################
 :date: 2007-04-15 10:38
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: machtiger-dateimanager-in-emacs
 :status: published
 

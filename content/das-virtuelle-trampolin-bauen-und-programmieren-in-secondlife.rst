@@ -2,7 +2,7 @@ Das virtuelle Trampolin - Bauen und Programmieren in SecondLife
 ###############################################################
 :date: 2013-11-05 16:30
 :author: marco.bakera
-:category: Kunst, Programmierung, Second Life, Spaß, Video
+:tags: Kunst, Programmierung, Second Life, Spaß, Video
 :slug: das-virtuelle-trampolin-bauen-und-programmieren-in-secondlife
 :status: published
 

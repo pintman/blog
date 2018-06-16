@@ -2,7 +2,7 @@
 #######################
 :date: 2018-01-10 20:06
 :author: marco.bakera
-:category: Spaß, Video
+:tags: Spaß, Video
 :tags: 34c3
 :slug: 34c3-gute-unterhaltung
 :status: published

@@ -2,7 +2,7 @@ Erste Programme für den HP 35s
 ##############################
 :date: 2014-06-14 12:16
 :author: marco.bakera
-:category: Informatik, Mathe, Programmierung
+:tags: Informatik, Mathe, Programmierung
 :tags: HP35s, Taschenrechner
 :slug: erste-programme-fuer-den-hp35s
 :status: published

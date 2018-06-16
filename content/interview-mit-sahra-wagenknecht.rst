@@ -2,7 +2,7 @@ Interview mit Sahra Wagenknecht
 ################################
 :date: 2013-06-21 18:25
 :author: marco.bakera
-:category: Video
+:tags: Video
 :slug: interview-mit-sahra-wagenknecht
 :status: published
 

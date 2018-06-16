@@ -2,7 +2,7 @@ Twitter, ich bin dabei.
 #######################
 :date: 2008-07-06 13:44
 :author: admin
-:category: Unkategorisiert
+:tags: Unkategorisiert
 :slug: twitter-ich-bin-dabei
 :status: published
 

@@ -2,7 +2,7 @@ Biologische Beobachtungen
 #########################
 :date: 2012-01-31 09:15
 :author: admin
-:category: Informatik, Programmierung, Spaß
+:tags: Informatik, Programmierung, Spaß
 :slug: biologische-beobachtungen
 :status: published
 

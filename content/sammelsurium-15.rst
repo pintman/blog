@@ -2,7 +2,7 @@ Sammelsurium - Juli 2015
 ########################
 :date: 2015-08-05 19:23
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: sammelsurium-15
 :status: published
 

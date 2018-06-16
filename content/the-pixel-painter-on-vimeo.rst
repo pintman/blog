@@ -2,7 +2,7 @@ The Pixel Painter
 #################
 :date: 2013-07-25 09:31
 :author: marco.bakera
-:category: Kunst, Video
+:tags: Kunst, Video
 :slug: the-pixel-painter-on-vimeo
 :status: published
 

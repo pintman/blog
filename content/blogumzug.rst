@@ -2,7 +2,7 @@ Blogumzug
 #########
 :date: 2013-05-24 14:43
 :author: marco.bakera
-:category: Tipp
+:tags: Tipp
 :slug: blogumzug
 :status: published
 

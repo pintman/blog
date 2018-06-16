@@ -2,7 +2,7 @@ Softwareentwicklung mit GNUstep
 ###############################
 :date: 2013-12-07 13:25
 :author: marco.bakera
-:category: Linux, Programmierung, Video
+:tags: Linux, Programmierung, Video
 :slug: softwareentwicklung-mit-gnustep
 :status: published
 

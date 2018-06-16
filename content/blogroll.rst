@@ -2,7 +2,7 @@ Blogroll
 ########
 :date: 2008-02-25 15:47
 :author: admin
-:category: Unkategorisiert
+:tags: Unkategorisiert
 :slug: blogroll
 :status: published
 

@@ -2,7 +2,7 @@ CAV beim Computerclub
 #####################
 :date: 2007-07-09 04:54
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: cav-beim-computerclub
 :status: published
 

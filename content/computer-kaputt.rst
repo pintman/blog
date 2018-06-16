@@ -2,7 +2,7 @@ Computer kaputt
 ###############
 :date: 2007-09-01 14:41
 :author: admin
-:category: Comic, Film, Spaß
+:tags: Comic, Film, Spaß
 :slug: computer-kaputt
 :status: published
 

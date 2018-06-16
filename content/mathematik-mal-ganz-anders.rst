@@ -2,7 +2,7 @@ Mathematik mal ganz anders
 ##########################
 :date: 2011-08-10 09:21
 :author: admin
-:category: Kunst, Mathe, Tipp, Video
+:tags: Kunst, Mathe, Tipp, Video
 :slug: mathematik-mal-ganz-anders
 :status: published
 

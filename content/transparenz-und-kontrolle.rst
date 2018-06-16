@@ -2,7 +2,7 @@
 ###########################
 :date: 2014-05-29 07:50
 :author: marco.bakera
-:category: Audio
+:tags: Audio
 :slug: transparenz-und-kontrolle
 :status: published
 

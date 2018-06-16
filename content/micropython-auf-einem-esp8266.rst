@@ -2,7 +2,7 @@ Micropython auf einem ESP8266
 #############################
 :date: 2016-08-25 15:44
 :author: marco.bakera
-:category: Hardware, Informatik, Programmierung, Python
+:tags: Hardware, Informatik, Programmierung, Python
 :tags: ESP8266, Python
 :slug: micropython-auf-einem-esp8266
 :status: published

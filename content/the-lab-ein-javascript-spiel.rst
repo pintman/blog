@@ -2,7 +2,7 @@ The Lab - Ein Javascript Spiel
 ##############################
 :date: 2013-10-23 11:14
 :author: marco.bakera
-:category: Bildung, JavaScript, Programmierung, Video
+:tags: Bildung, JavaScript, Programmierung, Video
 :slug: the-lab-ein-javascript-spiel
 :status: published
 

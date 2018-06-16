@@ -2,7 +2,7 @@ Paul Graham über Neuigkeiten
 ############################
 :date: 2008-03-05 16:49
 :author: admin
-:category: Informatik, Wissenschaft
+:tags: Informatik, Wissenschaft
 :slug: paul-graham-uber-neuigkeiten
 :status: published
 

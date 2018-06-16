@@ -2,7 +2,7 @@ ICFP programming contest
 ########################
 :date: 2007-06-27 05:59
 :author: admin
-:category: Informatik, Programmierung
+:tags: Informatik, Programmierung
 :slug: icfp-programming-contest
 :status: published
 

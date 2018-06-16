@@ -2,7 +2,7 @@ Programmierwettbewerb: Welche Straße in Toronto liefert die höchsten Strafgeb�
 ####################################################################################################
 :date: 2013-11-24 10:37
 :author: marco.bakera
-:category: Datenbank, Programmierung
+:tags: Datenbank, Programmierung
 :slug: programmierwettbewerb-welche-strasse-in-toronto-liefert-die-hoechsten-strafgebuehren-fuer-falschparker
 :status: published
 

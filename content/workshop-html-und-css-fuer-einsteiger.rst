@@ -2,7 +2,7 @@ Workshop: HTML und CSS für Einsteiger
 #####################################
 :date: 2014-03-02 10:26
 :author: marco.bakera
-:category: Termin, Tipp
+:tags: Termin, Tipp
 :slug: workshop-html-und-css-fuer-einsteiger
 :status: published
 

@@ -2,7 +2,7 @@ Filme, Filme, Filme
 ###################
 :date: 2007-11-03 16:17
 :author: admin
-:category: Film, Kunst, Spaß
+:tags: Film, Kunst, Spaß
 :slug: filme-filme-filme
 :status: published
 

@@ -2,7 +2,7 @@ Der alltägliche Wahnsinn in einer Web 2.0 Firma
 ###############################################
 :date: 2010-08-12 22:20
 :author: admin
-:category: Spaß, Video
+:tags: Spaß, Video
 :slug: der-alltagliche-wahnsinn-in-einer-web-2-0-firma
 :status: published
 

@@ -2,7 +2,7 @@ Dortmunder UB mit Suchplugin durchsuchbar
 #########################################
 :date: 2008-08-09 11:25
 :author: admin
-:category: Wissenschaft
+:tags: Wissenschaft
 :slug: dortmunder-ub-mit-suchplugin-durchsuchbar
 :status: published
 

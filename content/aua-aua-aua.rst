@@ -2,7 +2,7 @@ Aua, Aua, Aua
 #############
 :date: 2005-09-04 17:33
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: aua-aua-aua
 :status: published
 

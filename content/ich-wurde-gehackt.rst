@@ -2,7 +2,7 @@ Ich wurde gehackt
 #################
 :date: 2014-06-17 19:34
 :author: marco.bakera
-:category: Tipp
+:tags: Tipp
 :slug: ich-wurde-gehackt
 :status: published
 

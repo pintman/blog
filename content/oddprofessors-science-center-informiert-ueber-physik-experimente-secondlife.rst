@@ -2,7 +2,7 @@ Oddprofessors Science Center informiert über Physik-Experimente
 ###############################################################
 :date: 2013-11-09 19:35
 :author: marco.bakera
-:category: Second Life
+:tags: Second Life
 :slug: oddprofessors-science-center-informiert-ueber-physik-experimente-secondlife
 :status: published
 

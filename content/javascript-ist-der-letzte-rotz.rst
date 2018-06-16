@@ -2,7 +2,7 @@ Javascript ist der letzte Rotz...
 #################################
 :date: 2008-02-24 10:13
 :author: admin
-:category: Informatik, Programmierung
+:tags: Informatik, Programmierung
 :slug: javascript-ist-der-letzte-rotz
 :status: published
 

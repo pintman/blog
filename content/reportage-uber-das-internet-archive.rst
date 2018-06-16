@@ -2,7 +2,7 @@ Reportage über das Internet Archive
 ###################################
 :date: 2013-05-27 12:00
 :author: marco.bakera
-:category: Bildung, Tipp, Video
+:tags: Bildung, Tipp, Video
 :slug: reportage-uber-das-internet-archive
 :status: published
 

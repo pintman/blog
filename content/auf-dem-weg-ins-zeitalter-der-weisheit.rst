@@ -2,7 +2,7 @@ Auf dem Weg ins Zeitalter der Weisheit
 ######################################
 :date: 2015-02-15 17:28
 :author: marco.bakera
-:category: Bildung, Tipp, Video
+:tags: Bildung, Tipp, Video
 :slug: auf-dem-weg-ins-zeitalter-der-weisheit
 :status: published
 

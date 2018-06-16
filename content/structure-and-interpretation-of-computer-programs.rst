@@ -2,7 +2,7 @@ Structure and Interpretation of Computer Programs
 #################################################
 :date: 2006-01-06 08:24
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: structure-and-interpretation-of-computer-programs
 :status: published
 

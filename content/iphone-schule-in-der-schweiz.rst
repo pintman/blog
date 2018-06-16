@@ -2,7 +2,7 @@ IPhone-Schule in der Schweiz
 ############################
 :date: 2011-06-22 16:27
 :author: admin
-:category: Bildung, Video
+:tags: Bildung, Video
 :slug: iphone-schule-in-der-schweiz
 :status: published
 

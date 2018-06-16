@@ -2,7 +2,7 @@ Die Geburt der Menschheit
 #########################
 :date: 2003-12-31 23:00
 :author: admin
-:category: Geschichten
+:tags: Geschichten
 :slug: die-geburt-der-menschheit
 :status: published
 

@@ -2,7 +2,7 @@ Rückblick: Das war der März
 ###########################
 :date: 2014-03-31 13:34
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: rueckblick-das-war-der-maerz
 :status: published
 

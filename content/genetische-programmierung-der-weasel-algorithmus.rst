@@ -2,7 +2,7 @@ Genetische Programmierung: Der Weasel-Algorithmus
 #################################################
 :date: 2013-05-31 14:00
 :author: marco.bakera
-:category: Bildung, Programmierung, Video
+:tags: Bildung, Programmierung, Video
 :slug: genetische-programmierung-der-weasel-algorithmus
 :status: published
 

@@ -2,7 +2,7 @@ Die eigene Suchmaschine: YaCy
 #############################
 :date: 2014-02-09 17:38
 :author: marco.bakera
-:category: Informatik, Tipp
+:tags: Informatik, Tipp
 :slug: die-eigene-suchmaschine-yacy
 :status: published
 

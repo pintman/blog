@@ -2,7 +2,7 @@ Toby wird gegessen »
 ####################
 :date: 2005-02-22 21:41
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: toby-wird-gegessen
 :status: published
 

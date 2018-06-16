@@ -2,7 +2,7 @@ Eine emotionale Datenreise durch die SMS vom 11. September 2001
 ###############################################################
 :date: 2014-03-25 14:19
 :author: marco.bakera
-:category: Datenbank
+:tags: Datenbank
 :slug: eine-emotionale-datenreise-durch-die-sms-vom-9-september-2001
 :status: published
 

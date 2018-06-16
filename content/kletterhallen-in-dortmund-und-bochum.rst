@@ -2,7 +2,7 @@ Kletterhallen in Dortmund und Bochum
 ####################################
 :date: 2009-12-23 21:45
 :author: admin
-:category: Spaß, Sport
+:tags: Spaß, Sport
 :slug: kletterhallen-in-dortmund-und-bochum
 :status: published
 

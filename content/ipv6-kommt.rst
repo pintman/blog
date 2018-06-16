@@ -2,7 +2,7 @@ IPv6 kommt
 ##########
 :date: 2011-02-08 09:53
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: ipv6-kommt
 :status: published
 

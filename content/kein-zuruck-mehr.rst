@@ -2,7 +2,7 @@ kein Zurück mehr
 ################
 :date: 2005-01-26 21:23
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: kein-zuruck-mehr
 :status: published
 

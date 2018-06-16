@@ -2,7 +2,7 @@ Stau bei Saturn Hansa
 #####################
 :date: 2005-01-03 22:36
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: stau-bei-saturn-hansa
 :status: published
 

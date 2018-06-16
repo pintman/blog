@@ -2,7 +2,7 @@ db4o für C# und .NET
 ####################
 :date: 2013-11-23 10:31
 :author: marco.bakera
-:category: Informatik, Programmierung
+:tags: Informatik, Programmierung
 :slug: db4o-fuer-c-und-net
 :status: published
 

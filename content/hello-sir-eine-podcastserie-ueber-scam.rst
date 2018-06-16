@@ -2,7 +2,7 @@
 #########################################
 :date: 2017-11-30 10:59
 :author: marco.bakera
-:category: Audio
+:tags: Audio
 :slug: hello-sir-eine-podcastserie-ueber-scam
 :status: published
 

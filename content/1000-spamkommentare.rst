@@ -2,7 +2,7 @@
 ###################
 :date: 2013-06-09 18:30
 :author: marco.bakera
-:category: Spaß
+:tags: Spaß
 :slug: 1000-spamkommentare
 :status: published
 

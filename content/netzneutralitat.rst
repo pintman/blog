@@ -2,7 +2,7 @@ Netzneutralität
 ###############
 :date: 2010-12-17 20:15
 :author: admin
-:category: Video
+:tags: Video
 :slug: netzneutralitat
 :status: published
 

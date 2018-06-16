@@ -2,7 +2,7 @@ Backups unter Windows mit Robocopy
 ##################################
 :date: 2014-07-14 21:11
 :author: marco.bakera
-:category: Tipp
+:tags: Tipp
 :tags: Backup, Robocopy, Windows
 :slug: backups-unter-windows-mit-robocopy
 :status: published

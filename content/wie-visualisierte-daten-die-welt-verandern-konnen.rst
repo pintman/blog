@@ -2,7 +2,7 @@ Wie visualisierte Daten die Welt verändern können
 #################################################
 :date: 2010-10-12 10:13
 :author: admin
-:category: Mathe, Video, Wissenschaft
+:tags: Mathe, Video, Wissenschaft
 :slug: wie-visualisierte-daten-die-welt-verandern-konnen
 :status: published
 

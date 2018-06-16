@@ -2,7 +2,7 @@ Ich nehme den Preis an
 ######################
 :date: 2014-05-29 14:19
 :author: marco.bakera
-:category: Bildung
+:tags: Bildung
 :tags: wiki
 :slug: ich-nehme-den-preis-an
 :status: published

@@ -2,7 +2,7 @@ Neue Medien in der Schule
 #########################
 :date: 2010-07-07 08:24
 :author: admin
-:category: Bildung, Video
+:tags: Bildung, Video
 :slug: neue-medien-in-der-schule
 :status: published
 

@@ -2,7 +2,7 @@ Waffentasche beim Plus
 ######################
 :date: 2005-10-20 06:10
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: waffentasche-beim-plus
 :status: published
 

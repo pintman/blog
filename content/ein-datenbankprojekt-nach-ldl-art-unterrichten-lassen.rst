@@ -2,7 +2,7 @@ Ein Datenbankprojekt nach LdL-Art unterrichten (lassen)
 #######################################################
 :date: 2014-05-26 17:01
 :author: marco.bakera
-:category: Bildung, Datenbank, Informatik, Programmierung
+:tags: Bildung, Datenbank, Informatik, Programmierung
 :tags: ldl, ldlmooc, mooc, video
 :slug: ein-datenbankprojekt-nach-ldl-art-unterrichten-lassen
 :status: published

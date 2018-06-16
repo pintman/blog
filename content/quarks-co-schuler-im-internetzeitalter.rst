@@ -2,7 +2,7 @@ Quarks & Co: Schüler im Internetzeitalter
 #########################################
 :date: 2010-09-05 08:33
 :author: admin
-:category: Bildung, Video, Wissenschaft
+:tags: Bildung, Video, Wissenschaft
 :slug: quarks-co-schuler-im-internetzeitalter
 :status: published
 

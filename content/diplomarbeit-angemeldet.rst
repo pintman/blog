@@ -2,7 +2,7 @@ Diplomarbeit angemeldet
 #######################
 :date: 2006-02-14 18:31
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: diplomarbeit-angemeldet
 :status: published
 

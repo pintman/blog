@@ -2,7 +2,7 @@ Tolle Erweiterungen für Firefox
 ###############################
 :date: 2008-03-07 19:10
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: tolle-erweiterungen-fur-firefox
 :status: published
 

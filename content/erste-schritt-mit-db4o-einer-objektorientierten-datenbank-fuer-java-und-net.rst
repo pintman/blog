@@ -2,7 +2,7 @@ Erste Schritte mit db4o - einer objektorientierten Datenbank für Java und .NET
 ##############################################################################
 :date: 2013-11-20 18:15
 :author: marco.bakera
-:category: Programmierung, Video
+:tags: Programmierung, Video
 :slug: erste-schritt-mit-db4o-einer-objektorientierten-datenbank-fuer-java-und-net
 :status: published
 

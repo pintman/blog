@@ -2,7 +2,7 @@ TV-Tipp: Per Anhalter durch die Galaxis
 #######################################
 :date: 2008-03-14 23:45
 :author: admin
-:category: Spaß, Video
+:tags: Spaß, Video
 :slug: tv-tipp-per-anhalter-durch-die-galaxis
 :status: published
 

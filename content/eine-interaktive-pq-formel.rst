@@ -2,7 +2,7 @@ Eine interaktive pq-Formel
 ##########################
 :date: 2012-10-26 13:00
 :author: admin
-:category: Mathe, Programmierung, Spaß, Spiele
+:tags: Mathe, Programmierung, Spaß, Spiele
 :slug: eine-interaktive-pq-formel
 :status: published
 

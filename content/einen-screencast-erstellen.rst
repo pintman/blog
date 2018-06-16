@@ -2,7 +2,7 @@ Einen Screencast erstellen
 ##########################
 :date: 2012-11-30 14:00
 :author: admin
-:category: Video
+:tags: Video
 :slug: einen-screencast-erstellen
 :status: published
 

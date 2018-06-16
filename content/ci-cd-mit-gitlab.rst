@@ -2,7 +2,7 @@ CI/CD mit Gitlab
 ################
 :date: 2018-03-23 18:08
 :author: marco.bakera
-:category: Informatik, Programmierung, Python
+:tags: Informatik, Programmierung, Python
 :slug: ci-cd-mit-gitlab
 :status: published
 

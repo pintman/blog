@@ -2,7 +2,7 @@ Neue technische Spielereien, die das Herz erfreuen
 ##################################################
 :date: 2004-09-01 07:42
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: neue-technische-spielereien-die-das-herz-erfreuen
 :status: published
 

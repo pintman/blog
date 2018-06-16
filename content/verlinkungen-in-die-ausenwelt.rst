@@ -2,7 +2,7 @@ Verlinkungen in die Außenwelt
 #############################
 :date: 2004-01-01 00:00
 :author: admin
-:category: Unkategorisiert
+:tags: Unkategorisiert
 :slug: verlinkungen-in-die-ausenwelt
 :status: published
 

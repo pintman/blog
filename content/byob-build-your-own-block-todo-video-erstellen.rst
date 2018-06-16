@@ -2,7 +2,7 @@ BYOB - Build Your Own Block - TODO Video erstellen
 ##################################################
 :date: 2012-12-07 07:30
 :author: admin
-:category: Programmierung, Video
+:tags: Programmierung, Video
 :slug: byob-build-your-own-block-todo-video-erstellen
 :status: published
 

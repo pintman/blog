@@ -2,7 +2,7 @@ Robocup WM 2006
 ###############
 :date: 2006-06-17 07:21
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: robocup-wm-2006
 :status: published
 

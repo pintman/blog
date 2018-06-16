@@ -2,7 +2,7 @@ Sammelsurium Oktober - November 2017
 ####################################
 :date: 2017-12-02 14:13
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: sammelsurium-oktober-november-2017
 :status: published
 

@@ -2,7 +2,7 @@ Tiefe Abgründe auf Postkarten
 #############################
 :date: 2005-06-25 13:42
 :author: admin
-:category: Kunst, Spaß
+:tags: Kunst, Spaß
 :slug: tiefe-abgrunde-auf-postkarten
 :status: published
 

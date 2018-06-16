@@ -2,7 +2,7 @@ Linux Terminal Server Projekt (LTSP) - Schwache Rechner hängen an einem starken
 ######################################################################################
 :date: 2013-12-18 18:07
 :author: marco.bakera
-:category: Informatik, Linux, Video
+:tags: Informatik, Linux, Video
 :slug: linux-terminal-server-projekt-ltsp-schwache-rechner-haengen-an-einem-starken-server
 :status: published
 

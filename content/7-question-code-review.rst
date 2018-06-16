@@ -2,7 +2,7 @@
 ######################
 :date: 2008-03-01 16:12
 :author: admin
-:category: Informatik, Programmierung, Wissenschaft
+:tags: Informatik, Programmierung, Wissenschaft
 :slug: 7-question-code-review
 :status: published
 

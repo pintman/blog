@@ -2,7 +2,7 @@
 ########################
 :date: 2005-05-22 15:26
 :author: admin
-:category: Audio
+:tags: Audio
 :slug: podcast-7-die-stumpfe
 :status: published
 

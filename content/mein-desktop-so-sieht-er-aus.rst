@@ -2,7 +2,7 @@ Mein Desktop - So sieht er aus
 ##############################
 :date: 2014-04-05 10:51
 :author: marco.bakera
-:category: Linux
+:tags: Linux
 :slug: mein-desktop-so-sieht-er-aus
 :status: published
 

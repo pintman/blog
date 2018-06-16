@@ -2,7 +2,7 @@ Eclipse? NetBeans?
 ##################
 :date: 2008-03-24 12:00
 :author: admin
-:category: Programmierung
+:tags: Programmierung
 :slug: eclipse-netbeans
 :status: published
 

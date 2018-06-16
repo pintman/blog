@@ -2,7 +2,7 @@ Christentum vs. Islam
 #####################
 :date: 2005-01-04 21:55
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: christentum-vs-islam
 :status: published
 

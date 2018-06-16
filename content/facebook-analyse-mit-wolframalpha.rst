@@ -2,7 +2,7 @@ Facebook Analyse mit Wolfram|Alpha
 ##################################
 :date: 2013-05-29 16:06
 :author: marco.bakera
-:category: Tools
+:tags: Tools
 :slug: facebook-analyse-mit-wolframalpha
 :status: published
 

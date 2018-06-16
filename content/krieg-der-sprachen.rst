@@ -2,7 +2,7 @@ Krieg der Sprachen
 ##################
 :date: 2006-06-18 07:03
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: krieg-der-sprachen
 :status: published
 

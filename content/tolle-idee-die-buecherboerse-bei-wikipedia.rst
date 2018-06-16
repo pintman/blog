@@ -2,7 +2,7 @@ Tolle Idee: Die Bücherbörse bei Wikipedia
 #########################################
 :date: 2013-11-23 10:19
 :author: marco.bakera
-:category: Bildung, Tipp
+:tags: Bildung, Tipp
 :slug: tolle-idee-die-buecherboerse-bei-wikipedia
 :status: published
 

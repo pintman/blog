@@ -2,7 +2,7 @@ Aufmarsch gegen Rechts
 ######################
 :date: 2005-04-01 14:36
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: aufmarsch-gegen-rechts
 :status: published
 

@@ -2,7 +2,7 @@ Laptop selbstgebaut
 ###################
 :date: 2018-01-14 12:37
 :author: marco.bakera
-:category: Hardware
+:tags: Hardware
 :tags: 34c3, RasbperryPi
 :slug: laptop-selbstgebaut
 :status: published

@@ -2,7 +2,7 @@ Dokumentation über Minecraft
 ############################
 :date: 2013-11-17 11:57
 :author: marco.bakera
-:category: Bildung, Film, Informatik, Spiele, Video
+:tags: Bildung, Film, Informatik, Spiele, Video
 :slug: dokumentation-zu-minecraft
 :status: published
 

@@ -2,7 +2,7 @@ C# in 10 Minuten
 ################
 :date: 2015-05-13 11:15
 :author: marco.bakera
-:category: Programmierung
+:tags: Programmierung
 :tags: c#
 :slug: c-in-10-minuten
 :status: published

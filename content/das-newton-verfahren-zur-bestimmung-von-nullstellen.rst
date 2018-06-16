@@ -2,7 +2,7 @@ Das Newton-Verfahren zur Bestimmung von Nullstellen
 ###################################################
 :date: 2014-06-18 17:08
 :author: marco.bakera
-:category: Mathe, Programmierung
+:tags: Mathe, Programmierung
 :tags: Nullstellen, Python
 :slug: das-newton-verfahren-zur-bestimmung-von-nullstellen
 :status: published

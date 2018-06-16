@@ -2,7 +2,7 @@ Zoom in eine Mandelbrotmenge
 ############################
 :date: 2010-08-21 13:08
 :author: admin
-:category: Kunst, Mathe, Video
+:tags: Kunst, Mathe, Video
 :slug: zoom-in-eine-mandelbrotmenge
 :status: published
 

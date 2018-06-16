@@ -2,7 +2,7 @@ QR-Codes generieren
 ###################
 :date: 2013-06-30 10:34
 :author: marco.bakera
-:category: Tipp
+:tags: Tipp
 :slug: qr-codes-generieren
 :status: published
 

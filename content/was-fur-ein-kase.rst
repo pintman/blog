@@ -2,7 +2,7 @@ Was für ein Käse
 ################
 :date: 2006-04-29 08:18
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: was-fur-ein-kase
 :status: published
 

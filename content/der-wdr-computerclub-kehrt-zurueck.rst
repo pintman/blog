@@ -2,7 +2,7 @@ Der WDR-Computerclub kehrt zurueck
 ##################################
 :date: 2006-08-14 19:53
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: der-wdr-computerclub-kehrt-zurueck
 :status: published
 

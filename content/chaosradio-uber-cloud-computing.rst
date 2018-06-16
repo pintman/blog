@@ -2,7 +2,7 @@ Chaosradio über Cloud Computing
 ###############################
 :date: 2011-08-08 14:03
 :author: admin
-:category: Audio, Informatik
+:tags: Audio, Informatik
 :slug: chaosradio-uber-cloud-computing
 :status: published
 

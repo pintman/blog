@@ -2,7 +2,7 @@ Wie produziert man heute ein C64-Spiel?
 #######################################
 :date: 2017-11-30 21:12
 :author: marco.bakera
-:category: Programmierung, Spiele, Tipp, Video
+:tags: Programmierung, Spiele, Tipp, Video
 :slug: wie-produziert-man-heute-ein-c64-spiel
 :status: published
 

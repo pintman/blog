@@ -2,7 +2,7 @@ Marco
 #####
 :date: 2005-01-07 12:31
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: marco
 :status: published
 

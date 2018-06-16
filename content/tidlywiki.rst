@@ -2,7 +2,7 @@ TidlyWiki
 #########
 :date: 2006-04-28 06:32
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: tidlywiki
 :status: published
 

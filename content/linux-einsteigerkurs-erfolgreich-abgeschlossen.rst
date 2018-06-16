@@ -2,7 +2,7 @@ Linux Einsteigerkurs erfolgreich abgeschlossen
 ##############################################
 :date: 2014-08-15 21:09
 :author: marco.bakera
-:category: Bildung, Informatik, Linux
+:tags: Bildung, Informatik, Linux
 :slug: linux-einsteigerkurs-erfolgreich-abgeschlossen
 :status: published
 

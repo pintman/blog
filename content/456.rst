@@ -2,7 +2,7 @@ How eating chocolate can help improve your maths
 ################################################
 :date: 2013-07-29 11:00
 :author: marco.bakera
-:category: Bildung, Mathe
+:tags: Bildung, Mathe
 :slug: 456
 :status: published
 

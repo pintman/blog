@@ -2,7 +2,7 @@ Clonezilla - Image verteilen (3/3)
 ##################################
 :date: 2014-09-20 12:00
 :author: marco.bakera
-:category: Bildung, Linux, Video
+:tags: Bildung, Linux, Video
 :tags: Clonezilla
 :slug: clonezilla-image-verteilen-33
 :status: published

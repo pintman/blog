@@ -2,7 +2,7 @@
 ##############
 :date: 2017-12-24 14:10
 :author: marco.bakera
-:category: Informatik, Kunst, Programmierung, Spaß
+:tags: Informatik, Kunst, Programmierung, Spaß
 :tags: 34c3
 :slug: 34c3-packliste
 :status: published

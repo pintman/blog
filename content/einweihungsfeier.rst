@@ -2,7 +2,7 @@ Einweihungsfeier
 ################
 :date: 2005-04-06 16:49
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: einweihungsfeier
 :status: published
 

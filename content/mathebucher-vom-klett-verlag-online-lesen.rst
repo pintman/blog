@@ -2,7 +2,7 @@ Mathebücher vom Klett Verlag online lesen
 #########################################
 :date: 2011-05-20 22:33
 :author: admin
-:category: Bildung, Mathe, Tipp
+:tags: Bildung, Mathe, Tipp
 :slug: mathebucher-vom-klett-verlag-online-lesen
 :status: published
 

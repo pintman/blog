@@ -2,7 +2,7 @@ Clonezilla - Installation und Start (1/3)
 #########################################
 :date: 2014-09-15 17:32
 :author: marco.bakera
-:category: Bildung, Linux, Video
+:tags: Bildung, Linux, Video
 :tags: Clonezilla
 :slug: clonezilla-installation-und-start-13
 :status: published

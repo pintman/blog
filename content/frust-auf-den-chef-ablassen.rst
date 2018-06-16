@@ -2,7 +2,7 @@ Frust auf den Chef ablassen
 ###########################
 :date: 2005-09-06 09:52
 :author: admin
-:category: Film, Spaß
+:tags: Film, Spaß
 :slug: frust-auf-den-chef-ablassen
 :status: published
 

@@ -2,7 +2,7 @@ Am 9.9. um 15 Uhr: Einführung in Drupal
 #######################################
 :date: 2010-09-04 09:07
 :author: admin
-:category: Termin
+:tags: Termin
 :slug: am-9-9-um-15-uhr-einfuhrung-in-drupal
 :status: published
 

@@ -2,7 +2,7 @@ Animationen auf dem HP 35s
 ##########################
 :date: 2014-06-20 12:49
 :author: marco.bakera
-:category: Mathe, Programmierung, Video
+:tags: Mathe, Programmierung, Video
 :tags: HP35s, Taschenrechner
 :slug: animationen-auf-dem-hp35s
 :status: published

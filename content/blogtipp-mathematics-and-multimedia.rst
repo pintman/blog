@@ -2,7 +2,7 @@ Blogtipp: Mathematics and Multimedia
 ####################################
 :date: 2010-07-11 10:00
 :author: admin
-:category: Mathe
+:tags: Mathe
 :slug: blogtipp-mathematics-and-multimedia
 :status: published
 

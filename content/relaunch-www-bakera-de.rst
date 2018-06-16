@@ -2,7 +2,7 @@ Relaunch: www.bakera.de
 #######################
 :date: 2010-09-02 17:43
 :author: admin
-:category: Tipp
+:tags: Tipp
 :slug: relaunch-www-bakera-de
 :status: published
 

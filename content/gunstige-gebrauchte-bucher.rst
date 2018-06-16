@@ -2,7 +2,7 @@ Günstige gebrauchte Bücher
 ##########################
 :date: 2008-04-10 20:16
 :author: admin
-:category: Wissenschaft
+:tags: Wissenschaft
 :slug: gunstige-gebrauchte-bucher
 :status: published
 

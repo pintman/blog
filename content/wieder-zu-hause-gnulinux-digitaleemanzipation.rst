@@ -2,7 +2,7 @@ Wieder zu Hause: GNU/Linux
 ##########################
 :date: 2014-01-18 15:16
 :author: marco.bakera
-:category: Linux, Tipp
+:tags: Linux, Tipp
 :tags: GNU, Linux, OpenSUSE, SUSE, Windows
 :slug: wieder-zu-hause-gnulinux-digitaleemanzipation
 :status: published

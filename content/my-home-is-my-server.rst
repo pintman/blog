@@ -2,7 +2,7 @@ My Home Is My Server
 ####################
 :date: 2014-10-16 09:30
 :author: marco.bakera
-:category: Informatik, Linux
+:tags: Informatik, Linux
 :tags: Cubietruck
 :slug: my-home-is-my-server
 :status: published

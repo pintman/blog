@@ -2,7 +2,7 @@ Comic Book Heaven
 #################
 :date: 2014-09-26 23:02
 :author: marco.bakera
-:category: Comic, Film
+:tags: Comic, Film
 :slug: comic-book-heaven
 :status: published
 

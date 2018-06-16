@@ -2,7 +2,7 @@ Alles in einem
 ##############
 :date: 2008-08-03 10:33
 :author: admin
-:category: Informatik, Spaß
+:tags: Informatik, Spaß
 :slug: alles-in-einem
 :status: published
 

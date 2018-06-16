@@ -2,7 +2,7 @@ Wissenswertes zu Tapeten
 ########################
 :date: 2005-01-19 19:15
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: wissenswertes-zu-tapeten
 :status: published
 

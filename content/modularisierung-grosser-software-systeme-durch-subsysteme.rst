@@ -2,7 +2,7 @@ Modularisierung großer Software-Systeme durch Subsysteme
 ########################################################
 :date: 2014-06-08 15:06
 :author: marco.bakera
-:category: Audio, Informatik
+:tags: Audio, Informatik
 :tags: heise, Podcast
 :slug: modularisierung-grosser-software-systeme-durch-subsysteme
 :status: published

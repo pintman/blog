@@ -2,7 +2,7 @@ Sammelsurium Januar-März 2017
 #############################
 :date: 2017-04-13 16:47
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: sammelsurium-januar-maerz-2017
 :status: published
 

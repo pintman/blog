@@ -2,7 +2,7 @@ Kettenvideos »
 ##############
 :date: 2005-01-17 22:24
 :author: admin
-:category: Film, Kunst
+:tags: Film, Kunst
 :slug: kettenvideos
 :status: published
 

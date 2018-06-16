@@ -2,7 +2,7 @@ Auf in den Tag
 ##############
 :date: 2004-08-23 19:33
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: auf-in-den-tag
 :status: published
 

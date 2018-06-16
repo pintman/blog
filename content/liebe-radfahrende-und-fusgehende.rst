@@ -2,7 +2,7 @@ Liebe Radfahrende und Fußgehende
 ################################
 :date: 2013-06-22 15:53
 :author: marco.bakera
-:category: Text
+:tags: Text
 :slug: liebe-radfahrende-und-fusgehende
 :status: published
 

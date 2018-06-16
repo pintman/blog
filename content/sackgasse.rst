@@ -2,7 +2,7 @@ Sackgasse
 #########
 :date: 2013-06-16 17:12
 :author: marco.bakera
-:category: Spaß
+:tags: Spaß
 :slug: sackgasse
 :status: published
 

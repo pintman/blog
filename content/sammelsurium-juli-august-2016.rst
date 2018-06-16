@@ -2,7 +2,7 @@ Sammelsurium - Juli, August 2016
 ################################
 :date: 2016-09-03 12:37
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: sammelsurium-juli-august-2016
 :status: published
 

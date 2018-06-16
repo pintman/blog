@@ -2,7 +2,7 @@ Sammelsuirum (4)
 ################
 :date: 2014-11-07 12:31
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: sammelsuirum-4
 :status: published
 

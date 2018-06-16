@@ -2,7 +2,7 @@ Die If-Schleife
 ###############
 :date: 2005-06-29 06:14
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: die-if-schleife
 :status: published
 

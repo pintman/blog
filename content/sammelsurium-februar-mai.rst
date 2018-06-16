@@ -2,7 +2,7 @@ Sammelsurium Februar – Mai
 ##########################
 :date: 2018-06-03 13:26
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: sammelsurium-februar-mai
 :status: published
 

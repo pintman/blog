@@ -2,7 +2,7 @@ Wikileaks
 #########
 :date: 2010-07-22 15:00
 :author: admin
-:category: Audio, Bildung, Tipp, Video
+:tags: Audio, Bildung, Tipp, Video
 :slug: wikileaks
 :status: published
 

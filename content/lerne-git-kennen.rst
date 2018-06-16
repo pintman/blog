@@ -2,7 +2,7 @@ Lerne git kennen
 ################
 :date: 2013-06-01 09:01
 :author: marco.bakera
-:category: Programmierung, Tipp, Tools
+:tags: Programmierung, Tipp, Tools
 :slug: lerne-git-kennen
 :status: published
 

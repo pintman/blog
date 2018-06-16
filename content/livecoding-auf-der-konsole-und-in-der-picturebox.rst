@@ -2,7 +2,7 @@ LiveCoding auf der Konsole und in der PictureBox
 ################################################
 :date: 2013-05-21 17:41
 :author: marco.bakera
-:category: Bildung, Programmierung, Video
+:tags: Bildung, Programmierung, Video
 :slug: livecoding-auf-der-konsole-und-in-der-picturebox
 :status: published
 

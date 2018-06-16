@@ -2,7 +2,7 @@ Das Barcamp-Ruhr in der 10. Runde
 #################################
 :date: 2017-04-20 12:26
 :author: marco.bakera
-:category: Bildung
+:tags: Bildung
 :slug: das-barcamp-ruhr-in-der-10-runde
 :status: published
 

@@ -2,7 +2,7 @@ ledger: Doppelte Buchführung mit der Kommandozeile
 ##################################################
 :date: 2017-04-12 09:11
 :author: marco.bakera
-:category: Bildung, Video
+:tags: Bildung, Video
 :slug: ledger-doppelte-buchfuehrung-mit-der-kommandozeile
 :status: published
 

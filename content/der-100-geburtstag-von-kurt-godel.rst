@@ -2,7 +2,7 @@ Der 100. Geburtstag von Kurt Gödel
 ##################################
 :date: 2006-05-02 06:10
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: der-100-geburtstag-von-kurt-godel
 :status: published
 

@@ -2,7 +2,7 @@ Nightwatch ist als DVD eingetroffen
 ###################################
 :date: 2005-01-03 00:29
 :author: admin
-:category: Film
+:tags: Film
 :slug: nightwatch-ist-als-dvd-eingetroffen
 :status: published
 

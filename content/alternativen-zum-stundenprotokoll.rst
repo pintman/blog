@@ -2,7 +2,7 @@ Alternativen zum Stundenprotokoll
 #################################
 :date: 2015-05-10 13:55
 :author: marco.bakera
-:category: Bildung
+:tags: Bildung
 :slug: alternativen-zum-stundenprotokoll
 :status: published
 

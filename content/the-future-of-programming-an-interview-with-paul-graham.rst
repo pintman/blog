@@ -2,7 +2,7 @@ The Future of Programming: An Interview with Paul Graham
 ########################################################
 :date: 2006-04-26 15:21
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: the-future-of-programming-an-interview-with-paul-graham
 :status: published
 

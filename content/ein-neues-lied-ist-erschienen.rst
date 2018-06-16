@@ -2,7 +2,7 @@ Ein neues Lied ist erschienen
 #############################
 :date: 2005-05-14 17:17
 :author: admin
-:category: Audio
+:tags: Audio
 :slug: ein-neues-lied-ist-erschienen
 :status: published
 

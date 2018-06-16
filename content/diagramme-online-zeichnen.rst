@@ -2,7 +2,7 @@ Diagramme online zeichnen
 #########################
 :date: 2013-06-01 09:08
 :author: marco.bakera
-:category: Programmierung, Tipp, Tools
+:tags: Programmierung, Tipp, Tools
 :slug: diagramme-online-zeichnen
 :status: published
 

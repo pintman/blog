@@ -2,7 +2,7 @@ Passionierte und Professionelle Computerspieler
 ###############################################
 :date: 2010-08-15 11:00
 :author: admin
-:category: Kunst, Spaß, Sport, Video
+:tags: Kunst, Spaß, Sport, Video
 :slug: passionierte-und-professionelle-computerspieler
 :status: published
 

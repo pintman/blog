@@ -2,7 +2,7 @@ Rechnen mit dem Soroban
 #######################
 :date: 2014-06-27 13:03
 :author: marco.bakera
-:category: Mathe, Video
+:tags: Mathe, Video
 :tags: Abakus, Taschenrechner
 :slug: rechnen-mit-dem-soroban
 :status: published

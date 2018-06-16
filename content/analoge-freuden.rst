@@ -2,7 +2,7 @@ Analoge Freuden
 ###############
 :date: 2005-01-05 17:22
 :author: admin
-:category: Unkategorisiert
+:tags: Unkategorisiert
 :slug: analoge-freuden
 :status: published
 

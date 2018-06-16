@@ -2,7 +2,7 @@ MIT und Harvard Universität bieten kostenlosen Linux-Kurs an
 ############################################################
 :date: 2014-03-08 11:23
 :author: marco.bakera
-:category: Bildung, Linux
+:tags: Bildung, Linux
 :slug: mit-und-harvard-universitaet-bieten-kostenlosen-linux-kurs-an
 :status: published
 

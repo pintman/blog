@@ -2,7 +2,7 @@ Python > Java ?
 ###############
 :date: 2008-03-16 08:27
 :author: admin
-:category: Film, Programmierung
+:tags: Film, Programmierung
 :slug: python-java
 :status: published
 

@@ -2,7 +2,7 @@ Lehrer aus Leidenschaft
 #######################
 :date: 2010-07-06 14:27
 :author: admin
-:category: Video
+:tags: Video
 :slug: lehrer-aus-leidenschaft
 :status: published
 

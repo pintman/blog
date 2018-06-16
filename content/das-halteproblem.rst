@@ -2,7 +2,7 @@ Das Halteproblem
 ################
 :date: 2006-02-11 11:59
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: das-halteproblem
 :status: published
 

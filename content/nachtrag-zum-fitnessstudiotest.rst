@@ -2,7 +2,7 @@ Nachtrag zum Fitnessstudiotest
 ##############################
 :date: 2005-06-04 09:52
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: nachtrag-zum-fitnessstudiotest
 :status: published
 

@@ -2,7 +2,7 @@ Eingabeaufforderung aus dem Explorer starten
 #############################################
 :date: 2014-07-03 13:59
 :author: marco.bakera
-:category: Video
+:tags: Video
 :slug: eingabeaufforderung-aus-dem-explorer-starten
 :status: published
 

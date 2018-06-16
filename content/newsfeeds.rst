@@ -2,7 +2,7 @@ Newsfeeds
 #########
 :date: 2007-02-22 06:24
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: newsfeeds
 :status: published
 

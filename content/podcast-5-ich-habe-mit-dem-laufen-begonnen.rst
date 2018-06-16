@@ -2,7 +2,7 @@
 #############################################
 :date: 2005-05-06 07:49
 :author: admin
-:category: Audio
+:tags: Audio
 :slug: podcast-5-ich-habe-mit-dem-laufen-begonnen
 :status: published
 

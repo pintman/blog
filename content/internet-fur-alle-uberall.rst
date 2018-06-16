@@ -2,7 +2,7 @@ Internet für alle – überall
 ###########################
 :date: 2006-07-10 06:43
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: internet-fur-alle-uberall
 :status: published
 

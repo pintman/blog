@@ -2,7 +2,7 @@ Patches das Pferd »
 ###################
 :date: 2005-01-27 20:45
 :author: admin
-:category: Film, Spaß
+:tags: Film, Spaß
 :slug: patches-das-pferd
 :status: published
 

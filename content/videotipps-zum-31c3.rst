@@ -2,7 +2,7 @@ Videotipps zum 31C3
 ###################
 :date: 2015-01-16 22:00
 :author: marco.bakera
-:category: Linkliste, Video
+:tags: Linkliste, Video
 :tags: CCC
 :slug: videotipps-zum-31c3
 :status: published

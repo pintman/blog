@@ -2,7 +2,7 @@ Norbert Bakera und der Fußball »
 ################################
 :date: 2005-01-06 21:00
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: norbert-bakera-und-der-fusball
 :status: published
 

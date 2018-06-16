@@ -2,7 +2,7 @@ Facebook, bitte sage mir, was du über mich weißt (Teil 2)
 #########################################################
 :date: 2014-03-02 10:57
 :author: marco.bakera
-:category: Informatik
+:tags: Informatik
 :slug: facebook-bitte-sage-mir-was-du-ueber-mich-weisst-teil-2
 :status: published
 

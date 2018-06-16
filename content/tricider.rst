@@ -2,7 +2,7 @@ Tricider
 ########
 :date: 2011-06-18 07:47
 :author: admin
-:category: Bildung, Tipp, Tools
+:tags: Bildung, Tipp, Tools
 :slug: tricider
 :status: published
 

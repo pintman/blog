@@ -2,7 +2,7 @@ Wie kann man erfolgreich einen Artikel in einer Fachzeitschrift platzieren
 ##########################################################################
 :date: 2008-08-12 17:03
 :author: admin
-:category: Informatik, Wissenschaft
+:tags: Informatik, Wissenschaft
 :slug: wie-kann-man-erfolgreich-einen-artikel-in-einer-fachzeitschrift-platzieren
 :status: published
 

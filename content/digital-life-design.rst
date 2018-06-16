@@ -2,7 +2,7 @@ Digital Life Design
 ###################
 :date: 2008-03-13 15:32
 :author: admin
-:category: Spaß, Wissenschaft
+:tags: Spaß, Wissenschaft
 :slug: digital-life-design
 :status: published
 

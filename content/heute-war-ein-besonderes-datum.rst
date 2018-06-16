@@ -2,7 +2,7 @@ Heute war ein besonderes Datum
 ##############################
 :date: 2006-05-03 23:02
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: heute-war-ein-besonderes-datum
 :status: published
 

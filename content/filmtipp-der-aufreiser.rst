@@ -2,7 +2,7 @@ Filmtipp: Der Aufreißer
 #######################
 :date: 2011-05-26 06:14
 :author: admin
-:category: Tipp, Video
+:tags: Tipp, Video
 :slug: filmtipp-der-aufreiser
 :status: published
 

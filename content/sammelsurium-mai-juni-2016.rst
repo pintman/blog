@@ -2,7 +2,7 @@ Sammelsurium - Mai, Juni 2016
 #############################
 :date: 2016-07-19 10:27
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: sammelsurium-mai-juni-2016
 :status: published
 

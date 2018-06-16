@@ -2,7 +2,7 @@ Kinder können keine Computer bedienen
 #####################################
 :date: 2013-08-11 22:07
 :author: marco.bakera
-:category: Bildung
+:tags: Bildung
 :slug: kinder-konnen-keine-computer-bedienen
 :status: published
 

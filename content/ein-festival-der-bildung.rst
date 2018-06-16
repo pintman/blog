@@ -2,7 +2,7 @@ Ein Festival der Bildung
 ########################
 :date: 2011-06-17 15:17
 :author: admin
-:category: Bildung
+:tags: Bildung
 :slug: ein-festival-der-bildung
 :status: published
 

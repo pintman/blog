@@ -2,7 +2,7 @@ Durchfall
 #########
 :date: 2005-01-07 11:30
 :author: admin
-:category: Kunst
+:tags: Kunst
 :slug: durchfall
 :status: published
 

@@ -2,7 +2,7 @@ Nippes
 ######
 :date: 2004-09-03 05:35
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: nippes
 :status: published
 

@@ -2,7 +2,7 @@ Arbeitsblatt zum Thema Vererbung
 ################################
 :date: 2012-02-04 15:12
 :author: admin
-:category: Programmierung
+:tags: Programmierung
 :slug: arbeitsblatt-zum-thema-vererbung
 :status: published
 

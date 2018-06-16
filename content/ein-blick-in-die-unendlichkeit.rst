@@ -2,7 +2,7 @@ Ein Blick in die Unendlichkeit
 ##############################
 :date: 2009-12-17 19:01
 :author: admin
-:category: Audio, Mathe, Tipp
+:tags: Audio, Mathe, Tipp
 :slug: ein-blick-in-die-unendlichkeit
 :status: published
 

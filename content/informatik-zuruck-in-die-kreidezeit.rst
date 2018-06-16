@@ -2,7 +2,7 @@ Informatik - Zurück in die Kreidezeit
 #####################################
 :date: 2013-06-08 11:33
 :author: marco.bakera
-:category: Bildung, Mathe, Programmierung
+:tags: Bildung, Mathe, Programmierung
 :slug: informatik-zuruck-in-die-kreidezeit
 :status: published
 

@@ -2,7 +2,7 @@ Einen eigenen Webserver programmieren
 #####################################
 :date: 2014-10-04 13:44
 :author: marco.bakera
-:category: Programmierung
+:tags: Programmierung
 :slug: einen-eigenen-webserver-programmieren
 :status: published
 

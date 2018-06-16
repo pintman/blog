@@ -2,7 +2,7 @@ No Fluff Just Stuff
 ###################
 :date: 2008-03-11 07:07
 :author: admin
-:category: Programmierung, Wissenschaft
+:tags: Programmierung, Wissenschaft
 :slug: no-fluff-just-stuff
 :status: published
 

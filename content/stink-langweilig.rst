@@ -2,7 +2,7 @@ Stink langweilig...»
 ####################
 :date: 2005-01-20 15:57
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: stink-langweilig
 :status: published
 

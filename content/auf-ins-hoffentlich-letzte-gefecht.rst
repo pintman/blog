@@ -2,7 +2,7 @@ Auf ins (hoffentlich) letzte Gefecht
 ####################################
 :date: 2005-03-01 07:45
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: auf-ins-hoffentlich-letzte-gefecht
 :status: published
 

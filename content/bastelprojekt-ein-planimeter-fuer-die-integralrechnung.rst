@@ -2,7 +2,7 @@ Bastelprojekt: Ein Planimeter für die Integralrechnung
 ######################################################
 :date: 2014-06-08 07:21
 :author: marco.bakera
-:category: Mathe
+:tags: Mathe
 :tags: Integralrechnung, Lego
 :slug: bastelprojekt-ein-planimeter-fuer-die-integralrechnung
 :status: published

@@ -2,7 +2,7 @@ Die ersten Tapeten hängen
 #########################
 :date: 2005-02-21 18:20
 :author: admin
-:category: Spaß
+:tags: Spaß
 :slug: die-ersten-tapeten-hangen
 :status: published
 

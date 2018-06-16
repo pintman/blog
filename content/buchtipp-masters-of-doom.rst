@@ -2,7 +2,7 @@ Buchtipp: Masters of Doom
 #########################
 :date: 2014-01-13 17:04
 :author: marco.bakera
-:category: Programmierung, Tipp
+:tags: Programmierung, Tipp
 :slug: buchtipp-masters-of-doom
 :status: published
 

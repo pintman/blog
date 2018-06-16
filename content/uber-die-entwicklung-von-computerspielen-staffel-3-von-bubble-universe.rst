@@ -2,7 +2,7 @@
 ########################################################################
 :date: 2011-04-18 07:13
 :author: admin
-:category: Programmierung, Spaß, Video
+:tags: Programmierung, Spaß, Video
 :slug: uber-die-entwicklung-von-computerspielen-staffel-3-von-bubble-universe
 :status: published
 

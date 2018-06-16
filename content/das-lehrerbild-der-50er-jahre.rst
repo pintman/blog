@@ -2,7 +2,7 @@ Das Lehrerbild der 50er Jahre
 #############################
 :date: 2011-01-05 10:13
 :author: admin
-:category: Bildung, Video
+:tags: Bildung, Video
 :slug: das-lehrerbild-der-50er-jahre
 :status: published
 

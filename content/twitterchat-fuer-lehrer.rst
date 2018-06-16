@@ -2,7 +2,7 @@ Twitterchat für Lehrer
 ######################
 :date: 2013-08-30 17:49
 :author: marco.bakera
-:category: Bildung, Tipp
+:tags: Bildung, Tipp
 :slug: twitterchat-fuer-lehrer
 :status: published
 

@@ -2,7 +2,7 @@ Spieleprogrammierung mit Unity - Teil 2: Farbe kommt ins Spiel
 ##############################################################
 :date: 2013-11-15 19:49
 :author: marco.bakera
-:category: Programmierung, Spaß, Spiele
+:tags: Programmierung, Spaß, Spiele
 :slug: spieleprogrammierung-mit-unity-teil-2-farbe-kommt-ins-spiel
 :status: published
 

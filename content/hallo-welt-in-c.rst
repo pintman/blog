@@ -2,7 +2,7 @@
 ##################
 :date: 2012-11-23 14:00
 :author: admin
-:category: Programmierung, Video
+:tags: Programmierung, Video
 :slug: hallo-welt-in-c
 :status: published
 

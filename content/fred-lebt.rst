@@ -2,7 +2,7 @@ Fred lebt
 #########
 :date: 2005-08-24 08:40
 :author: admin
-:category: Comic, Kunst
+:tags: Comic, Kunst
 :slug: fred-lebt
 :status: published
 

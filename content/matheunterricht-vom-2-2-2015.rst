@@ -2,7 +2,7 @@ Schüler übernehmen den Mathematikunterricht
 ###########################################
 :date: 2015-02-04 09:23
 :author: marco.bakera
-:category: Mathe
+:tags: Mathe
 :tags: GeoGebra, ldl, Tafelbild
 :slug: matheunterricht-vom-2-2-2015
 :status: published

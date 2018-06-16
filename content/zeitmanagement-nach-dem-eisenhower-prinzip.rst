@@ -2,7 +2,7 @@ Zeitmanagement nach dem Eisenhower-Prinzip
 ##########################################
 :date: 2013-11-27 13:39
 :author: marco.bakera
-:category: Bildung, Tipp
+:tags: Bildung, Tipp
 :slug: zeitmanagement-nach-dem-eisenhower-prinzip
 :status: published
 

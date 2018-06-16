@@ -2,7 +2,7 @@ Furz muss kacken
 ################
 :date: 2005-01-01 19:20
 :author: admin
-:category: Comic, Kunst
+:tags: Comic, Kunst
 :slug: furz-muss-kacken
 :status: published
 

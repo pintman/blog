@@ -2,7 +2,7 @@ Interaktive Mathematik
 ######################
 :date: 2011-05-29 09:00
 :author: admin
-:category: Bildung, Mathe, Tipp
+:tags: Bildung, Mathe, Tipp
 :slug: interaktive-mathematik
 :status: published
 

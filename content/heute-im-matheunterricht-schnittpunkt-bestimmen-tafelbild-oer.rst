@@ -2,7 +2,7 @@ Heute im Matheunterricht: Schnittpunkt bestimmen
 ################################################
 :date: 2013-09-30 18:53
 :author: marco.bakera
-:category: Mathe
+:tags: Mathe
 :slug: heute-im-matheunterricht-schnittpunkt-bestimmen-tafelbild-oer
 :status: published
 

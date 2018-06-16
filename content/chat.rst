@@ -2,7 +2,7 @@ Chat
 ####
 :date: 2005-07-01 20:10
 :author: admin
-:category: Unkategorisiert
+:tags: Unkategorisiert
 :slug: chat
 :status: published
 

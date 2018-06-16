@@ -2,7 +2,7 @@ Spieletipp: Mental Repairs Inc.
 ###############################
 :date: 2011-10-28 18:10
 :author: admin
-:category: Spaß, Spiele, Tipp
+:tags: Spaß, Spiele, Tipp
 :slug: spieletipp-mental-repairs-inc
 :status: published
 

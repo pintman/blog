@@ -2,7 +2,7 @@ Wiederverwendung in der objektorientieren Programmierung
 ########################################################
 :date: 2013-08-04 10:02
 :author: marco.bakera
-:category: Programmierung
+:tags: Programmierung
 :slug: wiederverwendung-in-der-objektorientieren-programmierung
 :status: published
 

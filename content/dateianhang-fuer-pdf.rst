@@ -2,7 +2,7 @@ Dateianhang für PDF
 ###################
 :date: 2014-10-01 16:47
 :author: marco.bakera
-:category: Linux, Tipp
+:tags: Linux, Tipp
 :slug: dateianhang-fuer-pdf
 :status: published
 

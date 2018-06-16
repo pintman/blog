@@ -2,7 +2,7 @@ Zurück aus dem Urlaub
 #####################
 :date: 2005-03-14 19:52
 :author: admin
-:category: Audio, Spaß
+:tags: Audio, Spaß
 :slug: zuruck-aus-dem-urlaub
 :status: published
 

@@ -2,7 +2,7 @@ Sammelsurium Dezember 2017 - Januar 2018
 ########################################
 :date: 2018-02-08 17:53
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: sammelsurium-dezember-2017-januar-2018
 :status: published
 

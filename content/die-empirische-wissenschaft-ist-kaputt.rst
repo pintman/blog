@@ -2,7 +2,7 @@ Die empirische Wissenschaft ist kaputt
 ######################################
 :date: 2018-01-08 19:24
 :author: marco.bakera
-:category: Bildung, Video
+:tags: Bildung, Video
 :tags: 34c3
 :slug: die-empirische-wissenschaft-ist-kaputt
 :status: published

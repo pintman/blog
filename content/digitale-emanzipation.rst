@@ -2,7 +2,7 @@ Digitale Emanzipation
 #####################
 :date: 2013-05-09 16:03
 :author: admin
-:category: Unkategorisiert
+:tags: Unkategorisiert
 :slug: digitale-emanzipation
 :status: published
 

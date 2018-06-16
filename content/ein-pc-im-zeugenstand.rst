@@ -2,7 +2,7 @@ Ein PC im Zeugenstand
 #####################
 :date: 2014-09-07 16:01
 :author: marco.bakera
-:category: Bildung, Informatik, Tipp
+:tags: Bildung, Informatik, Tipp
 :tags: c't
 :slug: ein-pc-im-zeugenstand
 :status: published

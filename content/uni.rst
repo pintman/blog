@@ -2,7 +2,7 @@ Uni
 ###
 :date: 2005-10-01 05:50
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: uni
 :status: published
 

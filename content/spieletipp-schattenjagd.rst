@@ -2,7 +2,7 @@ Spieletipp: Schattenjagd
 ########################
 :date: 2011-10-30 11:25
 :author: admin
-:category: Kunst, Spaß, Spiele, Tipp
+:tags: Kunst, Spaß, Spiele, Tipp
 :slug: spieletipp-schattenjagd
 :status: published
 

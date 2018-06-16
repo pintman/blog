@@ -2,7 +2,7 @@ Raspberry Pi als Thin Client
 ############################
 :date: 2017-10-27 16:05
 :author: marco.bakera
-:category: Hardware, Informatik, Linux
+:tags: Hardware, Informatik, Linux
 :slug: raspberry-pi-als-thin-client
 :status: published
 

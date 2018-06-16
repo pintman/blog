@@ -2,7 +2,7 @@ Mathe ist sinnvoll
 ##################
 :date: 2013-06-16 18:28
 :author: marco.bakera
-:category: Bildung, Mathe
+:tags: Bildung, Mathe
 :slug: mathe-ist-sinnvoll
 :status: published
 

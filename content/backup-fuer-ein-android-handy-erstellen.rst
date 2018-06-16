@@ -2,7 +2,7 @@ Backup für ein Android-Handy erstellen
 ######################################
 :date: 2014-01-05 11:12
 :author: marco.bakera
-:category: Informatik, Tipp
+:tags: Informatik, Tipp
 :slug: backup-fuer-ein-android-handy-erstellen
 :status: published
 

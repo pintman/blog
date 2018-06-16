@@ -2,7 +2,7 @@ Wissenschaftler machen Musik
 ############################
 :date: 2008-05-02 09:47
 :author: admin
-:category: Spaß, Video
+:tags: Spaß, Video
 :slug: wissenschaftler-machen-musik
 :status: published
 

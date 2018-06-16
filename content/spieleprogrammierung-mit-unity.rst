@@ -2,7 +2,7 @@ Spieleprogrammierung mit Unity
 ##############################
 :date: 2013-11-13 14:44
 :author: marco.bakera
-:category: Programmierung, Spiele
+:tags: Programmierung, Spiele
 :slug: spieleprogrammierung-mit-unity
 :status: published
 

@@ -2,7 +2,7 @@ Screencasts unter Linux mit ffmpeg erstellen
 ############################################
 :date: 2014-01-22 19:17
 :author: marco.bakera
-:category: Linux, Video
+:tags: Linux, Video
 :slug: screencasts-unter-linux-mit-ffmpeg-erstellen
 :status: published
 

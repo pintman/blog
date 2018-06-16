@@ -2,7 +2,7 @@ Buchtipp: OpenAdvice - ein Leitfaden für Einsteiger in OpenSource-Projekte
 ##########################################################################
 :date: 2013-12-18 20:05
 :author: marco.bakera
-:category: Bildung, Linux, Programmierung, Tipp
+:tags: Bildung, Linux, Programmierung, Tipp
 :slug: buchtipp-openadvice-ein-leitfaden-fuer-einsteiger-in-opensource-projekte
 :status: published
 

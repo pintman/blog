@@ -2,7 +2,7 @@
 #########################
 :date: 2010-09-08 10:30
 :author: admin
-:category: Bildung
+:tags: Bildung
 :slug: 113-tipps-fur-neue-lehrer
 :status: published
 

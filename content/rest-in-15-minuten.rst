@@ -2,7 +2,7 @@ REST in 15 Minuten
 ##################
 :date: 2015-07-16 09:12
 :author: marco.bakera
-:category: Informatik, Programmierung
+:tags: Informatik, Programmierung
 :tags: Python
 :slug: rest-in-15-minuten
 :status: published

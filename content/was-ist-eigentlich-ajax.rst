@@ -2,7 +2,7 @@ Was ist eigentlich AJAX?
 ########################
 :date: 2005-09-18 15:55
 :author: admin
-:category: Informatik
+:tags: Informatik
 :slug: was-ist-eigentlich-ajax
 :status: published
 

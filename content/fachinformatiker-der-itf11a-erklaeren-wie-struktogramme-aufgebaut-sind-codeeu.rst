@@ -2,7 +2,7 @@ Fachinformatiker der ITF11a erklären, wie Struktogramme aufgebaut sind #codeEU
 ##############################################################################
 :date: 2013-11-29 22:27
 :author: marco.bakera
-:category: Informatik, Programmierung
+:tags: Informatik, Programmierung
 :slug: fachinformatiker-der-itf11a-erklaeren-wie-struktogramme-aufgebaut-sind-codeeu
 :status: published
 

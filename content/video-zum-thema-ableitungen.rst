@@ -2,7 +2,7 @@ Video zum Thema Ableitungen
 ###########################
 :date: 2013-11-22 13:56
 :author: marco.bakera
-:category: Bildung, Mathe, Video
+:tags: Bildung, Mathe, Video
 :slug: video-zum-thema-ableitungen
 :status: published
 

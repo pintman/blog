@@ -2,7 +2,7 @@ Wahlwerbung: Die Partei
 #######################
 :date: 2005-09-08 07:33
 :author: admin
-:category: Film
+:tags: Film
 :slug: wahlwerbung-die-partei
 :status: published
 

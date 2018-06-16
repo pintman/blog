@@ -2,7 +2,7 @@ Interessante Schachstellung: Drei Figuren decken sich gegenseitig
 #################################################################
 :date: 2013-12-02 18:20
 :author: marco.bakera
-:category: Spaß, Spiele
+:tags: Spaß, Spiele
 :slug: interessante-schachstellung-drei-figuren-decken-sich-gegenseitig
 :status: published
 

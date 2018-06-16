@@ -2,7 +2,7 @@ Hund tritt Hund
 ###############
 :date: 2005-09-28 18:55
 :author: admin
-:category: Kunst
+:tags: Kunst
 :slug: hund-tritt-hund
 :status: published
 

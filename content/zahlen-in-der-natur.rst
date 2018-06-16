@@ -2,7 +2,7 @@ Zahlen in der Natur
 ###################
 :date: 2010-05-13 15:54
 :author: admin
-:category: Kunst, Mathe, Tipp, Video, Wissenschaft
+:tags: Kunst, Mathe, Tipp, Video, Wissenschaft
 :slug: zahlen-in-der-natur
 :status: published
 

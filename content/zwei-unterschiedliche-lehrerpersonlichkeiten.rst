@@ -2,7 +2,7 @@ Zwei unterschiedliche Lehrerpersönlichkeiten
 ############################################
 :date: 2010-07-29 12:49
 :author: admin
-:category: Bildung
+:tags: Bildung
 :slug: zwei-unterschiedliche-lehrerpersonlichkeiten
 :status: published
 

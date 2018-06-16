@@ -2,7 +2,7 @@ Computer sind spannend, Technik macht Spaß - bis man ein Schulfach daraus macht
 ###############################################################################
 :date: 2016-10-01 06:40
 :author: marco.bakera
-:category: Bildung, Informatik
+:tags: Bildung, Informatik
 :slug: computer-sind-spannend-technik-macht-spass-bis-man-ein-schulfach-daraus-macht
 :status: published
 

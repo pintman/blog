@@ -2,7 +2,7 @@ Educamp 2014 in Hattingen
 #########################
 :date: 2014-08-23 11:19
 :author: marco.bakera
-:category: Bildung, Tipp
+:tags: Bildung, Tipp
 :tags: Konferenz
 :slug: educamp-2014-in-hattingen
 :status: published

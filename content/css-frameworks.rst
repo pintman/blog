@@ -2,7 +2,7 @@ CSS Frameworks
 ##############
 :date: 2008-04-06 16:22
 :author: admin
-:category: Unkategorisiert
+:tags: Unkategorisiert
 :slug: css-frameworks
 :status: published
 

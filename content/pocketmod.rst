@@ -2,7 +2,7 @@ Pocketmod
 #########
 :date: 2008-04-07 19:07
 :author: admin
-:category: Spaß, Video
+:tags: Spaß, Video
 :slug: pocketmod
 :status: published
 

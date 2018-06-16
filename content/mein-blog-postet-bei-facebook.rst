@@ -2,7 +2,7 @@ Mein Blog postet bei Facebook
 #############################
 :date: 2013-05-14 19:31
 :author: marco.bakera
-:category: Tipp
+:tags: Tipp
 :slug: mein-blog-postet-bei-facebook
 :status: published
 

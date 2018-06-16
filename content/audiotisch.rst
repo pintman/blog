@@ -2,7 +2,7 @@ Audiotisch
 ##########
 :date: 2005-04-29 17:37
 :author: admin
-:category: Audio
+:tags: Audio
 :slug: audiotisch
 :status: published
 

@@ -2,7 +2,7 @@ piCore: Zwischen Einplatinencomputer und Microcontroller
 ########################################################
 :date: 2018-03-31 12:24
 :author: marco.bakera
-:category: Hardware, Linux
+:tags: Hardware, Linux
 :tags: RaspberryPi
 :slug: picore-zwischen-einplatinencomputer-und-microcontroller
 :status: published

@@ -2,7 +2,7 @@ Sammelsurium - November 2015
 ############################
 :date: 2015-12-02 19:08
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: sammelsurium-19
 :status: published
 

@@ -2,7 +2,7 @@ Sammelsurium April-Juni 2017
 ############################
 :date: 2017-07-09 19:25
 :author: marco.bakera
-:category: Linkliste
+:tags: Linkliste
 :slug: sammelsurium-april-juni-2017
 :status: published
 

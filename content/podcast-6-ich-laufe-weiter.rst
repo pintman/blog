@@ -2,7 +2,7 @@
 #############################
 :date: 2005-05-18 06:16
 :author: admin
-:category: Audio
+:tags: Audio
 :slug: podcast-6-ich-laufe-weiter
 :status: published
 
