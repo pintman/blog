@@ -7,6 +7,7 @@ SITENAME = '/home/bakera/blog'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images', 'media']
 DEFAULT_CATEGORY = 'Sonstiges'
 
 TIMEZONE = 'Europe/Berlin'
