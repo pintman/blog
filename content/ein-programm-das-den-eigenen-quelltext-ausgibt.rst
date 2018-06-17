@@ -50,6 +50,5 @@ werden getrennt. Das Programm ist hierbei jedoch auch Teil der Daten.
 
 .. |icon_commandline| image:: images/2014/05/icon_16654.png
    :class: alignnone size-full wp-image-988
-   :width: 1200px
-   :height: 1200px
+   :width: 300px
    :target: images/2014/05/icon_16654.png
