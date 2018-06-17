@@ -72,4 +72,4 @@ Mein Blick zurück auf den Dezember 2015. So viel war ja gar nicht los.
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/12/wwwSitzen2.png
+   :target: images/2014/12/wwwSitzen2.png

@@ -51,8 +51,8 @@ zusammen:
     Mein Mentor auf der Arbeit sagt mir immer wieder, kannst du es nicht
     richtig erklären, hast du es nicht richtig verstanden.
 
-.. |2014-05-10-LdL Visualisierung| image:: http://www.bakera.de/wp/wp-content/uploads/2014/05/2014-05-10-LdL-Visualisierung-e1399728850252.png
+.. |2014-05-10-LdL Visualisierung| image:: images/2014/05/2014-05-10-LdL-Visualisierung-e1399728850252.png
    :class: wp-image-1000 size-full
    :width: 741px
    :height: 707px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/05/2014-05-10-LdL-Visualisierung-e1399728850252.png
+   :target: images/2014/05/2014-05-10-LdL-Visualisierung-e1399728850252.png

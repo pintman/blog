@@ -31,8 +31,8 @@ der Y-Achse abbilden? Wie können wir Begriffe wie Steigung, Integral,
 Flächeninhalt oder Funktionswert in diesem Zusammenhang neu
 interpretieren?
 
-.. |von Maya Eilam und Kurt Vonnegut| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/kurt-vonnegut-the-shapes-of-stories.png
+.. |von Maya Eilam und Kurt Vonnegut| image:: images/2014/06/kurt-vonnegut-the-shapes-of-stories.png
    :class: size-full wp-image-1222
    :width: 1100px
    :height: 1700px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/06/kurt-vonnegut-the-shapes-of-stories.png
+   :target: images/2014/06/kurt-vonnegut-the-shapes-of-stories.png

@@ -17,8 +17,8 @@ und Auszeichnungen.
 Nun haben mir die Schüler auch ein paar Preise verliehen. Da ich darüber
 natürlich stolz wie Bolle bin, zeige ich euch meine Medaillen.
 
-.. |2014-05-29 Auszeichnungen| image:: http://www.bakera.de/wp/wp-content/uploads/2014/05/2014-05-29-Auszeichnungen.png
+.. |2014-05-29 Auszeichnungen| image:: images/2014/05/2014-05-29-Auszeichnungen.png
    :class: alignnone size-full wp-image-1051
    :width: 746px
    :height: 833px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/05/2014-05-29-Auszeichnungen.png
+   :target: images/2014/05/2014-05-29-Auszeichnungen.png

@@ -18,8 +18,8 @@ gewünscht. Dennoch wird ein schöner runder Bogen über alle Bereiche der
 Linuxlandschaft gezogen. Wer noch einen Nachweis für seine
 Bewerbungsmappe sucht, sollte bei dem Zertifikat zuschlagen.
 
-.. |LinuxZertifikat| image:: http://www.bakera.de/wp/wp-content/uploads/2014/08/LinuxZertifikat-1024x774.png
+.. |LinuxZertifikat| image:: images/2014/08/LinuxZertifikat-1024x774.png
    :class: alignnone size-large wp-image-1335
    :width: 625px
    :height: 472px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/08/LinuxZertifikat.png
+   :target: images/2014/08/LinuxZertifikat.png

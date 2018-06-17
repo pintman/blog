@@ -48,8 +48,8 @@ werden getrennt. Das Programm ist hierbei jedoch auch Teil der Daten.
             }
         }
 
-.. |icon_commandline| image:: http://www.bakera.de/wp/wp-content/uploads/2014/05/icon_16654.png
+.. |icon_commandline| image:: images/2014/05/icon_16654.png
    :class: alignnone size-full wp-image-988
    :width: 1200px
    :height: 1200px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/05/icon_16654.png
+   :target: images/2014/05/icon_16654.png

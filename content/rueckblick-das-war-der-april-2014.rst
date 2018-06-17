@@ -87,8 +87,8 @@ Rückblick: Das war der April 2014
 -  `"The MagPi" <http://www.themagpi.com/>`__ ist ein kostenloses
    Online-Magazin (engl.) für Raspberry Pi Interessierte. (RPi, Magazin)
 
-.. |circle_rewind| image:: http://bakera.de/wp/wp-content/uploads/2014/04/circle_rewind.png
+.. |circle_rewind| image:: images/2014/04/circle_rewind.png
    :class: size-full wp-image-913 alignnone
    :width: 128px
    :height: 128px
-   :target: http://bakera.de/wp/wp-content/uploads/2014/04/circle_rewind.png
+   :target: images/2014/04/circle_rewind.png

@@ -11,8 +11,8 @@ Punkten"
 
 |Aufstellen einer Funktionsgleichung - Lineare Funktion - Tafelbild|
 
-.. |Aufstellen einer Funktionsgleichung - Lineare Funktion - Tafelbild| image:: http://bakera.de/wp/wp-content/uploads/2013/09/1-Aufstellen-einer-Funktionsgleichung-Lineare-Funktion-Tafelbild-300x109.jpg
+.. |Aufstellen einer Funktionsgleichung - Lineare Funktion - Tafelbild| image:: images/1-Aufstellen-einer-Funktionsgleichung-Lineare-Funktion-Tafelbild-300x109.jpg
    :class: alignnone size-medium wp-image-531
    :width: 300px
    :height: 109px
-   :target: http://bakera.de/wp/wp-content/uploads/2013/09/1-Aufstellen-einer-Funktionsgleichung-Lineare-Funktion-Tafelbild.jpg
+   :target: images/1-Aufstellen-einer-Funktionsgleichung-Lineare-Funktion-Tafelbild.jpg

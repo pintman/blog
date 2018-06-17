@@ -20,8 +20,8 @@ mit  Dokumenten, mit denen Aufgaben verknüpft sind.
 
 |MeinDekstop|
 
-.. |MeinDekstop| image:: http://bakera.de/wp/wp-content/uploads/2014/04/MeinDekstop-1024x576.png
+.. |MeinDekstop| image:: images/2014/04/MeinDekstop-1024x576.png
    :class: alignnone size-large wp-image-897
    :width: 625px
    :height: 351px
-   :target: http://bakera.de/wp/wp-content/uploads/2014/04/MeinDekstop.png
+   :target: images/2014/04/MeinDekstop.png

@@ -24,13 +24,13 @@ gibt es eine Zange.
 
  
 
-.. |IMG_20141227_221854| image:: https://www.bakera.de/wp/wp-content/uploads/2014/12/IMG_20141227_221854-1024x528.jpg
+.. |IMG_20141227_221854| image:: images/2014/12/IMG_20141227_221854-1024x528.jpg
    :class: alignnone size-large wp-image-1580
    :width: 625px
    :height: 322px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/12/IMG_20141227_221854.jpg
-.. |IMG_20141227_221923| image:: https://www.bakera.de/wp/wp-content/uploads/2014/12/IMG_20141227_221923-1024x714.jpg
+   :target: images/2014/12/IMG_20141227_221854.jpg
+.. |IMG_20141227_221923| image:: images/2014/12/IMG_20141227_221923-1024x714.jpg
    :class: alignnone size-large wp-image-1581
    :width: 625px
    :height: 436px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/12/IMG_20141227_221923.jpg
+   :target: images/2014/12/IMG_20141227_221923.jpg

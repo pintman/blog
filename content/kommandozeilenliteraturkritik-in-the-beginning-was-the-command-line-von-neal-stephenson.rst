@@ -181,7 +181,7 @@ produces something like emacs.*
 *if you don't like having choices made for you, you should start making
 your own.*
 
-.. |Kommandozeile| image:: http://www.bakera.de/wp/wp-content/uploads/2014/05/Kommandozeile.png
+.. |Kommandozeile| image:: images/2014/05/Kommandozeile.png
    :class: alignnone size-full wp-image-1033
    :width: 807px
    :height: 54px

@@ -36,8 +36,8 @@ die Prioritäten richtig zu setzen.
 
  
 
-.. |cc: mkh marketing| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/facebook-rauch.jpg
+.. |cc: mkh marketing| image:: images/2014/06/facebook-rauch.jpg
    :class: size-full wp-image-1249
    :width: 586px
    :height: 293px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/06/facebook-rauch.jpg
+   :target: images/2014/06/facebook-rauch.jpg

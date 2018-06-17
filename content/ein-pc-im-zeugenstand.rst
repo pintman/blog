@@ -45,8 +45,8 @@ Und? Interesse?
 
 **PC-User:** Ich bin dann mal beim Kiosk...
 
-.. |Ctlogo| image:: http://www.bakera.de/wp/wp-content/uploads/2014/09/Ct_logo.png
+.. |Ctlogo| image:: images/2014/09/Ct_logo.png
    :class: alignnone size-full wp-image-1371
    :width: 320px
    :height: 116px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/09/Ct_logo.png
+   :target: images/2014/09/Ct_logo.png

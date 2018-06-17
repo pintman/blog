@@ -138,48 +138,48 @@ umgegangen werden soll und schlägt zwei alternative Vorgehensweisen vor:
 Vertraue ferner nicht immer auf den Taschenrechner, sondern ziehe auch
 andere Überlegungen in Betracht.
 
-.. |DritteWurzelMinusAcht| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/DritteWurzelMinusAcht.jpg
+.. |DritteWurzelMinusAcht| image:: images/2014/06/DritteWurzelMinusAcht.jpg
    :class: alignright size-full wp-image-1120
    :width: 265px
    :height: 175px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/06/DritteWurzelMinusAcht.jpg
-.. |WurzelNegativ-Casiofx-991ES-1| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-Casiofx-991ES-1.jpg
+   :target: images/2014/06/DritteWurzelMinusAcht.jpg
+.. |WurzelNegativ-Casiofx-991ES-1| image:: images/2014/06/WurzelNegativ-Casiofx-991ES-1.jpg
    :class: alignnone size-full wp-image-1094
    :width: 1348px
    :height: 965px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-Casiofx-991ES-1.jpg
-.. |WurzelNegativ-Geogebra| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-Geogebra.png
+   :target: images/2014/06/WurzelNegativ-Casiofx-991ES-1.jpg
+.. |WurzelNegativ-Geogebra| image:: images/2014/06/WurzelNegativ-Geogebra.png
    :class: alignnone size-full wp-image-1095
    :width: 641px
    :height: 308px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-Geogebra.png
-.. |WurzelNegativ-Casiofx-991ES-2| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-Casiofx-991ES-2.jpg
+   :target: images/2014/06/WurzelNegativ-Geogebra.png
+.. |WurzelNegativ-Casiofx-991ES-2| image:: images/2014/06/WurzelNegativ-Casiofx-991ES-2.jpg
    :class: alignnone size-full wp-image-1099
    :width: 1731px
    :height: 1215px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-Casiofx-991ES-2.jpg
-.. |WurzelNegativ-TI-89| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-TI-89.jpg
+   :target: images/2014/06/WurzelNegativ-Casiofx-991ES-2.jpg
+.. |WurzelNegativ-TI-89| image:: images/2014/06/WurzelNegativ-TI-89.jpg
    :class: alignnone size-full wp-image-1101
    :width: 1869px
    :height: 1295px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-TI-89.jpg
-.. |WurzelNegativ-HP48| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-HP48.png
+   :target: images/2014/06/WurzelNegativ-TI-89.jpg
+.. |WurzelNegativ-HP48| image:: images/2014/06/WurzelNegativ-HP48.png
    :class: alignnone size-full wp-image-1104
    :width: 662px
    :height: 515px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-HP48.png
-.. |WurzelNegativ-WolframAlpha| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-WolframAlpha.png
+   :target: images/2014/06/WurzelNegativ-HP48.png
+.. |WurzelNegativ-WolframAlpha| image:: images/2014/06/WurzelNegativ-WolframAlpha.png
    :class: alignnone size-full wp-image-1105
    :width: 631px
    :height: 228px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-WolframAlpha.png
-.. |WurzelNegativ-Emacs| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-Emacs.png
+   :target: images/2014/06/WurzelNegativ-WolframAlpha.png
+.. |WurzelNegativ-Emacs| image:: images/2014/06/WurzelNegativ-Emacs.png
    :class: alignnone size-full wp-image-1106
    :width: 754px
    :height: 201px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-Emacs.png
-.. |WurzelNegativ-Python| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-Python.png
+   :target: images/2014/06/WurzelNegativ-Emacs.png
+.. |WurzelNegativ-Python| image:: images/2014/06/WurzelNegativ-Python.png
    :class: alignnone size-full wp-image-1107
    :width: 369px
    :height: 128px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/06/WurzelNegativ-Python.png
+   :target: images/2014/06/WurzelNegativ-Python.png

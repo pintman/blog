@@ -8,6 +8,6 @@ Gute alte Zeit
 
 |image|
 
-.. |image| image:: http://bakera.de/wp/wp-content/uploads/2013/06/wpid-wp-1372413774489.jpg
+.. |image| image:: images/wpid-wp-1372413774489.jpg
    :class: alignnone size-full
-   :target: http://bakera.de/wp/wp-content/uploads/2013/06/wpid-wp-1372413774489.jpg
+   :target: images/wpid-wp-1372413774489.jpg

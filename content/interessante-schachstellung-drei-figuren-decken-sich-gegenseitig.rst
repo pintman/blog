@@ -15,8 +15,8 @@ von meinem weißen König geschlagen werden.
 
 Verzwickt und bitter.
 
-.. |2013-12-01-Schachstellung| image:: http://bakera.de/wp/wp-content/uploads/2013/12/2013-12-01-Schachstellung.png
+.. |2013-12-01-Schachstellung| image:: images/2013/12/2013-12-01-Schachstellung.png
    :class: alignnone wp-image-736
    :width: 378px
    :height: 379px
-   :target: http://bakera.de/wp/wp-content/uploads/2013/12/2013-12-01-Schachstellung.png
+   :target: images/2013/12/2013-12-01-Schachstellung.png

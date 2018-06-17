@@ -94,18 +94,18 @@ Wenn ihr weitere Vertreter des Genres empfehlen könnt, freue ich mich
 auf eure Kommentare. Bis dahin tauche ich ab in diese spannende Welt aus
 Text, Bildern und der phantastischen Lücke dazwischen.
 
-.. |Comic Strip von Elisabeth Hass (The Noun Project)| image:: http://www.bakera.de/wp/wp-content/uploads/2014/07/icon_27149.png
+.. |Comic Strip von Elisabeth Hass (The Noun Project)| image:: images/2014/07/icon_27149.png
    :class: size-full wp-image-1301
    :width: 1200px
    :height: 1200px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/07/icon_27149.png
-.. |Comics_richtig_lesen| image:: http://www.bakera.de/wp/wp-content/uploads/2014/07/Comics_richtig_lesen-197x300.jpg
+   :target: images/2014/07/icon_27149.png
+.. |Comics_richtig_lesen| image:: images/2014/07/Comics_richtig_lesen-197x300.jpg
    :class: alignnone size-medium wp-image-1306
    :width: 197px
    :height: 300px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/07/Comics_richtig_lesen.jpg
-.. |aus: "Comics richtig lesen", S. 13| image:: http://www.bakera.de/wp/wp-content/uploads/2014/07/ComicsRichtigLesen-Definition-189x300.jpg
+   :target: images/2014/07/Comics_richtig_lesen.jpg
+.. |aus: "Comics richtig lesen", S. 13| image:: images/2014/07/ComicsRichtigLesen-Definition-189x300.jpg
    :class: size-medium wp-image-1321
    :width: 189px
    :height: 300px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/07/ComicsRichtigLesen-Definition.jpg
+   :target: images/2014/07/ComicsRichtigLesen-Definition.jpg

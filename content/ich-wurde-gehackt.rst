@@ -47,7 +47,7 @@ Accounts, bei denen deine Bankverbindung liegt, besonders gut ab.
 
  
 
-.. |cc: Julien Deveaux| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/BrokenSchloss.png
+.. |cc: Julien Deveaux| image:: images/2014/06/BrokenSchloss.png
    :class: wp-image-1166 size-full
    :width: 253px
    :height: 354px

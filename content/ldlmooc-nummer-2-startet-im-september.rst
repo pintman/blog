@@ -23,8 +23,8 @@ Wieder gibt es Hangouts zu Wochenbeginn, die in das Thema LdL, also
 hoffentlich wieder regen Austausch über die Mixxt-Plattform, Twitter und
 andere soziale Medien begleiten.
 
-.. |ldlmooc2-logo| image:: http://www.bakera.de/wp/wp-content/uploads/2014/08/ldlmooc2-logo.jpg
+.. |ldlmooc2-logo| image:: images/2014/08/ldlmooc2-logo.jpg
    :class: alignnone size-full wp-image-1350
    :width: 900px
    :height: 900px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/08/ldlmooc2-logo.jpg
+   :target: images/2014/08/ldlmooc2-logo.jpg

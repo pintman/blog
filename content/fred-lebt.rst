@@ -26,8 +26,8 @@ Bemühungen seht ihr oben. Der erste Name, der mir dazu in den Kopf
 gekommen ist, war Fred, und so soll dieses Ding dann also auch heißen.
 :)
 
-.. |Fred1| image:: http://www.bakera.de/wp/wp-content/uploads/2005/08/Fred1.jpg
+.. |Fred1| image:: images/Fred1.jpg
    :class: alignnone size-full wp-image-1312
    :width: 400px
    :height: 300px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2005/08/Fred1.jpg
+   :target: images/Fred1.jpg

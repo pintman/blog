@@ -59,7 +59,7 @@ haben aber trotzdem interessant sind.
    Standardhandbuch für Systemadministratoren. Hier sind sinnvolle Tipps
    und Einstellung für Crypto-Software beschrieben.
 
-.. |cc: Freepik| image:: http://www.bakera.de/wp/wp-content/uploads/2014/10/wwwSitzen.png
+.. |cc: Freepik| image:: images/2014/10/wwwSitzen.png
    :class: wp-image-1475 size-full
    :width: 512px
    :height: 512px

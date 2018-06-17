@@ -28,8 +28,8 @@ Abakus" <http://www.soroban-rechnen.de/>`__ erklärt die Funktionsweise.
 Leider gibt es nur wenig deutschsprachige Literatur zu dieser spannenden
 Rechenhilfe.
 
-.. |cc: Pearls of Jannah| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/soroban.jpg
+.. |cc: Pearls of Jannah| image:: images/2014/06/soroban.jpg
    :class: size-full wp-image-1235
    :width: 1024px
    :height: 685px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/06/soroban.jpg
+   :target: images/2014/06/soroban.jpg

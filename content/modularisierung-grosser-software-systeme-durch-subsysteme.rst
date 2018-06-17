@@ -18,7 +18,7 @@ vollständig in den Händen der Entwickler der Subsysteme. Die
 Kommunikation zwischen den Teams soll reduziert werden, die
 Verlässlichkeit wird über Schnittstellenvereinbarungen erzwungen.
 
-.. |Lautsprecher| image:: http://www.bakera.de/wp/wp-content/uploads/2014/05/Lautsprecher.png
+.. |Lautsprecher| image:: images/2014/05/Lautsprecher.png
    :class: alignright size-full wp-image-1046
    :width: 128px
    :height: 128px

@@ -83,8 +83,8 @@ klareres Bild, das in einem Wikiartikel verfestigt werden kann - etwa im
 Ich bin gespannt, wie es in einem Jahr um die Veranstaltung stehen wird
 und freue mich auf die weitere Entwicklung.
 
-.. |cc: André J. Spang| image:: http://www.bakera.de/wp/wp-content/uploads/2014/07/edchatde-badge.png
+.. |cc: André J. Spang| image:: images/2014/07/edchatde-badge.png
    :class: size-full wp-image-1262
    :width: 200px
    :height: 200px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/07/edchatde-badge.png
+   :target: images/2014/07/edchatde-badge.png

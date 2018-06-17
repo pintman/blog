@@ -12,8 +12,8 @@ Was sind eigentlich Funktionen und wie können wir sie darstellen und mit
 ihnen arbeiten? Ich wurde gestern durch einige kreative Ideen
 überrascht.
 
-.. |Funktionen| image:: http://bakera.de/wp/wp-content/uploads/2013/10/Funktionen-300x118.jpg
+.. |Funktionen| image:: images/Funktionen.jpg
    :class: alignnone size-medium wp-image-546
    :width: 300px
    :height: 118px
-   :target: http://bakera.de/wp/wp-content/uploads/2013/10/Funktionen.jpg
+   :target: images/Funktionen.jpg

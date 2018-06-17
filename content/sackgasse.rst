@@ -10,6 +10,6 @@ Sackgasse
 
 Plötzlich ging es im Wald nicht weiter.
 
-.. |image| image:: http://bakera.de/wp/wp-content/uploads/2013/06/wpid-wp-1371392944347.jpg
+.. |image| image:: images/wpid-wp-1371392944347.jpg
    :class: alignnone size-full
-   :target: http://bakera.de/wp/wp-content/uploads/2013/06/wpid-wp-1371392944347.jpg
+   :target: images/2013/06/wpid-wp-1371392944347.jpg

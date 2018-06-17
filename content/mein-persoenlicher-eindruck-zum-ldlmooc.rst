@@ -88,7 +88,7 @@ viel und ich fühlte mich erschlagen.
 
  
 
-.. |Sprechblasen| image:: http://www.bakera.de/wp/wp-content/uploads/2014/06/Sprechblasen.png
+.. |Sprechblasen| image:: images/2014/06/Sprechblasen.png
    :class: size-full wp-image-1073 alignright
    :width: 128px
    :height: 128px
