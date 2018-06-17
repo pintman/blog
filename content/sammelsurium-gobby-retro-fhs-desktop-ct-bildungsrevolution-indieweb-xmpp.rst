@@ -7,8 +7,9 @@ Sammelsurium: Gobby, Retro, FHS, Desktop, c't, Bildungsrevolution, IndieWeb, XMP
 :slug: sammelsurium-gobby-retro-fhs-desktop-ct-bildungsrevolution-indieweb-xmpp
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 -  Mit
    `sendxmpp <http://manpages.ubuntu.com/manpages/karmic/man1/sendxmpp.1.html>`__

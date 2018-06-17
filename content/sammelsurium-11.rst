@@ -6,8 +6,9 @@ Sammelsurium
 :slug: sammelsurium-11
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Es ist mal wieder Zeit für einen Schwung frischer Links.
 

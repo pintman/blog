@@ -6,8 +6,9 @@ Sammelsurium - August 2015
 :slug: sammelsurium-16
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Im August war wieder viel los auf der "Datenautobahn". Ich habe meine
 persönlichen Perlen hier versammelt.

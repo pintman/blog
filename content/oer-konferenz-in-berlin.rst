@@ -35,9 +35,9 @@ Teilnehmer an und man bildet eine Arbeits- oder Diskussionsgruppe. Da
 weder die Vortragenden noch die Teilnehmer vorher feststehen, bleibt
 diese Veranstaltung offen für spontane Experimente.
 
-[caption id="attachment\_511" align="alignnone"
-width="300"]\ |Barcamp-Planung| Planung der Barcamp-Sessions[/caption]
+|Barcamp-Planung| 
 
+Planung der Barcamp-Sessions
  
 
 Doch worum ging es den Referenten und Veranstaltern inhaltlich bei der

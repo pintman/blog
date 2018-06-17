@@ -6,8 +6,9 @@ Sammelsurium - Oktober 2015
 :slug: sammelsurium-18
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Im Oktober haben ich wieder mehr gelesen - so in Büchern aus Papier.
 Daher haben es auch ein paar Seiten aus Büchern in meine Timeline

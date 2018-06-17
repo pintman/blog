@@ -6,8 +6,9 @@ Sammelsurium - Dezember 2015
 :slug: sammelsurium-20
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Mein Blick zurück auf den Dezember 2015. So viel war ja gar nicht los.
 

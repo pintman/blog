@@ -6,8 +6,9 @@ Sammelsurium - Juni 2015
 :slug: sammelsurium-14
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Trotz der heißen Tage im Juli gab es wieder eine Menge Links.
 

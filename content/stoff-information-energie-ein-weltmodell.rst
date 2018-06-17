@@ -6,10 +6,11 @@ Stoff, Information, Energie - Ein Weltmodell
 :slug: stoff-information-energie-ein-weltmodell
 :status: published
 
-[caption id="attachment\_1212" align="alignnone" width="1350"]\ |Norbert
-Beier: Informatik und die klassischen Naturwissenschaften (MNU Heft 3,
-2006)| Norbert Beier: Informatik und die klassischen Naturwissenschaften
-(MNU Heft 3, 2006)[/caption]
+|Norbert Beier: Informatik und die klassischen Naturwissenschaften (MNU Heft 3,
+2006)| 
+
+Norbert Beier: Informatik und die klassischen Naturwissenschaften
+(MNU Heft 3, 2006)
 
 Die aktuelle c't 14/2014 stellt in einem
 `Artikel <http://www.heise.de/ct/inhalt/2014/14/100/>`__ ein Modell der

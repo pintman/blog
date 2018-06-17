@@ -7,8 +7,10 @@ Sammelsurium: Cloud, MediaWiki, Windows, Comic, Dortmund, RSS, Minecraft, gpg, A
 :slug: sammelsurium-cloud-mediawiki-windows-comic-dortmund-rss-minecraft-gpg-algorithmen
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
+
 
 Pünktlich zu Ostern sind hier meine Links für das Osternest.
 

@@ -6,8 +6,9 @@ Sammelsurium - Juli 2015
 :slug: sammelsurium-15
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Hier sind wieder ein paar Links für euch.
 

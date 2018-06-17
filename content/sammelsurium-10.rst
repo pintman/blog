@@ -6,8 +6,9 @@ Sammelsurium
 :slug: sammelsurium-10
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 -  `Ending <http://www.kongregate.com/games/st33d/ending>`__ ist ein
    tolles Flashgame - eine Mischung aus Roguelike und Strategie.

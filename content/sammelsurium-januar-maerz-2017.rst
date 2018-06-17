@@ -6,8 +6,9 @@ Sammelsurium Januar-März 2017
 :slug: sammelsurium-januar-maerz-2017
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |image0|
-cc: Freepik[/caption]
+|image0|
+
+cc: Freepik
 
 **Tweets aus 2017-01**
 

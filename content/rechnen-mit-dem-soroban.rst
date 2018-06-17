@@ -7,8 +7,9 @@ Rechnen mit dem Soroban
 :slug: rechnen-mit-dem-soroban
 :status: published
 
-[caption id="attachment\_1235" align="alignnone" width="1024"]\ |cc:
-Pearls of Jannah| cc: Pearls of Jannah[/caption]
+|cc: Pearls of Jannah| 
+
+cc: Pearls of Jannah
 
 Der `Soroban <https://de.wikipedia.org/wiki/Soroban>`__ ist die
 japanische Version eines Abakus. Mit ihm kann man die Grundrechenarten

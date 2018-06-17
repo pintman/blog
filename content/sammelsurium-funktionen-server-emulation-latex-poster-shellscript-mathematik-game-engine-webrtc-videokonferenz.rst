@@ -7,8 +7,9 @@ Sammelsurium - Funktionen, Server, Emulation, Latex, Poster, shellscript, Mathem
 :slug: sammelsurium-funktionen-server-emulation-latex-poster-shellscript-mathematik-game-engine-webrtc-videokonferenz
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 -  `Jitsi Meet <https://jitsi.org/Projects/JitsiMeet>`__ ist eine freie
    Version eines Hangout-Servers.

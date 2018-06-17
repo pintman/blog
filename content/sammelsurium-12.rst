@@ -7,8 +7,9 @@ Sammelsurium
 :slug: sammelsurium-12
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Hoppla, da sind schon wieder ein paar Links aus dem Internet gefallen.
 Gut, dass ich sie aufgehoben habe.

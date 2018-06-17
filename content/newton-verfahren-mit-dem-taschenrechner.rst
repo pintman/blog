@@ -11,8 +11,9 @@ Newton-Verfahren mit dem Taschenrechner
 
    <div class="level2">
 
-[caption id="" align="alignnone" width="486"]\ |(cc) Stefan-Xp| (cc)
-Stefan-Xp[/caption]
+|(cc) Stefan-Xp| 
+
+(cc) Stefan-Xp
 
 Die Nullstellen-Berechnung nach dem `zuvor beschriebenen
 Newton-Verfahen <http://www.bakera.de/wp/2014/06/das-newton-verfahren-zur-bestimmung-von-nullstellen/>`__

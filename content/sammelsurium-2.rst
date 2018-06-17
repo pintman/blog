@@ -6,8 +6,9 @@ Sammelsurium (2)
 :slug: sammelsurium-2
 :status: published
 
-[caption id="attachment\_1475" align="alignnone" width="512"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 -  `Photomath <https://photomath.net/>`__ erkennt und löst mathematische
    Probleme.

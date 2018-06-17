@@ -6,8 +6,9 @@ Sammelsurium (1)
 :slug: sammelsurium
 :status: published
 
-[caption id="attachment\_1475" align="alignnone" width="512"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Eine Sammlung von Links, die es nicht in einen eigenen Artikel geschafft
 haben aber trotzdem interessant sind.

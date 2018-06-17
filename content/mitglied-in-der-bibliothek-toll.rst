@@ -7,11 +7,10 @@ Mitglied in der Bibliothek - Toll!
 :slug: mitglied-in-der-bibliothek-toll
 :status: published
 
-| [caption id="attachment\_941" align="alignnone"
-  width="1024"]\ |Dortmund, Stadt- und Landesbibliothek, Freihandbereich
-  1. Stock (Foto von Mathias Bigge - CC BY-SA 2.5)| Dortmund, Stadt- und
-  Landesbibliothek, Freihandbereich 1. Stock
-| (Foto von Mathias Bigge - CC BY-SA 2.5)[/caption]
+|Dortmund, Stadt- und Landesbibliothek, Freihandbereich 1. Stock (Foto von Mathias Bigge - CC BY-SA 2.5)| 
+
+Dortmund, Stadt- und Landesbibliothek, Freihandbereich 1. Stock
+(Foto von Mathias Bigge - CC BY-SA 2.5)
 
 Heute war ich mal wieder seit langer Zeit in der Dortmunder Stadt- und
 Landesbibliothek. Ich habe meine Frau begleitet, da sie ein paar Bücher

@@ -6,8 +6,9 @@ Sammelsurium September-Dezember 2016
 :slug: sammelsurium-september-dezember-2016
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |image0|
-cc: Freepik[/caption]
+|image0|
+
+cc: Freepik
 
 Die letzten Monate des Jahres 2016 in Tweets zusammengefasst:
 

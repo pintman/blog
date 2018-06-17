@@ -6,8 +6,9 @@ Sammelsurium Juli-September 2017
 :slug: sammelsurium-juli-september-2017
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |image0|
-cc: Freepik[/caption]
+|image0|
+
+cc: Freepik
 
 In den letzten drei Monaten ist doch wieder etwas in diesem Internet
 passiert. Meine sommerlichen Betrachtungen fasse ich hier zusammen.

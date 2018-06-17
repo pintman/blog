@@ -7,8 +7,9 @@
 :slug: hallo-welt-hp35s
 :status: published
 
-[caption id="attachment\_1143" align="alignnone" width="406"]\ |(cc)
-Stefan Vorkoetter| (cc) Stefan Vorkoetter[/caption]
+|(cc) Stefan Vorkoetter| 
+
+(cc) Stefan Vorkoetter
 
 Über
 den \ `HP35s <http://www.bakera.de/dokuwiki/doku.php/schule/hp_35s>`__

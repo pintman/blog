@@ -6,8 +6,9 @@ Ich wurde gehackt
 :slug: ich-wurde-gehackt
 :status: published
 
-[caption id="attachment\_1166" align="alignright" width="253"]\ |cc:
-Julien Deveaux| cc: Julien Deveaux[/caption]
+|cc: Julien Deveaux| 
+
+cc: Julien Deveaux
 
 28. März 2014: Am Montag erhielt ich eine E-Mail von Apple, mit der
 bitteren Information dass meine Apple-ID und E-Mail-Adresse geändert

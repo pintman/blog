@@ -6,8 +6,9 @@ Sammelsurium - Juli, August 2016
 :slug: sammelsurium-juli-august-2016
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Hier findet ihr die Ergebnisse meiner Reisen auf der Datenautobahn in
 den Sommermonaten Juli und August.

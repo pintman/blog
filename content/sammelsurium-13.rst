@@ -6,8 +6,9 @@ Sammelsurium
 :slug: sammelsurium-13
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 -  Bekommen macht glücklicher als Haben. #comic
    `Quelle <http://www.gocomics.com/calvinandhobbes/2015/05/30/>`__

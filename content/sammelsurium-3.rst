@@ -6,8 +6,9 @@ Sammelsurium (3)
 :slug: sammelsurium-3
 :status: published
 
-[caption id="attachment\_1475" align="alignnone" width="512"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Wieder ist eine Woche um. Die spannendsten Links habe ich hier
 versammelt.

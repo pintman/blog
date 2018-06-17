@@ -6,8 +6,9 @@ Sammelsurium - März, April 2016
 :slug: sammelsurium-maerz-april-2016
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Es wieder eine Weile her seit meiner letzten Zusammenfassung über das
 Netzgeschehen. Es meine Netz-Splitter aus dem März und April.

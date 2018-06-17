@@ -6,8 +6,9 @@ Sammelsurium - November 2015
 :slug: sammelsurium-19
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Meine Gedanken, Links und Entdeckungen aus dem November.
 

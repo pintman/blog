@@ -6,8 +6,9 @@ Sammelsurium (8)
 :slug: sammelsurium-8
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Das Jahr nähert sich dem Ende und ich habe wieder ein paar interessante
 Links zusammengetragen.

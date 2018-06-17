@@ -6,8 +6,9 @@ Sammelsurium (5)
 :slug: sammelsurium-5
 :status: published
 
-[caption id="attachment\_1475" align="alignnone" width="512"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 -  Warum hat Yogi Bär einen Kragen und eine Krawatte aber kein Hemd? Das
    hat alles einen `triftigen

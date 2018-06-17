@@ -6,8 +6,9 @@ Sammelsurium - Januar und Februar 2016
 :slug: sammelsurium-januar-und-februar-2016
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Es war wenig los in den vergangenen zwei Monaten. Daher fasse ich meine
 Tweets auch diesmal in einem Blogpost zusammen. Viel Spaß beim Stöbern.

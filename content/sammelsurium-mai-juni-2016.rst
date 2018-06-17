@@ -6,8 +6,9 @@ Sammelsurium - Mai, Juni 2016
 :slug: sammelsurium-mai-juni-2016
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Die Monate vergehen. Im Rückblick auf die Monate Mai und Juni haben sich
 wieder viele interessante Links gesammelt.

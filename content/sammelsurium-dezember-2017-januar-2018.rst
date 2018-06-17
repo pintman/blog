@@ -6,8 +6,9 @@ Sammelsurium Dezember 2017 - Januar 2018
 :slug: sammelsurium-dezember-2017-januar-2018
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |image0|
-cc: Freepik[/caption]
+|image0|
+
+cc: Freepik
 
 Wieder sind zwei Monate vergangen. Ein Rückblick auf die letzten
 Twitterfeeds ist auch immer wieder ein Blick auf Dinge, die man schon

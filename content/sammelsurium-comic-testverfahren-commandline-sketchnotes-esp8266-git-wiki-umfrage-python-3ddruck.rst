@@ -7,8 +7,9 @@ Sammelsurium - Comic, Testverfahren, Commandline, Sketchnotes, ESP8266, git, wik
 :slug: sammelsurium-comic-testverfahren-commandline-sketchnotes-esp8266-git-wiki-umfrage-python-3ddruck
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 -  Das `Privacy-Handbuch <https://privacy-handbuch.de/>`__ stellt
    grundlegende Konzepte und Tools um den Datenschutz vor. Kurz und

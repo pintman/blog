@@ -7,11 +7,12 @@ Lernen durch Lehren - eine Visualisierung
 :slug: lernen-durch-lehren-eine-visualisierung
 :status: published
 
-[caption id="attachment\_1000" align="alignnone"
-width="741"]\ |2014-05-10-LdL Visualisierung| Basierend auf Bildern von
+|2014-05-10-LdL Visualisierung| 
+
+Basierend auf Bildern von
 Juan Pablo Bravo (Lehrer vor Tafel) und Pete Fecteau (Lerner mit Buch).
 Lizenz:
-`CC-BY <https://creativecommons.org/licenses/by/3.0/us/>`__\ [/caption]
+`CC-BY <https://creativecommons.org/licenses/by/3.0/us/>`_
 
 Derzeit läuft die `erste Woche des
 LdLMooc <http://www.ldlmooc.blogspot.de/p/woche-1.html>`__. Dazu eine

@@ -6,8 +6,9 @@ Sammelsurium (6)
 :slug: sammelsurium-6
 :status: published
 
-[caption id="attachment\_1475" align="alignnone" width="512"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 In dieser und der letzten Woche ging es viel darum, was unter der Haube,
 also im Inneren eines Computers, passiert. Daher orientieren sich die

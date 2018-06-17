@@ -6,8 +6,9 @@ Sammelsurium - September 2015
 :slug: sammelsurium-17
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |cc:
-Freepik| cc: Freepik[/caption]
+|cc: Freepik| 
+
+cc: Freepik
 
 Ich blicke zurück auf den September.
 

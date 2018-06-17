@@ -6,8 +6,9 @@ Sammelsurium Oktober - November 2017
 :slug: sammelsurium-oktober-november-2017
 :status: published
 
-[caption id="attachment\_1523" align="alignnone" width="506"]\ |image0|
-cc: Freepik[/caption]
+|image0|
+
+cc: Freepik
 
  
 
