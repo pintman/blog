@@ -64,7 +64,7 @@ Anlagen
 '''''''
 
 -  Firmware:
-   `esp8266-20160825-v1.8.3-49-ga589fa3.bin <https://www.bakera.de/wp/wp-content/uploads/2016/08/esp8266-20160825-v1.8.3-49-ga589fa3.bin_.zip>`__
+   `esp8266-20160825-v1.8.3-49-ga589fa3.bin <media/esp8266-20160825-v1.8.3-49-ga589fa3.bin_.zip>`__
 -  Vortrag der Froscon 2016: `Python für das Internet der Dinge -
    Einführung in MicroPython für ESP8266 und Cortex-M4
    Mikroprozessorboards <https://media.ccc.de/v/froscon2016-1791-python_fur_das_internet_der_dinge>`__
