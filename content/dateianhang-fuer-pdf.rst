@@ -18,4 +18,4 @@ pdftk. Unter Linux klappt es mit der folgenden Kommandozeile.
     ~> pdftk datei.pdf attach_files anhang.odt to_page 1 output dateiMitAnhang.pdf
 
 Hier findet ihr ein `Beispieldokument mit
-Anhang <images/2014/10/PDFmitAnhang.pdf>`__.
+Anhang <media/PDFmitAnhang.pdf>`__.

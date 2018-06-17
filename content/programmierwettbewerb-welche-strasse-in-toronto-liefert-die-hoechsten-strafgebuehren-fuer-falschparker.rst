@@ -16,6 +16,6 @@ mit einer spannenden Aufgabenstellung.
 
 Dazu stellt die Webseite die Rohdaten  in Form einer CSV-Datei zur
 Verfügung:
-`Parking\_Ticket\_Contest\_Data <http://bakera.de/wp/wp-content/uploads/2013/11/Parking_Ticket_Contest_Data.zip>`__
+`Parking\_Ticket\_Contest\_Data <media/Parking_Ticket_Contest_Data.zip>`__
 
 Als Preise winken Ruhm und Amazon-Gutscheine.

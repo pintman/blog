@@ -185,4 +185,4 @@ Vielleicht treffe ich auch einen von euch mal dort?!
    :class: alignnone size-large wp-image-581
    :width: 625px
    :height: 332px
-   :target: http://bakera.de/wp/wp-content/uploads/2013/11/Snapshot_013.png
+   :target: images/2013/11/Snapshot_013.png
