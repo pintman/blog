@@ -96,8 +96,7 @@ Text, Bildern und der phantastischen Lücke dazwischen.
 
 .. |Comic Strip von Elisabeth Hass (The Noun Project)| image:: images/2014/07/icon_27149.png
    :class: size-full wp-image-1301
-   :width: 1200px
-   :height: 1200px
+   :width: 100%
    :target: images/2014/07/icon_27149.png
 .. |Comics_richtig_lesen| image:: images/2014/07/Comics_richtig_lesen-197x300.jpg
    :class: alignnone size-medium wp-image-1306

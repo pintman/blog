@@ -82,5 +82,5 @@ Anlagen
 
 .. |esp8266| image:: images/2016/08/esp8266.jpeg
    :class: alignnone size-full wp-image-1986
-   :width: 1280px
-   :height: 719px
+   :width: 100%
+

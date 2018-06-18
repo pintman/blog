@@ -26,5 +26,4 @@ aufgrund von Daten für uns treffen lassen.
 
 .. |cc: Schutz| image:: images/Anscombes_Quartet.png
    :class: size-full wp-image-1252
-   :width: 1000px
-   :height: 727px
+   :width: 100%

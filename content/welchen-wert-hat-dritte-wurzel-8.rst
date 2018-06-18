@@ -155,13 +155,11 @@ andere Überlegungen in Betracht.
    :target: images/2014/06/WurzelNegativ-Geogebra.png
 .. |WurzelNegativ-Casiofx-991ES-2| image:: images/2014/06/WurzelNegativ-Casiofx-991ES-2.jpg
    :class: alignnone size-full wp-image-1099
-   :width: 1731px
-   :height: 1215px
+   :width: 100%
    :target: images/2014/06/WurzelNegativ-Casiofx-991ES-2.jpg
 .. |WurzelNegativ-TI-89| image:: images/2014/06/WurzelNegativ-TI-89.jpg
    :class: alignnone size-full wp-image-1101
-   :width: 1869px
-   :height: 1295px
+   :width: 100%
    :target: images/2014/06/WurzelNegativ-TI-89.jpg
 .. |WurzelNegativ-HP48| image:: images/2014/06/WurzelNegativ-HP48.png
    :class: alignnone size-full wp-image-1104

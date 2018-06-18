@@ -25,6 +25,5 @@ andere soziale Medien begleiten.
 
 .. |ldlmooc2-logo| image:: images/2014/08/ldlmooc2-logo.jpg
    :class: alignnone size-full wp-image-1350
-   :width: 900px
-   :height: 900px
+   :width: 100%
    :target: images/2014/08/ldlmooc2-logo.jpg

@@ -19,6 +19,5 @@ natürlich stolz wie Bolle bin, zeige ich euch meine Medaillen.
 
 .. |2014-05-29 Auszeichnungen| image:: images/2014/05/2014-05-29-Auszeichnungen.png
    :class: alignnone size-full wp-image-1051
-   :width: 746px
-   :height: 833px
+   :width: 100%
    :target: images/2014/05/2014-05-29-Auszeichnungen.png

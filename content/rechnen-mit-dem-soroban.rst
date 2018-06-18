@@ -30,6 +30,5 @@ Rechenhilfe.
 
 .. |cc: Pearls of Jannah| image:: images/2014/06/soroban.jpg
    :class: size-full wp-image-1235
-   :width: 1024px
-   :height: 685px
+   :width: 100%
    :target: images/2014/06/soroban.jpg
