@@ -12,7 +12,8 @@ from pelicanconf import *
 
 #SITEURL = 'https://www.bakera.de/wp'
 #SITEURL = 'https://pintman.gitlab.io/blog'
-SITEURL = 'http://gl.bakera.de'
+#SITEURL = 'http://gl.bakera.de'
+SITEURL = 'http://blog.bakera.de'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
