@@ -2,7 +2,7 @@ Videoreihe: Mit Python Funktionen zeichnen
 ##########################################
 :date: 2018-06-18 21:00
 :author: marco.bakera
-:tags: Video, Programmieren, Python
+:tags: Video, Programmierung, Python, Funktionen, Mathe
 :status: draft
 
 Ich habe mich mal wieder an ein paar Videos versucht, nachdem es auch meinem
