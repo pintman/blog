@@ -22,3 +22,9 @@ Bochum (kurz `TBS1 <http://www.tbs1.de>`__).
    :width: 150px
    :height: 190px
    :target: images/2014/09/bakera_marco.jpg
+
+Tags
+----
+
+Alle Artikel sind über Tags verschlagwortet. Auf einer eigenen Seite
+gibt es eine Übersicht über `alle Tags <../tags.html>`_
