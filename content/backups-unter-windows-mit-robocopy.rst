@@ -13,7 +13,8 @@ Standardinstallation von Windows vorhanden und spiegelt zuverlässig und
 schnell komplette Verzeichnisstrukturen - z.B. von einem USB-Stick auf
 den heimischen Rechner.
 
-Hier ist noch einmal das kommentierte Skript, das ich in dem Video
+Hier ist noch einmal das kommentierte Skript, das ich in dem 
+`Video <//www.youtube-nocookie.com/embed/s2go-DbY1rs?rel=0>`_
 vorgestellt habe.
 
 ::
