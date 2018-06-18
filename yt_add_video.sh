@@ -15,4 +15,5 @@ wget -O $IMGPATH/$VIDID.jpg $URL
 
 echo "Add to article:"
 echo ".. image:: $IMGPATH/$VIDID.jpg"
+echo "   :alt: Youtube-Video"
 echo "   :target: https://www.youtube-nocookie.com/embed/${VIDID}?rel=0"
