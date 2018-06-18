@@ -2,3 +2,5 @@ output/
 __pycache__/
 ftpup.sh
 venv/
+pelican.pid
+srv.pid
