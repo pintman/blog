@@ -11,7 +11,8 @@ Man kann sich über die serielle Schnittstelle mit dem Raspberry Pi
 verbinden. Dazu nutzt man bestimmte Pins der GPIO-Schnittstelle, einen
 Konverter USB-nach-RS232 und drei Kabel.
 
-Die Details erkläre ich in dem Video.
+Die Details erkläre ich in dem 
+`Video <https://www.youtube-nocookie.com/embed/ghDI3usCk-4?rel=0>`_.
 
 **Nachtrag:** Ein Arduino lässt sich auch als Wandler zwischen USB und
 serieller Schnittstelle verwenden. Dazu müssen GND und RST (bzw. Reset)
