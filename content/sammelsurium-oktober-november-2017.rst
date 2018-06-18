@@ -152,7 +152,7 @@ cc: Freepik
    #thinstation #rpitc #thinclient /home/bakera/blog 
    `[Quelle] <https://www.bakera.de/wp/2017/11/remote-desktops/>`__
 
-.. |image0| image:: https://www.bakera.de/wp/wp-content/uploads/2014/12/wwwSitzen2.png
+.. |image0| image:: images/2014/12/wwwSitzen2.png
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px

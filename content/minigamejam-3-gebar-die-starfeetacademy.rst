@@ -27,11 +27,11 @@ Der nächste Termin steht auch schon fest: am 12. Mai geht es weiter.
 
 |image1|
 
-.. |image0| image:: images/starfeet-768x1024.jpg
+.. |image0| image:: images/2018/02/starfeet-768x1024.jpg
    :class: alignnone size-large wp-image-2249
    :width: 625px
    :height: 833px
-   :target: images/starfeet-768x1024.jpg
+   :target: images/2018/02/starfeet-768x1024.jpg
 .. |image1| image:: images/miniggamejamdo.png
    :class: alignnone size-full wp-image-2076
    :width: 790px

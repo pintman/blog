@@ -116,7 +116,7 @@ cc: Freepik
 -  Eine ausführliche Liste mit Links zum Thema #livecoding
    `[Quelle] <https://github.com/lvm/awesome-livecoding/blob/master/README.md>`__
 
-.. |image0| image:: https://www.bakera.de/wp/wp-content/uploads/2014/12/wwwSitzen2.png
+.. |image0| image:: images/2014/12/wwwSitzen2.png
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px

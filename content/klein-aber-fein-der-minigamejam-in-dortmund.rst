@@ -57,11 +57,11 @@ wieder mit mir.
 
  
 
-.. |image0| image:: https://www.bakera.de/wp/wp-content/uploads/2017/06/miniggamejamdo.png
+.. |image0| image:: images/2017/06/miniggamejamdo.png
    :class: alignnone size-full wp-image-2076
    :width: 790px
    :height: 144px
-.. |image1| image:: https://www.bakera.de/wp/wp-content/uploads/2017/06/osziflap_overview_all.jpg
+.. |image1| image:: images/2017/06/osziflap_overview_all.jpg
    :class: alignnone size-full wp-image-2078
    :width: 1638px
    :height: 2048px

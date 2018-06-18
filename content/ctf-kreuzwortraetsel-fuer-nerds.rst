@@ -53,13 +53,13 @@ Aufgaben-Pool dienen.
 | int(round(30 + 470 / (1 + (max(0, solves - 1) / 11.92201) \*\*
   1.206069)))
 
-.. |image0| image:: https://www.bakera.de/wp/wp-content/uploads/2018/01/Racing_Flag_Blue-800px-300x288.png
+.. |image0| image:: images/2018/01/Racing_Flag_Blue-800px-300x288.png
    :class: alignnone size-medium wp-image-2157
    :width: 300px
    :height: 288px
-   :target: https://www.bakera.de/wp/wp-content/uploads/2018/01/Racing_Flag_Blue-800px.png
-.. |image1| image:: https://www.bakera.de/wp/wp-content/uploads/2018/01/Screenshot-2018-1-1-https-junior-34c3ctf-ccc-ac.png
+   :target: images/2018/01/Racing_Flag_Blue-800px.png
+.. |image1| image:: images/2018/01/Screenshot-2018-1-1-https-junior-34c3ctf-ccc-ac.png
    :class: alignnone size-full wp-image-2160
    :width: 486px
    :height: 246px
-   :target: https://www.bakera.de/wp/wp-content/uploads/2018/01/Screenshot-2018-1-1-https-junior-34c3ctf-ccc-ac.png
+   :target: images/2018/01/Screenshot-2018-1-1-https-junior-34c3ctf-ccc-ac.png

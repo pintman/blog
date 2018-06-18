@@ -89,8 +89,8 @@ Meine Gedanken, Links und Entdeckungen aus dem November.
 -  Grundschüler "performen" Roboter von Kraftwerk.
    `Quelle <https://www.youtube.com/watch?v=WH-ycguHLBU>`__
 
-.. |cc: Freepik| image:: https://www.bakera.de/wp/wp-content/uploads/2014/12/wwwSitzen2.png
+.. |cc: Freepik| image:: images/2014/12/wwwSitzen2.png
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px
-   :target: https://www.bakera.de/wp/wp-content/uploads/2014/12/wwwSitzen2.png
+   :target: images/2014/12/wwwSitzen2.png

@@ -41,18 +41,18 @@ Jetzt beginnt die Nachbereitung, in der viele Ideen und Projekte
 umgesetzt und die `Aufzeichnungen der
 Vorträge <https://media.ccc.de/c/34c3>`__ anschaut werden wollen.
 
-.. |image0| image:: https://www.bakera.de/wp/wp-content/uploads/2018/01/IMG_20171227_080203117-300x169.jpg
+.. |image0| image:: images/2018/01/IMG_20171227_080203117-300x169.jpg
    :class: alignnone wp-image-2166
    :width: 412px
    :height: 232px
-   :target: https://www.bakera.de/wp/wp-content/uploads/2018/01/IMG_20171227_080203117.jpg
-.. |image1| image:: https://www.bakera.de/wp/wp-content/uploads/2018/01/IMG_20171228_131208504-1024x575.jpg
+   :target: images/2018/01/IMG_20171227_080203117.jpg
+.. |image1| image:: images/2018/01/IMG_20171228_131208504-1024x575.jpg
    :class: alignnone size-large wp-image-2181
    :width: 625px
    :height: 351px
-   :target: https://www.bakera.de/wp/wp-content/uploads/2018/01/IMG_20171228_131208504.jpg
-.. |image2| image:: https://www.bakera.de/wp/wp-content/uploads/2018/01/IMG_20171228_114802842-1024x575.jpg
+   :target: images/2018/01/IMG_20171228_131208504.jpg
+.. |image2| image:: images/2018/01/IMG_20171228_114802842-1024x575.jpg
    :class: alignnone size-large wp-image-2183
    :width: 625px
    :height: 351px
-   :target: https://www.bakera.de/wp/wp-content/uploads/2018/01/IMG_20171228_114802842.jpg
+   :target: images/2018/01/IMG_20171228_114802842.jpg

@@ -37,8 +37,8 @@ wir uns mehr den langweiligen Ergebnissen zuwenden?!
 
  
 
-.. |image0| image:: https://www.bakera.de/wp/wp-content/uploads/2018/01/Screenshot-2018-1-4-scienceisbroken-pdf.png
+.. |image0| image:: images/2018/01/Screenshot-2018-1-4-scienceisbroken-pdf.png
    :class: alignnone size-full wp-image-2207
    :width: 572px
    :height: 575px
-   :target: https://www.bakera.de/wp/wp-content/uploads/2018/01/Screenshot-2018-1-4-scienceisbroken-pdf.png
+   :target: images/2018/01/Screenshot-2018-1-4-scienceisbroken-pdf.png

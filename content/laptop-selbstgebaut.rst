@@ -24,8 +24,8 @@ weitertreibt, mit zusätzlichen Auf- und Anbauten ausstattet ist und Teil
 einer 2017 fertig gestellten Abschlussarbeit ist. Die Hardware wird
 unter `spypi.ch <http://spypi.ch/>`__ beschrieben.
 
-.. |image0| image:: https://www.bakera.de/wp/wp-content/uploads/2018/01/IMG_20171228_112705311-1024x575.jpg
+.. |image0| image:: images/2018/01/IMG_20171228_112705311-1024x575.jpg
    :class: alignnone size-large wp-image-2220
    :width: 625px
    :height: 351px
-   :target: https://www.bakera.de/wp/wp-content/uploads/2018/01/IMG_20171228_112705311.jpg
+   :target: images/2018/01/IMG_20171228_112705311.jpg
