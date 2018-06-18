@@ -307,7 +307,7 @@ des oben erwähnten
      
      
 
-.. |ic_chat_black_48dp| image:: https://www.bakera.de/wp/wp-content/uploads/2015/10/ic_chat_black_48dp.png
+.. |ic_chat_black_48dp| image:: images/2015/10/ic_chat_black_48dp.png
    :class: alignright size-full wp-image-1870
    :width: 144px
    :height: 144px

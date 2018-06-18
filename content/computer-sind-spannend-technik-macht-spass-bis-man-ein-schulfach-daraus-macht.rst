@@ -239,11 +239,11 @@ Dieser Artikel erschien zuerst in der Juniausgabe 2016 der Zeitschrift
 
    </div>
 
-.. |projekttag-diagramm| image:: https://www.bakera.de/wp/wp-content/uploads/2016/10/Projekttag-Diagramm.png
+.. |projekttag-diagramm| image:: images/2016/10/Projekttag-Diagramm.png
    :class: alignnone size-full wp-image-2013
    :width: 682px
    :height: 275px
-.. |2015_ita-messe| image:: https://www.bakera.de/wp/wp-content/uploads/2016/10/2015_ITA-Messe.jpg
+.. |2015_ita-messe| image:: images/2016/10/2015_ITA-Messe.jpg
    :class: alignnone size-full wp-image-2014
    :width: 755px
    :height: 500px

@@ -48,8 +48,8 @@ Anschließend werden die geschriebenen Daten wieder gelesen.
 
  
 
-.. |image0| image:: https://www.bakera.de/wp/wp-content/uploads/2018/01/webmichl-sd-card-800px.png
+.. |image0| image:: images/2018/01/webmichl-sd-card-800px.png
    :class: alignnone size-full wp-image-2191
    :width: 800px
    :height: 510px
-   :target: https://www.bakera.de/wp/wp-content/uploads/2018/01/webmichl-sd-card-800px.png
+   :target: images/2018/01/webmichl-sd-card-800px.png

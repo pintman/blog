@@ -460,8 +460,8 @@ Kurzfilm (72min.) "Auf Nummer Sicher?" empfehlen. Man kann ihn sich bei
 Archive.org herunterladen oder direkt ansehen:
 http://www.archive.org/details/AufNummersicher*
 
-.. |cc: Richard Wilkinson| image:: https://www.bakera.de/wp/wp-content/uploads/2015/01/398px-Little_Brother_illustration_by_Richard_Wilkinson_01.jpg
+.. |cc: Richard Wilkinson| image:: images/2015/01/398px-Little_Brother_illustration_by_Richard_Wilkinson_01.jpg
    :class: size-full wp-image-1594
    :width: 398px
    :height: 599px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2015/01/398px-Little_Brother_illustration_by_Richard_Wilkinson_01.jpg
+   :target: images/2015/01/398px-Little_Brother_illustration_by_Richard_Wilkinson_01.jpg

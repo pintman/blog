@@ -31,7 +31,7 @@ funktionierenden Computer münden.
    mergen und neben Visual Studio Express wird es eine Community-Version
    geben.
 
-.. |cc: Freepik| image:: https://www.bakera.de/wp/wp-content/uploads/2014/10/wwwSitzen.png
+.. |cc: Freepik| image:: images/2014/10/wwwSitzen.png
    :class: size-full wp-image-1475
    :width: 512px
    :height: 512px

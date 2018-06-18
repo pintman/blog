@@ -128,7 +128,7 @@ Trotz der heißen Tage im Juli gab es wieder eine Menge Links.
    `Quelle <http://www.radiotux.de/index.php?url=archives/7998-RadioTux-Sendung-Juni-2015.html>`__
 -  Bringt mehr Bänke und Musikinstrumente in die Innenstädte.
 
-.. |cc: Freepik| image:: https://www.bakera.de/wp/wp-content/uploads/2014/12/wwwSitzen2.png
+.. |cc: Freepik| image:: images/2014/12/wwwSitzen2.png
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px

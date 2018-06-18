@@ -33,8 +33,8 @@ Den gewerblichen Ausweis gibt es schon ab 50€ pro Jahr.
 Jetzt habe ich auf jeden Fall wieder genug Lesefutter für die nächsten
 Wochen.
 
-.. |Dortmund, Stadt- und Landesbibliothek, Freihandbereich 1. Stock (Foto von Mathias Bigge - CC BY-SA 2.5)| image:: http://www.bakera.de/wp/wp-content/uploads/2014/04/1024px-Biblitohek-0020.jpg
+.. |Dortmund, Stadt- und Landesbibliothek, Freihandbereich 1. Stock (Foto von Mathias Bigge - CC BY-SA 2.5)| image:: images/2014/04/1024px-Biblitohek-0020.jpg
    :class: size-full wp-image-941
    :width: 1024px
    :height: 768px
-   :target: http://www.bakera.de/wp/wp-content/uploads/2014/04/1024px-Biblitohek-0020.jpg
+   :target: images/2014/04/1024px-Biblitohek-0020.jpg

@@ -54,7 +54,7 @@ Pünktlich zu Ostern sind hier meine Links für das Osternest.
    hatte ich hierfür immer Robocopy genutzt. Mit Syncthing fahre ich nun
    bequemer.
 
-.. |cc: Freepik| image:: https://www.bakera.de/wp/wp-content/uploads/2014/12/wwwSitzen2.png
+.. |cc: Freepik| image:: images/2014/12/wwwSitzen2.png
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px
