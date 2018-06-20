@@ -14,5 +14,11 @@ Konsole und innerhalb der PictureBox.
 
 Viel Spaß!
 
+.. image:: images/2018/06/_JFEJRdzGIU.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/_JFEJRdzGIU?rel=0
+
+
 Alle wichtigen Links stehen auf meiner Seite im Artikel
 `LiveCoding <http://wiki.bakera.de/doku.php/schule/live_coding>`__.
+

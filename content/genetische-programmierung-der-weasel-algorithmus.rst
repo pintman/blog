@@ -34,4 +34,6 @@ habe. Deshalb ist es mit 42 Minuten diesmal etwas länger geworden. Dafür
 sieht man aber auch jeden Fehler, den ich gemacht und jede Entscheidung,
 die ich während der Arbeit getroffen habe.
 
-
+.. image:: images/2018/06/FKj0kRSr4yI.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/FKj0kRSr4yI?rel=0
