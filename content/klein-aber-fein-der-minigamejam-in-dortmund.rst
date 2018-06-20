@@ -63,5 +63,4 @@ wieder mit mir.
    :height: 144px
 .. |image1| image:: images/2017/06/osziflap_overview_all.jpg
    :class: alignnone size-full wp-image-2078
-   :width: 1638px
-   :height: 2048px
+   :width: 100%
