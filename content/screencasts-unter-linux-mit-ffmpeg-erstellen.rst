@@ -14,3 +14,7 @@ Skript abspeichern und fortan benutzen.
 
 `Weiterlesen im
 Wiki... <http://bakera.de/dokuwiki/doku.php/schule/screencast#linux>`__
+
+.. image:: images/2018/06/3WYwUpfsFDE.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/3WYwUpfsFDE?rel=0

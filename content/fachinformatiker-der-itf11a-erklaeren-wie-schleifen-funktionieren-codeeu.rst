@@ -8,3 +8,7 @@ Fachinformatiker der ITF11a erklären, wie Schleifen funktionieren #codeEU
 
 `Code Week
 EU <http://bakera.de/wp/2013/11/25-11-30-11-europe-code-week-denn-programmieren-macht-spass/>`__
+
+.. image:: images/2018/06/1sB4LlK4O6I.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/1sB4LlK4O6I?rel=0

@@ -13,3 +13,7 @@ Ergebnisse mit anderen YaCy-Installationen abgeglichen, wenn ich dies
 wünsche.
 
 `> Artikel im Wiki <http://bakera.de/dokuwiki/doku.php/schule/yacy>`__
+
+.. image:: images/2018/06/Q3nbFhp_B7M.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/Q3nbFhp_B7M?rel=0

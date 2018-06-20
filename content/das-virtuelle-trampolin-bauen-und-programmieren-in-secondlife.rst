@@ -115,6 +115,11 @@ kann dennoch den detaillierten Ausführungen meines Lehrers folgen. Er
 erklärt alles langsam und ruhig für jeden, geht auf meine Nachfragen
 ein.
 
+.. image:: images/2018/06/zk-w1TvFOYc.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/zk-w1TvFOYc?rel=0
+
+
 Um 23 Uhr ist die Stunde zu Ende. Ich gebe den beiden Lehrer eine kleine
 Spende in ihr Spendensäckel, dass sie neben sich aufgestellt haben. Hier
 wird mit einer eigenen virtuellen Währung bezahlt: dem Linden-Dollar L$.
@@ -186,3 +191,4 @@ Vielleicht treffe ich auch einen von euch mal dort?!
    :width: 625px
    :height: 332px
    :target: images/2013/11/Snapshot_013.png
+

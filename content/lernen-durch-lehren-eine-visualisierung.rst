@@ -23,6 +23,10 @@ steht für "Lernen durch Lehren" und beschreibt eine Unterrichtsmethode,
 bei der Schüler lernen, indem sie sich den Stoff gegenseitig vermitteln.
 Sie wurde Anfang der 80er Jahre von Jean-Pol Martin entwickelt.
 
+.. image:: images/2018/06/56fqUzhv2W8.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/56fqUzhv2W8?rel=0
+
 Zu Beginn des MOOC erklärt der "Vater" von LdL In einem
 Einführungsvideo, wie das Verfahren eingesetzt werden kann. Es wird
 häufig über den Fremdsprachenunterricht gesprochen und Beispiele daraus
@@ -31,6 +35,10 @@ IT-Fächern wie Programmieren ausprobieren. Für den Bereich Mathematik
 gibt es ein schönes Beispiel von Christian Spannagel: In einer
 Mathematikvorlesung zeigt er, wie das sogenannte "aktive Plenum"
 gemeinsam eine Aufgabe löst.
+
+.. image:: images/2018/06/5y0CZ-C5srk.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/5y0CZ-C5srk?rel=0
 
 Bei der ersten Aufgabe des MOOCs soll eine Visualisierung von LdL
 entstehen. Ich habe mir dazu Piktogramme zu den drei Begriffen Lerner,

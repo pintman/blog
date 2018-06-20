@@ -18,3 +18,4 @@ Week <http://codeweek.eu/>`__ statt.
     beginners. And remember, two is a group already.
 
 
+`Video bei vimeo <https://player.vimeo.com/video/79755229>`_

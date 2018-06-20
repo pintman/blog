@@ -16,6 +16,8 @@ eigenen Konferenz in diesem Jahr nachlegen. Über 300 Teilnehmerinnen und
 Teilnehmer hatten sich angemeldet, um die Aktualität und Wichtigkeit des
 Themas unter Beweis zu stellen.
 
+`Video mit Impressionen bei vimeo <https://player.vimeo.com/video/75003895>`_
+
 Neben klassischen Vorträgen, die an sechs unterschiedlichen Orten in der
 traditionsreichen Berliner Kalkscheune parallel vorgetragen wurden,
 wagte das Orga-Team mit zwei besonderen Formen einen mutigen Schritt in
