@@ -16,6 +16,11 @@ dokumentieren, habe ich noch nie verstanden. Deshalb habe ich selbst ein
 Video gedreht, um zu prüfen, ob wenigstens das Erstellen des Videos Spaß
 macht.
 
+.. image:: images/2018/06/i_NRUgqOB0w.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/i_NRUgqOB0w?rel=0
+
+
 Als Mathenerd packe ich natürlich einen Taschenrechner aus: den
 `HP35s <https://de.wikipedia.org/wiki/HP_35s>`__. Einen der wenigen
 Rechner auf dem Markt, der die \ `Umgekehrt Polnische
@@ -29,3 +34,4 @@ schamlos, aber das darf man in solchen Videos natürlich auch.
    :class: size-medium wp-image-1139
    :width: 165px
    :height: 300px
+

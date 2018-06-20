@@ -16,6 +16,12 @@ Zeichenketten
 anzuzeigen <http://www.bakera.de/wp/2014/06/hallo-welt-hp35s/>`__. Den
 Quelltext und auch das laufende Programm könnt ihr im Video sehen.
 
+.. image:: images/2018/06/1gbubP8uCdI.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/1gbubP8uCdI?rel=0
+
+
 .. |image0| image:: http://www.bakera.de/dokuwiki/lib/exe/fetch.php/schule/hp35sanimation.gif
    :class: media
    :target: http://www.bakera.de/dokuwiki/lib/exe/detail.php/schule/hp35sanimation.gif?id=schule%3Ahp_35s
+
