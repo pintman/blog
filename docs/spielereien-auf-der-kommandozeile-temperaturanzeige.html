@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>Spielereien auf der Kommandozeile: Temperaturanzeige</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/spielereien-auf-der-kommandozeile-temperaturanzeige.html" rel="bookmark"
+           title="Permalink to Spielereien auf der Kommandozeile: Temperaturanzeige">Spielereien auf der Kommandozeile: Temperaturanzeige</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-01-26T18:02:00+01:00">
+                Published: So 26 Januar 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/linux.html">Linux</a> <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> </p>
+</footer><!-- /.post-info -->      <p>Ich fragte mich, wie schwer es ist, die aktuelle Temperatur für meinem
+Wohnort Dortmund zu bestimmen. Mit der Bash und mit Hilfe der
+<a class="reference external" href="http://developer.yahoo.com/weather/">Yahoo-Weather-API</a> lies sich
+das Problem mit einer Zeile lösen. Die API benutzt eine sogenannte WOEID
+(Where On Earth ID), die ich mir aus der Adresszeile der
+<a class="reference external" href="http://weather.yahoo.com/">Yahoo-Wetterseite</a> geliehen habe. Für
+Dortmund lautet sie 645458.</p>
+<pre class="literal-block">
+curl -s 'http://weather.yahooapis.com/forecastrss?w=645458&amp;u=c'
+  | grep yweather:condition
+  | sed -e 's/.*temp=&quot;//'
+  | sed -e 's/&quot;.*//'
+</pre>
+<ol class="arabic simple">
+<li>Zunächst hole ich mir mit curl den RSS-Feed für meinen Ort und wähle
+mit u=c die Einheit Celsius für die Temperaturen. Die Option -s
+(silent) unterdrückt die Fortschrittsanzeige von curl.</li>
+<li>Mit grep extrahiere ich die Zeile mit den aktuellen
+Wetterinformationen.</li>
+<li>Sed schneidet anschließend den vorderen Teil der Anzeige bis zur
+Temperatur ab.</li>
+<li>Zum Schluss löscht das zweite sed alles ab dem Anführungszeichen
+hinter der Temperaturangabe.</li>
+</ol>
+<p>Ich weiß natürlich, dass die Lösung eher schnell und pragmatisch, denn
+erweiterbar und robust ist. Ich hoffe, sie zeigt dennoch das
+Zusammenspiel verschiedener Linux-Tools und die Macht von Pipes.</p>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

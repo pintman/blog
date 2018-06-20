@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>CI/CD mit Gitlab</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/ci-cd-mit-gitlab.html" rel="bookmark"
+           title="Permalink to CI/CD mit Gitlab">CI/CD mit Gitlab</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2018-03-23T18:08:00+01:00">
+                Published: Fr 23 März 2018
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="http://blog.bakera.de/tag/python.html">Python</a> </p>
+</footer><!-- /.post-info -->      <p><a class="reference external" href="http://gitlab.com/">Gitlab</a> ist neben github eine der großen
+Plattformen für Softwareentwickler, um Quelltext in Git-Repos zu
+verwalten. Mir hat immer gut gefallen, dass die Plattform keine Probleme
+mit privaten Repos hat - github stellt sich etwas an und möchte hier nur
+ein privates Repo pro Nutzer kostenlos zur Verfügung stellen. Auch die
+<a class="reference external" href="https://tosdr.org/#github">Terms of Service</a> von github bereiten mir
+zunehmend Bauchschmerzen. Hinzu kommt, dass sich github nicht auf
+eigener Infrastruktur hosten lässt. Gitlab dagegen bietet eine mächtige
+<a class="reference external" href="https://about.gitlab.com/installation/">Community-Edition</a> an. Das
+Projekt <a class="reference external" href="https://edugit.org/">edugit</a> des Teckids e.V. ist ein
+Vorstoß in die Richtung, diesen Dienst datenschutzkonform auch im
+Bildungsbereich in Deutschland anbieten zu können.</p>
+<p>Zurück zu den Vorzügen von Gitlab. Ein tolles mir neues Feature sind
+sogenannte Runner. Das sind virtuelle Maschinen, Rechner oder
+Docker-Container, die meinen Quelltext automatisch prüfen können. Dieses
+Feature heißt CI/CD (für Continuous Integration/Continuous Delivery) und
+wird durch die Datei <em>.gitlab-ci.yml</em> konfiguriert. Ein Beispiel, das
+einen Pythontest in einem Python-Container auf alpine-Basis ausführt,
+sieht so aus.</p>
+<pre class="literal-block">
+image: python:alpine  # Das Basisimage des Containers
+
+before_script:  # Wird vor jedem Task ausgeführt
+ - echo nothing to do
+
+tests:    # Ein Task mit Namen 'tests'
+ script:  # Das Script hat mehrere Befehle
+ - find ex.py test.py
+ - python3 test.py
+ - python3 -m doctest ex.py
+</pre>
+<p>Sobald nun Quelltext in das Repo gepusht wird, läuft ein sogenannter
+Runner und führt die Tasks einzeln aus. Gitlab selbst stellt auf seiner
+Plattform verschiedene Runner zur Verfügung, die von Digital Ocean
+gesponsert werden und in ihrer Laufzeit auf generöse 2000 CPU-Minuten
+pro Monat und User beschränkt sind. Wem das nicht reicht, der kann auch
+selbst einen <a class="reference external" href="https://docs.gitlab.com/runner/install/">Runner bei sich
+installieren</a>, laufen lassen
+und darin die Tests ausführen. Wem Gitlab nicht behagt, der kann auch
+einen Runner mit <a class="reference external" href="http://docs.drone.io">drone.io</a> betreiben. Diese
+haben den Vorzug, nicht auf Gitlab beschränkt zu sein und integrieren
+sich auch in andere Plattformen wie etwa
+<a class="reference external" href="https://github.com">github</a>, <a class="reference external" href="http://gitea.io/">gitea</a> oder
+<a class="reference external" href="https://gogs.io/">gogs</a>.</p>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

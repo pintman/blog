@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>"Hallo Welt" HP 35s</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/hallo-welt-hp35s.html" rel="bookmark"
+           title="Permalink to "Hallo Welt" HP 35s">&quot;Hallo Welt&quot; HP 35s</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-06-19T14:03:00+02:00">
+                Published: Do 19 Juni 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/hp35s.html">HP35s</a> <a href="http://blog.bakera.de/tag/taschenrechner.html">Taschenrechner</a> </p>
+</footer><!-- /.post-info -->      <p><a class="reference external" href="images/2014/06/hp35s-oben.jpeg"><img alt="(cc) Stefan Vorkoetter" class="size-full wp-image-1143" src="images/2014/06/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /></a></p>
+<ol class="lowerroman simple" start="200">
+<li>Stefan Vorkoetter</li>
+</ol>
+<p>Über
+den&nbsp;<a class="reference external" href="http://www.bakera.de/dokuwiki/doku.php/schule/hp_35s">HP35s</a>
+habe ich <a class="reference external" href="http://www.bakera.de/wp/2014/06/bakera-packt-aus-einen-hp35s/">bereits
+berichtet</a>.
+Nun folgt das obligatorische Hallo-Welt-Programm. Der Rechner kann
+nämlich auch beliebigen Text anzeigen. Dies geschieht über das Flag 10.
+Ist es gesetzt, werden Gleichungen nur angezeigt, aber nicht
+ausgewertet. Das können wir für ein einfaches „Hallo-Welt“-Programm
+nutzen.</p>
+<pre class="literal-block">
+A001  LBL A
+A002  SF 10  Setzt Flag 10
+A003  HALLO  Eingabe mit der EQN-Taste
+A004  PSE    Nach einer Sekunde wird das Programm fortgesetzt
+A005  WELT
+A006  PSE
+A007  CF 10  Löscht Flag 10
+A008  RTN
+</pre>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

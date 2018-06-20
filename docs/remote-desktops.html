@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>Remote Desktops</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/remote-desktops.html" rel="bookmark"
+           title="Permalink to Remote Desktops">Remote Desktops</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-11-02T13:28:00+01:00">
+                Published: Do 02 November 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/linux.html">Linux</a> <a href="http://blog.bakera.de/tag/windows.html">Windows</a> </p>
+</footer><!-- /.post-info -->      <p><img alt="image0" class="alignnone size-full wp-image-2107" src="images/2017/11/preferences-desktop-remote-desktop-300px.png" style="width: 300px; height: 300px;" /></p>
+<p>Der Charme von Remote Desktops hat mich schon lange fasziniert. Ich
+sitze an einem Terminal, das die Tastatur, Maus und vielleicht noch
+einen USB-Stick über einen kleinen geräuschlosen und günstigen
+ThinClient an einen mächtigen Server weiterleitet. Schon während meines
+Studiums habe ich mit VNC und entsprechenden Implementierungen
+(hauptsächlich tightvnc und einer einfachen X-Weiterleitung) meine
+ersten Versuche gestartet.</p>
+<p><strong>Rechnerpool einrichten</strong></p>
+<p>Nun bin ich in die Verlegenheit gekommen, einen Rechnerraum mit
+bescheidenen 6 Clients einrichten zu [STRIKEOUT:müssten] dürfen und das
+Thema ereilte mich erneut. Ich kann natürlich jeden Rechner einzeln
+einrichten. Ebenso kann ich einen Referenzrechner einrichten, von diesem
+ein Image erzeugen und dieses auf die anderen Rechner verteilen - z.B.
+mit <a class="reference external" href="http://clonezilla.org/">Clonezilla</a>. Besonders schön wäre es
+jedoch, wenn ich nur einen Server pflegen müsste, auf den sich alle
+Clients anschließend verbinden würden.</p>
+<p><strong>Remote Desktop as a Service mit x2go und virmach</strong></p>
+<p>Für virtuelle Desktops gibt es sogar Dienstleiter, wie
+<a class="reference external" href="https://virmach.com">virmach</a>. Es geht natürlich auch mit jedem
+anderen Server, der genügend Ressourcen und Netzwerkbandbreite zur
+Verfügung stellt.</p>
+<p>Gesagt getan. In einem ersten Test habe ich den für schmale Verbindungen
+optimierten Client und Server <a class="reference external" href="http://x2go.org/">x2go</a> auf dem Server
+und meinem Client - Windows und Linux - installiert und konnte mich
+direkt verbinden. Das klappt für günstige 4€/Monat schon recht gut.
+Eigentlich müsste ich auch lokale Laufwerke/Verzeichnisse auf den fernen
+Rechner transferieren können. Das klappte jedoch nicht sofort, da der
+gemietete Server lediglich in einer virtuellen Maschine läuft und
+notwendige Kernelmodule fehlten. Nach einem erfreulichen IRC-Chat mit
+einem Entwickler von x2go war der Schuldige (ein fehlendes FUSE-Modul)
+gefunden und zwei Iterationen beim Support von virmach später war dieses
+Modul im Kernel meines Servers nachinstalliert.</p>
+<p>Das neue Setup läuft soweit schon ganz gut. LibreOffice, eine Konsole
+oder Fritzing lassen sich mittelgut bedienen. Lediglich der Firefox
+kommt etwas träger über die Leitung.</p>
+<p><strong>Raspberry Pi und andere Thin Clients</strong></p>
+<p>Jetzt wäre es doch toll, wenn mein Rechner-Pool auch eine Verbindung zu
+einem Server im Schul-LAN aufbauen könnte. Da wir noch einige Raspberry
+Pis haben, wäre doch dieser kleine Rechner als ThinClient ideal. Es gibt
+mit <a class="reference external" href="https://rpitc.blogspot.de/">rpitc</a> sogar eine Distribution, die
+genau dies leisten möchte. Erste Tests verliefen gut, wenngleich die
+Webseite insgesamt unprofessionell wirkt. Zudem ist unklar, wie lange
+die SD-Karte in den Pi halten und wie sich die Geräte ausschalten lassen
+sollen. Für das Problem des Ausschaltens gibt es mit dem <a class="reference external" href="https://shop.heise.de/katalog/pi-desktop-gehause-kit">Pi Desktop
+Gehäuse</a> zwar
+eine Lösung - diese ist mit ca. 50 € jedoch auch nicht günstig.</p>
+<p>Vielleicht gibt es außer dem Raspberry Pi noch andere Möglichkeiten für
+Clients. Eine <a class="reference external" href="https://www.ebay.de/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=2&amp;_nkw=thin+client&amp;rt=nc&amp;LH_BIN=1">Suche bei
+Ebay</a>
+nach günstigen ThinClients lieferte brauchbare Geräte ab 9 € zu Tage.
+Das ist deutlich günstiger als ein Pi. Auf der Seite
+<a class="reference external" href="http://www.parkytowers.me.uk/thin/index.shtml">ParkyTowers</a> stellt
+David Parkinson verschiedene dieser Geräte vor. Eigentlich müssen sie
+nicht viel können: netzwerkbootfähig über PXE sollten sie sein, ein
+gering dimensionierter RAM ab 64 MB kann schon ausreichen.</p>
+<p><strong>Thinstation: das ThinClient OS</strong></p>
+<p>Doch welches Betriebssystem biete sich an, um einen ThinClient über das
+Netzwerk in ein System zu booten, das nur einen Remote Desktop Client
+starten muss? Man könnte eine einfache Linux Distribution wie
+<a class="reference external" href="http://slitaz.org/">slitaz</a> nehmen. Sie ist genügsam, klein und
+lässt sich auch über das Netz booten.</p>
+<p>Daneben gibt es mit
+<a class="reference external" href="https://thinstation.github.io/thinstation/">thinstation</a> eine
+lebendige Distribution, bei der das Boot-Image genauer angepasst werden
+kann, als es eine fertige Distribution leisten könnte.</p>
+<p><strong>PXE</strong></p>
+<p>Essentiell für den Netzwerkboot ist das Protokoll PXE, das im
+Zusammenspiel mit DHCP und TFTP ein Boot-Image über das Netz ausliefern
+kann. Der Client fragt über DHCP nach einer IP-Adresse, einem Gateway
+und kann auch nach einem Boot-Image fragen. Das <a class="reference external" href="https://wiki.ubuntuusers.de/PXE-Boot/">Wiki von
+ubuntuusers</a> erklärt diesen
+Prozess und beschreibt, wie man <a class="reference external" href="https://wiki.ubuntuusers.de/PXE-Installation/">dnsmasq
+einrichten</a> muss,
+damit der Dienst mit einem bestehenden DHCP-Server zusammenarbeiten
+kann: dnsmasq kümmert sich um den Netzwerkboot, der vermutlich schon
+vorhandene DHCP-Server übernimmt die Netzwerkkonfiguration des Client.
+Bei der Einrichtung müssen ein Bootloader (pxelinux.0), ein Kernel
+(vmlinuz) und ein initiales Dateisystem, das im RAM läuft (initrd oder
+rootfs) bereitgestellt werden.</p>
+<p><strong>Und Windows?</strong></p>
+<p>Windows kann auch seinen Desktop an Clients weitergeben. Dazu müssen auf
+einem Windows Server sogenannte Windows <em>Remote Desktop Services
+(Terminaldienste)</em> aktiviert werden. Nach der Aktivierung können alle
+lokalen Benutzer auf dem Server über einen RDP-Client auf den Server
+zugreifen. Windows hat hierfür <em>Remote Desktopverbindung</em>, Linux bietet
+rdesktop oder das neuere xfreerdp an.</p>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

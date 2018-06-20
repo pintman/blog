@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>/home/bakera/blog - ESP8266</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="http://blog.bakera.de/micropython-auf-einem-esp8266.html">Micropython auf einem ESP8266</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2016-08-25T15:44:00+02:00">
+                Published: Do 25 August 2016
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/esp8266.html">ESP8266</a> <a href="http://blog.bakera.de/tag/python.html">Python</a> </p>
+</footer><!-- /.post-info --><p><img alt="esp8266" class="alignnone size-full wp-image-1986" src="images/2016/08/esp8266.jpeg" style="width: 100%;" /></p>
+<p>Hinter <a class="reference external" href="https://micropython.org">Micropython</a> verbirgt sich eine
+Variante von Python, die auf Mikrocontroller zugeschnitten ist. Der
+<a class="reference external" href="http://www.mikrocontroller.net/articles/ESP8266">ESP8266</a> ist ein
+recht günstiger (~4$) Baustein mit WLAN-Funktionen, für den jetzt eine
+Micropython-Firmware erschienen ist. Über das Development-Kit, das auf
+dem Bild zu sehen ist, verfügt der Baustein über einen USB-Anschluss,
+über den man mit dem Chip kommunizieren kann. Die PINs sind
+herausgeführt und lassen sich in Schaltungen verwenden.</p>
+<p>Nun soll die Firmware für Micropython installiert werden. Diese lässt
+sich von der Webseite
+<a class="reference external" href="https://micropython.org/download/#esp8266">herunterladen</a>. Für die
+Installation gibt es das Tool esptool.py, das sich ebenso einfach
+installieren lässt.</p>
+<pre class="literal-block">
+$ sudo pip2 install esptool
+</pre>
+<p>Leider funktioniert esptool derzeit nur mit Python2.</p>
+<p>Anschließend kann die vorhandene Firmware auf den ESP8266 zunächst
+gelöscht und mit dem zweiten Befehl die neue Firmware übertragen werden.</p>
+<pre class="literal-block">
+$ esptool.py --port /dev/ttyUSB0 erase_flash
+$ esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_size=8m 0 esp8266-20160825-v1.8.3-49-ga589fa3.bin
+</pre>
+<p>Bei mir kam es bei Geschwindigkeiten über 115200 Baud zu Probleme,
+weshalb ich die Geschwindigkeit reduziert habe. Die Befehle habe ich der
+<a class="reference external" href="http://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/intro.html#deploying-the-firmware">Anleitung</a>
+von mircopython entnommen.</p>
+<p>Nun kann mit einem Terminalprogramm auf den Microcontroller zugegriffen
+werden. Das geht mit Putty, minicom oder auch miniterm.py.</p>
+<pre class="literal-block">
+$ miniterm.py /dev/ttyUSB0 115200
+</pre>
+<p>Sollte miniterm.py noch nicht installiert sein, so kann es mit &quot;pip
+install pyserial&quot; nachinstalliert werden.</p>
+<p>Im Anschluss erhält man eine Python-Konsole, die man für eigene Projekte
+verwenden kann. Beim Start steht der ESP als Access Point zur Verfügung,
+auf den sich Clients mit dem Standardpasswort 'micropythoN' verbinden
+können. Für den Dateitransfer kann dann das Kommandozeilentool
+<a class="reference external" href="https://github.com/micropython/webrepl">webrepl_cli.py</a> verwendet
+werden.</p>
+<div class="section" id="anlagen">
+<h2>Anlagen</h2>
+<ul class="simple">
+<li>Firmware:
+<a class="reference external" href="media/esp8266-20160825-v1.8.3-49-ga589fa3.bin_.zip">esp8266-20160825-v1.8.3-49-ga589fa3.bin</a></li>
+<li>Vortrag der Froscon 2016: <a class="reference external" href="https://media.ccc.de/v/froscon2016-1791-python_fur_das_internet_der_dinge">Python für das Internet der Dinge -
+Einführung in MicroPython für ESP8266 und Cortex-M4
+Mikroprozessorboards</a></li>
+<li><a class="reference external" href="https://github.com/wendlers/mpfshell">mpfshell</a> ist eine
+shell-basierter Datei-Explorer, um den ESP zu erkunden.</li>
+<li><a class="reference external" href="https://github.com/dhylands/rshell">rshell</a> ist eine remote shell
+für den ESP8266</li>
+<li><a class="reference external" href="https://github.com/adafruit/ampy">ampy</a> ist ein von adafruit
+entwickelt kleines Skript-Tool für den Dateitransfer und die
+Ausführung von Skripten.</li>
+<li>Unter Windows werden eventuell Treiber für den USB-UART-Konverter
+benötigt. Ein populärer Treiber ist unter
+<a class="reference external" href="http://www.msxfaq.de/sonst/bastelbude/nodemcu.htm">MSXFAQ</a>
+verlinkt.</li>
+</ul>
+</div>
+                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/sammelsurium-comic-testverfahren-commandline-sketchnotes-esp8266-git-wiki-umfrage-python-3ddruck.html" rel="bookmark"
+                           title="Permalink to Sammelsurium - Comic, Testverfahren, Commandline, Sketchnotes, ESP8266, git, wiki, Umfrage, python, 3dDruck">Sammelsurium - Comic, Testverfahren, Commandline, Sketchnotes, ESP8266, git, wiki, Umfrage, python, 3dDruck</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-06-02T22:08:00+02:00">
+                Published: Di 02 Juni 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/3ddruck.html">3dDruck</a> <a href="http://blog.bakera.de/tag/comic.html">Comic</a> <a href="http://blog.bakera.de/tag/commandline.html">Commandline</a> <a href="http://blog.bakera.de/tag/esp8266.html">ESP8266</a> <a href="http://blog.bakera.de/tag/git.html">git</a> <a href="http://blog.bakera.de/tag/python.html">Python</a> <a href="http://blog.bakera.de/tag/sketchnotes.html">Sketchnotes</a> <a href="http://blog.bakera.de/tag/testverfahren.html">Testverfahren</a> <a href="http://blog.bakera.de/tag/umfrage.html">Umfrage</a> <a href="http://blog.bakera.de/tag/wiki.html">wiki</a> </p>
+</footer><!-- /.post-info -->                <p><img alt="cc: Freepik" class="size-full wp-image-1523" src="images/2014/12/wwwSitzen2.png" style="width: 506px; height: 334px;" /></p>
+<p>cc: Freepik</p>
+<ul class="simple">
+<li>Das <a class="reference external" href="https://privacy-handbuch.de/">Privacy-Handbuch</a> stellt
+grundlegende Konzepte und Tools um den Datenschutz vor. Kurz und
+prägnant.</li>
+<li><a class="reference external" href="http://www.mcternan.me.uk/mscgen/">MSC</a> steht für &quot;Message
+Sequence Chart&quot; und erlaubt die Erstellung von Sequenzdiagrammen mit
+einer an Graphviz (dot) angelehnten Notation. Mit
+<a class="reference external" href="http://plantuml.sourceforge.net/">plantuml</a> lassen sich sogar
+weitere UML-Diagramme aus Textdateien erzeugen.</li>
+<li><a class="reference external" href="https://media.ccc.de/browse/conferences/chaoscologne/1c2/1c2-6652-open_source_ist_software_unter_freunden.html">Open Source Software unter
+Freunden …</a></li></ul>
+                <a class="readmore" href="http://blog.bakera.de/sammelsurium-comic-testverfahren-commandline-sketchnotes-esp8266-git-wiki-umfrage-python-3ddruck.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

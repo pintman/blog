@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>Das Halteproblem</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/das-halteproblem.html" rel="bookmark"
+           title="Permalink to Das Halteproblem">Das Halteproblem</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2006-02-11T11:59:00+01:00">
+                Published: Sa 11 Februar 2006
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/admin.html">admin</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/informatik.html">Informatik</a> </p>
+</footer><!-- /.post-info -->      <p>Das Halteproblem, beschreibt die Tatsache, dass es kein Programm geben
+kann, das für ein anderes Programm entscheiden kann, ob dieses hält oder
+nicht. Endlosschleifen lassen sich für den allgemeinen Fall also nicht
+durch einen einfachen (oder auch komplizierten) Algorithmus ausfindig
+machen. Dass noch nicht einmal Namen, die man für Aufrufe verfolgen
+könnte, notwendig für eine Endlosschleife sind, zeigt das folgende
+Beispiel.</p>
+<pre class="literal-block">
+(λ () . (λ x. (x x)) (λ x. (x x)))
+</pre>
+<p>Einen anschaulichen Beweis für dieses Problem habe ich heute bei
+<a class="reference external" href="http://pintman.blogspot.com/2006/01/structure-and-interpretation-of.html">Structure &amp; Interpretation of Computer
+Programs</a>
+wiedergefunden, den ich kurz vorführen möchte.</p>
+<p>Angenommen, es gäbe eine Funktion safe(f, a), die für eine Funktion f
+und ein Argument a, herausfindet, ob f(a) definiert ist oder nicht - ob
+ein die Funktion f berechnendes Programm also irgendwann zu einem
+Ergebnis kommt, oder ewig lange in einer Endlosschleife verharrt und
+damit kein Resultat liefert. Formal beschreiben wir die Funktion safe
+wie folgt.</p>
+<pre class="literal-block">
+              / tt    falls f(a)≠⊥
+safe(f, a) = |
+              \ ff    sonst
+</pre>
+<p>Die Annahme einer solchen Funktion führt jedoch zu einem Widerspruch,
+wenn wir folgende Funktion betrachten.</p>
+<pre class="literal-block">
+        / ⊥    falls safe(d, d)
+d(x) = |
+        \ 3    sonst
+</pre>
+<p>Doch wozu wertet nun d(d) aus? Dies hängt von safe und insbesondere von
+safe(d, d) ab. Wir schauen uns die beiden Fälle einfach mal an.</p>
+<div class="line-block">
+<div class="line">safe(d, d)=true</div>
+<div class="line">Dann gilt d(d)=⊥. safe würde jedoch nur true liefern, wenn d(d)≠⊥
+gilt. Als kann nicht gelten safe(d, d)=true.</div>
+</div>
+<div class="line-block">
+<div class="line">safe(d, d)=false</div>
+<div class="line">Dann jedoch gilt d(d)=3. safe kann jedoch nur false liefern, wenn gilt
+d(d)=⊥. Es kann also auch nicht gelten safe(d, d)=false.</div>
+</div>
+<p>In beiden Fällen haben wir einen Widerspruch produziert und können daher
+nur annehmen, dass eine gewünschte Funktion safe mit besagten
+Eigenschaften nicht existieren kann. Schade.</p>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

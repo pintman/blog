@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>/home/bakera/blog - debian</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="http://blog.bakera.de/mediawiki-unter-docker.html">Mediawiki unter docker</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2015-08-12T15:31:00+02:00">
+                Published: Mi 12 August 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/debian.html">debian</a> <a href="http://blog.bakera.de/tag/docker.html">docker</a> <a href="http://blog.bakera.de/tag/ubuntu.html">ubuntu</a> </p>
+</footer><!-- /.post-info --><p>Mit docker lassen sich schnell und einfach virtuelle Maschine betreiben,
+die Serverdienste wie ein Wiki bereitstellen. An einer
+Beispielinstallation eines Mediawikis zeige ich, wie das funktionieren
+kann.</p>
+<p>Hier sind die im Video eingesetzten Befehle:</p>
+<p>docker run --name=mw -i -t -p 8080:80 32bit/debian:jessie bash</p>
+<div class="line-block">
+<div class="line">apt-get update</div>
+<div class="line">apt-get install mediawiki</div>
+<div class="line">a2enconf mediawiki</div>
+<div class="line">cd etc/mediawiki</div>
+<div class="line">vi apache.conf</div>
+<div class="line">service apache2 reload</div>
+</div>
+                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

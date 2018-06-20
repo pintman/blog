@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>Y f = f(Y f)</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/y-f-fy-f.html" rel="bookmark"
+           title="Permalink to Y f = f(Y f)">Y f = f(Y f)</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2006-01-13T10:28:00+01:00">
+                Published: Fr 13 Januar 2006
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/admin.html">admin</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/informatik.html">Informatik</a> </p>
+</footer><!-- /.post-info -->      <p>Heute mal etwas Theorie zum Thema λ-Kalkül. Hierbei handelt es sich um
+eine von Alonzo Church etablierte Theorie zur Ausführung von Funktionen.
+Hierbei nehmen wir Funktionen als anonyme Funktionen λ an und können die
+Identität (also die Funktion, die alle Argumente auf sich selbst
+abbildet) wie folgt darstellen:</p>
+<pre class="literal-block">
+λx.x
+</pre>
+<p>Die anonyme Funktion λ bildet ihr einziges Argument x auf sich selbst
+ab. Wir trennen in diesem Falle die Argumente (also x) von ihrer
+Anwendung durch einen kleinen '.' ab.</p>
+<p>Wenn wir eine Funktion nun auf ein Argument anwenden, schreiben wir es
+einfach rechts daneben und erhalten im obigen Sinne der Definition der
+Identität folgende Gleichung:</p>
+<pre class="literal-block">
+(λx.x) 1 = 1
+</pre>
+<p>Diese erhalten wird, indem wir die Argumente für die an den λ-Operator
+gebundenen Variablen einsetzen; die Funktion also auf 1 anwenden.</p>
+<p>Nun können Argumente aber nicht nur einfach elementare Werte sein,
+sondern selbst wiederum Funktionen. Wir könnten also die Identität auch
+auf sich selbst anwenden und erhielten</p>
+<pre class="literal-block">
+(λx.x)(λx.x) = (λx.x)
+</pre>
+<p>Die Identität verändert sich selbst also nicht. Ebenso sehen wir, dass
+Ergebnisse von Funktionen ebenfalls wiederum Funktionen sein können.</p>
+<p>Kommen wir nun zu einer etwas interessanteren Funktion</p>
+<pre class="literal-block">
+Y = (λf.(λx. f(x x))(λx. f(x x)))
+</pre>
+<p>und nennen diese Y.</p>
+<p>Was passiert nun, wenn wir Y auf f anwenden?</p>
+<pre class="literal-block">
+(*) Y f = (λx. f(x x))(λx. f(x x))
+</pre>
+<p>Y f ist also eine Funktion, die auf eine Funktion angewendet wird.
+Wollen wir diese Anwendung noch verfolgen und den rechten Teil der
+obigen Gleichung etwas vereinfachen, so erhalten wir</p>
+<pre class="literal-block">
+Y f = f((λx. f(x x)) (λx. f(x x)))
+</pre>
+<p>nachdem wir (λx. f(x x)) für x in f(x x) eingesetzt haben.</p>
+<p>Nun erkennen wir aber, dass wir f auf der rechten Seite der Gleichung
+gerade auf (*), also auf Y f, anwenden und somit zu der interessanten
+Gleichung</p>
+<pre class="literal-block">
+Y f = f(Y f)
+</pre>
+<p>kommen. Y liefert uns also für eine gegebene Funktion f deren Fixpunkt.</p>
+<p>Probieren wir diese Funktion nun einmal aus und versuchen den Fixpunkt
+der Eins-Funktion (λx.1) zu bestimmen</p>
+<pre class="literal-block">
+Y (λx.1) =
+(λf.(λx. f(x x))(λx. f(x x)))(λx.1) =
+(λx. (λx.1)(x x))(λx. (λx.1)(x x)) =
+(λx. 1)(λx. 1) =
+1
+</pre>
+<p>Juhu, es hat geklappt. Der Fixpunkt der Eins-Funktion ist demnach 1.</p>
+<p>Wer Spaß daran gefunden hat, möge einmal versuchen, den Fixpunkt unserer
+oben beschriebenen Identiät auf diese Weise zu berrechnen. Er wird
+sicherlich erstaunt ob des bestimmten Fixpunktes sein. :)</p>
+<p>Das wollte ich eigentlich nur mal gesagt haben. :)</p>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

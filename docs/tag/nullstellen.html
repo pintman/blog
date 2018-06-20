@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>/home/bakera/blog - Nullstellen</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="http://blog.bakera.de/das-newton-verfahren-zur-bestimmung-von-nullstellen.html">Das Newton-Verfahren zur Bestimmung von Nullstellen</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2014-06-18T17:08:00+02:00">
+                Published: Mi 18 Juni 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/nullstellen.html">Nullstellen</a> <a href="http://blog.bakera.de/tag/python.html">Python</a> </p>
+</footer><!-- /.post-info --><p><img alt="(cc) Stefan Vorkoetter" class="size-full wp-image-1171" src="images/2014/06/hp35s-Tasten.jpeg" style="width: 408px; height: 150px;" /></p>
+<ol class="lowerroman simple" start="200">
+<li>Stefan Vorkoetter</li>
+</ol>
+<p>Isaac Newton hat vor über 300 Jahren ein
+<a class="reference external" href="https://de.wikipedia.org/wiki/Newton-Verfahren">Verfahren</a>
+vorgeschlagen, um nicht-lineare Gleichungen zu lösen. So findet das
+Verfahren etwa eine Lösung für die folgende Gleichung</p>
+<p>x² - 6 x + 5 = 0</p>
+<p>Das Verfahren beginnt mit einer Schätzung und verbessert diese mit jedem
+Schritt ein wenig. Die erste Schätzung heißt x0, die zweite dann x1, und
+so weiter. Die Verbesserung x1 ergibt sich aus der Schätzung x0 wie
+folgt.</p>
+<p>x1 = x0 - f(x0) / f´(x0)</p>
+<p>In dieser Gleichung ist f(x) = x² - 6x + 5 und f´(x) die Ableitung von
+f(x) - also f´(x) = 2x - 6.</p>
+<p>Schaue wir uns einmal an, wie sich die Werte entwickeln, wenn wir mit
+der Schätzung x=10 beginnen.</p>
+<pre class="literal-block">
+x      f(x)   f´(x)   x-f(x)/f´(x)
+10.0&nbsp;  45.0&nbsp;  14.0    6.79
+6.79&nbsp;  10.33&nbsp; 7.57    5.42
+5.42&nbsp;  1.86&nbsp;  4.84    5.04
+5.04&nbsp;  0.15&nbsp;  4.07    5.0003
+5.0003 0.001&nbsp; 4.0006  5.00000003
+</pre>
+<p>Man kann gut erkennen, wie sich die X-Werte langsam der 5 annähern,
+während die Werte von f(x) gegen 0 streben. Wir schauen, ob es nicht
+noch eine weitere Lösungen gibt. Immerhin haben quadratische Gleichungen
+ja bis zu zwei Lösungen. Wir probieren es diesmal mit dem Startwert -10.</p>
+<pre class="literal-block">
+x      f(x)   f´(x)   x-f(x)/f´(x)
+-10.0&nbsp; 165.0&nbsp; -26.0   -3.65
+-3.65&nbsp; 40.27&nbsp; -13.31  -0.63
+-0.63&nbsp; 9.16&nbsp;  -7.26   0.63
+ 0.63&nbsp; 1.59 &nbsp; -4.73   0.97
+ 0.97&nbsp; 0.11 &nbsp; -4.06   0.99
+ 0.99  0.0008 -4.0003 0.9999999904
+</pre>
+<p>Hier erkennen wir, wie die Werte von x gegen 1 streben, während f(x)
+gegen 0 strebt. Einsetzen von x=1 und x=5 ergibt auch tatsächlich in
+beiden Fällen den Wert 0. Wir haben unsere Lösungen gefunden.</p>
+<p>Leider funktioniert das Verfahren nicht immer. Prüfe doch einmal, was
+für die Gleichung f(x) = x³ - 2x + 2 und den Startwert x=0 passiert. Was
+kannst du feststellen?</p>
+<p>Man kann das Verfahren natürlich auch mit beliebigen anderen Gleichungen
+durchführen. Und weil es so einfach ist, habe ich ein kleines
+Python-Programm geschrieben, das für quadratische Gleichungen die Lösung
+ermittelt. Versuche doch einmal, das Programm für kubische Gleichungen
+oder Gleichungen vierten Grades zu erweitern.</p>
+<pre class="literal-block">
+MAX_ITERATIONEN = 100
+GENAUIGKEIT = 0.1
+
+def newton(a, b, c, startwert):
+&nbsp;&nbsp;&nbsp; &quot;&quot;&quot;&nbsp; Bestimmt eine Lösung der Gleichung&nbsp;&nbsp;&nbsp; ax² + bx + c = 0
+         für einen gegebenen Startwert.&nbsp;&nbsp;&nbsp; &quot;&quot;&quot;
+
+&nbsp;&nbsp;&nbsp; xn = startwert * 1.0
+&nbsp;&nbsp;&nbsp; fx = 1.0
+&nbsp;&nbsp;&nbsp; numIterationen = 0
+
+&nbsp;&nbsp;&nbsp; while abs(fx) &gt; GENAUIGKEIT and numIterationen &lt; MAX_ITERATIONEN:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fx = f(a, b, c, xn)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fx_ = f_(a,b,c, xn)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; xn = xn - fx / fx_
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; numIterationen += 1
+
+&nbsp;&nbsp;&nbsp; if numIterationen &gt;= MAX_ITERATIONEN:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return float('NaN')
+&nbsp;&nbsp;&nbsp; else:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return xn
+
+
+def f(a,b,c, x):
+&nbsp;&nbsp;&nbsp; &quot;&quot;&quot;&nbsp;&nbsp;&nbsp; Berechne f(x) = ax² + bx + c&nbsp;&nbsp;&nbsp; &quot;&quot;&quot;
+&nbsp;&nbsp;&nbsp; return a*x*x + b*x + c
+
+def f_(a,b,c, x):
+&nbsp;&nbsp;&nbsp; &quot;&quot;&quot;Berechne f'(x) = 2ax + b&quot;&quot;&quot;
+&nbsp;&nbsp;&nbsp; return 2*a*x + b
+</pre>
+<p>Das Programm kann nun mit newton(a,b,c, startwert) aufgerufen werden,
+wobei a,b,c und d für die Koeffizienten in f(x) = ax² + bx + c stehen.</p>
+                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>/home/bakera/blog - Tipp</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="http://blog.bakera.de/usb-sticks-und-sd-karten-validieren.html">USB-Sticks und SD-Karten validieren</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2018-01-05T10:45:00+01:00">
+                Published: Fr 05 Januar 2018
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/hardware.html">Hardware</a> <a href="http://blog.bakera.de/tag/linux.html">Linux</a> <a href="http://blog.bakera.de/tag/tipp.html">Tipp</a> <a href="http://blog.bakera.de/tag/tools.html">Tools</a> </p>
+</footer><!-- /.post-info --><p><a class="reference external" href="images/2018/01/webmichl-sd-card-800px.png"><img alt="image0" class="alignnone size-full wp-image-2191" src="images/2018/01/webmichl-sd-card-800px.png" style="width: 800px; height: 510px;" /></a></p>
+<p>Nicht immer funktionieren USB-Sticks und SD-Karten so wie sie sollen.
+Bei meiner letzten Bestellung aus China hatte ich den Verdacht, dass
+einige SD-Karten defekt waren - sie funktionierten für einen kurzen
+Zeitraum und gaben dann den Geist auf. Aus der c't kannte ich das
+Programm <a class="reference external" href="http://www.heise.de/download/h2testw.html">H2testw</a>, mit
+dem Flashspeicher geprüft werden kann. Dazu wird das Speichermedium mit
+Testdaten vollständig beschrieben und die Daten anschließend wieder
+gelesen. Wenn alles korrekt läuft, stimmen die gelesenen Daten mit den
+ursprünglich geschriebenen Daten überein. Das kann je nach Größe des
+Speichermediums durchaus eine Weile dauern.</p>
+<p>Für Linux gibt es hierfür das Paket f3, das mit den Programmen f3write
+und f3read das gleiche tut. Für einen korrekten USB-Stick läuft das
+Programm wie folgt ab:</p>
+<pre class="literal-block">
+$ f3write /media/STICK/
+Free space: 196.84 MB
+Creating file 1.h2w ... OK!
+Free space: 0.00 Byte
+Average writing speed: 6.76 MB/s
+</pre>
+<p>Anschließend werden die geschriebenen Daten wieder gelesen.</p>
+<pre class="literal-block">
+$ f3read /media/STICK/
+                  SECTORS     ok/corrupted/changed/overwritten
+Validating file 1.h2w ... 403128/        0/      0/      0
+
+  Data OK: 196.84 MB (403128 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+          Corrupted: 0.00 Byte (0 sectors)
+   Slightly changed: 0.00 Byte (0 sectors)
+        Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 7.75 MB/s
+</pre>
+                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/wie-produziert-man-heute-ein-c64-spiel.html" rel="bookmark"
+                           title="Permalink to Wie produziert man heute ein C64-Spiel?">Wie produziert man heute ein C64-Spiel?</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-11-30T21:12:00+01:00">
+                Published: Do 30 November 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="http://blog.bakera.de/tag/spiele.html">Spiele</a> <a href="http://blog.bakera.de/tag/tipp.html">Tipp</a> <a href="http://blog.bakera.de/tag/video.html">Video</a> </p>
+</footer><!-- /.post-info -->                <p><img alt="image0" class="alignnone wp-image-2126 size-medium" src="images/2017/11/Planet2X-e1512072629664-300x248.png" style="width: 300px; height: 248px;" /></p>
+<p>Früher wurden Spiele für den C64 in Schachteln ausgeliefert. Die
+Schachtel kaufte man im Laden und darin befand sich eine Diskette oder
+Kassette sowie eine Anleitung. Aber wie produziert man ein Spiel für den
+C64 heutzutage? Der 8-Bit-Guy hat das Spiel <a class="reference external" href="http://www.the8bitguy.com/product/planet-x2-commodore-64/">Planet
+X2</a> für
+den C64 selbst produziert - inklusive Soundtrack …</p>
+                <a class="readmore" href="http://blog.bakera.de/wie-produziert-man-heute-ein-c64-spiel.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/buchtipp-little-brother-von-cory-doctorow.html" rel="bookmark"
+                           title="Permalink to Buchtipp: "Little Brother" von Cory Doctorow">Buchtipp: &quot;Little Brother&quot; von Cory Doctorow</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-03-02T19:03:00+01:00">
+                Published: Mo 02 März 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/buch.html">Buch</a> <a href="http://blog.bakera.de/tag/hardware.html">Hardware</a> <a href="http://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="http://blog.bakera.de/tag/linux.html">Linux</a> <a href="http://blog.bakera.de/tag/mathe.html">Mathe</a> <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="http://blog.bakera.de/tag/tipp.html">Tipp</a> </p>
+</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2015/01/398px-Little_Brother_illustration_by_Richard_Wilkinson_01.jpg"><img alt="cc: Richard Wilkinson" class="size-full wp-image-1594" src="images/2015/01/398px-Little_Brother_illustration_by_Richard_Wilkinson_01.jpg" style="width: 398px; height: 599px;" /></a></p>
+<p>cc: Richard Wilkinson</p>
+<p>In dem Roman &quot;Little Brother&quot; erzählt Cory Doctorow die Geschichte der
+Geheimdienste nach den Anschlägen auf das World Trade Center in einem
+alternativen Amerika. Neben einer spannenden Geschichte für Jugendliche
+kommen auch Erwachsene auf ihre Kosten, wenn technische Details von
+Überwachungsmaßnahmen erläutert und die Gegenmaßnahmen mit Hilfe …</p>
+                <a class="readmore" href="http://blog.bakera.de/buchtipp-little-brother-von-cory-doctorow.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/auf-dem-weg-ins-zeitalter-der-weisheit.html" rel="bookmark"
+                           title="Permalink to Auf dem Weg ins Zeitalter der Weisheit">Auf dem Weg ins Zeitalter der Weisheit</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-02-15T17:28:00+01:00">
+                Published: So 15 Februar 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/bildung.html">Bildung</a> <a href="http://blog.bakera.de/tag/tipp.html">Tipp</a> <a href="http://blog.bakera.de/tag/video.html">Video</a> </p>
+</footer><!-- /.post-info -->                <p><a class="reference external" href="https://www.youtube.com/watch?v=k4vzhweOefs">https://www.youtube.com/watch?v=k4vzhweOefs</a></p>
+<p><a class="reference external" href="//de.wikipedia.org/wiki/Ricardo_Semler">Ricardo Semler</a> fragt sich,
+wie man vom Informationszeitalter endlich in das Zeitalter der Weisheit
+kommt. Er fragt dabei nach dem Sinn unserer Existenz und kommt zu
+erstaunlich plausiblen Erkenntnissen, die er für das Privatleben, den
+Beruf und die Bildung umsetzt. Nicht durch Theorien …</p>
+                <a class="readmore" href="http://blog.bakera.de/auf-dem-weg-ins-zeitalter-der-weisheit.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/sammelsurium.html" rel="bookmark"
+                           title="Permalink to Sammelsurium (1)">Sammelsurium (1)</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-10-17T15:45:00+02:00">
+                Published: Fr 17 Oktober 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/linkliste.html">Linkliste</a> <a href="http://blog.bakera.de/tag/tipp.html">Tipp</a> </p>
+</footer><!-- /.post-info -->                <p><img alt="cc: Freepik" class="wp-image-1475 size-full" src="images/2014/10/wwwSitzen.png" style="width: 512px; height: 512px;" /></p>
+<p>cc: Freepik</p>
+<p>Eine Sammlung von Links, die es nicht in einen eigenen Artikel geschafft
+haben aber trotzdem interessant sind.</p>
+<ul class="simple">
+<li>Vortrag von Christian Spannagel über &quot;<a class="reference external" href="https://soundcloud.com/christian-spannagel/10-irrtuemer-digimedien">10 Irrtümer zum Einsatz
+digitaler Medien in der
+Schule</a>&quot;</li>
+<li>Sysadmincasts stellt die <a class="reference external" href="https://sysadmincasts.com/episodes/38-crash-course-on-mysql">Verwendung von SQL und
+MySQL</a>
+übersichtlich in einem Video dar.</li>
+<li>Eine schöne <a class="reference external" href="https://soundcloud.com/dopzen/tribute-to-maniac-mansion">neue
+Version …</a></li></ul>
+                <a class="readmore" href="http://blog.bakera.de/sammelsurium.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/watchmen-ein-lobgesang.html" rel="bookmark"
+                           title="Permalink to Watchmen - ein Lobgesang">Watchmen - ein Lobgesang</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-10-08T11:37:00+02:00">
+                Published: Mi 08 Oktober 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/comic.html">Comic</a> <a href="http://blog.bakera.de/tag/film.html">Film</a> <a href="http://blog.bakera.de/tag/tipp.html">Tipp</a> </p>
+</footer><!-- /.post-info -->                <p><a class="reference external" href="https://www.youtube.com/watch?v=mLdqKIj3-A0&amp;amp">https://www.youtube.com/watch?v=mLdqKIj3-A0&amp;amp</a></p>
+<p>Es ist mal wieder an der Zeit eine uneingeschränkte Empfehlung
+abzugeben. <a class="reference external" href="https://de.wikipedia.org/wiki/Watchmen">Watchmen</a> ist ein
+Comic von Alan Moore&nbsp;aus dem Jahr 1998, dem eine
+<a class="reference external" href="https://de.wikipedia.org/wiki/Watchmen_%E2%80%93_Die_W%C3%A4chter">Verfilmung</a>
+von Zack Snyder im Jahr 2009 folgte. Ich muss zugeben, nicht viel von
+Superheldencomics gehalten zu haben …</p>
+                <a class="readmore" href="http://blog.bakera.de/watchmen-ein-lobgesang.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/dateianhang-fuer-pdf.html" rel="bookmark"
+                           title="Permalink to Dateianhang für PDF">Dateianhang für PDF</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-10-01T16:47:00+02:00">
+                Published: Mi 01 Oktober 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/linux.html">Linux</a> <a href="http://blog.bakera.de/tag/tipp.html">Tipp</a> </p>
+</footer><!-- /.post-info -->                <p>Ein wenig bekanntes Feature ist, dass man PDF-Dokumenten Dateien
+anhängen kann - wie auch bei E-Mails. So kann man immer die
+Originaldokumente anhängen, aus denen das PDF entstanden ist. Hierfür
+gibt es das <a class="reference external" href="https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/">PDF
+Toolkit</a> - kurz
+pdftk. Unter Linux klappt es mit der folgenden Kommandozeile.</p>
+<pre class="literal-block">
+~&gt; pdftk datei.pdf attach_files anhang.odt …</pre>
+                <a class="readmore" href="http://blog.bakera.de/dateianhang-fuer-pdf.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/backup-ueber-ssh-und-eine-pipe.html" rel="bookmark"
+                           title="Permalink to Backup über SSH und eine Pipe">Backup über SSH und eine Pipe</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-09-28T16:36:00+02:00">
+                Published: So 28 September 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/linux.html">Linux</a> <a href="http://blog.bakera.de/tag/tipp.html">Tipp</a> </p>
+</footer><!-- /.post-info -->                <p>Es ist schön, wenn es unter Linux mal ganz einfach geht, ein Backup via
+Remotesteuerung zu erstellen. So habe ich ein kleines Script erstellt,
+mit dem ich die Owncloud auf meinem RaspberryPi sichere. Via SSH wird
+ein Tarball erzeugt, der auf meinen Rechner übertragen und dort durch
+gzip-geleitet wird. Dadurch …</p>
+                <a class="readmore" href="http://blog.bakera.de/backup-ueber-ssh-und-eine-pipe.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/graphic-novel-comics-und-sequentielle-kunst.html" rel="bookmark"
+                           title="Permalink to Graphic Novel ✍ Comics ☺ und sequentielle Kunst ❦">Graphic Novel ✍ Comics ☺ und sequentielle Kunst  ❦</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-08-20T17:05:00+02:00">
+                Published: Mi 20 August 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/bildung.html">Bildung</a> <a href="http://blog.bakera.de/tag/comic.html">Comic</a> <a href="http://blog.bakera.de/tag/tipp.html">Tipp</a> <a href="http://blog.bakera.de/tag/video.html">Video</a> </p>
+</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2014/07/icon_27149.png"><img alt="Comic Strip von Elisabeth Hass (The Noun Project)" class="size-full wp-image-1301" src="images/2014/07/icon_27149.png" style="width: 100%;" /></a></p>
+<p>Die Begriffe Graphic Novel, Comic und sequentielle Kunst meinen
+eigentlich alle dasselbe. Sie erzählen eine Geschichte in mehreren
+Bildern. Doch muss es nicht zwangsläufig eine fiktive Geschichte sein.
+Ebenso können es eine Autobiographie oder ein Sachtext sein, die ihr
+Sujet in Bildform transportieren. Am geläufigsten sind uns vermutlich
+die Comics …</p>
+                <a class="readmore" href="http://blog.bakera.de/graphic-novel-comics-und-sequentielle-kunst.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/entschlacke-deine-netzwerke.html" rel="bookmark"
+                           title="Permalink to Entschlacke deine Netzwerke">Entschlacke deine Netzwerke</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-06-28T10:19:00+02:00">
+                Published: Sa 28 Juni 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/tipp.html">Tipp</a> </p>
+</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2014/06/facebook-rauch.jpg"><img alt="cc: mkh marketing" class="size-full wp-image-1249" src="images/2014/06/facebook-rauch.jpg" style="width: 586px; height: 293px;" /></a></p>
+<p>cc: mkh marketing</p>
+<p>Ab und zu kann es durchaus nützlich sein, das eigene soziale Netzwerk zu
+entschlacken. Insbesondere dann, wenn man sich über Beiträge in seiner
+Facebook-Timeline oder dem Twitter-Stream mehr aufregt als erfreut. In
+dem Artikel <a class="reference external" href="http://t3n.de/news/aufgeweckt-unfollow-entfreunden-facebook-newsfeed-553589/">Aufgeweckt: Ich habe dich entfreundet, nimm es nicht
+persönlich!</a>
+habe ich dazu ein …</p>
+                <a class="readmore" href="http://blog.bakera.de/entschlacke-deine-netzwerke.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+<p class="paginator">
+    Page 1 / 6
+        <a href="http://blog.bakera.de/tag/tipp2.html">&raquo;</a>
+</p>
+                </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

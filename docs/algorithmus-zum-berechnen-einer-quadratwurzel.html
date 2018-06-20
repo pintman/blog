@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>Algorithmus zum Berechnen einer Quadratwurzel</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/algorithmus-zum-berechnen-einer-quadratwurzel.html" rel="bookmark"
+           title="Permalink to Algorithmus zum Berechnen einer Quadratwurzel">Algorithmus zum Berechnen einer Quadratwurzel</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-06-21T10:47:00+02:00">
+                Published: Sa 21 Juni 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/hp35s.html">HP35s</a> <a href="http://blog.bakera.de/tag/taschenrechner.html">Taschenrechner</a> </p>
+</footer><!-- /.post-info -->      <p><img alt="(cc) Stefan Vorkoetter" class="size-full wp-image-1143" src="images/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /></p>
+<ol class="lowerroman simple" start="200">
+<li>Stefan Vorkoetter</li>
+</ol>
+<p>Der Taschenrechner <a class="reference external" href="http://www.bakera.de/dokuwiki/doku.php/schule/hp_35s">HP
+35s</a> hat
+natürlich eine Taste zum Berechnen der Wurzel. Aber wir wollen mal
+schauen, ob wir die Wurzel nicht auch selbst programmieren können. Dazu
+gibt es einen einfachen Algorithmus, der mit einer Schätzung g (=guess)
+beginnt und diese immer weiter verfeinert. Für die Wurzel aus der Zahl w
+funktioniert der Algorithmus wie folgt.</p>
+<pre class="literal-block">
+g = w + 1
+while abs(w - g*g) &gt; 0.00001:
+  g = (g + w/g) / 2
+  print(g)
+</pre>
+<p>Mit 0.00001 geben wir die Genauigkeit an, die wir von unserer Schätzung
+erwarten. Für den HP 35s sieht das Programm folgendermaßen aus.</p>
+<pre class="literal-block">
+W001 LBL W
+W002 STO W
+W003 W+1
+W004 STO W
+W005 (G+W÷G)÷2
+W006 STO G
+W007 0.00001
+W008 ABS(G^2-W)
+W009 x&gt;y?
+W010 GTO W005
+W011 RCL G
+W012 RTN
+</pre>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

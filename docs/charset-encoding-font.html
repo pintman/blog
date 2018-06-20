@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>Charset - Encoding - Font</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/charset-encoding-font.html" rel="bookmark"
+           title="Permalink to Charset - Encoding - Font">Charset - Encoding - Font</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-12-09T10:46:00+01:00">
+                Published: Sa 09 Dezember 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="http://blog.bakera.de/tag/video.html">Video</a> </p>
+</footer><!-- /.post-info -->      <p>Immer wieder komme ich mit den Begrifflichkeiten Zeichensatz
+(Characterset), Zeichkodierung (Encoding) und Schriftart (Font)
+durcheinander. Damit scheine ich nicht alleine zu sein. Das Chaosseminar
+Ulm hat daher einen
+<a class="reference external" href="https://ulm.ccc.de/ChaosSeminar/2016/10_charset-encoding-font">Vortrag</a>
+mit dem gleichen Titel veröffentlicht, der die Begrifft erklärt.</p>
+<ul class="simple">
+<li><em>Font</em>: Schriftzeichen, die auf einem Bildschirm oder Papier
+ausgegeben werden - &quot;das, was man sieht&quot;. Es werden Bitmap- und
+Proportionalfonts unterschieden. Erstere beschreiben die Zeichen in
+einem Pixelformat, letztere in Kurven.</li>
+<li><em>Characterset</em>: Alle Zeichen, die relevant zu sein scheinen: nur
+US-amerikanische, Chinesische, Griechische etc. Nicht alle
+Schritftarten unterstützen alle Zeichen und sind in ihrem Umfang
+unterschiedlich groß. Der umfangreichste Zeichensatz ist derzeit
+Unicode. Die Zeichen werden durchnummeriert abgelegt.</li>
+<li><em>Encoding</em>: Die Beschreibung, wie Zeichen eines Zeichensatzes im
+Rechner in Form von Bitmustern abgelegt werden. Solange maximal ein
+Byte benutzt wird, entspricht die Kodierung genau der Interpretation
+als Ganzzahl in der Zeichentabelle. ASCII (7 Bit) und latin1 (8 Bit)
+machen dies so. Bei mehr als einem Byte pro Zeichen, können die
+Zeichen mit fester oder variabler Anzahl von Bytes kodiert werden.
+Bei fester Anzahl werden für reine ASCII-Buchstaben viele Bytes
+häufig nur mit Nullen befüllt und damit schlecht ausgenutzt. Eine
+variable Breite, wie etwa bei UTF8 genutzt, ermöglicht, ein Zeichen
+auf mehrere Bytes zu verteilen. Beginnt ein UTF8-Zeichen mit
+110xxxxx, so folgen ein oder mehrere Bytes, die mit 10yyyyyy
+beginnen. Die freien Plätze xxxxxyyyyyy zusammen ergeben damit den
+Eintrag in der Zeichentabelle.</li>
+</ul>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

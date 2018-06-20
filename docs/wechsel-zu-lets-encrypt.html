@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>Wechsel zu "let's encrypt"</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/wechsel-zu-lets-encrypt.html" rel="bookmark"
+           title="Permalink to Wechsel zu "let's encrypt"">Wechsel zu &quot;let's encrypt&quot;</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-04-13T16:20:00+02:00">
+                Published: Do 13 April 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/linux.html">Linux</a> </p>
+</footer><!-- /.post-info -->      <p>Nachdem Google seine Drohungen nun wahr gemacht und auch alte
+StartSSL-Zertifikate im Google Chrome nicht mehr unterstützt werden, bin
+ich zu let's encrypt gewechselt. Der Wechsel mit Hilfe des certbot
+verlief erstaunlich beschwerdefrei, wenngleich ich mich über die 10 MB
+Abhängigkeiten und über eine Neu(!)-Entwicklung in Python2 sehr
+gewundert habe. Ebenso ist die Support für Apache derzeit immer noch im
+Beta-Stadium, weshalb ich die Zertifikate generieren aber nicht
+automatisch in meine Konfiguration einbinden lasse.</p>
+<p>Hier ist noch einmal meine Anleitung für ein Ubuntu 16.04 LTS:</p>
+<ol class="arabic simple">
+<li>Vorgehen gemäß
+<a class="reference external" href="https://certbot.eff.org/#ubuntuxenial-apache">Anleitung</a></li>
+<li>PPA für das Paket add-apt-repository
+sudo apt install software-properties-common</li>
+<li>sudo add-apt-repository ppa:certbot/certbot</li>
+<li>sudo apt-get update</li>
+<li>sudo apt install python-certbot-apache</li>
+<li>Zertifikate generieren: sudo certbot --apache certonly
+Certs werden nach /etc/letsencrypt/www.bakera.de gespeichert</li>
+<li>apache config angepasst gemäß <a class="reference external" href="https://certbot.eff.org/docs/using.html#where-are-my-certificates">Anleitung</a>SSLCertificateFile
+/etc/letsencrypt/live/www.bakera.de/fullchain.pem
+SSLCertificateKeyFile /etc/letsencrypt/live/www.bakera.de/privkey.pem</li>
+<li>Cronjob für die Erneuerung der Zertifiakte angelegt gemäß
+<a class="reference external" href="https://certbot.eff.org/docs/using.html#re-creating-and-updating-existing-certificates">Anleitung</a>.
+42 3 * * * /usr/bin/certbot renew --post-hook &quot;service apache2
+restart&quot;</li>
+</ol>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

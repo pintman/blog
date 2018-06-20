@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>/home/bakera/blog - Programmierung</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="http://blog.bakera.de/ci-cd-mit-gitlab.html">CI/CD mit Gitlab</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2018-03-23T18:08:00+01:00">
+                Published: Fr 23 März 2018
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="http://blog.bakera.de/tag/python.html">Python</a> </p>
+</footer><!-- /.post-info --><p><a class="reference external" href="http://gitlab.com/">Gitlab</a> ist neben github eine der großen
+Plattformen für Softwareentwickler, um Quelltext in Git-Repos zu
+verwalten. Mir hat immer gut gefallen, dass die Plattform keine Probleme
+mit privaten Repos hat - github stellt sich etwas an und möchte hier nur
+ein privates Repo pro Nutzer kostenlos zur Verfügung stellen. Auch die
+<a class="reference external" href="https://tosdr.org/#github">Terms of Service</a> von github bereiten mir
+zunehmend Bauchschmerzen. Hinzu kommt, dass sich github nicht auf
+eigener Infrastruktur hosten lässt. Gitlab dagegen bietet eine mächtige
+<a class="reference external" href="https://about.gitlab.com/installation/">Community-Edition</a> an. Das
+Projekt <a class="reference external" href="https://edugit.org/">edugit</a> des Teckids e.V. ist ein
+Vorstoß in die Richtung, diesen Dienst datenschutzkonform auch im
+Bildungsbereich in Deutschland anbieten zu können.</p>
+<p>Zurück zu den Vorzügen von Gitlab. Ein tolles mir neues Feature sind
+sogenannte Runner. Das sind virtuelle Maschinen, Rechner oder
+Docker-Container, die meinen Quelltext automatisch prüfen können. Dieses
+Feature heißt CI/CD (für Continuous Integration/Continuous Delivery) und
+wird durch die Datei <em>.gitlab-ci.yml</em> konfiguriert. Ein Beispiel, das
+einen Pythontest in einem Python-Container auf alpine-Basis ausführt,
+sieht so aus.</p>
+<pre class="literal-block">
+image: python:alpine  # Das Basisimage des Containers
+
+before_script:  # Wird vor jedem Task ausgeführt
+ - echo nothing to do
+
+tests:    # Ein Task mit Namen 'tests'
+ script:  # Das Script hat mehrere Befehle
+ - find ex.py test.py
+ - python3 test.py
+ - python3 -m doctest ex.py
+</pre>
+<p>Sobald nun Quelltext in das Repo gepusht wird, läuft ein sogenannter
+Runner und führt die Tasks einzeln aus. Gitlab selbst stellt auf seiner
+Plattform verschiedene Runner zur Verfügung, die von Digital Ocean
+gesponsert werden und in ihrer Laufzeit auf generöse 2000 CPU-Minuten
+pro Monat und User beschränkt sind. Wem das nicht reicht, der kann auch
+selbst einen <a class="reference external" href="https://docs.gitlab.com/runner/install/">Runner bei sich
+installieren</a>, laufen lassen
+und darin die Tests ausführen. Wem Gitlab nicht behagt, der kann auch
+einen Runner mit <a class="reference external" href="http://docs.drone.io">drone.io</a> betreiben. Diese
+haben den Vorzug, nicht auf Gitlab beschränkt zu sein und integrieren
+sich auch in andere Plattformen wie etwa
+<a class="reference external" href="https://github.com">github</a>, <a class="reference external" href="http://gitea.io/">gitea</a> oder
+<a class="reference external" href="https://gogs.io/">gogs</a>.</p>
+                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/minigamejam-3-gebar-die-starfeetacademy.html" rel="bookmark"
+                           title="Permalink to MiniGameJam #3 gebar die StarFeetAcademy">MiniGameJam #3 gebar die StarFeetAcademy</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2018-03-03T12:21:00+01:00">
+                Published: Sa 03 März 2018
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="http://blog.bakera.de/tag/spass.html">Spaß</a> <a href="http://blog.bakera.de/tag/spiele.html">Spiele</a> </p>
+</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2018/02/starfeet-768x1024.jpg"><img alt="image0" class="alignnone size-large wp-image-2249" src="images/2018/02/starfeet-768x1024.jpg" style="width: 625px; height: 833px;" /></a></p>
+<p>Am Samstag, dem 10.2. ging der <a class="reference external" href="https://game-jam-do.de/">Mini Game Jam
+Dortmund</a> in die <a class="reference external" href="https://www.meetup.com/de-DE/Game-Developers-Dortmund/events/244182120/">dritte
+Runde</a>.
+Wieder mussten Spielentwickler (Profis, Amateure und Dilettanten) an
+einem Tag in 8 Stunden ein Spiel erdenken und umsetzen. Es war das
+zweite mal, dass ich daran teilgenommen habe. Die Organisation war
+wieder einmal klasse und …</p>
+                <a class="readmore" href="http://blog.bakera.de/minigamejam-3-gebar-die-starfeetacademy.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/wie-produziert-man-heute-ein-c64-spiel.html" rel="bookmark"
+                           title="Permalink to Wie produziert man heute ein C64-Spiel?">Wie produziert man heute ein C64-Spiel?</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-11-30T21:12:00+01:00">
+                Published: Do 30 November 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="http://blog.bakera.de/tag/spiele.html">Spiele</a> <a href="http://blog.bakera.de/tag/tipp.html">Tipp</a> <a href="http://blog.bakera.de/tag/video.html">Video</a> </p>
+</footer><!-- /.post-info -->                <p><img alt="image0" class="alignnone wp-image-2126 size-medium" src="images/2017/11/Planet2X-e1512072629664-300x248.png" style="width: 300px; height: 248px;" /></p>
+<p>Früher wurden Spiele für den C64 in Schachteln ausgeliefert. Die
+Schachtel kaufte man im Laden und darin befand sich eine Diskette oder
+Kassette sowie eine Anleitung. Aber wie produziert man ein Spiel für den
+C64 heutzutage? Der 8-Bit-Guy hat das Spiel <a class="reference external" href="http://www.the8bitguy.com/product/planet-x2-commodore-64/">Planet
+X2</a> für
+den C64 selbst produziert - inklusive Soundtrack …</p>
+                <a class="readmore" href="http://blog.bakera.de/wie-produziert-man-heute-ein-c64-spiel.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/ein-eigener-pypi-server.html" rel="bookmark"
+                           title="Permalink to Ein eigener PyPI-Server">Ein eigener PyPI-Server</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-11-20T20:23:00+01:00">
+                Published: Mo 20 November 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="http://blog.bakera.de/tag/python.html">Python</a> </p>
+</footer><!-- /.post-info -->                <p>Der Python Package Index - kurz PyPI - ist die zentrale Anlaufstelle für
+die Installation von Pythonpaketen. Wenn das Internet mal streikt, der
+Dienst nicht verfügbar oder nur schlecht erreichbar ist, lohnt sich der
+Blick auf das Paket
+<a class="reference external" href="https://pypi.python.org/pypi/pypiserver">pypiserver</a>. Der Server
+wird mit <tt class="docutils literal">pip install pypiserver</tt> installiert und kann anschließend
+mit <tt class="docutils literal"><span class="pre">pypi-server …</span></tt></p>
+                <a class="readmore" href="http://blog.bakera.de/ein-eigener-pypi-server.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/klein-aber-fein-der-minigamejam-in-dortmund.html" rel="bookmark"
+                           title="Permalink to Klein aber fein - der MiniGameJam in Dortmund">Klein aber fein - der MiniGameJam in Dortmund</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-06-18T08:40:00+02:00">
+                Published: So 18 Juni 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/hardware.html">Hardware</a> <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="http://blog.bakera.de/tag/python.html">Python</a> <a href="http://blog.bakera.de/tag/spass.html">Spaß</a> <a href="http://blog.bakera.de/tag/video.html">Video</a> </p>
+</footer><!-- /.post-info -->                <p><img alt="image0" class="alignnone size-full wp-image-2076" src="images/2017/06/miniggamejamdo.png" style="width: 790px; height: 144px;" /></p>
+<p>Am 10.06.2017 fand der erste Game Jam in Dortmund statt - noch ein wenig
+zaghaft als <a class="reference external" href="https://game-jam-do.de/">Mini Game Jam</a> tituliert. An
+einem sonnigen Samstag fanden sich ca. 20 interessierte Entitäten im
+Dortmunder Künstlerhaus direkt hinter dem Hauptbahnhof ein, um in nur
+acht Stunden ein vollständiges Spiel zu programmieren. Nach …</p>
+                <a class="readmore" href="http://blog.bakera.de/klein-aber-fein-der-minigamejam-in-dortmund.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/fizzbuzz-katas-programmieruebungen-fuer-das-fizzbuzz-problem.html" rel="bookmark"
+                           title="Permalink to FizzBuzz Katas - Programmierübungen für das FizzBuzz-Problem">FizzBuzz Katas - Programmierübungen für das FizzBuzz-Problem</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-04-18T11:45:00+02:00">
+                Published: Di 18 April 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/bildung.html">Bildung</a> <a href="http://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="http://blog.bakera.de/tag/video.html">Video</a> </p>
+</footer><!-- /.post-info -->                <p>(Das Video bei
+<a class="reference external" href="https://archive.org/details/fizzbuzz_katas">archive.org</a>.)</p>
+<p>Bei dem FizzBuzz-Spiel werden die Zahlen von 1 bis 100 durchlaufen. Nun
+können folgende Fälle eintreten:</p>
+<ul class="simple">
+<li>Wenn die Zahl durch 3 teilbar ist, wird „Fizz“ ausgegeben</li>
+<li>wenn sie durch 5 teilbar ist, wird „Buzz“ ausgegeben und</li>
+<li>wenn sie durch 3 und 5 teilbar ist, wird …</li></ul>
+                <a class="readmore" href="http://blog.bakera.de/fizzbuzz-katas-programmieruebungen-fuer-das-fizzbuzz-problem.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/buchtipp-little-brother-von-cory-doctorow.html" rel="bookmark"
+                           title="Permalink to Buchtipp: "Little Brother" von Cory Doctorow">Buchtipp: &quot;Little Brother&quot; von Cory Doctorow</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-03-02T19:03:00+01:00">
+                Published: Mo 02 März 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/buch.html">Buch</a> <a href="http://blog.bakera.de/tag/hardware.html">Hardware</a> <a href="http://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="http://blog.bakera.de/tag/linux.html">Linux</a> <a href="http://blog.bakera.de/tag/mathe.html">Mathe</a> <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="http://blog.bakera.de/tag/tipp.html">Tipp</a> </p>
+</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2015/01/398px-Little_Brother_illustration_by_Richard_Wilkinson_01.jpg"><img alt="cc: Richard Wilkinson" class="size-full wp-image-1594" src="images/2015/01/398px-Little_Brother_illustration_by_Richard_Wilkinson_01.jpg" style="width: 398px; height: 599px;" /></a></p>
+<p>cc: Richard Wilkinson</p>
+<p>In dem Roman &quot;Little Brother&quot; erzählt Cory Doctorow die Geschichte der
+Geheimdienste nach den Anschlägen auf das World Trade Center in einem
+alternativen Amerika. Neben einer spannenden Geschichte für Jugendliche
+kommen auch Erwachsene auf ihre Kosten, wenn technische Details von
+Überwachungsmaßnahmen erläutert und die Gegenmaßnahmen mit Hilfe …</p>
+                <a class="readmore" href="http://blog.bakera.de/buchtipp-little-brother-von-cory-doctorow.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/einen-eigenen-webserver-programmieren.html" rel="bookmark"
+                           title="Permalink to Einen eigenen Webserver programmieren">Einen eigenen Webserver programmieren</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-10-04T13:44:00+02:00">
+                Published: Sa 04 Oktober 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> </p>
+</footer><!-- /.post-info -->                <div class="line-block">
+<div class="line"><img alt="browser" class="alignright size-full wp-image-1433" src="images/2014/10/browser.png" style="width: 128px; height: 128px;" /></div>
+<div class="line">Wie funktioniert eigentlich ein Webserver? Ich habe eine ungefähre
+Vorstellung davon, was mein Browser macht, wenn ich eine Webseite
+aufrufe. Aber die genauen Details blieben mir bisher immer verborgen.
+Ich wollte es daher genauer wissen und habe selbst eine Webserver
+programmiert. Das ist gar nicht so schwer und jeder kann …</div></div>
+                <a class="readmore" href="http://blog.bakera.de/einen-eigenen-webserver-programmieren.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/ein-programm-das-den-eigenen-quelltext-ausgibt.html" rel="bookmark"
+                           title="Permalink to Ein Programm, das den eigenen Quelltext ausgibt">Ein Programm, das den eigenen Quelltext ausgibt</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-05-02T18:15:00+02:00">
+                Published: Fr 02 Mai 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="http://blog.bakera.de/tag/spass.html">Spaß</a> </p>
+</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2014/05/icon_16654.png"><img alt="icon_commandline" class="alignnone size-full wp-image-988" src="images/2014/05/icon_16654.png" style="width: 300px;" /></a></p>
+<p>Ein
+<a class="reference external" href="https://de.wikipedia.org/wiki/Quine_%28Computerprogramm%29">Quine</a>
+ist ein Programm, das den eigenen Quelltext ausgibt. Dabei darf nicht
+auf Dateioperationen zurückgegriffen werden. Sonst wäre es zu einfach.
+Dann könnte man einfach nur die Datei ausgeben, die den Quelltext
+enthält.</p>
+<p>Das schöne an dieser Aufgabenstellung ist, dass sie zunächst sehr
+einfach und nach ein paar Versuchen …</p>
+                <a class="readmore" href="http://blog.bakera.de/ein-programm-das-den-eigenen-quelltext-ausgibt.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.bakera.de/spielereien-auf-der-kommandozeile-temperaturanzeige.html" rel="bookmark"
+                           title="Permalink to Spielereien auf der Kommandozeile: Temperaturanzeige">Spielereien auf der Kommandozeile: Temperaturanzeige</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-01-26T18:02:00+01:00">
+                Published: So 26 Januar 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/linux.html">Linux</a> <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> </p>
+</footer><!-- /.post-info -->                <p>Ich fragte mich, wie schwer es ist, die aktuelle Temperatur für meinem
+Wohnort Dortmund zu bestimmen. Mit der Bash und mit Hilfe der
+<a class="reference external" href="http://developer.yahoo.com/weather/">Yahoo-Weather-API</a> lies sich
+das Problem mit einer Zeile lösen. Die API benutzt eine sogenannte WOEID
+(Where On Earth ID), die ich mir aus der Adresszeile der
+<a class="reference external" href="http://weather.yahoo.com/">Yahoo-Wetterseite …</a></p>
+                <a class="readmore" href="http://blog.bakera.de/spielereien-auf-der-kommandozeile-temperaturanzeige.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+<p class="paginator">
+    Page 1 / 8
+        <a href="http://blog.bakera.de/tag/programmierung2.html">&raquo;</a>
+</p>
+                </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

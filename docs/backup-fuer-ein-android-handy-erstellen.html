@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>Backup für ein Android-Handy erstellen</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/backup-fuer-ein-android-handy-erstellen.html" rel="bookmark"
+           title="Permalink to Backup für ein Android-Handy erstellen">Backup für ein Android-Handy erstellen</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-01-05T11:12:00+01:00">
+                Published: So 05 Januar 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="http://blog.bakera.de/tag/tipp.html">Tipp</a> </p>
+</footer><!-- /.post-info -->      <p>Nun habe ich schon seit einiger Zeit ein Android-Handy, habe mir
+sträflicherweise jedoch bisher wenig Gedanken um ein Backup der Daten
+auf diesem Handy gemacht. Dabei klappt es mit der <a class="reference external" href="https://developer.android.com/tools/help/adb.html">&quot;Android Debug
+Bridge&quot; (adb)</a>
+sehr einfach.</p>
+<p>Die Dokumentation zum Backupkommando lautet wir folgt:</p>
+<pre class="literal-block">
+adb backup [-f &lt;file&gt;] [-apk|-noapk] [-shared|-noshared] [-all] [-system|-nosystem] [&lt;packages...&gt;]
+&nbsp;&nbsp; - write an archive of the device's data to &lt;file&gt;.
+&nbsp;&nbsp;&nbsp;&nbsp; If no -f option is supplied then the data is written
+ &nbsp;&nbsp;&nbsp; to &quot;backup.ab&quot; in the current directory.
+ &nbsp;&nbsp;&nbsp; (-apk|-noapk enable/disable backup of the .apks themselves
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in the archive; the default is noapk.)
+&nbsp;&nbsp;&nbsp;&nbsp; (-shared|-noshared enable/disable backup of the device's
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; shared storage / SD card contents; the default is noshared.)
+&nbsp;&nbsp;&nbsp;&nbsp; (-all means to back up all installed applications)
+&nbsp;&nbsp;&nbsp;&nbsp; (-system|-nosystem toggles whether -all automatically includes
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; system applications; the default is to include system apps)
+&nbsp;&nbsp;&nbsp;&nbsp; (&lt;packages...&gt; is the list of applications to be backed up.&nbsp; If
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the -all or -shared flags are passed, then the package
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; list is optional.&nbsp; Applications explicitly given on the
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; command line will be included even if -nosystem would
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ordinarily cause them to be omitted.)
+</pre>
+<p>Für Windows muss man das kleine Programm aus dem Android SDK erst
+installieren, auf einem openSUSE ist es in der Standardinstallation
+schon vorhanden.</p>
+<p>Um adb benutzen zu können, muss das USB-Debugging zuvor im Handy bei den
+Entwickleroptionen eingeschaltet werden.</p>
+<p>Danach lässt sich ein Backup sehr einfach mit</p>
+<pre class="literal-block">
+adb backup -all
+</pre>
+<p>erzeugen. Nun wird die Datei &quot;backup.ab&quot; im aktuellen Verzeichnis
+erzeugt, Diese kann mit</p>
+<pre class="literal-block">
+adb restore backup.ab
+</pre>
+<p>wieder zurück in das Gerät gespielt werden.</p>
+<p>Neben Backups kann man adb auch für die Installation oder einen
+Shell-Zugang auf das Gerät prima nutzen. Viele weitere Tipps stehen in
+der aktuellen <a class="reference external" href="http://www.heise.de/ct/inhalt/2014/2/74/">c't (2/14)</a>.</p>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

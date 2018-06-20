@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>Erste Programme für den HP 35s</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/erste-programme-fuer-den-hp35s.html" rel="bookmark"
+           title="Permalink to Erste Programme für den HP 35s">Erste Programme für den HP 35s</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-06-14T12:16:00+02:00">
+                Published: Sa 14 Juni 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/hp35s.html">HP35s</a> <a href="http://blog.bakera.de/tag/taschenrechner.html">Taschenrechner</a> </p>
+</footer><!-- /.post-info -->      <p><img alt="cc: Stefan Vorkoetter" class="size-full wp-image-1143" src="images/2014/06/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /></p>
+<p>cc: Stefan Vorkoetter</p>
+<p>Erst <a class="reference external" href="http://www.bakera.de/wp/2014/06/bakera-packt-aus-einen-hp35s/">kürzlich habe ich einen neuen Taschenrechner
+erhalten</a>
+- den HP 35s. Natürlich habe ich zunächst die Möglichkeiten erforscht,
+das Gerät zu programmieren. Ein paar erste Programme möchte ich hier
+vorstellen.</p>
+<div class="section" id="ihk-notenschlussel">
+<h2>IHK-Notenschlüssel</h2>
+<div class="level3"><p>Ein kleines Programm zur Berechnung eines Notenschlüssels gemäß des
+IHK-Schlüssels.</p>
+<pre class="code literal-block">
+I001 LBL I
+I002 STO P               Wert im aktuellen Register in P speichern
+I003 Px[0.92,0.81,0.67]  Nötige Punkte berechnen und
+I004 Px[0.50,0.30,0.00]  in zwei Vektoren abspeichern
+I005 RTN
+</pre>
+<p>Der Aufruf erfolgt wie folgt:</p>
+<ol class="arabic">
+<li><div class="first"><div class="li"></div><p>Punktzahl eingeben</p>
+</div></li>
+<li><div class="first"><div class="li"></div><p>XEQ I ENTER</p>
+</div></li>
+</ol>
+<p>Dann werden die Punkte angezeigt.</p>
+</div><div class="secedit editbutton_section editbutton_3"></div></div>
+<div class="section" id="pq-formel">
+<h2>pq-Formel</h2>
+<div class="level3"><p>Zunächst werden die Werte für p und q auf dem Stack gespeichert.
+Anschließend kann das folgende Programm ausgeführt werden, das die
+reellen Nullstellen berechnet.</p>
+<pre class="code literal-block">
+P001  LBL P
+P002  STO Q
+P003  x&lt;&gt;y
+P004  STO P
+P005  -P÷2+SQRT((P÷2)^2-Q)
+P006  -P÷2-SQRT((P÷2)^2-Q)
+P007  RTN
+</pre>
+</div><div class="secedit editbutton_section editbutton_4"></div></div>
+<div class="section" id="nullstellen-kubischer-gleichungen-version-1">
+<h2>Nullstellen kubischer Gleichungen - Version 1</h2>
+<div class="level3"><p>Die Nullstellen einer Funktion der Form f(x) = ax³ + bx² +cx +d lassen
+sich mit Hilfe des
+<a class="reference external" href="http://de.wikipedia.org/wiki/Weierstra%C3%9F-%28Durand-Kerner%29-Verfahren">Weierstraß-(Durand-Kerner)-Verfahren</a>
+berechnen. Leider verwendet das Verfahren komplexe Zahlen und ist daher
+etwas langsam auf dem HP35s. Nach Beendigung des Algorithmus stehen die
+Ergebnisse in den Registern X, Y und Z.</p>
+<pre class="code literal-block">
+K001 LBL K
+K002 INPUT A
+K003 INPUT B
+K004 INPUT C
+K005 INPUT D
+K006 1          Die Startwerte für P, Q und R werden
+K007 STO P      mit beliebigen Werten initialisiert.
+K008 0.4i0.9
+K009 STO Q
+K010 -0.65i0.72
+K011 STO R
+K012 0.006      Die Variable Z dient als Schleifenvariable
+K013 STO Z      und wird von 0 bis 6 gezählt.
+K014 P-(AxP^3+BxP^2+CxP+D)÷(P-Q)÷(P-R)
+K015 STO P
+K016 Q-(AxQ^3+BxQ^2+CxQ+D)÷(Q-P)÷(Q-R)
+K017 STO Q
+K018 R-(AxR^3+BxR^2+CxR+D)÷(R-P)÷(R-Q)
+K019 STO R
+K020 ISG Z
+K021 GTO K014
+K022 RTN
+</pre>
+</div><div class="secedit editbutton_section editbutton_5"></div></div>
+<div class="section" id="nullstellen-kubischer-gleichungen-version-2">
+<h2>Nullstellen kubischer Gleichungen - Version 2</h2>
+<div class="level3"><p>Mit Hilfe des
+<a class="reference external" href="http://de.wikipedia.org/wiki/Horner-Schema">Horner-Schema</a>s, der
+Solve-Funktion und der pq-Formel lässt sich auch eine kubische Gleichung
+der Form f(x) = ax³+bx²+cx+d lösen.</p>
+<p>Damit in einem Programm auf die zu lösende Funktion zugegriffen werden
+kann, legen wir sie in Programm F ab.</p>
+<pre class="code literal-block">
+F001  LBL F
+F002  INPUT X
+F003  INPUT A
+F004  INPUT B
+F005  INPUT C
+F006  INPUT D
+F007  AxX^3+Bx^2+CxX+D
+F008  RTN
+</pre>
+<p>Nun wird mit dem Programm C eine Nullstelle mittels SOLVE bestimmt und
+das Restpolynom mit dem Hornerschema ermittelt.</p>
+<pre class="code literal-block">
+C001  LBL C
+C002  FN= F
+C003  1        Festlegen einer Anfangsschätzung
+C004  STO X
+C005  SOLVE X
+C006  VIEW X   Das erste Ergebnis wird angezeigt
+C007  STO X
+</pre>
+<pre class="code literal-block">
+C008  XxA      Bestimmung des Restpolynoms mit
+C009  STO+ B   dem Horner-Schema
+C010  XxB
+C011  STO+ C
+</pre>
+<pre class="code literal-block">
+C012  B÷A      Normalform für pq-Formel herstellen.
+C013  C÷A
+C014  XEQ P001
+C015  RTN
+</pre>
+</div><div class="secedit editbutton_section editbutton_6"></div></div>
+<div class="section" id="komplexe-wurzeln">
+<h2>Komplexe Wurzeln</h2>
+<div class="level3"><p>Die komplexe Wurzel lässt sich mit dem folgenden kleinen Programm
+berechnen.</p>
+<p>Durch die Verwendung von LASTx wird der Stack nicht verändert. CLx
+löscht den Inhalt des X-Registers auf dem Stack.</p>
+<pre class="code literal-block">
+K001 LBL K
+K002 1/x
+K003 CLx
+K004 LASTx^0.5i0
+K005 RTN
+</pre>
+</div></div>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

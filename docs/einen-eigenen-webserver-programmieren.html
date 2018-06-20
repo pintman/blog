@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>Einen eigenen Webserver programmieren</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/einen-eigenen-webserver-programmieren.html" rel="bookmark"
+           title="Permalink to Einen eigenen Webserver programmieren">Einen eigenen Webserver programmieren</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-10-04T13:44:00+02:00">
+                Published: Sa 04 Oktober 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> </p>
+</footer><!-- /.post-info -->      <div class="line-block">
+<div class="line"><img alt="browser" class="alignright size-full wp-image-1433" src="images/2014/10/browser.png" style="width: 128px; height: 128px;" /></div>
+<div class="line">Wie funktioniert eigentlich ein Webserver? Ich habe eine ungefähre
+Vorstellung davon, was mein Browser macht, wenn ich eine Webseite
+aufrufe. Aber die genauen Details blieben mir bisher immer verborgen.
+Ich wollte es daher genauer wissen und habe selbst eine Webserver
+programmiert. Das ist gar nicht so schwer und jeder kann es selbst
+ausprobieren.</div>
+<div class="line"><br /></div>
+<div class="line">Unten findet ihr den Quelltext für einen einfachen Webserver, den ich
+in C# geschrieben habe. Ich habe bewusst nur auf der Netzwerkebene
+gearbeitet und weitere Abstraktionsebenen sowie schon vorhandene
+Serverkomponenten, die es in .NET gibt, nicht verwendet.</div>
+</div>
+<p>Nach dem Start des Programms, kann man mit einem Browser auf die Adresse
+<a class="reference external" href="http://localhost:12345">http://localhost:12345</a> zugreifen und auf den Unterseiten
+<a class="reference external" href="http://localhost:12345/ip">http://localhost:12345/ip</a> die eigene IP-Adresse und unter
+<a class="reference external" href="http://localhost:12345/datum">http://localhost:12345/datum</a> das aktuelle Datum erfahren. Der Browser
+läuft auf dem Port 12345, um nicht mit anderen Diensten, die auf dem
+Rechner bereits laufen, in Konflikt zu geraten.</p>
+<p>Das Programm kann nun noch beliebig erweitert werden. Im Moment wird Typ
+des verschickten Inhalts noch nicht berücksichtigt und nur Text
+verwendet. Hier könnten man natürlich auch HTML-Seiten übermitteln und
+z.B. eine statische HTML-Seite wie index.html ausliefern, wenn sie
+angefordert wird. Oder der Server führt ein Programm mit Parametern aus
+und sendet das Ergebnis zurück an den Browser. Ihr merkt, dass ich nicht
+so kreativ bin wie ihr.</p>
+<pre class="literal-block">
+using System;
+using System.Net;
+using System.Net.Sockets;
+
+namespace WebServer
+{
+  class MainClass
+  {
+      public static void Main(string[] args)
+      {
+        while (true)
+        {
+          // IP-Adresse und Port des Servers
+          IPAddress ipAdresse = IPAddress.Parse(&quot;127.0.0.1&quot;);
+          IPEndPoint ipEndpunkt = new IPEndPoint(ipAdresse, 12345);
+          Console.WriteLine(&quot;EndPoint: &quot; + ipEndpunkt);
+
+          // Socket erstellen, mit Endpoint verbinden und auf Verbindung warten
+          Socket socketServer =
+            new Socket(ipEndpunkt.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+          socketServer.Bind(ipEndpunkt);
+          socketServer.Listen(1); // Backlog = Anzahl wartender Verbindungen
+
+          // Daten empfangen und in Byte-Array ablegen
+          byte[] buffer = new byte[512];
+          Socket socketClient = socketServer.Accept();
+          Console.WriteLine(
+            &quot;Verbindung hergestellt mit &quot; + socketClient.RemoteEndPoint);
+          socketClient.Receive(buffer);
+
+          // Empfangene Daten ausgeben
+          Console.WriteLine(&quot;Empangene Daten:&quot;);
+          string sDaten = &quot;&quot;;
+          for (int i = 0; i &lt; buffer.Length &amp;&amp; buffer[i] != 0; i++)
+          {
+            sDaten += (char)buffer [i];
+          }
+          Console.WriteLine(sDaten);
+
+          // Daten auswerten und Anwort erstellen
+          string sAntwort = &quot;&quot;;
+          if (sDaten.Contains(&quot;GET /ip&quot;))
+          {
+            sAntwort = &quot;Deine IP lautet &quot; + socketClient.RemoteEndPoint;
+          }
+          else if(sDaten.Contains(&quot;GET /datum&quot;))
+          {
+            sAntwort = &quot;Das heutige Datum ist &quot; + DateTime.Now;
+          }
+          else
+          {
+            sAntwort = &quot;Was willst du machen?&quot;;
+          }
+
+          // Antwort in Byte-Array konvertieren und senden
+          buffer = new byte[sAntwort.Length];
+          for (int i = 0; i &lt; sAntwort.Length; i++)
+          {
+            buffer [i] = (byte) sAntwort[i];
+          }
+          socketClient.Send(buffer);
+
+          // Sockets schließen
+          socketClient.Close();
+          socketServer.Close();
+      }
+    }
+  }
+}
+</pre>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

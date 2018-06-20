@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>Ein Programm, das den eigenen Quelltext ausgibt</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/ein-programm-das-den-eigenen-quelltext-ausgibt.html" rel="bookmark"
+           title="Permalink to Ein Programm, das den eigenen Quelltext ausgibt">Ein Programm, das den eigenen Quelltext ausgibt</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-05-02T18:15:00+02:00">
+                Published: Fr 02 Mai 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="http://blog.bakera.de/tag/spass.html">Spaß</a> </p>
+</footer><!-- /.post-info -->      <p><a class="reference external" href="images/2014/05/icon_16654.png"><img alt="icon_commandline" class="alignnone size-full wp-image-988" src="images/2014/05/icon_16654.png" style="width: 300px;" /></a></p>
+<p>Ein
+<a class="reference external" href="https://de.wikipedia.org/wiki/Quine_%28Computerprogramm%29">Quine</a>
+ist ein Programm, das den eigenen Quelltext ausgibt. Dabei darf nicht
+auf Dateioperationen zurückgegriffen werden. Sonst wäre es zu einfach.
+Dann könnte man einfach nur die Datei ausgeben, die den Quelltext
+enthält.</p>
+<p>Das schöne an dieser Aufgabenstellung ist, dass sie zunächst sehr
+einfach und nach ein paar Versuchen faktisch unmöglich erscheint. Für
+ein C#-Programm habe ich einen solchen Quine einmal selbst programmiert.
+Es ist nicht die kürzeste Version, aber sie stellt recht gut das Prinzip
+dar, nach dem derartige Programme aufgebaut sind: Daten und Programm
+werden getrennt. Das Programm ist hierbei jedoch auch Teil der Daten.</p>
+<pre class="literal-block">
+class MainClass {
+&nbsp;&nbsp;&nbsp; static string[] daten = {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;&nbsp; public static void Main(string[] args) {&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;&nbsp;&nbsp;&nbsp; Console.WriteLine(\&quot;class MainClass{\&quot;);&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;&nbsp;&nbsp;&nbsp; Console.WriteLine(\&quot;&nbsp; static string[] daten = {\&quot;);&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;&nbsp;&nbsp;&nbsp; for (int i=0; i&lt;daten.Length; i++) &quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.WriteLine(\&quot;&nbsp; \\\&quot;\&quot;+daten[i]+\&quot;\\\&quot;,\&quot;);&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;&nbsp;&nbsp;&nbsp; Console.WriteLine(\&quot;&nbsp; };\&quot;);&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;&nbsp;&nbsp;&nbsp; for (int i=0; i&lt;daten.Length; i++)&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.WriteLine(daten [i]);&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;&nbsp; }&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;}&quot; };
+
+&nbsp;&nbsp;&nbsp; public static void Main(string[] args) {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.WriteLine(&quot;class MainClass{&quot;);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.WriteLine(&quot;&nbsp; static string[] daten = {&quot;);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for (int i=0; i&lt;daten.Length; i++)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.WriteLine(&quot;&nbsp; \&quot;&quot; + daten[i] + &quot;\&quot;,&quot;);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.WriteLine(&quot;&nbsp; };&quot;);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for (int i=0; i&lt;daten.Length; i++)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.WriteLine(daten [i]);
+&nbsp;&nbsp;&nbsp; }
+}
+</pre>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

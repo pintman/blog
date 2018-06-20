@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>Docker auf dem RaspberryPi</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/docker-auf-dem-raspberrypi.html" rel="bookmark"
+           title="Permalink to Docker auf dem RaspberryPi">Docker auf dem RaspberryPi</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2018-01-20T15:49:00+01:00">
+                Published: Sa 20 Januar 2018
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/raspberrypi.html">RaspberryPi</a> </p>
+</footer><!-- /.post-info -->      <p><a class="reference external" href="images/Docker-Pirates-ARMed-with-explosive-stuff.png"><img alt="image0" class="alignnone size-full wp-image-2234" src="images/Docker-Pirates-ARMed-with-explosive-stuff.png" style="width: 134px; height: 138px;" /></a></p>
+<p>Mit <a class="reference external" href="https://blog.hypriot.com/">HyprioOS</a> gibt es seit einiger Zeit
+ein Image für den RaspberryPi, das docker container auf den Pi holt. Man
+muss beachten, dass die docker images für ARM-Architekturen gebaut sind.
+Davon gibt es aber immer mehr -
+<a class="reference external" href="https://hub.docker.com/r/hypriot/">hypriot</a> selbst stellt bereits
+einige zur Verfügung. Man kann z.B. mit einem schlanken
+alpine-Basisimage starten und sich darauf aufbauend mit Hilfe eines
+<a class="reference external" href="https://manpages.debian.org/Dockerfile">Dockerfile</a> den Container
+für den eigenen Bedarf stricken.</p>
+<pre class="literal-block">
+$ docker build -t containername .
+</pre>
+<p>Mehrere Container können schließlich zu einem Service zusammengebaut
+werden. Das macht docker-compose und ein
+<a class="reference external" href="https://docs.docker.com/compose/compose-file/">docker-compose-yml-File</a>.</p>
+<pre class="literal-block">
+$ docker-compose up
+</pre>
+<p>Mehrere Services lassen sich schließlich <a class="reference external" href="https://blog.hypriot.com/post/dockerconaustin2017/">zu einem Swam
+zusammenfügen</a>
+und auf mehrere Pis verteilen. HypriotOS bringt alle wichtigen Tools mit
+und läuft zuverlässig.</p>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

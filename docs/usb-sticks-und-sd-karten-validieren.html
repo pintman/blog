@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>USB-Sticks und SD-Karten validieren</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/usb-sticks-und-sd-karten-validieren.html" rel="bookmark"
+           title="Permalink to USB-Sticks und SD-Karten validieren">USB-Sticks und SD-Karten validieren</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2018-01-05T10:45:00+01:00">
+                Published: Fr 05 Januar 2018
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/hardware.html">Hardware</a> <a href="http://blog.bakera.de/tag/linux.html">Linux</a> <a href="http://blog.bakera.de/tag/tipp.html">Tipp</a> <a href="http://blog.bakera.de/tag/tools.html">Tools</a> </p>
+</footer><!-- /.post-info -->      <p><a class="reference external" href="images/2018/01/webmichl-sd-card-800px.png"><img alt="image0" class="alignnone size-full wp-image-2191" src="images/2018/01/webmichl-sd-card-800px.png" style="width: 800px; height: 510px;" /></a></p>
+<p>Nicht immer funktionieren USB-Sticks und SD-Karten so wie sie sollen.
+Bei meiner letzten Bestellung aus China hatte ich den Verdacht, dass
+einige SD-Karten defekt waren - sie funktionierten für einen kurzen
+Zeitraum und gaben dann den Geist auf. Aus der c't kannte ich das
+Programm <a class="reference external" href="http://www.heise.de/download/h2testw.html">H2testw</a>, mit
+dem Flashspeicher geprüft werden kann. Dazu wird das Speichermedium mit
+Testdaten vollständig beschrieben und die Daten anschließend wieder
+gelesen. Wenn alles korrekt läuft, stimmen die gelesenen Daten mit den
+ursprünglich geschriebenen Daten überein. Das kann je nach Größe des
+Speichermediums durchaus eine Weile dauern.</p>
+<p>Für Linux gibt es hierfür das Paket f3, das mit den Programmen f3write
+und f3read das gleiche tut. Für einen korrekten USB-Stick läuft das
+Programm wie folgt ab:</p>
+<pre class="literal-block">
+$ f3write /media/STICK/
+Free space: 196.84 MB
+Creating file 1.h2w ... OK!
+Free space: 0.00 Byte
+Average writing speed: 6.76 MB/s
+</pre>
+<p>Anschließend werden die geschriebenen Daten wieder gelesen.</p>
+<pre class="literal-block">
+$ f3read /media/STICK/
+                  SECTORS     ok/corrupted/changed/overwritten
+Validating file 1.h2w ... 403128/        0/      0/      0
+
+  Data OK: 196.84 MB (403128 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+          Corrupted: 0.00 Byte (0 sectors)
+   Slightly changed: 0.00 Byte (0 sectors)
+        Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 7.75 MB/s
+</pre>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

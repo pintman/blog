@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>Tutorial: Binding Sourcen in C#</title>
+        <link rel="stylesheet" href="http://blog.bakera.de/theme/css/main.css" />
+        <link href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="http://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="http://blog.bakera.de/pages/newsfeed.html">Newsfeed</a></li>
+                    <li><a href="http://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.bakera.de/tutorial-binding-sourcen-in-c.html" rel="bookmark"
+           title="Permalink to Tutorial: Binding Sourcen in C#">Tutorial: Binding Sourcen in C#</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2013-01-04T10:07:00+01:00">
+                Published: Fr 04 Januar 2013
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://blog.bakera.de/author/admin.html">admin</a>
+        </address>
+<p>In <a href="http://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="http://blog.bakera.de/tag/programmierung.html">Programmierung</a> </p>
+</footer><!-- /.post-info -->      <div class="line-block">
+<div class="line">Mit Hilfe von Bindings können in C# Datenobjekte an eine GUI gebunden
+werden. Wenn sich etwas an den Datenobjekten ändert, wird die GUI
+automatisch aktualisiert. Andererseits können Änderungen an den
+Objekten direkt über die GUI vorgenommen werden. Man muss sich nach
+der Bindung also keine Gedanken mehr machen, dass die GUI aktualisiert
+wird, wenn sich an den Daten etwas ändert. Für gewöhnlich würde man
+für diesen Zweck das Observer-Pattern verwenden, als Obeserver (GUI)
+beim Observable (den Datenklassen) registrieren und auf Änderungen
+horchen.</div>
+<div class="line">` &lt;&gt;`__</div>
+<div class="line">Wir werden im Folgenden ein kleines Beispielprojekt in Visual Studio
+2010 erstellen, das diesen Zusammenhang veranschaulicht. Die
+Feinheiten erledigt Visual Studio im Hintergrund, wenn wir uns an ein
+paar Regeln halten.</div>
+<div class="line">Dazu erstellen wir zunächst ein neues Projekt.</div>
+</div>
+<div><p><a class="reference external" href="http://4.bp.blogspot.com/-sbD1ZkFJQSc/UOHDTbJea-I/AAAAAAAACOk/I_HukExFbAY/s1600/Binding+Source+Beispiel+-+quer_html_666c530d.png"><img alt="image0" src="http://4.bp.blogspot.com/-sbD1ZkFJQSc/UOHDTbJea-I/AAAAAAAACOk/I_HukExFbAY/s1600/Binding+Source+Beispiel+-+quer_html_666c530d.png" /></a></p>
+</div><div><p>In dem neuen Projekt erstellen wir eine Klasse Person, die an drei
+GUI-Elemente gebunden werden soll. In diesem kleinen Beispiel verwende
+ich eine TextBox, ein NumericUpDown und ein DataGridView als
+GUI-Elemente. Die Klasse Person hat lediglich die beiden Attribute
+&quot;name&quot; und &quot;alter&quot;.
+Insgesamt ergibt sich das folgende Bild.</p>
+</div><div><div><p><a class="reference external" href="http://4.bp.blogspot.com/-1_AnqVB63T0/UOHTUaGeERI/AAAAAAAACRE/JcjV1UpFBII/s1600/klassendiagramm_person_fenster.png"><img alt="image1" src="http://4.bp.blogspot.com/-1_AnqVB63T0/UOHTUaGeERI/AAAAAAAACRE/JcjV1UpFBII/s1600/klassendiagramm_person_fenster.png" /></a></p>
+</div></div><div class="line-block">
+<div class="line"><br /></div>
+<div class="line">Zunächst erstellen wir die Klasse des Datenobjektes: Person.</div>
+</div>
+<div><p><a class="reference external" href="http://4.bp.blogspot.com/-RPvu9VMDgoM/UOHDVQ-sVdI/AAAAAAAACO0/CWrN47d5JiI/s1600/Binding+Source+Beispiel+-+quer_html_748a4276.png"><img alt="image2" src="http://4.bp.blogspot.com/-RPvu9VMDgoM/UOHDVQ-sVdI/AAAAAAAACO0/CWrN47d5JiI/s1600/Binding+Source+Beispiel+-+quer_html_748a4276.png" /></a></p>
+</div><div class="line-block">
+<div class="line"><br /></div>
+<div class="line">Wir geben den Namen der Datei an, in der die Klasse landen soll:
+Person.cs.</div>
+</div>
+<div><p><a class="reference external" href="http://4.bp.blogspot.com/-m1bBwUqEDok/UOHDXTRjE6I/AAAAAAAACPE/RSATyWuOc_8/s1600/Binding+Source+Beispiel+-+quer_html_m63807da4.png"><img alt="image3" src="http://4.bp.blogspot.com/-m1bBwUqEDok/UOHDXTRjE6I/AAAAAAAACPE/RSATyWuOc_8/s1600/Binding+Source+Beispiel+-+quer_html_m63807da4.png" /></a></p>
+</div><div class="line-block">
+<div class="line"><br /></div>
+<div class="line">Die neue erzeugte Klasse macht nicht viel. Sie hält lediglich unsere
+Daten. Neben den beiden Attributen name und alter existieren nur
+entsprechende Zugriffsmethoden, die in C# als Properties realisiert
+sind. Der Quelltext der Klasse sieht damit wie folgt aus.</div>
+</div>
+<div><p><a class="reference external" href="http://1.bp.blogspot.com/-_B_x-uRsIfs/UOHDPDZ229I/AAAAAAAACN4/sbWUcbAls4s/s1600/Binding+Source+Beispiel+-+quer_html_22f4e63.png"><img alt="image4" src="http://1.bp.blogspot.com/-_B_x-uRsIfs/UOHDPDZ229I/AAAAAAAACN4/sbWUcbAls4s/s1600/Binding+Source+Beispiel+-+quer_html_22f4e63.png" /></a></p>
+</div><div class="line-block">
+<div class="line"><br /></div>
+<div class="line">Die neu erstellte Klasse Person soll als Datenquelle dienen. Dazu
+fügen wir dem Projekt eine neue Datenquelle hinzu.</div>
+</div>
+<div><p><a class="reference external" href="http://3.bp.blogspot.com/-F8EcKO29Cmc/UOHDR_qOeEI/AAAAAAAACOY/uSxkaurVSLQ/s1600/Binding+Source+Beispiel+-+quer_html_5e8bcdd7.png"><img alt="image5" src="http://3.bp.blogspot.com/-F8EcKO29Cmc/UOHDR_qOeEI/AAAAAAAACOY/uSxkaurVSLQ/s1600/Binding+Source+Beispiel+-+quer_html_5e8bcdd7.png" /></a></p>
+</div><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div><p>Da es sich um eine Klasse, und nicht etwa um eine Datenbank handelt,
+verwenden wir an dieser Stelle den Typ Objekt.</p>
+</div><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div><p><a class="reference external" href="http://4.bp.blogspot.com/-Ds4M67cWtN4/UOHDOVDVRSI/AAAAAAAACN0/dqClLkk3vCE/s1600/Binding+Source+Beispiel+-+quer_html_10e97626.png"><img alt="image6" src="http://4.bp.blogspot.com/-Ds4M67cWtN4/UOHDOVDVRSI/AAAAAAAACN0/dqClLkk3vCE/s1600/Binding+Source+Beispiel+-+quer_html_10e97626.png" /></a></p>
+</div><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div><p>In der sich zeigenden Liste, wählen wir unsere Klasse Person aus.</p>
+</div><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div><p><a class="reference external" href="http://2.bp.blogspot.com/-gheQTeUrvPc/UOHFIzZdAtI/AAAAAAAACQk/VdptjoEYyxM/s1600/Binding+Source+Beispiel+-+quer_html_m750ee31b.png"><img alt="image7" src="http://2.bp.blogspot.com/-gheQTeUrvPc/UOHFIzZdAtI/AAAAAAAACQk/VdptjoEYyxM/s1600/Binding+Source+Beispiel+-+quer_html_m750ee31b.png" /></a></p>
+</div><div></div><div></div><div><p>Nun ist die Klasse bei den Datenquellen zu finden und wir können sie an
+unsere Steuerelemente binden.</p>
+</div><div></div><div><p>Damit die neue Datenquelle gefunden wird, muss das Projekt einmal
+gestartet werden, indem wir auf den grünen Pfeil drücken.</p>
+</div><div><p><a class="reference external" href="http://3.bp.blogspot.com/-_KSG_ajIeHo/UOHDYDoCA_I/AAAAAAAACPI/6E4cA3HQq58/s1600/Binding+Source+Beispiel+-+quer_html_m6a054a16.png"><img alt="image8" src="http://3.bp.blogspot.com/-_KSG_ajIeHo/UOHDYDoCA_I/AAAAAAAACPI/6E4cA3HQq58/s1600/Binding+Source+Beispiel+-+quer_html_m6a054a16.png" /></a></p>
+</div><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div></div><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div><p>Wir beenden unser Programm sofort wieder. Nun taucht unsere Datenquelle
+mit den entsprechenden Attributen bei den Datenquellen auf.</p>
+</div><div></div><div><p><a class="reference external" href="http://1.bp.blogspot.com/-3bUIF8EtZSs/UOHDZpn-YbI/AAAAAAAACPY/j5s21-sINk4/s1600/Binding+Source+Beispiel+-+quer_html_m79564e59.png"><img alt="image9" src="http://1.bp.blogspot.com/-3bUIF8EtZSs/UOHDZpn-YbI/AAAAAAAACPY/j5s21-sINk4/s1600/Binding+Source+Beispiel+-+quer_html_m79564e59.png" /></a></p>
+</div><div></div><div><p>Jetzt können wir endlich Hand an unsere GUI legen. Wir wählen eine
+TextBox, ein NumericUpDown und ein DataGridView als Steuerelemente aus
+und ziehen diese Elemente auf unseren Designer.</p>
+</div><div></div><div><p><a class="reference external" href="http://2.bp.blogspot.com/-9ojvrak_GME/UOHDUS8587I/AAAAAAAACOs/B6RnmQeLWCc/s1600/Binding+Source+Beispiel+-+quer_html_6e7677c5.png"><img alt="image10" src="http://2.bp.blogspot.com/-9ojvrak_GME/UOHDUS8587I/AAAAAAAACOs/B6RnmQeLWCc/s1600/Binding+Source+Beispiel+-+quer_html_6e7677c5.png" /></a></p>
+</div><div></div><div><p>Beim Einfügen des DataGridViews, fragt die Komponente direkt nach ihrer
+Datenquelle. Die Datenquelle sorgt dafür, dass es in der Komponente
+etwas zum Anzeigen gibt – wie der Name eigentlich schon sagt. Wir wählen
+die Person als Datenquelle aus.</p>
+</div><div class="line-block">
+<div class="line"><a class="reference external" href="http://3.bp.blogspot.com/-1XPyx2UR8_Q/UOHDRKcCY4I/AAAAAAAACOQ/i8-76D7GzX4/s1600/Binding+Source+Beispiel+-+quer_html_457a6f8.png"><img alt="image11" src="http://3.bp.blogspot.com/-1XPyx2UR8_Q/UOHDRKcCY4I/AAAAAAAACOQ/i8-76D7GzX4/s1600/Binding+Source+Beispiel+-+quer_html_457a6f8.png" /></a></div>
+</div>
+<div><p>Es wird automatisch eine BindingSource hinzugefügt, die das
+Steuerelement mit der Personenklasse verbindet.</p>
+</div><div></div><div><p><a class="reference external" href="http://2.bp.blogspot.com/--ePmtk9zR6M/UOHDV5f5YvI/AAAAAAAACO4/2tFibWYOdyA/s1600/Binding+Source+Beispiel+-+quer_html_ecbbb66.png"><img alt="image12" src="http://2.bp.blogspot.com/--ePmtk9zR6M/UOHDV5f5YvI/AAAAAAAACO4/2tFibWYOdyA/s1600/Binding+Source+Beispiel+-+quer_html_ecbbb66.png" /></a></p>
+</div><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div><p>Alle Änderungen an einer Person werden nun nicht mehr direkt auf der
+Klasse, sondern über die BindingSource geregelt. Andererseits werden
+Änderungen an der Person über die BindingSource den GUI-Komponenten
+bekannt gemacht. Die BindingSource fungiert als Vermittler zwischen der
+Darstellung in der GUI und den Daten im Datenobjekt – also der Person.</p>
+</div><div><div></div><p></div><div></div><div class="line-block">
+<div class="line">Für das Textfeld wählen wir das Attribut Name als Datenquelle in der
+BindingSource aus: das Textfeld soll immer den Namen der aktuellen
+Person anzeigen.</div>
+</div>
+<div></div><div><p><a class="reference external" href="http://2.bp.blogspot.com/-KwFJVcB9DVM/UOHDaTWXS9I/AAAAAAAACPg/LFFvY1vgJ2I/s1600/Binding+Source+Beispiel+-+quer_html_maf43c17.png"><img alt="image13" src="http://2.bp.blogspot.com/-KwFJVcB9DVM/UOHDaTWXS9I/AAAAAAAACPg/LFFvY1vgJ2I/s1600/Binding+Source+Beispiel+-+quer_html_maf43c17.png" /></a></p>
+</div><div></div><div><p>Für das NumericUpDown wird entsprechend das Alter gewählt.</p>
+</div><div></div><div><p><a class="reference external" href="http://1.bp.blogspot.com/-B-796v7RNy4/UOHDcFcKhwI/AAAAAAAACPw/QGVNyfmK1JU/s1600/Binding+Source+Beispiel_html_27ce6f3b.png"><img alt="image14" src="http://1.bp.blogspot.com/-B-796v7RNy4/UOHDcFcKhwI/AAAAAAAACPw/QGVNyfmK1JU/s1600/Binding+Source+Beispiel_html_27ce6f3b.png" /></a></p>
+</div><div></div><div></div><div></div><div><p>Damit ist die kleine Anwendung schon fertig. Wenn wir sie starten,
+können neue Personen über das DatagridView eingegeben und geändert
+werden. Gleichzeitig werden die beiden anderen Komponenten - die TextBox
+mit dem Namen und das NumericUpDown mit dem Alter - automatisch
+aktualisiert.</p>
+</div><div></div><div><p>Spiele etwas mit der kleinen Anwendung herum und schau, wie mühelos die
+Verbindung zwischen dem Datenobjekt Person und der Oberfläche
+funktioniert.</p>
+</div><div></div><div><p><a class="reference external" href="http://2.bp.blogspot.com/-C3T6OamXqUg/UOHGZP7Sq6I/AAAAAAAACQ0/Ddvvu5FRVgc/s1600/Binding+Source+Beispiel+-+quer_html_34c4ed4b.png"><img alt="image15" src="http://2.bp.blogspot.com/-C3T6OamXqUg/UOHGZP7Sq6I/AAAAAAAACQ0/Ddvvu5FRVgc/s1600/Binding+Source+Beispiel+-+quer_html_34c4ed4b.png" /></a></p>
+</div><div></div><div></div><div><p>An dieser Stelle kannst du <a class="reference external" href="https://docs.google.com/open?id=0B7xDwPYvx9_LNV9fMXFKMmFDVEU">das vollständige Projekt als Visual Studio
+2010
+Solution</a>
+herunterladen.</p>
+</div><div></div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
