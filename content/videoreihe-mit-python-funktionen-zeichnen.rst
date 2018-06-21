@@ -17,7 +17,7 @@ gezeichnet.
    :target: https://www.youtube-nocookie.com/embed/ofhJJPlsaBg?rel=0
    :alt: Youtube-Video
 
-In nächsten Schritt versuchen wir, ein algorithmisches Problem mit einem 
+Im nächsten Schritt versuchen wir, ein algorithmisches Problem mit einem 
 Pythonprogramm zu lösen: die Berechnung der Nullstelle einer Funktion.
 
 .. image:: images/2018/06/fUtne5Zx124.jpg
@@ -26,15 +26,15 @@ Pythonprogramm zu lösen: die Berechnung der Nullstelle einer Funktion.
 
 Schließlich wird die Funktion mit Hilfe der Pythonbibliothek 
 `matplotlib <http://matplotlib.org/>`_ 
-gezeichnet. Wir schauen uns auch das wichtige Konstrukt der 
-"list comprehension" an.
+gezeichnet. Wir schauen uns in diesem Zusammenhang auch das wichtige
+Konstrukt der "list comprehension" an.
 
 .. image:: images/2018/06/yfUfnitZeyQ.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/yfUfnitZeyQ?rel=0
 
 Nach den ersten Versuchen mit Funktionen, kann die Implementierung jetzt
-in eine objekt-orientierte Realisierung mit Klassen und Objekte überführt
+in eine objekt-orientierte Version mit Klassen und Objekten überführt
 werden.
 
 .. image:: images/2018/06/8L1yR_o7_IU.jpg
@@ -59,7 +59,7 @@ beschreiben.
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/TRQZN6gR62E?rel=0
 
-Schön, wenn das Programm das tut, das es soll. Damit dies auch in Zukunft
+Schön, wenn das Programm das tut, was es soll. Damit dies auch in Zukunft
 so bleibt, können Programme automatisch getestet werden. Das geht zum
 einen mit Unit-Test, zum anderen mit assert-Anweisungen. Beide Konzepte
 werden in dem Video vorgestellt.
