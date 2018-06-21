@@ -28,3 +28,12 @@ Tags
 
 Alle Artikel sind über Tags verschlagwortet. Auf einer eigenen Seite
 gibt es eine Übersicht über `alle Tags <../tags.html>`_
+
+
+Newsfeed
+--------
+
+Dieser Blog kann auch über einen Feedreader gelesen werden. Verwende
+dazu folgende Feed-URL:
+
+https://blog.bakera.de/feeds/all.atom.xml
