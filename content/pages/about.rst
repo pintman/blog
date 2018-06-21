@@ -17,11 +17,8 @@ Bochum (kurz `TBS1 <http://www.tbs1.de>`__).
    `Twitteraccount <http://www.bakera.de/dokuwiki/doku.php/twitter>`__
 -  Mein `Wiki <http://www.bakera.de/dokuwiki/doku.php>`__
 
-.. |Marco Bakera| image:: ../images/2014/09/bakera_marco.jpg
-   :class: alignright wp-image-1380 size-full
-   :width: 150px
-   :height: 190px
-   :target: images/2014/09/bakera_marco.jpg
+.. |Marco Bakera| image:: ../images/2018/05/avatar-100x100.png
+
 
 Tags
 ----
