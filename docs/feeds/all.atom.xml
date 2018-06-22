@@ -1,5 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2018-06-03T13:26:00+02:00</updated><entry><title>Sammelsurium Februar – Mai</title><link href="https://blog.bakera.de/sammelsurium-februar-mai.html" rel="alternate"></link><published>2018-06-03T13:26:00+02:00</published><updated>2018-06-03T13:26:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-06-03:/sammelsurium-februar-mai.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="images/wwwSitzen2.png"&gt;&lt;img alt="cc: Freepik" class="size-full wp-image-1523" src="images/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2018-06-22T21:32:00+02:00</updated><entry><title>Videoreihe: Mit Python Funktionen zeichnen</title><link href="https://blog.bakera.de/videoreihe-mit-python-funktionen-zeichnen.html" rel="alternate"></link><published>2018-06-22T21:32:00+02:00</published><updated>2018-06-22T21:32:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-06-22:/videoreihe-mit-python-funktionen-zeichnen.html</id><summary type="html">&lt;p&gt;Ich habe mich mal wieder an ein paar Videos &lt;a class="footnote-reference" href="#id2" id="id1"&gt;[1]&lt;/a&gt; versucht, nachdem es auf meinem
+YouTube-Kanal längere Zeit etwas ruhiger geworden ist. In dieser Reihe
+habe ich verschiedene grundlegende Aspekte der Python-Programmierung
+am Beispiel von mathematischen Funktionen dargestellt.&lt;/p&gt;
+&lt;p&gt;Im ersten Video wird eine Wertetabelle mit Hilfe einfacher Python-Funktionen
+gezeichnet.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/ofhJJPlsaBg?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/ofhJJPlsaBg.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;Im …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ich habe mich mal wieder an ein paar Videos &lt;a class="footnote-reference" href="#id2" id="id1"&gt;[1]&lt;/a&gt; versucht, nachdem es auf meinem
+YouTube-Kanal längere Zeit etwas ruhiger geworden ist. In dieser Reihe
+habe ich verschiedene grundlegende Aspekte der Python-Programmierung
+am Beispiel von mathematischen Funktionen dargestellt.&lt;/p&gt;
+&lt;p&gt;Im ersten Video wird eine Wertetabelle mit Hilfe einfacher Python-Funktionen
+gezeichnet.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/ofhJJPlsaBg?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/ofhJJPlsaBg.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;Im nächsten Schritt versuchen wir, ein algorithmisches Problem mit einem
+Pythonprogramm zu lösen: die Berechnung der Nullstelle einer Funktion.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/fUtne5Zx124?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/fUtne5Zx124.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;Schließlich wird die Funktion mit Hilfe der Pythonbibliothek
+&lt;a class="reference external" href="http://matplotlib.org/"&gt;matplotlib&lt;/a&gt;
+gezeichnet. Wir schauen uns in diesem Zusammenhang auch das wichtige
+Konstrukt der &amp;quot;list comprehension&amp;quot; an.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/yfUfnitZeyQ?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/yfUfnitZeyQ.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;Nach den ersten Versuchen mit Funktionen, kann die Implementierung jetzt
+in eine objekt-orientierte Version mit Klassen und Objekten überführt
+werden.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/8L1yR_o7_IU?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/8L1yR_o7_IU.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;Die Dokumentation von Klassen und Objekten ist wichtig für andere
+Programmierer - und auch für einen selbst, wenn man nach längerer Zeit
+wieder auf den Quelltext schaut. Python bietet hierfür umfangreiche
+Möglichkeiten, den eigenen Quelltext zu dokumentieren. Eine grundlegende
+Möglichkeit stelle ich in dem Video vor.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/TWsU3xuVQdQ?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/TWsU3xuVQdQ.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;Unter dem Begriff Lambda-Ausdruck lassen sich anonyme Funktionen,
+also Funktionen oder Methoden ohne einen Namen, zusammenfassend
+beschreiben.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/TRQZN6gR62E?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/TRQZN6gR62E.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;Schön, wenn das Programm das tut, was es soll. Damit dies auch in Zukunft
+so bleibt, können Programme automatisch getestet werden. Das geht zum
+einen mit Unit-Test, zum anderen mit assert-Anweisungen. Beide Konzepte
+werden in dem Video vorgestellt.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/FVT1yGQJF2s?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/FVT1yGQJF2s.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;Nicht immer müssen Parameter bei einem Aufruf übergeben werden. Man
+kann auch Default-Werte angeben, die verwendet werden, wenn kein
+Parameter beim Aufruf angegeben wurde.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/c8ih2nW-SCI?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/c8ih2nW-SCI.jpg" /&gt;&lt;/a&gt;
+&lt;hr class="docutils" /&gt;
+&lt;table class="docutils footnote" frame="void" id="id2" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Die verlinkten Videos wurden bei YouTube veröffentlicht. Gleichzeitig
+lade ich sie aber auch immer an einer zweiten Stelle hoch. In diesem
+Falle findet man die Videos auch bei
+&lt;a class="reference external" href="https://archive.org/details/python-funktionen"&gt;archive.org&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content><category term="Video"></category><category term="Programmierung"></category><category term="Python"></category><category term="Funktionen"></category><category term="Mathe"></category></entry><entry><title>Sammelsurium Februar – Mai</title><link href="https://blog.bakera.de/sammelsurium-februar-mai.html" rel="alternate"></link><published>2018-06-03T13:26:00+02:00</published><updated>2018-06-03T13:26:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-06-03:/sammelsurium-februar-mai.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="images/wwwSitzen2.png"&gt;&lt;img alt="cc: Freepik" class="size-full wp-image-1523" src="images/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Interessante Einsichten aus vier Monaten.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Tweets aus 2018-02&lt;/strong&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
