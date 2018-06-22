@@ -22,7 +22,7 @@ interessanter Artefakte sind mir eingefallen.
 Das Protokoll kann bestehen aus
 
 -  einer eigenen
-   `Visualisierung <http://www.bakera.de/wp/2014/05/lernen-durch-lehren-eine-visualisierung/>`__
+   `Visualisierung <{filename}lernen-durch-lehren-eine-visualisierung.rst>`__
 -  einer textuellen Zusammenfassung
 -  einem Video
 -  einem Podcast
@@ -36,7 +36,7 @@ Das Protokoll kann bestehen aus
 -  einem Spickzettel für eine Klassenarbeit
 -  einer Schilderung eines persönlichen Erlebnisses
 -  einem
-   `Comic <http://www.bakera.de/wp/2014/08/graphic-novel-comics-und-sequentielle-kunst/>`__
+   `Comic <{filename}graphic-novel-comics-und-sequentielle-kunst.rst>`__
 -  selbst gezeichneten `Sketchnotes <https://youtu.be/hJKK9m5-xEY>`__
 
 Fällt euch noch mehr ein? Dann hinterlasst eure Ideen in den

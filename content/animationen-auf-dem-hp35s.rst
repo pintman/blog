@@ -13,7 +13,7 @@ Mit etwas Fingerspitzengefühl lassen sich dem `HP
 35s <http://www.bakera.de/dokuwiki/doku.php/schule/hp_35s>`__ einfache
 Animationen entlocken. Dafür nutzt man die `Möglichkeit, beliebige
 Zeichenketten
-anzuzeigen <http://www.bakera.de/wp/2014/06/hallo-welt-hp35s/>`__. Den
+anzuzeigen <{filename}hallo-welt-hp35s.rst>`__. Den
 Quelltext und auch das laufende Programm könnt ihr im Video sehen.
 
 .. image:: images/2018/06/1gbubP8uCdI.jpg

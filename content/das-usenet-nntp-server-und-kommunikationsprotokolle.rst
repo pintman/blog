@@ -13,11 +13,11 @@ historischer Sicht. Ich möchte mit euch eintauchen in diese Welt und sie
 als Nutzer und technisch Interessierter erkunden.**
 
 |ic_chat_black_48dp|\ Meine `digitale
-Emanzipation <https://www.bakera.de/wp/2013/05/digitale-emanzipation/>`__
+Emanzipation <{filename}digitale-emanzipation.rst>`__
 schreitet voran: Nachdem ich `meinen
-Server <http://www.bakera.de/wp/2014/10/my-home-is-my-server/>`__ in die
+Server <{filename}my-home-is-my-server.rst>`__ in die
 heimischen vier Wände geholt und einen eigenen `Jabber-Server
-aufgesetzt <http://www.bakera.de/wp/2015/05/ein-eigener-jabber-server/>`__
+aufgesetzt <{filename}ein-eigener-jabber-server.rst>`__
 habe, soll nun ein Newsserver als neues Projekt das heimische Netzwerk
 erweitern. Doch zunächst ein paar erklärende Worte.
 

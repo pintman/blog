@@ -7,7 +7,7 @@ db4o für C# und .NET
 :status: published
 
 Ich hatte `in einem früheren
-Beitrag <http://bakera.de/wp/2013/11/erste-schritt-mit-db4o-einer-objektorientierten-datenbank-fuer-java-und-net/>`__
+Beitrag <{filename}erste-schritt-mit-db4o-einer-objektorientierten-datenbank-fuer-java-und-net.rst>`__
 bereits über den Einsatz der objektorientierten Datenbank db4o für Java
 geschrieben. Nun gibt es eine Ergänzung, die zeigt, wie man `db4o unter
 C# und

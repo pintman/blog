@@ -6,7 +6,7 @@
 :slug: 1000-spamkommentare
 :status: published
 
-Nach meinem `Blogumzug <http://bakera.de/wp/?p=333>`__\ am 24.05.
+Nach meinem `Blogumzug <{filename}blogumzug.rst>`__ am 24.05.
 dauerte es nicht lange bis auch Spambots auf mein Blog aufmerksam
 wurden. Gerade eben habe ich den 1000. Spamkommentar aussortiert. Der
 Gewinner heißt "ftnbyfmCjR" und sein lyrischer Gewinnerbeitrag lautet
