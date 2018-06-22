@@ -2025,6 +2025,7 @@ Vogel mit nur einem Taster: beim Drücken fliegt der Vogel hinauf, lässt
 man den Button wieder los, sinkt er wieder. Diese Steuerung haben wir
 über eine kleine Platine mit zwei Tastern realisiert - der zweite Taster
 konnte das Spiel nach einem &lt;em&gt;Game Over&lt;/em&gt; neu starten.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/7jtvtk3SSTg?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/7jtvtk3SSTg.jpg" /&gt;&lt;/a&gt;
 &lt;p&gt;Da noch etwas Zeit übrig war, konnten wir uns Gedanken über eine
 Audioausgabe machen. Diese erfolgte über zwei kleine &amp;quot;Lautsprecher&amp;quot;, die
 wir ebenfalls über den Raspberry Pi angesteuert haben.&lt;/p&gt;
@@ -2066,14 +2067,16 @@ gefehlt. Es wurde viel geredet, am Ende jedoch&amp;nbsp;ohne Ergebnis.&lt;/p&gt;
 &lt;p&gt;Ich freue mich auf das nächste Jahr und werde wieder versuchen,&amp;nbsp;eines
 der begehrten Tickets zu ergattern. Ideen für eine eigene&amp;nbsp;Session habe
 ich auch mitgenommen.&lt;/p&gt;
-</content><category term="Bildung"></category></entry><entry><title>FizzBuzz Katas - Programmierübungen für das FizzBuzz-Problem</title><link href="https://blog.bakera.de/fizzbuzz-katas-programmieruebungen-fuer-das-fizzbuzz-problem.html" rel="alternate"></link><published>2017-04-18T11:45:00+02:00</published><updated>2017-04-18T11:45:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2017-04-18:/fizzbuzz-katas-programmieruebungen-fuer-das-fizzbuzz-problem.html</id><summary type="html">&lt;p&gt;(Das Video bei
+</content><category term="Bildung"></category></entry><entry><title>FizzBuzz Katas - Programmierübungen für das FizzBuzz-Problem</title><link href="https://blog.bakera.de/fizzbuzz-katas-programmieruebungen-fuer-das-fizzbuzz-problem.html" rel="alternate"></link><published>2017-04-18T11:45:00+02:00</published><updated>2017-04-18T11:45:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2017-04-18:/fizzbuzz-katas-programmieruebungen-fuer-das-fizzbuzz-problem.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/pWtuV_a00zk?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/pWtuV_a00zk.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;(Das Video bei
 &lt;a class="reference external" href="https://archive.org/details/fizzbuzz_katas"&gt;archive.org&lt;/a&gt;.)&lt;/p&gt;
 &lt;p&gt;Bei dem FizzBuzz-Spiel werden die Zahlen von 1 bis 100 durchlaufen. Nun
 können folgende Fälle eintreten:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Wenn die Zahl durch 3 teilbar ist, wird „Fizz“ ausgegeben&lt;/li&gt;
 &lt;li&gt;wenn sie durch 5 teilbar ist, wird „Buzz“ ausgegeben und&lt;/li&gt;
-&lt;li&gt;wenn sie durch 3 und 5 teilbar ist, wird …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;(Das Video bei
+&lt;li&gt;wenn sie durch 3 und 5 teilbar ist, wird …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/pWtuV_a00zk?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/pWtuV_a00zk.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;(Das Video bei
 &lt;a class="reference external" href="https://archive.org/details/fizzbuzz_katas"&gt;archive.org&lt;/a&gt;.)&lt;/p&gt;
 &lt;p&gt;Bei dem FizzBuzz-Spiel werden die Zahlen von 1 bis 100 durchlaufen. Nun
 können folgende Fälle eintreten:&lt;/p&gt;
@@ -4226,11 +4229,11 @@ und Konsolen. #retro &lt;a class="reference external" href="https://www.return-m
 &lt;a class="reference external" href="http://woodynook.soup.io/post/610092961/Image"&gt;Quelle&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Immer schön an die Backups denken.&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="Linkliste"></category></entry><entry><title>Theorien der Motivations- und Emotionspsychologie - ein Rückblick</title><link href="https://blog.bakera.de/theorien-der-motivations-und-emotionspsychologie-ein-rueckblick.html" rel="alternate"></link><published>2015-09-20T12:36:00+02:00</published><updated>2015-09-20T12:36:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2015-09-20:/theorien-der-motivations-und-emotionspsychologie-ein-rueckblick.html</id><summary type="html">&lt;p&gt;Vor [STRIKEOUT:einiger] langer Zeit habe ich Informatik an der Uni
+</content><category term="Linkliste"></category></entry><entry><title>Theorien der Motivations- und Emotionspsychologie - ein Rückblick</title><link href="https://blog.bakera.de/theorien-der-motivations-und-emotionspsychologie-ein-rueckblick.html" rel="alternate"></link><published>2015-09-20T12:36:00+02:00</published><updated>2015-09-20T12:36:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2015-09-20:/theorien-der-motivations-und-emotionspsychologie-ein-rueckblick.html</id><summary type="html">&lt;p&gt;Vor einiger/langer Zeit habe ich Informatik an der Uni
 Dortmund (heute TU Dortmund) studiert. Damals konnte man dieses Fach
 noch auf Diplom studieren. Dazu brauchte man auch ein Nebenfach -
 sozusagen ein Anwendungsgebiet der Informatik. Ich hatte mich damals für
-Psychologie entschieden. Es erschien mir ein guter Ausgleich zum …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Vor [STRIKEOUT:einiger] langer Zeit habe ich Informatik an der Uni
+Psychologie entschieden. Es erschien mir ein guter Ausgleich zum sehr …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Vor einiger/langer Zeit habe ich Informatik an der Uni
 Dortmund (heute TU Dortmund) studiert. Damals konnte man dieses Fach
 noch auf Diplom studieren. Dazu brauchte man auch ein Nebenfach -
 sozusagen ein Anwendungsgebiet der Informatik. Ich hatte mich damals für
@@ -4252,6 +4255,8 @@ sind sie auch für euch interessant. Spannend bei dem Schnitt war auch,
 dass mir mein zehn Jahre jüngeres Ich in diesem Video noch viele
 interessante Dinge erzählen konnte, die ich mittlerweile in dieser
 Detailtiefe gar nicht mehr wusste. :)&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/RD6OnH0iEoU?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/RD6OnH0iEoU.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/nEfZzPA4sz0?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/nEfZzPA4sz0.jpg" /&gt;&lt;/a&gt;
 </content><category term="Psychologie"></category></entry><entry><title>Sammelsurium - August 2015</title><link href="https://blog.bakera.de/sammelsurium-16.html" rel="alternate"></link><published>2015-09-02T16:32:00+02:00</published><updated>2015-09-02T16:32:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2015-09-02:/sammelsurium-16.html</id><summary type="html">&lt;p&gt;&lt;img alt="cc: Freepik" class="size-full wp-image-1523" src="images/2014/12/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/p&gt;
 &lt;p&gt;cc: Freepik&lt;/p&gt;
 &lt;p&gt;Im August war wieder viel los auf der &amp;quot;Datenautobahn&amp;quot;. Ich habe meine
@@ -4388,6 +4393,7 @@ kann.&lt;/p&gt;
 &lt;div class="line"&gt;vi apache.conf&lt;/div&gt;
 &lt;div class="line"&gt;service apache2 reload&lt;/div&gt;
 &lt;/div&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/2kn0Y2nriWw?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/2kn0Y2nriWw.jpg" /&gt;&lt;/a&gt;
 </content><category term="debian"></category><category term="docker"></category><category term="ubuntu"></category></entry><entry><title>Sammelsurium - Juli 2015</title><link href="https://blog.bakera.de/sammelsurium-15.html" rel="alternate"></link><published>2015-08-05T19:23:00+02:00</published><updated>2015-08-05T19:23:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2015-08-05:/sammelsurium-15.html</id><summary type="html">&lt;p&gt;&lt;img alt="cc: Freepik" class="size-full wp-image-1523" src="images/2014/12/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/p&gt;
 &lt;p&gt;cc: Freepik&lt;/p&gt;
 &lt;p&gt;Hier sind wieder ein paar Links für euch.&lt;/p&gt;
@@ -6727,13 +6733,14 @@ einmal neu aufgesetzt wird.&lt;/p&gt;
 &lt;p&gt;Nun liegen die Daten direkt bei mir unter dem Schreibtisch und ich habe
 die vollständige Kontrolle über den Server. Ein gutes Gefühl.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="Cubietruck"></category></entry><entry><title>Watchmen - ein Lobgesang</title><link href="https://blog.bakera.de/watchmen-ein-lobgesang.html" rel="alternate"></link><published>2014-10-08T11:37:00+02:00</published><updated>2014-10-08T11:37:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2014-10-08:/watchmen-ein-lobgesang.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://www.youtube.com/watch?v=mLdqKIj3-A0&amp;amp;amp"&gt;https://www.youtube.com/watch?v=mLdqKIj3-A0&amp;amp;amp&lt;/a&gt;&lt;/p&gt;
+</content><category term="Cubietruck"></category></entry><entry><title>Watchmen - ein Lobgesang</title><link href="https://blog.bakera.de/watchmen-ein-lobgesang.html" rel="alternate"></link><published>2014-10-08T11:37:00+02:00</published><updated>2014-10-08T11:37:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2014-10-08:/watchmen-ein-lobgesang.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/mLdqKIj3-A0?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/mLdqKIj3-A0.jpg" /&gt;&lt;/a&gt;
 &lt;p&gt;Es ist mal wieder an der Zeit eine uneingeschränkte Empfehlung
 abzugeben. &lt;a class="reference external" href="https://de.wikipedia.org/wiki/Watchmen"&gt;Watchmen&lt;/a&gt; ist ein
 Comic von Alan Moore&amp;nbsp;aus dem Jahr 1998, dem eine
 &lt;a class="reference external" href="https://de.wikipedia.org/wiki/Watchmen_%E2%80%93_Die_W%C3%A4chter"&gt;Verfilmung&lt;/a&gt;
 von Zack Snyder im Jahr 2009 folgte. Ich muss zugeben, nicht viel von
-Superheldencomics gehalten zu haben …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://www.youtube.com/watch?v=mLdqKIj3-A0&amp;amp;amp"&gt;https://www.youtube.com/watch?v=mLdqKIj3-A0&amp;amp;amp&lt;/a&gt;&lt;/p&gt;
+Superheldencomics gehalten zu haben, bevor ich Watchmen gelesen habe.
+Die Geschichten schienen …&lt;/p&gt;</summary><content type="html">&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/mLdqKIj3-A0?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/mLdqKIj3-A0.jpg" /&gt;&lt;/a&gt;
 &lt;p&gt;Es ist mal wieder an der Zeit eine uneingeschränkte Empfehlung
 abzugeben. &lt;a class="reference external" href="https://de.wikipedia.org/wiki/Watchmen"&gt;Watchmen&lt;/a&gt; ist ein
 Comic von Alan Moore&amp;nbsp;aus dem Jahr 1998, dem eine
@@ -6752,7 +6759,7 @@ Konsequenz platzierte das TIME-Magazine die Graphic Novel in die &lt;a class="re
 100 der besten englischen Romane seit
 1923&lt;/a&gt;
 - als einzigen Vertreter der Gattung Comic.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://www.youtube.com/watch?v=PVjA0y78_EQ"&gt;https://www.youtube.com/watch?v=PVjA0y78_EQ&lt;/a&gt;&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/PVjA0y78_EQ?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/PVjA0y78_EQ.jpg" /&gt;&lt;/a&gt;
 &lt;p&gt;Da erste Video ganz oben vermittelt einen Eindruck von der Stimmung, die
 im Comic herrscht. Im zweiten Video seht ihr den Trailer zu der
 Verfilmung von Zack Snyder. Der Film ist deutlich glatter in der
@@ -6899,31 +6906,32 @@ Pi und er wird auch nicht mit ZIP-Aufgaben belästigt.&lt;/p&gt;
 DATUM=$(date --iso)
 ssh pi&amp;#64;raspberrypi &amp;quot;tar cf - /var/www/owncloud/&amp;quot; | gzip -c &amp;gt; ${DATUM}-owncloud.tar.gz
 &lt;/pre&gt;
-</content><category term="Linux"></category><category term="Tipp"></category></entry><entry><title>Comic Book Heaven</title><link href="https://blog.bakera.de/comic-book-heaven.html" rel="alternate"></link><published>2014-09-26T23:02:00+02:00</published><updated>2014-09-26T23:02:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2014-09-26:/comic-book-heaven.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://vimeo.com/channels/staffpicks/106526309"&gt;https://vimeo.com/channels/staffpicks/106526309&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&amp;quot;Comic Book Heaven&amp;quot; erzählt die Geschichte eines New Yorker Comic
+</content><category term="Linux"></category><category term="Tipp"></category></entry><entry><title>Comic Book Heaven</title><link href="https://blog.bakera.de/comic-book-heaven.html" rel="alternate"></link><published>2014-09-26T23:02:00+02:00</published><updated>2014-09-26T23:02:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2014-09-26:/comic-book-heaven.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://vimeo.com/channels/staffpicks/106526309"&gt;Comic Book Heaven&lt;/a&gt;
+erzählt die Geschichte eines New Yorker Comic
 Ladens.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://vimeo.com/channels/staffpicks/106526309"&gt;https://vimeo.com/channels/staffpicks/106526309&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&amp;quot;Comic Book Heaven&amp;quot; erzählt die Geschichte eines New Yorker Comic
+</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://vimeo.com/channels/staffpicks/106526309"&gt;Comic Book Heaven&lt;/a&gt;
+erzählt die Geschichte eines New Yorker Comic
 Ladens.&lt;/p&gt;
 </content><category term="Comic"></category><category term="Film"></category></entry><entry><title>Clonezilla - Image verteilen (3/3)</title><link href="https://blog.bakera.de/clonezilla-image-verteilen-33.html" rel="alternate"></link><published>2014-09-20T12:00:00+02:00</published><updated>2014-09-20T12:00:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2014-09-20:/clonezilla-image-verteilen-33.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://clonezilla.org/"&gt;Clonezilla&lt;/a&gt; ist eine Linuxdistribution, die
 beim Klonen mehrer Rechner hilft. Sie kommt daher besonders in
 Rechnerräumen von Schulen und Universitäten zum Einsatz. Im
-&lt;a class="reference external" href="http://www.bakera.de/wp/2014/09/clonezilla-installation-und-start-13/"&gt;ersten&lt;/a&gt;
+&lt;a class="reference external" href="https://blog.bakera.de/clonezilla-installation-und-start-13.html"&gt;ersten&lt;/a&gt;
 und
-&lt;a class="reference external" href="http://www.bakera.de/wp/2014/09/clonezilla-image-erstellen-23/"&gt;zweiten&lt;/a&gt;
+&lt;a class="reference external" href="https://blog.bakera.de/clonezilla-image-erstellen-23.html"&gt;zweiten&lt;/a&gt;
 Teil haben wir Clonezilla heruntergeladen und ein Image erstellt.&lt;/p&gt;
 &lt;p&gt;Im dritten und letzten Teil der Reihe wird das Image, das wir im letzten
 Teil …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="http://clonezilla.org/"&gt;Clonezilla&lt;/a&gt; ist eine Linuxdistribution, die
 beim Klonen mehrer Rechner hilft. Sie kommt daher besonders in
 Rechnerräumen von Schulen und Universitäten zum Einsatz. Im
-&lt;a class="reference external" href="http://www.bakera.de/wp/2014/09/clonezilla-installation-und-start-13/"&gt;ersten&lt;/a&gt;
+&lt;a class="reference external" href="https://blog.bakera.de/clonezilla-installation-und-start-13.html"&gt;ersten&lt;/a&gt;
 und
-&lt;a class="reference external" href="http://www.bakera.de/wp/2014/09/clonezilla-image-erstellen-23/"&gt;zweiten&lt;/a&gt;
+&lt;a class="reference external" href="https://blog.bakera.de/clonezilla-image-erstellen-23.html"&gt;zweiten&lt;/a&gt;
 Teil haben wir Clonezilla heruntergeladen und ein Image erstellt.&lt;/p&gt;
 &lt;p&gt;Im dritten und letzten Teil der Reihe wird das Image, das wir im letzten
 Teil erstellt haben, auf zwei leere Rechner ausgespielt. Da Clonezilla
 multicast-fähig ist, können wir das Image gleichzeitig an alle Rechner
 senden.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/y3l8FwufnW0?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/y3l8FwufnW0.jpg" /&gt;&lt;/a&gt;
 </content><category term="Clonezilla"></category></entry><entry><title>Clonezilla - Image erstellen (2/3)</title><link href="https://blog.bakera.de/clonezilla-image-erstellen-23.html" rel="alternate"></link><published>2014-09-18T17:27:00+02:00</published><updated>2014-09-18T17:27:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2014-09-18:/clonezilla-image-erstellen-23.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://clonezilla.org/"&gt;Clonezilla&lt;/a&gt; ist eine Linuxdistribution, die
 beim Klonen mehrerer Rechner hilft. Sie kommt daher besonders in
 Rechnerräumen von Schulen und Universitäten zum Einsatz. Im &lt;a class="reference external" href="http://www.bakera.de/wp/2014/09/clonezilla-installation-und-start-13/"&gt;ersten
@@ -6938,6 +6946,7 @@ haben wir Clonezilla heruntergeladen und gestartet.&lt;/p&gt;
 &lt;p&gt;Im zweiten Teil erstellen wir das Image der FreeDos-Installation und
 bereiten damit den letzten Schritt vor, in dem das Image auf viele
 Rechner ausgespielt werden kann.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/5MbMS97Mea0?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/5MbMS97Mea0.jpg" /&gt;&lt;/a&gt;
 </content><category term="Clonezilla"></category></entry><entry><title>Clonezilla - Installation und Start (1/3)</title><link href="https://blog.bakera.de/clonezilla-installation-und-start-13.html" rel="alternate"></link><published>2014-09-15T17:32:00+02:00</published><updated>2014-09-15T17:32:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2014-09-15:/clonezilla-installation-und-start-13.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://clonezilla.org/"&gt;Clonezilla&lt;/a&gt; ist eine Linuxdistribution, die
 beim Klonen mehrerer Rechner hilft. Sie kommt daher besonders in
 Rechnerräumen von Schulen und Universitäten zum Einsatz.&lt;/p&gt;
@@ -6950,6 +6959,7 @@ Rechnerräumen von Schulen und Universitäten zum Einsatz.&lt;/p&gt;
 einer virtuelle Maschine starten. Als Beispielsystem für das Klonen wird
 eine FreeDos-Installation verwendet, da diese recht klein ist und daher
 kleine Dateigrößen liefert.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/zTv13iQsyc4?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/zTv13iQsyc4.jpg" /&gt;&lt;/a&gt;
 </content><category term="Clonezilla"></category></entry><entry><title>Über</title><link href="https://blog.bakera.de/homebakeraabout.html" rel="alternate"></link><published>2014-09-14T11:55:00+02:00</published><updated>2014-09-14T11:55:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2014-09-14:/homebakeraabout.html</id><summary type="html"></summary><content type="html"></content></entry><entry><title>Ein PC im Zeugenstand</title><link href="https://blog.bakera.de/ein-pc-im-zeugenstand.html" rel="alternate"></link><published>2014-09-07T16:01:00+02:00</published><updated>2014-09-07T16:01:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2014-09-07:/ein-pc-im-zeugenstand.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="images/2014/09/Ct_logo.png"&gt;&lt;img alt="Ctlogo" class="alignnone size-full wp-image-1371" src="images/2014/09/Ct_logo.png" style="width: 320px; height: 116px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;PC-User:&lt;/strong&gt; Ohh ist mir langweilig.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;c't:&lt;/strong&gt; Das muss nicht sein. Geh doch mal zum Kiosk und hole dir eine
@@ -7022,13 +7032,15 @@ findet vom 3. bis 5. Oktober 2014 in Hattingen (Ruhr) statt.&lt;/p&gt;
 sich selbst organisierenden „Mitmach-Konferenz&amp;quot;. Im Gegensatz zu
 traditionellen Konferenzen werden die konkreten Inhalte von den
 Teilnehmern vor Ort selbst ausgestaltet.&lt;/p&gt;
-&lt;p&gt;Den Schwerpunkt …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="images/2014/08/Educamp2014.png"&gt;&lt;img alt="Educamp2014" class="alignnone size-full wp-image-1345" src="images/2014/08/Educamp2014.png" style="width: 793px; height: 136px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://player.vimeo.com/video/38693285"&gt;Video&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Den …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="images/2014/08/Educamp2014.png"&gt;&lt;img alt="Educamp2014" class="alignnone size-full wp-image-1345" src="images/2014/08/Educamp2014.png" style="width: 793px; height: 136px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Das diesjährige &lt;a class="reference external" href="http://educamp.mixxt.de/"&gt;EduCamp&lt;/a&gt; 2014 findet
 findet vom 3. bis 5. Oktober 2014 in Hattingen (Ruhr) statt.&lt;/p&gt;
 &lt;p&gt;Die Idee des EduCamp basiert auf dem Prinzip des BarCamps, also einer
 sich selbst organisierenden „Mitmach-Konferenz&amp;quot;. Im Gegensatz zu
 traditionellen Konferenzen werden die konkreten Inhalte von den
 Teilnehmern vor Ort selbst ausgestaltet.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://player.vimeo.com/video/38693285"&gt;Video&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Den Schwerpunkt der EduCamps bilden medienpädagogische Fragestellungen,
 aber auch generell die Formen und Methoden des Lehrens und Lernens. Die
 Inhalte konzentrieren sich hierbei meist auf den Einsatz von Medien im
@@ -7055,10 +7067,12 @@ Chaney&lt;/a&gt; das
 Genre bzw. Medium an repräsentativen Exemplaren vor. Es ist spannend,
 wie tief er die Werke zu deuten vermag und welche Kraft in den Bildern
 und dem, was zwischen ihnen passiert, steckt.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/qAyEbgSPi9w?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/qAyEbgSPi9w.jpg" /&gt;&lt;/a&gt;
 &lt;p&gt;In einem ausführlichen Beitrag bei arte wird das Comic als
 Kulturphänomen untersucht. Amerikanische Comics und asiatische Mangas
 entwickelten sich aus ganz unterschiedlichen Traditionen und haben daher
 auch ganz eigene Werke hervorgebracht,&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/t2dszx8RIYQ?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/t2dszx8RIYQ.jpg" /&gt;&lt;/a&gt;
 &lt;p&gt;Eine weitere und umfangreichere Dokumentation mit Namen
 &lt;a class="reference external" href="https://www.youtube.com/watch?v=M8_vmDGt7Qw"&gt;Superheroes&lt;/a&gt; beschreibt
 in drei Teilen die Geschichte des amerikanischen Comics und der
@@ -7185,6 +7199,7 @@ und man verliert den Überblick. Am besten ist es daher, wenn man ein
 System hat, nach dem man die E-Mails organisieren und anschließend
 abarbeiten kann. Ich stelle euch mein System vor, das ich schon seit
 vielen Jahren erfolgreich einsetze.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/QTteo0xRkZU?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/QTteo0xRkZU.jpg" /&gt;&lt;/a&gt;
 </content><category term="E-Mail"></category><category term="GTD"></category></entry><entry><title>Ein Jahr #EDchatDE</title><link href="https://blog.bakera.de/ein-jahr-edchatde.html" rel="alternate"></link><published>2014-07-09T13:38:00+02:00</published><updated>2014-07-09T13:38:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2014-07-09:/ein-jahr-edchatde.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="images/2014/07/edchatde-badge.png"&gt;&lt;img alt="cc: André J. Spang" class="size-full wp-image-1262" src="images/2014/07/edchatde-badge.png" style="width: 200px; height: 200px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;cc: André J. Spang&lt;/p&gt;
 &lt;p&gt;Gestern Abend um 20 Uhr trafen sich wieder einmal viele begeisterte
@@ -7206,6 +7221,7 @@ F1, F2, ... eingeleitet und mit A1, A2, ... beantwortet werden. Fragen
 und Antworten rauschen in englischer und deutscher Sprache vorbei. Zum
 Schluss wird über das Thema der nächsten Sitzung abgestimmt und nach
 einer Stunde ist der ganze &amp;quot;Spuk&amp;quot; auch schon wieder vorbei.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/9SZedZOVnyg?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/9SZedZOVnyg.jpg" /&gt;&lt;/a&gt;
 &lt;p&gt;Ich muss zugeben, dass ich das Konzept sehr zwiespältig betrachte und
 werde nun versuchen,&amp;nbsp; die positiven und negativen Aspekte konkreter
 darzustellen.&lt;/p&gt;
@@ -7260,11 +7276,13 @@ der Windowssprache umständlich als Eingabeaufforderung bezeichnet. Damit
 ich mit der Eingabeaufforderung auch direkt an der richtigen Stelle bin,
 zeige ich in diesem Video, wie man das Fenster aus dem Datei-Explorer
 heraus startet.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/fjNHMyxx66w?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/fjNHMyxx66w.jpg" /&gt;&lt;/a&gt;
 </summary><content type="html">&lt;p&gt;Auch unter Windows brauche ich immer mal wieder ein Konsolenfenster - in
 der Windowssprache umständlich als Eingabeaufforderung bezeichnet. Damit
 ich mit der Eingabeaufforderung auch direkt an der richtigen Stelle bin,
 zeige ich in diesem Video, wie man das Fenster aus dem Datei-Explorer
 heraus startet.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/fjNHMyxx66w?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/fjNHMyxx66w.jpg" /&gt;&lt;/a&gt;
 </content><category term="Video"></category></entry><entry><title>Bilder sagen mehr als Zahlen - manchmal</title><link href="https://blog.bakera.de/bilder-sagen-mehr-als-zahlen-manchmal.html" rel="alternate"></link><published>2014-07-02T13:38:00+02:00</published><updated>2014-07-02T13:38:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2014-07-02:/bilder-sagen-mehr-als-zahlen-manchmal.html</id><summary type="html">&lt;p&gt;&lt;img alt="cc: Schutz" class="size-full wp-image-1252" src="images/Anscombes_Quartet.png" style="width: 100%;" /&gt;&lt;/p&gt;
 &lt;p&gt;cc: Schutz&lt;/p&gt;
 &lt;p&gt;Das &lt;a class="reference external" href="https://de.wikipedia.org/wiki/Anscombe-Quartett"&gt;Anscombe
@@ -7336,6 +7354,7 @@ Plus, Minus, Mal und Geteilt durchführen - und zwar verdammt schnell.
 Geübte japanische Schüler können da locker mit einem Taschenrechner
 mithalten. Irgendwann kann man dieses Hilfsmittel auch ganz weglassen
 und erstaunliche Rechenleitungen im Kopf vollziehen.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/Px_hvzYS3_Y?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/Px_hvzYS3_Y.jpg" /&gt;&lt;/a&gt;
 &lt;p&gt;Interessant bei dem Gerät: die Berechnung werden von links nach rechts
 durchgeführt. Wir dagegen addieren die einzelnen Stellen zweier Zahlen
 von rechts nach links. Eine &lt;a class="reference external" href="https://www.youtube.com/watch?v=SkUdjlQy3rk"&gt;umfangreiche
@@ -7368,6 +7387,7 @@ at least as interesting as the shape of its pots or spearheads.&amp;quot;&lt;/bl
 Abbildung für einige exemplarische genretypische Tropen.&lt;/p&gt;
 &lt;p&gt;In dem folgenden Video veranschaulicht Vonnegut seine Thesen an drei
 kleinen Beispielen auf eine sehr unterhaltsame Weise.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/oP3c1h8v2ZQ?rel=0"&gt;&lt;img alt="Youtube-Video" src="images/2018/06/oP3c1h8v2ZQ.jpg" /&gt;&lt;/a&gt;
 &lt;p&gt;Wie sieht eine emotionale Funktion deiner Lieblingsgeschichte, deines
 Lieblingsbuches oder -filmes aus? Welche anderen Aspekte lassen sich auf
 der Y-Achse abbilden? Wie können wir Begriffe wie Steigung, Integral,
@@ -7395,6 +7415,7 @@ den beiden Bereichen Biologie und Technik.&lt;/p&gt;
 fasst er unterschiedliche Quellen für Erklärungsmodelle wissenschaftlich
 mathematischer Phänomene zusammen in einem Kameraflug durch die Kemenate
 der jüngeren Wissenschaftsgeschichte.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://player.vimeo.com/video/36296951"&gt;Video&lt;/a&gt;&lt;/p&gt;
 </content><category term="Bildung"></category><category term="Informatik"></category><category term="Kunst"></category><category term="Video"></category><category term="Wissenschaft"></category></entry><entry><title>Algorithmus zum Berechnen einer Quadratwurzel</title><link href="https://blog.bakera.de/algorithmus-zum-berechnen-einer-quadratwurzel.html" rel="alternate"></link><published>2014-06-21T10:47:00+02:00</published><updated>2014-06-21T10:47:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2014-06-21:/algorithmus-zum-berechnen-einer-quadratwurzel.html</id><summary type="html">&lt;p&gt;&lt;img alt="(cc) Stefan Vorkoetter" class="size-full wp-image-1143" src="images/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /&gt;&lt;/p&gt;
 &lt;ol class="lowerroman simple" start="200"&gt;
 &lt;li&gt;Stefan Vorkoetter&lt;/li&gt;
