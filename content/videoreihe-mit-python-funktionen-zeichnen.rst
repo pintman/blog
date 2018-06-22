@@ -1,16 +1,16 @@
 Videoreihe: Mit Python Funktionen zeichnen
 ##########################################
-:date: 2018-06-20 18:00
+:date: 2018-06-22 21:32
 :author: marco.bakera
 :tags: Video, Programmierung, Python, Funktionen, Mathe
-:status: draft
+:status: published
 
-Ich habe mich mal wieder an ein paar Videos versucht, nachdem es aucf meinem
-YouTube-Kanal etwas ruhiger geworden ist. In dieser Reihe habe ich versucht,
-verschiedene grundlegende Aspekte der Python-Programmierung am Beispiel von
-mathematischen Funktionen darzustellen.
+Ich habe mich mal wieder an ein paar Videos [1]_ versucht, nachdem es auf meinem
+YouTube-Kanal längere Zeit etwas ruhiger geworden ist. In dieser Reihe 
+habe ich verschiedene grundlegende Aspekte der Python-Programmierung 
+am Beispiel von mathematischen Funktionen dargestellt.
 
-Im ersten Video wird eine Wertetabelle mit Hilfe einfacher  Python-Funktionen
+Im ersten Video wird eine Wertetabelle mit Hilfe einfacher Python-Funktionen
 gezeichnet.
 
 .. image:: images/2018/06/ofhJJPlsaBg.jpg
@@ -41,8 +41,8 @@ werden.
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/8L1yR_o7_IU?rel=0
 
-Die Dokumentation von Klassen und Objekte ist wichtig für andere 
-Programmierer und auch für einen selbst, wenn man nach längerer Zeit
+Die Dokumentation von Klassen und Objekten ist wichtig für andere 
+Programmierer - und auch für einen selbst, wenn man nach längerer Zeit
 wieder auf den Quelltext schaut. Python bietet hierfür umfangreiche
 Möglichkeiten, den eigenen Quelltext zu dokumentieren. Eine grundlegende
 Möglichkeit stelle ich in dem Video vor.
@@ -75,3 +75,10 @@ Parameter beim Aufruf angegeben wurde.
 .. image:: images/2018/06/c8ih2nW-SCI.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/c8ih2nW-SCI?rel=0
+
+----
+
+.. [1] Die verlinkten Videos wurden bei YouTube veröffentlicht. Gleichzeitig
+   lade ich sie aber auch immer an einer zweiten Stelle hoch. In diesem
+   Falle findet man die Videos auch bei 
+   `archive.org <https://archive.org/details/python-funktionen>`_
