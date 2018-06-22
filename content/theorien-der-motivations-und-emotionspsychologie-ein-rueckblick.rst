@@ -20,7 +20,7 @@ interaktiven und wenig kommunikativen Vorlesungen konzentrierte.
 In dieser Zeit musste ich diverse Prüfungen ablegen und sogar an
 Versuchen teilnehmen, um Versuchspersonenstunden zu sammeln. Für eine
 mündliche `Prüfung über Motivations und
-Emotionspsychologie <https://www.bakera.de/wp/2005/10/1-0/>`__ hatte ich
+Emotionspsychologie <{filename}1-0.rst>`__ hatte ich
 mir Karteikarten zum Lernen erstellt und auch eine Erklärung
 eingesprochen. Das war im Jahr 2005 - das ist also schon lange her.
 Jetzt habe ich das Material einmal zusammengefasst und in zwei Videos

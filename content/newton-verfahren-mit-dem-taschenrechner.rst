@@ -16,7 +16,7 @@ Newton-Verfahren mit dem Taschenrechner
 (cc) Stefan-Xp
 
 Die Nullstellen-Berechnung nach dem `zuvor beschriebenen
-Newton-Verfahen <http://www.bakera.de/wp/2014/06/das-newton-verfahren-zur-bestimmung-von-nullstellen/>`__
+Newton-Verfahen <{filename}das-newton-verfahren-zur-bestimmung-von-nullstellen.rst>`__
 lässt sich auch mit einem
 `Taschenrechner <http://bakera.de/dokuwiki/doku.php/schule/taschenrechner>`__
 durchführen - z.B. mit dem Casio fx-991. Dazu gibst du die Gleichung in

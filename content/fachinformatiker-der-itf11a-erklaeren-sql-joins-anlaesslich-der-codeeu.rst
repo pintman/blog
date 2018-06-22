@@ -7,4 +7,4 @@ Fachinformatiker der ITF11a erklären SQL JOINS anlässlich der #codeEU
 :status: published
 
 `Code Week
-EU <http://bakera.de/wp/2013/11/25-11-30-11-europe-code-week-denn-programmieren-macht-spass/>`__
+EU <{filename}25-11-30-11-europe-code-week-denn-programmieren-macht-spass.rst>`__

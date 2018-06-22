@@ -21,7 +21,7 @@ Fred lebt
 Nachdem ein neues Grafiktablett in den Heimathafen meiner Dortmunder
 Wohnung eingelaufen ist, konnte ich natürlich nicht davon ablassen,
 dieses auch benutzen zu wollen. Ein erstes Ergebnis (nach kleineren
-Versuch mit `Furz <http://www.bakera.de/wp/2004/01/furz/>`__) dieser
+Versuch mit `Furz <{filename}furz.rst>`__) dieser
 Bemühungen seht ihr oben. Der erste Name, der mir dazu in den Kopf
 gekommen ist, war Fred, und so soll dieses Ding dann also auch heißen.
 :)

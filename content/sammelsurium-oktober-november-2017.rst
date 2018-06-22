@@ -25,7 +25,7 @@ cc: Freepik
    `[Quelle] <https://youtu.be/pm33KB2Th9M>`__
 -  Diese Vorträge der diesjährigen SHA17 haben mir besonders gut
    gefallen. 
-   `[Quelle] <https://www.bakera.de/wp/2017/10/sha17-empfehlungen/>`__
+   `[Quelle] <{filename}sha17-empfehlungen.rst>`__
 -  Mit 'git bundle' können Änderungen an Repos per Mail oder USB-Stick
    verteilt werden.
    `[Quelle] <https://git-scm.com/book/en/v2/Git-Tools-Bundling>`__
@@ -90,9 +90,9 @@ cc: Freepik
 
 -  Wie produziert man heute ein C64-Spiel? Der 8-Bit-Guy hat es in einem
    kurzweiligen Video festgehalten 
-   `[Quelle] <https://www.bakera.de/wp/2017/11/wie-produziert-man-heute-ein-c64-spiel/>`__
+   `[Quelle] <{filename}wie-produziert-man-heute-ein-c64-spiel.rst>`__
 -  „Hello Sir“ ist eine interessante Podcastserie über Scam
-   `[Quelle] <https://www.bakera.de/wp/2017/11/hello-sir-eine-podcastserie-ueber-scam/>`__
+   `[Quelle] <{filename}hello-sir-eine-podcastserie-ueber-scam.rst>`__
 -  Ein einfacher Domino-Effekt in #Blender und #Python 
    `[Quelle] <http://slicker.me/blender/domino.htm>`__
 -  tuwat #34c3
@@ -105,7 +105,7 @@ cc: Freepik
 -  Ich vermute es schon länger: die Google-Suche ist kaputt. Ich
    probiere jetzt mal metager.  `[Quelle] <https://metager.de/>`__
 -  Ein eigener PyPI-Server 
-   `[Quelle] <https://www.bakera.de/wp/2017/11/ein-eigener-pypi-server/>`__
+   `[Quelle] <{filename}ein-eigener-pypi-server.rst>`__
 -  Endlich ein wertvoller Debattenbeitrag zur Frage "Wal oder
    Riesenrad?!" 
    `[Quelle] <https://twitter.com/clemensetz/status/931902903597568000>`__
@@ -150,7 +150,7 @@ cc: Freepik
    `[Quelle] <https://www.techrepublic.com/article/which-is-the-fastest-growing-programming-language-hint-its-not-javascript/>`__
 -  Remote Desktops: Mein Erfahrungsbericht #rdp #pxe #x2go #vnc
    #thinstation #rpitc #thinclient /home/bakera/blog 
-   `[Quelle] <https://www.bakera.de/wp/2017/11/remote-desktops/>`__
+   `[Quelle] <{filename}remote-desktops.rst>`__
 
 .. |image0| image:: images/2014/12/wwwSitzen2.png
    :class: size-full wp-image-1523

@@ -7,7 +7,7 @@ Blogumzug
 :status: published
 
 Ich hatte bereits in dem früheren Artikel `"Digitale
-Emanzipation" <http://bakera.de/wp/?p=12>`__ geschrieben, dass ich ein
+Emanzipation" <{filename}digitale-emanzipation.rst>`__ geschrieben, dass ich ein
 unangenehmes Gefühl dabei habe, dass mein Blog bei Google liegt. Nun
 habe ich mir ein Herz gefasst und es kurzerhand auf meine eigene
 Webseite umgezogen.

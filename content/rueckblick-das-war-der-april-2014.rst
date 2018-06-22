@@ -23,7 +23,7 @@ Rückblick: Das war der April 2014
    2014 <http://www.linux-magazin.de/NEWS/Vortragsvideos-von-der-Cebit-2014-kostenlos-zu-sehen>`__.
    (Video, CeBIT)
 -  `Authentifizierung mit
-   OpenID <http://bakera.de/wp/2014/04/authentifizierung-mit-openid/>`__
+   OpenID <{filename}authentifizierung-mit-openid.rst>`__
    (Auth)
 -  Eine schöne `Erklärung zu Stacks und Umgekehrt Polnischer
    Notation <https://www.youtube.com/watch?v=7ha78yWRDlE>`__. (Video,

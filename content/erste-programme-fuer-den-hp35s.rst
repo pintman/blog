@@ -12,7 +12,7 @@ Erste Programme für den HP 35s
 cc: Stefan Vorkoetter
 
 Erst `kürzlich habe ich einen neuen Taschenrechner
-erhalten <http://www.bakera.de/wp/2014/06/bakera-packt-aus-einen-hp35s/>`__
+erhalten <{filename}bakera-packt-aus-einen-hp35s.rst>`__
 - den HP 35s. Natürlich habe ich zunächst die Möglichkeiten erforscht,
 das Gerät zu programmieren. Ein paar erste Programme möchte ich hier
 vorstellen.

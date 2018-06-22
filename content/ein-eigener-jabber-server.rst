@@ -29,7 +29,7 @@ das hört sich irgendwie zu technisch an.
 Nach einer kurzen Recherche unter verschiedenen Jabber-Servern fiel die
 Wahl auf die Software `Prosody <http://prosody.im/>`__, die nun auch auf
 `meinem
-Server <http://www.bakera.de/wp/2014/10/my-home-is-my-server/>`__ läuft.
+Server <{filename}my-home-is-my-server.rst>`__ läuft.
 Eine `Liste mit öffentlichen Servern <https://xmpp.net/directory.php>`__
 verrät, welche Software häufig zum Einsatz kommt und ermöglicht eine
 erste Einschätzung. Prosody ist leicht zu konfigurieren und

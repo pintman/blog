@@ -8,7 +8,7 @@ Review einer Unterrichtseinheit von Angelika Mogk zum Thema Comics
 :status: published
 
 Beim `derzeit laufenden
-ldlmooc <http://www.bakera.de/wp/2014/05/lernen-durch-lehren-eine-visualisierung/>`__
+ldlmooc <{filename}lernen-durch-lehren-eine-visualisierung.rst>`__
 habe ich mich entschlossen, die `Unterrichtseinheit von Angelika
 Mogk <http://angelikamogk.wordpress.com/2014/05/29/ldl-wochenaufgabe3/>`__
 zu begutachten.

@@ -23,6 +23,6 @@ Dabei entwickelt er im zweiten Teil des Vortrags eine phantastische und
 visionäre Welt von Möglichkeiten.
 
 Ich kann seinen etwas `älteren
-Vortrag <http://www.bakera.de/wp/2013/07/die-zukunft-der-programmierung/>`__
+Vortrag <{filename}die-zukunft-der-programmierung.rst>`__
 über die Zukunft der Programmierung und einen Blick auf `seine
 Webseite <http://worrydream.com/>`__ ebenfalls nur empfehlen.

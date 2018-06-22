@@ -29,7 +29,7 @@ Tweets aus dem Januar
 -  Fefe verlässt den #CCC. Das Ende ist nah.
    `[Quelle] <https://blog.fefe.de/?ts=a860443c>`__
 -  Neuer Blogpost: "Eine öffentliche und verteilte Bibliothek"
-   `[Quelle] <https://www.bakera.de/wp/2016/01/eine-oeffentliche-und-verteilte-bibliothek/>`__
+   `[Quelle] <{filename}eine-oeffentliche-und-verteilte-bibliothek.rst>`__
 -  Doofer Name, interessantes Konzept: Konstruktiver lösungsorientierter
    Journalismus auf Basis von Mitgliedsbeiträgen 
    `[Quelle] <https://perspective-daily.de/>`__

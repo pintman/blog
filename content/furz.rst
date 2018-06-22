@@ -22,11 +22,11 @@ hier sind sie auch schon. Furz in seinen neuen Abenteuern:
    </p>
 
 #. `Furz geht auffe
-   Kirmes <http://www.bakera.de/wp/2005/01/furz-geht-auffe-kirmes/>`__
+   Kirmes <{filename}furz-geht-auffe-kirmes.rst>`__
 #. `Furz muss
-   kacken <http://www.bakera.de/wp/2005/01/furz-muss-kacken/>`__
+   kacken <{filename}furz-muss-kacken.rst>`__
 #. `Furz feiert
-   Silvester <http://www.bakera.de/wp/2005/01/furz-feiert-silvester/>`__
+   Silvester <{filename}furz-feiert-silvester.rst>`__
 
 .. raw:: html
 

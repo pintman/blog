@@ -64,7 +64,7 @@ Tweets aus Juli 2016
 -  Kleiner 3D Drucker für 160 Euro.
    `[Quelle] <http://www.heise.de/make/meldung/Ausprobiert-und-fuer-gut-befunden-Mini-3D-Drucker-fuer-160-Euro-3269957.html>`__
 -  Alter Hut: Hier sind interessante Links aus dem Monaten Mai und Juni.
-   `[Quelle] <https://www.bakera.de/wp/2016/07/sammelsurium-mai-juni-2016/>`__
+   `[Quelle] <{filename}sammelsurium-mai-juni-2016.rst>`__
 -  Wahre Hacker, Wahre Helden.
    `[Quelle] <https://twitter.com/t_grote/status/753212094644883456>`__
 -  OpenBazaar ist ein dezentraler Marktplatz auf dem nur in Bitcoin
@@ -130,7 +130,7 @@ Tweets aus dem August 2016
    publish/subscribe messaging transport `[Quelle] <http://mqtt.org/>`__
 -  Neues Spielzeug: Ich habe Micropython auf einem ESP8266 installiert.
    #Python
-   `[Quelle] <https://www.bakera.de/wp/2016/08/micropython-auf-einem-esp8266/>`__
+   `[Quelle] <{filename}micropython-auf-einem-esp8266.rst>`__
 -  Schöne Idee: Alternative Medaillenspiegel.
    `[Quelle] <https://twitter.com/ianbremmer/status/767820265648754690>`__
 -  griffige URLs für die eigene Domain.

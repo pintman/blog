@@ -108,7 +108,7 @@ Interessante Einsichten aus vier Monaten.
    mehr als nur Programmierer.
    `[Quelle] <https://twitter.com/Bitkom_erlebeIT/status/975712182225825792>`__
 -  Ich habe das etwas zu Automatisierung mit Gitlab verblogt.
-   `[Quelle] <https://www.bakera.de/wp/2018/03/ci-cd-mit-gitlab/>`__
+   `[Quelle] <{filename}ci-cd-mit-gitlab.rst>`__
 -  Danke. Werde es dort probieren.
 -  Wenn Schüler auf eigene Ideen kommen. #ITA
    `[Quelle] <https://twitter.com/pintman/status/976490449971171333/photo/1>`__
@@ -128,7 +128,7 @@ Interessante Einsichten aus vier Monaten.
 -  Dortmund feiert 15 Jahre Chaos. \\o/
    `[Quelle] <https://www.chaostreff-dortmund.de/2018/03/01/dortmund-feiert-15-jahre-chaos/>`__
 -  MiniGameJam #3 gebar die StarFeetAcademy
-   `[Quelle] <https://www.bakera.de/wp/2018/03/minigamejam-3-gebar-die-starfeetacademy/>`__
+   `[Quelle] <{filename}minigamejam-3-gebar-die-starfeetacademy.rst>`__
 -  Wann war Peak Twitter?
 
 **Tweets aus 2018-04**

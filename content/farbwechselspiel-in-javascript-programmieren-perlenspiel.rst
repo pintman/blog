@@ -6,7 +6,7 @@ Farbwechselspiel in Javascript programmieren
 :slug: farbwechselspiel-in-javascript-programmieren-perlenspiel
 :status: published
 
-Im `letzte Beitrag <http://bakera.de/wp/?p=561>`__ habe ich das
+Im `letzte Beitrag <{filename}vier-gewinnt-mit-dem-perlenspiel-framework-programmieren-javascript.rst>`__ habe ich das
 `Perlenspiel-Framework <http://bakera.de/dokuwiki/doku.php/schule/perlenspiel>`__
 vorgestellt und gezeigt, wie man damit ein
 `Vier-Gewinnt-Spiel <http://bakera.de/dokuwiki/doku.php/schule/vier_gewinnt_perlenspiel>`__

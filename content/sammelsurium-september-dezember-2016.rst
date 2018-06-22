@@ -158,7 +158,7 @@ Tweets aus 2016-10
    `[Quelle] <https://futurezone.at/digital-life/fake-porn-wenn-dein-gesicht-in-einem-sexfilm-auftaucht/224.102.981>`__
 -  Neuer Blogpost: "Computer sind spannend, Technik macht Spaß – bis man
    ein Schulfach daraus macht"
-   `[Quelle] <https://www.bakera.de/wp/2016/10/computer-sind-spannend-technik-macht-spass-bis-man-ein-schulfach-daraus-macht/>`__
+   `[Quelle] <{filename}computer-sind-spannend-technik-macht-spass-bis-man-ein-schulfach-daraus-macht.rst>`__
 -  Neuzugang in der Hardwarekiste: Ein Shard von Gerber als einfaches
    aber nützliches Mulitool.
    `[Quelle] <https://www.bakera.de/dokuwiki/doku.php/schule/hardwarekiste?&#shard>`__

@@ -8,7 +8,7 @@ Facebook, bitte sage mir, was du über mich weißt (Teil 2)
 
 Vor einem Monat habe ich `Mark Zuckerberg gefragt, welche Daten er über
 mich bei Facebook
-speichert. <http://bakera.de/wp/2014/02/facebook-bitte-sage-mir-was-du-ueber-mich-weisst/>`__
+speichert. <{filename}facebook-bitte-sage-mir-was-du-ueber-mich-weisst.rst>`__
 Leider hat mir die Antwort nicht so gut gefallen, denn Mark hat mir nur
 mit einem Standardschreiben geantwortet. Darin verwies er mich auf die
 Online Tools, mit deren Hilfe man sich einen Teil der Daten

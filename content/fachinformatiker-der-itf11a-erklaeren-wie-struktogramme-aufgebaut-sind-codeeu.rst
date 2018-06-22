@@ -10,4 +10,4 @@ Hier geht es zur
 `Präsentation <https://docs.google.com/presentation/d/1ZqrMb3qDRdfWSvOAHU64RB5T_9MQ8q3hagbnaTqRwuI/edit#slide=id.p>`__.
 
 `Code Week
-EU <http://bakera.de/wp/2013/11/25-11-30-11-europe-code-week-denn-programmieren-macht-spass/>`__
+EU <{filename}25-11-30-11-europe-code-week-denn-programmieren-macht-spass.rst>`__

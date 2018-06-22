@@ -7,7 +7,7 @@ Spieleprogrammierung mit Unity - Teil 2: Farbe kommt ins Spiel
 :status: published
 
 Unser Spiel aus dem `ersten
-Teil <http://bakera.de/wp/2013/11/spieleprogrammierung-mit-unity/>`__
+Teil <{filename}spieleprogrammierung-mit-unity.rst>`__
 funktioniert im Prinzip schon, sieht aber noch gar nicht schön aus.
 Daher werden wir im nächsten Teil etwas Farbe und Texturen in die Hand
 nehmen und die Landschaft anschaulich gestalten. Außerdem kümmern wir

@@ -10,7 +10,7 @@ Lehrer, Schüler, oder was!?
 |2014-05-10-LdL Visualisierung|
 
 Derzeit läuft der LdLMOOC mit reger Teilnahme aller Beteiligten - `ich
-berichtete <http://www.bakera.de/wp/2014/05/lernen-durch-lehren-eine-visualisierung/>`__.
+berichtete <{filename}lernen-durch-lehren-eine-visualisierung.rst>`__.
 Es geht um das Thema "Lernen durch Lehren". Schüler werden dazu
 ermächtigt, ihren Mitschülern neue Inhalte zu vermitteln. Damit werden
 die Schüler also zu Lehrern. Das bringt leider einige begriffliche

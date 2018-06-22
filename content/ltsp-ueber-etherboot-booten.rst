@@ -7,7 +7,7 @@ LTSP über Etherboot booten
 :status: published
 
 In einem `vorherigen
-Beitrag <http://bakera.de/wp/2013/12/linux-terminal-server-projekt-ltsp-schwache-rechner-haengen-an-einem-starken-server/>`__
+Beitrag <{filename}linux-terminal-server-projekt-ltsp-schwache-rechner-haengen-an-einem-starken-server.rst>`__
 habe ich beschrieben, wie man einen LTSP-Server aufsetzt, der an
 PXE-fähige Clients ein Boot-Image ausliefert und dann startet.
 

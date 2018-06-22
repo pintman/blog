@@ -13,7 +13,7 @@ Ein Datenbankprojekt nach LdL-Art unterrichten (lassen)
    :target: https://www.youtube-nocookie.com/embed/e41xyYtCGs0?rel=0
 
 Ich habe schon
-`hier <http://www.bakera.de/wp/2014/05/lernen-durch-lehren-eine-visualisierung/>`__
+`hier <{filename}lernen-durch-lehren-eine-visualisierung.rst>`__
 geschrieben, dass ich derzeit an einem `MOOC zu
 LdL <http://ldlmooc.blogspot.de/>`__ teilnehme. In der letzten Woche
 haben wir eine Stoffsammlung erstellt, die für eine LdL-artige

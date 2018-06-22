@@ -9,7 +9,7 @@ My Home Is My Server
 
 |server20|
 
-Die (`meine <http://www.bakera.de/wp/2013/05/digitale-emanzipation/>`__)
+Die (`meine <{filename}digitale-emanzipation.rst>`__)
 digitale Emanzipation schreitet weiter voran. Nachdem ich mich in den
 letzten Monaten und Jahren zunehmend von den Diensten großer Unternehmen
 wie Google unabhängig gemacht habe, betrete ich nun einen weiteren
@@ -112,7 +112,7 @@ Damit die Daten auch nach einem Defekt oder Ausfall der Hardware
 wiederherstellbar sind, muss ein Backup her. Da der Server über SSH
 erreichbar ist, kann ich ein einfaches Skript schreiben, das die Daten
 vom Server holt und lokal sichert. Ich hatte ein solches Skript bereits
-`vorgestellt <http://www.bakera.de/wp/2014/09/backup-ueber-ssh-und-eine-pipe/>`__.
+`vorgestellt <{filename}backup-ueber-ssh-und-eine-pipe.rst>`__.
 Die Backupskripte werden auf dem Backuperechner ausgeführt und sehen
 etwa wie folgt aus:
 

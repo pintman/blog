@@ -316,7 +316,7 @@ Tweets aus 2017-06
    `[Quelle] <https://quantumexperience.ng.bluemix.net/>`__
 -  Neuer Blogpost: "Klein aber fein – der MiniGameJam in Dortmund"
    #gjdo17 @elektroschule @GameJamDortmund
-   `[Quelle] <https://www.bakera.de/wp/2017/06/klein-aber-fein-der-minigamejam-in-dortmund/>`__
+   `[Quelle] <{filename}klein-aber-fein-der-minigamejam-in-dortmund.rst>`__
 -  Zahnstocher statt Lötkolben.
    `[Quelle] <https://twitter.com/BurkhardKainka/status/875814931622494208>`__
 -  pkgsrc ist ein quelltextbasierter Softwareverteiler ähnlich dem ports

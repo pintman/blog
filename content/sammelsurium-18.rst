@@ -69,7 +69,7 @@ dafür.
 
 -  Das #Usenet ist eine immer noch interessante & lebendige Institution
    des Internet. Ich habe genauer hin geschaut.
-   `Quelle <https://www.bakera.de/wp/2015/10/das-usenet-nntp-server-und-kommunikationsprotokolle/>`__
+   `Quelle <{filename}das-usenet-nntp-server-und-kommunikationsprotokolle.rst>`__
 -  Lesarten.
    `Quelle <https://twitter.com/der_handwerk/status/53177020699521024>`__
 -  Unser Tastaturlayout ordnet häufig genutzte Buchstaben möglichst weit

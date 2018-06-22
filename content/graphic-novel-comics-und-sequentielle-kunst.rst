@@ -62,7 +62,7 @@ aktuelle Veröffentlichungen zu erhalten.
 |Comics_richtig_lesen|
 
 Nach einem `Blick in den Katalog unserer
-Stadt-Bibliothek <http://www.bakera.de/wp/2014/04/mitglied-in-der-bibliothek-toll/>`__
+Stadt-Bibliothek <{filename}mitglied-in-der-bibliothek-toll.rst>`__
 weiß ich: hier bekomme ich viele Werke zum kleinen Preis - nämlich
 kostenlos, *`Comics richtig
 lesen <https://de.wikipedia.org/wiki/Comics_richtig_lesen>`__* von Scott

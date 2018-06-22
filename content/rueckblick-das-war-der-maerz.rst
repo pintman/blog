@@ -31,7 +31,7 @@ Rückblick: Das war der März
    Dinge <http://beza1e1.tuxen.de/articles/accidentally_turing_complete.html>`__
    auch, von denen man es nicht erwartet. (Theorie)
 -  `Eine emotionale Datenreise durch die SMS vom 11. September
-   2001 <http://bakera.de/wp/2014/03/eine-emotionale-datenreise-durch-die-sms-vom-9-september-2001/>`__
+   2001 <{filename}eine-emotionale-datenreise-durch-die-sms-vom-9-september-2001.rst>`__
    (Daten, WikiLeaks)
 -  `Turing Award für das Jahr
    2013 <http://www.heise.de/developer/meldung/Turing-Award-fuer-LaTeX-Erfinder-2150018.html>`__
@@ -55,7 +55,7 @@ Rückblick: Das war der März
 -  `Maschinen-Stenographie <http://stenoknight.com/kws.html>`__: Einfach
    mal mit ausprobieren. (Software, Hardware, Schreiben)
 -  MIT und Harvard Universität bieten `kostenlosen
-   Linux-Kurs <http://bakera.de/wp/2014/03/mit-und-harvard-universitaet-bieten-kostenlosen-linux-kurs-an/>`__
+   Linux-Kurs <{filename}mit-und-harvard-universitaet-bieten-kostenlosen-linux-kurs-an.rst>`__
    an. (MOOC, Linux)
 -  `Dr. Nerd, zeigt
    uns <https://www.youtube.com/watch?v=di3xmGClB54&t=16m0s>`__, wozu

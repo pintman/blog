@@ -12,7 +12,7 @@ Mein persönlicher Eindruck zum LdLMOOC
 Monika E. König hat die Teilnehmer um eine
 `Stellungnahme <http://lernspielwiese.com/2014/06/07/der-ldlmooc-aus-teilgeberinnen-sicht-index/>`__
 zum derzeit laufenden
-`LdLMOOC <http://www.bakera.de/wp/2014/05/lernen-durch-lehren-eine-visualisierung/>`__
+`LdLMOOC <{filename}lernen-durch-lehren-eine-visualisierung.rst>`__
 gebeten. Ich habe mich der sieben Fragen wie folgt angenommen.
 
 *An welcher Stelle hast Du persönlich das ergreifendste/begreifendste

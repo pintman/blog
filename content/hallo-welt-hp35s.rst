@@ -14,7 +14,7 @@
 Über
 den \ `HP35s <http://www.bakera.de/dokuwiki/doku.php/schule/hp_35s>`__
 habe ich `bereits
-berichtet <http://www.bakera.de/wp/2014/06/bakera-packt-aus-einen-hp35s/>`__.
+berichtet <{filename}bakera-packt-aus-einen-hp35s.rst>`__.
 Nun folgt das obligatorische Hallo-Welt-Programm. Der Rechner kann
 nämlich auch beliebigen Text anzeigen. Dies geschieht über das Flag 10.
 Ist es gesetzt, werden Gleichungen nur angezeigt, aber nicht

@@ -50,7 +50,7 @@ Pünktlich zu Ostern sind hier meine Links für das Osternest.
    ein Python Interface für MediaWiki Installationen.
 -  `Syncthing <http://syncthing.net/>`__ ist die freie, verteilte
    Cloud-Alternative für die Synchronisation von Geräten.
-   `Bisher <https://www.bakera.de/wp/2014/07/backups-unter-windows-mit-robocopy/>`__
+   `Bisher <{filename}backups-unter-windows-mit-robocopy.rst>`__
    hatte ich hierfür immer Robocopy genutzt. Mit Syncthing fahre ich nun
    bequemer.
 

@@ -41,7 +41,7 @@ längst vergessen hat.
 -  Es gibt eine App für die Indoor-Navigation auf dem 34c3.
    `[Quelle] <https://play.google.com/store/apps/details?id=de.c3nav.droid>`__
 -  Meine Mini-Packliste für den #34c3
-   `[Quelle] <https://www.bakera.de/wp/2017/12/34c3-packliste/>`__
+   `[Quelle] <{filename}34c3-packliste.rst>`__
 -  Python vielleicht demnächst in Excel.
    `[Quelle] <https://twitter.com/ThePSF/status/944538082266767360>`__
 -  Früher stieg die Aufregung direkt vor Weihnachten, nun steigt sie
@@ -65,7 +65,7 @@ längst vergessen hat.
 -  Eine Hasente. 
    `[Quelle] <https://twitter.com/AcademiaObscura/status/939101027915190272>`__
 -  Glossar: Charset – Encoding – Font 
-   `[Quelle] <https://www.bakera.de/wp/2017/12/charset-encoding-font/>`__
+   `[Quelle] <{filename}charset-encoding-font.rst>`__
 -  WTF = WhatsApp Twitter Facebook
 -  Ein flammendes Plädoyer für Textmails ohne HTML-Schnickschnack. +1 
    `[Quelle] <https://twitter.com/JohnnyThan/status/938434049789571072>`__
@@ -161,7 +161,7 @@ längst vergessen hat.
    `[Quelle] <https://hackaday.com/2018/01/15/coin-cell-hacks-that-won-the-coin-cell-challenge/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+hackaday%2FLgoM+%28Hack+a+Day%29>`__
 -  Auch heute noch kann man einen Laptop selbst bauen - z.B. aus einem
    #RaspberryPi. #34c3
-   `[Quelle] <https://www.bakera.de/wp/2018/01/laptop-selbstgebaut/>`__
+   `[Quelle] <{filename}laptop-selbstgebaut.rst>`__
 -  Easterhegg in Dortmund. Das wäre toll.
    `[Quelle] <https://twitter.com/ctdo/status/951409601941004289>`__
 -  Fremden Quelltext lesen ... oder den eigenen Quelltext aus einer
@@ -169,11 +169,11 @@ längst vergessen hat.
    `[Quelle] <http://fun.drno.de/pics/cartoons/english/other_peoples_code.jpg>`__
 -  Gute Unterhaltung mit "Nougatbytes", "Hacker Jeopardy" und dem
    "Zentrum für politische Schönheit". #34c3
-   `[Quelle] <https://www.bakera.de/wp/2018/01/34c3-gute-unterhaltung/>`__
+   `[Quelle] <{filename}34c3-gute-unterhaltung.rst>`__
 -  Immer schön aufpassen mit den Abhängigkeiten.
    `[Quelle] <https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5>`__
 -  @hanno erklärt, warum die empirische Wissenschaft kaputt ist. #34c3
-   `[Quelle] <https://www.bakera.de/wp/2018/01/die-empirische-wissenschaft-ist-kaputt/>`__
+   `[Quelle] <{filename}die-empirische-wissenschaft-ist-kaputt.rst>`__
 -  Dateien einfach aber sicher über Tor teilen.
    `[Quelle] <https://github.com/micahflee/onionshare>`__
 -  Sehr ausführliche aber noch verständliche Erklärung von
@@ -197,7 +197,7 @@ längst vergessen hat.
    leichten Fokus auf Schweizer Verhältnisse. Dennoch einen Blick wert. 
    `[Quelle] <https://www.digitale-gesellschaft.ch/uploads/2017/09/Eine_Anleitung_zur_digitalen_Selbstverteidigung.pdf>`__
 -  So lassen sich USB-Sticks und SD-Karten validieren.
-   `[Quelle] <https://www.bakera.de/wp/2018/01/usb-sticks-und-sd-karten-validieren/>`__
+   `[Quelle] <{filename}usb-sticks-und-sd-karten-validieren.rst>`__
 -  PC-Wahl bietet 8-Bit-Voll"verschlüsselung" und liefert den Schlüssel
    gleich mit aus, obwohl man ihn auch raten kann. #34c3 #encraption
    (S.22) 
@@ -216,23 +216,23 @@ längst vergessen hat.
    `[Quelle] <https://twitter.com/bochum_de/status/948896786495737856>`__
 -  "Patterns und Anitpatterns" - ein schöner und unterhaltsamer Vortrag
    von fefe.
-   `[Quelle] <https://www.bakera.de/wp/2018/01/patterns-und-anitpatterns/>`__
+   `[Quelle] <{filename}patterns-und-anitpatterns.rst>`__
 -  Daten sind das Schlangenöl des 21. Jahrhunderts. #fnord
 -  Universalkommunikator #34C3 #blinkenrocket 
    `[Quelle] <https://twitter.com/pintman/status/948641476136849410/video/1>`__
 -  Noch gibt es günstige Hotels. 
    `[Quelle] <https://twitter.com/c3daysleft/status/948485844024856578>`__
 -  Eindrücke vom #34c3 
-   `[Quelle] <https://www.bakera.de/wp/2018/01/eindruecke-vom-34c3/>`__
+   `[Quelle] <{filename}eindruecke-vom-34c3.rst>`__
 -  Termine zu #34c3 ähnlichen Veranstaltungen.
    `[Quelle] <https://pads.ccc.de/termine>`__
 -  "Computer sind Spiel-, Werk- und Denkzeug." #34c3
 -  Mailboxen, das Fidonetz und Netzwerke der 90er Jahre #34c3 
-   `[Quelle] <https://www.bakera.de/wp/2018/01/mailboxen-fidonetz-und-netzwerke-der-90er-jahre/>`__
+   `[Quelle] <{filename}mailboxen-fidonetz-und-netzwerke-der-90er-jahre.rst>`__
 -  CTF – Kreuzworträtsel für Nerds #34c3 
-   `[Quelle] <https://www.bakera.de/wp/2018/01/ctf-kreuzwortraetsel-fuer-nerds/>`__
+   `[Quelle] <{filename}ctf-kreuzwortraetsel-fuer-nerds.rst>`__
 -  Blinken-Rocket: ein schönes Bastelprojekt vom #34c3
-   `[Quelle] <https://www.bakera.de/wp/2018/01/blinken-rocket/>`__
+   `[Quelle] <{filename}blinken-rocket.rst>`__
 -  Firmware für einen ESP8266 basierten Router. Inklusive Meshing.
    `[Quelle] <https://github.com/martin-ger/esp_wifi_repeater>`__
 -  Alte Weisheiten 
