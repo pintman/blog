@@ -6,7 +6,7 @@ Comic Book Heaven
 :slug: comic-book-heaven
 :status: published
 
-https://vimeo.com/channels/staffpicks/106526309
 
-"Comic Book Heaven" erzählt die Geschichte eines New Yorker Comic
+`Comic Book Heaven <https://vimeo.com/channels/staffpicks/106526309>`_ 
+erzählt die Geschichte eines New Yorker Comic
 Ladens.

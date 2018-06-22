@@ -6,7 +6,9 @@ Watchmen - ein Lobgesang
 :slug: watchmen-ein-lobgesang
 :status: published
 
-https://www.youtube.com/watch?v=mLdqKIj3-A0&amp
+.. image:: images/2018/06/mLdqKIj3-A0.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/mLdqKIj3-A0?rel=0
 
 Es ist mal wieder an der Zeit eine uneingeschränkte Empfehlung
 abzugeben. `Watchmen <https://de.wikipedia.org/wiki/Watchmen>`__ ist ein
@@ -27,7 +29,9 @@ Konsequenz platzierte das TIME-Magazine die Graphic Novel in die `Top
 1923 <http://entertainment.time.com/2005/10/16/all-time-100-novels/?iid=ent-article-mostpop1>`__
 - als einzigen Vertreter der Gattung Comic.
 
-https://www.youtube.com/watch?v=PVjA0y78\_EQ
+.. image:: images/2018/06/PVjA0y78_EQ.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/PVjA0y78_EQ?rel=0
 
 Da erste Video ganz oben vermittelt einen Eindruck von der Stimmung, die
 im Comic herrscht. Im zweiten Video seht ihr den Trailer zu der

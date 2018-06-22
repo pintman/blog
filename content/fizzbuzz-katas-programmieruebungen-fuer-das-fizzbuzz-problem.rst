@@ -6,6 +6,10 @@ FizzBuzz Katas - Programmierübungen für das FizzBuzz-Problem
 :slug: fizzbuzz-katas-programmieruebungen-fuer-das-fizzbuzz-problem
 :status: published
 
+.. image:: images/2018/06/pWtuV_a00zk.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/pWtuV_a00zk?rel=0
+
 (Das Video bei
 `archive.org <https://archive.org/details/fizzbuzz_katas>`__.)
 
@@ -19,3 +23,4 @@ können folgende Fälle eintreten:
 
 Viele Lösungen gibt es `auf meiner
 Webseite <https://www.bakera.de/dokuwiki/doku.php/schule/programmieruebungen>`__.
+

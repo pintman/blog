@@ -23,6 +23,10 @@ und Antworten rauschen in englischer und deutscher Sprache vorbei. Zum
 Schluss wird über das Thema der nächsten Sitzung abgestimmt und nach
 einer Stunde ist der ganze "Spuk" auch schon wieder vorbei.
 
+.. image:: images/2018/06/9SZedZOVnyg.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/9SZedZOVnyg?rel=0
+
 Ich muss zugeben, dass ich das Konzept sehr zwiespältig betrachte und
 werde nun versuchen,  die positiven und negativen Aspekte konkreter
 darzustellen.

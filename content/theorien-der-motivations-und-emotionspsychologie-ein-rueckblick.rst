@@ -7,7 +7,7 @@ Theorien der Motivations- und Emotionspsychologie - ein Rückblick
 :slug: theorien-der-motivations-und-emotionspsychologie-ein-rueckblick
 :status: published
 
-Vor [STRIKEOUT:einiger] langer Zeit habe ich Informatik an der Uni
+Vor einiger/langer Zeit habe ich Informatik an der Uni
 Dortmund (heute TU Dortmund) studiert. Damals konnte man dieses Fach
 noch auf Diplom studieren. Dazu brauchte man auch ein Nebenfach -
 sozusagen ein Anwendungsgebiet der Informatik. Ich hatte mich damals für
@@ -33,3 +33,10 @@ interessante Dinge erzählen konnte, die ich mittlerweile in dieser
 Detailtiefe gar nicht mehr wusste. :)
 
 
+.. image:: images/2018/06/RD6OnH0iEoU.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/RD6OnH0iEoU?rel=0
+
+.. image:: images/2018/06/nEfZzPA4sz0.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/nEfZzPA4sz0?rel=0

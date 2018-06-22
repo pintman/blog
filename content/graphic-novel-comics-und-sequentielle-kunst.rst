@@ -24,10 +24,18 @@ Genre bzw. Medium an repräsentativen Exemplaren vor. Es ist spannend,
 wie tief er die Werke zu deuten vermag und welche Kraft in den Bildern
 und dem, was zwischen ihnen passiert, steckt.
 
+.. image:: images/2018/06/qAyEbgSPi9w.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/qAyEbgSPi9w?rel=0
+
 In einem ausführlichen Beitrag bei arte wird das Comic als
 Kulturphänomen untersucht. Amerikanische Comics und asiatische Mangas
 entwickelten sich aus ganz unterschiedlichen Traditionen und haben daher
 auch ganz eigene Werke hervorgebracht,
+
+.. image:: images/2018/06/t2dszx8RIYQ.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/t2dszx8RIYQ?rel=0
 
 Eine weitere und umfangreichere Dokumentation mit Namen
 `Superheroes <https://www.youtube.com/watch?v=M8_vmDGt7Qw>`__ beschreibt

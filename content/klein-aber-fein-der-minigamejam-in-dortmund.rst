@@ -44,6 +44,10 @@ man den Button wieder los, sinkt er wieder. Diese Steuerung haben wir
 über eine kleine Platine mit zwei Tastern realisiert - der zweite Taster
 konnte das Spiel nach einem *Game Over* neu starten.
 
+.. image:: images/2018/06/7jtvtk3SSTg.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/7jtvtk3SSTg?rel=0
+
 Da noch etwas Zeit übrig war, konnten wir uns Gedanken über eine
 Audioausgabe machen. Diese erfolgte über zwei kleine "Lautsprecher", die
 wir ebenfalls über den Raspberry Pi angesteuert haben.

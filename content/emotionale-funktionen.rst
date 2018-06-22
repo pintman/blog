@@ -25,6 +25,10 @@ Abbildung für einige exemplarische genretypische Tropen.
 In dem folgenden Video veranschaulicht Vonnegut seine Thesen an drei
 kleinen Beispielen auf eine sehr unterhaltsame Weise.
 
+.. image:: images/2018/06/oP3c1h8v2ZQ.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/oP3c1h8v2ZQ?rel=0
+
 Wie sieht eine emotionale Funktion deiner Lieblingsgeschichte, deines
 Lieblingsbuches oder -filmes aus? Welche anderen Aspekte lassen sich auf
 der Y-Achse abbilden? Wie können wir Begriffe wie Steigung, Integral,

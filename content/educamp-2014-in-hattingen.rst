@@ -17,6 +17,8 @@ sich selbst organisierenden „Mitmach-Konferenz". Im Gegensatz zu
 traditionellen Konferenzen werden die konkreten Inhalte von den
 Teilnehmern vor Ort selbst ausgestaltet.
 
+`Video <https://player.vimeo.com/video/38693285>`_
+
 Den Schwerpunkt der EduCamps bilden medienpädagogische Fragestellungen,
 aber auch generell die Formen und Methoden des Lehrens und Lernens. Die
 Inhalte konzentrieren sich hierbei meist auf den Einsatz von Medien im

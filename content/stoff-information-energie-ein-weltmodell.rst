@@ -26,6 +26,8 @@ fasst er unterschiedliche Quellen für Erklärungsmodelle wissenschaftlich
 mathematischer Phänomene zusammen in einem Kameraflug durch die Kemenate
 der jüngeren Wissenschaftsgeschichte.
 
+`Video <https://player.vimeo.com/video/36296951>`_
+
 .. |Norbert Beier: Informatik und die klassischen Naturwissenschaften (MNU Heft 3, 2006)| image:: images/2014/06/Weltmodell.jpg
    :class: size-full wp-image-1212
    :width: 100%

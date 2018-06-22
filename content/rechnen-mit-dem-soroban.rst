@@ -18,6 +18,10 @@ Geübte japanische Schüler können da locker mit einem Taschenrechner
 mithalten. Irgendwann kann man dieses Hilfsmittel auch ganz weglassen
 und erstaunliche Rechenleitungen im Kopf vollziehen.
 
+.. image:: images/2018/06/Px_hvzYS3_Y.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/Px_hvzYS3_Y?rel=0
+
 Interessant bei dem Gerät: die Berechnung werden von links nach rechts
 durchgeführt. Wir dagegen addieren die einzelnen Stellen zweier Zahlen
 von rechts nach links. Eine `umfangreiche

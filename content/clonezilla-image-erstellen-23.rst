@@ -16,3 +16,7 @@ haben wir Clonezilla heruntergeladen und gestartet.
 Im zweiten Teil erstellen wir das Image der FreeDos-Installation und
 bereiten damit den letzten Schritt vor, in dem das Image auf viele
 Rechner ausgespielt werden kann.
+
+.. image:: images/2018/06/5MbMS97Mea0.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/5MbMS97Mea0?rel=0
