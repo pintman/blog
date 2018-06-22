@@ -9,8 +9,8 @@ Clonezilla - Image erstellen (2/3)
 
 `Clonezilla <http://clonezilla.org/>`__ ist eine Linuxdistribution, die
 beim Klonen mehrerer Rechner hilft. Sie kommt daher besonders in
-Rechnerräumen von Schulen und Universitäten zum Einsatz. Im `ersten
-Video <http://www.bakera.de/wp/2014/09/clonezilla-installation-und-start-13/>`__
+Rechnerräumen von Schulen und Universitäten zum Einsatz. Im 
+`ersten Video <{filename}clonezilla-installation-und-start-13.rst>`_
 haben wir Clonezilla heruntergeladen und gestartet.
 
 Im zweiten Teil erstellen wir das Image der FreeDos-Installation und
