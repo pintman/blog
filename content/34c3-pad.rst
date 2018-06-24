@@ -4,9 +4,9 @@
 :author: marco.bakera
 :tags: Informatik, 34c3
 :slug: 34c3-pad
-:status: draft
+:status: published
 
-Während des Congresses habe ich mich folgende Notizen in einem Pad
+Während des Congresses haben mich folgende Notizen in einem Pad
 begleitet. Als Erinnerung an mich veröffentliche ich sie an dieser
 Stelle.
 
