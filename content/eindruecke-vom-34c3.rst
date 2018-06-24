@@ -15,7 +15,7 @@ nach Leipzig in diesem Jahr war zu erwarten, dass der neue Ort Risiken
 und Chancen bieten würde. Die Hallen waren sehr groß und ließen für
 meinen Geschmack zu wenig Raum für kleinere intime Treffen und
 Gespräche. Häufig war man auf der Suche nach einem Platz, an dem man
-ungestört [STRIKEOUT:hacken] arbeiten konnte. Die riesige Halle 2 mit
+ungestört (hacken) arbeiten konnte. Die riesige Halle 2 mit
 all ihren Hackingspaces, dem Künstlerbereich und der
 Hardware-Hacking-Area haben dennoch nie einen Hauch von Langeweile
 aufkommen lassen.\ |image1|

@@ -19,7 +19,7 @@ ersten Versuche gestartet.
 **Rechnerpool einrichten**
 
 Nun bin ich in die Verlegenheit gekommen, einen Rechnerraum mit
-bescheidenen 6 Clients einrichten zu [STRIKEOUT:müssten] dürfen und das
+bescheidenen 6 Clients einrichten zu (müssten) dürfen und das
 Thema ereilte mich erneut. Ich kann natürlich jeden Rechner einzeln
 einrichten. Ebenso kann ich einen Referenzrechner einrichten, von diesem
 ein Image erzeugen und dieses auf die anderen Rechner verteilen - z.B.

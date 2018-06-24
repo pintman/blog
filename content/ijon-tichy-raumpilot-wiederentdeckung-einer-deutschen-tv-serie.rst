@@ -21,6 +21,6 @@ Orion <https://de.wikipedia.org/wiki/Raumpatrouille>`__ und der
 `Augsburger
 Puppenkiste <https://de.wikipedia.org/wiki/Augsburger_Puppenkiste>`__.
 Ich frage mich, was die Macher beim Schreiben der Serie
-[STRIKEOUT:geraucht] gedacht haben. Wer die Serie noch nicht kennt,
+(geraucht) gedacht haben. Wer die Serie noch nicht kennt,
 sollte ihr eine Chance geben und wird sie entweder lieben oder hassen.
 Dazwischen scheint mit wenig Meinungsspielraum. Wie gefällt sie euch?

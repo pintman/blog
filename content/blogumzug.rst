@@ -19,7 +19,7 @@ Import der alten Artikel installiert und schwuppdiwupp waren alle
 Artikel auch in meinem neuen Blog. Endlich zu Hause, ein gutes Gefühl.
 
 Ich habe noch zwei Plugins installiert, damit meine Artikel automatisch
-nach Twitter und Facebook [STRIKEOUT:gepupst] gepustet werden.
+nach Twitter und Facebook (gepupst) gepustet werden.
 Cross-Posting mag ich eigentlich nicht. Aber ich werde mal ausprobieren,
 ob es funktioniert.
 

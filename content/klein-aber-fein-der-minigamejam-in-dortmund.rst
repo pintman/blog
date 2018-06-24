@@ -31,7 +31,7 @@ soweit zumindest die Theorie. Wir haben einen Digtial-Analog-Wandler aus
 Widerständen erstellt und mit einem RaspberryPi angesteuert. Damit waren
 wir in der Lage, eine bescheidene Auflösung von 32x64 Bildpunkten auf
 dem Gerät darzustellen. Bei höheren Auflösungen flackerte das Bild aus
-Gründen, die wir in der kurzen Zeit nicht ergründen [STRIKEOUT:konnten]
+Gründen, die wir in der kurzen Zeit nicht ergründen (konnten)
 wollten.
 
 Nach ca. drei Stunden konnten wir beliebige Punkte auf dem Gerät
