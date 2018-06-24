@@ -2,8 +2,7 @@ Hallo Sky, hallo Deutsche Post Direkt ...
 #########################################
 :date: 2014-10-18 13:36
 :author: marco.bakera
-:tags: Gesellschaft
-:tags: Datenschutz
+:tags: Gesellschaft, Datenschutz
 :slug: hallo-sky-hallo-deutsche-post-direkt
 :status: published
 

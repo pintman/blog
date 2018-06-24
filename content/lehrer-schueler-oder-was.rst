@@ -2,8 +2,7 @@ Lehrer, Schüler, oder was!?
 ###########################
 :date: 2014-05-24 16:12
 :author: marco.bakera
-:tags: Bildung
-:tags: ldl, ldlmooc, mooc
+:tags: Bildung, ldl, ldlmooc, mooc
 :slug: lehrer-schueler-oder-was
 :status: published
 

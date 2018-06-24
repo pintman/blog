@@ -2,8 +2,7 @@ Sammelsurium - Funktionen, Server, Emulation, Latex, Poster, shellscript, Mathem
 #########################################################################################################################
 :date: 2015-04-22 20:58
 :author: marco.bakera
-:tags: Linkliste, Unkategorisiert
-:tags: Emulation, Funktionen, Game-Engine, Latex, Mathematik, Poster, Server, shellscript, Videokonferenz, webrtc
+:tags: Linkliste, Emulation, Funktionen, Game-Engine, Latex, Mathematik, Poster, Server, shellscript, Videokonferenz, webrtc
 :slug: sammelsurium-funktionen-server-emulation-latex-poster-shellscript-mathematik-game-engine-webrtc-videokonferenz
 :status: published
 

@@ -2,8 +2,7 @@ Blinken-Rocket
 ##############
 :date: 2018-01-01 21:26
 :author: marco.bakera
-:tags: Hardware, Programmierung
-:tags: 34c3
+:tags: Hardware, Programmierung, 34c3
 :slug: blinken-rocket
 :status: published
 

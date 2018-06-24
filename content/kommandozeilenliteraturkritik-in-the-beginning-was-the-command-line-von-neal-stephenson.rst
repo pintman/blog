@@ -2,8 +2,7 @@ Kommandozeilenliteraturkritik - "In the Beginning was The Command Line" von Neal
 ###########################################################################################
 :date: 2014-05-30 10:22
 :author: marco.bakera
-:tags: Bildung, Informatik, Linux
-:tags: BeOS, cli, Linux, Windows
+:tags: Bildung, Informatik, Linux, BeOS, cli, Linux, Windows
 :slug: kommandozeilenliteraturkritik-in-the-beginning-was-the-command-line-von-neal-stephenson
 :status: published
 

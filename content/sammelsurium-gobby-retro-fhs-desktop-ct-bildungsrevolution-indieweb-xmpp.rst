@@ -2,7 +2,6 @@ Sammelsurium: Gobby, Retro, FHS, Desktop, c't, Bildungsrevolution, IndieWeb, XMP
 #################################################################################
 :date: 2015-05-14 11:40
 :author: marco.bakera
-:tags: Unkategorisiert
 :tags: Bildungsrevolution, c't, Desktop, FHS, Gobby, IndieWeb, Retro, xmpp
 :slug: sammelsurium-gobby-retro-fhs-desktop-ct-bildungsrevolution-indieweb-xmpp
 :status: published

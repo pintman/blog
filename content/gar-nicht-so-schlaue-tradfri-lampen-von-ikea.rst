@@ -2,8 +2,7 @@ Gar nicht so schlaue Tradfri-Lampen von IKEA
 ############################################
 :date: 2018-03-30 16:14
 :author: marco.bakera
-:tags: Hardware
-:tags: IoT, Smarthome
+:tags: Hardware, IoT, Smarthome
 :slug: gar-nicht-so-schlaue-tradfri-lampen-von-ikea
 :status: published
 

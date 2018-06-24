@@ -2,8 +2,7 @@ Docker auf dem RaspberryPi
 ##########################
 :date: 2018-01-20 15:49
 :author: marco.bakera
-:tags: Hardware
-:tags: RaspberryPi
+:tags: Hardware, RaspberryPi
 :slug: docker-auf-dem-raspberrypi
 :status: published
 

@@ -2,8 +2,7 @@ Welchen Wert hat ∛(-8) ?
 ########################
 :date: 2014-06-16 14:52
 :author: marco.bakera
-:tags: Mathe
-:tags: Taschenrechner
+:tags: Mathe, Taschenrechner
 :slug: welchen-wert-hat-dritte-wurzel-8
 :status: published
 

@@ -2,8 +2,7 @@ Ijon Tichy: Raumpilot - Wiederentdeckung einer deutschen TV-Serie
 #################################################################
 :date: 2015-07-28 12:25
 :author: marco.bakera
-:tags: Film, Gesellschaft
-:tags: SciFi, ZDF
+:tags: Film, Gesellschaft, SciFi, ZDF
 :slug: ijon-tichy-raumpilot-wiederentdeckung-einer-deutschen-tv-serie
 :status: published
 

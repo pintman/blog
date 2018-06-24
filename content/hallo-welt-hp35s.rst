@@ -2,8 +2,7 @@
 ###################
 :date: 2014-06-19 14:03
 :author: marco.bakera
-:tags: Mathe, Programmierung
-:tags: HP35s, Taschenrechner
+:tags: Mathe, Programmierung, HP35s, Taschenrechner
 :slug: hallo-welt-hp35s
 :status: published
 

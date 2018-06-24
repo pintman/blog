@@ -2,8 +2,8 @@
 ########
 :date: 2018-01-03 12:20
 :author: marco.bakera
-:tags: Informatik
-:slug:  
+:tags: Informatik, 34c3
+:slug: 34c3-pad
 :status: draft
 
 Während des Congresses habe ich mich folgende Notizen in einem Pad

@@ -2,8 +2,7 @@ Einen Monat lang vegan
 ######################
 :date: 2015-04-09 09:28
 :author: marco.bakera
-:tags: Tipp
-:tags: Gesundheit, Nahrung, Umwelt, vegan
+:tags: Tipp, Gesundheit, Nahrung, Umwelt, vegan
 :slug: einen-monat-lang-vegan
 :status: published
 

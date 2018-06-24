@@ -2,8 +2,7 @@ Ein eigener Jabber-Server
 #########################
 :date: 2015-05-26 07:51
 :author: marco.bakera
-:tags: Informatik
-:tags: Chat, chatsecure, jabber, pidgin, prosody, xmpp
+:tags: Informatik, Chat, chatsecure, jabber, pidgin, prosody, xmpp
 :slug: ein-eigener-jabber-server
 :status: published
 

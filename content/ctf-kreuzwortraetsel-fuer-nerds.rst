@@ -2,8 +2,7 @@ CTF - Kreuzworträtsel für Nerds
 ###############################
 :date: 2018-01-02 09:50
 :author: marco.bakera
-:tags: Informatik
-:tags: 34c3, hacking
+:tags: Informatik, 34c3, hacking
 :slug: ctf-kreuzwortraetsel-fuer-nerds
 :status: published
 

@@ -2,8 +2,7 @@ LdLMOOC Nummer 2 startet im September
 #####################################
 :date: 2014-08-24 09:13
 :author: marco.bakera
-:tags: Bildung
-:tags: Konferenz, ldlmooc2
+:tags: Bildung, Konferenz, ldlmooc2
 :slug: ldlmooc-nummer-2-startet-im-september
 :status: published
 

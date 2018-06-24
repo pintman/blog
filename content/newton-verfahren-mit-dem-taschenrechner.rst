@@ -2,8 +2,7 @@ Newton-Verfahren mit dem Taschenrechner
 #######################################
 :date: 2014-06-19 10:23
 :author: marco.bakera
-:tags: Mathe
-:tags: Taschenrechner
+:tags: Mathe, Taschenrechner
 :slug: newton-verfahren-mit-dem-taschenrechner
 :status: published
 

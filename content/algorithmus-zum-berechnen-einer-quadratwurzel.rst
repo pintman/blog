@@ -2,8 +2,7 @@ Algorithmus zum Berechnen einer Quadratwurzel
 #############################################
 :date: 2014-06-21 10:47
 :author: marco.bakera
-:tags: Mathe, Programmierung
-:tags: HP35s, Taschenrechner
+:tags: Mathe, Programmierung, HP35s, Taschenrechner
 :slug: algorithmus-zum-berechnen-einer-quadratwurzel
 :status: published
 

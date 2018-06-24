@@ -2,8 +2,7 @@ Mein persönlicher Eindruck zum LdLMOOC
 ######################################
 :date: 2014-06-07 21:15
 :author: marco.bakera
-:tags: Bildung
-:tags: ldl, ldlmooc, mooc
+:tags: Bildung, ldl, ldlmooc, mooc
 :slug: mein-persoenlicher-eindruck-zum-ldlmooc
 :status: published
 

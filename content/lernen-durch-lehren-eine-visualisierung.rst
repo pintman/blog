@@ -2,8 +2,7 @@ Lernen durch Lehren - eine Visualisierung
 #########################################
 :date: 2014-05-11 09:54
 :author: marco.bakera
-:tags: Bildung
-:tags: ldl, ldlmooc, mooc
+:tags: Bildung, ldl, ldlmooc, mooc
 :slug: lernen-durch-lehren-eine-visualisierung
 :status: published
 

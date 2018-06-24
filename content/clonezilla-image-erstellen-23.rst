@@ -2,8 +2,7 @@ Clonezilla - Image erstellen (2/3)
 ##################################
 :date: 2014-09-18 17:27
 :author: marco.bakera
-:tags: Bildung, Linux, Video
-:tags: Clonezilla
+:tags: Bildung, Linux, Video, Clonezilla
 :slug: clonezilla-image-erstellen-23
 :status: published
 

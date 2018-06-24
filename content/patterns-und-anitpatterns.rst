@@ -2,8 +2,7 @@ Patterns und Antipatterns
 #########################
 :date: 2018-01-04 10:36
 :author: marco.bakera
-:tags: Informatik, Video
-:tags: 34c3
+:tags: Informatik, Video, 34c3
 :slug: patterns-und-anitpatterns
 :status: published
 

@@ -3,8 +3,7 @@ Mit "App Guard" Android Apps überwachen
 :date: 2015-04-12 22:15
 :author: marco.bakera
 :tags: Tipp
-:tags: Android, Handy
-:slug: mit-app-guard-android-apps-ueberwachen
+:tags: Android, Handy, mit-app-guard-android-apps-ueberwachen
 :status: published
 
 Mit `AppGuard <http://www.srt-appguard.com/>`__ lassen sich die Rechte
