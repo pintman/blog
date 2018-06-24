@@ -24,7 +24,45 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://blog.bakera.de/eine-emotionale-datenreise-durch-die-sms-vom-9-september-2001.html">Eine emotionale Datenreise durch die SMS vom 11. September 2001</a></h1>
+                    <h1 class="entry-title"><a href="https://blog.bakera.de/ein-datenbankprojekt-nach-ldl-art-unterrichten-lassen.html">Ein Datenbankprojekt nach LdL-Art unterrichten (lassen)</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2014-05-26T17:01:00+02:00">
+                Published: Mo 26 Mai 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="https://blog.bakera.de/tag/bildung.html">Bildung</a> <a href="https://blog.bakera.de/tag/datenbank.html">Datenbank</a> <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/ldl.html">ldl</a> <a href="https://blog.bakera.de/tag/ldlmooc.html">ldlmooc</a> <a href="https://blog.bakera.de/tag/mooc.html">mooc</a> <a href="https://blog.bakera.de/tag/video.html">video</a> </p>
+</footer><!-- /.post-info --><a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/e41xyYtCGs0?rel=0"><img alt="Youtube-Video" src="images/2018/06/e41xyYtCGs0.jpg" /></a>
+<p>Ich habe schon
+<a class="reference external" href="https://blog.bakera.de/lernen-durch-lehren-eine-visualisierung.html">hier</a>
+geschrieben, dass ich derzeit an einem <a class="reference external" href="http://ldlmooc.blogspot.de/">MOOC zu
+LdL</a> teilnehme. In der letzten Woche
+haben wir eine Stoffsammlung erstellt, die für eine LdL-artige
+Unterrichtsreihe geeignet ist. Ich hatte mich für ein
+<a class="reference external" href="http://wikis.zum.de/zum/Datei:Datenbankprojekt_nach_eigenen_Vorgaben.odt">Datenbankprojekt</a>
+aus dem Programmieren-Unterricht entschieden.</p>
+<p>In dieser Woche geht es darum, diese Stoffsammlung mit einem kurzen
+Video zu visualisieren und zu beschreiben. Das Ergebnis meiner Arbeit
+sehr ihr an dieser Stelle. Viel Freude beim Betrachten.</p>
+<p><strong>Update:</strong> Peter Ringeisen hatte mein Video begutachtet.</p>
+<a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/dGI6jIxRs7s?rel=0"><img alt="Youtube-Video" src="images/2018/06/dGI6jIxRs7s.jpg" /></a>
+                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://blog.bakera.de/eine-emotionale-datenreise-durch-die-sms-vom-9-september-2001.html" rel="bookmark"
+                           title="Permalink to Eine emotionale Datenreise durch die SMS vom 11. September 2001">Eine emotionale Datenreise durch die SMS vom 11. September 2001</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2014-03-25T14:19:00+01:00">
                 Published: Di 25 März 2014
@@ -35,132 +73,16 @@
         </address>
 <p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
 <p>tags: <a href="https://blog.bakera.de/tag/datenbank.html">Datenbank</a> </p>
-</footer><!-- /.post-info --><p>Wikileaks hat vor einigen Jahren die SMS
+</footer><!-- /.post-info -->                <p>Wikileaks hat vor einigen Jahren die SMS
 <a class="reference external" href="https://911.wikileaks.org/">veröffentlicht</a>, die während des
 Anschlages auf das World Trace Center am 11. September 2001 verschickt
 wurden. Ich habe mir die Daten etwas genauer angeschaut.</p>
 <p>Zunächst habe ich mir die Rohdaten heruntergeladen. Es gibt eine
 <a class="reference external" href="http://file.wikileaks.org/file/9-11_all_messages.7z">Datei</a>, die
-alle Nachrichten in einer überschaubar großen Textdatei enthält. Nach
-dem Auspacken landet eine Datei mit dem nüchternen Namen
-&quot;messages_all.txt&quot; auf meinem Rechner. Ein Blick in die Datei verrät
-schnell ihren Aufbau. Die einzelnen Felder wie Datum und Uhrzeit sind
-durch Leerzeichen voneinander getrennt. Es gibt seltsame Codes und den
-eigentlichen Text der Nachricht.</p>
-<p>Zunächst müssen die Daten etwas aufbereitet werden, um eine saubere
-CSV-Datei zu erhalten, die ich in eine Datenbank importieren kann.
-Zuerst habe ich die Datei nach einem Zeichen durchsucht,&nbsp; das überhaupt
-nicht in der Datei enthalten ist. Dieses Zeichen kann ich dann als
-Feldtrenner verwenden. Bei '§' wurde ich fündig. Dies soll mein
-Feldtrenner werden. Mit einem kleinen Script, das ich an sed verfüttere,
-sollte eine CSV-Datei entstehen, die ich in
-<a class="reference external" href="http://www.sqlite.org">sqlite</a> einlesen kann.</p>
-<pre class="literal-block">
-s/&nbsp; */§/ # Leerzeichen im vorderen Bereich entfernen
-s/&nbsp; */§/
-s/&nbsp; */§/
-s/&nbsp; */§/
-s/&nbsp; */§/
-s/&nbsp; */§/
-s/\[// # Eckige Klammern entfernen
-s/\]// #
-s/&quot;//g # &quot; wird beim Import in sqlite falsch interpretiert
-</pre>
-<p>Anschließend kann ich sqlite öffnen. Ich erstelle zuerst eine Tabelle
-für meine Daten.</p>
-<pre class="literal-block">
-CREATE TABLE msgs (
-  datum date,
-  zeit time,
-  anbieter varchar,
-  id varchar,
-  kennung varchar,
-  kennung2 varchar,
-  text varchar);
-</pre>
-<p>Die Daten können nun in diese neue Tabelle importiert werden. Dazu öffne
-ich sqlite und führe die beiden folgenden Befehle aus.</p>
-<pre class="literal-block">
-.separator &quot;§&quot;
-.import messages.csv msgs
-</pre>
-<p>Eine erste Anfrage zeigt mir, wie viele Nachrichten verschickt wurden.
-Diese Zahl stimmt mit der Anzahl der Zeilen aus der Textdatei überein,
-die ich mit &quot;wc -l messages_all.txt&quot; erhalte - es scheint also geklappt
-zu haben.</p>
-<pre class="literal-block">
-SELECT COUNT(*) FROM msgs;
-count(*)
-----------
-448358
-</pre>
-<p>448358 Nachrichten. 448358 Geschichten. 448358 Schicksale. Ein Blick
-durch die Textdatei verrät, dass sich dort sowohl ganz persönliche
-Schicksale wiederfinden als auch Computer, die in regelmäßigen Abständen
-Fehlerberichte an ihre Administratoren verschicken. Auch die
-Einsatzkräfte vor Ort kommunizieren auf diesem Wege.</p>
-<p>Ich erstelle mir ein kleines Bash-Skript, mit dessen Hilfe ich meine
-Anfragen schnell mittels <a class="reference external" href="http://www.gnuplot.info/">gnuplot</a>
-visualisieren kann.</p>
-<pre class="literal-block">
-#!/bin/bash
-
-SQL=$1
-CSVFILE=/tmp/gnuplot.csv
-
-# Mit tail -n +3 wird die Ausgabe erst ab der dritten Zeile in die Datei umgeleitet
-# sqlite beginnt mit einer leeren Zeile und gibt dann die header aus
-sqlite3 -csv messages_all.sqlite &quot;${SQL}&quot; |tail -n +3 &gt; $CSVFILE
-
-gnuplot -p -e &quot;set datafile separator \&quot;,\&quot;;plot [] [0:] \&quot;$CSVFILE\&quot;&quot;
-</pre>
-<p>Ich kann dem Skript einen SQL-Befehl übergeben. Die Ausgabe wird als
-CSV-Datei abgespeichert und von gnuplot anschließend visualisiert.</p>
-<p>Ich möchte mir zunächst einen Überblick über die Verteilung der Anzahl
-der SMS über den Tag verschaffen, setze den folgenden SQL-Befehl ab und
-erhalte das folgende Bild.</p>
-<pre class="literal-block">
--- Abfragen über den zeitlichen Verlauf mit Dezimalzeiten
-select strftime('%H',zeit)+strftime('%M',zeit)/60.0 zeit2, count(*) anzahl
-from msgs
-group by datum, zeit2
-</pre>
-<p><a class="reference external" href="images/2014/03/Anzahl-SMS-nach-Uhrzeit.png"><img alt="Anzahl SMS nach Uhrzeit" class="alignnone size-full wp-image-869" src="images/2014/03/Anzahl-SMS-nach-Uhrzeit.png" style="width: 640px; height: 480px;" /></a></p>
-<p>Ab kurz vor 9 gibt es einen starken Anstieg als das erste Flugzeug in
-den ersten Turm fliegt. Die Anzahl der verschickten SMS vervierfacht
-sich plötzlich. Ich versuche, die Anfrage abzuwandeln und bin nun nur
-noch an Nachrichten interessiert, deren Text das Wort &quot;plane&quot; enthält.
-Ich erhalte das folgende Ergebnis.</p>
-<pre class="literal-block">
-select
-  strftime('%H',zeit)+strftime('%M',zeit)/60.0 zeit2,
-  count(*) anzahl
-from msgs
-where text like '%plane%'
-group by datum, zeit2
-</pre>
-<p><a class="reference external" href="images/2014/03/SMS-mit-Text-plane.png"><img alt="SMS mit Text plane" class="alignnone size-full wp-image-871" src="images/2014/03/SMS-mit-Text-plane.png" style="width: 640px; height: 480px;" /></a></p>
-<p>Das Bild zeigt auch hier einen erkennbaren Anstieg der Anzahl der SMS.
-Ich probiere weitere Einschränkungen aus - emotionale Schlüsselwörter
-wie 'love', 'war' und 'terror' - und werde den Eindruck nicht los, hier
-doch ganz private Schicksale zu durchleuchten.</p>
-<p>Ich bekomme ein mulmiges Gefühl und beende meine Recherche vorerst. Ich
-schließe alle Fenster und lasse die SMS zunächst ruhen. Man könnte noch
-tiefer recherchieren, eine Begriffswolke auf den SMS erzeugen und auf
-einem Zeitstrahl abbilden. Auch andere Analysen sind denkbar: Wie lässt
-sich der Absturz der Computerrechner darstellen? Wie kann die
-Kommunikation der Rettungskräfte visualisiert werden?</p>
-<p>Eines habe ich bei meinem Projekt gelernt: Die Daten erzählen ihre ganz
-eigene Geschichte - vielleicht hat sie sogar etwas mit der Realität zu
-tun. Vielleicht aber auch nicht. Und: Daten haben etwas mit Menschen zu
-tun. Daher müssen wir sie schützen, auf sie aufpassen und sorgsam mit
-ihnen umgehen.</p>
-                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+alle Nachrichten in einer überschaubar großen Textdatei …</p>
+                <a class="readmore" href="https://blog.bakera.de/eine-emotionale-datenreise-durch-die-sms-vom-9-september-2001.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>

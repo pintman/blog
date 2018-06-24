@@ -24,7 +24,67 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://blog.bakera.de/usb-sticks-und-sd-karten-validieren.html">USB-Sticks und SD-Karten validieren</a></h1>
+                    <h1 class="entry-title"><a href="https://blog.bakera.de/picore-zwischen-einplatinencomputer-und-microcontroller.html">piCore: Zwischen Einplatinencomputer und Microcontroller</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2018-03-31T12:24:00+02:00">
+                Published: Sa 31 März 2018
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="https://blog.bakera.de/tag/hardware.html">Hardware</a> <a href="https://blog.bakera.de/tag/linux.html">Linux</a> <a href="https://blog.bakera.de/tag/raspberrypi.html">RaspberryPi</a> </p>
+</footer><!-- /.post-info --><p>Der RaspberryPi ist ein Einplatinencomputer, der über GPIO Pins mit
+angeschlossener Elektronik kommunizieren kann. Mikrocontroller (µC)
+können das auch. Dafür hat der Pi ein ausgewachsenes Betriebssystem
+(meist Raspbian), ein Dateisystem, ein Netzwerk etc. Andererseits
+benötigt der µC wenig Strom und man kann ihn ohne Bedenken ausschalten.
+Der Pi mag das Ausschalten nicht so gerne: er möchte sauber
+heruntergefahren werden. Und auch sonst muss man sich mehr um ihn
+&quot;kümmern&quot; - Software aktuell halten, ggf. das Betriebssystem
+aktualisieren.</p>
+<p>Besonders der Punkt des Herunterfahrens störte mich bei vielen
+Pi-Projekten, die irgendwann in den Dauerbetrieb gehen sollen. Wenn ich
+eine LED-Wand damit ansteuere, möchte ich sie ausschalten können, ohne
+mich zuvor per SSH anmelden zu müssen.</p>
+<p>Diese Lücke zwischen ausgewachsenem OS und µC-Firmware adressiert die
+Distribution
+<a class="reference external" href="http://tinycorelinux.net/9.x/armv6/releases/RPi/README">piCore</a> -
+ein auf <a class="reference external" href="http://tinycorelinux.net/">TinyCoreLinux</a> aufbauendes Linux,
+das komplett im RAM läuft. Mittlerweile gibt es schon Version 9 und ein
+aktives
+<a class="reference external" href="http://forum.tinycorelinux.net/index.php/board,57.0.html">Forum</a> mit
+Nutzern und Entwicklern. Das Basisimage von PiCore ist weniger als 40 MB
+groß und lässt sich daher schnell installieren. Eine Testinstallation
+bootete flott in weniger als zehn Sekunden. Weil alle Programme direkt
+im RAM laufen und es keine langsamen Zugriffe auf die SD-Karte gibt,
+verhält sich das System äußerst responsiv und flott. Da das OS von
+SD-Karte bootet und diese anschließend nicht mehr benötigt, kann der Pi
+ohne schlechtes Gewissen ausgeschaltet werden - alle Daten liegen ja im
+RAM. Sollen Daten das Ausschalten überleben und auch beim nächsten
+Bootvorgang erhalten bleiben, gibt es hierfür das Programm
+<tt class="docutils literal">filetool.sh</tt>, das die Userdaten auf die SD-Karte schreibt.</p>
+<p><strong>Fazit:</strong> Die Grenzen von piCore liegen klar bei Anwendungen, die viele
+Daten schreiben - insbesondere, wenn diese Daten nicht mehr in der RAM
+passen und auch beim nächsten Bootvorgang erhalten bleiben sollen. Wer
+jedoch die umfangreiche Hardwareausstattung des Pi nutzen möchte und
+keine Sorgen mit dem Blinden Trennen von der Stromversorgung haben
+möchte, sollten einen Blick auf piCore werfen.</p>
+                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://blog.bakera.de/usb-sticks-und-sd-karten-validieren.html" rel="bookmark"
+                           title="Permalink to USB-Sticks und SD-Karten validieren">USB-Sticks und SD-Karten validieren</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2018-01-05T10:45:00+01:00">
                 Published: Fr 05 Januar 2018
@@ -35,46 +95,16 @@
         </address>
 <p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
 <p>tags: <a href="https://blog.bakera.de/tag/hardware.html">Hardware</a> <a href="https://blog.bakera.de/tag/linux.html">Linux</a> <a href="https://blog.bakera.de/tag/tipp.html">Tipp</a> <a href="https://blog.bakera.de/tag/tools.html">Tools</a> </p>
-</footer><!-- /.post-info --><p><a class="reference external" href="images/2018/01/webmichl-sd-card-800px.png"><img alt="image0" class="alignnone size-full wp-image-2191" src="images/2018/01/webmichl-sd-card-800px.png" style="width: 800px; height: 510px;" /></a></p>
+</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2018/01/webmichl-sd-card-800px.png"><img alt="image0" class="alignnone size-full wp-image-2191" src="images/2018/01/webmichl-sd-card-800px.png" style="width: 800px; height: 510px;" /></a></p>
 <p>Nicht immer funktionieren USB-Sticks und SD-Karten so wie sie sollen.
 Bei meiner letzten Bestellung aus China hatte ich den Verdacht, dass
 einige SD-Karten defekt waren - sie funktionierten für einen kurzen
 Zeitraum und gaben dann den Geist auf. Aus der c't kannte ich das
 Programm <a class="reference external" href="http://www.heise.de/download/h2testw.html">H2testw</a>, mit
-dem Flashspeicher geprüft werden kann. Dazu wird das Speichermedium mit
-Testdaten vollständig beschrieben und die Daten anschließend wieder
-gelesen. Wenn alles korrekt läuft, stimmen die gelesenen Daten mit den
-ursprünglich geschriebenen Daten überein. Das kann je nach Größe des
-Speichermediums durchaus eine Weile dauern.</p>
-<p>Für Linux gibt es hierfür das Paket f3, das mit den Programmen f3write
-und f3read das gleiche tut. Für einen korrekten USB-Stick läuft das
-Programm wie folgt ab:</p>
-<pre class="literal-block">
-$ f3write /media/STICK/
-Free space: 196.84 MB
-Creating file 1.h2w ... OK!
-Free space: 0.00 Byte
-Average writing speed: 6.76 MB/s
-</pre>
-<p>Anschließend werden die geschriebenen Daten wieder gelesen.</p>
-<pre class="literal-block">
-$ f3read /media/STICK/
-                  SECTORS     ok/corrupted/changed/overwritten
-Validating file 1.h2w ... 403128/        0/      0/      0
-
-  Data OK: 196.84 MB (403128 sectors)
-Data LOST: 0.00 Byte (0 sectors)
-          Corrupted: 0.00 Byte (0 sectors)
-   Slightly changed: 0.00 Byte (0 sectors)
-        Overwritten: 0.00 Byte (0 sectors)
-Average reading speed: 7.75 MB/s
-</pre>
-                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+dem Flashspeicher geprüft werden …</p>
+                <a class="readmore" href="https://blog.bakera.de/usb-sticks-und-sd-karten-validieren.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -187,6 +217,66 @@ Suse wird als externes Laufwerk eingebunden …</p>
 
             <li><article class="hentry">
                 <header>
+                    <h1><a href="https://blog.bakera.de/das-usenet-nntp-server-und-kommunikationsprotokolle.html" rel="bookmark"
+                           title="Permalink to Das Usenet, NNTP-Server und Kommunikationsprotokolle">Das Usenet, NNTP-Server und Kommunikationsprotokolle</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-10-16T10:58:00+02:00">
+                Published: Fr 16 Oktober 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/linux.html">Linux</a> <a href="https://blog.bakera.de/tag/inn.html">INN</a> <a href="https://blog.bakera.de/tag/newsgroup.html">Newsgroup</a> <a href="https://blog.bakera.de/tag/nntp.html">NNTP</a> <a href="https://blog.bakera.de/tag/server.html">Server</a> <a href="https://blog.bakera.de/tag/usenet.html">Usenet</a> </p>
+</footer><!-- /.post-info -->                <p><strong>Das Usenet ist eine alte doch immer noch interessante und lebendige
+Institution des Internet - aus technischer, kultureller und auch
+historischer Sicht. Ich möchte mit euch eintauchen in diese Welt und sie
+als Nutzer und technisch Interessierter erkunden.</strong></p>
+<p><img alt="ic_chat_black_48dp" class="alignright size-full wp-image-1870" src="images/2015/10/ic_chat_black_48dp.png" style="width: 144px; height: 144px;" />Meine <a class="reference external" href="https://blog.bakera.de/digitale-emanzipation.html">digitale
+Emanzipation</a>
+schreitet voran: Nachdem ich <a class="reference external" href="https://blog.bakera.de/my-home-is-my-server.html">meinen
+Server</a> in die
+heimischen vier …</p>
+                <a class="readmore" href="https://blog.bakera.de/das-usenet-nntp-server-und-kommunikationsprotokolle.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://blog.bakera.de/mediawiki-unter-docker.html" rel="bookmark"
+                           title="Permalink to Mediawiki unter docker">Mediawiki unter docker</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-08-12T15:31:00+02:00">
+                Published: Mi 12 August 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/linux.html">Linux</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> <a href="https://blog.bakera.de/tag/debian.html">debian</a> <a href="https://blog.bakera.de/tag/docker.html">docker</a> <a href="https://blog.bakera.de/tag/ubuntu.html">ubuntu</a> </p>
+</footer><!-- /.post-info -->                <p>Mit docker lassen sich schnell und einfach virtuelle Maschine betreiben,
+die Serverdienste wie ein Wiki bereitstellen. An einer
+Beispielinstallation eines Mediawikis zeige ich, wie das funktionieren
+kann.</p>
+<p>Hier sind die im Video eingesetzten Befehle:</p>
+<p>docker run --name=mw -i -t -p 8080:80 32bit/debian:jessie bash</p>
+<div class="line-block">
+<div class="line">apt-get update</div>
+<div class="line">apt-get …</div></div>
+                <a class="readmore" href="https://blog.bakera.de/mediawiki-unter-docker.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
                     <h1><a href="https://blog.bakera.de/buchtipp-little-brother-von-cory-doctorow.html" rel="bookmark"
                            title="Permalink to Buchtipp: "Little Brother" von Cory Doctorow">Buchtipp: &quot;Little Brother&quot; von Cory Doctorow</a></h1>
                 </header>
@@ -215,114 +305,31 @@ kommen auch Erwachsene auf ihre Kosten, wenn technische Details von
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="https://blog.bakera.de/dateianhang-fuer-pdf.html" rel="bookmark"
-                           title="Permalink to Dateianhang für PDF">Dateianhang für PDF</a></h1>
+                    <h1><a href="https://blog.bakera.de/my-home-is-my-server.html" rel="bookmark"
+                           title="Permalink to My Home Is My Server">My Home Is My Server</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2014-10-01T16:47:00+02:00">
-                Published: Mi 01 Oktober 2014
+        <abbr class="published" title="2014-10-16T09:30:00+02:00">
+                Published: Do 16 Oktober 2014
         </abbr>
 
         <address class="vcard author">
                 By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
         </address>
 <p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/linux.html">Linux</a> <a href="https://blog.bakera.de/tag/tipp.html">Tipp</a> </p>
-</footer><!-- /.post-info -->                <p>Ein wenig bekanntes Feature ist, dass man PDF-Dokumenten Dateien
-anhängen kann - wie auch bei E-Mails. So kann man immer die
-Originaldokumente anhängen, aus denen das PDF entstanden ist. Hierfür
-gibt es das <a class="reference external" href="https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/">PDF
-Toolkit</a> - kurz
-pdftk. Unter Linux klappt es mit der folgenden Kommandozeile.</p>
-<pre class="literal-block">
-~&gt; pdftk datei.pdf attach_files anhang.odt …</pre>
-                <a class="readmore" href="https://blog.bakera.de/dateianhang-fuer-pdf.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/backup-ueber-ssh-und-eine-pipe.html" rel="bookmark"
-                           title="Permalink to Backup über SSH und eine Pipe">Backup über SSH und eine Pipe</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-09-28T16:36:00+02:00">
-                Published: So 28 September 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/linux.html">Linux</a> <a href="https://blog.bakera.de/tag/tipp.html">Tipp</a> </p>
-</footer><!-- /.post-info -->                <p>Es ist schön, wenn es unter Linux mal ganz einfach geht, ein Backup via
-Remotesteuerung zu erstellen. So habe ich ein kleines Script erstellt,
-mit dem ich die Owncloud auf meinem RaspberryPi sichere. Via SSH wird
-ein Tarball erzeugt, der auf meinen Rechner übertragen und dort durch
-gzip-geleitet wird. Dadurch …</p>
-                <a class="readmore" href="https://blog.bakera.de/backup-ueber-ssh-und-eine-pipe.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/kleines-linux-tinycore.html" rel="bookmark"
-                           title="Permalink to Kleines Linux: TinyCore">Kleines Linux: TinyCore</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-09-03T18:06:00+02:00">
-                Published: Mi 03 September 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/linux.html">Linux</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2014/09/Tcl_logo.png"><img alt="Tcl_logo" class="alignnone size-full wp-image-1361" src="images/2014/09/Tcl_logo.png" style="width: 150px; height: 58px;" /></a></p>
-<p><a class="reference external" href="http://tinycorelinux.net/">TinyCore Linux</a> ist ein kleines Linux,
-das mit 9MB, 15MB oder 72MB auskommt - je nach Ausbaustufe. Es startet
-relativ flott, entpackt sich in den RAM und kann wichtige Programme nach
-Bedarf nachladen. Als Einsatzgebiete bieten sich schwache oder ältere
-Hardware, Kiosk-Systeme oder Surfstationen an.</p>
-
-                <a class="readmore" href="https://blog.bakera.de/kleines-linux-tinycore.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/linux-einsteigerkurs-erfolgreich-abgeschlossen.html" rel="bookmark"
-                           title="Permalink to Linux Einsteigerkurs erfolgreich abgeschlossen">Linux Einsteigerkurs erfolgreich abgeschlossen</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-08-15T21:09:00+02:00">
-                Published: Fr 15 August 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/bildung.html">Bildung</a> <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/linux.html">Linux</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2014/08/LinuxZertifikat.png"><img alt="LinuxZertifikat" class="alignnone size-large wp-image-1335" src="images/2014/08/LinuxZertifikat-1024x774.png" style="width: 625px; height: 472px;" /></a></p>
-<p>Ich habe den kostenlosen
-<a class="reference external" href="https://www.edx.org/course/linuxfoundationx/linuxfoundationx-lfs101x-introduction-1621">Linuxkurs</a>
-von edX&nbsp;erfolgreich abgeschlossen - ich hatte <a class="reference external" href="https://blog.bakera.de/mit-und-harvard-universitaet-bieten-kostenlosen-linux-kurs-an.html">im März darüber
-berichtet</a>.
-Die Fragen sind für einen Linuxkenner nicht sonderlich schwierig und ich
-hätte mir auch etwas mehr Interaktivität bei den praktischen Teilen
-gewünscht. Dennoch wird ein schöner runder Bogen über alle Bereiche der
-Linuxlandschaft gezogen. Wer …</p>
-                <a class="readmore" href="https://blog.bakera.de/linux-einsteigerkurs-erfolgreich-abgeschlossen.html">read more</a>
+<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/linux.html">Linux</a> <a href="https://blog.bakera.de/tag/cubietruck.html">Cubietruck</a> </p>
+</footer><!-- /.post-info -->                <p><img alt="server20" class="alignright size-full wp-image-1455" src="images/2014/10/server20.png" style="width: 128px; height: 128px;" /></p>
+<p>Die (<a class="reference external" href="https://blog.bakera.de/digitale-emanzipation.html">meine</a>)
+digitale Emanzipation schreitet weiter voran. Nachdem ich mich in den
+letzten Monaten und Jahren zunehmend von den Diensten großer Unternehmen
+wie Google unabhängig gemacht habe, betrete ich nun einen weiteren
+Bereich der Unabhängigkeit: ein eigener Server.</p>
+<div class="section" id="die-hardware">
+<h2>Die Hardware</h2>
+<p>Der erste Server, mit dem ich es probiert habe, war …</p></div>
+                <a class="readmore" href="https://blog.bakera.de/my-home-is-my-server.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
                 </ol><!-- /#posts-list -->

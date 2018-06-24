@@ -40,10 +40,73 @@
         </address>
 <p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
 <p>tags: <a href="https://blog.bakera.de/tag/web.html">Web</a> </p>
-</footer><!-- /.post-info -->      <p>Webseiten gibt es ohne Ende. Das Internet ist voll davon. Daher auch der Name.
-Doch, wie kann man einfach und schnell eine eigene Webseite aufsetzen und
-betreiben? Verschiedene Hoster bieten Pakete an, doch eigentlich benötigt
-man gar nicht so viel.</p>
+</footer><!-- /.post-info -->      <p>Webseiten gibt es derer viele. Das Internet ist voll davon. Daher auch
+der Name. Doch, wie kann man einfach und schnell eine eigene Webseite
+aufsetzen und betreiben? Verschiedene Hoster bieten Pakete an, doch in
+manchen Situationen benötigt man sie gar nicht.</p>
+<p>Bei gitlab und github gibt es unter dem Stichwort &quot;gitub pages&quot; bzw.
+&quot;gitlab pages&quot; eine Möglichkeit, schnell und einfach  eine statische
+Webseite zu hosten. Für Webseiten mit rein informatorischem
+Anspruch ist das vollkommen ausreichend.</p>
+<div class="section" id="einrichten">
+<h2>Einrichten</h2>
+<p>Gitlab pages lassen sich in den Projekteinstellungen konfigurieren. Hierfür
+wird ein Script benötigt, das automatisch bei jedem Push auf den Server
+ausgeführt wird und die Webseite erzeugt. Dadurch ist das System recht flexibel
+und es gibt eine Reihe von statischen Webseiten-Generatoren, die unterstützt
+werden. Das folgende Skript zeigt ein Beispiel für den Generator <tt class="docutils literal">pelican</tt>.</p>
+<pre class="code yaml literal-block">
+<span class="l-Scalar-Plain">image</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">python:3-alpine</span>
+
+<span class="l-Scalar-Plain">pages</span><span class="p-Indicator">:</span>
+  <span class="l-Scalar-Plain">script</span><span class="p-Indicator">:</span>
+  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">pip install pelican markdown typogrify</span>
+  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">pelican -o public -s publishconf.py</span>
+
+  <span class="l-Scalar-Plain">artifacts</span><span class="p-Indicator">:</span>
+    <span class="l-Scalar-Plain">paths</span><span class="p-Indicator">:</span>
+    <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">public/</span>
+</pre>
+<p>Bei github muss die generierte Seite im Repo liegen - entweder in einem
+speziellen Verzeichnis oder einem gesonderten Branch. In den Repo-Einstellungen
+kann zwischen verschiedenen Varianten gewählt werden.</p>
+<p>Sowohl bei github als auch bei gitlab muss man sich nach den Einstellungen
+einige Minuten gedulden bis das Ergebnis online auftaucht.</p>
+</div>
+<div class="section" id="eigene-domain">
+<h2>Eigene Domain</h2>
+<p>Die Webseiten stehen bei gitlab und github unter einer eigenen Domain zur
+Verfügung. Eine eigene Domain kann bei beiden Anbietern jedoch einfach
+und kostenlos hinzugefügt
+werden. Hierfür wird im eigenen DNS ein CNAME Eintrag hinzugefügt, der auf
+<tt class="docutils literal">benutzername.github.io</tt> bzw. <tt class="docutils literal">benutzername.gitlab.io</tt> zeigt.
+Für Gruppen bzw. Projekte müssen diese URLs entsprechend angepasst werden.</p>
+</div>
+<div class="section" id="https">
+<h2>HTTPS</h2>
+<p>Als erheblicher Nachteil stellte sich für mich nach ersten Versuchen die
+Tatsache heraus, dass die Unterstützung für TLS/HTTPS bei gitlab nicht
+sonderlich gut ausgebaut ist.
+Ich muss das Zertifikat selbst erstellen und auf der
+Projektseite in den Einstellungen in ein Textfeld kopieren. Da die
+Zertifikate von Lets  Encrypt nur wenige Monate halten, muss dieses
+Prozeder regelmäßig wiederholt werden. Bei kostenpflichtigen Zertifikaten,
+die ein Jahr gültig sind, mag diese noch zumutbar sein. Bei kürzeren
+Laufzeiten ist es jedoch ein zusätzlicher Aufwand, der nicht sein muss.
+Es gibt Bestrebungen dies zu ändern und ich hoffe, dass auch gitlab bald
+automatische Zertifikate von Lets' Encrypt anbietet.</p>
+<p>Github hat hier eine bessere Unterstützung. TLS-Zertifikate werden regelmäßig
+automatisch erneuert und man muss sich nach der Einrichtung nicht mehr
+darum kümmern.</p>
+</div>
+<div class="section" id="fazit">
+<h2>Fazit</h2>
+<p>Statische Webseiten, die nur Informationen anzeigen und keine Interaktion
+mit dem Besucher der Seite erfordern lassen sich TSL-gesichert derzeit
+nur auf github praktikabel umsetzen. Sobald gitlab automatische Zertifikate
+anbietet liegt der Anbieter vorn, da der Mechanismus, die Webseite über
+CI-Skripte zu generieren einen ganz eigenen Reiz besitzt.</p>
+</div>
 
     </div><!-- /.entry-content -->
 
