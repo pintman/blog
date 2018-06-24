@@ -9,6 +9,7 @@ SITEURL = ''
 PATH = 'content'
 STATIC_PATHS = ['images', 'media']
 DEFAULT_CATEGORY = 'Sonstiges'
+DISPLAY_CATEGORIES_ON_MENU = False
 
 TIMEZONE = 'Europe/Berlin'
 
