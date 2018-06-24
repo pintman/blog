@@ -6,7 +6,9 @@ Welchen Wert hat ∛(-8) ?
 :slug: welchen-wert-hat-dritte-wurzel-8
 :status: published
 
-|DritteWurzelMinusAcht|\ Mit der Quadratwurzel (geschrieben √ )kennen
+|DritteWurzelMinusAcht|
+
+Mit der Quadratwurzel (geschrieben √ )kennen
 wir uns eigentlich ganz gut aus. So lautet die Wurzel aus 4 eben 2. Denn
 2 zum Quadrat ergibt wieder die 4.
 
@@ -37,7 +39,9 @@ Tatsächlich gibt es auch Taschenrechner, die genau das herausbekommen.
 So etwa unser Schulrechner von Casio und das Mathematikprogramm
 GeoGebra.
 
-|WurzelNegativ-Casiofx-991ES-1| |WurzelNegativ-Geogebra|
+|WurzelNegativ-Casiofx-991ES-1| 
+
+|WurzelNegativ-Geogebra|
 
 Geogebra berechnet mit cbrt die dritte Wurzel (cube root). Es gibt aber
 auch noch eine andere Notation für Wurzeln, die wir hier sehen können:
@@ -144,8 +148,7 @@ andere Überlegungen in Betracht.
    :target: images/2014/06/DritteWurzelMinusAcht.jpg
 .. |WurzelNegativ-Casiofx-991ES-1| image:: images/2014/06/WurzelNegativ-Casiofx-991ES-1.jpg
    :class: alignnone size-full wp-image-1094
-   :width: 1348px
-   :height: 965px
+   :width: 100%
    :target: images/2014/06/WurzelNegativ-Casiofx-991ES-1.jpg
 .. |WurzelNegativ-Geogebra| image:: images/2014/06/WurzelNegativ-Geogebra.png
    :class: alignnone size-full wp-image-1095
