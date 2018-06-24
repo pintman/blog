@@ -67,18 +67,21 @@ werden. Das folgende Skript zeigt ein Beispiel für den Generator <tt class="doc
     <span class="l-Scalar-Plain">paths</span><span class="p-Indicator">:</span>
     <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">public/</span>
 </pre>
+<p>Weitere Beispiele für andere Generatoren werden in einem
+<a class="reference external" href="https://gitlab.com/pages">eigenen Repository</a> gesammelt.</p>
 <p>Bei github muss die generierte Seite im Repo liegen - entweder in einem
 speziellen Verzeichnis oder einem gesonderten Branch. In den Repo-Einstellungen
 kann zwischen verschiedenen Varianten gewählt werden.</p>
 <p>Sowohl bei github als auch bei gitlab muss man sich nach den Einstellungen
-einige Minuten gedulden bis das Ergebnis online auftaucht.</p>
+einige Minuten gedulden bis das Ergebnis online erscheint.</p>
 </div>
 <div class="section" id="eigene-domain">
 <h2>Eigene Domain</h2>
-<p>Die Webseiten stehen bei gitlab und github unter einer eigenen Domain zur
-Verfügung. Eine eigene Domain kann bei beiden Anbietern jedoch einfach
-und kostenlos hinzugefügt
-werden. Hierfür wird im eigenen DNS ein CNAME Eintrag hinzugefügt, der auf
+<p>Die Webseiten stehen bei gitlab und github unter einer Domain von github
+bzw. gitlab zur Verfügung. Eine eigene Domain kann bei beiden Anbietern
+jedoch einfach und kostenlos hinzugefügt
+werden. Hierfür wird im eigenen DNS-Eintrag einer Subdomain ein CNAME Eintrag
+hinzugefügt, der auf
 <tt class="docutils literal">benutzername.github.io</tt> bzw. <tt class="docutils literal">benutzername.gitlab.io</tt> zeigt.
 Für Gruppen bzw. Projekte müssen diese URLs entsprechend angepasst werden.</p>
 </div>
@@ -89,15 +92,24 @@ Tatsache heraus, dass die Unterstützung für TLS/HTTPS bei gitlab nicht
 sonderlich gut ausgebaut ist.
 Ich muss das Zertifikat selbst erstellen und auf der
 Projektseite in den Einstellungen in ein Textfeld kopieren. Da die
-Zertifikate von Lets  Encrypt nur wenige Monate halten, muss dieses
-Prozeder regelmäßig wiederholt werden. Bei kostenpflichtigen Zertifikaten,
-die ein Jahr gültig sind, mag diese noch zumutbar sein. Bei kürzeren
+Zertifikate von Lets Encrypt nur wenige Monate halten, muss dieses
+Prozedere regelmäßig wiederholt werden. Bei kostenpflichtigen Zertifikaten,
+die ein Jahr gültig sind, mag dies noch zumutbar sein. Bei kürzeren
 Laufzeiten ist es jedoch ein zusätzlicher Aufwand, der nicht sein muss.
 Es gibt Bestrebungen dies zu ändern und ich hoffe, dass auch gitlab bald
-automatische Zertifikate von Lets' Encrypt anbietet.</p>
+automatische Zertifikate von Lets Encrypt anbietet.</p>
 <p>Github hat hier eine bessere Unterstützung. TLS-Zertifikate werden regelmäßig
 automatisch erneuert und man muss sich nach der Einrichtung nicht mehr
 darum kümmern.</p>
+</div>
+<div class="section" id="datenschutz">
+<h2>Datenschutz</h2>
+<p>Ein Wermutstropfen bleibt bei gitlab wie auch github: Beide Anbieter haben
+ihren Sitz nicht in Deutschland und sind damit auch nicht dem deutschen
+Datenschutz unterstellt. Ob sich mit der DSGVO diesbzgl. etwas tut, kann ich
+zum heutigen Tage noch nicht abschätzen. Wünschenswert wäre jedoch auch ein
+deutscher Anbieter, der als datenschutzfreundliche Alternative auftauchen
+würde.</p>
 </div>
 <div class="section" id="fazit">
 <h2>Fazit</h2>
