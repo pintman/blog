@@ -83,7 +83,8 @@ einmal vorgestellt <http://youtu.be/Nwc2g4eGvTs?t=6m27s>`__.
    :class: alignleft wp-image-1511 size-full
    :width: 757px
    :height: 500px
-.. |Zusammenhang_Bitmap_Bild| image:: images/Zusammenhang_Bitmap_Bild.png
+
+.. |Zusammenhang_Bitmap_Bild| image:: images/2014/12/Zusammenhang_Bitmap_Bild.png
    :class: alignnone size-full wp-image-1526
    :width: 549px
    :height: 385px
