@@ -4,6 +4,7 @@ Statische Webseiten
 :author: marco.bakera
 :tags: Web
 :status: draft
+:slug: statische-webseiten
 
 Webseiten gibt es derer viele. Das Internet ist voll davon. Daher auch
 der Name. Doch, wie kann man einfach und schnell eine eigene Webseite 
