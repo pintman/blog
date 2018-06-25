@@ -199,7 +199,7 @@ select strftime('%H',zeit)+strftime('%M',zeit)/60.0 zeit2, count(*) anzahl
 from msgs
 group by datum, zeit2
 </pre>
-<p><a class="reference external" href="images/2014/03/Anzahl-SMS-nach-Uhrzeit.png"><img alt="Anzahl SMS nach Uhrzeit" class="alignnone size-full wp-image-869" src="https://blog.bakera.de/images/2014/03/Anzahl-SMS-nach-Uhrzeit.png" style="width: 640px; height: 480px;" /></a></p>
+<p><a class="reference external" href="https://blog.bakera.de/images/2014/03/Anzahl-SMS-nach-Uhrzeit.png"><img alt="Anzahl SMS nach Uhrzeit" class="alignnone size-full wp-image-869" src="https://blog.bakera.de/images/2014/03/Anzahl-SMS-nach-Uhrzeit.png" style="width: 640px; height: 480px;" /></a></p>
 <p>Ab kurz vor 9 gibt es einen starken Anstieg als das erste Flugzeug in
 den ersten Turm fliegt. Die Anzahl der verschickten SMS vervierfacht
 sich plötzlich. Ich versuche, die Anfrage abzuwandeln und bin nun nur
@@ -213,7 +213,7 @@ from msgs
 where text like '%plane%'
 group by datum, zeit2
 </pre>
-<p><a class="reference external" href="images/2014/03/SMS-mit-Text-plane.png"><img alt="SMS mit Text plane" class="alignnone size-full wp-image-871" src="https://blog.bakera.de/images/2014/03/SMS-mit-Text-plane.png" style="width: 640px; height: 480px;" /></a></p>
+<p><a class="reference external" href="https://blog.bakera.de/images/2014/03/SMS-mit-Text-plane.png"><img alt="SMS mit Text plane" class="alignnone size-full wp-image-871" src="https://blog.bakera.de/images/2014/03/SMS-mit-Text-plane.png" style="width: 640px; height: 480px;" /></a></p>
 <p>Das Bild zeigt auch hier einen erkennbaren Anstieg der Anzahl der SMS.
 Ich probiere weitere Einschränkungen aus - emotionale Schlüsselwörter
 wie 'love', 'war' und 'terror' - und werde den Eindruck nicht los, hier
