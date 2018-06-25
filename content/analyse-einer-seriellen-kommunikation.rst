@@ -98,17 +98,17 @@ Mich hat erstaunt, dass es wenig Rauschen um die eigentlichen Nutzdaten
 der beiden Bitmuster gibt. Im Wesentlichen werden die Bitmuster genau in
 den Signalen abgebildet.
 
-.. |SerielleKommunikation_Aufbau| image:: images/SerielleKommunikation_Aufbau-1021x1024.jpg
+.. |SerielleKommunikation_Aufbau| image:: {filename}images/2014/12/SerielleKommunikation_Aufbau-1021x1024.jpg
    :class: alignnone size-large wp-image-1563
    :width: 625px
    :height: 626px
 
-.. |LogicSniffer| image:: images/LogicSniffer-1024x120.png
+.. |LogicSniffer| image:: {filename}images/2014/12/LogicSniffer-1024x120.png
    :class: alignnone size-large wp-image-1567
    :width: 625px
    :height: 73px
 
-.. |OLS-Analyse| image:: images/OLS-Analyse.png
+.. |OLS-Analyse| image:: {filename}images/2014/12/OLS-Analyse.png
    :class: alignnone size-full wp-image-1561
    :width: 935px
    :height: 468px

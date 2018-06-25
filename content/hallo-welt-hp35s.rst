@@ -33,7 +33,7 @@ nutzen.
 
  
 
-.. |(cc) Stefan Vorkoetter| image:: images/2014/06/hp35s-oben.jpeg
+.. |(cc) Stefan Vorkoetter| image:: {filename}images/2014/06/hp35s-oben.jpeg
    :class: size-full wp-image-1143
    :width: 406px
    :height: 138px

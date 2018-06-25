@@ -24,7 +24,7 @@ herunterscrollen und wird viel über sich und sein Profil erfahren.
 Natürlich sollte man sich bewusst sein, dass Wolfram\|Alpha so viele
 Informationen aus dem Profil saugt, wie es heraussaugen kann.
 
-.. |WolframAlphaFacebookReport| image:: images/WolframAlphaFacebookReport.png
+.. |WolframAlphaFacebookReport| image:: {filename}images/WolframAlphaFacebookReport.png
    :class: alignnone size-medium wp-image-374
    :width: 300px
    :height: 269px

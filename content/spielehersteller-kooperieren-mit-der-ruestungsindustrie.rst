@@ -12,6 +12,6 @@ Spieleherstellern und der Rüstungsindustrie. Damit wird mal wieder
 deutlich, dass Programmierer ihren moralischen Wertekompass immer wieder
 neu kalibrieren müssen.
 
-.. image:: images/2018/06/b-3-jki8pmk.jpg
+.. image:: {filename}images/2018/06/b-3-jki8pmk.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/b-3-jki8pmk?rel=0

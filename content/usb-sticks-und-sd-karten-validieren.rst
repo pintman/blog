@@ -48,7 +48,7 @@ Anschließend werden die geschriebenen Daten wieder gelesen.
 
  
 
-.. |image0| image:: images/2018/01/webmichl-sd-card-800px.png
+.. |image0| image:: {filename}images/2018/01/webmichl-sd-card-800px.png
    :class: alignnone size-full wp-image-2191
    :width: 800px
    :height: 510px

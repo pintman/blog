@@ -109,7 +109,7 @@ wobei a,b,c und d für die Koeffizienten in f(x) = ax² + bx + c stehen.
 
  
 
-.. |(cc) Stefan Vorkoetter| image:: images/2014/06/hp35s-Tasten.jpeg
+.. |(cc) Stefan Vorkoetter| image:: {filename}images/2014/06/hp35s-Tasten.jpeg
    :class: size-full wp-image-1171
    :width: 408px
    :height: 150px

@@ -19,6 +19,6 @@ Teil erstellt haben, auf zwei leere Rechner ausgespielt. Da Clonezilla
 multicast-fähig ist, können wir das Image gleichzeitig an alle Rechner
 senden.
 
-.. image:: images/2018/06/y3l8FwufnW0.jpg
+.. image:: {filename}images/2018/06/y3l8FwufnW0.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/y3l8FwufnW0?rel=0

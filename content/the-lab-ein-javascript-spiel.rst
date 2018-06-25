@@ -14,7 +14,7 @@ analysiert. Durch JavaScript-Befehle muss die Webseite so angepasst
 werden, dass die Sporen ihren Weg finden. In dem folgenden Video zeige
 ich einen möglichen Spielablauf.
 
-.. image:: images/2018/06/CNTzooqCWpw.jpg
+.. image:: {filename}images/2018/06/CNTzooqCWpw.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/CNTzooqCWpw?rel=0
 

@@ -180,7 +180,7 @@ produces something like emacs.*
 *if you don't like having choices made for you, you should start making
 your own.*
 
-.. |Kommandozeile| image:: images/2014/05/Kommandozeile.png
+.. |Kommandozeile| image:: {filename}images/2014/05/Kommandozeile.png
    :class: alignnone size-full wp-image-1033
    :width: 807px
    :height: 54px

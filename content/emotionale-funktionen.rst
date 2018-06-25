@@ -25,7 +25,7 @@ Abbildung für einige exemplarische genretypische Tropen.
 In dem folgenden Video veranschaulicht Vonnegut seine Thesen an drei
 kleinen Beispielen auf eine sehr unterhaltsame Weise.
 
-.. image:: images/2018/06/oP3c1h8v2ZQ.jpg
+.. image:: {filename}images/2018/06/oP3c1h8v2ZQ.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/oP3c1h8v2ZQ?rel=0
 
@@ -35,7 +35,7 @@ der Y-Achse abbilden? Wie können wir Begriffe wie Steigung, Integral,
 Flächeninhalt oder Funktionswert in diesem Zusammenhang neu
 interpretieren?
 
-.. |von Maya Eilam und Kurt Vonnegut| image:: images/2014/06/kurt-vonnegut-the-shapes-of-stories.png
+.. |von Maya Eilam und Kurt Vonnegut| image:: {filename}images/2014/06/kurt-vonnegut-the-shapes-of-stories.png
    :class: size-full wp-image-1222
    :width: 100%
    :target: images/2014/06/kurt-vonnegut-the-shapes-of-stories.png

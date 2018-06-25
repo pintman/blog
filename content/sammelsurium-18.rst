@@ -196,7 +196,7 @@ dafür.
 -  Haben meinen Schülern heute einen Newsserver gezeigt. Erstaunlich
    einfach in der Bedienung mit #Thunderbird
 
-.. |cc: Freepik| image:: images/2014/12/wwwSitzen2.png
+.. |cc: Freepik| image:: {filename}images/2014/12/wwwSitzen2.png
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px

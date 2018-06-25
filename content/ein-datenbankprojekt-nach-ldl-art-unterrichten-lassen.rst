@@ -7,7 +7,7 @@ Ein Datenbankprojekt nach LdL-Art unterrichten (lassen)
 :status: published
 
 
-.. image:: images/2018/06/e41xyYtCGs0.jpg
+.. image:: {filename}images/2018/06/e41xyYtCGs0.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/e41xyYtCGs0?rel=0
 
@@ -27,6 +27,6 @@ sehr ihr an dieser Stelle. Viel Freude beim Betrachten.
 **Update:** Peter Ringeisen hatte mein Video begutachtet.
 
 
-.. image:: images/2018/06/dGI6jIxRs7s.jpg
+.. image:: {filename}images/2018/06/dGI6jIxRs7s.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/dGI6jIxRs7s?rel=0

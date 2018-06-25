@@ -111,7 +111,7 @@ lokalen Benutzer auf dem Server über einen RDP-Client auf den Server
 zugreifen. Windows hat hierfür *Remote Desktopverbindung*, Linux bietet
 rdesktop oder das neuere xfreerdp an.
 
-.. |image0| image:: images/2017/11/preferences-desktop-remote-desktop-300px.png
+.. |image0| image:: {filename}images/2017/11/preferences-desktop-remote-desktop-300px.png
    :class: alignnone size-full wp-image-2107
    :width: 300px
    :height: 300px

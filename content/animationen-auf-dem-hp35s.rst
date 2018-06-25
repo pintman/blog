@@ -15,7 +15,7 @@ Zeichenketten
 anzuzeigen <{filename}hallo-welt-hp35s.rst>`__. Den
 Quelltext und auch das laufende Programm könnt ihr im Video sehen.
 
-.. image:: images/2018/06/1gbubP8uCdI.jpg
+.. image:: {filename}images/2018/06/1gbubP8uCdI.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/1gbubP8uCdI?rel=0
 

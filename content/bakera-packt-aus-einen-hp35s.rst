@@ -15,7 +15,7 @@ dokumentieren, habe ich noch nie verstanden. Deshalb habe ich selbst ein
 Video gedreht, um zu prüfen, ob wenigstens das Erstellen des Videos Spaß
 macht.
 
-.. image:: images/2018/06/i_NRUgqOB0w.jpg
+.. image:: {filename}images/2018/06/i_NRUgqOB0w.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/i_NRUgqOB0w?rel=0
 
@@ -29,7 +29,7 @@ zwischen Mathematik und Programmierung, Nerdtum auf beiden Seiten und
 ein Prachtstück handwerklicher Ingenieurskunst. Ich übertreibe natürlich
 schamlos, aber das darf man in solchen Videos natürlich auch.
 
-.. |cc: Stefan Vorkoetter| image:: images/hp35s-165x300b.jpg
+.. |cc: Stefan Vorkoetter| image:: {filename}images/2014/06/hp35s-165x300.jpg
    :class: size-medium wp-image-1139
    :width: 165px
    :height: 300px

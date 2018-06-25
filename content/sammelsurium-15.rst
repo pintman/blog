@@ -113,7 +113,7 @@ Hier sind wieder ein paar Links für euch.
    `Quelle <http://twitter.com/pintman/status/605698691169681408/photo/1>`__
 -  Böse Regenbogenponys. `Quelle <https://youtu.be/oAON4WjBEzE>`__
 
-.. |cc: Freepik| image:: images/2014/12/wwwSitzen2.png
+.. |cc: Freepik| image:: {filename}images/2014/12/wwwSitzen2.png
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px

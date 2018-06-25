@@ -12,8 +12,7 @@ Heute haben wir den Schnittpunkt zweier Geraden bestimmt. Unser Ziel:
 Wir wollten herausbekommen, ab welcher Wegstrecke ein Auto weniger
 Energie verbraucht als ein Flugzeug.
 
-.. |Schnittpunkt bestimmen - Tafelbild| image:: images/2-Schnittpunkt-bestimmen-Tafelbild-300x115.jpg
+.. |Schnittpunkt bestimmen - Tafelbild| image:: {filename}images/2-Schnittpunkt-bestimmen-Tafelbild.jpg
    :class: alignnone size-medium wp-image-539
-   :width: 300px
-   :height: 115px
-   :target: images/2-Schnittpunkt-bestimmen-Tafelbild.jpg
+   :width: 100%
+   :target: {filename}images/2-Schnittpunkt-bestimmen-Tafelbild.jpg

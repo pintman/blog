@@ -44,7 +44,7 @@ gut gefallen, das unterschiedliche nerdige Themen kurz vorgestellt.
 Vieles war mir schon bekannt, einiges hatte ich vergessen, anderes war
 mir neu.
 
-.. |image0| image:: images/2018/01/Fnord_logo.jpg
+.. |image0| image:: {filename}images/2018/01/Fnord_logo.jpg
    :class: size-full wp-image-2213
    :width: 530px
    :height: 246px

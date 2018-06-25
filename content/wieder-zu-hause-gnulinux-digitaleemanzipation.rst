@@ -62,7 +62,7 @@ Selbstbestimmung. Ich fühle mich nicht mehr so gegängelt, kann viele
 Anpassungen selbst vornehmen, tief in das System blicken und lerne immer
 wieder etwas Neues.
 
-.. |Pinguin| image:: images/2014/01/Pinguin.png
+.. |Pinguin| image:: {filename}images/2014/01/Pinguin.png
    :class: alignnone size-full wp-image-794
    :width: 705px
    :height: 529px

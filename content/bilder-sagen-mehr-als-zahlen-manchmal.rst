@@ -23,6 +23,6 @@ bewertet werden. Oder im übertragenen Sinne: unsere Daten sagen viel
 stets interpretieren und dürfen keine Maschinen wichtige Entscheidungen
 aufgrund von Daten für uns treffen lassen.
 
-.. |cc: Schutz| image:: images/Anscombes_Quartet.png
+.. |cc: Schutz| image:: {filename}images/Anscombes_Quartet.png
    :class: size-full wp-image-1252
    :width: 100%

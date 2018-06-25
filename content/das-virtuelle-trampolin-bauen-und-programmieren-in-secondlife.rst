@@ -115,7 +115,7 @@ kann dennoch den detaillierten Ausführungen meines Lehrers folgen. Er
 erklärt alles langsam und ruhig für jeden, geht auf meine Nachfragen
 ein.
 
-.. image:: images/2018/06/zk-w1TvFOYc.jpg
+.. image:: {filename}images/2018/06/zk-w1TvFOYc.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/zk-w1TvFOYc?rel=0
 
@@ -131,62 +131,62 @@ gelernt. Danke für die beiden schönen Stunden.
 
 Vielleicht treffe ich auch einen von euch mal dort?!
 
-.. |2013-05-11-Trampolin_bauen-Snapshot_001| image:: images/2013/11/Snapshot_001-1024x544.png
+.. |2013-05-11-Trampolin_bauen-Snapshot_001| image:: {filename}images/2013/11/Snapshot_001-1024x544.png
    :class: alignnone size-large wp-image-582
    :width: 625px
    :height: 332px
    :target: images/2013/11/Snapshot_001.png
-.. |2013-05-11-Trampolin_bauen-Snapshot_002| image:: images/2013/11/Snapshot_002-1024x544.png
+.. |2013-05-11-Trampolin_bauen-Snapshot_002| image:: {filename}images/2013/11/Snapshot_002-1024x544.png
    :class: alignnone size-large wp-image-583
    :width: 625px
    :height: 332px
    :target: images/2013/11/Snapshot_002.png
-.. |2013-05-11-Trampolin_bauen-Snapshot_003| image:: images/2013/11/Snapshot_003-1024x544.png
+.. |2013-05-11-Trampolin_bauen-Snapshot_003| image:: {filename}images/2013/11/Snapshot_003-1024x544.png
    :class: alignnone size-large wp-image-584
    :width: 625px
    :height: 332px
    :target: images/2013/11/Snapshot_003.png
-.. |2013-05-11-Trampolin_bauen-Snapshot_004| image:: images/2013/11/Snapshot_004-1024x544.png
+.. |2013-05-11-Trampolin_bauen-Snapshot_004| image:: {filename}images/2013/11/Snapshot_004-1024x544.png
    :class: alignnone size-large wp-image-585
    :width: 625px
    :height: 332px
    :target: images/2013/11/Snapshot_004.png
-.. |2013-05-11-Trampolin_bauen-Snapshot_005| image:: images/2013/11/Snapshot_005-1024x544.png
+.. |2013-05-11-Trampolin_bauen-Snapshot_005| image:: {filename}images/2013/11/Snapshot_005-1024x544.png
    :class: alignnone size-large wp-image-586
    :width: 625px
    :height: 332px
    :target: images/2013/11/Snapshot_005.png
-.. |2013-05-11-Trampolin_bauen-Snapshot_006| image:: images/2013/11/Snapshot_006-1024x544.png
+.. |2013-05-11-Trampolin_bauen-Snapshot_006| image:: {filename}images/2013/11/Snapshot_006-1024x544.png
    :class: alignnone size-large wp-image-587
    :width: 625px
    :height: 332px
    :target: images/2013/11/Snapshot_006.png
-.. |2013-05-11-Trampolin_bauen-Snapshot_007| image:: images/2013/11/Snapshot_007-1024x544.png
+.. |2013-05-11-Trampolin_bauen-Snapshot_007| image:: {filename}images/2013/11/Snapshot_007-1024x544.png
    :class: alignnone size-large wp-image-588
    :width: 625px
    :height: 332px
    :target: images/2013/11/Snapshot_007.png
-.. |2013-05-11-Trampolin_bauen-Snapshot_008| image:: images/2013/11/Snapshot_008-1024x544.png
+.. |2013-05-11-Trampolin_bauen-Snapshot_008| image:: {filename}images/2013/11/Snapshot_008-1024x544.png
    :class: alignnone size-large wp-image-577
    :width: 625px
    :height: 332px
    :target: images/2013/11/Snapshot_008.png
-.. |2013-05-11-Trampolin_bauen-Snapshot_009| image:: images/2013/11/Snapshot_009-1024x544.png
+.. |2013-05-11-Trampolin_bauen-Snapshot_009| image:: {filename}images/2013/11/Snapshot_009-1024x544.png
    :class: alignnone size-large wp-image-578
    :width: 625px
    :height: 332px
    :target: images/2013/11/Snapshot_009.png
-.. |2013-05-11-Trampolin_bauen-Snapshot_011| image:: images/2013/11/Snapshot_011-1024x544.png
+.. |2013-05-11-Trampolin_bauen-Snapshot_011| image:: {filename}images/2013/11/Snapshot_011-1024x544.png
    :class: alignnone size-large wp-image-579
    :width: 625px
    :height: 332px
    :target: images/2013/11/Snapshot_011.png
-.. |2013-05-11-Trampolin_bauen-Snapshot_012| image:: images/2013/11/Snapshot_012-1024x544.png
+.. |2013-05-11-Trampolin_bauen-Snapshot_012| image:: {filename}images/2013/11/Snapshot_012-1024x544.png
    :class: alignnone size-large wp-image-580
    :width: 625px
    :height: 332px
    :target: images/2013/11/Snapshot_012.png
-.. |2013-05-11-Trampolin_bauen-Snapshot_013| image:: images/2013/11/Snapshot_013-1024x544.png
+.. |2013-05-11-Trampolin_bauen-Snapshot_013| image:: {filename}images/2013/11/Snapshot_013-1024x544.png
    :class: alignnone size-large wp-image-581
    :width: 625px
    :height: 332px

@@ -92,23 +92,23 @@ die Taschenrechnerwand noch einmal etwas genauer ansehen.
    </dt>
    </dl>
 
-.. |Foto von Johann H. Addicks - addicks@gmx.net (Lizenz Creative Commons BY-NC-ND 3.0)| image:: images/2014/04/1024px-Heinz_Nixdorf_Forum_in_Paderborn_IMGP0058.jpg
+.. |Foto von Johann H. Addicks - addicks@gmx.net (Lizenz Creative Commons BY-NC-ND 3.0)| image:: {filename}images/2014/04/1024px-Heinz_Nixdorf_Forum_in_Paderborn_IMGP0058.jpg
    :class: size-full wp-image-951
    :width: 100%
    :target: images/2014/04/1024px-Heinz_Nixdorf_Forum_in_Paderborn_IMGP0058.jpg
-.. |Brunsviga - Ein Tischrechner mit Walzenbetrieb aus Braunschweig..| image:: images/2014/04/IMAG0464-1.jpg
+.. |Brunsviga - Ein Tischrechner mit Walzenbetrieb aus Braunschweig..| image:: {filename}images/2014/04/IMAG0464-1.jpg
    :class: size-full wp-image-963
    :width: 100%
    :target: images/2014/04/IMAG0464-1.jpg
-.. |Das Mooresche Gesetz - Endlich habe ich es leibhaftig vor mir gesehen.| image:: images/2014/04/IMAG0468.jpg
+.. |Das Mooresche Gesetz - Endlich habe ich es leibhaftig vor mir gesehen.| image:: {filename}images/2014/04/IMAG0468.jpg
    :class: size-full wp-image-955
    :width: 100%
    :target: images/2014/04/IMAG0468.jpg
-.. |Bilderkennung| image:: images/2014/04/IMAG0477-e1398592511492.jpg
+.. |Bilderkennung| image:: {filename}images/2014/04/IMAG0477-e1398592511492.jpg
    :class: alignnone size-full wp-image-972
    :width: 100%
    :target: images/2014/04/IMAG0477-e1398592511492.jpg
-.. |Die Taschnrechnerwand| image:: images/2014/04/IMAG0473-e1398592907108.jpg
+.. |Die Taschnrechnerwand| image:: {filename}images/2014/04/IMAG0473-e1398592907108.jpg
    :class: size-full wp-image-956
    :width: 100%
    :target: images/2014/04/IMAG0473-e1398592907108.jpg

@@ -17,7 +17,7 @@ Geübte japanische Schüler können da locker mit einem Taschenrechner
 mithalten. Irgendwann kann man dieses Hilfsmittel auch ganz weglassen
 und erstaunliche Rechenleitungen im Kopf vollziehen.
 
-.. image:: images/2018/06/Px_hvzYS3_Y.jpg
+.. image:: {filename}images/2018/06/Px_hvzYS3_Y.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/Px_hvzYS3_Y?rel=0
 
@@ -31,7 +31,7 @@ Abakus" <http://www.soroban-rechnen.de/>`__ erklärt die Funktionsweise.
 Leider gibt es nur wenig deutschsprachige Literatur zu dieser spannenden
 Rechenhilfe.
 
-.. |cc: Pearls of Jannah| image:: images/2014/06/soroban.jpg
+.. |cc: Pearls of Jannah| image:: {filename}images/2014/06/soroban.jpg
    :class: size-full wp-image-1235
    :width: 100%
    :target: images/2014/06/soroban.jpg

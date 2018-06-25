@@ -21,7 +21,7 @@ Entscheidungen darüber, wie die 64 kB RAM des C64 genutzt werden können,
 ebenso ein wie das Beta-Testing und die Bestellung und Produktion von
 Disketten.
 
-.. |image0| image:: images/2017/11/Planet2X-e1512072629664-300x248.png
+.. |image0| image:: {filename}images/2017/11/Planet2X-e1512072629664-300x248.png
    :class: alignnone wp-image-2126 size-medium
    :width: 300px
    :height: 248px

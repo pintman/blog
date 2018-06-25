@@ -68,7 +68,7 @@ Mein Blick zurück auf den Dezember 2015. So viel war ja gar nicht los.
 -  Neulich im #Usenet.
    `Quelle <http://twitter.com/pintman/status/672105906289688576/photo/1>`__
 
-.. |cc: Freepik| image:: images/2014/12/wwwSitzen2.png
+.. |cc: Freepik| image:: {filename}images/2014/12/wwwSitzen2.png
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px

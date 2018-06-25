@@ -42,7 +42,7 @@ cc: Freepik
    früher doch besser
    gemacht <https://www.youtube.com/watch?v=0wDtxYeJdzg>`__.
 
-.. |cc: Freepik| image:: images/2014/12/wwwSitzen2.png
+.. |cc: Freepik| image:: {filename}images/2014/12/wwwSitzen2.png
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px

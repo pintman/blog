@@ -12,6 +12,6 @@ ich mit der Eingabeaufforderung auch direkt an der richtigen Stelle bin,
 zeige ich in diesem Video, wie man das Fenster aus dem Datei-Explorer
 heraus startet.
 
-.. image:: images/2018/06/fjNHMyxx66w.jpg
+.. image:: {filename}images/2018/06/fjNHMyxx66w.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/fjNHMyxx66w?rel=0

@@ -13,7 +13,7 @@ Livecodelab.
 
 Viel Spaß!
 
-.. image:: images/2018/06/RSIDLYAmacg.jpg
+.. image:: {filename}images/2018/06/RSIDLYAmacg.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/RSIDLYAmacg?rel=0
 

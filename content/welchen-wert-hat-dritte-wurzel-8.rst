@@ -141,44 +141,44 @@ umgegangen werden soll und schlägt zwei alternative Vorgehensweisen vor:
 Vertraue ferner nicht immer auf den Taschenrechner, sondern ziehe auch
 andere Überlegungen in Betracht.
 
-.. |DritteWurzelMinusAcht| image:: images/2014/06/DritteWurzelMinusAcht.jpg
+.. |DritteWurzelMinusAcht| image:: {filename}images/2014/06/DritteWurzelMinusAcht.jpg
    :class: alignright size-full wp-image-1120
    :width: 265px
    :height: 175px
    :target: images/2014/06/DritteWurzelMinusAcht.jpg
-.. |WurzelNegativ-Casiofx-991ES-1| image:: images/2014/06/WurzelNegativ-Casiofx-991ES-1.jpg
+.. |WurzelNegativ-Casiofx-991ES-1| image:: {filename}images/2014/06/WurzelNegativ-Casiofx-991ES-1.jpg
    :class: alignnone size-full wp-image-1094
    :width: 100%
    :target: images/2014/06/WurzelNegativ-Casiofx-991ES-1.jpg
-.. |WurzelNegativ-Geogebra| image:: images/2014/06/WurzelNegativ-Geogebra.png
+.. |WurzelNegativ-Geogebra| image:: {filename}images/2014/06/WurzelNegativ-Geogebra.png
    :class: alignnone size-full wp-image-1095
    :width: 641px
    :height: 308px
    :target: images/2014/06/WurzelNegativ-Geogebra.png
-.. |WurzelNegativ-Casiofx-991ES-2| image:: images/2014/06/WurzelNegativ-Casiofx-991ES-2.jpg
+.. |WurzelNegativ-Casiofx-991ES-2| image:: {filename}images/2014/06/WurzelNegativ-Casiofx-991ES-2.jpg
    :class: alignnone size-full wp-image-1099
    :width: 100%
    :target: images/2014/06/WurzelNegativ-Casiofx-991ES-2.jpg
-.. |WurzelNegativ-TI-89| image:: images/2014/06/WurzelNegativ-TI-89.jpg
+.. |WurzelNegativ-TI-89| image:: {filename}images/2014/06/WurzelNegativ-TI-89.jpg
    :class: alignnone size-full wp-image-1101
    :width: 100%
    :target: images/2014/06/WurzelNegativ-TI-89.jpg
-.. |WurzelNegativ-HP48| image:: images/2014/06/WurzelNegativ-HP48.png
+.. |WurzelNegativ-HP48| image:: {filename}images/2014/06/WurzelNegativ-HP48.png
    :class: alignnone size-full wp-image-1104
    :width: 662px
    :height: 515px
    :target: images/2014/06/WurzelNegativ-HP48.png
-.. |WurzelNegativ-WolframAlpha| image:: images/2014/06/WurzelNegativ-WolframAlpha.png
+.. |WurzelNegativ-WolframAlpha| image:: {filename}images/2014/06/WurzelNegativ-WolframAlpha.png
    :class: alignnone size-full wp-image-1105
    :width: 631px
    :height: 228px
    :target: images/2014/06/WurzelNegativ-WolframAlpha.png
-.. |WurzelNegativ-Emacs| image:: images/2014/06/WurzelNegativ-Emacs.png
+.. |WurzelNegativ-Emacs| image:: {filename}images/2014/06/WurzelNegativ-Emacs.png
    :class: alignnone size-full wp-image-1106
    :width: 754px
    :height: 201px
    :target: images/2014/06/WurzelNegativ-Emacs.png
-.. |WurzelNegativ-Python| image:: images/2014/06/WurzelNegativ-Python.png
+.. |WurzelNegativ-Python| image:: {filename}images/2014/06/WurzelNegativ-Python.png
    :class: alignnone size-full wp-image-1107
    :width: 369px
    :height: 128px

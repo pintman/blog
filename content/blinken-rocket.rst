@@ -34,7 +34,7 @@ Zustands ist z.B. auch kein Game of Life möglich.
 Dunstkreis des Metalab in Wien vertrieben wird - dort allerdings für gut
 investierte 25€.
 
-.. |image0| image:: images/2018/01/Screenshot-2018-1-1-blinkenrocket.png
+.. |image0| image:: {filename}images/2018/01/Screenshot-2018-1-1-blinkenrocket.png
    :class: alignnone size-full wp-image-2153
    :width: 314px
    :height: 371px

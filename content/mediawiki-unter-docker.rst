@@ -22,6 +22,6 @@ docker run --name=mw -i -t -p 8080:80 32bit/debian:jessie bash
 | vi apache.conf
 | service apache2 reload
 
-.. image:: images/2018/06/2kn0Y2nriWw.jpg
+.. image:: {filename}images/2018/06/2kn0Y2nriWw.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/2kn0Y2nriWw?rel=0

@@ -17,6 +17,6 @@ Objekte verhalten.
 `Alle Videos im
 Wiki <http://bakera.de/dokuwiki/doku.php/schule/unity>`__
 
-.. image:: images/2018/06/bkjbTIU4Fcc.jpg
+.. image:: {filename}images/2018/06/bkjbTIU4Fcc.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/bkjbTIU4Fcc?rel=0

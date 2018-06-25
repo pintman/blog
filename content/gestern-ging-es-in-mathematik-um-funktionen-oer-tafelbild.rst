@@ -12,7 +12,7 @@ Was sind eigentlich Funktionen und wie können wir sie darstellen und mit
 ihnen arbeiten? Ich wurde gestern durch einige kreative Ideen
 überrascht.
 
-.. |Funktionen| image:: images/Funktionen.jpg
+.. |Funktionen| image:: {filename}images/Funktionen.jpg
    :class: alignnone size-medium wp-image-546
    :width: 300px
    :height: 118px

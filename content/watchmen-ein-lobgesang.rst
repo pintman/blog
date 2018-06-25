@@ -6,7 +6,7 @@ Watchmen - ein Lobgesang
 :slug: watchmen-ein-lobgesang
 :status: published
 
-.. image:: images/2018/06/mLdqKIj3-A0.jpg
+.. image:: {filename}images/2018/06/mLdqKIj3-A0.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/mLdqKIj3-A0?rel=0
 
@@ -29,7 +29,7 @@ Konsequenz platzierte das TIME-Magazine die Graphic Novel in die `Top
 1923 <http://entertainment.time.com/2005/10/16/all-time-100-novels/?iid=ent-article-mostpop1>`__
 - als einzigen Vertreter der Gattung Comic.
 
-.. image:: images/2018/06/PVjA0y78_EQ.jpg
+.. image:: {filename}images/2018/06/PVjA0y78_EQ.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/PVjA0y78_EQ?rel=0
 

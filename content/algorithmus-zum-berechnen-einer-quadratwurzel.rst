@@ -45,7 +45,7 @@ erwarten. Für den HP 35s sieht das Programm folgendermaßen aus.
      W011 RCL G
      W012 RTN
 
-.. |(cc) Stefan Vorkoetter| image:: images/hp35s-oben.jpeg
+.. |(cc) Stefan Vorkoetter| image:: {filename}images/2014/06/hp35s-oben.jpeg
    :class: size-full wp-image-1143
    :width: 406px
    :height: 138px

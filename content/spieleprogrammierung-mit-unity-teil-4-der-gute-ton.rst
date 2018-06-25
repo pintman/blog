@@ -12,6 +12,6 @@ das Spiel um ein paar Geräusche und hauchen ihm dadurch etwas mehr Leben
 ein. Jedesmal, wenn eine Kugel eingesammelt wird, soll ein Ton
 erklingen.
 
-.. image:: images/2018/06/JXoFv1IzVRI.jpg
+.. image:: {filename}images/2018/06/JXoFv1IzVRI.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/JXoFv1IzVRI?rel=0

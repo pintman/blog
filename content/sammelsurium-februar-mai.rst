@@ -272,7 +272,7 @@ Interessante Einsichten aus vier Monaten.
 -  #Mehr #Hashtag #geht #nicht.
    `[Quelle] <https://twitter.com/TFConsult/status/991406221692424192>`__
 
-.. |image0| image:: images/wwwSitzen2.png
+.. |image0| image:: {filename}images/wwwSitzen2.png
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px

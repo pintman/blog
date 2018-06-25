@@ -44,7 +44,7 @@ Und? Interesse?
 
 **PC-User:** Ich bin dann mal beim Kiosk...
 
-.. |Ctlogo| image:: images/2014/09/Ct_logo.png
+.. |Ctlogo| image:: {filename}images/2014/09/Ct_logo.png
    :class: alignnone size-full wp-image-1371
    :width: 320px
    :height: 116px

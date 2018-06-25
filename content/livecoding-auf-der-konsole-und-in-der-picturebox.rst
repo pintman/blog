@@ -14,7 +14,7 @@ Konsole und innerhalb der PictureBox.
 
 Viel Spaß!
 
-.. image:: images/2018/06/_JFEJRdzGIU.jpg
+.. image:: {filename}images/2018/06/_JFEJRdzGIU.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/_JFEJRdzGIU?rel=0
 

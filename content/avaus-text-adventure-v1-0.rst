@@ -12,7 +12,7 @@ Wer mag nur dieser bärtige Mensch sein, der beim
 `Avaus-Adventure <http://www.avausadventure.com/>`__\ direkt vor mir
 steht und von GNU/Linux erzählt?
 
-.. |Avausadventure| image:: images/Avausadventure.png
+.. |Avausadventure| image:: {filename}images/Avausadventure.png
    :class: alignnone wp-image-1149 size-full
    :width: 960px
    :height: 386px

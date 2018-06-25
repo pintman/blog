@@ -43,7 +43,7 @@ sind, stehen unten.
    `Wine <https://appdb.winehq.org/objectManager.php?sClass=version&iId=22306>`__
    macht es möglich.
 
-.. |cc: Freepik| image:: images/wwwSitzen2.png
+.. |cc: Freepik| image:: {filename}images/wwwSitzen2.png
    :class: size-full wp-image-1475
    :width: 506px
    :height: 334px

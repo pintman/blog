@@ -240,7 +240,7 @@ längst vergessen hat.
 
  
 
-.. |image0| image:: images/2014/12/wwwSitzen2.png
+.. |image0| image:: {filename}images/2014/12/wwwSitzen2.png
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px

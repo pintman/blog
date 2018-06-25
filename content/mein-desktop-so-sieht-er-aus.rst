@@ -20,7 +20,7 @@ mit  Dokumenten, mit denen Aufgaben verknüpft sind.
 
 |MeinDekstop|
 
-.. |MeinDekstop| image:: images/2014/04/MeinDekstop-1024x576.png
+.. |MeinDekstop| image:: {filename}images/2014/04/MeinDekstop-1024x576.png
    :class: alignnone size-large wp-image-897
    :width: 625px
    :height: 351px

@@ -50,7 +50,7 @@ Es ist mal wieder Zeit für einen Schwung frischer Links.
 -  So sieht es bei einem professionellen `Bitcoin
    Miner <https://www.youtube.com/watch?v=K8kua5B5K3I>`__ aus. (Video)
 
-.. |cc: Freepik| image:: images/2014/12/wwwSitzen2.png
+.. |cc: Freepik| image:: {filename}images/2014/12/wwwSitzen2.png
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px

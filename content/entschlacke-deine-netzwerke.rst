@@ -36,7 +36,7 @@ die Prioritäten richtig zu setzen.
 
  
 
-.. |cc: mkh marketing| image:: images/2014/06/facebook-rauch.jpg
+.. |cc: mkh marketing| image:: {filename}images/2014/06/facebook-rauch.jpg
    :class: size-full wp-image-1249
    :width: 586px
    :height: 293px

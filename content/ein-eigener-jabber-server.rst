@@ -93,15 +93,15 @@ seit mehreren Jahren diskutiert wird.
 Nun steht (m)einer freien und sicheren Kommunikation nichts mehr im
 Wege.
 
-.. |XMPP_logo.svg| image:: images/2015/04/XMPP_logo.svg_.png
+.. |XMPP_logo.svg| image:: {filename}images/2015/04/XMPP_logo.svg_.png
    :class: alignnone size-full wp-image-1696
    :width: 233px
    :height: 240px
-.. |prosody| image:: images/2015/04/prosody.png
+.. |prosody| image:: {filename}images/2015/04/prosody.png
    :class: alignnone size-full wp-image-1694
    :width: 757px
    :height: 170px
-.. |Pidgin-chatsecure| image:: images/2015/04/Pidgin-chatsecure.png
+.. |Pidgin-chatsecure| image:: {filename}images/2015/04/Pidgin-chatsecure.png
    :class: alignnone size-full wp-image-1711
    :width: 276px
    :height: 152px

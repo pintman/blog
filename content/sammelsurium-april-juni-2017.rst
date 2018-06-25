@@ -361,7 +361,7 @@ Tweets aus 2017-06
 -  Reply-To considered harmful. #email #mua #mailinglist
    `[Quelle] <http://www.unicom.com/pw/reply-to-harmful.html>`__
 
-.. |image0| image:: images/2014/12/wwwSitzen2.png
+.. |image0| image:: {filename}images/2014/12/wwwSitzen2.png
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px

@@ -64,7 +64,7 @@ Rückblick: Das war der März
    aus dem Bundestag. Mit einer Analyse auf den Diffs kann man sicher
    Interessantes finden. (Daten, Gesetze)
 
-.. |circle_rewind| image:: images/2014/04/circle_rewind.png
+.. |circle_rewind| image:: {filename}images/2014/04/circle_rewind.png
    :class: alignnone size-full wp-image-913
    :width: 128px
    :height: 128px

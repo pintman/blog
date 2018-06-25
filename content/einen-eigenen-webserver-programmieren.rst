@@ -107,7 +107,7 @@ so kreativ bin wie ihr.
       }
     }
 
-.. |browser| image:: images/2014/10/browser.png
+.. |browser| image:: {filename}images/2014/10/browser.png
    :class: alignright size-full wp-image-1433
    :width: 128px
    :height: 128px

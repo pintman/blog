@@ -22,7 +22,7 @@ steht für "Lernen durch Lehren" und beschreibt eine Unterrichtsmethode,
 bei der Schüler lernen, indem sie sich den Stoff gegenseitig vermitteln.
 Sie wurde Anfang der 80er Jahre von Jean-Pol Martin entwickelt.
 
-.. image:: images/2018/06/56fqUzhv2W8.jpg
+.. image:: {filename}images/2018/06/56fqUzhv2W8.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/56fqUzhv2W8?rel=0
 
@@ -35,7 +35,7 @@ gibt es ein schönes Beispiel von Christian Spannagel: In einer
 Mathematikvorlesung zeigt er, wie das sogenannte "aktive Plenum"
 gemeinsam eine Aufgabe löst.
 
-.. image:: images/2018/06/5y0CZ-C5srk.jpg
+.. image:: {filename}images/2018/06/5y0CZ-C5srk.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/5y0CZ-C5srk?rel=0
 
@@ -58,7 +58,7 @@ zusammen:
     Mein Mentor auf der Arbeit sagt mir immer wieder, kannst du es nicht
     richtig erklären, hast du es nicht richtig verstanden.
 
-.. |2014-05-10-LdL Visualisierung| image:: images/2014/05/2014-05-10-LdL-Visualisierung-e1399728850252.png
+.. |2014-05-10-LdL Visualisierung| image:: {filename}images/2014/05/2014-05-10-LdL-Visualisierung-e1399728850252.png
    :class: wp-image-1000 size-full
    :width: 741px
    :height: 707px

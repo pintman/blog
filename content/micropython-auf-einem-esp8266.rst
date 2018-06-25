@@ -79,7 +79,7 @@ Anlagen
    `MSXFAQ <http://www.msxfaq.de/sonst/bastelbude/nodemcu.htm>`__
    verlinkt.
 
-.. |esp8266| image:: images/2016/08/esp8266.jpeg
+.. |esp8266| image:: {filename}images/2016/08/esp8266.jpeg
    :class: alignnone size-full wp-image-1986
    :width: 100%
 

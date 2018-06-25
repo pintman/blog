@@ -44,7 +44,7 @@ cc: Freepik
 -  `Conky <http://conky.sourceforge.net/index.html>`__ zeigt unter Linux
    wichtige Systeminformationen auf dem Desktop an.
 
-.. |cc: Freepik| image:: images/2014/10/wwwSitzen.png
+.. |cc: Freepik| image:: {filename}images/2014/10/wwwSitzen.png
    :class: size-full wp-image-1475
    :width: 512px
    :height: 512px

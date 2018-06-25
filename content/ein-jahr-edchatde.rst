@@ -22,7 +22,7 @@ und Antworten rauschen in englischer und deutscher Sprache vorbei. Zum
 Schluss wird über das Thema der nächsten Sitzung abgestimmt und nach
 einer Stunde ist der ganze "Spuk" auch schon wieder vorbei.
 
-.. image:: images/2018/06/9SZedZOVnyg.jpg
+.. image:: {filename}images/2018/06/9SZedZOVnyg.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/9SZedZOVnyg?rel=0
 
@@ -86,7 +86,7 @@ klareres Bild, das in einem Wikiartikel verfestigt werden kann - etwa im
 Ich bin gespannt, wie es in einem Jahr um die Veranstaltung stehen wird
 und freue mich auf die weitere Entwicklung.
 
-.. |cc: André J. Spang| image:: images/2014/07/edchatde-badge.png
+.. |cc: André J. Spang| image:: {filename}images/2014/07/edchatde-badge.png
    :class: size-full wp-image-1262
    :width: 200px
    :height: 200px

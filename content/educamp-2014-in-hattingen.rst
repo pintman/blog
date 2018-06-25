@@ -24,7 +24,7 @@ Inhalte konzentrieren sich hierbei meist auf den Einsatz von Medien im
 Bildungskontext und dies sowohl an Schulen und Hochschulen als auch im
 Unternehmensumfeld.
 
-.. |Educamp2014| image:: images/2014/08/Educamp2014.png
+.. |Educamp2014| image:: {filename}images/2014/08/Educamp2014.png
    :class: alignnone size-full wp-image-1345
    :width: 793px
    :height: 136px

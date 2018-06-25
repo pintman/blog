@@ -13,7 +13,7 @@ Am Montag, den 2.2.2015 haben meine Schüler wieder den Unterricht
 eine Dokumentenkamera, die den Bildschirm eines Smartphones zeigt, sowie
 die 3D-Darstellung von GeoGebra eingesetzt. Respekt!
 
-.. |Tafelbild_Mathe_02.02.2015| image:: images/2015/02/Tafelbild_Mathe_02.02.2015-1024x297.jpg
+.. |Tafelbild_Mathe_02.02.2015| image:: {filename}images/2015/02/Tafelbild_Mathe_02.02.2015-1024x297.jpg
    :class: alignnone size-large wp-image-1620
    :width: 625px
    :height: 181px

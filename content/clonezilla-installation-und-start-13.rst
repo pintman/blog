@@ -15,6 +15,6 @@ einer virtuelle Maschine starten. Als Beispielsystem für das Klonen wird
 eine FreeDos-Installation verwendet, da diese recht klein ist und daher
 kleine Dateigrößen liefert.
 
-.. image:: images/2018/06/zTv13iQsyc4.jpg
+.. image:: {filename}images/2018/06/zTv13iQsyc4.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/zTv13iQsyc4?rel=0

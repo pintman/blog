@@ -17,7 +17,7 @@ angelegt.
 Inspiriert wurde ich von dem schönen Tutorial für Lua `Learn Lua in 15
 Minutes <http://tylerneylon.com/a/learn-lua/>`__.
 
-.. |Mann_Frau_alter_Computer| image:: images/2015/05/Mann_Frau_alter_Computer-1024x812.jpg
+.. |Mann_Frau_alter_Computer| image:: {filename}images/2015/05/Mann_Frau_alter_Computer-1024x812.jpg
    :class: alignnone wp-image-1740 size-large
    :width: 625px
    :height: 496px

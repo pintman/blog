@@ -31,7 +31,7 @@ Frage.
 
 Hier würde ich mir ein klare Terminologie wünschen.
 
-.. |2014-05-10-LdL Visualisierung| image:: images/2014/05/2014-05-10-LdL-Visualisierung-e1399728850252-300x286.png
+.. |2014-05-10-LdL Visualisierung| image:: {filename}images/2014/05/2014-05-10-LdL-Visualisierung-e1399728850252-300x286.png
    :class: alignnone size-medium wp-image-1000
    :width: 300px
    :height: 286px

@@ -27,7 +27,7 @@ welches die Veröffentlichung der eigenen Buchsammlung ermöglicht. Auch,
 wenn man die eigene Sammlung nicht veröffentlichen möchte, hilft das
 Programm bei der Erfassung des eigenen Bestandes weiter.
 
-.. |book_2| image:: images/2016/01/book_2.png
+.. |book_2| image:: {filename}images/2016/01/book_2.png
    :class: alignright size-full wp-image-1949
    :width: 128px
    :height: 128px

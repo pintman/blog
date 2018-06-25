@@ -6,7 +6,7 @@ FizzBuzz Katas - Programmierübungen für das FizzBuzz-Problem
 :slug: fizzbuzz-katas-programmieruebungen-fuer-das-fizzbuzz-problem
 :status: published
 
-.. image:: images/2018/06/pWtuV_a00zk.jpg
+.. image:: {filename}images/2018/06/pWtuV_a00zk.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/pWtuV_a00zk?rel=0
 

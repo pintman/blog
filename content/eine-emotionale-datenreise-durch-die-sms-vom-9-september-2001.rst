@@ -149,12 +149,12 @@ tun. Vielleicht aber auch nicht. Und: Daten haben etwas mit Menschen zu
 tun. Daher müssen wir sie schützen, auf sie aufpassen und sorgsam mit
 ihnen umgehen.
 
-.. |Anzahl SMS nach Uhrzeit| image:: images/2014/03/Anzahl-SMS-nach-Uhrzeit.png
+.. |Anzahl SMS nach Uhrzeit| image:: {filename}images/2014/03/Anzahl-SMS-nach-Uhrzeit.png
    :class: alignnone size-full wp-image-869
    :width: 640px
    :height: 480px
    :target: images/2014/03/Anzahl-SMS-nach-Uhrzeit.png
-.. |SMS mit Text plane| image:: images/2014/03/SMS-mit-Text-plane.png
+.. |SMS mit Text plane| image:: {filename}images/2014/03/SMS-mit-Text-plane.png
    :class: alignnone size-full wp-image-871
    :width: 640px
    :height: 480px

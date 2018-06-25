@@ -21,6 +21,6 @@ mit Lego-Technik basteln kannst.
 Ein tolles Projekt für den Mathematikunterricht, wenn die
 Integralrechnung thematisiert wird.
 
-.. image:: images/2018/06/7R07IWiXV1g.jpg
+.. image:: {filename}images/2018/06/7R07IWiXV1g.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/7R07IWiXV1g?rel=0

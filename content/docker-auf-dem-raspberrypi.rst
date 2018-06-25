@@ -35,7 +35,7 @@ zusammenfügen <https://blog.hypriot.com/post/dockerconaustin2017/>`__
 und auf mehrere Pis verteilen. HypriotOS bringt alle wichtigen Tools mit
 und läuft zuverlässig.
 
-.. |image0| image:: images/Docker-Pirates-ARMed-with-explosive-stuff.png
+.. |image0| image:: {filename}images/Docker-Pirates-ARMed-with-explosive-stuff.png
    :class: alignnone size-full wp-image-2234
    :width: 134px
    :height: 138px

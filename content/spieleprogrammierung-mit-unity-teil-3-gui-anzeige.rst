@@ -14,6 +14,6 @@ Damit wir wissen, wie viele Kugeln wir schon eingesammelt haben und wie
 viele Kugeln noch fehlen, bringen wir nun eine Anzeige ins Spiel. Diese
 Anzeige blendet oben links die Anzahl der eingesammelten Kugeln ein.
 
-.. image:: images/2018/06/TPB8mo0sr5I.jpg
+.. image:: {filename}images/2018/06/TPB8mo0sr5I.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/TPB8mo0sr5I?rel=0

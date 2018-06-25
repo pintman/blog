@@ -13,6 +13,6 @@ kann. `In meinem
 Wiki <http://bakera.de/dokuwiki/doku.php/schule/perlenspiel>`__ findet
 ihr den vollständigen Quelltext zu diesem Spiel.
 
-.. image:: images/2018/06/Y7fTyAf1ebc.jpg
+.. image:: {filename}images/2018/06/Y7fTyAf1ebc.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/Y7fTyAf1ebc?rel=0

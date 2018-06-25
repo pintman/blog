@@ -87,7 +87,7 @@ cc: Freepik
    Tools, Maschinenlesbarkeit und Spaß.
    `Quelle <http://indiewebcamp.com/principles>`__
 
-.. |cc: Freepik| image:: images/2014/12/wwwSitzen2.png
+.. |cc: Freepik| image:: {filename}images/2014/12/wwwSitzen2.png
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px

@@ -16,7 +16,7 @@ Gesellschaft am Ende der Aufklärung. Hörenswert.
     “Das digitale Panopticon entsteht aus der gegenseitigen Beobachtung
     der Menschen im Netz.”
 
-.. |Lautsprecher| image:: images/2014/05/Lautsprecher.png
+.. |Lautsprecher| image:: {filename}images/2014/05/Lautsprecher.png
    :class: size-full wp-image-1046 alignright
    :width: 128px
    :height: 128px

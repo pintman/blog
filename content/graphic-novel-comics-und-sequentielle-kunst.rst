@@ -24,7 +24,7 @@ Genre bzw. Medium an repräsentativen Exemplaren vor. Es ist spannend,
 wie tief er die Werke zu deuten vermag und welche Kraft in den Bildern
 und dem, was zwischen ihnen passiert, steckt.
 
-.. image:: images/2018/06/qAyEbgSPi9w.jpg
+.. image:: {filename}images/2018/06/qAyEbgSPi9w.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/qAyEbgSPi9w?rel=0
 
@@ -33,7 +33,7 @@ Kulturphänomen untersucht. Amerikanische Comics und asiatische Mangas
 entwickelten sich aus ganz unterschiedlichen Traditionen und haben daher
 auch ganz eigene Werke hervorgebracht,
 
-.. image:: images/2018/06/t2dszx8RIYQ.jpg
+.. image:: {filename}images/2018/06/t2dszx8RIYQ.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/t2dszx8RIYQ?rel=0
 
@@ -102,16 +102,16 @@ Wenn ihr weitere Vertreter des Genres empfehlen könnt, freue ich mich
 auf eure Kommentare. Bis dahin tauche ich ab in diese spannende Welt aus
 Text, Bildern und der phantastischen Lücke dazwischen.
 
-.. |Comic Strip von Elisabeth Hass (The Noun Project)| image:: images/2014/07/icon_27149.png
+.. |Comic Strip von Elisabeth Hass (The Noun Project)| image:: {filename}images/2014/07/icon_27149.png
    :class: size-full wp-image-1301
    :width: 100%
    :target: images/2014/07/icon_27149.png
-.. |Comics_richtig_lesen| image:: images/2014/07/Comics_richtig_lesen-197x300.jpg
+.. |Comics_richtig_lesen| image:: {filename}images/2014/07/Comics_richtig_lesen-197x300.jpg
    :class: alignnone size-medium wp-image-1306
    :width: 197px
    :height: 300px
    :target: images/2014/07/Comics_richtig_lesen.jpg
-.. |aus: "Comics richtig lesen", S. 13| image:: images/2014/07/ComicsRichtigLesen-Definition-189x300.jpg
+.. |aus: "Comics richtig lesen", S. 13| image:: {filename}images/2014/07/ComicsRichtigLesen-Definition-189x300.jpg
    :class: size-medium wp-image-1321
    :width: 189px
    :height: 300px

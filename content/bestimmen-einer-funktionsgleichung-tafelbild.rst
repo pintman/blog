@@ -11,7 +11,7 @@ dritten Grades beschrieben.
 
 |2013-11-25-Tafelbild|
 
-.. |2013-11-25-Tafelbild| image:: images/2013-11-25-Tafelbild.png
+.. |2013-11-25-Tafelbild| image:: {filename}images/2013-11-25-Tafelbild.png
    :class: alignnone size-full wp-image-701
    :width: 694px
    :height: 536px

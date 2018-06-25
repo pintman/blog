@@ -12,7 +12,7 @@ Meine Schüler zeigen im Mathematikunterricht, wie man mit Hilfe der
 Vektorrechnung den Schnittwinkel zwischen zwei Geraden berechnet. In der
 Darstellung noch etwas chaotisch - aber das wird noch.
 
-.. |SchnittwinkelGeraden| image:: images/2015/02/SchnittwinkelGeraden-1024x336.jpg
+.. |SchnittwinkelGeraden| image:: {filename}images/2015/02/SchnittwinkelGeraden-1024x336.jpg
    :class: alignnone size-large wp-image-1637
    :width: 625px
    :height: 205px

@@ -69,7 +69,7 @@ und Gesellschaft in einer kleinen Liste zusammengetragen.
 -  `Funky File Formats - Advanced binary
    tricks <http://media.ccc.de/browse/congress/2014/31c3_-_5930_-_en_-_saal_6_-_201412291400_-_funky_file_formats_-_ange_albertini.html>`__
 
-.. |31c3_logo| image:: images/2015/01/31c3_logo.jpg
+.. |31c3_logo| image:: {filename}images/2015/01/31c3_logo.jpg
    :class: alignnone size-full wp-image-1602
    :width: 156px
    :height: 184px

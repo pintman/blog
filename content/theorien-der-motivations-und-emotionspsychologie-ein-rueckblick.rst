@@ -32,10 +32,10 @@ interessante Dinge erzählen konnte, die ich mittlerweile in dieser
 Detailtiefe gar nicht mehr wusste. :)
 
 
-.. image:: images/2018/06/RD6OnH0iEoU.jpg
+.. image:: {filename}images/2018/06/RD6OnH0iEoU.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/RD6OnH0iEoU?rel=0
 
-.. image:: images/2018/06/nEfZzPA4sz0.jpg
+.. image:: {filename}images/2018/06/nEfZzPA4sz0.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/nEfZzPA4sz0?rel=0

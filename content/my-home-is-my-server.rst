@@ -140,7 +140,7 @@ einmal neu aufgesetzt wird.
 Nun liegen die Daten direkt bei mir unter dem Schreibtisch und ich habe
 die vollständige Kontrolle über den Server. Ein gutes Gefühl.
 
-.. |server20| image:: images/2014/10/server20.png
+.. |server20| image:: {filename}images/2014/10/server20.png
    :class: alignright size-full wp-image-1455
    :width: 128px
    :height: 128px

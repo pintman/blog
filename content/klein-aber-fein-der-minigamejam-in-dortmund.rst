@@ -44,7 +44,7 @@ man den Button wieder los, sinkt er wieder. Diese Steuerung haben wir
 über eine kleine Platine mit zwei Tastern realisiert - der zweite Taster
 konnte das Spiel nach einem *Game Over* neu starten.
 
-.. image:: images/2018/06/7jtvtk3SSTg.jpg
+.. image:: {filename}images/2018/06/7jtvtk3SSTg.jpg
    :alt: Youtube-Video
    :target: https://www.youtube-nocookie.com/embed/7jtvtk3SSTg?rel=0
 
@@ -61,10 +61,10 @@ wieder mit mir.
 
  
 
-.. |image0| image:: images/2017/06/miniggamejamdo.png
+.. |image0| image:: {filename}images/2017/06/miniggamejamdo.png
    :class: alignnone size-full wp-image-2076
    :width: 790px
    :height: 144px
-.. |image1| image:: images/2017/06/osziflap_overview_all.jpg
+.. |image1| image:: {filename}images/2017/06/osziflap_overview_all.jpg
    :class: alignnone size-full wp-image-2078
    :width: 100%

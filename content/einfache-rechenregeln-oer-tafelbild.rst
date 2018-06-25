@@ -10,8 +10,7 @@ Lasst uns ein paar wichtige Rechenregeln wiederholen.
 
 |Einfache Rechnungen|
 
-.. |Einfache Rechnungen| image:: images/1-Einfache-Rechnungen-300x80.jpg
+.. |Einfache Rechnungen| image:: {filename}images/1-Einfache-Rechnungen.jpg
    :class: alignnone size-medium wp-image-535
-   :width: 300px
-   :height: 80px
-   :target: images/1-Einfache-Rechnungen.jpg
+   :width: 100%
+   :target: {filename}images/1-Einfache-Rechnungen.jpg
