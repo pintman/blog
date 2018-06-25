@@ -40,7 +40,14 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 #THEME = "simple"
-THEME = "notmyidea"
+#THEME = "notmyidea"
+
+# FIX: theme needs 'git checkout be36234'
+THEME = "pelican-themes/pelican-bootstrap3"
+#JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+#I18N_TEMPLATES_LANG = 'en'
+
+
 
 # http://oncrashreboot.com/elegant-best-pelican-theme-features
 #THEME = "pelican-elegant"
