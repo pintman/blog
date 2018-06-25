@@ -42,13 +42,22 @@ RELATIVE_URLS = True
 #THEME = "simple"
 #THEME = "notmyidea"
 
+# Theme pelican-bootstrap3
+#
 # FIX: theme needs 'git checkout be36234'
 THEME = "pelican-themes/pelican-bootstrap3"
 #JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 #I18N_TEMPLATES_LANG = 'en'
+#GITHUB_REPO_COUNT = 5
+#GITHUB_USER = "pintman"
+#GITHUB_SHOW_USER_LINK = True
+#GITHUB_SKIP_FORK = True
+#PADDED_SINGLE_COLUMN_STYLE = True
+#DISPLAY_TAGS_ON_SIDEBAR = True
+#DISPLAY_ARCHIVE_ON_SIDEBAR = True
 
-
-
+# Theme pelican-elegant
+#
 # http://oncrashreboot.com/elegant-best-pelican-theme-features
 #THEME = "pelican-elegant"
 #
