@@ -24,4 +24,4 @@ mit  Dokumenten, mit denen Aufgaben verknüpft sind.
    :class: alignnone size-large wp-image-897
    :width: 625px
    :height: 351px
-   :target: images/2014/04/MeinDekstop.png
+   :target: {filename}images/2014/04/MeinDekstop.png

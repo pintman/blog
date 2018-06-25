@@ -16,4 +16,4 @@ ihnen arbeiten? Ich wurde gestern durch einige kreative Ideen
    :class: alignnone size-medium wp-image-546
    :width: 300px
    :height: 118px
-   :target: images/Funktionen.jpg
+   :target: {filename}images/Funktionen.jpg

@@ -39,4 +39,4 @@ und läuft zuverlässig.
    :class: alignnone size-full wp-image-2234
    :width: 134px
    :height: 138px
-   :target: images/Docker-Pirates-ARMed-with-explosive-stuff.png
+   :target: {filename}images/Docker-Pirates-ARMed-with-explosive-stuff.png

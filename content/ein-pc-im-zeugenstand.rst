@@ -48,4 +48,4 @@ Und? Interesse?
    :class: alignnone size-full wp-image-1371
    :width: 320px
    :height: 116px
-   :target: images/2014/09/Ct_logo.png
+   :target: {filename}images/2014/09/Ct_logo.png

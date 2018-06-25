@@ -17,4 +17,4 @@ die 3D-Darstellung von GeoGebra eingesetzt. Respekt!
    :class: alignnone size-large wp-image-1620
    :width: 625px
    :height: 181px
-   :target: images/2015/02/Tafelbild_Mathe_02.02.2015.jpg
+   :target: {filename}images/2015/02/Tafelbild_Mathe_02.02.2015.jpg

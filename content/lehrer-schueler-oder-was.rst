@@ -35,4 +35,4 @@ Hier würde ich mir ein klare Terminologie wünschen.
    :class: alignnone size-medium wp-image-1000
    :width: 300px
    :height: 286px
-   :target: images/2014/05/2014-05-10-LdL-Visualisierung-e1399728850252.png
+   :target: {filename}images/2014/05/2014-05-10-LdL-Visualisierung-e1399728850252.png

@@ -52,4 +52,4 @@ Anschließend werden die geschriebenen Daten wieder gelesen.
    :class: alignnone size-full wp-image-2191
    :width: 800px
    :height: 510px
-   :target: images/2018/01/webmichl-sd-card-800px.png
+   :target: {filename}images/2018/01/webmichl-sd-card-800px.png

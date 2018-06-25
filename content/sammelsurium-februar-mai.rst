@@ -276,5 +276,5 @@ Interessante Einsichten aus vier Monaten.
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px
-   :target: images/wwwSitzen2.png
+   :target: {filename}images/wwwSitzen2.png
    :alt: cc: Freepik

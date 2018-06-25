@@ -40,4 +40,4 @@ die Prioritäten richtig zu setzen.
    :class: size-full wp-image-1249
    :width: 586px
    :height: 293px
-   :target: images/2014/06/facebook-rauch.jpg
+   :target: {filename}images/2014/06/facebook-rauch.jpg

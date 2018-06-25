@@ -16,4 +16,4 @@ Darstellung noch etwas chaotisch - aber das wird noch.
    :class: alignnone size-large wp-image-1637
    :width: 625px
    :height: 205px
-   :target: images/2015/02/SchnittwinkelGeraden.jpg
+   :target: {filename}images/2015/02/SchnittwinkelGeraden.jpg

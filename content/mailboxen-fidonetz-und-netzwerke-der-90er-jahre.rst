@@ -35,4 +35,4 @@ entfalten konnte.
    :class: alignnone size-full wp-image-2174
    :width: 661px
    :height: 423px
-   :target: images/2018/01/Screenshot-2018-1-2-BBSs-and-early-Internet-access-in-the-1990ies.png
+   :target: {filename}images/2018/01/Screenshot-2018-1-2-BBSs-and-early-Internet-access-in-the-1990ies.png

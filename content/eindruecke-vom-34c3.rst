@@ -44,14 +44,14 @@ Vorträge <https://media.ccc.de/c/34c3>`__ anschaut werden wollen.
    :class: alignnone wp-image-2166
    :width: 412px
    :height: 232px
-   :target: images/2018/01/IMG_20171227_080203117.jpg
+   :target: {filename}images/2018/01/IMG_20171227_080203117.jpg
 .. |image1| image:: {filename}images/2018/01/IMG_20171228_131208504-1024x575.jpg
    :class: alignnone size-large wp-image-2181
    :width: 625px
    :height: 351px
-   :target: images/2018/01/IMG_20171228_131208504.jpg
+   :target: {filename}images/2018/01/IMG_20171228_131208504.jpg
 .. |image2| image:: {filename}images/2018/01/IMG_20171228_114802842-1024x575.jpg
    :class: alignnone size-large wp-image-2183
    :width: 625px
    :height: 351px
-   :target: images/2018/01/IMG_20171228_114802842.jpg
+   :target: {filename}images/2018/01/IMG_20171228_114802842.jpg

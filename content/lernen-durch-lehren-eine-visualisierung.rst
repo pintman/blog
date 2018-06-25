@@ -62,4 +62,4 @@ zusammen:
    :class: wp-image-1000 size-full
    :width: 741px
    :height: 707px
-   :target: images/2014/05/2014-05-10-LdL-Visualisierung-e1399728850252.png
+   :target: {filename}images/2014/05/2014-05-10-LdL-Visualisierung-e1399728850252.png

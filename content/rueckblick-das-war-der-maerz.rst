@@ -68,4 +68,4 @@ Rückblick: Das war der März
    :class: alignnone size-full wp-image-913
    :width: 128px
    :height: 128px
-   :target: images/2014/04/circle_rewind.png
+   :target: {filename}images/2014/04/circle_rewind.png

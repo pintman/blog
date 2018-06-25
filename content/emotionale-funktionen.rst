@@ -38,4 +38,4 @@ interpretieren?
 .. |von Maya Eilam und Kurt Vonnegut| image:: {filename}images/2014/06/kurt-vonnegut-the-shapes-of-stories.png
    :class: size-full wp-image-1222
    :width: 100%
-   :target: images/2014/06/kurt-vonnegut-the-shapes-of-stories.png
+   :target: {filename}images/2014/06/kurt-vonnegut-the-shapes-of-stories.png

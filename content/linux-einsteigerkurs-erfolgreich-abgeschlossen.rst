@@ -22,4 +22,4 @@ Bewerbungsmappe sucht, sollte bei dem Zertifikat zuschlagen.
    :class: alignnone size-large wp-image-1335
    :width: 625px
    :height: 472px
-   :target: images/2014/08/LinuxZertifikat.png
+   :target: {filename}images/2014/08/LinuxZertifikat.png

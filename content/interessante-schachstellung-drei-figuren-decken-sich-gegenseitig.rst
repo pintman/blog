@@ -19,4 +19,4 @@ Verzwickt und bitter.
    :class: alignnone wp-image-736
    :width: 378px
    :height: 379px
-   :target: images/2013/12/2013-12-01-Schachstellung.png
+   :target: {filename}images/2013/12/2013-12-01-Schachstellung.png

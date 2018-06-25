@@ -34,4 +34,4 @@ Rechenhilfe.
 .. |cc: Pearls of Jannah| image:: {filename}images/2014/06/soroban.jpg
    :class: size-full wp-image-1235
    :width: 100%
-   :target: images/2014/06/soroban.jpg
+   :target: {filename}images/2014/06/soroban.jpg

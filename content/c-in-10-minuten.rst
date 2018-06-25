@@ -21,4 +21,4 @@ Minutes <http://tylerneylon.com/a/learn-lua/>`__.
    :class: alignnone wp-image-1740 size-large
    :width: 625px
    :height: 496px
-   :target: images/2015/05/Mann_Frau_alter_Computer.jpg
+   :target: {filename}images/2015/05/Mann_Frau_alter_Computer.jpg

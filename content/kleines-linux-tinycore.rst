@@ -18,4 +18,4 @@ Hardware, Kiosk-Systeme oder Surfstationen an.
    :class: alignnone size-full wp-image-1361
    :width: 150px
    :height: 58px
-   :target: images/2014/09/Tcl_logo.png
+   :target: {filename}images/2014/09/Tcl_logo.png

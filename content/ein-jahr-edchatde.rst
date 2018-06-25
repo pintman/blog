@@ -90,4 +90,4 @@ und freue mich auf die weitere Entwicklung.
    :class: size-full wp-image-1262
    :width: 200px
    :height: 200px
-   :target: images/2014/07/edchatde-badge.png
+   :target: {filename}images/2014/07/edchatde-badge.png

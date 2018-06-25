@@ -30,4 +30,4 @@ gekommen ist, war Fred, und so soll dieses Ding dann also auch heißen.
    :class: alignnone size-full wp-image-1312
    :width: 400px
    :height: 300px
-   :target: images/Fred1.jpg
+   :target: {filename}images/Fred1.jpg

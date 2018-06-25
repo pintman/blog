@@ -10,4 +10,4 @@ Gute alte Zeit
 
 .. |image| image:: {filename}images/wpid-wp-1372413774489.jpg
    :class: alignnone size-full
-   :target: images/wpid-wp-1372413774489.jpg
+   :target: {filename}images/wpid-wp-1372413774489.jpg

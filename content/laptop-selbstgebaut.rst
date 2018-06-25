@@ -27,4 +27,4 @@ unter `spypi.ch <http://spypi.ch/>`__ beschrieben.
    :class: alignnone size-large wp-image-2220
    :width: 625px
    :height: 351px
-   :target: images/2018/01/IMG_20171228_112705311.jpg
+   :target: {filename}images/2018/01/IMG_20171228_112705311.jpg

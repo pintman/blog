@@ -31,9 +31,9 @@ Der nächste Termin steht auch schon fest: am 12. Mai geht es weiter.
    :class: alignnone size-large wp-image-2249
    :width: 625px
    :height: 833px
-   :target: images/2018/02/starfeet-768x1024.jpg
+   :target: {filename}images/2018/02/starfeet-768x1024.jpg
 .. |image1| image:: {filename}images/miniggamejamdo.png
    :class: alignnone size-full wp-image-2076
    :width: 790px
    :height: 144px
-   :target: images/miniggamejamdo.png
+   :target: {filename}images/miniggamejamdo.png

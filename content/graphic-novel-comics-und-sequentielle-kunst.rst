@@ -105,14 +105,14 @@ Text, Bildern und der phantastischen Lücke dazwischen.
 .. |Comic Strip von Elisabeth Hass (The Noun Project)| image:: {filename}images/2014/07/icon_27149.png
    :class: size-full wp-image-1301
    :width: 100%
-   :target: images/2014/07/icon_27149.png
+   :target: {filename}images/2014/07/icon_27149.png
 .. |Comics_richtig_lesen| image:: {filename}images/2014/07/Comics_richtig_lesen-197x300.jpg
    :class: alignnone size-medium wp-image-1306
    :width: 197px
    :height: 300px
-   :target: images/2014/07/Comics_richtig_lesen.jpg
+   :target: {filename}images/2014/07/Comics_richtig_lesen.jpg
 .. |aus: "Comics richtig lesen", S. 13| image:: {filename}images/2014/07/ComicsRichtigLesen-Definition-189x300.jpg
    :class: size-medium wp-image-1321
    :width: 189px
    :height: 300px
-   :target: images/2014/07/ComicsRichtigLesen-Definition.jpg
+   :target: {filename}images/2014/07/ComicsRichtigLesen-Definition.jpg

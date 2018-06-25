@@ -93,4 +93,4 @@ Meine Gedanken, Links und Entdeckungen aus dem November.
    :class: size-full wp-image-1523
    :width: 506px
    :height: 334px
-   :target: images/2014/12/wwwSitzen2.png
+   :target: {filename}images/2014/12/wwwSitzen2.png

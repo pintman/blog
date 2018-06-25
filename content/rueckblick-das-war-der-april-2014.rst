@@ -91,4 +91,4 @@ Rückblick: Das war der April 2014
    :class: size-full wp-image-913 alignnone
    :width: 128px
    :height: 128px
-   :target: images/2014/04/circle_rewind.png
+   :target: {filename}images/2014/04/circle_rewind.png

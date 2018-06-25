@@ -66,4 +66,4 @@ wieder etwas Neues.
    :class: alignnone size-full wp-image-794
    :width: 705px
    :height: 529px
-   :target: images/2014/01/Pinguin.png
+   :target: {filename}images/2014/01/Pinguin.png

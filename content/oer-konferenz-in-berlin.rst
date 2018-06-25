@@ -120,24 +120,24 @@ Besuch dieser Veranstaltung für mich möglich gemacht hat.
    :class: size-medium wp-image-506 alignright
    :width: 179px
    :height: 300px
-   :target: images/IMAG0307.jpg
+   :target: {filename}images/2013/09/IMAG0307.jpg
 .. |Kalkscheune2013| image:: {filename}images/2013/09/IMAG0305.jpg
    :class: alignnone size-medium wp-image-505
    :width: 300px
    :height: 179px
-   :target: images/2013/09/IMAG0305.jpg
+   :target: {filename}images/2013/09/IMAG0305.jpg
 .. |OER-Buehne| image:: {filename}images/2013/09/IMAG0308.jpg
    :class: alignnone size-medium wp-image-507
    :width: 300px
    :height: 179px
-   :target: images/2013/09/IMAG0308.jpg
+   :target: {filename}images/2013/09/IMAG0308.jpg
 .. |Barcamp-Planung| image:: {filename}images/2013/09/IMAG0311.jpg
    :class: size-medium wp-image-511
    :width: 300px
    :height: 179px
-   :target: images/2013/09/IMAG0311.jpg
+   :target: {filename}images/2013/09/IMAG0311.jpg
 .. |OER2013-Twitterwall| image:: {filename}images/2013/09/IMAG0310.jpg
    :class: alignnone size-medium wp-image-509
    :width: 300px
    :height: 179px
-   :target: images/2013/09/IMAG0310.jpg
+   :target: {filename}images/2013/09/IMAG0310.jpg

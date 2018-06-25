@@ -35,4 +35,4 @@ Wochen.
 .. |Dortmund, Stadt- und Landesbibliothek, Freihandbereich 1. Stock (Foto von Mathias Bigge - CC BY-SA 2.5)| image:: {filename}images/2014/04/1024px-Biblitohek-0020.jpg
    :class: size-full wp-image-941
    :width: 100%
-   :target: images/2014/04/1024px-Biblitohek-0020.jpg
+   :target: {filename}images/2014/04/1024px-Biblitohek-0020.jpg

@@ -40,4 +40,4 @@ wir uns mehr den langweiligen Ergebnissen zuwenden?!
    :class: alignnone size-full wp-image-2207
    :width: 572px
    :height: 575px
-   :target: images/2018/01/Screenshot-2018-1-4-scienceisbroken-pdf.png
+   :target: {filename}images/2018/01/Screenshot-2018-1-4-scienceisbroken-pdf.png

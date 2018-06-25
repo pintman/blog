@@ -28,4 +28,4 @@ Unternehmensumfeld.
    :class: alignnone size-full wp-image-1345
    :width: 793px
    :height: 136px
-   :target: images/2014/08/Educamp2014.png
+   :target: {filename}images/2014/08/Educamp2014.png

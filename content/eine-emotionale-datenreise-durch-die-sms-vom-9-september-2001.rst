@@ -153,9 +153,9 @@ ihnen umgehen.
    :class: alignnone size-full wp-image-869
    :width: 640px
    :height: 480px
-   :target: images/2014/03/Anzahl-SMS-nach-Uhrzeit.png
+   :target: {filename}images/2014/03/Anzahl-SMS-nach-Uhrzeit.png
 .. |SMS mit Text plane| image:: {filename}images/2014/03/SMS-mit-Text-plane.png
    :class: alignnone size-full wp-image-871
    :width: 640px
    :height: 480px
-   :target: images/2014/03/SMS-mit-Text-plane.png
+   :target: {filename}images/2014/03/SMS-mit-Text-plane.png

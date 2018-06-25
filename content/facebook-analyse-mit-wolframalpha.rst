@@ -28,4 +28,4 @@ Informationen aus dem Profil saugt, wie es heraussaugen kann.
    :class: alignnone size-medium wp-image-374
    :width: 300px
    :height: 269px
-   :target: images/WolframAlphaFacebookReport.png
+   :target: {filename}images/WolframAlphaFacebookReport.png

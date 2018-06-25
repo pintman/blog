@@ -10,6 +10,6 @@ Sackgasse
 
 Plötzlich ging es im Wald nicht weiter.
 
-.. |image| image:: {filename}images/wpid-wp-1371392944347.jpg
+.. |image| image:: {filename}images/2013/06/wpid-wp-1371392944347.jpg
    :class: alignnone size-full
-   :target: images/2013/06/wpid-wp-1371392944347.jpg
+   :target: {filename}images/2013/06/wpid-wp-1371392944347.jpg

@@ -31,4 +31,4 @@ der jüngeren Wissenschaftsgeschichte.
 .. |Norbert Beier: Informatik und die klassischen Naturwissenschaften (MNU Heft 3, 2006)| image:: {filename}images/2014/06/Weltmodell.jpg
    :class: size-full wp-image-1212
    :width: 100%
-   :target: images/2014/06/Weltmodell.jpg
+   :target: {filename}images/2014/06/Weltmodell.jpg
