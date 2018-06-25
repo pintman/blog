@@ -1,131 +1,133 @@
 <!DOCTYPE html>
-<html lang="de" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<html lang="de">
 <head>
-    <title>pidgin - /home/bakera/blog</title>
-    <!-- Using the latest rendering mode for IE -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <title>/home/bakera/blog - pidgin</title>
+        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/main.css" />
+        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
 
-
-
-
-    <meta name="author" content="Marco Bakera" />
-    <meta name="keywords" content="pidgin" />
-
-    <!-- Open Graph tags -->
-        <meta property="og:site_name" content="/home/bakera/blog" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="/home/bakera/blog"/>
-        <meta property="og:url" content="https://blog.bakera.de"/>
-        <meta property="og:description" content="/home/bakera/blog"/>
-
-
-    <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/bootstrap.min.css" type="text/css"/>
-    <link href="https://blog.bakera.de/theme/css/font-awesome.min.css" rel="stylesheet">
-
-    <link href="https://blog.bakera.de/theme/css/pygments/native.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://blog.bakera.de/theme/css/style.css" type="text/css"/>
-
-        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
-              title="/home/bakera/blog ATOM Feed"/>
-
-
-
-
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 </head>
-<body>
 
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-	<div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="https://blog.bakera.de/" class="navbar-brand">
-/home/bakera/blog            </a>
-        </div>
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-                         <li><a href="https://blog.bakera.de/pages/impressum.html">
-                             Impressum, Datenschutz
-                          </a></li>
-                         <li><a href="https://blog.bakera.de/pages/search.html">
-                             Suche
-                          </a></li>
-                         <li><a href="https://blog.bakera.de/pages/wiki.html">
-                             Wiki
-                          </a></li>
-                         <li><a href="https://blog.bakera.de/pages/about.html">
-                             Über
-                          </a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-</div> <!-- /.navbar -->
-<!-- Banner -->
-<!-- End Banner -->
-<div class="container">
-    <div class="row">
-        <div class="col-sm-9">
-            <article>
-                <h2><a href="https://blog.bakera.de/ein-eigener-jabber-server.html">Ein eigener Jabber-Server</a></h2>
-                <div class="summary"><p><img alt="XMPP_logo.svg" class="alignnone size-full wp-image-1696" src="images/2015/04/XMPP_logo.svg_.png" style="width: 233px; height: 240px;" /></p>
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://blog.bakera.de/">/home/bakera/blog </a></h1>
+                <nav><ul>
+                    <li><a href="https://blog.bakera.de/pages/about.html">Über</a></li>
+                    <li><a href="https://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
+                    <li><a href="https://blog.bakera.de/pages/search.html">Suche</a></li>
+                    <li><a href="https://blog.bakera.de/pages/wiki.html">Wiki</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="https://blog.bakera.de/ein-eigener-jabber-server.html">Ein eigener Jabber-Server</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2015-05-26T07:51:00+02:00">
+                Published: Di 26 Mai 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
+        </address>
+<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
+<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/chat.html">Chat</a> <a href="https://blog.bakera.de/tag/chatsecure.html">chatsecure</a> <a href="https://blog.bakera.de/tag/jabber.html">jabber</a> <a href="https://blog.bakera.de/tag/pidgin.html">pidgin</a> <a href="https://blog.bakera.de/tag/prosody.html">prosody</a> <a href="https://blog.bakera.de/tag/xmpp.html">xmpp</a> </p>
+</footer><!-- /.post-info --><p><img alt="XMPP_logo.svg" class="alignnone size-full wp-image-1696" src="images/2015/04/XMPP_logo.svg_.png" style="width: 233px; height: 240px;" /></p>
 <p>Die fehlende Vielfalt und die kritische Datenschutzsituation freier
 Messenger wie WhatsApp haben mich bewogen, nach Alternativen Ausschau zu
 halten. Früher haben wir den Kampf schon einmal mit ICQ ausfechten
 müssen - und mit dem Siegeszug von
 <a class="reference external" href="https://de.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol">XMPP</a>
 und Jabber gewonnen. Nachdem sich Google und Facebook von diesem
-Standard - zumindest in öffentlichen …</p>
-                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/ein-eigener-jabber-server.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
+Standard - zumindest in öffentlichen Schnittstellen - verabschiedet
+haben oder verabschieden werden, ist es wieder einmal an der&nbsp; Zeit, das
+Breitschwert der digitalen Emanzipation aus dem Rucksack zu holen.</p>
+<p>Nun wiederholt sich die Geschichte also im Mobilbereich. Als Jabber-User
+der frühen Stunde bin ich auf die Idee gekommen, einen eigenen
+Jabber-Server aufzusetzen. Eigentlich ist es ja ein XMPP-Server, aber
+das hört sich irgendwie zu technisch an.</p>
+<p><img alt="prosody" class="alignnone size-full wp-image-1694" src="images/2015/04/prosody.png" style="width: 757px; height: 170px;" /></p>
+<p>Nach einer kurzen Recherche unter verschiedenen Jabber-Servern fiel die
+Wahl auf die Software <a class="reference external" href="http://prosody.im/">Prosody</a>, die nun auch auf
+<a class="reference external" href="https://blog.bakera.de/my-home-is-my-server.html">meinem
+Server</a> läuft.
+Eine <a class="reference external" href="https://xmpp.net/directory.php">Liste mit öffentlichen Servern</a>
+verrät, welche Software häufig zum Einsatz kommt und ermöglicht eine
+erste Einschätzung. Prosody ist leicht zu konfigurieren und
+ressourcenschonend im Betrieb. Wer zudem in die <a class="reference external" href="http://prosody.im/doc/developers/modules">Programmierung mit
+lua</a> einsteigen möchte,
+findet mit Prosody ein interessantes Projekt. Andere Server wie
+<em>ejabberd</em> habe ich nicht getestet und kann sie daher weder empfehlen
+noch von ihnen abraten. Ihr könnt mich nun unter der JabberID (JID)
+<em>marco&#64;jabber.bakera.de</em> erreichen - kontaktiert mich mal, wenn ihr eure
+eigene Konfiguration testen wollt.</p>
+<p>Kommen wir nun zur Installation und Konfiguration des Servers. Prosody
+ist mit <em>apt-get install prosody</em> schnell auf einem Debian-System
+installiert. Dann kann im Ordner <em>/etc/prosody</em> die Konfiguration
+erfolgen. Eine allgemeine Konfigurationsdatei liegt in&nbsp;<em>/etc/prosody</em>,
+die Konfigurationsdateien für einen oder mehrere Hosts liegen in
+<em>/etc/prosody/conf.avail</em>. Aktive Konfigurationen werden aus
+<em>/etc/prosody/conf.d</em> verlinkt und können so bequem aktiviert und
+deaktiviert werden.</p>
+<p>Der Server muss sich mit einem Zertifikat ausweisen, das jedoch leicht
+mit <em>prosodyctl cert generate jabber.bakera.de</em> generiert werden kann.
+Es wird ein selbst signiertes Zertifikat erstellt. Manche Clients
+meckern da ein wenig herum, weil es nicht von einer &quot;ordentlichen&quot; CA
+unterschrieben wurde. Meist muss man dies jedoch nur beim ersten Kontakt
+mit dem Server im Client bestätigen. Da ich der einzige Nutzer auf dem
+Jabber-Server bin, vertraue ich mir natürlich.</p>
+<p>Damit der Server von Außen erreichbar ist, habe ich eine neue Subdomain
+<em>jabber.bakera.de</em> im DNS eingetragen und in meiner Fritzbox die Ports
+5222 und 5269 auf meinen Server weitergeleitet. Port 5222 vermittelt die
+Kommunikation der Clients mit dem Server (c2s - client to server), Port
+5269 realisiert die Kommunikation zwischen verschiedenen Jabber-Servern
+(s2s - server to server).</p>
+<p>Einen ersten Hinweis darauf, ob alles korrekt läuft, liefert ein Test
+von <a class="reference external" href="https://xmpp.net/">xmpp.net</a> - bringt bei eigenen Versuchen
+etwas Geduld mit, da der Test einige Minuten dauern kann.</p>
+<p>Damit ist die Konfiguration auch schon fertig. Die einzelnen Module von
+prosody können jetzt noch separat konfiguriert werden. Die Dokumentation
+auf der Seite von prosody hilft hierbei weiter.</p>
+<p><img alt="Pidgin-chatsecure" class="alignnone size-full wp-image-1711" src="images/2015/04/Pidgin-chatsecure.png" style="width: 276px; height: 152px;" /></p>
+<p>Nachdem der Server nun steht, geht es an die Clients, die sich mit ihm
+verbinden sollen. Dafür habe ich auf dem Desktop
+<a class="reference external" href="https://pidgin.im/">pidgin</a> und auf meinem Handy
+<a class="reference external" href="https://chatsecure.org/">chatsecure</a> installiert. Pidgin kenne ich
+seit vielen Jahren. Es läuft unter Windows, Linux und Mac OS, hat viele
+Plugins und ist trotzdem nicht überladen. Auf dem Handy teste ich
+chatsecure, das eine einfache Bedienung verspricht und vom
+guardianproject unterstützt wird. Wer keinen zusätzlichen Client
+installieren möchte und sowieso schon Thunderbird installiert hat, kann
+auch <a class="reference external" href="https://support.mozilla.org/de/kb/sofortnachrichten-und-chat">diesen dafür
+verwenden</a>.
+Leider gibt es derzeit (Stand Mai 2015) keine Unterstützung für eine
+Verschlüsselung in Thunderbird Chat, obwohl eine
+<a class="reference external" href="https://bugzilla.mozilla.org/show_bug.cgi?id=954310">Anfrage</a> dafür
+seit mehreren Jahren diskutiert wird.</p>
+<p>Nun steht (m)einer freien und sicheren Kommunikation nichts mehr im
+Wege.</p>
+                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
 
-        </div>
-        <div class="col-sm-3" id="sidebar">
-            <aside>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
 
-<section class="well well-sm">
-    <ul class="list-group list-group-flush">
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
 
-
-
-
-
-    </ul>
-</section>            </aside>
-        </div>
-    </div>
-</div>
-<footer>
-   <div class="container">
-      <hr>
-      <div class="row">
-         <div class="col-xs-10">&copy; 2015 Marco Bakera
-            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
-            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
-            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
-         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
-      </div>
-   </div>
-</footer>
-<script src="https://blog.bakera.de/theme/js/jquery.min.js"></script>
-
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="https://blog.bakera.de/theme/js/bootstrap.min.js"></script>
-
-<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="https://blog.bakera.de/theme/js/respond.min.js"></script>
-
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
 
 </body>
 </html>
