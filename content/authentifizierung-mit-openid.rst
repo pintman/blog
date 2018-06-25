@@ -9,4 +9,5 @@ Authentifizierung mit OpenID
 Mit Hilfe von OpenID kann man sich bei verschiedenen Webdiensten
 authentifizieren lassen, ohne jedes mal ein neues Benutzerkonto anlegen
 zu müssen. Wie ihr dies sehr einfach auch für die eigene Domain
-hinbekommt, zeigt dieses Video.
+hinbekommt, zeigt 
+`dieser Link <http://www.bakera.de/dokuwiki/doku.php/schule/openid>`_.
