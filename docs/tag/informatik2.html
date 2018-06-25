@@ -1,47 +1,83 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-        <meta charset="utf-8" />
-        <title>/home/bakera/blog - Informatik</title>
-        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/main.css" />
-        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+    <title>Informatik - /home/bakera/blog</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+
+
+
+    <meta name="author" content="Marco Bakera" />
+    <meta name="keywords" content="Informatik" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="/home/bakera/blog" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="/home/bakera/blog"/>
+        <meta property="og:url" content="https://blog.bakera.de"/>
+        <meta property="og:description" content="/home/bakera/blog"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="https://blog.bakera.de/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://blog.bakera.de/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://blog.bakera.de/theme/css/style.css" type="text/css"/>
+
+        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="/home/bakera/blog ATOM Feed"/>
+
+
+
+
 </head>
+<body>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://blog.bakera.de/">/home/bakera/blog </a></h1>
-                <nav><ul>
-                    <li><a href="https://blog.bakera.de/pages/about.html">Über</a></li>
-                    <li><a href="https://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
-                    <li><a href="https://blog.bakera.de/pages/search.html">Suche</a></li>
-                    <li><a href="https://blog.bakera.de/pages/wiki.html">Wiki</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-
-                <section id="content" class="body">
-                    <ol id="posts-list" class="hfeed" start="9">
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/sha17-empfehlungen.html" rel="bookmark"
-                           title="Permalink to SHA17 - Empfehlungen">SHA17 - Empfehlungen</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2017-10-27T16:14:00+02:00">
-                Published: Fr 27 Oktober 2017
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/hardware.html">Hardware</a> <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> </p>
-</footer><!-- /.post-info -->                <p>Die <a class="reference external" href="https://sha2017.org/">SHA2017</a> ist ein Hackercamp und fand in
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://blog.bakera.de/" class="navbar-brand">
+/home/bakera/blog            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="https://blog.bakera.de/pages/impressum.html">
+                             Impressum, Datenschutz
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/search.html">
+                             Suche
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/wiki.html">
+                             Wiki
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/about.html">
+                             Über
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+            <article>
+                <h2><a href="https://blog.bakera.de/sha17-empfehlungen.html">SHA17 - Empfehlungen</a></h2>
+                <div class="summary"><p>Die <a class="reference external" href="https://sha2017.org/">SHA2017</a> ist ein Hackercamp und fand in
 diesem Jahr im August in den Niederlanden statt. Das Programm enthielt
 wieder ein paar interessante Vorträge. Foglende Vorträge haben mit
 besonders gut gefallen:</p>
@@ -51,56 +87,26 @@ you</a>
 Der ehemalige NSA Direktor Bill Binney berichtet über die Arbeit der
 NSA.</li>
 <li><a class="reference external" href="https://media.ccc.de/v/SHA2017-56-smart_home_security_with_tor">Smart home …</a></li></ul>
-                <a class="readmore" href="https://blog.bakera.de/sha17-empfehlungen.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/raspberry-pi-als-thin-client.html" rel="bookmark"
-                           title="Permalink to Raspberry Pi als Thin Client">Raspberry Pi als Thin Client</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2017-10-27T16:05:00+02:00">
-                Published: Fr 27 Oktober 2017
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/hardware.html">Hardware</a> <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/linux.html">Linux</a> </p>
-</footer><!-- /.post-info -->                <p>Ich überlege derzeit, RaspberryPis als ThinClient für die Einrichtung
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/sha17-empfehlungen.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/raspberry-pi-als-thin-client.html">Raspberry Pi als Thin Client</a></h2>
+                <div class="summary"><p>Ich überlege derzeit, RaspberryPis als ThinClient für die Einrichtung
 eines Rechnerraumes zu nutzen. Diese sollen sich dann auf einen
 Linux-Server verbinden und Standard-Anwendungen wie Browser, Office,
 Python-Umgebung etc. ausführen.</p>
 <p>Als Lösung habe ich an <a class="reference external" href="http://x2go.org/">x2go</a> für Client und Server
 gedacht, welches auch mit geringen Bandbreiten auskommt und evt. sogar
 eine …</p>
-                <a class="readmore" href="https://blog.bakera.de/raspberry-pi-als-thin-client.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/fizzbuzz-katas-programmieruebungen-fuer-das-fizzbuzz-problem.html" rel="bookmark"
-                           title="Permalink to FizzBuzz Katas - Programmierübungen für das FizzBuzz-Problem">FizzBuzz Katas - Programmierübungen für das FizzBuzz-Problem</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2017-04-18T11:45:00+02:00">
-                Published: Di 18 April 2017
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/bildung.html">Bildung</a> <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> </p>
-</footer><!-- /.post-info -->                <a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/pWtuV_a00zk?rel=0"><img alt="Youtube-Video" src="images/2018/06/pWtuV_a00zk.jpg" /></a>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/raspberry-pi-als-thin-client.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/fizzbuzz-katas-programmieruebungen-fuer-das-fizzbuzz-problem.html">FizzBuzz Katas - Programmierübungen für das FizzBuzz-Problem</a></h2>
+                <div class="summary"><a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/pWtuV_a00zk?rel=0"><img alt="Youtube-Video" src="images/2018/06/pWtuV_a00zk.jpg" /></a>
 <p>(Das Video bei
 <a class="reference external" href="https://archive.org/details/fizzbuzz_katas">archive.org</a>.)</p>
 <p>Bei dem FizzBuzz-Spiel werden die Zahlen von 1 bis 100 durchlaufen. Nun
@@ -109,54 +115,24 @@ können folgende Fälle eintreten:</p>
 <li>Wenn die Zahl durch 3 teilbar ist, wird „Fizz“ ausgegeben</li>
 <li>wenn sie durch 5 teilbar ist, wird „Buzz“ ausgegeben und</li>
 <li>wenn sie durch 3 und 5 teilbar ist, wird …</li></ul>
-                <a class="readmore" href="https://blog.bakera.de/fizzbuzz-katas-programmieruebungen-fuer-das-fizzbuzz-problem.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/tschuess-suse-hallo-mint.html" rel="bookmark"
-                           title="Permalink to Tschüss Suse, Hallo Mint">Tschüss Suse, Hallo Mint</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2017-04-12T09:06:00+02:00">
-                Published: Mi 12 April 2017
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/linux.html">Linux</a> </p>
-</footer><!-- /.post-info -->                <p>Nach mehreren Jahren steht wieder mal ein Wechsel an. Bisher hatte ich
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/fizzbuzz-katas-programmieruebungen-fuer-das-fizzbuzz-problem.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/tschuess-suse-hallo-mint.html">Tschüss Suse, Hallo Mint</a></h2>
+                <div class="summary"><p>Nach mehreren Jahren steht wieder mal ein Wechsel an. Bisher hatte ich
 immer gut mit OpenSuse gelebt, habe im Alltag jedoch viel mit
 Debian-basierten Systemen zu tun. Also habe ich eine neue Platte in den
 Rechner gesteckt und darauf ein Linux-Mint installiert. Die bisherige
 Suse wird als externes Laufwerk eingebunden …</p>
-                <a class="readmore" href="https://blog.bakera.de/tschuess-suse-hallo-mint.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/computer-sind-spannend-technik-macht-spass-bis-man-ein-schulfach-daraus-macht.html" rel="bookmark"
-                           title="Permalink to Computer sind spannend, Technik macht Spaß - bis man ein Schulfach daraus macht">Computer sind spannend, Technik macht Spaß - bis man ein Schulfach daraus macht</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2016-10-01T06:40:00+02:00">
-                Published: Sa 01 Oktober 2016
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/bildung.html">Bildung</a> <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> </p>
-</footer><!-- /.post-info -->                <div class="section" id="motivation">
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/tschuess-suse-hallo-mint.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/computer-sind-spannend-technik-macht-spass-bis-man-ein-schulfach-daraus-macht.html">Computer sind spannend, Technik macht Spaß - bis man ein Schulfach daraus macht</a></h2>
+                <div class="summary"><div class="section" id="motivation">
 <h2>Motivation</h2>
 <p>„<em>Computer sind spannend, Technik macht Spaß.“</em></p>
 <p>So denken viele Schülerinnen und Schüler, wenn sie die Ausbildung zum
@@ -165,28 +141,13 @@ sie von zu Hause und unterwegs – man verbindet viele schöne Stunden mit
 ihm.</p>
 <p>„<em>Computer sind spannend, Technik macht Spaß“ – bis man ein Schulfach
 daraus macht …</em></p></div>
-                <a class="readmore" href="https://blog.bakera.de/computer-sind-spannend-technik-macht-spass-bis-man-ein-schulfach-daraus-macht.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/micropython-auf-einem-esp8266.html" rel="bookmark"
-                           title="Permalink to Micropython auf einem ESP8266">Micropython auf einem ESP8266</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2016-08-25T15:44:00+02:00">
-                Published: Do 25 August 2016
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/hardware.html">Hardware</a> <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/python.html">Python</a> <a href="https://blog.bakera.de/tag/esp8266.html">ESP8266</a> </p>
-</footer><!-- /.post-info -->                <p><img alt="esp8266" class="alignnone size-full wp-image-1986" src="images/2016/08/esp8266.jpeg" style="width: 100%;" /></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/computer-sind-spannend-technik-macht-spass-bis-man-ein-schulfach-daraus-macht.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/micropython-auf-einem-esp8266.html">Micropython auf einem ESP8266</a></h2>
+                <div class="summary"><p><img alt="esp8266" class="alignnone size-full wp-image-1986" src="images/2016/08/esp8266.jpeg" style="width: 100%;" /></p>
 <p>Hinter <a class="reference external" href="https://micropython.org">Micropython</a> verbirgt sich eine
 Variante von Python, die auf Mikrocontroller zugeschnitten ist. Der
 <a class="reference external" href="http://www.mikrocontroller.net/articles/ESP8266">ESP8266</a> ist ein
@@ -194,28 +155,13 @@ recht günstiger (~4$) Baustein mit WLAN-Funktionen, für den jetzt eine
 Micropython-Firmware erschienen ist. Über das Development-Kit, das auf
 dem Bild zu sehen ist, verfügt der Baustein über einen USB-Anschluss,
 über den man mit …</p>
-                <a class="readmore" href="https://blog.bakera.de/micropython-auf-einem-esp8266.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/eine-oeffentliche-und-verteilte-bibliothek.html" rel="bookmark"
-                           title="Permalink to Eine öffentliche und verteilte Bibliothek">Eine öffentliche und verteilte Bibliothek</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2016-01-18T19:20:00+01:00">
-                Published: Mo 18 Januar 2016
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/bildung.html">Bildung</a> <a href="https://blog.bakera.de/tag/buch.html">Buch</a> <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> </p>
-</footer><!-- /.post-info -->                <p><img alt="book_2" class="alignright size-full wp-image-1949" src="images/2016/01/book_2.png" style="width: 128px; height: 128px;" />Der Vortrag <a class="reference external" href="https://media.ccc.de/v/32c3-7279-public_library_memory_of_the_world">Public Library/Memory of the World - Access to
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/micropython-auf-einem-esp8266.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/eine-oeffentliche-und-verteilte-bibliothek.html">Eine öffentliche und verteilte Bibliothek</a></h2>
+                <div class="summary"><p><img alt="book_2" class="alignright size-full wp-image-1949" src="images/2016/01/book_2.png" style="width: 128px; height: 128px;" />Der Vortrag <a class="reference external" href="https://media.ccc.de/v/32c3-7279-public_library_memory_of_the_world">Public Library/Memory of the World - Access to
 knowledge for every member of
 society</a>,
 der Ende letzten Jahres auf dem 32C3 gehalten wurde, lenkte mein
@@ -223,28 +169,13 @@ Interesse auf das Bibliotheksverwaltungsprogramm
 <a class="reference external" href="http://calibre-ebook.com/">Calibre</a>. Dieses Programm erlaubt die
 Verwaltung von Ebooks und auch physischen Büchern über eine einfache
 Oberfläche. Zudem kann es …</p>
-                <a class="readmore" href="https://blog.bakera.de/eine-oeffentliche-und-verteilte-bibliothek.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/das-usenet-nntp-server-und-kommunikationsprotokolle.html" rel="bookmark"
-                           title="Permalink to Das Usenet, NNTP-Server und Kommunikationsprotokolle">Das Usenet, NNTP-Server und Kommunikationsprotokolle</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2015-10-16T10:58:00+02:00">
-                Published: Fr 16 Oktober 2015
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/linux.html">Linux</a> <a href="https://blog.bakera.de/tag/inn.html">INN</a> <a href="https://blog.bakera.de/tag/newsgroup.html">Newsgroup</a> <a href="https://blog.bakera.de/tag/nntp.html">NNTP</a> <a href="https://blog.bakera.de/tag/server.html">Server</a> <a href="https://blog.bakera.de/tag/usenet.html">Usenet</a> </p>
-</footer><!-- /.post-info -->                <p><strong>Das Usenet ist eine alte doch immer noch interessante und lebendige
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/eine-oeffentliche-und-verteilte-bibliothek.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/das-usenet-nntp-server-und-kommunikationsprotokolle.html">Das Usenet, NNTP-Server und Kommunikationsprotokolle</a></h2>
+                <div class="summary"><p><strong>Das Usenet ist eine alte doch immer noch interessante und lebendige
 Institution des Internet - aus technischer, kultureller und auch
 historischer Sicht. Ich möchte mit euch eintauchen in diese Welt und sie
 als Nutzer und technisch Interessierter erkunden.</strong></p>
@@ -253,28 +184,13 @@ Emanzipation</a>
 schreitet voran: Nachdem ich <a class="reference external" href="https://blog.bakera.de/my-home-is-my-server.html">meinen
 Server</a> in die
 heimischen vier …</p>
-                <a class="readmore" href="https://blog.bakera.de/das-usenet-nntp-server-und-kommunikationsprotokolle.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/mediawiki-unter-docker.html" rel="bookmark"
-                           title="Permalink to Mediawiki unter docker">Mediawiki unter docker</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2015-08-12T15:31:00+02:00">
-                Published: Mi 12 August 2015
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/linux.html">Linux</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> <a href="https://blog.bakera.de/tag/debian.html">debian</a> <a href="https://blog.bakera.de/tag/docker.html">docker</a> <a href="https://blog.bakera.de/tag/ubuntu.html">ubuntu</a> </p>
-</footer><!-- /.post-info -->                <p>Mit docker lassen sich schnell und einfach virtuelle Maschine betreiben,
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/das-usenet-nntp-server-und-kommunikationsprotokolle.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/mediawiki-unter-docker.html">Mediawiki unter docker</a></h2>
+                <div class="summary"><p>Mit docker lassen sich schnell und einfach virtuelle Maschine betreiben,
 die Serverdienste wie ein Wiki bereitstellen. An einer
 Beispielinstallation eines Mediawikis zeige ich, wie das funktionieren
 kann.</p>
@@ -283,60 +199,89 @@ kann.</p>
 <div class="line-block">
 <div class="line">apt-get update</div>
 <div class="line">apt-get …</div></div>
-                <a class="readmore" href="https://blog.bakera.de/mediawiki-unter-docker.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/rest-in-15-minuten.html" rel="bookmark"
-                           title="Permalink to REST in 15 Minuten">REST in 15 Minuten</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2015-07-16T09:12:00+02:00">
-                Published: Do 16 Juli 2015
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/python.html">Python</a> </p>
-</footer><!-- /.post-info -->                <p>Was ist REST? Wie kann ich das einsetzen? Ist das kompliziert? Ich habe
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/mediawiki-unter-docker.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/rest-in-15-minuten.html">REST in 15 Minuten</a></h2>
+                <div class="summary"><p>Was ist REST? Wie kann ich das einsetzen? Ist das kompliziert? Ich habe
 einen Beispielservice in Python erstellt und in dem Artikel <a class="reference external" href="https://www.bakera.de/dokuwiki/doku.php/schule/rest_in_15_minuten">REST in 15
 Minuten</a>
 beschrieben. Im unteren Teil wird der Service mit cURL als Client
 verwendet.</p>
 
-                <a class="readmore" href="https://blog.bakera.de/rest-in-15-minuten.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-<p class="paginator">
-        <a href="https://blog.bakera.de/tag/informatik.html">&laquo;</a>
-    Page 2 / 12
-        <a href="https://blog.bakera.de/tag/informatik3.html">&raquo;</a>
-</p>
-                </section><!-- /#content -->
-        <section id="extras" class="body">
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/rest-in-15-minuten.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
 
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+        <ul class="pagination">
+                <li class="prev"><a href="https://blog.bakera.de/tag/informatik.html">&laquo;</a>
+                </li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik.html">1</a></li>
+                    <li class="active"><a
+                            href="https://blog.bakera.de/tag/informatik2.html">2</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik3.html">3</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik4.html">4</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik5.html">5</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik6.html">6</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik7.html">7</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik8.html">8</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik9.html">9</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik10.html">10</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik11.html">11</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik12.html">12</a></li>
+                <li class="next"><a
+                        href="https://blog.bakera.de/tag/informatik3.html">&raquo;</a></li>
+        </ul>
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+
+
+
+
+    </ul>
+</section>            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2018 Marco Bakera
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="https://blog.bakera.de/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://blog.bakera.de/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="https://blog.bakera.de/theme/js/respond.min.js"></script>
+
 
 </body>
 </html>

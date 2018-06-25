@@ -1,41 +1,83 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-        <meta charset="utf-8" />
-        <title>/home/bakera/blog - HP35s</title>
-        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/main.css" />
-        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+    <title>HP35s - /home/bakera/blog</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+
+
+
+    <meta name="author" content="Marco Bakera" />
+    <meta name="keywords" content="HP35s" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="/home/bakera/blog" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="/home/bakera/blog"/>
+        <meta property="og:url" content="https://blog.bakera.de"/>
+        <meta property="og:description" content="/home/bakera/blog"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="https://blog.bakera.de/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://blog.bakera.de/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://blog.bakera.de/theme/css/style.css" type="text/css"/>
+
+        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="/home/bakera/blog ATOM Feed"/>
+
+
+
+
 </head>
+<body>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://blog.bakera.de/">/home/bakera/blog </a></h1>
-                <nav><ul>
-                    <li><a href="https://blog.bakera.de/pages/about.html">Über</a></li>
-                    <li><a href="https://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
-                    <li><a href="https://blog.bakera.de/pages/search.html">Suche</a></li>
-                    <li><a href="https://blog.bakera.de/pages/wiki.html">Wiki</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="https://blog.bakera.de/algorithmus-zum-berechnen-einer-quadratwurzel.html">Algorithmus zum Berechnen einer Quadratwurzel</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2014-06-21T10:47:00+02:00">
-                Published: Sa 21 Juni 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/mathe.html">Mathe</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/hp35s.html">HP35s</a> <a href="https://blog.bakera.de/tag/taschenrechner.html">Taschenrechner</a> </p>
-</footer><!-- /.post-info --><p><img alt="(cc) Stefan Vorkoetter" class="size-full wp-image-1143" src="images/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /></p>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://blog.bakera.de/" class="navbar-brand">
+/home/bakera/blog            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="https://blog.bakera.de/pages/impressum.html">
+                             Impressum, Datenschutz
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/search.html">
+                             Suche
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/wiki.html">
+                             Wiki
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/about.html">
+                             Über
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+            <article>
+                <h2><a href="https://blog.bakera.de/algorithmus-zum-berechnen-einer-quadratwurzel.html">Algorithmus zum Berechnen einer Quadratwurzel</a></h2>
+                <div class="summary"><p><img alt="(cc) Stefan Vorkoetter" class="size-full wp-image-1143" src="images/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /></p>
 <ol class="lowerroman simple" start="200">
 <li>Stefan Vorkoetter</li>
 </ol>
@@ -44,55 +86,14 @@
 natürlich eine Taste zum Berechnen der Wurzel. Aber wir wollen mal
 schauen, ob wir die Wurzel nicht auch selbst programmieren können. Dazu
 gibt es einen einfachen Algorithmus, der mit einer Schätzung g (=guess)
-beginnt und diese immer weiter verfeinert. Für die Wurzel aus der Zahl w
-funktioniert der Algorithmus wie folgt.</p>
-<pre class="literal-block">
-g = w + 1
-while abs(w - g*g) &gt; 0.00001:
-  g = (g + w/g) / 2
-  print(g)
-</pre>
-<p>Mit 0.00001 geben wir die Genauigkeit an, die wir von unserer Schätzung
-erwarten. Für den HP 35s sieht das Programm folgendermaßen aus.</p>
-<pre class="literal-block">
-W001 LBL W
-W002 STO W
-W003 W+1
-W004 STO W
-W005 (G+W÷G)÷2
-W006 STO G
-W007 0.00001
-W008 ABS(G^2-W)
-W009 x&gt;y?
-W010 GTO W005
-W011 RCL G
-W012 RTN
-</pre>
-                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/animationen-auf-dem-hp35s.html" rel="bookmark"
-                           title="Permalink to Animationen auf dem HP 35s">Animationen auf dem HP 35s</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-06-20T12:49:00+02:00">
-                Published: Fr 20 Juni 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/mathe.html">Mathe</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> <a href="https://blog.bakera.de/tag/hp35s.html">HP35s</a> <a href="https://blog.bakera.de/tag/taschenrechner.html">Taschenrechner</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="http://www.bakera.de/dokuwiki/lib/exe/detail.php/schule/hp35sanimation.gif?id=schule%3Ahp_35s"><img alt="image0" class="media" src="http://www.bakera.de/dokuwiki/lib/exe/fetch.php/schule/hp35sanimation.gif" /></a></p>
+beginnt und diese immer weiter verfeinert. Für die Wurzel aus …</p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/algorithmus-zum-berechnen-einer-quadratwurzel.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/animationen-auf-dem-hp35s.html">Animationen auf dem HP 35s</a></h2>
+                <div class="summary"><p><a class="reference external" href="http://www.bakera.de/dokuwiki/lib/exe/detail.php/schule/hp35sanimation.gif?id=schule%3Ahp_35s"><img alt="image0" class="media" src="http://www.bakera.de/dokuwiki/lib/exe/fetch.php/schule/hp35sanimation.gif" /></a></p>
 <p>Mit etwas Fingerspitzengefühl lassen sich dem <a class="reference external" href="http://www.bakera.de/dokuwiki/doku.php/schule/hp_35s">HP
 35s</a> einfache
 Animationen entlocken. Dafür nutzt man die <a class="reference external" href="https://blog.bakera.de/hallo-welt-hp35s.html">Möglichkeit, beliebige
@@ -101,28 +102,13 @@ anzuzeigen</a>. Den
 Quelltext und auch das laufende Programm könnt ihr im Video sehen.</p>
 <a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/1gbubP8uCdI?rel=0"><img alt="Youtube-Video" src="images/2018/06/1gbubP8uCdI.jpg" /></a>
 
-                <a class="readmore" href="https://blog.bakera.de/animationen-auf-dem-hp35s.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/hallo-welt-hp35s.html" rel="bookmark"
-                           title="Permalink to "Hallo Welt" HP 35s">&quot;Hallo Welt&quot; HP 35s</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-06-19T14:03:00+02:00">
-                Published: Do 19 Juni 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/mathe.html">Mathe</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/hp35s.html">HP35s</a> <a href="https://blog.bakera.de/tag/taschenrechner.html">Taschenrechner</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2014/06/hp35s-oben.jpeg"><img alt="(cc) Stefan Vorkoetter" class="size-full wp-image-1143" src="images/2014/06/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /></a></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/animationen-auf-dem-hp35s.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/hallo-welt-hp35s.html">&quot;Hallo Welt&quot; HP 35s</a></h2>
+                <div class="summary"><p><a class="reference external" href="images/2014/06/hp35s-oben.jpeg"><img alt="(cc) Stefan Vorkoetter" class="size-full wp-image-1143" src="images/2014/06/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /></a></p>
 <ol class="lowerroman simple" start="200">
 <li>Stefan Vorkoetter</li>
 </ol>
@@ -137,28 +123,13 @@ ausgewertet. Das können wir für ein einfaches „Hallo-Welt“-Programm
 nutzen.</p>
 <pre class="literal-block">
 A001  LBL A …</pre>
-                <a class="readmore" href="https://blog.bakera.de/hallo-welt-hp35s.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/erste-programme-fuer-den-hp35s.html" rel="bookmark"
-                           title="Permalink to Erste Programme für den HP 35s">Erste Programme für den HP 35s</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-06-14T12:16:00+02:00">
-                Published: Sa 14 Juni 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/mathe.html">Mathe</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/hp35s.html">HP35s</a> <a href="https://blog.bakera.de/tag/taschenrechner.html">Taschenrechner</a> </p>
-</footer><!-- /.post-info -->                <p><img alt="cc: Stefan Vorkoetter" class="size-full wp-image-1143" src="images/2014/06/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/hallo-welt-hp35s.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/erste-programme-fuer-den-hp35s.html">Erste Programme für den HP 35s</a></h2>
+                <div class="summary"><p><img alt="cc: Stefan Vorkoetter" class="size-full wp-image-1143" src="images/2014/06/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /></p>
 <p>cc: Stefan Vorkoetter</p>
 <p>Erst <a class="reference external" href="https://blog.bakera.de/bakera-packt-aus-einen-hp35s.html">kürzlich habe ich einen neuen Taschenrechner
 erhalten</a>
@@ -172,28 +143,13 @@ IHK-Schlüssels.</p>
 <pre class="code literal-block">
 I001 LBL I
 I002 STO P …</pre></div></div>
-                <a class="readmore" href="https://blog.bakera.de/erste-programme-fuer-den-hp35s.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/bakera-packt-aus-einen-hp35s.html" rel="bookmark"
-                           title="Permalink to Bakera packt aus: einen HP 35s">Bakera packt aus: einen HP 35s</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-06-13T10:16:00+02:00">
-                Published: Fr 13 Juni 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/mathe.html">Mathe</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> <a href="https://blog.bakera.de/tag/hp.html">HP</a> <a href="https://blog.bakera.de/tag/hp35s.html">HP35s</a> <a href="https://blog.bakera.de/tag/taschenrechner.html">Taschenrechner</a> </p>
-</footer><!-- /.post-info -->                <p><img alt="cc: Stefan Vorkoetter" class="size-medium wp-image-1139" src="images/hp35s-165x300b.jpg" style="width: 165px; height: 300px;" /></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/erste-programme-fuer-den-hp35s.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/bakera-packt-aus-einen-hp35s.html">Bakera packt aus: einen HP 35s</a></h2>
+                <div class="summary"><p><img alt="cc: Stefan Vorkoetter" class="size-medium wp-image-1139" src="images/hp35s-165x300b.jpg" style="width: 165px; height: 300px;" /></p>
 <p>cc: Stefan Vorkoetter</p>
 <p>Die Unsitte, sich über Dinge zu freuen und durch ein Auspackvideo zu
 dokumentieren, habe ich noch nie verstanden. Deshalb habe ich selbst ein
@@ -202,28 +158,47 @@ macht.</p>
 <a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/i_NRUgqOB0w?rel=0"><img alt="Youtube-Video" src="images/2018/06/i_NRUgqOB0w.jpg" /></a>
 <p>Als Mathenerd packe ich natürlich einen Taschenrechner aus: den
 <a class="reference external" href="https://de.wikipedia.org/wiki/HP_35s">HP35s</a>. Einen …</p>
-                <a class="readmore" href="https://blog.bakera.de/bakera-packt-aus-einen-hp35s.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-                </section><!-- /#content -->
-        <section id="extras" class="body">
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/bakera-packt-aus-einen-hp35s.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
 
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+
+
+
+
+    </ul>
+</section>            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2014 Marco Bakera
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="https://blog.bakera.de/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://blog.bakera.de/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="https://blog.bakera.de/theme/js/respond.min.js"></script>
+
 
 </body>
 </html>

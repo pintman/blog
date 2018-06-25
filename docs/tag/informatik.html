@@ -1,109 +1,94 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-        <meta charset="utf-8" />
-        <title>/home/bakera/blog - Informatik</title>
-        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/main.css" />
-        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+    <title>Informatik - /home/bakera/blog</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+
+
+
+    <meta name="author" content="Marco Bakera" />
+    <meta name="keywords" content="Informatik" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="/home/bakera/blog" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="/home/bakera/blog"/>
+        <meta property="og:url" content="https://blog.bakera.de"/>
+        <meta property="og:description" content="/home/bakera/blog"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="https://blog.bakera.de/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://blog.bakera.de/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://blog.bakera.de/theme/css/style.css" type="text/css"/>
+
+        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="/home/bakera/blog ATOM Feed"/>
+
+
+
+
 </head>
+<body>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://blog.bakera.de/">/home/bakera/blog </a></h1>
-                <nav><ul>
-                    <li><a href="https://blog.bakera.de/pages/about.html">Über</a></li>
-                    <li><a href="https://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
-                    <li><a href="https://blog.bakera.de/pages/search.html">Suche</a></li>
-                    <li><a href="https://blog.bakera.de/pages/wiki.html">Wiki</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="https://blog.bakera.de/ci-cd-mit-gitlab.html">CI/CD mit Gitlab</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2018-03-23T18:08:00+01:00">
-                Published: Fr 23 März 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/python.html">Python</a> </p>
-</footer><!-- /.post-info --><p><a class="reference external" href="http://gitlab.com/">Gitlab</a> ist neben github eine der großen
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://blog.bakera.de/" class="navbar-brand">
+/home/bakera/blog            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="https://blog.bakera.de/pages/impressum.html">
+                             Impressum, Datenschutz
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/search.html">
+                             Suche
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/wiki.html">
+                             Wiki
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/about.html">
+                             Über
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+            <article>
+                <h2><a href="https://blog.bakera.de/ci-cd-mit-gitlab.html">CI/CD mit Gitlab</a></h2>
+                <div class="summary"><p><a class="reference external" href="http://gitlab.com/">Gitlab</a> ist neben github eine der großen
 Plattformen für Softwareentwickler, um Quelltext in Git-Repos zu
 verwalten. Mir hat immer gut gefallen, dass die Plattform keine Probleme
 mit privaten Repos hat - github stellt sich etwas an und möchte hier nur
-ein privates Repo pro Nutzer kostenlos zur Verfügung stellen. Auch die
-<a class="reference external" href="https://tosdr.org/#github">Terms of Service</a> von github bereiten mir
-zunehmend Bauchschmerzen. Hinzu kommt, dass sich github nicht auf
-eigener Infrastruktur hosten lässt. Gitlab dagegen bietet eine mächtige
-<a class="reference external" href="https://about.gitlab.com/installation/">Community-Edition</a> an. Das
-Projekt <a class="reference external" href="https://edugit.org/">edugit</a> des Teckids e.V. ist ein
-Vorstoß in die Richtung, diesen Dienst datenschutzkonform auch im
-Bildungsbereich in Deutschland anbieten zu können.</p>
-<p>Zurück zu den Vorzügen von Gitlab. Ein tolles mir neues Feature sind
-sogenannte Runner. Das sind virtuelle Maschinen, Rechner oder
-Docker-Container, die meinen Quelltext automatisch prüfen können. Dieses
-Feature heißt CI/CD (für Continuous Integration/Continuous Delivery) und
-wird durch die Datei <em>.gitlab-ci.yml</em> konfiguriert. Ein Beispiel, das
-einen Pythontest in einem Python-Container auf alpine-Basis ausführt,
-sieht so aus.</p>
-<pre class="literal-block">
-image: python:alpine  # Das Basisimage des Containers
-
-before_script:  # Wird vor jedem Task ausgeführt
- - echo nothing to do
-
-tests:    # Ein Task mit Namen 'tests'
- script:  # Das Script hat mehrere Befehle
- - find ex.py test.py
- - python3 test.py
- - python3 -m doctest ex.py
-</pre>
-<p>Sobald nun Quelltext in das Repo gepusht wird, läuft ein sogenannter
-Runner und führt die Tasks einzeln aus. Gitlab selbst stellt auf seiner
-Plattform verschiedene Runner zur Verfügung, die von Digital Ocean
-gesponsert werden und in ihrer Laufzeit auf generöse 2000 CPU-Minuten
-pro Monat und User beschränkt sind. Wem das nicht reicht, der kann auch
-selbst einen <a class="reference external" href="https://docs.gitlab.com/runner/install/">Runner bei sich
-installieren</a>, laufen lassen
-und darin die Tests ausführen. Wem Gitlab nicht behagt, der kann auch
-einen Runner mit <a class="reference external" href="http://docs.drone.io">drone.io</a> betreiben. Diese
-haben den Vorzug, nicht auf Gitlab beschränkt zu sein und integrieren
-sich auch in andere Plattformen wie etwa
-<a class="reference external" href="https://github.com">github</a>, <a class="reference external" href="http://gitea.io/">gitea</a> oder
-<a class="reference external" href="https://gogs.io/">gogs</a>.</p>
-                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/minigamejam-3-gebar-die-starfeetacademy.html" rel="bookmark"
-                           title="Permalink to MiniGameJam #3 gebar die StarFeetAcademy">MiniGameJam #3 gebar die StarFeetAcademy</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2018-03-03T12:21:00+01:00">
-                Published: Sa 03 März 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/spass.html">Spaß</a> <a href="https://blog.bakera.de/tag/spiele.html">Spiele</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2018/02/starfeet-768x1024.jpg"><img alt="image0" class="alignnone size-large wp-image-2249" src="images/2018/02/starfeet-768x1024.jpg" style="width: 625px; height: 833px;" /></a></p>
+ein privates Repo pro Nutzer kostenlos zur Verfügung stellen. Auch die …</p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/ci-cd-mit-gitlab.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/minigamejam-3-gebar-die-starfeetacademy.html">MiniGameJam #3 gebar die StarFeetAcademy</a></h2>
+                <div class="summary"><p><a class="reference external" href="images/2018/02/starfeet-768x1024.jpg"><img alt="image0" class="alignnone size-large wp-image-2249" src="images/2018/02/starfeet-768x1024.jpg" style="width: 625px; height: 833px;" /></a></p>
 <p>Am Samstag, dem 10.2. ging der <a class="reference external" href="https://game-jam-do.de/">Mini Game Jam
 Dortmund</a> in die <a class="reference external" href="https://www.meetup.com/de-DE/Game-Developers-Dortmund/events/244182120/">dritte
 Runde</a>.
@@ -111,28 +96,13 @@ Wieder mussten Spielentwickler (Profis, Amateure und Dilettanten) an
 einem Tag in 8 Stunden ein Spiel erdenken und umsetzen. Es war das
 zweite mal, dass ich daran teilgenommen habe. Die Organisation war
 wieder einmal klasse und …</p>
-                <a class="readmore" href="https://blog.bakera.de/minigamejam-3-gebar-die-starfeetacademy.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/patterns-und-anitpatterns.html" rel="bookmark"
-                           title="Permalink to Patterns und Antipatterns">Patterns und Antipatterns</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2018-01-04T10:36:00+01:00">
-                Published: Do 04 Januar 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> <a href="https://blog.bakera.de/tag/34c3.html">34c3</a> </p>
-</footer><!-- /.post-info -->                <p>In dem Vortrag <a class="reference external" href="https://media.ccc.de/v/34c3-9095-antipatterns_und_missverstandnisse_in_der_softwareentwicklung">Antipatterns und Missverständnisse in der
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/minigamejam-3-gebar-die-starfeetacademy.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/patterns-und-anitpatterns.html">Patterns und Antipatterns</a></h2>
+                <div class="summary"><p>In dem Vortrag <a class="reference external" href="https://media.ccc.de/v/34c3-9095-antipatterns_und_missverstandnisse_in_der_softwareentwicklung">Antipatterns und Missverständnisse in der
 Softwareentwicklung - Eine Geschichte voller
 Missverständnisse</a>
 spricht fefe über Patterns und insbesondere auch Anti-Patterns aus der
@@ -140,28 +110,13 @@ Sicht von Softwareentwicklern und devOps. Unterhaltsam, kurzweilig, mit
 einem breiten Themenspektrum und vielen Anekdoten und konkreten
 Beispielen aus der Praxis gespickt. Sehenswert.</p>
 
-                <a class="readmore" href="https://blog.bakera.de/patterns-und-anitpatterns.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/34c3-pad.html" rel="bookmark"
-                           title="Permalink to 34c3 Pad">34c3 Pad</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2018-01-03T12:20:00+01:00">
-                Published: Mi 03 Januar 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/34c3.html">34c3</a> </p>
-</footer><!-- /.post-info -->                <p>Während des Congresses haben mich folgende Notizen in einem Pad
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/patterns-und-anitpatterns.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/34c3-pad.html">34c3 Pad</a></h2>
+                <div class="summary"><p>Während des Congresses haben mich folgende Notizen in einem Pad
 begleitet. Als Erinnerung an mich veröffentliche ich sie an dieser
 Stelle.</p>
 <div id="magicdomid2"><p><strong>Alle Events</strong>
@@ -169,111 +124,51 @@ Stelle.</p>
 </div><div id="magicdomid3"></div><div id="magicdomid4"><p>-Pi Laptop<a class="reference external" href="https://github.com/sarah314/SpyPi">https://github.com/sarah314/SpyPi</a></p>
 </div><div id="magicdomid5"><p>-CTF Holiday hack challenge<a class="reference external" href="https://holidayhackchallenge.com/2017/">https://holidayhackchallenge.com/2017/</a></p>
 </div><div id="magicdomid6"><p>-Gameboy …</p></div>
-                <a class="readmore" href="https://blog.bakera.de/34c3-pad.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/eindruecke-vom-34c3.html" rel="bookmark"
-                           title="Permalink to Eindrücke vom 34c3">Eindrücke vom 34c3</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2018-01-03T10:10:00+01:00">
-                Published: Mi 03 Januar 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/34c3.html">34c3</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2018/01/IMG_20171227_080203117.jpg"><img alt="image0" class="alignnone wp-image-2166" src="images/2018/01/IMG_20171227_080203117-300x169.jpg" style="width: 412px; height: 232px;" /></a></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/34c3-pad.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/eindruecke-vom-34c3.html">Eindrücke vom 34c3</a></h2>
+                <div class="summary"><p><a class="reference external" href="images/2018/01/IMG_20171227_080203117.jpg"><img alt="image0" class="alignnone wp-image-2166" src="images/2018/01/IMG_20171227_080203117-300x169.jpg" style="width: 412px; height: 232px;" /></a></p>
 <p>Der 34C3 ist nun vorbei und die ersten Eindrücke der Veranstaltung sind
 gemischt aber überwiegend positiv. Nach dem Umzug von Hamburg im letzten
 nach Leipzig in diesem Jahr war zu erwarten, dass der neue Ort Risiken
 und Chancen bieten würde. Die Hallen waren sehr groß und ließen für
 meinen Geschmack …</p>
-                <a class="readmore" href="https://blog.bakera.de/eindruecke-vom-34c3.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/mailboxen-fidonetz-und-netzwerke-der-90er-jahre.html" rel="bookmark"
-                           title="Permalink to Mailboxen, Fidonetz und Netzwerke der 90er Jahre">Mailboxen, Fidonetz und Netzwerke der 90er Jahre</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2018-01-02T15:14:00+01:00">
-                Published: Di 02 Januar 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/gesellschaft.html">Gesellschaft</a> <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/34c3.html">34c3</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2018/01/Screenshot-2018-1-2-BBSs-and-early-Internet-access-in-the-1990ies.png"><img alt="image0" class="alignnone size-full wp-image-2174" src="images/2018/01/Screenshot-2018-1-2-BBSs-and-early-Internet-access-in-the-1990ies.png" style="width: 661px; height: 423px;" /></a></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/eindruecke-vom-34c3.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/mailboxen-fidonetz-und-netzwerke-der-90er-jahre.html">Mailboxen, Fidonetz und Netzwerke der 90er Jahre</a></h2>
+                <div class="summary"><p><a class="reference external" href="images/2018/01/Screenshot-2018-1-2-BBSs-and-early-Internet-access-in-the-1990ies.png"><img alt="image0" class="alignnone size-full wp-image-2174" src="images/2018/01/Screenshot-2018-1-2-BBSs-and-early-Internet-access-in-the-1990ies.png" style="width: 661px; height: 423px;" /></a></p>
 <p>Auf dem 34C3 gab es den interessanten Vortrag <a class="reference external" href="https://media.ccc.de/v/34c3-9034-bbss_and_early_internet_access_in_the_1990ies">BBSs and early Internet
 access in the 1990ies - Modems, FIDO, Z-Netz, Usenet, UUCP, SLIP and
 ISDN</a>.
 Harald Welte erzählt aus persönlichen Erfahrungen über die frühe Zeit
 der Modems und Akkustikkoppler der Pre-Internet-Ära. Er erklärt die
 frühen &quot;Mail&quot;-Programme wie CrossPoint und sinniert …</p>
-                <a class="readmore" href="https://blog.bakera.de/mailboxen-fidonetz-und-netzwerke-der-90er-jahre.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/ctf-kreuzwortraetsel-fuer-nerds.html" rel="bookmark"
-                           title="Permalink to CTF - Kreuzworträtsel für Nerds">CTF - Kreuzworträtsel für Nerds</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2018-01-02T09:50:00+01:00">
-                Published: Di 02 Januar 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/34c3.html">34c3</a> <a href="https://blog.bakera.de/tag/hacking.html">hacking</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2018/01/Racing_Flag_Blue-800px.png"><img alt="image0" class="alignnone size-medium wp-image-2157" src="images/2018/01/Racing_Flag_Blue-800px-300x288.png" style="width: 300px; height: 288px;" /></a></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/mailboxen-fidonetz-und-netzwerke-der-90er-jahre.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/ctf-kreuzwortraetsel-fuer-nerds.html">CTF - Kreuzworträtsel für Nerds</a></h2>
+                <div class="summary"><p><a class="reference external" href="images/2018/01/Racing_Flag_Blue-800px.png"><img alt="image0" class="alignnone size-medium wp-image-2157" src="images/2018/01/Racing_Flag_Blue-800px-300x288.png" style="width: 300px; height: 288px;" /></a></p>
 <p>CTF ist eine Abkürzung für &quot;Capture the Flag&quot;. Auf dem Chaos
 Communication Congress wird eine solche Veranstaltung traditionell immer
 am Ende des Jahres durchgeführt. In diesem Jahr habe ich mich erstmals
 auch bei der <a class="reference external" href="http://junior.34c3ctf.ccc.ac/">Junior-Version</a>
 beteiligt und in einem kleinen Team versucht, verschiedene Aufgaben aus
 den folgenden Bereichen zu lösen …</p>
-                <a class="readmore" href="https://blog.bakera.de/ctf-kreuzwortraetsel-fuer-nerds.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/34c3-packliste.html" rel="bookmark"
-                           title="Permalink to 34C3 Packliste">34C3 Packliste</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2017-12-24T14:10:00+01:00">
-                Published: So 24 Dezember 2017
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/kunst.html">Kunst</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/spass.html">Spaß</a> <a href="https://blog.bakera.de/tag/34c3.html">34c3</a> </p>
-</footer><!-- /.post-info -->                <p><img alt="image0" class="alignnone size-full wp-image-2147" src="images/34c3-tuwat.png" style="width: 289px; height: 168px;" /></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/ctf-kreuzwortraetsel-fuer-nerds.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/34c3-packliste.html">34C3 Packliste</a></h2>
+                <div class="summary"><p><img alt="image0" class="alignnone size-full wp-image-2147" src="images/34c3-tuwat.png" style="width: 289px; height: 168px;" /></p>
 <p>Das wichtigste für den Congress in Leipzig - neben unwesentlichen Dingen
 wie einer Unterhose oder Zahnbürste.</p>
 <ul class="simple">
@@ -297,28 +192,13 @@ wie einer Unterhose oder Zahnbürste.</p>
 <li>Pegelwandler</li>
 </ul>
 
-                <a class="readmore" href="https://blog.bakera.de/34c3-packliste.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/charset-encoding-font.html" rel="bookmark"
-                           title="Permalink to Charset - Encoding - Font">Charset - Encoding - Font</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2017-12-09T10:46:00+01:00">
-                Published: Sa 09 Dezember 2017
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> </p>
-</footer><!-- /.post-info -->                <p>Immer wieder komme ich mit den Begrifflichkeiten Zeichensatz
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/34c3-packliste.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/charset-encoding-font.html">Charset - Encoding - Font</a></h2>
+                <div class="summary"><p>Immer wieder komme ich mit den Begrifflichkeiten Zeichensatz
 (Characterset), Zeichkodierung (Encoding) und Schriftart (Font)
 durcheinander. Damit scheine ich nicht alleine zu sein. Das Chaosseminar
 Ulm hat daher einen
@@ -327,60 +207,89 @@ mit dem gleichen Titel veröffentlicht, der die Begrifft erklärt.</p>
 <ul class="simple">
 <li><em>Font</em>: Schriftzeichen, die auf einem Bildschirm oder Papier
 ausgegeben werden - &quot;das, was …</li></ul>
-                <a class="readmore" href="https://blog.bakera.de/charset-encoding-font.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/ein-eigener-pypi-server.html" rel="bookmark"
-                           title="Permalink to Ein eigener PyPI-Server">Ein eigener PyPI-Server</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2017-11-20T20:23:00+01:00">
-                Published: Mo 20 November 2017
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/python.html">Python</a> </p>
-</footer><!-- /.post-info -->                <p>Der Python Package Index - kurz PyPI - ist die zentrale Anlaufstelle für
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/charset-encoding-font.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/ein-eigener-pypi-server.html">Ein eigener PyPI-Server</a></h2>
+                <div class="summary"><p>Der Python Package Index - kurz PyPI - ist die zentrale Anlaufstelle für
 die Installation von Pythonpaketen. Wenn das Internet mal streikt, der
 Dienst nicht verfügbar oder nur schlecht erreichbar ist, lohnt sich der
 Blick auf das Paket
 <a class="reference external" href="https://pypi.python.org/pypi/pypiserver">pypiserver</a>. Der Server
 wird mit <tt class="docutils literal">pip install pypiserver</tt> installiert und kann anschließend
 mit <tt class="docutils literal"><span class="pre">pypi-server …</span></tt></p>
-                <a class="readmore" href="https://blog.bakera.de/ein-eigener-pypi-server.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-<p class="paginator">
-    Page 1 / 12
-        <a href="https://blog.bakera.de/tag/informatik2.html">&raquo;</a>
-</p>
-                </section><!-- /#content -->
-        <section id="extras" class="body">
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/ein-eigener-pypi-server.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
 
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+        <ul class="pagination">
+                <li class="prev disabled"><a href="#">&laquo;</a></li>
+                    <li class="active"><a
+                            href="https://blog.bakera.de/tag/informatik.html">1</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik2.html">2</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik3.html">3</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik4.html">4</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik5.html">5</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik6.html">6</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik7.html">7</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik8.html">8</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik9.html">9</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik10.html">10</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik11.html">11</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/informatik12.html">12</a></li>
+                <li class="next"><a
+                        href="https://blog.bakera.de/tag/informatik2.html">&raquo;</a></li>
+        </ul>
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+
+
+
+
+    </ul>
+</section>            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2018 Marco Bakera
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="https://blog.bakera.de/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://blog.bakera.de/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="https://blog.bakera.de/theme/js/respond.min.js"></script>
+
 
 </body>
 </html>

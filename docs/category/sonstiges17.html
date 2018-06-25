@@ -1,47 +1,83 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-        <meta charset="utf-8" />
-        <title>/home/bakera/blog - Sonstiges</title>
-        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/main.css" />
-        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+    <title>Sonstiges - /home/bakera/blog</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+
+
+
+    <meta name="author" content="Marco Bakera" />
+    <meta name="keywords" content="Sonstiges" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="/home/bakera/blog" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="/home/bakera/blog"/>
+        <meta property="og:url" content="https://blog.bakera.de"/>
+        <meta property="og:description" content="/home/bakera/blog"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="https://blog.bakera.de/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://blog.bakera.de/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://blog.bakera.de/theme/css/style.css" type="text/css"/>
+
+        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="/home/bakera/blog ATOM Feed"/>
+
+
+
+
 </head>
+<body>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://blog.bakera.de/">/home/bakera/blog </a></h1>
-                <nav><ul>
-                    <li><a href="https://blog.bakera.de/pages/about.html">Über</a></li>
-                    <li><a href="https://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
-                    <li><a href="https://blog.bakera.de/pages/search.html">Suche</a></li>
-                    <li><a href="https://blog.bakera.de/pages/wiki.html">Wiki</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-
-                <section id="content" class="body">
-                    <ol id="posts-list" class="hfeed" start="9">
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/linux-terminal-server-projekt-ltsp-schwache-rechner-haengen-an-einem-starken-server.html" rel="bookmark"
-                           title="Permalink to Linux Terminal Server Projekt (LTSP) - Schwache Rechner hängen an einem starken Server">Linux Terminal Server Projekt (LTSP) - Schwache Rechner hängen an einem starken Server</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-12-18T18:07:00+01:00">
-                Published: Mi 18 Dezember 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/linux.html">Linux</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> </p>
-</footer><!-- /.post-info -->                <pre class="literal-block">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://blog.bakera.de/" class="navbar-brand">
+/home/bakera/blog            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="https://blog.bakera.de/pages/impressum.html">
+                             Impressum, Datenschutz
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/search.html">
+                             Suche
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/wiki.html">
+                             Wiki
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/about.html">
+                             Über
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+            <article>
+                <h2><a href="https://blog.bakera.de/linux-terminal-server-projekt-ltsp-schwache-rechner-haengen-an-einem-starken-server.html">Linux Terminal Server Projekt (LTSP) - Schwache Rechner hängen an einem starken Server</a></h2>
+                <div class="summary"><pre class="literal-block">
 Das Linux Terminal Server Project (LTSP) ist ein
 Linux-Programmpaket, das dazu dient, Benutzern von Terminals Zugriff
 auf den Terminalserver zu gewähren, von dem aus Anwendungen
@@ -49,55 +85,25 @@ ausgeführt und mittels des Terminals gesteuert werden können.
 Einsatzgebiete sind beispielsweise Internetcafés oder Büros, bei
 denen an jedem Arbeitsplatz die gleichen Anwendungen zur Verfügung
 stehen …</pre>
-                <a class="readmore" href="https://blog.bakera.de/linux-terminal-server-projekt-ltsp-schwache-rechner-haengen-an-einem-starken-server.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/spieleprogrammierung-mit-unity-teil-3-gui-anzeige.html" rel="bookmark"
-                           title="Permalink to Spieleprogrammierung mit Unity - Teil 3: GUI-Anzeige">Spieleprogrammierung mit Unity - Teil 3: GUI-Anzeige</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-12-14T12:43:00+01:00">
-                Published: Sa 14 Dezember 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/bildung.html">Bildung</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> </p>
-</footer><!-- /.post-info -->                <p>Heute geht es in Teil 3 der Reihe <a class="reference external" href="http://bakera.de/dokuwiki/doku.php/schule/unity">Spieleprogrammierung mit
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/linux-terminal-server-projekt-ltsp-schwache-rechner-haengen-an-einem-starken-server.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/spieleprogrammierung-mit-unity-teil-3-gui-anzeige.html">Spieleprogrammierung mit Unity - Teil 3: GUI-Anzeige</a></h2>
+                <div class="summary"><p>Heute geht es in Teil 3 der Reihe <a class="reference external" href="http://bakera.de/dokuwiki/doku.php/schule/unity">Spieleprogrammierung mit
 Unity</a> um die
 Anzeige auf dem Bildschirm.</p>
 <p>Damit wir wissen, wie viele Kugeln wir schon eingesammelt haben und wie
 viele Kugeln noch fehlen, bringen wir nun eine Anzeige ins Spiel. Diese
 Anzeige blendet oben links die Anzahl der eingesammelten Kugeln …</p>
-                <a class="readmore" href="https://blog.bakera.de/spieleprogrammierung-mit-unity-teil-3-gui-anzeige.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/softwareentwicklung-mit-gnustep.html" rel="bookmark"
-                           title="Permalink to Softwareentwicklung mit GNUstep">Softwareentwicklung mit GNUstep</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-12-07T13:25:00+01:00">
-                Published: Sa 07 Dezember 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/linux.html">Linux</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="http://www.gnustep.org/">GNUstep</a> ist eine Entwicklungsumgebung zur
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/spieleprogrammierung-mit-unity-teil-3-gui-anzeige.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/softwareentwicklung-mit-gnustep.html">Softwareentwicklung mit GNUstep</a></h2>
+                <div class="summary"><p><a class="reference external" href="http://www.gnustep.org/">GNUstep</a> ist eine Entwicklungsumgebung zur
 Erstellung von Programmen in der Programmiersprache Objective-C.</p>
 <blockquote>
 &quot;GNUstep is a mature Framework, suited both for advanced GUI desktop
@@ -105,131 +111,56 @@ applications as well as server applications. The framework closely
 follows Apple's Cocoa (formerly NeXT's OpenStep) APIs but is
 portable to a variety of platforms and architectures.&quot;</blockquote>
 <p>Die …</p>
-                <a class="readmore" href="https://blog.bakera.de/softwareentwicklung-mit-gnustep.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/interessante-schachstellung-drei-figuren-decken-sich-gegenseitig.html" rel="bookmark"
-                           title="Permalink to Interessante Schachstellung: Drei Figuren decken sich gegenseitig">Interessante Schachstellung: Drei Figuren decken sich gegenseitig</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-12-02T18:20:00+01:00">
-                Published: Mo 02 Dezember 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/spass.html">Spaß</a> <a href="https://blog.bakera.de/tag/spiele.html">Spiele</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2013/12/2013-12-01-Schachstellung.png"><img alt="2013-12-01-Schachstellung" class="alignnone wp-image-736" src="images/2013/12/2013-12-01-Schachstellung.png" style="width: 378px; height: 379px;" /></a></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/softwareentwicklung-mit-gnustep.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/interessante-schachstellung-drei-figuren-decken-sich-gegenseitig.html">Interessante Schachstellung: Drei Figuren decken sich gegenseitig</a></h2>
+                <div class="summary"><p><a class="reference external" href="images/2013/12/2013-12-01-Schachstellung.png"><img alt="2013-12-01-Schachstellung" class="alignnone wp-image-736" src="images/2013/12/2013-12-01-Schachstellung.png" style="width: 378px; height: 379px;" /></a></p>
 <p>Es ist sicherlich nichts Besonderes, doch wunderte ich mich heute schon
 etwas, als sich die obige Stellung bei einem Schachspiel ergab. Turm,
 Läufer und Springer decken sich gegenseitig und keine der Figuren kann
 von meinem weißen König geschlagen werden.</p>
 <p>Verzwickt und bitter.</p>
 
-                <a class="readmore" href="https://blog.bakera.de/interessante-schachstellung-drei-figuren-decken-sich-gegenseitig.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-struktogramme-aufgebaut-sind-codeeu.html" rel="bookmark"
-                           title="Permalink to Fachinformatiker der ITF11a erklären, wie Struktogramme aufgebaut sind #codeEU">Fachinformatiker der ITF11a erklären, wie Struktogramme aufgebaut sind #codeEU</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-11-29T22:27:00+01:00">
-                Published: Fr 29 November 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> </p>
-</footer><!-- /.post-info -->                <p>Hier geht es zur
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/interessante-schachstellung-drei-figuren-decken-sich-gegenseitig.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-struktogramme-aufgebaut-sind-codeeu.html">Fachinformatiker der ITF11a erklären, wie Struktogramme aufgebaut sind #codeEU</a></h2>
+                <div class="summary"><p>Hier geht es zur
 <a class="reference external" href="https://docs.google.com/presentation/d/1ZqrMb3qDRdfWSvOAHU64RB5T_9MQ8q3hagbnaTqRwuI/edit#slide=id.p">Präsentation</a>.</p>
 <p><a class="reference external" href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html">Code Week
 EU</a></p>
 
-                <a class="readmore" href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-struktogramme-aufgebaut-sind-codeeu.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-schleifen-funktionieren-codeeu.html" rel="bookmark"
-                           title="Permalink to Fachinformatiker der ITF11a erklären, wie Schleifen funktionieren #codeEU">Fachinformatiker der ITF11a erklären, wie Schleifen funktionieren #codeEU</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-11-29T22:24:00+01:00">
-                Published: Fr 29 November 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html">Code Week
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-struktogramme-aufgebaut-sind-codeeu.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-schleifen-funktionieren-codeeu.html">Fachinformatiker der ITF11a erklären, wie Schleifen funktionieren #codeEU</a></h2>
+                <div class="summary"><p><a class="reference external" href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html">Code Week
 EU</a></p>
 <a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/1sB4LlK4O6I?rel=0"><img alt="Youtube-Video" src="images/2018/06/1sB4LlK4O6I.jpg" /></a>
 
-                <a class="readmore" href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-schleifen-funktionieren-codeeu.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-sql-joins-anlaesslich-der-codeeu.html" rel="bookmark"
-                           title="Permalink to Fachinformatiker der ITF11a erklären SQL JOINS anlässlich der #codeEU">Fachinformatiker der ITF11a erklären SQL JOINS anlässlich der #codeEU</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-11-29T22:21:00+01:00">
-                Published: Fr 29 November 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/datenbank.html">Datenbank</a> <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html">Code Week
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-schleifen-funktionieren-codeeu.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-sql-joins-anlaesslich-der-codeeu.html">Fachinformatiker der ITF11a erklären SQL JOINS anlässlich der #codeEU</a></h2>
+                <div class="summary"><p><a class="reference external" href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html">Code Week
 EU</a></p>
 
-                <a class="readmore" href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-sql-joins-anlaesslich-der-codeeu.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/zeitmanagement-nach-dem-eisenhower-prinzip.html" rel="bookmark"
-                           title="Permalink to Zeitmanagement nach dem Eisenhower-Prinzip">Zeitmanagement nach dem Eisenhower-Prinzip</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-11-27T13:39:00+01:00">
-                Published: Mi 27 November 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/bildung.html">Bildung</a> <a href="https://blog.bakera.de/tag/tipp.html">Tipp</a> </p>
-</footer><!-- /.post-info -->                <p>Das
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-sql-joins-anlaesslich-der-codeeu.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/zeitmanagement-nach-dem-eisenhower-prinzip.html">Zeitmanagement nach dem Eisenhower-Prinzip</a></h2>
+                <div class="summary"><p>Das
 <a class="reference external" href="https://de.wikipedia.org/wiki/Eisenhower-Prinzip">Eisenhower-Prinzip</a>
 wurde nach dem gleichnamigen amerikanischen Präsidenten benannt und ist
 eine einfache aber wirkungsvolle Möglichkeit, Aufgaben in zwei
@@ -240,28 +171,13 @@ einsortieren kann.</p>
                                dringend          nicht dringend
 
 wichtig           Sofort selbst erledigen      Aufgabe exakt terminieren …</pre>
-                <a class="readmore" href="https://blog.bakera.de/zeitmanagement-nach-dem-eisenhower-prinzip.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html" rel="bookmark"
-                           title="Permalink to 25.11.-30.11.: Europe Code Week - denn: Programmieren macht Spaß">25.11.-30.11.: Europe Code Week - denn: Programmieren macht Spaß</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-11-25T19:50:00+01:00">
-                Published: Mo 25 November 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/bildung.html">Bildung</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/termin.html">Termin</a> </p>
-</footer><!-- /.post-info -->                <p>Vom 25.11. bis zum 30.11. findet die europäische <a class="reference external" href="http://codeweek.eu/">Code
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/zeitmanagement-nach-dem-eisenhower-prinzip.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html">25.11.-30.11.: Europe Code Week - denn: Programmieren macht Spaß</a></h2>
+                <div class="summary"><p>Vom 25.11. bis zum 30.11. findet die europäische <a class="reference external" href="http://codeweek.eu/">Code
 Week</a> statt.</p>
 <blockquote>
 <p>Coding is fun. Creative. Full of great people and passionate
@@ -269,58 +185,165 @@ communities.</p>
 <p>Organize a programming workshop, the one you planned to do in any
 case. Find a few friends who're curious about what you do and teach
 them …</p></blockquote>
-                <a class="readmore" href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/bestimmen-einer-funktionsgleichung-tafelbild.html" rel="bookmark"
-                           title="Permalink to Bestimmen einer Funktionsgleichung">Bestimmen einer Funktionsgleichung</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-11-25T15:46:00+01:00">
-                Published: Mo 25 November 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/unkategorisiert.html">Unkategorisiert</a> </p>
-</footer><!-- /.post-info -->                <p>Heute haben wir die Zufahrt einer Garageneinfahrt durch eine Funktion
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/bestimmen-einer-funktionsgleichung-tafelbild.html">Bestimmen einer Funktionsgleichung</a></h2>
+                <div class="summary"><p>Heute haben wir die Zufahrt einer Garageneinfahrt durch eine Funktion
 dritten Grades beschrieben.</p>
 <p><img alt="2013-11-25-Tafelbild" class="alignnone size-full wp-image-701" src="images/2013-11-25-Tafelbild.png" style="width: 694px; height: 536px;" /></p>
 
-                <a class="readmore" href="https://blog.bakera.de/bestimmen-einer-funktionsgleichung-tafelbild.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-<p class="paginator">
-        <a href="https://blog.bakera.de/category/sonstiges16.html">&laquo;</a>
-    Page 17 / 51
-        <a href="https://blog.bakera.de/category/sonstiges18.html">&raquo;</a>
-</p>
-                </section><!-- /#content -->
-        <section id="extras" class="body">
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/bestimmen-einer-funktionsgleichung-tafelbild.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
 
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+        <ul class="pagination">
+                <li class="prev"><a href="https://blog.bakera.de/category/sonstiges16.html">&laquo;</a>
+                </li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges.html">1</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges2.html">2</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges3.html">3</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges4.html">4</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges5.html">5</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges6.html">6</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges7.html">7</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges8.html">8</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges9.html">9</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges10.html">10</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges11.html">11</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges12.html">12</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges13.html">13</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges14.html">14</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges15.html">15</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges16.html">16</a></li>
+                    <li class="active"><a
+                            href="https://blog.bakera.de/category/sonstiges17.html">17</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges18.html">18</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges19.html">19</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges20.html">20</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges21.html">21</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges22.html">22</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges23.html">23</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges24.html">24</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges25.html">25</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges26.html">26</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges27.html">27</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges28.html">28</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges29.html">29</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges30.html">30</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges31.html">31</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges32.html">32</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges33.html">33</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges34.html">34</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges35.html">35</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges36.html">36</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges37.html">37</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges38.html">38</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges39.html">39</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges40.html">40</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges41.html">41</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges42.html">42</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges43.html">43</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges44.html">44</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges45.html">45</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges46.html">46</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges47.html">47</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges48.html">48</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges49.html">49</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges50.html">50</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/category/sonstiges51.html">51</a></li>
+                <li class="next"><a
+                        href="https://blog.bakera.de/category/sonstiges18.html">&raquo;</a></li>
+        </ul>
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+
+
+
+
+    </ul>
+</section>            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2018 Marco Bakera
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="https://blog.bakera.de/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://blog.bakera.de/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="https://blog.bakera.de/theme/js/respond.min.js"></script>
+
 
 </body>
 </html>

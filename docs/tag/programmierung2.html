@@ -1,74 +1,95 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-        <meta charset="utf-8" />
-        <title>/home/bakera/blog - Programmierung</title>
-        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/main.css" />
-        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+    <title>Programmierung - /home/bakera/blog</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+
+
+
+    <meta name="author" content="Marco Bakera" />
+    <meta name="keywords" content="Programmierung" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="/home/bakera/blog" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="/home/bakera/blog"/>
+        <meta property="og:url" content="https://blog.bakera.de"/>
+        <meta property="og:description" content="/home/bakera/blog"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="https://blog.bakera.de/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://blog.bakera.de/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://blog.bakera.de/theme/css/style.css" type="text/css"/>
+
+        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="/home/bakera/blog ATOM Feed"/>
+
+
+
+
 </head>
+<body>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://blog.bakera.de/">/home/bakera/blog </a></h1>
-                <nav><ul>
-                    <li><a href="https://blog.bakera.de/pages/about.html">Über</a></li>
-                    <li><a href="https://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
-                    <li><a href="https://blog.bakera.de/pages/search.html">Suche</a></li>
-                    <li><a href="https://blog.bakera.de/pages/wiki.html">Wiki</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-
-                <section id="content" class="body">
-                    <ol id="posts-list" class="hfeed" start="9">
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/rest-in-15-minuten.html" rel="bookmark"
-                           title="Permalink to REST in 15 Minuten">REST in 15 Minuten</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2015-07-16T09:12:00+02:00">
-                Published: Do 16 Juli 2015
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/python.html">Python</a> </p>
-</footer><!-- /.post-info -->                <p>Was ist REST? Wie kann ich das einsetzen? Ist das kompliziert? Ich habe
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://blog.bakera.de/" class="navbar-brand">
+/home/bakera/blog            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="https://blog.bakera.de/pages/impressum.html">
+                             Impressum, Datenschutz
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/search.html">
+                             Suche
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/wiki.html">
+                             Wiki
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/about.html">
+                             Über
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+            <article>
+                <h2><a href="https://blog.bakera.de/rest-in-15-minuten.html">REST in 15 Minuten</a></h2>
+                <div class="summary"><p>Was ist REST? Wie kann ich das einsetzen? Ist das kompliziert? Ich habe
 einen Beispielservice in Python erstellt und in dem Artikel <a class="reference external" href="https://www.bakera.de/dokuwiki/doku.php/schule/rest_in_15_minuten">REST in 15
 Minuten</a>
 beschrieben. Im unteren Teil wird der Service mit cURL als Client
 verwendet.</p>
 
-                <a class="readmore" href="https://blog.bakera.de/rest-in-15-minuten.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/c-in-10-minuten.html" rel="bookmark"
-                           title="Permalink to C# in 10 Minuten">C# in 10 Minuten</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2015-05-13T11:15:00+02:00">
-                Published: Mi 13 Mai 2015
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/c.html">c#</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2015/05/Mann_Frau_alter_Computer.jpg"><img alt="Mann_Frau_alter_Computer" class="alignnone wp-image-1740 size-large" src="images/2015/05/Mann_Frau_alter_Computer-1024x812.jpg" style="width: 625px; height: 496px;" /></a></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/rest-in-15-minuten.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/c-in-10-minuten.html">C# in 10 Minuten</a></h2>
+                <div class="summary"><p><a class="reference external" href="images/2015/05/Mann_Frau_alter_Computer.jpg"><img alt="Mann_Frau_alter_Computer" class="alignnone wp-image-1740 size-large" src="images/2015/05/Mann_Frau_alter_Computer-1024x812.jpg" style="width: 625px; height: 496px;" /></a></p>
 <p>Vermutlich dauert es länger als 10 Minuten, um C# zu lernen. Ich habe
 trotzdem versucht, einen sanften Einstieg für Anfänger hinzubekommen und
 dazu einen <a class="reference external" href="https://www.bakera.de/dokuwiki/doku.php/schule/csharp_in_10_minuten">Artikel in meinem
@@ -77,84 +98,39 @@ angelegt.</p>
 <p>Inspiriert wurde ich von dem schönen Tutorial für Lua <a class="reference external" href="http://tylerneylon.com/a/learn-lua/">Learn Lua in 15
 Minutes</a>.</p>
 
-                <a class="readmore" href="https://blog.bakera.de/c-in-10-minuten.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/buchtipp-little-brother-von-cory-doctorow.html" rel="bookmark"
-                           title="Permalink to Buchtipp: "Little Brother" von Cory Doctorow">Buchtipp: &quot;Little Brother&quot; von Cory Doctorow</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2015-03-02T19:03:00+01:00">
-                Published: Mo 02 März 2015
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/buch.html">Buch</a> <a href="https://blog.bakera.de/tag/hardware.html">Hardware</a> <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/linux.html">Linux</a> <a href="https://blog.bakera.de/tag/mathe.html">Mathe</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/tipp.html">Tipp</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2015/01/398px-Little_Brother_illustration_by_Richard_Wilkinson_01.jpg"><img alt="cc: Richard Wilkinson" class="size-full wp-image-1594" src="images/2015/01/398px-Little_Brother_illustration_by_Richard_Wilkinson_01.jpg" style="width: 398px; height: 599px;" /></a></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/c-in-10-minuten.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/buchtipp-little-brother-von-cory-doctorow.html">Buchtipp: &quot;Little Brother&quot; von Cory Doctorow</a></h2>
+                <div class="summary"><p><a class="reference external" href="images/2015/01/398px-Little_Brother_illustration_by_Richard_Wilkinson_01.jpg"><img alt="cc: Richard Wilkinson" class="size-full wp-image-1594" src="images/2015/01/398px-Little_Brother_illustration_by_Richard_Wilkinson_01.jpg" style="width: 398px; height: 599px;" /></a></p>
 <p>cc: Richard Wilkinson</p>
 <p>In dem Roman &quot;Little Brother&quot; erzählt Cory Doctorow die Geschichte der
 Geheimdienste nach den Anschlägen auf das World Trade Center in einem
 alternativen Amerika. Neben einer spannenden Geschichte für Jugendliche
 kommen auch Erwachsene auf ihre Kosten, wenn technische Details von
 Überwachungsmaßnahmen erläutert und die Gegenmaßnahmen mit Hilfe …</p>
-                <a class="readmore" href="https://blog.bakera.de/buchtipp-little-brother-von-cory-doctorow.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/einen-eigenen-webserver-programmieren.html" rel="bookmark"
-                           title="Permalink to Einen eigenen Webserver programmieren">Einen eigenen Webserver programmieren</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-10-04T13:44:00+02:00">
-                Published: Sa 04 Oktober 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> </p>
-</footer><!-- /.post-info -->                <div class="line-block">
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/buchtipp-little-brother-von-cory-doctorow.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/einen-eigenen-webserver-programmieren.html">Einen eigenen Webserver programmieren</a></h2>
+                <div class="summary"><div class="line-block">
 <div class="line"><img alt="browser" class="alignright size-full wp-image-1433" src="images/2014/10/browser.png" style="width: 128px; height: 128px;" /></div>
 <div class="line">Wie funktioniert eigentlich ein Webserver? Ich habe eine ungefähre
 Vorstellung davon, was mein Browser macht, wenn ich eine Webseite
 aufrufe. Aber die genauen Details blieben mir bisher immer verborgen.
 Ich wollte es daher genauer wissen und habe selbst eine Webserver
 programmiert. Das ist gar nicht so schwer und jeder kann …</div></div>
-                <a class="readmore" href="https://blog.bakera.de/einen-eigenen-webserver-programmieren.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/algorithmus-zum-berechnen-einer-quadratwurzel.html" rel="bookmark"
-                           title="Permalink to Algorithmus zum Berechnen einer Quadratwurzel">Algorithmus zum Berechnen einer Quadratwurzel</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-06-21T10:47:00+02:00">
-                Published: Sa 21 Juni 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/mathe.html">Mathe</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/hp35s.html">HP35s</a> <a href="https://blog.bakera.de/tag/taschenrechner.html">Taschenrechner</a> </p>
-</footer><!-- /.post-info -->                <p><img alt="(cc) Stefan Vorkoetter" class="size-full wp-image-1143" src="images/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/einen-eigenen-webserver-programmieren.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/algorithmus-zum-berechnen-einer-quadratwurzel.html">Algorithmus zum Berechnen einer Quadratwurzel</a></h2>
+                <div class="summary"><p><img alt="(cc) Stefan Vorkoetter" class="size-full wp-image-1143" src="images/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /></p>
 <ol class="lowerroman simple" start="200">
 <li>Stefan Vorkoetter</li>
 </ol>
@@ -164,28 +140,13 @@ natürlich eine Taste zum Berechnen der Wurzel. Aber wir wollen mal
 schauen, ob wir die Wurzel nicht auch selbst programmieren können. Dazu
 gibt es einen einfachen Algorithmus, der mit einer Schätzung g (=guess)
 beginnt und diese immer weiter verfeinert. Für die Wurzel aus …</p>
-                <a class="readmore" href="https://blog.bakera.de/algorithmus-zum-berechnen-einer-quadratwurzel.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/animationen-auf-dem-hp35s.html" rel="bookmark"
-                           title="Permalink to Animationen auf dem HP 35s">Animationen auf dem HP 35s</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-06-20T12:49:00+02:00">
-                Published: Fr 20 Juni 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/mathe.html">Mathe</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> <a href="https://blog.bakera.de/tag/hp35s.html">HP35s</a> <a href="https://blog.bakera.de/tag/taschenrechner.html">Taschenrechner</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="http://www.bakera.de/dokuwiki/lib/exe/detail.php/schule/hp35sanimation.gif?id=schule%3Ahp_35s"><img alt="image0" class="media" src="http://www.bakera.de/dokuwiki/lib/exe/fetch.php/schule/hp35sanimation.gif" /></a></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/algorithmus-zum-berechnen-einer-quadratwurzel.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/animationen-auf-dem-hp35s.html">Animationen auf dem HP 35s</a></h2>
+                <div class="summary"><p><a class="reference external" href="http://www.bakera.de/dokuwiki/lib/exe/detail.php/schule/hp35sanimation.gif?id=schule%3Ahp_35s"><img alt="image0" class="media" src="http://www.bakera.de/dokuwiki/lib/exe/fetch.php/schule/hp35sanimation.gif" /></a></p>
 <p>Mit etwas Fingerspitzengefühl lassen sich dem <a class="reference external" href="http://www.bakera.de/dokuwiki/doku.php/schule/hp_35s">HP
 35s</a> einfache
 Animationen entlocken. Dafür nutzt man die <a class="reference external" href="https://blog.bakera.de/hallo-welt-hp35s.html">Möglichkeit, beliebige
@@ -194,28 +155,13 @@ anzuzeigen</a>. Den
 Quelltext und auch das laufende Programm könnt ihr im Video sehen.</p>
 <a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/1gbubP8uCdI?rel=0"><img alt="Youtube-Video" src="images/2018/06/1gbubP8uCdI.jpg" /></a>
 
-                <a class="readmore" href="https://blog.bakera.de/animationen-auf-dem-hp35s.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/hallo-welt-hp35s.html" rel="bookmark"
-                           title="Permalink to "Hallo Welt" HP 35s">&quot;Hallo Welt&quot; HP 35s</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-06-19T14:03:00+02:00">
-                Published: Do 19 Juni 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/mathe.html">Mathe</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/hp35s.html">HP35s</a> <a href="https://blog.bakera.de/tag/taschenrechner.html">Taschenrechner</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2014/06/hp35s-oben.jpeg"><img alt="(cc) Stefan Vorkoetter" class="size-full wp-image-1143" src="images/2014/06/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /></a></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/animationen-auf-dem-hp35s.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/hallo-welt-hp35s.html">&quot;Hallo Welt&quot; HP 35s</a></h2>
+                <div class="summary"><p><a class="reference external" href="images/2014/06/hp35s-oben.jpeg"><img alt="(cc) Stefan Vorkoetter" class="size-full wp-image-1143" src="images/2014/06/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /></a></p>
 <ol class="lowerroman simple" start="200">
 <li>Stefan Vorkoetter</li>
 </ol>
@@ -230,28 +176,13 @@ ausgewertet. Das können wir für ein einfaches „Hallo-Welt“-Programm
 nutzen.</p>
 <pre class="literal-block">
 A001  LBL A …</pre>
-                <a class="readmore" href="https://blog.bakera.de/hallo-welt-hp35s.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/das-newton-verfahren-zur-bestimmung-von-nullstellen.html" rel="bookmark"
-                           title="Permalink to Das Newton-Verfahren zur Bestimmung von Nullstellen">Das Newton-Verfahren zur Bestimmung von Nullstellen</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-06-18T17:08:00+02:00">
-                Published: Mi 18 Juni 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/mathe.html">Mathe</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/nullstellen.html">Nullstellen</a> <a href="https://blog.bakera.de/tag/python.html">Python</a> </p>
-</footer><!-- /.post-info -->                <p><img alt="(cc) Stefan Vorkoetter" class="size-full wp-image-1171" src="images/2014/06/hp35s-Tasten.jpeg" style="width: 408px; height: 150px;" /></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/hallo-welt-hp35s.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/das-newton-verfahren-zur-bestimmung-von-nullstellen.html">Das Newton-Verfahren zur Bestimmung von Nullstellen</a></h2>
+                <div class="summary"><p><img alt="(cc) Stefan Vorkoetter" class="size-full wp-image-1171" src="images/2014/06/hp35s-Tasten.jpeg" style="width: 408px; height: 150px;" /></p>
 <ol class="lowerroman simple" start="200">
 <li>Stefan Vorkoetter</li>
 </ol>
@@ -262,28 +193,13 @@ Verfahren etwa eine Lösung für die folgende Gleichung</p>
 <p>x² - 6 x + 5 = 0</p>
 <p>Das Verfahren beginnt mit einer Schätzung und verbessert diese mit jedem
 Schritt ein wenig. Die erste Schätzung …</p>
-                <a class="readmore" href="https://blog.bakera.de/das-newton-verfahren-zur-bestimmung-von-nullstellen.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/erste-programme-fuer-den-hp35s.html" rel="bookmark"
-                           title="Permalink to Erste Programme für den HP 35s">Erste Programme für den HP 35s</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-06-14T12:16:00+02:00">
-                Published: Sa 14 Juni 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/mathe.html">Mathe</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/hp35s.html">HP35s</a> <a href="https://blog.bakera.de/tag/taschenrechner.html">Taschenrechner</a> </p>
-</footer><!-- /.post-info -->                <p><img alt="cc: Stefan Vorkoetter" class="size-full wp-image-1143" src="images/2014/06/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /></p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/das-newton-verfahren-zur-bestimmung-von-nullstellen.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/erste-programme-fuer-den-hp35s.html">Erste Programme für den HP 35s</a></h2>
+                <div class="summary"><p><img alt="cc: Stefan Vorkoetter" class="size-full wp-image-1143" src="images/2014/06/hp35s-oben.jpeg" style="width: 406px; height: 138px;" /></p>
 <p>cc: Stefan Vorkoetter</p>
 <p>Erst <a class="reference external" href="https://blog.bakera.de/bakera-packt-aus-einen-hp35s.html">kürzlich habe ich einen neuen Taschenrechner
 erhalten</a>
@@ -297,28 +213,13 @@ IHK-Schlüssels.</p>
 <pre class="code literal-block">
 I001 LBL I
 I002 STO P …</pre></div></div>
-                <a class="readmore" href="https://blog.bakera.de/erste-programme-fuer-den-hp35s.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/ein-datenbankprojekt-nach-ldl-art-unterrichten-lassen.html" rel="bookmark"
-                           title="Permalink to Ein Datenbankprojekt nach LdL-Art unterrichten (lassen)">Ein Datenbankprojekt nach LdL-Art unterrichten (lassen)</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-05-26T17:01:00+02:00">
-                Published: Mo 26 Mai 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/bildung.html">Bildung</a> <a href="https://blog.bakera.de/tag/datenbank.html">Datenbank</a> <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/ldl.html">ldl</a> <a href="https://blog.bakera.de/tag/ldlmooc.html">ldlmooc</a> <a href="https://blog.bakera.de/tag/mooc.html">mooc</a> <a href="https://blog.bakera.de/tag/video.html">video</a> </p>
-</footer><!-- /.post-info -->                <a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/e41xyYtCGs0?rel=0"><img alt="Youtube-Video" src="images/2018/06/e41xyYtCGs0.jpg" /></a>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/erste-programme-fuer-den-hp35s.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/ein-datenbankprojekt-nach-ldl-art-unterrichten-lassen.html">Ein Datenbankprojekt nach LdL-Art unterrichten (lassen)</a></h2>
+                <div class="summary"><a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/e41xyYtCGs0?rel=0"><img alt="Youtube-Video" src="images/2018/06/e41xyYtCGs0.jpg" /></a>
 <p>Ich habe schon
 <a class="reference external" href="https://blog.bakera.de/lernen-durch-lehren-eine-visualisierung.html">hier</a>
 geschrieben, dass ich derzeit an einem <a class="reference external" href="http://ldlmooc.blogspot.de/">MOOC zu
@@ -328,33 +229,71 @@ Unterrichtsreihe geeignet ist. Ich hatte mich für ein
 <a class="reference external" href="http://wikis.zum.de/zum/Datei:Datenbankprojekt_nach_eigenen_Vorgaben.odt">Datenbankprojekt</a>
 aus dem Programmieren-Unterricht entschieden.</p>
 <p>In dieser Woche geht es darum, diese Stoffsammlung mit einem …</p>
-                <a class="readmore" href="https://blog.bakera.de/ein-datenbankprojekt-nach-ldl-art-unterrichten-lassen.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-<p class="paginator">
-        <a href="https://blog.bakera.de/tag/programmierung.html">&laquo;</a>
-    Page 2 / 9
-        <a href="https://blog.bakera.de/tag/programmierung3.html">&raquo;</a>
-</p>
-                </section><!-- /#content -->
-        <section id="extras" class="body">
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/ein-datenbankprojekt-nach-ldl-art-unterrichten-lassen.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
 
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+        <ul class="pagination">
+                <li class="prev"><a href="https://blog.bakera.de/tag/programmierung.html">&laquo;</a>
+                </li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung.html">1</a></li>
+                    <li class="active"><a
+                            href="https://blog.bakera.de/tag/programmierung2.html">2</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung3.html">3</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung4.html">4</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung5.html">5</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung6.html">6</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung7.html">7</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung8.html">8</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung9.html">9</a></li>
+                <li class="next"><a
+                        href="https://blog.bakera.de/tag/programmierung3.html">&raquo;</a></li>
+        </ul>
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+
+
+
+
+    </ul>
+</section>            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2018 Marco Bakera
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="https://blog.bakera.de/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://blog.bakera.de/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="https://blog.bakera.de/theme/js/respond.min.js"></script>
+
 
 </body>
 </html>

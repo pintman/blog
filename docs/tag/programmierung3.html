@@ -1,47 +1,83 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-        <meta charset="utf-8" />
-        <title>/home/bakera/blog - Programmierung</title>
-        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/main.css" />
-        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+    <title>Programmierung - /home/bakera/blog</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+
+
+
+    <meta name="author" content="Marco Bakera" />
+    <meta name="keywords" content="Programmierung" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="/home/bakera/blog" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="/home/bakera/blog"/>
+        <meta property="og:url" content="https://blog.bakera.de"/>
+        <meta property="og:description" content="/home/bakera/blog"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="https://blog.bakera.de/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://blog.bakera.de/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://blog.bakera.de/theme/css/style.css" type="text/css"/>
+
+        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="/home/bakera/blog ATOM Feed"/>
+
+
+
+
 </head>
+<body>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://blog.bakera.de/">/home/bakera/blog </a></h1>
-                <nav><ul>
-                    <li><a href="https://blog.bakera.de/pages/about.html">Über</a></li>
-                    <li><a href="https://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
-                    <li><a href="https://blog.bakera.de/pages/search.html">Suche</a></li>
-                    <li><a href="https://blog.bakera.de/pages/wiki.html">Wiki</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-
-                <section id="content" class="body">
-                    <ol id="posts-list" class="hfeed" start="9">
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/ein-programm-das-den-eigenen-quelltext-ausgibt.html" rel="bookmark"
-                           title="Permalink to Ein Programm, das den eigenen Quelltext ausgibt">Ein Programm, das den eigenen Quelltext ausgibt</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-05-02T18:15:00+02:00">
-                Published: Fr 02 Mai 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/spass.html">Spaß</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="images/2014/05/icon_16654.png"><img alt="icon_commandline" class="alignnone size-full wp-image-988" src="images/2014/05/icon_16654.png" style="width: 300px;" /></a></p>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://blog.bakera.de/" class="navbar-brand">
+/home/bakera/blog            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="https://blog.bakera.de/pages/impressum.html">
+                             Impressum, Datenschutz
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/search.html">
+                             Suche
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/wiki.html">
+                             Wiki
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/about.html">
+                             Über
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+            <article>
+                <h2><a href="https://blog.bakera.de/ein-programm-das-den-eigenen-quelltext-ausgibt.html">Ein Programm, das den eigenen Quelltext ausgibt</a></h2>
+                <div class="summary"><p><a class="reference external" href="images/2014/05/icon_16654.png"><img alt="icon_commandline" class="alignnone size-full wp-image-988" src="images/2014/05/icon_16654.png" style="width: 300px;" /></a></p>
 <p>Ein
 <a class="reference external" href="https://de.wikipedia.org/wiki/Quine_%28Computerprogramm%29">Quine</a>
 ist ein Programm, das den eigenen Quelltext ausgibt. Dabei darf nicht
@@ -50,165 +86,75 @@ Dann könnte man einfach nur die Datei ausgeben, die den Quelltext
 enthält.</p>
 <p>Das schöne an dieser Aufgabenstellung ist, dass sie zunächst sehr
 einfach und nach ein paar Versuchen …</p>
-                <a class="readmore" href="https://blog.bakera.de/ein-programm-das-den-eigenen-quelltext-ausgibt.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/spielereien-auf-der-kommandozeile-temperaturanzeige.html" rel="bookmark"
-                           title="Permalink to Spielereien auf der Kommandozeile: Temperaturanzeige">Spielereien auf der Kommandozeile: Temperaturanzeige</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-01-26T18:02:00+01:00">
-                Published: So 26 Januar 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/linux.html">Linux</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> </p>
-</footer><!-- /.post-info -->                <p>Ich fragte mich, wie schwer es ist, die aktuelle Temperatur für meinem
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/ein-programm-das-den-eigenen-quelltext-ausgibt.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/spielereien-auf-der-kommandozeile-temperaturanzeige.html">Spielereien auf der Kommandozeile: Temperaturanzeige</a></h2>
+                <div class="summary"><p>Ich fragte mich, wie schwer es ist, die aktuelle Temperatur für meinem
 Wohnort Dortmund zu bestimmen. Mit der Bash und mit Hilfe der
 <a class="reference external" href="http://developer.yahoo.com/weather/">Yahoo-Weather-API</a> lies sich
 das Problem mit einer Zeile lösen. Die API benutzt eine sogenannte WOEID
 (Where On Earth ID), die ich mir aus der Adresszeile der
 <a class="reference external" href="http://weather.yahoo.com/">Yahoo-Wetterseite …</a></p>
-                <a class="readmore" href="https://blog.bakera.de/spielereien-auf-der-kommandozeile-temperaturanzeige.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/buchtipp-masters-of-doom.html" rel="bookmark"
-                           title="Permalink to Buchtipp: Masters of Doom">Buchtipp: Masters of Doom</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-01-13T17:04:00+01:00">
-                Published: Mo 13 Januar 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/tipp.html">Tipp</a> </p>
-</footer><!-- /.post-info -->                <p>Was haben die Spiele &quot;Commander Keen&quot;, &quot;Wolfenstein 3D&quot;, &quot;Doom&quot; und
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/spielereien-auf-der-kommandozeile-temperaturanzeige.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/buchtipp-masters-of-doom.html">Buchtipp: Masters of Doom</a></h2>
+                <div class="summary"><p>Was haben die Spiele &quot;Commander Keen&quot;, &quot;Wolfenstein 3D&quot;, &quot;Doom&quot; und
 &quot;Quake&quot; gemeinsam? Jedes Spiel hat für sich einen neuen Maßstab gesetzt
 und alle drei wurden von den kreativen Köpfen John Carmack und John
 Romero bei <a class="reference external" href="https://de.wikipedia.org/wiki/Id_Software">id-Software</a>
 entwickelt.</p>
 <p>Die turbulente und spannende Lebensgeschichte der beiden Johns erzählt
 David Kushner mit viel …</p>
-                <a class="readmore" href="https://blog.bakera.de/buchtipp-masters-of-doom.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/spieleprogrammierung-mit-unity-teil-4-der-gute-ton.html" rel="bookmark"
-                           title="Permalink to Spieleprogrammierung mit Unity: Teil 4 - Der gute Ton">Spieleprogrammierung mit Unity: Teil 4 - Der gute Ton</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-01-06T23:33:00+01:00">
-                Published: Mo 06 Januar 2014
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> </p>
-</footer><!-- /.post-info -->                <p>Im letzten Teil meiner Reihe <a class="reference external" href="http://bakera.de/dokuwiki/doku.php/schule/unity">Spieleprogrammierung mit
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/buchtipp-masters-of-doom.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/spieleprogrammierung-mit-unity-teil-4-der-gute-ton.html">Spieleprogrammierung mit Unity: Teil 4 - Der gute Ton</a></h2>
+                <div class="summary"><p>Im letzten Teil meiner Reihe <a class="reference external" href="http://bakera.de/dokuwiki/doku.php/schule/unity">Spieleprogrammierung mit
 Unity</a> erweitern wir
 das Spiel um ein paar Geräusche und hauchen ihm dadurch etwas mehr Leben
 ein. Jedesmal, wenn eine Kugel eingesammelt wird, soll ein Ton
 erklingen.</p>
 <a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/JXoFv1IzVRI?rel=0"><img alt="Youtube-Video" src="images/2018/06/JXoFv1IzVRI.jpg" /></a>
 
-                <a class="readmore" href="https://blog.bakera.de/spieleprogrammierung-mit-unity-teil-4-der-gute-ton.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/buchtipp-openadvice-ein-leitfaden-fuer-einsteiger-in-opensource-projekte.html" rel="bookmark"
-                           title="Permalink to Buchtipp: OpenAdvice - ein Leitfaden für Einsteiger in OpenSource-Projekte">Buchtipp: OpenAdvice - ein Leitfaden für Einsteiger in OpenSource-Projekte</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-12-18T20:05:00+01:00">
-                Published: Mi 18 Dezember 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/bildung.html">Bildung</a> <a href="https://blog.bakera.de/tag/linux.html">Linux</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/tipp.html">Tipp</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="http://open-advice.org/#dwnbox">OpenAdvice</a> ist eine Textsammlung,
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/spieleprogrammierung-mit-unity-teil-4-der-gute-ton.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/buchtipp-openadvice-ein-leitfaden-fuer-einsteiger-in-opensource-projekte.html">Buchtipp: OpenAdvice - ein Leitfaden für Einsteiger in OpenSource-Projekte</a></h2>
+                <div class="summary"><p><a class="reference external" href="http://open-advice.org/#dwnbox">OpenAdvice</a> ist eine Textsammlung,
 die aus 42 Artikeln besteht. Die Texte wurde von Experten aus der
 OpenSource-Szene verfasst, die unterschiedliche Aspekte eines
 OpenSource-Projektes beschreiben. In den Texten geht es um den Einstieg
 in die Programmierung, um die Erstellung von Grafiken für die grafische
 Oberfläche eines Projektes oder darum, wie man …</p>
-                <a class="readmore" href="https://blog.bakera.de/buchtipp-openadvice-ein-leitfaden-fuer-einsteiger-in-opensource-projekte.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/spieleprogrammierung-mit-unity-teil-3-gui-anzeige.html" rel="bookmark"
-                           title="Permalink to Spieleprogrammierung mit Unity - Teil 3: GUI-Anzeige">Spieleprogrammierung mit Unity - Teil 3: GUI-Anzeige</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-12-14T12:43:00+01:00">
-                Published: Sa 14 Dezember 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/bildung.html">Bildung</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> </p>
-</footer><!-- /.post-info -->                <p>Heute geht es in Teil 3 der Reihe <a class="reference external" href="http://bakera.de/dokuwiki/doku.php/schule/unity">Spieleprogrammierung mit
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/buchtipp-openadvice-ein-leitfaden-fuer-einsteiger-in-opensource-projekte.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/spieleprogrammierung-mit-unity-teil-3-gui-anzeige.html">Spieleprogrammierung mit Unity - Teil 3: GUI-Anzeige</a></h2>
+                <div class="summary"><p>Heute geht es in Teil 3 der Reihe <a class="reference external" href="http://bakera.de/dokuwiki/doku.php/schule/unity">Spieleprogrammierung mit
 Unity</a> um die
 Anzeige auf dem Bildschirm.</p>
 <p>Damit wir wissen, wie viele Kugeln wir schon eingesammelt haben und wie
 viele Kugeln noch fehlen, bringen wir nun eine Anzeige ins Spiel. Diese
 Anzeige blendet oben links die Anzahl der eingesammelten Kugeln …</p>
-                <a class="readmore" href="https://blog.bakera.de/spieleprogrammierung-mit-unity-teil-3-gui-anzeige.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/softwareentwicklung-mit-gnustep.html" rel="bookmark"
-                           title="Permalink to Softwareentwicklung mit GNUstep">Softwareentwicklung mit GNUstep</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-12-07T13:25:00+01:00">
-                Published: Sa 07 Dezember 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/linux.html">Linux</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="http://www.gnustep.org/">GNUstep</a> ist eine Entwicklungsumgebung zur
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/spieleprogrammierung-mit-unity-teil-3-gui-anzeige.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/softwareentwicklung-mit-gnustep.html">Softwareentwicklung mit GNUstep</a></h2>
+                <div class="summary"><p><a class="reference external" href="http://www.gnustep.org/">GNUstep</a> ist eine Entwicklungsumgebung zur
 Erstellung von Programmen in der Programmiersprache Objective-C.</p>
 <blockquote>
 &quot;GNUstep is a mature Framework, suited both for advanced GUI desktop
@@ -216,79 +162,34 @@ applications as well as server applications. The framework closely
 follows Apple's Cocoa (formerly NeXT's OpenStep) APIs but is
 portable to a variety of platforms and architectures.&quot;</blockquote>
 <p>Die …</p>
-                <a class="readmore" href="https://blog.bakera.de/softwareentwicklung-mit-gnustep.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-struktogramme-aufgebaut-sind-codeeu.html" rel="bookmark"
-                           title="Permalink to Fachinformatiker der ITF11a erklären, wie Struktogramme aufgebaut sind #codeEU">Fachinformatiker der ITF11a erklären, wie Struktogramme aufgebaut sind #codeEU</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-11-29T22:27:00+01:00">
-                Published: Fr 29 November 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> </p>
-</footer><!-- /.post-info -->                <p>Hier geht es zur
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/softwareentwicklung-mit-gnustep.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-struktogramme-aufgebaut-sind-codeeu.html">Fachinformatiker der ITF11a erklären, wie Struktogramme aufgebaut sind #codeEU</a></h2>
+                <div class="summary"><p>Hier geht es zur
 <a class="reference external" href="https://docs.google.com/presentation/d/1ZqrMb3qDRdfWSvOAHU64RB5T_9MQ8q3hagbnaTqRwuI/edit#slide=id.p">Präsentation</a>.</p>
 <p><a class="reference external" href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html">Code Week
 EU</a></p>
 
-                <a class="readmore" href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-struktogramme-aufgebaut-sind-codeeu.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-schleifen-funktionieren-codeeu.html" rel="bookmark"
-                           title="Permalink to Fachinformatiker der ITF11a erklären, wie Schleifen funktionieren #codeEU">Fachinformatiker der ITF11a erklären, wie Schleifen funktionieren #codeEU</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-11-29T22:24:00+01:00">
-                Published: Fr 29 November 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/video.html">Video</a> </p>
-</footer><!-- /.post-info -->                <p><a class="reference external" href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html">Code Week
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-struktogramme-aufgebaut-sind-codeeu.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-schleifen-funktionieren-codeeu.html">Fachinformatiker der ITF11a erklären, wie Schleifen funktionieren #codeEU</a></h2>
+                <div class="summary"><p><a class="reference external" href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html">Code Week
 EU</a></p>
 <a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/1sB4LlK4O6I?rel=0"><img alt="Youtube-Video" src="images/2018/06/1sB4LlK4O6I.jpg" /></a>
 
-                <a class="readmore" href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-schleifen-funktionieren-codeeu.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html" rel="bookmark"
-                           title="Permalink to 25.11.-30.11.: Europe Code Week - denn: Programmieren macht Spaß">25.11.-30.11.: Europe Code Week - denn: Programmieren macht Spaß</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-11-25T19:50:00+01:00">
-                Published: Mo 25 November 2013
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/bildung.html">Bildung</a> <a href="https://blog.bakera.de/tag/programmierung.html">Programmierung</a> <a href="https://blog.bakera.de/tag/termin.html">Termin</a> </p>
-</footer><!-- /.post-info -->                <p>Vom 25.11. bis zum 30.11. findet die europäische <a class="reference external" href="http://codeweek.eu/">Code
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/fachinformatiker-der-itf11a-erklaeren-wie-schleifen-funktionieren-codeeu.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html">25.11.-30.11.: Europe Code Week - denn: Programmieren macht Spaß</a></h2>
+                <div class="summary"><p>Vom 25.11. bis zum 30.11. findet die europäische <a class="reference external" href="http://codeweek.eu/">Code
 Week</a> statt.</p>
 <blockquote>
 <p>Coding is fun. Creative. Full of great people and passionate
@@ -296,33 +197,71 @@ communities.</p>
 <p>Organize a programming workshop, the one you planned to do in any
 case. Find a few friends who're curious about what you do and teach
 them …</p></blockquote>
-                <a class="readmore" href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-<p class="paginator">
-        <a href="https://blog.bakera.de/tag/programmierung2.html">&laquo;</a>
-    Page 3 / 9
-        <a href="https://blog.bakera.de/tag/programmierung4.html">&raquo;</a>
-</p>
-                </section><!-- /#content -->
-        <section id="extras" class="body">
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/25-11-30-11-europe-code-week-denn-programmieren-macht-spass.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
 
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+        <ul class="pagination">
+                <li class="prev"><a href="https://blog.bakera.de/tag/programmierung2.html">&laquo;</a>
+                </li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung.html">1</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung2.html">2</a></li>
+                    <li class="active"><a
+                            href="https://blog.bakera.de/tag/programmierung3.html">3</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung4.html">4</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung5.html">5</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung6.html">6</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung7.html">7</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung8.html">8</a></li>
+                    <li class=""><a
+                            href="https://blog.bakera.de/tag/programmierung9.html">9</a></li>
+                <li class="next"><a
+                        href="https://blog.bakera.de/tag/programmierung4.html">&raquo;</a></li>
+        </ul>
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+
+
+
+
+    </ul>
+</section>            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2018 Marco Bakera
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="https://blog.bakera.de/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://blog.bakera.de/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="https://blog.bakera.de/theme/js/respond.min.js"></script>
+
 
 </body>
 </html>
