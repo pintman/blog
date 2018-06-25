@@ -1,46 +1,124 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-        <meta charset="utf-8" />
-        <title>Modularisierung großer Software-Systeme durch Subsysteme</title>
-        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/main.css" />
-        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+    <title>Modularisierung großer Software-Systeme durch Subsysteme - /home/bakera/blog</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+
+
+<link rel="canonical" href="https://blog.bakera.de/modularisierung-grosser-software-systeme-durch-subsysteme.html">
+
+        <meta name="author" content="marco.bakera" />
+        <meta name="keywords" content="Audio,Informatik,heise,Podcast" />
+        <meta name="description" content="Der Heise- Developer Podcast spricht in Folge 44 über eine Modularisierte Architektur für große Systeme. Die Idee dahinter klingt plausibel und einfach: Die Software wird in einzelne Systeme zerlegt. Die Verantwortung der Systeme liegt (fast) vollständig in den Händen der Entwickler der Subsysteme. Die Kommunikation zwischen den Teams soll reduziert …" />
+
+        <meta property="og:site_name" content="/home/bakera/blog" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Modularisierung großer Software-Systeme durch Subsysteme"/>
+        <meta property="og:url" content="https://blog.bakera.de/modularisierung-grosser-software-systeme-durch-subsysteme.html"/>
+        <meta property="og:description" content="Der Heise- Developer Podcast spricht in Folge 44 über eine Modularisierte Architektur für große Systeme. Die Idee dahinter klingt plausibel und einfach: Die Software wird in einzelne Systeme zerlegt. Die Verantwortung der Systeme liegt (fast) vollständig in den Händen der Entwickler der Subsysteme. Die Kommunikation zwischen den Teams soll reduziert …"/>
+        <meta property="article:published_time" content="2014-06-08" />
+            <meta property="article:section" content="Sonstiges" />
+            <meta property="article:tag" content="Audio" />
+            <meta property="article:tag" content="Informatik" />
+            <meta property="article:tag" content="heise" />
+            <meta property="article:tag" content="Podcast" />
+            <meta property="article:author" content="marco.bakera" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="https://blog.bakera.de/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://blog.bakera.de/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://blog.bakera.de/theme/css/style.css" type="text/css"/>
+
+        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="/home/bakera/blog ATOM Feed"/>
+
+
+
+
 </head>
+<body>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://blog.bakera.de/">/home/bakera/blog </a></h1>
-                <nav><ul>
-                    <li><a href="https://blog.bakera.de/pages/about.html">Über</a></li>
-                    <li><a href="https://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
-                    <li><a href="https://blog.bakera.de/pages/search.html">Suche</a></li>
-                    <li><a href="https://blog.bakera.de/pages/wiki.html">Wiki</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="https://blog.bakera.de/modularisierung-grosser-software-systeme-durch-subsysteme.html" rel="bookmark"
-           title="Permalink to Modularisierung großer Software-Systeme durch Subsysteme">Modularisierung großer Software-Systeme durch Subsysteme</a></h1>
-    </header>
-
-    <div class="entry-content">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://blog.bakera.de/" class="navbar-brand">
+/home/bakera/blog            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="https://blog.bakera.de/pages/impressum.html">
+                             Impressum, Datenschutz
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/search.html">
+                             Suche
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/wiki.html">
+                             Wiki
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/about.html">
+                             Über
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="https://blog.bakera.de/modularisierung-grosser-software-systeme-durch-subsysteme.html"
+                       rel="bookmark"
+                       title="Permalink to Modularisierung großer Software-Systeme durch Subsysteme">
+                        Modularisierung großer Software-Systeme durch Subsysteme
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
 <footer class="post-info">
-        <abbr class="published" title="2014-06-08T15:06:00+02:00">
-                Published: So 08 Juni 2014
-        </abbr>
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2014-06-08T15:06:00+02:00"> So 08 Juni 2014</time>
+    </span>
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/audio.html">Audio</a> <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/heise.html">heise</a> <a href="https://blog.bakera.de/tag/podcast.html">Podcast</a> </p>
-</footer><!-- /.post-info -->      <p><img alt="Lautsprecher" class="alignright size-full wp-image-1046" src="images/2014/05/Lautsprecher.png" style="width: 128px; height: 128px;" /></p>
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="https://blog.bakera.de/tag/audio.html">Audio</a>
+        /
+	<a href="https://blog.bakera.de/tag/informatik.html">Informatik</a>
+        /
+	<a href="https://blog.bakera.de/tag/heise.html">heise</a>
+        /
+	<a href="https://blog.bakera.de/tag/podcast.html">Podcast</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p><img alt="Lautsprecher" class="alignright size-full wp-image-1046" src="images/2014/05/Lautsprecher.png" style="width: 128px; height: 128px;" /></p>
 <p>Der Heise- Developer Podcast spricht in <a class="reference external" href="http://www.heise.de/developer/artikel/Episode-44-Modularisierte-Architektur-fuer-grosse-Systeme-2195818.html">Folge 44 über eine
 Modularisierte Architektur für große
 Systeme</a>.
@@ -50,27 +128,47 @@ vollständig in den Händen der Entwickler der Subsysteme. Die
 Kommunikation zwischen den Teams soll reduziert werden, die
 Verlässlichkeit wird über Schnittstellenvereinbarungen erzwungen.</p>
 
-    </div><!-- /.entry-content -->
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
 
-  </article>
-</section>
-        <section id="extras" class="body">
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
 
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+
+
+
+    </ul>
+</section>            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2018 Marco Bakera
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="https://blog.bakera.de/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://blog.bakera.de/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="https://blog.bakera.de/theme/js/respond.min.js"></script>
+
 
 </body>
 </html>

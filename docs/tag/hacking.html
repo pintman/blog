@@ -1,101 +1,130 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-        <meta charset="utf-8" />
-        <title>/home/bakera/blog - hacking</title>
-        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/main.css" />
-        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="/home/bakera/blog Atom Feed" />
+    <title>hacking - /home/bakera/blog</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+
+
+
+    <meta name="author" content="Marco Bakera" />
+    <meta name="keywords" content="hacking" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="/home/bakera/blog" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="/home/bakera/blog"/>
+        <meta property="og:url" content="https://blog.bakera.de"/>
+        <meta property="og:description" content="/home/bakera/blog"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="https://blog.bakera.de/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://blog.bakera.de/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://blog.bakera.de/theme/css/style.css" type="text/css"/>
+
+        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="/home/bakera/blog ATOM Feed"/>
+
+
+
+
 </head>
+<body>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://blog.bakera.de/">/home/bakera/blog </a></h1>
-                <nav><ul>
-                    <li><a href="https://blog.bakera.de/pages/about.html">Über</a></li>
-                    <li><a href="https://blog.bakera.de/pages/impressum.html">Impressum, Datenschutz</a></li>
-                    <li><a href="https://blog.bakera.de/pages/search.html">Suche</a></li>
-                    <li><a href="https://blog.bakera.de/pages/wiki.html">Wiki</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="https://blog.bakera.de/ctf-kreuzwortraetsel-fuer-nerds.html">CTF - Kreuzworträtsel für Nerds</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2018-01-02T09:50:00+01:00">
-                Published: Di 02 Januar 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a>
-        </address>
-<p>In <a href="https://blog.bakera.de/category/sonstiges.html">Sonstiges</a>.</p>
-<p>tags: <a href="https://blog.bakera.de/tag/informatik.html">Informatik</a> <a href="https://blog.bakera.de/tag/34c3.html">34c3</a> <a href="https://blog.bakera.de/tag/hacking.html">hacking</a> </p>
-</footer><!-- /.post-info --><p><a class="reference external" href="images/2018/01/Racing_Flag_Blue-800px.png"><img alt="image0" class="alignnone size-medium wp-image-2157" src="images/2018/01/Racing_Flag_Blue-800px-300x288.png" style="width: 300px; height: 288px;" /></a></p>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://blog.bakera.de/" class="navbar-brand">
+/home/bakera/blog            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="https://blog.bakera.de/pages/impressum.html">
+                             Impressum, Datenschutz
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/search.html">
+                             Suche
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/wiki.html">
+                             Wiki
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/about.html">
+                             Über
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+            <article>
+                <h2><a href="https://blog.bakera.de/ctf-kreuzwortraetsel-fuer-nerds.html">CTF - Kreuzworträtsel für Nerds</a></h2>
+                <div class="summary"><p><a class="reference external" href="images/2018/01/Racing_Flag_Blue-800px.png"><img alt="image0" class="alignnone size-medium wp-image-2157" src="images/2018/01/Racing_Flag_Blue-800px-300x288.png" style="width: 300px; height: 288px;" /></a></p>
 <p>CTF ist eine Abkürzung für &quot;Capture the Flag&quot;. Auf dem Chaos
 Communication Congress wird eine solche Veranstaltung traditionell immer
 am Ende des Jahres durchgeführt. In diesem Jahr habe ich mich erstmals
 auch bei der <a class="reference external" href="http://junior.34c3ctf.ccc.ac/">Junior-Version</a>
 beteiligt und in einem kleinen Team versucht, verschiedene Aufgaben aus
-den folgenden Bereichen zu lösen: Reverse Engineering, Kryptographie,
-Passwörter-Knacken, Web und Verschiedenes. Trotz der Klassifikation als
-Einsteigerveranstaltung, waren die Aufgaben alles andere als leicht.
-Über mehrere Schritte musste man gehen, um am Ende ein <em>flag</em> zu
-erhalten - dies war ein String, der mit &quot;34C3_&quot; beginnt und den man in
-eine Weboberfläche eingeben kann, um damit die Aufgabe lösen.</p>
-<p><a class="reference external" href="images/2018/01/Screenshot-2018-1-1-https-junior-34c3ctf-ccc-ac.png"><img alt="image1" class="alignnone size-full wp-image-2160" src="images/2018/01/Screenshot-2018-1-1-https-junior-34c3ctf-ccc-ac.png" style="width: 486px; height: 246px;" /></a></p>
-<p>Unser Team <em>laborratten</em> hat am Ende den 147. Platz belegt - bei 435
-teilnehmenden Teams ist das schon ein gutes Ergebnis, auf das sich
-aufbauen lässt. Neben dem Konkurrenzaspekt, war das Lösen der Aufgaben
-jedoch Ansporn genug, sodass es nicht unser letzter CTF gewesen sein
-wird.</p>
-<p>So etwas möchte ich auch einmal selbst veranstalten - vielleicht sogar
-im Rahmen einer Schulveranstaltung oder bei einem GameJam. Die
-einsteiger-freundlichen CTFs <a class="reference external" href="https://picoctf.com/">picoCTF</a>,
-<a class="reference external" href="https://www.easyctf.com/">EasyCTF</a>,&nbsp;<a class="reference external" href="http://overthewire.org/wargames/">OverTheWire:
-Wargames</a>,&nbsp;<a class="reference external" href="https://school-ctf.org">School
-CTF</a> und <a class="reference external" href="https://juniors.ctf.org.ru/">Juniors
-CTF</a> könnten als Vorbild und
-Aufgaben-Pool dienen.</p>
-<div class="line-block">
-<div class="line"><strong>Update</strong></div>
-<div class="line">Das Buch <a class="reference external" href="https://www.packtpub.com/networking-and-servers/kali-linux-ctf-blueprints">Kali Linux CTF
-Blueprints</a>
-zeigt, wie man selbst eine solche Challenge erstellen kann. Die Liste
-<a class="reference external" href="https://github.com/apsdehal/awesome-ctf">Awesome CTF</a> bei github
-stellt Frameworks, Tutorials und Software rund um CTF zusammen. Der
-<a class="reference external" href="https://github.com/JGillam/openflagserver">openflagserver von Jason
-Gillam</a> ist z.B. ein
-einfacher in Python geschrieberen und leicht anpassbarer Server, um
-Flags, User und Punkte zu verwalten.</div>
-<div class="line">Auch die Formel zur Berechnung der Punktzahl in Abhängigkeit der
-Anzahl der Lösungen ist noch einen separaten Blick wert:</div>
-<div class="line">int(round(30 + 470 / (1 + (max(0, solves - 1) / 11.92201) **
-1.206069)))</div>
+den folgenden Bereichen zu lösen …</p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/ctf-kreuzwortraetsel-fuer-nerds.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+
+
+
+
+
+    </ul>
+</section>            </aside>
+        </div>
+    </div>
 </div>
-                </article>
-            </aside><!-- /#featured -->
-        <section id="extras" class="body">
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2018 Marco Bakera
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="https://blog.bakera.de/theme/js/jquery.min.js"></script>
 
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://blog.bakera.de/theme/js/bootstrap.min.js"></script>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="https://blog.bakera.de/theme/js/respond.min.js"></script>
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
 
 </body>
 </html>
