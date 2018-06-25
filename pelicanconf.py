@@ -10,6 +10,10 @@ PATH = 'content'
 STATIC_PATHS = ['images', 'media']
 DEFAULT_CATEGORY = 'Sonstiges'
 DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = (
+    ("Archiv", "archives.html"),
+    ("Tags", "tags.html"))
+
 
 TIMEZONE = 'Europe/Berlin'
 
@@ -43,6 +47,7 @@ RELATIVE_URLS = True
 #THEME = "notmyidea"
 
 # Theme pelican-bootstrap3
+# https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3
 #
 # FIX: theme needs 'git checkout be36234'
 THEME = "pelican-themes/pelican-bootstrap3"

@@ -20,14 +20,6 @@ Bochum (kurz `TBS1 <http://www.tbs1.de>`__).
 .. |Marco Bakera| image:: ../images/2018/05/avatar-100x100.png
 
 
-Tags/Archiv
------------
-
-Alle Artikel sind über Tags verschlagwortet. Auf einer eigenen Seite
-gibt es eine Übersicht über `alle Tags <../tags.html>`_. Eine Übersicht
-über alle Artikel befindet sich im `Archiv <../archives.html>`_.
-
-
 Newsfeed
 --------
 
