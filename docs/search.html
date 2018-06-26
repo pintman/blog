@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="de" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Authors - /home/bakera/blog</title>
+    <title>Search - /home/bakera/blog
+</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -25,6 +26,7 @@
     <link href="https://blog.bakera.de/theme/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="https://blog.bakera.de/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="https://blog.bakera.de/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
     <link rel="stylesheet" href="https://blog.bakera.de/theme/css/style.css" type="text/css"/>
 
         <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
@@ -50,13 +52,8 @@
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                    <li><a href="https://blog.bakera.de/archives.html">Archiv</a></li>
-                    <li><a href="https://blog.bakera.de//tags.html">Tags</a></li>
                          <li><a href="https://blog.bakera.de/pages/impressum.html">
                              Impressum, Datenschutz
-                          </a></li>
-                         <li><a href="https://blog.bakera.de/pages/search.html">
-                             Suche
                           </a></li>
                          <li><a href="https://blog.bakera.de/pages/wiki.html">
                              Wiki
@@ -66,6 +63,11 @@
                           </a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="/search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -75,10 +77,30 @@
 <!-- End Banner -->
 <div class="container">
     <div class="row">
-        <div class="col-lg-12">
-    <h1>Authors on /home/bakera/blog</h1>
-        <li><a href="https://blog.bakera.de/author/admin.html">admin</a> (289)</li>
-        <li><a href="https://blog.bakera.de/author/marcobakera.html">marco.bakera</a> (218)</li>
+        <div class="col-sm-9">
+<div id="tipue_search_content"></div>
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+              <ul class="list-group" id="social">
+                <li class="list-group-item"><a href="https://www.twitter.com/pintman"><i class="fa fa-twitter-square fa-lg"></i> twitter</a></li>
+                <li class="list-group-item"><a href="https://github.com/pintman"><i class="fa fa-github-square fa-lg"></i> github</a></li>
+                <li class="list-group-item"><a href="https://github.com/tbs1-bo"><i class="fa fa-github-square fa-lg"></i> github TBS1</a></li>
+                <li class="list-group-item"><a href="https://gitlab.com/pintman"><i class="fa fa-git-square fa-lg"></i> gitlab</a></li>
+                <li class="list-group-item"><a href="https://edugit.org/bak"><i class="fa fa-git-square fa-lg"></i> edugit</a></li>
+              </ul>
+            </li>
+
+
+
+
+
+    </ul>
+</section>            </aside>
         </div>
     </div>
 </div>
@@ -103,5 +125,17 @@
 <script src="https://blog.bakera.de/theme/js/respond.min.js"></script>
 
 
+    <script type="text/javascript" src="https://blog.bakera.de/theme/tipuesearch/tipuesearch_set.js"></script>
+    <script type="text/javascript" src="https://blog.bakera.de/theme/tipuesearch/tipuesearch.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('#tipue_search_input').tipuesearch({
+        'mode' : 'json',
+        'show': 10,
+        'newWindow': false,
+        'contentLocation': 'tipuesearch_content.json'
+      });
+    });
+    </script>
 </body>
 </html>
