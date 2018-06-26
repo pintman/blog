@@ -9,7 +9,7 @@ Audiotisch
 Hier befinden sich einige Versuche meinerseits, sich in der auditiven
 Welt von heute zurechtzufinden. Reinhören und Spaß haben. Vielleicht
 interessieren dich ja auch meine Eskapaden im Bereich
-`podcasting <http://pintman.blogspot.com/2005/03/podcasts.html>`__. Dort
+`podcasting <{filename}podcasts.rst>`__. Dort
 findest du ein paar längere Stücke, mit denen du die
 geräuschentwickelnden Kisten an deinem Rechner quälen kannst.
 
@@ -22,7 +22,7 @@ Bensemann lebt
 
 Enstanden für einen podcast, bei dem es um ein Interview mit Benjamin
 Feld geht. Zu finden auch bei meinen
-`podcasts <http://pintman.blogspot.com/2005/03/podcasts.html>`__
+`podcasts <{filename}podcasts.rst>`__
 
 | 
 
@@ -61,7 +61,7 @@ Die Bluttransfusion
 | `[mp3] <http://members.ping.de/~pintman/bakera.de-flash/die-bluttransfusion.mp3>`__
 | Eine kleine Geschichte über ein Pferd, einen Hufschmied und viel Blut.
   Auch nochmal nachzulesen auf einer `eigenen
-  Seite <http://pintman.blogspot.com/2004/01/die-bluttransfusion.html>`__.
+  Seite <{filename}die-bluttransfusion.rst>`__.
 
 Sphere
 ~~~~~~

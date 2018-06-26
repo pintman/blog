@@ -6,15 +6,10 @@ Monster
 :slug: monster
 :status: published
 
-| 
-| |image0|
 
-| 
-| Ein Plädoyer für Serientäter?
+|image0|
 
-.. raw:: html
-
-   <div>
+Ein Plädoyer für Serientäter?
 
 Mehr als Notlösung, da die *Passion Jesu Christi* nicht zur gewünschten
 Zeit lief, entpuppte sich der Film als wahrer Glücksgriff. Ein Film über
@@ -27,10 +22,6 @@ Wirklichkeit und bringen uns bei, dass wir nicht in einer Traumwelt
 leben, dass die Dinge nicht immer gerecht sind und, dass das Leben
 manchmal nur wenige Alternativen besitzt.
 
-.. raw:: html
-
-   </p>
-
 Doch will der Film etwa Mitleid auf der falschen Seite produzieren, wenn
 uns nur die eine Wirklichkeit - die des Mörders - nahe gebracht wird?
 Hier ist es schwierig, objektiv zu bleiben, wir fühlen als Zuschauer,
@@ -38,12 +29,9 @@ als Mensch, auf einmal mit dem Mörder, nicht mit dem Opfer. Und dennoch
 ist das Gefühl nicht *erzeugt*, nicht aufgesetzt, als vielmehr logisch,
 konsequent, kausal.
 
-.. raw:: html
-
-   </div>
 
 Mehr Informationen über meinen Filmgeschmack bietet meine
-`Filmsammlung <http://pintman.blogspot.com/2004/01/filmwelten.html>`__.
+`Filmsammlung <{filename}filmwelten.rst>`__.
 
 .. |image0| image:: http://photos14.flickr.com/19824656_145cf6f366_o.jpg
    :width: 80.0%

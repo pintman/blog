@@ -7,7 +7,7 @@
 :status: published
 
 Bei meinen
-`podcasts <http://pintman.blogspot.com/2005/03/podcasts.html>`__ ist die
+`podcasts <{filename}podcasts.rst>`__ ist die
 Dreinummer erschienen und enthält ein Interview zwischen Benjamin Fels
 (eben dem Bensemann) und mir. Das Ganze ist in der Nacht vom 15.04.05
 auf den 16.04.05 zwischen ein und zwei Uhr entstanden. Für etwaige

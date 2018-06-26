@@ -9,10 +9,10 @@ Eine neue DVD ist angekommen
 Eigentlich habe ich ja gar nicht mehr damit gerechnet, aber die
 kostenlose Ausgabe der HomeVision ist doch noch eingetroffen (siehe dazu
 auch meinen Eintrag vom
-`13.04.05 <http://pintman.blogspot.com/2005/04/kostenlos-ausgabe-der-homevision.html>`__).
+`13.04.05 <{filename}kostenlos-ausgabe-der-homevision.rst>`__).
 Es war sogar ein kleiner Film mit dabei, den ich denn auch gleich in
 meine
-`Filmsammlung <http://pintman.blogspot.com/2004/01/filmwelten.html>`__
+`Filmsammlung <{filename}filmwelten.rst>`__
 mit aufgenommen habe. Der Titel lautet "Straight Shooter" und ich habe
 eigentlich keine Ahnung, worum es dabei gehen soll. Die
 Darstellerkombination Heino Ferch, Dennis Hopper und Katja Flint

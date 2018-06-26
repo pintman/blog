@@ -7,7 +7,7 @@
 :status: published
 
 Ausgabe 2 meines Lauftagebuches und Ausgabe 6 meines
-`Podcasts <http://pintman.blogspot.com/2005/03/podcasts.html>`__. Ein
+`Podcasts <{filename}podcasts.rst>`__. Ein
 Pulsmesser musste her. Das Wetter wird besser und das Laufen macht immer
 mehr Spass.
 

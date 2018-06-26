@@ -6,18 +6,11 @@ Mathematische Stilblüten
 :slug: mathematische-stilbluten
 :status: published
 
-.. raw:: html
-
-   <div>
 
 |image0|
 
-.. raw:: html
-
-   </div>
-
 `Guillermo
-Bautistas <http://pintman.blogspot.com/2010/07/blogtipp-mathematics-and-multimedia.html>`__
+Bautistas <{filename}blogtipp-mathematics-and-multimedia.rst>`__
 Artikel `Why mathematics teachers
 drink <http://math4allages.wordpress.com/2010/07/14/why-mathematics-teachers-drink/>`__
 zeigt einige schöne Stilblüten von Schülern, die den

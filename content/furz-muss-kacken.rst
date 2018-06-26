@@ -6,18 +6,9 @@ Furz muss kacken
 :slug: furz-muss-kacken
 :status: published
 
-.. raw:: html
-
-   <div>
 
 |image0|
 
-.. raw:: html
-
-   </div>
-
-| 
-| `mehr von Furz <http://pintman.blogspot.com/2004/01/furz.html>`__
+`mehr von Furz <{filename}furz.rst>`__
 
 .. |image0| image:: http://photos14.flickr.com/19823238_f17adf5cbd_o.jpg
-   :target: http://pintman.blogspot.com/2004/01/furz.html

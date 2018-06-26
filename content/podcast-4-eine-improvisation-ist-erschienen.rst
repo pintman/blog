@@ -7,7 +7,7 @@
 :status: published
 
 Bei meinen
-`podcasts <http://pintman.blogspot.com/2005/03/podcasts.html>`__ ist nun
+`podcasts <{filename}podcasts.rst>`__ ist nun
 endlich die Viernummer erschienen. Endlich mal in einer richtig guten
 Tonqualität - wie ich finde - nachdem ich herausgefunden haben, wie man
 den Rauschfilter richtig bedient. Lasst euch verzaubern von Gedanken zum

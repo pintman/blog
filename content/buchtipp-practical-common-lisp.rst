@@ -27,7 +27,7 @@ Jedem Programmierer, der einmal ueber den Tellerrand seiner
 Haus-und-Hof-Sprache hinausblicken moechte - und der Aufwand lohnt sich
 tatsaechlich - sei dieses Buch (und natuerlich der Klassiker `Structure
 and Interpretation of Computer
-Programs <http://pintman.blogspot.com/2006/01/structure-and-interpretation-of.html>`__)
+Programs <{filename}structure-and-interpretation-of-computer-programs.rst>`__)
 waermstens ans Herz gelegt.
 
 Das Buch selbst ist in einer

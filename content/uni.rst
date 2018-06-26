@@ -16,21 +16,21 @@ Die Beiträge sind nach Erscheinungsdatum sortiert, wobei die jeweils
 aktuellsten Beiträge immer oben erscheinen.
 
 | `Funktionen und
-  Mengen <http://pintman.blogspot.com/2006/02/funktionen-und-mengen.html>`__
+  Mengen <{filename}funktionen-und-mengen.rst>`__
 | `Diplomarbeit
-  angemeldet <http://pintman.blogspot.com/2006/02/diplomarbeit-angemeldet.html>`__
+  angemeldet <{filename}diplomarbeit-angemeldet.rst>`__
 | `Das
-  Halteproblem <http://pintman.blogspot.com/2006/02/das-halteproblem.html>`__
-| `Y f = f(Y f) <http://pintman.blogspot.com/2006/01/y-f-fy-f.html>`__
+  Halteproblem <{filename}das-halteproblem.rst>`__
+| `Y f = f(Y f) <{filename}y-f-fy-f.rst>`__
 | `Structure and Interpretation of Computer
-  Programs <http://pintman.blogspot.com/2006/01/structure-and-interpretation-of.html>`__
+  Programs <{filename}structure-and-interpretation-of-computer-programs.rst>`__
 | `Gute Ausreden eines
-  Programmierers <http://pintman.blogspot.com/2005/11/gute-ausreden-eines-programmierers.html>`__
+  Programmierers <{filename}gute-ausreden-eines-programmierers.rst>`__
 | `Video einer Vorlesung zum Thema Model
-  Checking <http://pintman.blogspot.com/2005/11/umfangreiche-unterlagungen-zu-einer.html>`__
+  Checking <{filename}umfangreiche-unterlagungen-zu-einer-model-checking-vorlesung.rst>`__
 | `Motivations-, Emotionspsychologie und
-  Intelligenztheorien <http://pintman.blogspot.com/2005/10/10.html>`__
+  Intelligenztheorien <{filename}1-0.rst>`__
 | `Der Kunstbegriff – Der Versuch einer
-  Definition <http://pintman.blogspot.com/2005/08/kunst-ist.html>`__
+  Definition <{filename}kunst-ist.rst>`__
 | `Graphische Systeme und
-  Betriebssysteme <http://pintman.blogspot.com/2005/07/10.html>`__
+  Betriebssysteme <{filename}1-0-2.rst>`__

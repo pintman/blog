@@ -6,18 +6,10 @@ Furz geht auffe Kirmes
 :slug: furz-geht-auffe-kirmes
 :status: published
 
-.. raw:: html
-
-   <div>
 
 |image0|
 
-.. raw:: html
 
-   </div>
-
-| 
-| `mehr von Furz <http://pintman.blogspot.com/2004/01/furz.html>`__
+`mehr von Furz <{filename}furz.rst>`__
 
 .. |image0| image:: http://photos17.flickr.com/19823237_4cfe48813b_b.jpg
-   :target: http://pintman.blogspot.com/2004/01/furz.html

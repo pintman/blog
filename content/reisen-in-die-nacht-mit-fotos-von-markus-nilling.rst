@@ -6,13 +6,15 @@ Reisen in die Nacht mit Fotos von Markus Nilling
 :slug: reisen-in-die-nacht-mit-fotos-von-markus-nilling
 :status: published
 
-| |image0|
-| |image1|
-| |image2|
+|image0|
+
+|image1|
+
+|image2|
 
 Am Wochenende war ich mal wieder unterwegs – ja, auch Informatiker zieht
 es mal vor die Tür. Grund genug war die Diplomabschlussprüfung einer
-Freundin von `Petra <http://pintman.blogspot.com/2004/01/petra.html>`__
+Freundin von Petra
 im Bereich Fotodesign. Wir tigerten also schön zur Fachhochschule
 Dortmund zum Fachbereich Design und schauten uns die, durchaus
 interessanten Bilder, an. Nachdem der "Pflichtteil" erledigt war,

@@ -12,6 +12,5 @@ ganzer Song. Demnach ist das gute Stueck auch recht kurz. Vielleicht
 sorgt es bei dem ein oder anderen trotzdem fuer kurzweilige Momente.
 Viel Spass damit.
 
-| 
-| `[mehr Musik von
-  mir] <http://pintman.blogspot.com/2005/04/audiotisch.html>`__
+
+`[mehr Musik von mir] <{filename}audiotisch.rst>`__

@@ -20,7 +20,7 @@ Beispiel.
 
 Einen anschaulichen Beweis für dieses Problem habe ich heute bei
 `Structure & Interpretation of Computer
-Programs <http://pintman.blogspot.com/2006/01/structure-and-interpretation-of.html>`__
+Programs <{filename}structure-and-interpretation-of-computer-programs.rst>`__
 wiedergefunden, den ich kurz vorführen möchte.
 
 Angenommen, es gäbe eine Funktion safe(f, a), die für eine Funktion f

@@ -11,7 +11,7 @@ Fira RoboWorld Cup
 Vom 28. Juni bis zum 3. Juli finden in den Dortmunder Westfalenhallen
 wieder einmal Weltmeisterschaften fuer Fussballroboter statt. Die
 bereits `in Bremen stattfandene
-WM <http://pintman.blogspot.com/2006/06/robocup-wm-2006.html>`__ wird
+WM <{filename}robocup-wm-2006.rst>`__ wird
 nun um den `11. FIRA RoboWorld Cup» <http://www.firaworldcup.de/>`__
 (`FIRA = Federation of International Robot Soccer
 Association» <http://www.fira.net/>`__) ergaenzt. Wieder einmal gibt es
