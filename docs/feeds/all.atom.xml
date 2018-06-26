@@ -10460,13 +10460,11 @@ folgenden Videoreihe stelle ich euch vor, wie man Erweiterungen für
 dieses Spiel erstellt.&lt;/p&gt;
 &lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="https://www.youtube.com/watch?v=1kuvaaQyNLo&amp;amp;list=PLTcDXIvOMZ71dNCSjD1PdmiuoaRfCE26t&amp;amp;feature=player_embedded"&gt;weitere
 Videos&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content><category term="Programmierung"></category><category term="Video"></category></entry><entry><title>Tutorial: Binding Sourcen in C#</title><link href="https://blog.bakera.de/tutorial-binding-sourcen-in-c.html" rel="alternate"></link><published>2013-01-04T10:07:00+01:00</published><updated>2013-01-04T10:07:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2013-01-04:/tutorial-binding-sourcen-in-c.html</id><summary type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;Mit Hilfe von Bindings können in C# Datenobjekte an eine GUI gebunden
+&lt;/div&gt;</content><category term="Programmierung"></category><category term="Video"></category></entry><entry><title>Tutorial: Binding Sourcen in C#</title><link href="https://blog.bakera.de/tutorial-binding-sourcen-in-c.html" rel="alternate"></link><published>2013-01-04T10:07:00+01:00</published><updated>2013-01-04T10:07:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2013-01-04:/tutorial-binding-sourcen-in-c.html</id><summary type="html">&lt;p&gt;Mit Hilfe von Bindings können in C# Datenobjekte an eine GUI gebunden
 werden. Wenn sich etwas an den Datenobjekten ändert, wird die GUI
 automatisch aktualisiert. Andererseits können Änderungen an den
 Objekten direkt über die GUI vorgenommen werden. Man muss sich nach
-der Bindung also keine Gedanken mehr machen, dass die …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;Mit Hilfe von Bindings können in C# Datenobjekte an eine GUI gebunden
+der Bindung also keine Gedanken mehr machen, dass die …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Mit Hilfe von Bindings können in C# Datenobjekte an eine GUI gebunden
 werden. Wenn sich etwas an den Datenobjekten ändert, wird die GUI
 automatisch aktualisiert. Andererseits können Änderungen an den
 Objekten direkt über die GUI vorgenommen werden. Man muss sich nach
@@ -10474,122 +10472,83 @@ der Bindung also keine Gedanken mehr machen, dass die GUI aktualisiert
 wird, wenn sich an den Daten etwas ändert. Für gewöhnlich würde man
 für diesen Zweck das Observer-Pattern verwenden, als Obeserver (GUI)
 beim Observable (den Datenklassen) registrieren und auf Änderungen
-horchen.&lt;/div&gt;
-&lt;div class="line"&gt;` &amp;lt;&amp;gt;`__&lt;/div&gt;
-&lt;div class="line"&gt;Wir werden im Folgenden ein kleines Beispielprojekt in Visual Studio
+horchen.&lt;/p&gt;
+&lt;p&gt;Wir werden im Folgenden ein kleines Beispielprojekt in Visual Studio
 2010 erstellen, das diesen Zusammenhang veranschaulicht. Die
 Feinheiten erledigt Visual Studio im Hintergrund, wenn wir uns an ein
-paar Regeln halten.&lt;/div&gt;
-&lt;div class="line"&gt;Dazu erstellen wir zunächst ein neues Projekt.&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-sbD1ZkFJQSc/UOHDTbJea-I/AAAAAAAACOk/I_HukExFbAY/s1600/Binding+Source+Beispiel+-+quer_html_666c530d.png"&gt;&lt;img alt="image0" src="http://4.bp.blogspot.com/-sbD1ZkFJQSc/UOHDTbJea-I/AAAAAAAACOk/I_HukExFbAY/s1600/Binding+Source+Beispiel+-+quer_html_666c530d.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;p&gt;In dem neuen Projekt erstellen wir eine Klasse Person, die an drei
+paar Regeln halten.
+Dazu erstellen wir zunächst ein neues Projekt.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-sbD1ZkFJQSc/UOHDTbJea-I/AAAAAAAACOk/I_HukExFbAY/s1600/Binding+Source+Beispiel+-+quer_html_666c530d.png"&gt;&lt;img alt="image0" src="http://4.bp.blogspot.com/-sbD1ZkFJQSc/UOHDTbJea-I/AAAAAAAACOk/I_HukExFbAY/s1600/Binding+Source+Beispiel+-+quer_html_666c530d.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In dem neuen Projekt erstellen wir eine Klasse Person, die an drei
 GUI-Elemente gebunden werden soll. In diesem kleinen Beispiel verwende
 ich eine TextBox, ein NumericUpDown und ein DataGridView als
 GUI-Elemente. Die Klasse Person hat lediglich die beiden Attribute
 &amp;quot;name&amp;quot; und &amp;quot;alter&amp;quot;.
 Insgesamt ergibt sich das folgende Bild.&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-1_AnqVB63T0/UOHTUaGeERI/AAAAAAAACRE/JcjV1UpFBII/s1600/klassendiagramm_person_fenster.png"&gt;&lt;img alt="image1" src="http://4.bp.blogspot.com/-1_AnqVB63T0/UOHTUaGeERI/AAAAAAAACRE/JcjV1UpFBII/s1600/klassendiagramm_person_fenster.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;Zunächst erstellen wir die Klasse des Datenobjektes: Person.&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-RPvu9VMDgoM/UOHDVQ-sVdI/AAAAAAAACO0/CWrN47d5JiI/s1600/Binding+Source+Beispiel+-+quer_html_748a4276.png"&gt;&lt;img alt="image2" src="http://4.bp.blogspot.com/-RPvu9VMDgoM/UOHDVQ-sVdI/AAAAAAAACO0/CWrN47d5JiI/s1600/Binding+Source+Beispiel+-+quer_html_748a4276.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;Wir geben den Namen der Datei an, in der die Klasse landen soll:
-Person.cs.&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-m1bBwUqEDok/UOHDXTRjE6I/AAAAAAAACPE/RSATyWuOc_8/s1600/Binding+Source+Beispiel+-+quer_html_m63807da4.png"&gt;&lt;img alt="image3" src="http://4.bp.blogspot.com/-m1bBwUqEDok/UOHDXTRjE6I/AAAAAAAACPE/RSATyWuOc_8/s1600/Binding+Source+Beispiel+-+quer_html_m63807da4.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;Die neue erzeugte Klasse macht nicht viel. Sie hält lediglich unsere
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-1_AnqVB63T0/UOHTUaGeERI/AAAAAAAACRE/JcjV1UpFBII/s1600/klassendiagramm_person_fenster.png"&gt;&lt;img alt="image1" src="http://4.bp.blogspot.com/-1_AnqVB63T0/UOHTUaGeERI/AAAAAAAACRE/JcjV1UpFBII/s1600/klassendiagramm_person_fenster.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Zunächst erstellen wir die Klasse des Datenobjektes: Person.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-RPvu9VMDgoM/UOHDVQ-sVdI/AAAAAAAACO0/CWrN47d5JiI/s1600/Binding+Source+Beispiel+-+quer_html_748a4276.png"&gt;&lt;img alt="image2" src="http://4.bp.blogspot.com/-RPvu9VMDgoM/UOHDVQ-sVdI/AAAAAAAACO0/CWrN47d5JiI/s1600/Binding+Source+Beispiel+-+quer_html_748a4276.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Wir geben den Namen der Datei an, in der die Klasse landen soll:
+&lt;tt class="docutils literal"&gt;Person.cs&lt;/tt&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-m1bBwUqEDok/UOHDXTRjE6I/AAAAAAAACPE/RSATyWuOc_8/s1600/Binding+Source+Beispiel+-+quer_html_m63807da4.png"&gt;&lt;img alt="image3" src="http://4.bp.blogspot.com/-m1bBwUqEDok/UOHDXTRjE6I/AAAAAAAACPE/RSATyWuOc_8/s1600/Binding+Source+Beispiel+-+quer_html_m63807da4.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Die neue erzeugte Klasse macht nicht viel. Sie hält lediglich unsere
 Daten. Neben den beiden Attributen name und alter existieren nur
 entsprechende Zugriffsmethoden, die in C# als Properties realisiert
-sind. Der Quelltext der Klasse sieht damit wie folgt aus.&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://1.bp.blogspot.com/-_B_x-uRsIfs/UOHDPDZ229I/AAAAAAAACN4/sbWUcbAls4s/s1600/Binding+Source+Beispiel+-+quer_html_22f4e63.png"&gt;&lt;img alt="image4" src="http://1.bp.blogspot.com/-_B_x-uRsIfs/UOHDPDZ229I/AAAAAAAACN4/sbWUcbAls4s/s1600/Binding+Source+Beispiel+-+quer_html_22f4e63.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;Die neu erstellte Klasse Person soll als Datenquelle dienen. Dazu
-fügen wir dem Projekt eine neue Datenquelle hinzu.&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://3.bp.blogspot.com/-F8EcKO29Cmc/UOHDR_qOeEI/AAAAAAAACOY/uSxkaurVSLQ/s1600/Binding+Source+Beispiel+-+quer_html_5e8bcdd7.png"&gt;&lt;img alt="image5" src="http://3.bp.blogspot.com/-F8EcKO29Cmc/UOHDR_qOeEI/AAAAAAAACOY/uSxkaurVSLQ/s1600/Binding+Source+Beispiel+-+quer_html_5e8bcdd7.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;Da es sich um eine Klasse, und nicht etwa um eine Datenbank handelt,
+sind. Der Quelltext der Klasse sieht damit wie folgt aus.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://1.bp.blogspot.com/-_B_x-uRsIfs/UOHDPDZ229I/AAAAAAAACN4/sbWUcbAls4s/s1600/Binding+Source+Beispiel+-+quer_html_22f4e63.png"&gt;&lt;img alt="image4" src="http://1.bp.blogspot.com/-_B_x-uRsIfs/UOHDPDZ229I/AAAAAAAACN4/sbWUcbAls4s/s1600/Binding+Source+Beispiel+-+quer_html_22f4e63.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Die neu erstellte Klasse Person soll als Datenquelle dienen. Dazu
+fügen wir dem Projekt eine neue Datenquelle hinzu.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://3.bp.blogspot.com/-F8EcKO29Cmc/UOHDR_qOeEI/AAAAAAAACOY/uSxkaurVSLQ/s1600/Binding+Source+Beispiel+-+quer_html_5e8bcdd7.png"&gt;&lt;img alt="image5" src="http://3.bp.blogspot.com/-F8EcKO29Cmc/UOHDR_qOeEI/AAAAAAAACOY/uSxkaurVSLQ/s1600/Binding+Source+Beispiel+-+quer_html_5e8bcdd7.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Da es sich um eine Klasse, und nicht etwa um eine Datenbank handelt,
 verwenden wir an dieser Stelle den Typ Objekt.&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-Ds4M67cWtN4/UOHDOVDVRSI/AAAAAAAACN0/dqClLkk3vCE/s1600/Binding+Source+Beispiel+-+quer_html_10e97626.png"&gt;&lt;img alt="image6" src="http://4.bp.blogspot.com/-Ds4M67cWtN4/UOHDOVDVRSI/AAAAAAAACN0/dqClLkk3vCE/s1600/Binding+Source+Beispiel+-+quer_html_10e97626.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;In der sich zeigenden Liste, wählen wir unsere Klasse Person aus.&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-gheQTeUrvPc/UOHFIzZdAtI/AAAAAAAACQk/VdptjoEYyxM/s1600/Binding+Source+Beispiel+-+quer_html_m750ee31b.png"&gt;&lt;img alt="image7" src="http://2.bp.blogspot.com/-gheQTeUrvPc/UOHFIzZdAtI/AAAAAAAACQk/VdptjoEYyxM/s1600/Binding+Source+Beispiel+-+quer_html_m750ee31b.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;Nun ist die Klasse bei den Datenquellen zu finden und wir können sie an
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-Ds4M67cWtN4/UOHDOVDVRSI/AAAAAAAACN0/dqClLkk3vCE/s1600/Binding+Source+Beispiel+-+quer_html_10e97626.png"&gt;&lt;img alt="image6" src="http://4.bp.blogspot.com/-Ds4M67cWtN4/UOHDOVDVRSI/AAAAAAAACN0/dqClLkk3vCE/s1600/Binding+Source+Beispiel+-+quer_html_10e97626.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In der sich zeigenden Liste, wählen wir unsere Klasse Person aus.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-gheQTeUrvPc/UOHFIzZdAtI/AAAAAAAACQk/VdptjoEYyxM/s1600/Binding+Source+Beispiel+-+quer_html_m750ee31b.png"&gt;&lt;img alt="image7" src="http://2.bp.blogspot.com/-gheQTeUrvPc/UOHFIzZdAtI/AAAAAAAACQk/VdptjoEYyxM/s1600/Binding+Source+Beispiel+-+quer_html_m750ee31b.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nun ist die Klasse bei den Datenquellen zu finden und wir können sie an
 unsere Steuerelemente binden.&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;Damit die neue Datenquelle gefunden wird, muss das Projekt einmal
+&lt;p&gt;Damit die neue Datenquelle gefunden wird, muss das Projekt einmal
 gestartet werden, indem wir auf den grünen Pfeil drücken.&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://3.bp.blogspot.com/-_KSG_ajIeHo/UOHDYDoCA_I/AAAAAAAACPI/6E4cA3HQq58/s1600/Binding+Source+Beispiel+-+quer_html_m6a054a16.png"&gt;&lt;img alt="image8" src="http://3.bp.blogspot.com/-_KSG_ajIeHo/UOHDYDoCA_I/AAAAAAAACPI/6E4cA3HQq58/s1600/Binding+Source+Beispiel+-+quer_html_m6a054a16.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;Wir beenden unser Programm sofort wieder. Nun taucht unsere Datenquelle
+&lt;p&gt;&lt;a class="reference external" href="http://3.bp.blogspot.com/-_KSG_ajIeHo/UOHDYDoCA_I/AAAAAAAACPI/6E4cA3HQq58/s1600/Binding+Source+Beispiel+-+quer_html_m6a054a16.png"&gt;&lt;img alt="image8" src="http://3.bp.blogspot.com/-_KSG_ajIeHo/UOHDYDoCA_I/AAAAAAAACPI/6E4cA3HQq58/s1600/Binding+Source+Beispiel+-+quer_html_m6a054a16.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Wir beenden unser Programm sofort wieder. Nun taucht unsere Datenquelle
 mit den entsprechenden Attributen bei den Datenquellen auf.&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://1.bp.blogspot.com/-3bUIF8EtZSs/UOHDZpn-YbI/AAAAAAAACPY/j5s21-sINk4/s1600/Binding+Source+Beispiel+-+quer_html_m79564e59.png"&gt;&lt;img alt="image9" src="http://1.bp.blogspot.com/-3bUIF8EtZSs/UOHDZpn-YbI/AAAAAAAACPY/j5s21-sINk4/s1600/Binding+Source+Beispiel+-+quer_html_m79564e59.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;Jetzt können wir endlich Hand an unsere GUI legen. Wir wählen eine
+&lt;p&gt;&lt;a class="reference external" href="http://1.bp.blogspot.com/-3bUIF8EtZSs/UOHDZpn-YbI/AAAAAAAACPY/j5s21-sINk4/s1600/Binding+Source+Beispiel+-+quer_html_m79564e59.png"&gt;&lt;img alt="image9" src="http://1.bp.blogspot.com/-3bUIF8EtZSs/UOHDZpn-YbI/AAAAAAAACPY/j5s21-sINk4/s1600/Binding+Source+Beispiel+-+quer_html_m79564e59.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jetzt können wir endlich Hand an unsere GUI legen. Wir wählen eine
 TextBox, ein NumericUpDown und ein DataGridView als Steuerelemente aus
 und ziehen diese Elemente auf unseren Designer.&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-9ojvrak_GME/UOHDUS8587I/AAAAAAAACOs/B6RnmQeLWCc/s1600/Binding+Source+Beispiel+-+quer_html_6e7677c5.png"&gt;&lt;img alt="image10" src="http://2.bp.blogspot.com/-9ojvrak_GME/UOHDUS8587I/AAAAAAAACOs/B6RnmQeLWCc/s1600/Binding+Source+Beispiel+-+quer_html_6e7677c5.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;Beim Einfügen des DataGridViews, fragt die Komponente direkt nach ihrer
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-9ojvrak_GME/UOHDUS8587I/AAAAAAAACOs/B6RnmQeLWCc/s1600/Binding+Source+Beispiel+-+quer_html_6e7677c5.png"&gt;&lt;img alt="image10" src="http://2.bp.blogspot.com/-9ojvrak_GME/UOHDUS8587I/AAAAAAAACOs/B6RnmQeLWCc/s1600/Binding+Source+Beispiel+-+quer_html_6e7677c5.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Beim Einfügen des DataGridViews, fragt die Komponente direkt nach ihrer
 Datenquelle. Die Datenquelle sorgt dafür, dass es in der Komponente
 etwas zum Anzeigen gibt – wie der Name eigentlich schon sagt. Wir wählen
 die Person als Datenquelle aus.&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://3.bp.blogspot.com/-1XPyx2UR8_Q/UOHDRKcCY4I/AAAAAAAACOQ/i8-76D7GzX4/s1600/Binding+Source+Beispiel+-+quer_html_457a6f8.png"&gt;&lt;img alt="image11" src="http://3.bp.blogspot.com/-1XPyx2UR8_Q/UOHDRKcCY4I/AAAAAAAACOQ/i8-76D7GzX4/s1600/Binding+Source+Beispiel+-+quer_html_457a6f8.png" /&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;Es wird automatisch eine BindingSource hinzugefügt, die das
+&lt;p&gt;&lt;a class="reference external" href="http://3.bp.blogspot.com/-1XPyx2UR8_Q/UOHDRKcCY4I/AAAAAAAACOQ/i8-76D7GzX4/s1600/Binding+Source+Beispiel+-+quer_html_457a6f8.png"&gt;&lt;img alt="image11" src="http://3.bp.blogspot.com/-1XPyx2UR8_Q/UOHDRKcCY4I/AAAAAAAACOQ/i8-76D7GzX4/s1600/Binding+Source+Beispiel+-+quer_html_457a6f8.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Es wird automatisch eine BindingSource hinzugefügt, die das
 Steuerelement mit der Personenklasse verbindet.&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/--ePmtk9zR6M/UOHDV5f5YvI/AAAAAAAACO4/2tFibWYOdyA/s1600/Binding+Source+Beispiel+-+quer_html_ecbbb66.png"&gt;&lt;img alt="image12" src="http://2.bp.blogspot.com/--ePmtk9zR6M/UOHDV5f5YvI/AAAAAAAACO4/2tFibWYOdyA/s1600/Binding+Source+Beispiel+-+quer_html_ecbbb66.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;Alle Änderungen an einer Person werden nun nicht mehr direkt auf der
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/--ePmtk9zR6M/UOHDV5f5YvI/AAAAAAAACO4/2tFibWYOdyA/s1600/Binding+Source+Beispiel+-+quer_html_ecbbb66.png"&gt;&lt;img alt="image12" src="http://2.bp.blogspot.com/--ePmtk9zR6M/UOHDV5f5YvI/AAAAAAAACO4/2tFibWYOdyA/s1600/Binding+Source+Beispiel+-+quer_html_ecbbb66.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Alle Änderungen an einer Person werden nun nicht mehr direkt auf der
 Klasse, sondern über die BindingSource geregelt. Andererseits werden
 Änderungen an der Person über die BindingSource den GUI-Komponenten
 bekannt gemacht. Die BindingSource fungiert als Vermittler zwischen der
 Darstellung in der GUI und den Daten im Datenobjekt – also der Person.&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;Für das Textfeld wählen wir das Attribut Name als Datenquelle in der
+&lt;p&gt;Für das Textfeld wählen wir das Attribut Name als Datenquelle in der
 BindingSource aus: das Textfeld soll immer den Namen der aktuellen
-Person anzeigen.&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-KwFJVcB9DVM/UOHDaTWXS9I/AAAAAAAACPg/LFFvY1vgJ2I/s1600/Binding+Source+Beispiel+-+quer_html_maf43c17.png"&gt;&lt;img alt="image13" src="http://2.bp.blogspot.com/-KwFJVcB9DVM/UOHDaTWXS9I/AAAAAAAACPg/LFFvY1vgJ2I/s1600/Binding+Source+Beispiel+-+quer_html_maf43c17.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;Für das NumericUpDown wird entsprechend das Alter gewählt.&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://1.bp.blogspot.com/-B-796v7RNy4/UOHDcFcKhwI/AAAAAAAACPw/QGVNyfmK1JU/s1600/Binding+Source+Beispiel_html_27ce6f3b.png"&gt;&lt;img alt="image14" src="http://1.bp.blogspot.com/-B-796v7RNy4/UOHDcFcKhwI/AAAAAAAACPw/QGVNyfmK1JU/s1600/Binding+Source+Beispiel_html_27ce6f3b.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;Damit ist die kleine Anwendung schon fertig. Wenn wir sie starten,
+Person anzeigen.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-KwFJVcB9DVM/UOHDaTWXS9I/AAAAAAAACPg/LFFvY1vgJ2I/s1600/Binding+Source+Beispiel+-+quer_html_maf43c17.png"&gt;&lt;img alt="image13" src="http://2.bp.blogspot.com/-KwFJVcB9DVM/UOHDaTWXS9I/AAAAAAAACPg/LFFvY1vgJ2I/s1600/Binding+Source+Beispiel+-+quer_html_maf43c17.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Für das NumericUpDown wird entsprechend das Alter gewählt.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://1.bp.blogspot.com/-B-796v7RNy4/UOHDcFcKhwI/AAAAAAAACPw/QGVNyfmK1JU/s1600/Binding+Source+Beispiel_html_27ce6f3b.png"&gt;&lt;img alt="image14" src="http://1.bp.blogspot.com/-B-796v7RNy4/UOHDcFcKhwI/AAAAAAAACPw/QGVNyfmK1JU/s1600/Binding+Source+Beispiel_html_27ce6f3b.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Damit ist die kleine Anwendung schon fertig. Wenn wir sie starten,
 können neue Personen über das DatagridView eingegeben und geändert
 werden. Gleichzeitig werden die beiden anderen Komponenten - die TextBox
 mit dem Namen und das NumericUpDown mit dem Alter - automatisch
 aktualisiert.&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;Spiele etwas mit der kleinen Anwendung herum und schau, wie mühelos die
+&lt;p&gt;Spiele etwas mit der kleinen Anwendung herum und schau, wie mühelos die
 Verbindung zwischen dem Datenobjekt Person und der Oberfläche
 funktioniert.&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-C3T6OamXqUg/UOHGZP7Sq6I/AAAAAAAACQ0/Ddvvu5FRVgc/s1600/Binding+Source+Beispiel+-+quer_html_34c4ed4b.png"&gt;&lt;img alt="image15" src="http://2.bp.blogspot.com/-C3T6OamXqUg/UOHGZP7Sq6I/AAAAAAAACQ0/Ddvvu5FRVgc/s1600/Binding+Source+Beispiel+-+quer_html_34c4ed4b.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;An dieser Stelle kannst du &lt;a class="reference external" href="https://docs.google.com/open?id=0B7xDwPYvx9_LNV9fMXFKMmFDVEU"&gt;das vollständige Projekt als Visual Studio
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-C3T6OamXqUg/UOHGZP7Sq6I/AAAAAAAACQ0/Ddvvu5FRVgc/s1600/Binding+Source+Beispiel+-+quer_html_34c4ed4b.png"&gt;&lt;img alt="image15" src="http://2.bp.blogspot.com/-C3T6OamXqUg/UOHGZP7Sq6I/AAAAAAAACQ0/Ddvvu5FRVgc/s1600/Binding+Source+Beispiel+-+quer_html_34c4ed4b.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;An dieser Stelle kannst du &lt;a class="reference external" href="https://docs.google.com/open?id=0B7xDwPYvx9_LNV9fMXFKMmFDVEU"&gt;das vollständige Projekt als Visual Studio
 2010
 Solution&lt;/a&gt;
 herunterladen.&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;</content><category term="Programmierung"></category></entry><entry><title>Frohes neues Jahr</title><link href="https://blog.bakera.de/frohes-neues-jahr.html" rel="alternate"></link><published>2013-01-01T09:48:00+01:00</published><updated>2013-01-01T09:48:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2013-01-01:/frohes-neues-jahr.html</id><summary type="html">&lt;div class="line-block"&gt;
+</content><category term="Programmierung"></category></entry><entry><title>Frohes neues Jahr</title><link href="https://blog.bakera.de/frohes-neues-jahr.html" rel="alternate"></link><published>2013-01-01T09:48:00+01:00</published><updated>2013-01-01T09:48:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2013-01-01:/frohes-neues-jahr.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Ein &lt;a class="reference external" href="https://twitter.com/apfelkasten/status/285894335894016000"&gt;Tweet von
 &amp;#64;apfelkasten&lt;/a&gt;
 begrüßt das neue Jahr mit einer interessanten Eigenschaft:&lt;/div&gt;
@@ -11168,20 +11127,16 @@ in die noch neue (Stand August 2011) Welt des Cloud Computings ein.&lt;/div&gt;
 &lt;/div&gt;
 &lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://wiki.bakera.de/doku.php/schule/linktipps_informatik"&gt;weitere
 Linktipps&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content><category term="Audio"></category><category term="Informatik"></category></entry><entry><title>IPhone-Schule in der Schweiz</title><link href="https://blog.bakera.de/iphone-schule-in-der-schweiz.html" rel="alternate"></link><published>2011-06-22T16:27:00+02:00</published><updated>2011-06-22T16:27:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2011-06-22:/iphone-schule-in-der-schweiz.html</id><summary type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;An &lt;a class="reference external" href="http://pintman.blogspot.com/2010/08/handys-im-unterricht-fluch-oder-chance.html"&gt;dieser
+&lt;/div&gt;</content><category term="Audio"></category><category term="Informatik"></category></entry><entry><title>IPhone-Schule in der Schweiz</title><link href="https://blog.bakera.de/iphone-schule-in-der-schweiz.html" rel="alternate"></link><published>2011-06-22T16:27:00+02:00</published><updated>2011-06-22T16:27:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2011-06-22:/iphone-schule-in-der-schweiz.html</id><summary type="html">&lt;p&gt;An &lt;a class="reference external" href="https://blog.bakera.de/handys-im-unterricht-fluch-oder-chance.html"&gt;dieser
 Stelle&lt;/a&gt;
 habe ich bereits über den Einsatz von Handys in amerikanischen Schulen
 berichtet. Nun gibt es auch in der Schweiz eine Schule, in der alle
-Schüler mit einem IPhone ausgestattet sind.&lt;/div&gt;
-&lt;/div&gt;
-</summary><content type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;An &lt;a class="reference external" href="http://pintman.blogspot.com/2010/08/handys-im-unterricht-fluch-oder-chance.html"&gt;dieser
+Schüler mit einem IPhone ausgestattet sind.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;An &lt;a class="reference external" href="https://blog.bakera.de/handys-im-unterricht-fluch-oder-chance.html"&gt;dieser
 Stelle&lt;/a&gt;
 habe ich bereits über den Einsatz von Handys in amerikanischen Schulen
 berichtet. Nun gibt es auch in der Schweiz eine Schule, in der alle
-Schüler mit einem IPhone ausgestattet sind.&lt;/div&gt;
-&lt;/div&gt;
+Schüler mit einem IPhone ausgestattet sind.&lt;/p&gt;
 </content><category term="Bildung"></category><category term="Video"></category></entry><entry><title>Tricider</title><link href="https://blog.bakera.de/tricider.html" rel="alternate"></link><published>2011-06-18T07:47:00+02:00</published><updated>2011-06-18T07:47:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2011-06-18:/tricider.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;a class="reference external" href="http://tricider.com/"&gt;Tricider&lt;/a&gt;hilft dir, Entscheidungen zu
 treffen. Das Ganze läuft in dem Dreischritt&lt;/div&gt;
@@ -11358,30 +11313,25 @@ Daten in einem solchen Rechenzentrum geschützt werden.&lt;/div&gt;
 Rechenzentren von Google? Ein Video auf YouTube erläutert, wie die
 Daten in einem solchen Rechenzentrum geschützt werden.&lt;/div&gt;
 &lt;/div&gt;
-</content><category term="Video"></category></entry><entry><title>Über die Entwicklung von Computerspielen (Staffel 3 von Bubble Universe)</title><link href="https://blog.bakera.de/uber-die-entwicklung-von-computerspielen-staffel-3-von-bubble-universe.html" rel="alternate"></link><published>2011-04-18T07:13:00+02:00</published><updated>2011-04-18T07:13:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2011-04-18:/uber-die-entwicklung-von-computerspielen-staffel-3-von-bubble-universe.html</id><summary type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;Derzeit läuft die&lt;a class="reference external" href="http://www.3min.de/video/gaming/bubble-universe/"&gt;dritte Staffel von Bubble
+</content><category term="Video"></category></entry><entry><title>Über die Entwicklung von Computerspielen (Staffel 3 von Bubble Universe)</title><link href="https://blog.bakera.de/uber-die-entwicklung-von-computerspielen-staffel-3-von-bubble-universe.html" rel="alternate"></link><published>2011-04-18T07:13:00+02:00</published><updated>2011-04-18T07:13:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2011-04-18:/uber-die-entwicklung-von-computerspielen-staffel-3-von-bubble-universe.html</id><summary type="html">&lt;p&gt;Derzeit läuft die &lt;a class="reference external" href="http://www.3min.de/video/gaming/bubble-universe/"&gt;dritte Staffel von Bubble
 Universe&lt;/a&gt; (ich
 habe über die ersten beiden Staffel bereits
-&lt;a class="reference external" href="http://pintman.blogspot.com/2010/08/passionierte-und-professionelle.html"&gt;berichtet&lt;/a&gt;).
+&lt;a class="reference external" href="https://blog.bakera.de/passionierte-und-professionelle-computerspieler.html"&gt;berichtet&lt;/a&gt;).
 Diesmal gehen die Autoren der Entwicklung eines Computerspieles auf
-den Grund.&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;`
-&lt;img alt="image0" src="http://www.3min.de/templates/3min/images/playbutton_extern.png" style="width: 15px; height: 10px;" /&gt;Bubble Universe - Bubble Universe 3 - Trailer
-&amp;lt;&lt;a class="reference external" href="http://www.3min.de/video/gaming/bubble-universe/adventskalender-19/14/94/4721"&gt;http://www.3min.de/video/gaming/bubble-universe/adventskalender-19/14/94/4721&lt;/a&gt;&amp;gt;`__
-&lt;a class="reference external" href="http://www.3min.de/"&gt;powered by 3min.de …&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;Derzeit läuft die&lt;a class="reference external" href="http://www.3min.de/video/gaming/bubble-universe/"&gt;dritte Staffel von Bubble
-Universe&lt;/a&gt; (ich
-habe über die ersten beiden Staffel bereits
-&lt;a class="reference external" href="http://pintman.blogspot.com/2010/08/passionierte-und-professionelle.html"&gt;berichtet&lt;/a&gt;).
-Diesmal gehen die Autoren der Entwicklung eines Computerspieles auf
-den Grund.&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;`
-&lt;img alt="image0" src="http://www.3min.de/templates/3min/images/playbutton_extern.png" style="width: 15px; height: 10px;" /&gt;Bubble Universe - Bubble Universe 3 - Trailer
-&amp;lt;&lt;a class="reference external" href="http://www.3min.de/video/gaming/bubble-universe/adventskalender-19/14/94/4721"&gt;http://www.3min.de/video/gaming/bubble-universe/adventskalender-19/14/94/4721&lt;/a&gt;&amp;gt;`__
+den Grund.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image0" src="http://www.3min.de/templates/3min/images/playbutton_extern.png" style="width: 15px; height: 10px;" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.3min.de/video/gaming/bubble-universe/adventskalender-19/14/94/4721"&gt;Bubble Universe - Bubble Universe 3 - Trailer&lt;/a&gt;
 &lt;a class="reference external" href="http://www.3min.de/"&gt;powered by 3min.de&lt;/a&gt;&lt;/p&gt;
-&lt;/p&gt;&lt;/div&gt;</content><category term="Programmierung"></category><category term="Spaß"></category><category term="Video"></category></entry><entry><title>Ein interessantes System zur Gesichtserkennung</title><link href="https://blog.bakera.de/ein-interessantes-system-zur-gesichtserkennung.html" rel="alternate"></link><published>2011-04-06T18:55:00+02:00</published><updated>2011-04-06T18:55:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2011-04-06:/ein-interessantes-system-zur-gesichtserkennung.html</id><summary type="html">&lt;div class="line-block"&gt;
+</summary><content type="html">&lt;p&gt;Derzeit läuft die &lt;a class="reference external" href="http://www.3min.de/video/gaming/bubble-universe/"&gt;dritte Staffel von Bubble
+Universe&lt;/a&gt; (ich
+habe über die ersten beiden Staffel bereits
+&lt;a class="reference external" href="https://blog.bakera.de/passionierte-und-professionelle-computerspieler.html"&gt;berichtet&lt;/a&gt;).
+Diesmal gehen die Autoren der Entwicklung eines Computerspieles auf
+den Grund.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image0" src="http://www.3min.de/templates/3min/images/playbutton_extern.png" style="width: 15px; height: 10px;" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.3min.de/video/gaming/bubble-universe/adventskalender-19/14/94/4721"&gt;Bubble Universe - Bubble Universe 3 - Trailer&lt;/a&gt;
+&lt;a class="reference external" href="http://www.3min.de/"&gt;powered by 3min.de&lt;/a&gt;&lt;/p&gt;
+</content><category term="Programmierung"></category><category term="Spaß"></category><category term="Video"></category></entry><entry><title>Ein interessantes System zur Gesichtserkennung</title><link href="https://blog.bakera.de/ein-interessantes-system-zur-gesichtserkennung.html" rel="alternate"></link><published>2011-04-06T18:55:00+02:00</published><updated>2011-04-06T18:55:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2011-04-06:/ein-interessantes-system-zur-gesichtserkennung.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Entstanden aus einer Doktorarbeit zeigt das System erstaunliche
 Fähigkeiten bei der Erkennung von Gesichtern, Gegenständen oder
 Bildinhalten.&lt;/div&gt;
@@ -11881,15 +11831,13 @@ sprachen über interessante Spielkonzepte für Computerspiele, die durch
 unsägliche Grafikschlachten in neuen Spielen die Innovationskraft
 vergangener Zeiten vernebeln.&lt;/div&gt;
 &lt;/div&gt;
-</content><category term="Audio"></category><category term="Kunst"></category><category term="Programmierung"></category><category term="Spaß"></category><category term="Video"></category></entry><entry><title>Wikileaks</title><link href="https://blog.bakera.de/wikileaks.html" rel="alternate"></link><published>2010-07-22T15:00:00+02:00</published><updated>2010-07-22T15:00:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2010-07-22:/wikileaks.html</id><summary type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;Das 2006 gegründete Projekt &lt;a class="reference external" href="http://wikileaks.org/"&gt;Wikileaks&lt;/a&gt;
+</content><category term="Audio"></category><category term="Kunst"></category><category term="Programmierung"></category><category term="Spaß"></category><category term="Video"></category></entry><entry><title>Wikileaks</title><link href="https://blog.bakera.de/wikileaks.html" rel="alternate"></link><published>2010-07-22T15:00:00+02:00</published><updated>2010-07-22T15:00:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2010-07-22:/wikileaks.html</id><summary type="html">&lt;p&gt;Das 2006 gegründete Projekt &lt;a class="reference external" href="http://wikileaks.org/"&gt;Wikileaks&lt;/a&gt;
 veröffentlicht Informationen, die nicht veröffentlicht werden sollen.
 Geheime Dokumente von Organisationen, Firmen und Parteien. Damit
 entwickelt Wikileaks die Vision der Informationsfreiheit auf einer
 politisch-gesellschaftlichen Ebene weiter. Es wird sich zeigen müssen,
 ob unsere Welt für diese Offenheit reif genug ist. Es werden
-Informationen ans Licht …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;Das 2006 gegründete Projekt &lt;a class="reference external" href="http://wikileaks.org/"&gt;Wikileaks&lt;/a&gt;
+Informationen ans Licht …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Das 2006 gegründete Projekt &lt;a class="reference external" href="http://wikileaks.org/"&gt;Wikileaks&lt;/a&gt;
 veröffentlicht Informationen, die nicht veröffentlicht werden sollen.
 Geheime Dokumente von Organisationen, Firmen und Parteien. Damit
 entwickelt Wikileaks die Vision der Informationsfreiheit auf einer
@@ -11901,25 +11849,24 @@ gibt. Und es wird eine gesellschaftliche Wende stattfinden, die wir
 heute noch nicht vorhersehen können. Wikileaks bietet von seiner
 gesellschaftlichen Brisanz mehr Zündstoff als es Wikipedia oder
 Facebook je bieten könnten und formt damit die künftige
-Informationsgesellschaft und ihre zugehörige Politiklandschaft.&lt;/div&gt;
-&lt;div class="line"&gt;Das folgende Interview wurde bei der diesjährigen
+Informationsgesellschaft und ihre zugehörige Politiklandschaft.
+Das folgende Interview wurde bei der diesjährigen
 &lt;a class="reference external" href="http://de.wikipedia.org/wiki/TED_%28Konferenz%29"&gt;TED-Konferenz&lt;/a&gt;
 aufgenommen. Julian Assange beantwortet als Gesicht von Wikileaks
-Fragen und spricht über vergangene Erfolge und zukünftige Visionen.&lt;/div&gt;
-&lt;div class="line"&gt;Beim Chaos Radio Express sprach bereits im Jahre 2009 in &lt;a class="reference external" href="http://chaosradio.ccc.de/cr149.html"&gt;Folge
+Fragen und spricht über vergangene Erfolge und zukünftige Visionen.
+Beim Chaos Radio Express sprach bereits im Jahre 2009 in &lt;a class="reference external" href="http://chaosradio.ccc.de/cr149.html"&gt;Folge
 149&lt;/a&gt; Daniel Schmitt
 (Pseudonym) über die Zukunft des Projektes und die Idee hinter
-Wikileaks.&lt;/div&gt;
-&lt;div class="line"&gt;Während des Chaos Communication Congresses im Dezember 2009 stellen
+Wikileaks.
+Während des Chaos Communication Congresses im Dezember 2009 stellen
 Julian Assange und Daniel Schmitt in einem
 &lt;a class="reference external" href="http://events.ccc.de/congress/2009/Fahrplan/events/3567.en.html"&gt;Vortrag&lt;/a&gt;
-die weiteren Ziele von Wikileaks vor.&lt;/div&gt;
-&lt;div class="line"&gt;In einem Interview &lt;a class="reference external" href="http://www.dctp.tv/#/meinungsmacher/wikileaks-schmitt"&gt;bei dctp.tv spricht Daniel
+die weiteren Ziele von Wikileaks vor.
+In einem Interview &lt;a class="reference external" href="http://www.dctp.tv/#/meinungsmacher/wikileaks-schmitt"&gt;bei dctp.tv spricht Daniel
 Schmitt&lt;/a&gt;
 über Wikileaks und erklärt das Projekt aus einer journalistischen
 Perspektive heraus und spricht über Finanzierungsmodelle für
-Wikileaks.&lt;/div&gt;
-&lt;/div&gt;
+Wikileaks.&lt;/p&gt;
 </content><category term="Audio"></category><category term="Bildung"></category><category term="Tipp"></category><category term="Video"></category></entry><entry><title>Trinkwasser reinigen</title><link href="https://blog.bakera.de/trinkwasser-reinigen.html" rel="alternate"></link><published>2010-07-20T10:00:00+02:00</published><updated>2010-07-20T10:00:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2010-07-20:/trinkwasser-reinigen.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Ich dachte es mir schon immer: Die einfachsten Erfindungen sind die
 besten. So zeigt es auch der Beitrag von &lt;a class="reference external" href="http://www.daserste.de/wissenvoracht/folge_dyn~folge,383~cm.asp"&gt;Wissen vor
@@ -11934,33 +11881,29 @@ besten. So zeigt es auch der Beitrag von &lt;a class="reference external" href="
 der ein simples Verfahren vorgestellt, mit dem Trinkwasser mit Hilfe
 von Plastikflaschen gereinigt werden kann.&lt;/div&gt;
 &lt;/div&gt;
-</content><category term="Bildung"></category><category term="Tipp"></category><category term="Video"></category></entry><entry><title>Kreative Stilblüten</title><link href="https://blog.bakera.de/kreative-stilbluten.html" rel="alternate"></link><published>2010-07-19T07:08:00+02:00</published><updated>2010-07-19T07:08:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2010-07-19:/kreative-stilbluten.html</id><summary type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;em&gt;Nachtrag zum Artikel `Mathematische
-Stilblüten &amp;lt;http://pintman.blogspot.com/2010/07/mathematische-stilbluten.html&amp;gt;`__.&lt;/em&gt;&lt;/div&gt;
-&lt;div class="line"&gt;Bei Failblog
+</content><category term="Bildung"></category><category term="Tipp"></category><category term="Video"></category></entry><entry><title>Kreative Stilblüten</title><link href="https://blog.bakera.de/kreative-stilbluten.html" rel="alternate"></link><published>2010-07-19T07:08:00+02:00</published><updated>2010-07-19T07:08:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2010-07-19:/kreative-stilbluten.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Nachtrag zum Artikel `Mathematische
+Stilblüten &amp;lt;{filename}mathematische-stilbluten.rst&amp;gt;`__.&lt;/em&gt;
+Bei Failblog
 (&lt;a class="reference external" href="http://failblog.org/2010/07/16/epic-fail-photos-answer-fail-4/"&gt;hier&lt;/a&gt;
 und
 &lt;a class="reference external" href="http://failblog.org/2010/07/15/epic-fail-photos-answer-win-2/"&gt;hier&lt;/a&gt;)
 habe ich Schülerantworten gefunden, die zeign, dass man beim Erstellen
 der Aufgaben niemals die Kreativität seiner Schülerinnen und Schüler
-unterschätzen sollte.&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://failblog.files.wordpress.com/2010/07/be24195e-2ba9-469e-b874-4391f87293c1.jpg"&gt;&lt;img alt="image0" src="http://failblog.files.wordpress.com/2010/07/be24195e-2ba9-469e-b874-4391f87293c1.jpg" style="width: 240px; height: 320px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://failblog.files.wordpress.com/2010/07/a2a2e848-3a3f-48e2-a3f9-fb54e3b8c998.jpg"&gt;&lt;img alt="image1" src="http://failblog.files.wordpress.com/2010/07/a2a2e848-3a3f-48e2-a3f9-fb54e3b8c998.jpg" style="width: 320px; height: 261px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</summary><content type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;em&gt;Nachtrag zum Artikel `Mathematische
-Stilblüten &amp;lt;http://pintman.blogspot.com/2010/07/mathematische-stilbluten.html&amp;gt;`__.&lt;/em&gt;&lt;/div&gt;
-&lt;div class="line"&gt;Bei Failblog
+unterschätzen sollte.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://failblog.files.wordpress.com/2010/07/be24195e-2ba9-469e-b874-4391f87293c1.jpg"&gt;&lt;img alt="image0" src="http://failblog.files.wordpress.com/2010/07/be24195e-2ba9-469e-b874-4391f87293c1.jpg" style="width: 240px; height: 320px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://failblog.files.wordpress.com/2010/07/a2a2e848-3a3f-48e2-a3f9-fb54e3b8c998.jpg"&gt;&lt;img alt="image1" src="http://failblog.files.wordpress.com/2010/07/a2a2e848-3a3f-48e2-a3f9-fb54e3b8c998.jpg" style="width: 320px; height: 261px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;&lt;em&gt;Nachtrag zum Artikel `Mathematische
+Stilblüten &amp;lt;{filename}mathematische-stilbluten.rst&amp;gt;`__.&lt;/em&gt;
+Bei Failblog
 (&lt;a class="reference external" href="http://failblog.org/2010/07/16/epic-fail-photos-answer-fail-4/"&gt;hier&lt;/a&gt;
 und
 &lt;a class="reference external" href="http://failblog.org/2010/07/15/epic-fail-photos-answer-win-2/"&gt;hier&lt;/a&gt;)
 habe ich Schülerantworten gefunden, die zeign, dass man beim Erstellen
 der Aufgaben niemals die Kreativität seiner Schülerinnen und Schüler
-unterschätzen sollte.&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://failblog.files.wordpress.com/2010/07/be24195e-2ba9-469e-b874-4391f87293c1.jpg"&gt;&lt;img alt="image0" src="http://failblog.files.wordpress.com/2010/07/be24195e-2ba9-469e-b874-4391f87293c1.jpg" style="width: 240px; height: 320px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://failblog.files.wordpress.com/2010/07/a2a2e848-3a3f-48e2-a3f9-fb54e3b8c998.jpg"&gt;&lt;img alt="image1" src="http://failblog.files.wordpress.com/2010/07/a2a2e848-3a3f-48e2-a3f9-fb54e3b8c998.jpg" style="width: 320px; height: 261px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content><category term="Bildung"></category><category term="Spaß"></category></entry><entry><title>J.S. Bach als Hacker</title><link href="https://blog.bakera.de/j-s-bach-als-hacker.html" rel="alternate"></link><published>2010-07-16T13:22:00+02:00</published><updated>2010-07-16T13:22:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2010-07-16:/j-s-bach-als-hacker.html</id><summary type="html">&lt;div class="line-block"&gt;
+unterschätzen sollte.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://failblog.files.wordpress.com/2010/07/be24195e-2ba9-469e-b874-4391f87293c1.jpg"&gt;&lt;img alt="image0" src="http://failblog.files.wordpress.com/2010/07/be24195e-2ba9-469e-b874-4391f87293c1.jpg" style="width: 240px; height: 320px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://failblog.files.wordpress.com/2010/07/a2a2e848-3a3f-48e2-a3f9-fb54e3b8c998.jpg"&gt;&lt;img alt="image1" src="http://failblog.files.wordpress.com/2010/07/a2a2e848-3a3f-48e2-a3f9-fb54e3b8c998.jpg" style="width: 320px; height: 261px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content><category term="Bildung"></category><category term="Spaß"></category></entry><entry><title>J.S. Bach als Hacker</title><link href="https://blog.bakera.de/j-s-bach-als-hacker.html" rel="alternate"></link><published>2010-07-16T13:22:00+02:00</published><updated>2010-07-16T13:22:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2010-07-16:/j-s-bach-als-hacker.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Das folgende Video zeigt sehr schön, wie ein Kanon aus
 dem&amp;nbsp;&lt;a class="reference external" href="http://de.wikipedia.org/wiki/Musikalisches_Opfer"&gt;Musikalischen
 Opfer&lt;/a&gt; von Johann
@@ -11978,8 +11921,8 @@ man die Noten auf einem
 &lt;a class="reference external" href="http://de.wikipedia.org/wiki/M%C3%B6biusband"&gt;Möbiusband&lt;/a&gt;
 anordnet. Man muss einfach reinhören und -schauen, um es zu begreifen.&lt;/div&gt;
 &lt;/div&gt;
-</content><category term="Audio"></category><category term="Bildung"></category><category term="Video"></category></entry><entry><title>Mathematische Stilblüten</title><link href="https://blog.bakera.de/mathematische-stilbluten.html" rel="alternate"></link><published>2010-07-14T20:06:00+02:00</published><updated>2010-07-14T20:06:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2010-07-14:/mathematische-stilbluten.html</id><summary type="html">&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://math4allages.files.wordpress.com/2010/06/mathteacher2.png?w=300&amp;amp;h=300"&gt;&lt;img alt="image0" src="http://math4allages.files.wordpress.com/2010/06/mathteacher2.png?w=300&amp;amp;h=300" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;p&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2010/07/blogtipp-mathematics-and-multimedia.html"&gt;Guillermo
+</content><category term="Audio"></category><category term="Bildung"></category><category term="Video"></category></entry><entry><title>Mathematische Stilblüten</title><link href="https://blog.bakera.de/mathematische-stilbluten.html" rel="alternate"></link><published>2010-07-14T20:06:00+02:00</published><updated>2010-07-14T20:06:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2010-07-14:/mathematische-stilbluten.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://math4allages.files.wordpress.com/2010/06/mathteacher2.png?w=300&amp;amp;h=300"&gt;&lt;img alt="image0" src="http://math4allages.files.wordpress.com/2010/06/mathteacher2.png?w=300&amp;amp;h=300" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/blogtipp-mathematics-and-multimedia.html"&gt;Guillermo
 Bautistas&lt;/a&gt;
 Artikel &lt;a class="reference external" href="http://math4allages.wordpress.com/2010/07/14/why-mathematics-teachers-drink/"&gt;Why mathematics teachers
 drink&lt;/a&gt;
@@ -11987,8 +11930,8 @@ zeigt einige schöne Stilblüten von Schülern, die den
 Mathematikunterricht von einer sehr kreativen Seite erleben. Besonders
 gut haben mir der Gehängte an der Wurzel und das Exemplar auf der
 rechten Seite gefallen. :)&lt;/p&gt;
-</summary><content type="html">&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://math4allages.files.wordpress.com/2010/06/mathteacher2.png?w=300&amp;amp;h=300"&gt;&lt;img alt="image0" src="http://math4allages.files.wordpress.com/2010/06/mathteacher2.png?w=300&amp;amp;h=300" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;p&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2010/07/blogtipp-mathematics-and-multimedia.html"&gt;Guillermo
+</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="http://math4allages.files.wordpress.com/2010/06/mathteacher2.png?w=300&amp;amp;h=300"&gt;&lt;img alt="image0" src="http://math4allages.files.wordpress.com/2010/06/mathteacher2.png?w=300&amp;amp;h=300" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/blogtipp-mathematics-and-multimedia.html"&gt;Guillermo
 Bautistas&lt;/a&gt;
 Artikel &lt;a class="reference external" href="http://math4allages.wordpress.com/2010/07/14/why-mathematics-teachers-drink/"&gt;Why mathematics teachers
 drink&lt;/a&gt;
@@ -12930,30 +12873,22 @@ umfasst derzeit die folgenden Verdächtigen.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://tadewi.twoday.net/"&gt;Tadewis Wirbel-Wirrwarr&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Alle sind herzlich eingeladen, mich ihrerseits zu verlinken. :)&lt;/p&gt;
-</content><category term="bloggen"></category></entry><entry><title>Javascript ist der letzte Rotz...</title><link href="https://blog.bakera.de/javascript-ist-der-letzte-rotz.html" rel="alternate"></link><published>2008-02-24T10:13:00+01:00</published><updated>2008-02-24T10:13:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2008-02-24:/javascript-ist-der-letzte-rotz.html</id><summary type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;...habe ich früher einmal gedacht. Nach einem äußerst&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://javascript.crockford.com/javascript.html"&gt;klugen
+</content><category term="bloggen"></category></entry><entry><title>Javascript ist der letzte Rotz...</title><link href="https://blog.bakera.de/javascript-ist-der-letzte-rotz.html" rel="alternate"></link><published>2008-02-24T10:13:00+01:00</published><updated>2008-02-24T10:13:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2008-02-24:/javascript-ist-der-letzte-rotz.html</id><summary type="html">&lt;p&gt;..habe ich früher einmal gedacht. Nach einem äußerst
+&lt;a class="reference external" href="http://javascript.crockford.com/javascript.html"&gt;klugen
 Beitrag&lt;/a&gt; von
 &lt;a class="reference external" href="http://javascript.crockford.com/"&gt;Douglas
 Crockford&lt;/a&gt; und ein wenig
-Recherche, muss ich meine Meinung jedoch eindeutig revidieren.&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;Javascript ist eine Programmiersprache mit komplexen und mächtigen&lt;/div&gt;
-&lt;div class="line"&gt;Konzepten, die es Wert ist, genauer unter die Lupe genommen zu werden.&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;So ist es die erste funktionale …&lt;/p&gt;</summary><content type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;...habe ich früher einmal gedacht. Nach einem äußerst&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://javascript.crockford.com/javascript.html"&gt;klugen
+Recherche, muss ich meine Meinung jedoch eindeutig revidieren.
+Javascript ist eine Programmiersprache mit komplexen und mächtigen
+Konzepten, die es Wert ist, genauer unter die Lupe genommen zu werden.&lt;/p&gt;
+&lt;p&gt;So ist es die erste funktionale …&lt;/p&gt;</summary><content type="html">&lt;p&gt;..habe ich früher einmal gedacht. Nach einem äußerst
+&lt;a class="reference external" href="http://javascript.crockford.com/javascript.html"&gt;klugen
 Beitrag&lt;/a&gt; von
 &lt;a class="reference external" href="http://javascript.crockford.com/"&gt;Douglas
 Crockford&lt;/a&gt; und ein wenig
-Recherche, muss ich meine Meinung jedoch eindeutig revidieren.&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;Javascript ist eine Programmiersprache mit komplexen und mächtigen&lt;/div&gt;
-&lt;div class="line"&gt;Konzepten, die es Wert ist, genauer unter die Lupe genommen zu werden.&lt;/div&gt;
-&lt;/div&gt;
+Recherche, muss ich meine Meinung jedoch eindeutig revidieren.
+Javascript ist eine Programmiersprache mit komplexen und mächtigen
+Konzepten, die es Wert ist, genauer unter die Lupe genommen zu werden.&lt;/p&gt;
 &lt;p&gt;So ist es die erste funktionale Programmiersprache, die ihren Weg in den
 Mainstream geschafft hat. Doch was macht die Sprache so interessant? Zum
 einen sind es Konzepte wie Closures und prototypische Vererbung (im
@@ -13068,42 +13003,39 @@ Radio&lt;/a&gt;
 erscheinenden Miniserie &lt;em&gt;Spinne &amp;amp; Kloß&lt;/em&gt; sehen. Auch die anderen Teile
 sind mehr als einen kleinen Blick wert.&lt;/p&gt;
 &lt;p&gt;Kluge, kurzweilige Unterhaltung.&lt;/p&gt;
-</content><category term="Comic"></category><category term="Film"></category><category term="Spaß"></category></entry><entry><title>Verteilte Versionierungssysteme</title><link href="https://blog.bakera.de/verteilte-versionierungssysteme.html" rel="alternate"></link><published>2007-07-21T05:44:00+02:00</published><updated>2007-07-21T05:44:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2007-07-21:/verteilte-versionierungssysteme.html</id><summary type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;In einem &lt;a class="reference external" href="http://www.youtube.com/watch?v=4XpnKHJAok8"&gt;Vortrag bei
+</content><category term="Comic"></category><category term="Film"></category><category term="Spaß"></category></entry><entry><title>Verteilte Versionierungssysteme</title><link href="https://blog.bakera.de/verteilte-versionierungssysteme.html" rel="alternate"></link><published>2007-07-21T05:44:00+02:00</published><updated>2007-07-21T05:44:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2007-07-21:/verteilte-versionierungssysteme.html</id><summary type="html">&lt;p&gt;In einem &lt;a class="reference external" href="http://www.youtube.com/watch?v=4XpnKHJAok8"&gt;Vortrag bei
 Google&lt;/a&gt; erklärt Linus
 Torvalds die Vorzüge seines selbst entwickelten
 Versionsverwaltungssystems &lt;a class="reference external" href="http://git.or.cz/"&gt;git&lt;/a&gt;. Das besondere
-an git ist,&lt;/div&gt;
-&lt;div class="line"&gt;dass es, im Gegensatz zu Systemen wie etwa
+an git ist,
+dass es, im Gegensatz zu Systemen wie etwa
 &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Concurrent_Versions_System"&gt;CVS&lt;/a&gt; oder
 &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Subversion_%28software%29"&gt;Subversion
-(SVN)&lt;/a&gt;,&lt;/div&gt;
-&lt;div class="line"&gt;kein zentrales Repository gibt, in dem alle Daten abgelegt&lt;/div&gt;
-&lt;div class="line"&gt;werden. Vielmehr hat jeder Entwickler sein eigenes Repository und …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;In einem &lt;a class="reference external" href="http://www.youtube.com/watch?v=4XpnKHJAok8"&gt;Vortrag bei
+(SVN)&lt;/a&gt;,
+kein zentrales Repository gibt, in dem alle Daten abgelegt
+werden. Vielmehr hat jeder Entwickler sein eigenes Repository und …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In einem &lt;a class="reference external" href="http://www.youtube.com/watch?v=4XpnKHJAok8"&gt;Vortrag bei
 Google&lt;/a&gt; erklärt Linus
 Torvalds die Vorzüge seines selbst entwickelten
 Versionsverwaltungssystems &lt;a class="reference external" href="http://git.or.cz/"&gt;git&lt;/a&gt;. Das besondere
-an git ist,&lt;/div&gt;
-&lt;div class="line"&gt;dass es, im Gegensatz zu Systemen wie etwa
+an git ist,
+dass es, im Gegensatz zu Systemen wie etwa
 &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Concurrent_Versions_System"&gt;CVS&lt;/a&gt; oder
 &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Subversion_%28software%29"&gt;Subversion
-(SVN)&lt;/a&gt;,&lt;/div&gt;
-&lt;div class="line"&gt;kein zentrales Repository gibt, in dem alle Daten abgelegt&lt;/div&gt;
-&lt;div class="line"&gt;werden. Vielmehr hat jeder Entwickler sein eigenes Repository und kann&lt;/div&gt;
-&lt;div class="line"&gt;dieses ggf. mit den Repositories anderer Entwickler&lt;/div&gt;
-&lt;div class="line"&gt;synchronisieren.&lt;/div&gt;
-&lt;div class="line"&gt;Was sich zunächst einmal nach Chaos und vielen Problemen anhört,
+(SVN)&lt;/a&gt;,
+kein zentrales Repository gibt, in dem alle Daten abgelegt
+werden. Vielmehr hat jeder Entwickler sein eigenes Repository und kann
+dieses ggf. mit den Repositories anderer Entwickler
+synchronisieren.
+Was sich zunächst einmal nach Chaos und vielen Problemen anhört,
 entpuppt sich bei genauerer Betrachtung und radikaler Argumentation
 von Linus Torvalds als Arbeitsweise, die dem menschlichen Verhalten
 eher entspricht als die Verwendung eines zentralisierten Systems. Man
 merged einfach die Änderungen derjenigen Entwickler in sein Repo,
-denen man vertraut und die ein neues tolles Feature vorstellen.&lt;/div&gt;
-&lt;div class="line"&gt;Andere Vertreter dieser verteilten Systeme sind etwa&lt;/div&gt;
-&lt;div class="line"&gt;das etwas besser in Windows integrierte freie
-&lt;a class="reference external" href="http://www.selenic.com/mercurial"&gt;mercurial&lt;/a&gt; und das&lt;/div&gt;
-&lt;div class="line"&gt;kommerzielle &lt;a class="reference external" href="http://www.bitkeeper.com/"&gt;BitKeeper&lt;/a&gt;.&lt;/div&gt;
-&lt;/div&gt;
+denen man vertraut und die ein neues tolles Feature vorstellen.
+Andere Vertreter dieser verteilten Systeme sind etwa
+das etwas besser in Windows integrierte freie
+&lt;a class="reference external" href="http://www.selenic.com/mercurial"&gt;mercurial&lt;/a&gt; und das
+kommerzielle &lt;a class="reference external" href="http://www.bitkeeper.com/"&gt;BitKeeper&lt;/a&gt;.&lt;/p&gt;
 </content><category term="Film"></category><category term="Informatik"></category><category term="Programmierung"></category></entry><entry><title>CAV beim Computerclub</title><link href="https://blog.bakera.de/cav-beim-computerclub.html" rel="alternate"></link><published>2007-07-09T04:54:00+02:00</published><updated>2007-07-09T04:54:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2007-07-09:/cav-beim-computerclub.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Gerade endete in Berlin die diesjährige&lt;/div&gt;
 &lt;div class="line"&gt;&lt;a class="reference external" href="http://cav2007.org/"&gt;CAV&lt;/a&gt; (computer aided verification) - eine
@@ -13392,7 +13324,7 @@ zeigt deutlich, wohin die Reise gehen soll.&lt;/p&gt;
 </content><category term="Informatik"></category></entry><entry><title>Fira RoboWorld Cup</title><link href="https://blog.bakera.de/fira-roboworld-cup.html" rel="alternate"></link><published>2006-06-26T18:13:00+02:00</published><updated>2006-06-26T18:13:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2006-06-26:/fira-roboworld-cup.html</id><summary type="html">&lt;p&gt;&lt;img alt="image0" src="http://photos1.blogger.com/blogger/4366/184/1600/fira.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;Vom 28. Juni bis zum 3. Juli finden in den Dortmunder Westfalenhallen
 wieder einmal Weltmeisterschaften fuer Fussballroboter statt. Die
-bereits &lt;a class="reference external" href="http://pintman.blogspot.com/2006/06/robocup-wm-2006.html"&gt;in Bremen stattfandene
+bereits &lt;a class="reference external" href="https://blog.bakera.de/robocup-wm-2006.html"&gt;in Bremen stattfandene
 WM&lt;/a&gt; wird
 nun um den &lt;a class="reference external" href="http://www.firaworldcup.de/"&gt;11. FIRA RoboWorld Cup»&lt;/a&gt;
 (&lt;a class="reference external" href="http://www.fira.net/"&gt;FIRA = Federation of International Robot Soccer
@@ -13400,7 +13332,7 @@ Association»&lt;/a&gt;) ergaenzt. Wieder einmal gibt es
 diverse Ligen, die sich im wesentlichen …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="image0" src="http://photos1.blogger.com/blogger/4366/184/1600/fira.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;Vom 28. Juni bis zum 3. Juli finden in den Dortmunder Westfalenhallen
 wieder einmal Weltmeisterschaften fuer Fussballroboter statt. Die
-bereits &lt;a class="reference external" href="http://pintman.blogspot.com/2006/06/robocup-wm-2006.html"&gt;in Bremen stattfandene
+bereits &lt;a class="reference external" href="https://blog.bakera.de/robocup-wm-2006.html"&gt;in Bremen stattfandene
 WM&lt;/a&gt; wird
 nun um den &lt;a class="reference external" href="http://www.firaworldcup.de/"&gt;11. FIRA RoboWorld Cup»&lt;/a&gt;
 (&lt;a class="reference external" href="http://www.fira.net/"&gt;FIRA = Federation of International Robot Soccer
@@ -13528,7 +13460,7 @@ interessierenden Anwendungsdomaene liegen, so konnten mich der Rest des
 Buches und insbesondere Lisp dennoch ueberzeugen.&lt;/p&gt;
 &lt;p&gt;Jedem Programmierer, der einmal ueber den Tellerrand seiner
 Haus-und-Hof-Sprache hinausblicken moechte - und der Aufwand lohnt sich
-tatsaechlich - sei dieses Buch (und natuerlich der Klassiker &lt;a class="reference external" href="http://pintman.blogspot.com/2006/01/structure-and-interpretation-of.html"&gt;Structure
+tatsaechlich - sei dieses Buch (und natuerlich der Klassiker &lt;a class="reference external" href="https://blog.bakera.de/structure-and-interpretation-of-computer-programs.html"&gt;Structure
 and Interpretation of Computer
 Programs&lt;/a&gt;)
 waermstens ans Herz gelegt.&lt;/p&gt;
@@ -14084,12 +14016,12 @@ die Menge jedoch trotzdem nur eine Element (eben h) enthält.&lt;/p&gt;
 Mengendarstellung hin zu einer impliziten Darstellung zu bewegen und
 können nun etwas beschreiben, dessen Beschreibung sich selbst enthält.
 Ob das nur gut geht?!&lt;/p&gt;
-</content><category term="Informatik"></category></entry><entry><title>Diplomarbeit angemeldet</title><link href="https://blog.bakera.de/diplomarbeit-angemeldet.html" rel="alternate"></link><published>2006-02-14T18:31:00+01:00</published><updated>2006-02-14T18:31:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2006-02-14:/diplomarbeit-angemeldet.html</id><summary type="html">&lt;p&gt;Nach mittlerweile Semestern, durfte ich nun endlich zur Tat schreiten
+</content><category term="Informatik"></category></entry><entry><title>Diplomarbeit angemeldet</title><link href="https://blog.bakera.de/diplomarbeit-angemeldet.html" rel="alternate"></link><published>2006-02-14T18:31:00+01:00</published><updated>2006-02-14T18:31:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2006-02-14:/diplomarbeit-angemeldet.html</id><summary type="html">&lt;p&gt;Nach mittlerweile &amp;lt;censored&amp;gt; Semestern, durfte ich nun endlich zur Tat schreiten
 und meine Diplomarbeit anmelden. Der ruhmlose Titel lautet &amp;quot;Pläne und
 Spiele – eine Anwendung für spielbasiertes Model Checking&amp;quot;. Was
 tatsächlich dahinter steckt, wird in spätestens sechs Monaten in jeder
 gut sortierten Bereichsbibliothek für Informatik in Dortmund zu lesen
-sein. Um es …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Nach mittlerweile Semestern, durfte ich nun endlich zur Tat schreiten
+sein. Um …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Nach mittlerweile &amp;lt;censored&amp;gt; Semestern, durfte ich nun endlich zur Tat schreiten
 und meine Diplomarbeit anmelden. Der ruhmlose Titel lautet &amp;quot;Pläne und
 Spiele – eine Anwendung für spielbasiertes Model Checking&amp;quot;. Was
 tatsächlich dahinter steckt, wird in spätestens sechs Monaten in jeder
@@ -14116,7 +14048,7 @@ Beispiel.&lt;/p&gt;
 (λ () . (λ x. (x x)) (λ x. (x x)))
 &lt;/pre&gt;
 &lt;p&gt;Einen anschaulichen Beweis für dieses Problem habe ich heute bei
-&lt;a class="reference external" href="http://pintman.blogspot.com/2006/01/structure-and-interpretation-of.html"&gt;Structure &amp;amp; Interpretation of Computer
+&lt;a class="reference external" href="https://blog.bakera.de/structure-and-interpretation-of-computer-programs.html"&gt;Structure &amp;amp; Interpretation of Computer
 Programs&lt;/a&gt;
 wiedergefunden, den ich kurz vorführen möchte.&lt;/p&gt;
 &lt;p&gt;Angenommen, es gäbe eine Funktion safe(f, a), die für eine Funktion f
@@ -14222,24 +14154,22 @@ Y (λx.1) =
 oben beschriebenen Identiät auf diese Weise zu berrechnen. Er wird
 sicherlich erstaunt ob des bestimmten Fixpunktes sein. :)&lt;/p&gt;
 &lt;p&gt;Das wollte ich eigentlich nur mal gesagt haben. :)&lt;/p&gt;
-</content><category term="Informatik"></category></entry><entry><title>Structure and Interpretation of Computer Programs</title><link href="https://blog.bakera.de/structure-and-interpretation-of-computer-programs.html" rel="alternate"></link><published>2006-01-06T08:24:00+01:00</published><updated>2006-01-06T08:24:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2006-01-06:/structure-and-interpretation-of-computer-programs.html</id><summary type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;Lange ist es her seit meine letzte Nachricht an die Menschheit in
+</content><category term="Informatik"></category></entry><entry><title>Structure and Interpretation of Computer Programs</title><link href="https://blog.bakera.de/structure-and-interpretation-of-computer-programs.html" rel="alternate"></link><published>2006-01-06T08:24:00+01:00</published><updated>2006-01-06T08:24:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2006-01-06:/structure-and-interpretation-of-computer-programs.html</id><summary type="html">&lt;p&gt;Lange ist es her seit meine letzte Nachricht an die Menschheit in
 dieses öffentliche Forum meiner Seite verkündet wurde. Nun bin ich
 aber wieder zurück und wünsche in guter höflicher Manier allen meinen
-Lesern - und ich weiß, dass es wenige sind - ein Frohes Neues Jahr.&lt;/div&gt;
-&lt;div class="line"&gt;&lt;img alt="image0" src="http://photos1.blogger.com/blogger/4366/184/400/wizard.jpg" /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;Um diesen Eintrag noch weiter …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;Lange ist es her seit meine letzte Nachricht an die Menschheit in
+Lesern - und ich weiß, dass es wenige sind - ein Frohes Neues Jahr.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image0" src="http://photos1.blogger.com/blogger/4366/184/400/wizard.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Um diesen Eintrag noch weiter …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Lange ist es her seit meine letzte Nachricht an die Menschheit in
 dieses öffentliche Forum meiner Seite verkündet wurde. Nun bin ich
 aber wieder zurück und wünsche in guter höflicher Manier allen meinen
-Lesern - und ich weiß, dass es wenige sind - ein Frohes Neues Jahr.&lt;/div&gt;
-&lt;div class="line"&gt;&lt;img alt="image0" src="http://photos1.blogger.com/blogger/4366/184/400/wizard.jpg" /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;Um diesen Eintrag noch weiter begründen zu können, möchte ich auf eine
+Lesern - und ich weiß, dass es wenige sind - ein Frohes Neues Jahr.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image0" src="http://photos1.blogger.com/blogger/4366/184/400/wizard.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Um diesen Eintrag noch weiter begründen zu können, möchte ich auf eine
 meiner tollsten Entdeckungen in der Informatiklandschaft hinweisen:
 &lt;em&gt;Scheme&lt;/em&gt;. Hierbei handelt es sich um eine Programmiersprache (genauer:
 einen Lisp-Dialekt), der mich in seiner Eleganz und Mächtigkeit,
-Probleme und deren Lösung zu beschreiben, schlichtweg umgehauen hat.&lt;/div&gt;
-&lt;div class="line"&gt;Neben dem Buch &lt;a class="reference external" href="http://www.amazon.de/exec/obidos/ASIN/3540520430/303-9962625-7020245"&gt;Struktur und Interpretation von
+Probleme und deren Lösung zu beschreiben, schlichtweg umgehauen hat.
+Neben dem Buch &lt;a class="reference external" href="http://www.amazon.de/exec/obidos/ASIN/3540520430/303-9962625-7020245"&gt;Struktur und Interpretation von
 Compterprogrammen»&lt;/a&gt;,
 das unabhängig von der verwendeten Sprache ein grandioses Standardwerk
 der Infoamtikausbildung am &lt;a class="reference external" href="http://mit.edu/"&gt;MIT»&lt;/a&gt; bildet, haben
@@ -14249,14 +14179,19 @@ auf Grundlage dieses Buches aus den 80er Jahren überzeugt. Neben
 Videos dieser Veranstaltung, ist auch eine Textversion des o.g. Buches
 auf dieser Seite zu finden, die sich &amp;quot;leider&amp;quot; zunehmender Beliebtheit
 zu erfreuen scheint und daher nicht immer so gut erreichbar ist, wie
-man es sich wünscht.&lt;/div&gt;
-&lt;div class="line"&gt;In diesem Sinne:&lt;/div&gt;
-&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Church.html"&gt;&lt;img alt="image1" src="http://photos1.blogger.com/blogger/4366/184/400/Church%5B1%5D.jpg" /&gt;&lt;/a&gt;
-`` (define null  &amp;nbsp;&amp;nbsp;(λ (f)  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(λ (x) x))) (define 1+ n  &amp;nbsp;&amp;nbsp;(λ (f)  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(λ (x) (f ((n f) x)))))``
-(Alonzo Church)&lt;/p&gt;
-&lt;/p&gt;&lt;/blockquote&gt;
+man es sich wünscht.
+In diesem Sinne:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Church.html"&gt;&lt;img alt="image1" src="http://photos1.blogger.com/blogger/4366/184/400/Church%5B1%5D.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+(define null
+  &amp;nbsp;&amp;nbsp;(λ (f)
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(λ (x) x)))
+
+(define 1+ n
+  &amp;nbsp;&amp;nbsp;(λ (f)
+        (λ (x) (f ((n f) x)))))
+&lt;/pre&gt;
+&lt;p&gt;(Alonzo Church)&lt;/p&gt;
 </content><category term="Informatik"></category></entry><entry><title>Umfangreiche Unterlagungen zu einer Model-Checking-Vorlesung</title><link href="https://blog.bakera.de/umfangreiche-unterlagungen-zu-einer-model-checking-vorlesung.html" rel="alternate"></link><published>2005-11-12T22:46:00+01:00</published><updated>2005-11-12T22:46:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-11-12:/umfangreiche-unterlagungen-zu-einer-model-checking-vorlesung.html</id><summary type="html">&lt;p&gt;Die RWTH-Aachen bietet &lt;a class="reference external" href="http://www-i7.informatik.rwth-aachen.de/d/teaching/ws0304/modelchk/"&gt;reichhaltige
 Informationen»&lt;/a&gt;
 – wozu Videos, Uebungsblaetter und Skripten gehoeren – zu einer
@@ -14480,24 +14415,24 @@ werden können.&lt;/p&gt;
 &lt;p&gt;Die Beiträge sind nach Erscheinungsdatum sortiert, wobei die jeweils
 aktuellsten Beiträge immer oben erscheinen.&lt;/p&gt;
 &lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2006/02/funktionen-und-mengen.html"&gt;Funktionen und
+&lt;div class="line"&gt;&lt;a class="reference external" href="https://blog.bakera.de/funktionen-und-mengen.html"&gt;Funktionen und
 Mengen&lt;/a&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2006/02/diplomarbeit-angemeldet.html"&gt;Diplomarbeit
+&lt;div class="line"&gt;&lt;a class="reference external" href="https://blog.bakera.de/diplomarbeit-angemeldet.html"&gt;Diplomarbeit
 angemeldet&lt;/a&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2006/02/das-halteproblem.html"&gt;Das
+&lt;div class="line"&gt;&lt;a class="reference external" href="https://blog.bakera.de/das-halteproblem.html"&gt;Das
 Halteproblem&lt;/a&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2006/01/y-f-fy-f.html"&gt;Y f = f(Y f)&lt;/a&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2006/01/structure-and-interpretation-of.html"&gt;Structure and Interpretation of Computer
+&lt;div class="line"&gt;&lt;a class="reference external" href="https://blog.bakera.de/y-f-fy-f.html"&gt;Y f = f(Y f)&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;a class="reference external" href="https://blog.bakera.de/structure-and-interpretation-of-computer-programs.html"&gt;Structure and Interpretation of Computer
 Programs&lt;/a&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2005/11/gute-ausreden-eines-programmierers.html"&gt;Gute Ausreden eines
+&lt;div class="line"&gt;&lt;a class="reference external" href="https://blog.bakera.de/gute-ausreden-eines-programmierers.html"&gt;Gute Ausreden eines
 Programmierers&lt;/a&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2005/11/umfangreiche-unterlagungen-zu-einer.html"&gt;Video einer Vorlesung zum Thema Model
+&lt;div class="line"&gt;&lt;a class="reference external" href="https://blog.bakera.de/umfangreiche-unterlagungen-zu-einer-model-checking-vorlesung.html"&gt;Video einer Vorlesung zum Thema Model
 Checking&lt;/a&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2005/10/10.html"&gt;Motivations-, Emotionspsychologie und
+&lt;div class="line"&gt;&lt;a class="reference external" href="https://blog.bakera.de/1-0.html"&gt;Motivations-, Emotionspsychologie und
 Intelligenztheorien&lt;/a&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2005/08/kunst-ist.html"&gt;Der Kunstbegriff – Der Versuch einer
+&lt;div class="line"&gt;&lt;a class="reference external" href="https://blog.bakera.de/kunst-ist.html"&gt;Der Kunstbegriff – Der Versuch einer
 Definition&lt;/a&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2005/07/10.html"&gt;Graphische Systeme und
+&lt;div class="line"&gt;&lt;a class="reference external" href="https://blog.bakera.de/1-0-2.html"&gt;Graphische Systeme und
 Betriebssysteme&lt;/a&gt;&lt;/div&gt;
 &lt;/div&gt;
 </content><category term="Informatik"></category></entry><entry><title>Hund tritt Hund</title><link href="https://blog.bakera.de/hund-tritt-hund.html" rel="alternate"></link><published>2005-09-28T18:55:00+02:00</published><updated>2005-09-28T18:55:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-09-28:/hund-tritt-hund.html</id><summary type="html">&lt;div&gt;&lt;dl class="docutils"&gt;
@@ -14575,14 +14510,14 @@ einen Blick wert.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.youtube.com/?v=vfI0Zco4UpU"&gt;Wahlspot&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.die-partei.de/"&gt;Offzielle Seite von Die Partei&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="Film"></category></entry><entry><title>Wahlwerbespot der APPD verboten?</title><link href="https://blog.bakera.de/wahlwerbespot-der-appd-verboten.html" rel="alternate"></link><published>2005-09-07T07:20:00+02:00</published><updated>2005-09-07T07:20:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-09-07:/wahlwerbespot-der-appd-verboten.html</id><summary type="html">&lt;div&gt;&lt;p&gt;Die Ausstrahlung des recht ekeligen Wahlspotes der APPD wurde durch ARD
+</content><category term="Film"></category></entry><entry><title>Wahlwerbespot der APPD verboten?</title><link href="https://blog.bakera.de/wahlwerbespot-der-appd-verboten.html" rel="alternate"></link><published>2005-09-07T07:20:00+02:00</published><updated>2005-09-07T07:20:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-09-07:/wahlwerbespot-der-appd-verboten.html</id><summary type="html">&lt;p&gt;Die Ausstrahlung des recht ekeligen Wahlspotes der APPD wurde durch ARD
 und ZDF verweigert, weil er dazu geeignet sei, &lt;em&gt;&amp;quot;die Entwicklung von
 Kindern und Jugendlichen (...) zu einer eigenverantwortlichen und
 gemeinschaftsfähigen Persönlichkeit (...) schwer zu gefährden&amp;quot;&lt;/em&gt;
 (&lt;a class="reference external" href="http://www.appd.de/wahlspot/wdr_ablehnung.php"&gt;Schreiben des WDR&lt;/a&gt;
 und &lt;a class="reference external" href="http://www.appd.de/wahlspot/zdf_ablehnung.php"&gt;Schreiben des
 ZDF&lt;/a&gt;). Daher wurde nur
-eine gekürzte Fassung des Spotes gezeigt …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;&lt;p&gt;Die Ausstrahlung des recht ekeligen Wahlspotes der APPD wurde durch ARD
+eine gekürzte Fassung des Spotes gezeigt …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Die Ausstrahlung des recht ekeligen Wahlspotes der APPD wurde durch ARD
 und ZDF verweigert, weil er dazu geeignet sei, &lt;em&gt;&amp;quot;die Entwicklung von
 Kindern und Jugendlichen (...) zu einer eigenverantwortlichen und
 gemeinschaftsfähigen Persönlichkeit (...) schwer zu gefährden&amp;quot;&lt;/em&gt;
@@ -14593,7 +14528,7 @@ eine gekürzte Fassung des Spotes gezeigt. Nach einer Klage wurde der
 APPD jedoch recht gegeben und wir dürfen auf eine erneute Ausstrahlung
 am Montag, 12.9.2005 um 21:40 Uhr auf dem ZDF (vor dem heute-journal)
 &amp;quot;hoffen&amp;quot;.&lt;/p&gt;
-&lt;/div&gt;&lt;p&gt;Die unzensierte Version gibt es derweil unter den folgenden Links:&lt;/p&gt;
+&lt;p&gt;Die unzensierte Version gibt es derweil unter den folgenden Links:&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://michaelschultz.de/appd.wmv"&gt;wmv-Datei&lt;/a&gt; / für Windows Media
 Player (3,1 MB)&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://www.informatik.haw-hamburg.de/~andres_o/wahlspot.mp4"&gt;mp4-Datei&lt;/a&gt;
@@ -14759,7 +14694,7 @@ Artikel&lt;/a&gt;&lt;/p&gt;
 fuer Filmemacher, auf der jeder Filmemacher seine Filme zeigen, bewerten
 und besprechen lassen kann.
 (&lt;a class="reference external" href="http://www.amateurfilm-magazin.de/"&gt;www.amateurfilm-magazin.de»&lt;/a&gt;)&lt;/p&gt;
-&lt;/p&gt;</content><category term="Kunst"></category><category term="Mathe"></category></entry><entry><title>Nachtrag: Pruefung Graphische Systeme / Betriebssysteme</title><link href="https://blog.bakera.de/nachtrag-pruefung-graphische-systeme-betriebssysteme.html" rel="alternate"></link><published>2005-08-03T12:44:00+02:00</published><updated>2005-08-03T12:44:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-08-03:/nachtrag-pruefung-graphische-systeme-betriebssysteme.html</id><summary type="html">&lt;p&gt;Zur oben genannten Pruefung (siehe auch meinen &lt;a class="reference external" href="http://pintman.blogspot.com/2005/07/10.html"&gt;Beitrag vom
+&lt;/p&gt;</content><category term="Kunst"></category><category term="Mathe"></category></entry><entry><title>Nachtrag: Pruefung Graphische Systeme / Betriebssysteme</title><link href="https://blog.bakera.de/nachtrag-pruefung-graphische-systeme-betriebssysteme.html" rel="alternate"></link><published>2005-08-03T12:44:00+02:00</published><updated>2005-08-03T12:44:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-08-03:/nachtrag-pruefung-graphische-systeme-betriebssysteme.html</id><summary type="html">&lt;p&gt;Zur oben genannten Pruefung (siehe auch meinen &lt;a class="reference external" href="https://blog.bakera.de/1-0.html"&gt;Beitrag vom
 22.7.&lt;/a&gt;) habe ich jetzt
 auch mal die Karteikarten, die ich zum Lernen benutzt habe, ins Netz
 gestellt:&lt;/p&gt;
@@ -14769,7 +14704,7 @@ Systeme»&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://flickr.com/photos/pintman/tags/betriebssysteme/"&gt;Karteikarten fuer
 Betriebssysteme»&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</summary><content type="html">&lt;p&gt;Zur oben genannten Pruefung (siehe auch meinen &lt;a class="reference external" href="http://pintman.blogspot.com/2005/07/10.html"&gt;Beitrag vom
+</summary><content type="html">&lt;p&gt;Zur oben genannten Pruefung (siehe auch meinen &lt;a class="reference external" href="https://blog.bakera.de/1-0.html"&gt;Beitrag vom
 22.7.&lt;/a&gt;) habe ich jetzt
 auch mal die Karteikarten, die ich zum Lernen benutzt habe, ins Netz
 gestellt:&lt;/p&gt;
@@ -15022,24 +14957,20 @@ Systeme»&lt;/a&gt;&lt;/li&gt;
 Betriebssysteme»&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</content><category term="Informatik"></category></entry><entry><title>Reisen in die Nacht mit Fotos von Markus Nilling</title><link href="https://blog.bakera.de/reisen-in-die-nacht-mit-fotos-von-markus-nilling.html" rel="alternate"></link><published>2005-07-20T07:24:00+02:00</published><updated>2005-07-20T07:24:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-07-20:/reisen-in-die-nacht-mit-fotos-von-markus-nilling.html</id><summary type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://photos1.blogger.com/blogger/4366/184/1600/Bild7.jpg"&gt;&lt;img alt="image0" src="http://photos1.blogger.com/blogger/4366/184/320/Bild7.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://photos1.blogger.com/blogger/4366/184/1600/Bild8.jpg"&gt;&lt;img alt="image1" src="http://photos1.blogger.com/blogger/4366/184/320/Bild8.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://photos1.blogger.com/blogger/4366/184/1600/Bild6.jpg"&gt;&lt;img alt="image2" src="http://photos1.blogger.com/blogger/4366/184/320/Bild6.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
+</content><category term="Informatik"></category></entry><entry><title>Reisen in die Nacht mit Fotos von Markus Nilling</title><link href="https://blog.bakera.de/reisen-in-die-nacht-mit-fotos-von-markus-nilling.html" rel="alternate"></link><published>2005-07-20T07:24:00+02:00</published><updated>2005-07-20T07:24:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-07-20:/reisen-in-die-nacht-mit-fotos-von-markus-nilling.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://photos1.blogger.com/blogger/4366/184/1600/Bild7.jpg"&gt;&lt;img alt="image0" src="http://photos1.blogger.com/blogger/4366/184/320/Bild7.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://photos1.blogger.com/blogger/4366/184/1600/Bild8.jpg"&gt;&lt;img alt="image1" src="http://photos1.blogger.com/blogger/4366/184/320/Bild8.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://photos1.blogger.com/blogger/4366/184/1600/Bild6.jpg"&gt;&lt;img alt="image2" src="http://photos1.blogger.com/blogger/4366/184/320/Bild6.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Am Wochenende war ich mal wieder unterwegs – ja, auch Informatiker zieht
 es mal vor die Tür. Grund genug war die Diplomabschlussprüfung einer
-Freundin von &lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/petra.html"&gt;Petra&lt;/a&gt;
+Freundin von Petra
 im Bereich Fotodesign. Wir tigerten also schön zur Fachhochschule
 Dortmund zum Fachbereich Design und schauten uns die, durchaus
-interessanten Bilder, an. Nachdem der &amp;quot;Pflichtteil&amp;quot; erledigt …&lt;/p&gt;</summary><content type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://photos1.blogger.com/blogger/4366/184/1600/Bild7.jpg"&gt;&lt;img alt="image0" src="http://photos1.blogger.com/blogger/4366/184/320/Bild7.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://photos1.blogger.com/blogger/4366/184/1600/Bild8.jpg"&gt;&lt;img alt="image1" src="http://photos1.blogger.com/blogger/4366/184/320/Bild8.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://photos1.blogger.com/blogger/4366/184/1600/Bild6.jpg"&gt;&lt;img alt="image2" src="http://photos1.blogger.com/blogger/4366/184/320/Bild6.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
+interessanten Bilder, an. Nachdem der &amp;quot;Pflichtteil&amp;quot; erledigt …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="http://photos1.blogger.com/blogger/4366/184/1600/Bild7.jpg"&gt;&lt;img alt="image0" src="http://photos1.blogger.com/blogger/4366/184/320/Bild7.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://photos1.blogger.com/blogger/4366/184/1600/Bild8.jpg"&gt;&lt;img alt="image1" src="http://photos1.blogger.com/blogger/4366/184/320/Bild8.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://photos1.blogger.com/blogger/4366/184/1600/Bild6.jpg"&gt;&lt;img alt="image2" src="http://photos1.blogger.com/blogger/4366/184/320/Bild6.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Am Wochenende war ich mal wieder unterwegs – ja, auch Informatiker zieht
 es mal vor die Tür. Grund genug war die Diplomabschlussprüfung einer
-Freundin von &lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/petra.html"&gt;Petra&lt;/a&gt;
+Freundin von Petra
 im Bereich Fotodesign. Wir tigerten also schön zur Fachhochschule
 Dortmund zum Fachbereich Design und schauten uns die, durchaus
 interessanten Bilder, an. Nachdem der &amp;quot;Pflichtteil&amp;quot; erledigt war,
@@ -15138,13 +15069,13 @@ Absender schauen kann. Irgendwie sehr interessant. Oder bin …&lt;/p&gt;</summa
 selbstgebastelte Postkarten, auf denen man in die tiefen Abgründe der
 Absender schauen kann. Irgendwie sehr interessant. Oder bin ich etwa ein
 Voyeur? Sollte ich etwa auch eine Postkarte basteln wollen?&lt;/p&gt;
-</content><category term="Kunst"></category><category term="Spaß"></category></entry><entry><title>Nachtrag zum Fitnessstudiotest</title><link href="https://blog.bakera.de/nachtrag-zum-fitnessstudiotest.html" rel="alternate"></link><published>2005-06-04T09:52:00+02:00</published><updated>2005-06-04T09:52:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-06-04:/nachtrag-zum-fitnessstudiotest.html</id><summary type="html">&lt;p&gt;In meinem &lt;a class="reference external" href="http://pintman.blogspot.com/2005/05/dortmunder-fitnessstudios-im-test.html"&gt;Test der Dortmunder
+</content><category term="Kunst"></category><category term="Spaß"></category></entry><entry><title>Nachtrag zum Fitnessstudiotest</title><link href="https://blog.bakera.de/nachtrag-zum-fitnessstudiotest.html" rel="alternate"></link><published>2005-06-04T09:52:00+02:00</published><updated>2005-06-04T09:52:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-06-04:/nachtrag-zum-fitnessstudiotest.html</id><summary type="html">&lt;p&gt;In meinem &lt;a class="reference external" href="https://blog.bakera.de/dortmunder-fitnessstudios-im-test.html"&gt;Test der Dortmunder
 Fitnessstudios&lt;/a&gt;
 vom 16.5. ist noch eine kleiner Nachtrag zum Lady Fitness Park zu
 machen. Und zwar ist die Sauna im Preis von 26 Euronen nicht enthalten.
 Diese kann jedoch fuer 10 Euro extra jederzeit dazu und weggebucht
 werden.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;In meinem &lt;a class="reference external" href="http://pintman.blogspot.com/2005/05/dortmunder-fitnessstudios-im-test.html"&gt;Test der Dortmunder
+</summary><content type="html">&lt;p&gt;In meinem &lt;a class="reference external" href="https://blog.bakera.de/dortmunder-fitnessstudios-im-test.html"&gt;Test der Dortmunder
 Fitnessstudios&lt;/a&gt;
 vom 16.5. ist noch eine kleiner Nachtrag zum Lady Fitness Park zu
 machen. Und zwar ist die Sauna im Preis von 26 Euronen nicht enthalten.
@@ -15161,11 +15092,11 @@ werden.&lt;/p&gt;
 &lt;div class="line"&gt;&lt;a class="reference external" href="http://members.ping.de/~pintman/bakera.de/podcast/07-Die_Stuempfe.mp3"&gt;[mp3]&lt;/a&gt;&lt;/div&gt;
 &lt;/div&gt;
 </content><category term="Audio"></category></entry><entry><title>[podcast #6] Ich laufe weiter</title><link href="https://blog.bakera.de/podcast-6-ich-laufe-weiter.html" rel="alternate"></link><published>2005-05-18T06:16:00+02:00</published><updated>2005-05-18T06:16:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-05-18:/podcast-6-ich-laufe-weiter.html</id><summary type="html">&lt;p&gt;Ausgabe 2 meines Lauftagebuches und Ausgabe 6 meines
-&lt;a class="reference external" href="http://pintman.blogspot.com/2005/03/podcasts.html"&gt;Podcasts&lt;/a&gt;. Ein
+&lt;a class="reference external" href="https://blog.bakera.de/podcasts.html"&gt;Podcasts&lt;/a&gt;. Ein
 Pulsmesser musste her. Das Wetter wird besser und das Laufen macht immer
 mehr Spass.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Ausgabe 2 meines Lauftagebuches und Ausgabe 6 meines
-&lt;a class="reference external" href="http://pintman.blogspot.com/2005/03/podcasts.html"&gt;Podcasts&lt;/a&gt;. Ein
+&lt;a class="reference external" href="https://blog.bakera.de/podcasts.html"&gt;Podcasts&lt;/a&gt;. Ein
 Pulsmesser musste her. Das Wetter wird besser und das Laufen macht immer
 mehr Spass.&lt;/p&gt;
 </content><category term="Audio"></category></entry><entry><title>Dortmunder Fitnessstudios im Test</title><link href="https://blog.bakera.de/dortmunder-fitnessstudios-im-test.html" rel="alternate"></link><published>2005-05-16T16:48:00+02:00</published><updated>2005-05-16T16:48:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-05-16:/dortmunder-fitnessstudios-im-test.html</id><summary type="html">&lt;div class="line-block"&gt;
@@ -15239,25 +15170,21 @@ mal &amp;quot;Sphere&amp;quot; genannt und eigentlich ist es auch mehr ein Loop,
 ganzer Song. Demnach ist das gute Stueck auch recht kurz. Vielleicht
 sorgt es bei dem ein oder anderen trotzdem fuer kurzweilige Momente.
 Viel Spass damit.&lt;/p&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2005/04/audiotisch.html"&gt;[mehr Musik von
-mir]&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/audiotisch.html"&gt;[mehr Musik von mir]&lt;/a&gt;&lt;/p&gt;
 </content><category term="Audio"></category></entry><entry><title>Eine neue DVD ist angekommen</title><link href="https://blog.bakera.de/eine-neue-dvd-ist-angekommen.html" rel="alternate"></link><published>2005-05-12T15:11:00+02:00</published><updated>2005-05-12T15:11:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-05-12:/eine-neue-dvd-ist-angekommen.html</id><summary type="html">&lt;p&gt;Eigentlich habe ich ja gar nicht mehr damit gerechnet, aber die
 kostenlose Ausgabe der HomeVision ist doch noch eingetroffen (siehe dazu
 auch meinen Eintrag vom
-&lt;a class="reference external" href="http://pintman.blogspot.com/2005/04/kostenlos-ausgabe-der-homevision.html"&gt;13.04.05&lt;/a&gt;).
+&lt;a class="reference external" href="https://blog.bakera.de/kostenlos-ausgabe-der-homevision.html"&gt;13.04.05&lt;/a&gt;).
 Es war sogar ein kleiner Film mit dabei, den ich denn auch gleich in
 meine
-&lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/filmwelten.html"&gt;Filmsammlung&lt;/a&gt;
+&lt;a class="reference external" href="https://blog.bakera.de/filmwelten.html"&gt;Filmsammlung&lt;/a&gt;
 mit aufgenommen habe. Der Titel lautet …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Eigentlich habe ich ja gar nicht mehr damit gerechnet, aber die
 kostenlose Ausgabe der HomeVision ist doch noch eingetroffen (siehe dazu
 auch meinen Eintrag vom
-&lt;a class="reference external" href="http://pintman.blogspot.com/2005/04/kostenlos-ausgabe-der-homevision.html"&gt;13.04.05&lt;/a&gt;).
+&lt;a class="reference external" href="https://blog.bakera.de/kostenlos-ausgabe-der-homevision.html"&gt;13.04.05&lt;/a&gt;).
 Es war sogar ein kleiner Film mit dabei, den ich denn auch gleich in
 meine
-&lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/filmwelten.html"&gt;Filmsammlung&lt;/a&gt;
+&lt;a class="reference external" href="https://blog.bakera.de/filmwelten.html"&gt;Filmsammlung&lt;/a&gt;
 mit aufgenommen habe. Der Titel lautet &amp;quot;Straight Shooter&amp;quot; und ich habe
 eigentlich keine Ahnung, worum es dabei gehen soll. Die
 Darstellerkombination Heino Ferch, Dennis Hopper und Katja Flint
@@ -15293,7 +15220,7 @@ jeden Fall schonmal da.&lt;/p&gt;
 </content><category term="Kunst"></category></entry><entry><title>Audiotisch</title><link href="https://blog.bakera.de/audiotisch.html" rel="alternate"></link><published>2005-04-29T17:37:00+02:00</published><updated>2005-04-29T17:37:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-04-29:/audiotisch.html</id><summary type="html">&lt;p&gt;Hier befinden sich einige Versuche meinerseits, sich in der auditiven
 Welt von heute zurechtzufinden. Reinhören und Spaß haben. Vielleicht
 interessieren dich ja auch meine Eskapaden im Bereich
-&lt;a class="reference external" href="http://pintman.blogspot.com/2005/03/podcasts.html"&gt;podcasting&lt;/a&gt;. Dort
+&lt;a class="reference external" href="https://blog.bakera.de/podcasts.html"&gt;podcasting&lt;/a&gt;. Dort
 findest du ein paar längere Stücke, mit denen du die
 geräuschentwickelnden Kisten an deinem Rechner quälen kannst.&lt;/p&gt;
 &lt;div class="line-block"&gt;
@@ -15307,7 +15234,7 @@ geräuschentwickelnden Kisten an deinem Rechner quälen kannst.&lt;/p&gt;
 &lt;p&gt;Enstanden …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Hier befinden sich einige Versuche meinerseits, sich in der auditiven
 Welt von heute zurechtzufinden. Reinhören und Spaß haben. Vielleicht
 interessieren dich ja auch meine Eskapaden im Bereich
-&lt;a class="reference external" href="http://pintman.blogspot.com/2005/03/podcasts.html"&gt;podcasting&lt;/a&gt;. Dort
+&lt;a class="reference external" href="https://blog.bakera.de/podcasts.html"&gt;podcasting&lt;/a&gt;. Dort
 findest du ein paar längere Stücke, mit denen du die
 geräuschentwickelnden Kisten an deinem Rechner quälen kannst.&lt;/p&gt;
 &lt;div class="line-block"&gt;
@@ -15320,7 +15247,7 @@ geräuschentwickelnden Kisten an deinem Rechner quälen kannst.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Enstanden für einen podcast, bei dem es um ein Interview mit Benjamin
 Feld geht. Zu finden auch bei meinen
-&lt;a class="reference external" href="http://pintman.blogspot.com/2005/03/podcasts.html"&gt;podcasts&lt;/a&gt;&lt;/p&gt;
+&lt;a class="reference external" href="https://blog.bakera.de/podcasts.html"&gt;podcasts&lt;/a&gt;&lt;/p&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -15362,7 +15289,7 @@ treibenden Passagen haben es mir wohl angetan.&lt;/p&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;a class="reference external" href="http://members.ping.de/~pintman/bakera.de-flash/die-bluttransfusion.mp3"&gt;[mp3]&lt;/a&gt;&lt;/div&gt;
 &lt;div class="line"&gt;Eine kleine Geschichte über ein Pferd, einen Hufschmied und viel Blut.
-Auch nochmal nachzulesen auf einer &lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/die-bluttransfusion.html"&gt;eigenen
+Auch nochmal nachzulesen auf einer &lt;a class="reference external" href="https://blog.bakera.de/die-bluttransfusion.html"&gt;eigenen
 Seite&lt;/a&gt;.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -15378,7 +15305,7 @@ sorgt es bei dem ein oder anderen trotzdem fuer kurzweilige Momente.
 Viel Spass damit.&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="Audio"></category></entry><entry><title>[podcast #4] Eine Improvisation ist erschienen</title><link href="https://blog.bakera.de/podcast-4-eine-improvisation-ist-erschienen.html" rel="alternate"></link><published>2005-04-28T05:25:00+02:00</published><updated>2005-04-28T05:25:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-04-28:/podcast-4-eine-improvisation-ist-erschienen.html</id><summary type="html">&lt;p&gt;Bei meinen
-&lt;a class="reference external" href="http://pintman.blogspot.com/2005/03/podcasts.html"&gt;podcasts&lt;/a&gt; ist nun
+&lt;a class="reference external" href="https://blog.bakera.de/podcasts.html"&gt;podcasts&lt;/a&gt; ist nun
 endlich die Viernummer erschienen. Endlich mal in einer richtig guten
 Tonqualität - wie ich finde - nachdem ich herausgefunden haben, wie man
 den Rauschfilter richtig bedient. Lasst euch verzaubern von Gedanken zum
@@ -15387,7 +15314,7 @@ Thema Modelchecking, meinem Tagesablauf und einem Programmierwettbewerb.&lt;/p&g
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
 </summary><content type="html">&lt;p&gt;Bei meinen
-&lt;a class="reference external" href="http://pintman.blogspot.com/2005/03/podcasts.html"&gt;podcasts&lt;/a&gt; ist nun
+&lt;a class="reference external" href="https://blog.bakera.de/podcasts.html"&gt;podcasts&lt;/a&gt; ist nun
 endlich die Viernummer erschienen. Endlich mal in einer richtig guten
 Tonqualität - wie ich finde - nachdem ich herausgefunden haben, wie man
 den Rauschfilter richtig bedient. Lasst euch verzaubern von Gedanken zum
@@ -15507,12 +15434,12 @@ Namem &amp;quot;Worn das Wiesel&amp;quot;
 alles recht spaßig und ich kann das ganze Vorhaben auch nur
 unterstützen.&lt;/p&gt;
 </content><category term="Audio"></category></entry><entry><title>[podcast #3] Interview mit dem Bensemann ist erschienen</title><link href="https://blog.bakera.de/podcast-3-interview-mit-dem-bensemann-ist-erschienen.html" rel="alternate"></link><published>2005-04-17T20:17:00+02:00</published><updated>2005-04-17T20:17:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-04-17:/podcast-3-interview-mit-dem-bensemann-ist-erschienen.html</id><summary type="html">&lt;p&gt;Bei meinen
-&lt;a class="reference external" href="http://pintman.blogspot.com/2005/03/podcasts.html"&gt;podcasts&lt;/a&gt; ist die
+&lt;a class="reference external" href="https://blog.bakera.de/podcasts.html"&gt;podcasts&lt;/a&gt; ist die
 Dreinummer erschienen und enthält ein Interview zwischen Benjamin Fels
 (eben dem Bensemann) und mir. Das Ganze ist in der Nacht vom 15.04.05
 auf den 16.04.05 zwischen ein und zwei Uhr entstanden. Für etwaige
 sinnentleerte Aussagen kann ich also keinerlei Haftung übernehmen …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Bei meinen
-&lt;a class="reference external" href="http://pintman.blogspot.com/2005/03/podcasts.html"&gt;podcasts&lt;/a&gt; ist die
+&lt;a class="reference external" href="https://blog.bakera.de/podcasts.html"&gt;podcasts&lt;/a&gt; ist die
 Dreinummer erschienen und enthält ein Interview zwischen Benjamin Fels
 (eben dem Bensemann) und mir. Das Ganze ist in der Nacht vom 15.04.05
 auf den 16.04.05 zwischen ein und zwei Uhr entstanden. Für etwaige
@@ -15580,33 +15507,28 @@ Imbus? Und warum heißt das Ding überhaupt so?&lt;/p&gt;
 &lt;/p&gt;&lt;p&gt;Ein interessanter Artikel der Zeit, versucht Klarheit in dieses
 verschraubte Dickicht zu bringen. Sehr hörenswert auch als
 &lt;a class="reference external" href="http://fdl.audible.de/zeit/Die_Zeit~2005_03_31_Strassmann.mp3"&gt;mp3&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;</content><category term="Spaß"></category></entry><entry><title>Zwei neue Sendungen nehmen ihren Betrieb auf</title><link href="https://blog.bakera.de/zwei-neue-sendungen-nehmen-ihren-betrieb-auf.html" rel="alternate"></link><published>2005-04-04T08:16:00+02:00</published><updated>2005-04-04T08:16:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-04-04:/zwei-neue-sendungen-nehmen-ihren-betrieb-auf.html</id><summary type="html">&lt;div&gt;&lt;p&gt;Bei meinen
-&lt;a class="reference external" href="http://pintman.blogspot.com/2005/03/podcasts.html"&gt;podcasts&lt;/a&gt; sind
+&lt;/div&gt;</content><category term="Spaß"></category></entry><entry><title>Zwei neue Sendungen nehmen ihren Betrieb auf</title><link href="https://blog.bakera.de/zwei-neue-sendungen-nehmen-ihren-betrieb-auf.html" rel="alternate"></link><published>2005-04-04T08:16:00+02:00</published><updated>2005-04-04T08:16:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-04-04:/zwei-neue-sendungen-nehmen-ihren-betrieb-auf.html</id><summary type="html">&lt;p&gt;Bei meinen
+&lt;a class="reference external" href="https://blog.bakera.de/podcasts.html"&gt;podcasts&lt;/a&gt; sind
 wieder zwei neue Sendungen aufgetaucht.&lt;/p&gt;
-&lt;/p&gt;&lt;ol class="arabic"&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;img alt="image0" src="http://members.ping.de/~pintman/bakera.de/podcast/Das_Schweigen-Cover.jpg" style="width: 20.0%;" /&gt; [Zwischenspiel] Das Schweigen&lt;/p&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;p&gt;Eine Minute der Ruhe gönne ich mir hier. Alle sind herzlich
-eingeladen, mit mir zu schweigen.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;img alt="image1" src="http://members.ping.de/~pintman/bakera.de/podcast/podcast-02-cover.jpg" style="width: 20.0%;" /&gt;#2 - Viel Rauschen um einen ermodeten Punk&lt;/p&gt;
-&lt;p&gt;&lt;p&gt;Die Ermordung eines Dortmunder Punks durch einen Täter aus der
-rechten Szene hat in Dortmund …&lt;/p&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;&lt;p&gt;Bei meinen
-&lt;a class="reference external" href="http://pintman.blogspot.com/2005/03/podcasts.html"&gt;podcasts&lt;/a&gt; sind
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;img alt="image0" src="http://members.ping.de/~pintman/bakera.de/podcast/Das_Schweigen-Cover.jpg" style="width: 20.0%;" /&gt;[Zwischenspiel] Das Schweigen
+Eine Minute der Ruhe gönne ich mir hier. Alle sind herzlich
+eingeladen, mit mir zu schweigen.&lt;/li&gt;
+&lt;li&gt;&lt;img alt="image1" src="http://members.ping.de/~pintman/bakera.de/podcast/podcast-02-cover.jpg" style="width: 20.0%;" /&gt;#2 - Viel Rauschen um einen ermodeten Punk
+Die Ermordung eines Dortmunder Punks durch einen Täter aus der
+rechten Szene hat in Dortmund …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;Bei meinen
+&lt;a class="reference external" href="https://blog.bakera.de/podcasts.html"&gt;podcasts&lt;/a&gt; sind
 wieder zwei neue Sendungen aufgetaucht.&lt;/p&gt;
-&lt;/p&gt;&lt;ol class="arabic"&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;img alt="image0" src="http://members.ping.de/~pintman/bakera.de/podcast/Das_Schweigen-Cover.jpg" style="width: 20.0%;" /&gt; [Zwischenspiel] Das Schweigen&lt;/p&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;p&gt;Eine Minute der Ruhe gönne ich mir hier. Alle sind herzlich
-eingeladen, mit mir zu schweigen.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;img alt="image1" src="http://members.ping.de/~pintman/bakera.de/podcast/podcast-02-cover.jpg" style="width: 20.0%;" /&gt;#2 - Viel Rauschen um einen ermodeten Punk&lt;/p&gt;
-&lt;p&gt;&lt;p&gt;Die Ermordung eines Dortmunder Punks durch einen Täter aus der
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;img alt="image0" src="http://members.ping.de/~pintman/bakera.de/podcast/Das_Schweigen-Cover.jpg" style="width: 20.0%;" /&gt;[Zwischenspiel] Das Schweigen
+Eine Minute der Ruhe gönne ich mir hier. Alle sind herzlich
+eingeladen, mit mir zu schweigen.&lt;/li&gt;
+&lt;li&gt;&lt;img alt="image1" src="http://members.ping.de/~pintman/bakera.de/podcast/podcast-02-cover.jpg" style="width: 20.0%;" /&gt;#2 - Viel Rauschen um einen ermodeten Punk
+Die Ermordung eines Dortmunder Punks durch einen Täter aus der
 rechten Szene hat in Dortmund für viel Wirbel gesorgt. Meine
-Eindrücke zu dem Vorfall in (be)rauschender Tonqualität.&lt;/p&gt;
-&lt;/li&gt;
+Eindrücke zu dem Vorfall in (be)rauschender Tonqualität.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Audio"></category></entry><entry><title>Aufmarsch gegen Rechts</title><link href="https://blog.bakera.de/aufmarsch-gegen-rechts.html" rel="alternate"></link><published>2005-04-01T14:36:00+02:00</published><updated>2005-04-01T14:36:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-04-01:/aufmarsch-gegen-rechts.html</id><summary type="html">&lt;div&gt;&lt;p&gt;Anlässlich der Ermordung eines Punks in der Dortmunder Innenstadt an der
+</content><category term="Audio"></category></entry><entry><title>Aufmarsch gegen Rechts</title><link href="https://blog.bakera.de/aufmarsch-gegen-rechts.html" rel="alternate"></link><published>2005-04-01T14:36:00+02:00</published><updated>2005-04-01T14:36:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-04-01:/aufmarsch-gegen-rechts.html</id><summary type="html">&lt;div&gt;&lt;p&gt;Anlässlich der Ermordung eines Punks in der Dortmunder Innenstadt an der
 U-Bahn-Haltestelle Kampstraße ist für morgen eine Demonstration (mehr
 Informationen liefert die
 &lt;a class="reference external" href="http://www.presseportal.de/polizeipresse/p_story.htx?nr=664235&amp;amp;firmaid=4971&amp;amp;keygroup="&gt;Polizeipresse»&lt;/a&gt;)
@@ -15813,19 +15735,21 @@ das vertragliche Machwerk unterzeichnet, das uns - also Petra und mich -
 fortan verbrieft, unsere neue Wohnung in der Ruhrallee 65 beziehen zu
 können. Jetzt müssen nur noch die Tapeten an die Wand und alles wird
 gut.&lt;/p&gt;
-&lt;/div&gt;</content><category term="Spaß"></category></entry><entry><title>The Thirteenth Floor ist eingetroffen</title><link href="https://blog.bakera.de/the-thirteenth-floor-ist-eingetroffen.html" rel="alternate"></link><published>2005-01-24T17:33:00+01:00</published><updated>2005-01-24T17:33:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-01-24:/the-thirteenth-floor-ist-eingetroffen.html</id><summary type="html">&lt;div&gt;&lt;p&gt;&lt;img alt="image0" src="http://members.ping.de/~pintman/bakera.de/Filmwelten/13th_floor.jpg" /&gt;Da hat sich doch glatt ein neuer Film in &lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/filmwelten.html"&gt;meinen
+&lt;/div&gt;</content><category term="Spaß"></category></entry><entry><title>The Thirteenth Floor ist eingetroffen</title><link href="https://blog.bakera.de/the-thirteenth-floor-ist-eingetroffen.html" rel="alternate"></link><published>2005-01-24T17:33:00+01:00</published><updated>2005-01-24T17:33:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-01-24:/the-thirteenth-floor-ist-eingetroffen.html</id><summary type="html">&lt;p&gt;&lt;img alt="image0" src="http://members.ping.de/~pintman/bakera.de/Filmwelten/13th_floor.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Da hat sich doch glatt ein neuer Film in &lt;a class="reference external" href="https://blog.bakera.de/filmwelten.html"&gt;meinen
 Reigen&lt;/a&gt;
 eingereiht. The Thirteenth Floor ist nun auch als Billig-Heft-CD für
 knappe 3? eingetroffen. Ich habe allerdings noch nicht reingeschaut und
 kann daher für nichts garantieren. Irgendwie hoffe ich aber auf eine
-gute Entscheidung - obwohl mich die 6.4 Punkte …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;&lt;p&gt;&lt;img alt="image0" src="http://members.ping.de/~pintman/bakera.de/Filmwelten/13th_floor.jpg" /&gt;Da hat sich doch glatt ein neuer Film in &lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/filmwelten.html"&gt;meinen
+gute Entscheidung - obwohl mich die 6.4 Punkte …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="image0" src="http://members.ping.de/~pintman/bakera.de/Filmwelten/13th_floor.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Da hat sich doch glatt ein neuer Film in &lt;a class="reference external" href="https://blog.bakera.de/filmwelten.html"&gt;meinen
 Reigen&lt;/a&gt;
 eingereiht. The Thirteenth Floor ist nun auch als Billig-Heft-CD für
 knappe 3? eingetroffen. Ich habe allerdings noch nicht reingeschaut und
 kann daher für nichts garantieren. Irgendwie hoffe ich aber auf eine
 gute Entscheidung - obwohl mich die 6.4 Punkte Durchschnittwertung bei
 IMDB nun auch wieder skeptisch machen. Mal sehen, was kommt.&lt;/p&gt;
-&lt;/div&gt;</content><category term="Film"></category></entry><entry><title>Stink langweilig...»</title><link href="https://blog.bakera.de/stink-langweilig.html" rel="alternate"></link><published>2005-01-20T15:57:00+01:00</published><updated>2005-01-20T15:57:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-01-20:/stink-langweilig.html</id><summary type="html">&lt;div&gt;&lt;p&gt;&lt;img alt="image0" src="http://www.imm.dtu.dk/~riis/PPA/ppa.jpeg" style="width: 33.0%;" /&gt;...ist der Kram keinesfalls - obwohl die meisten unter euch das
+</content><category term="Film"></category></entry><entry><title>Stink langweilig...»</title><link href="https://blog.bakera.de/stink-langweilig.html" rel="alternate"></link><published>2005-01-20T15:57:00+01:00</published><updated>2005-01-20T15:57:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-01-20:/stink-langweilig.html</id><summary type="html">&lt;div&gt;&lt;p&gt;&lt;img alt="image0" src="http://www.imm.dtu.dk/~riis/PPA/ppa.jpeg" style="width: 33.0%;" /&gt;...ist der Kram keinesfalls - obwohl die meisten unter euch das
 wohl trotzdem finden werden. Wer sich dennoch mal mit dem beschäftigen
 möchte, mit dem ich mich so in meinem Studium und bei meiner Arbeit
 beschäftige, darf sich nicht abschrecken lassen und kann einfach mal auf
@@ -16201,36 +16125,18 @@ meiner Seite an dieser Stelle alle moeglichen komischen Glueckwuensche,
 Vorsaetze und Vorsaetzchen fuer das neue Jahr.&lt;/p&gt;
 &lt;/div&gt;&lt;div&gt;&lt;p&gt;Fuer mich hat es in diesem Jahr mit ersten Versuchen des Gitarrespiels
 begonnen. :) Mal sehen, ob sich das noch ausbauen laesst. :)&lt;/p&gt;
-&lt;/div&gt;</content><category term="Spaß"></category></entry><entry><title>Furz feiert Silvester</title><link href="https://blog.bakera.de/furz-feiert-silvester.html" rel="alternate"></link><published>2005-01-02T19:24:00+01:00</published><updated>2005-01-02T19:24:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-01-02:/furz-feiert-silvester.html</id><summary type="html">&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/furz.html"&gt;&lt;img alt="image0" src="http://photos17.flickr.com/19823239_92702b3ab5_b.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/furz.html"&gt;mehr von Furz&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-</summary><content type="html">&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/furz.html"&gt;&lt;img alt="image0" src="http://photos17.flickr.com/19823239_92702b3ab5_b.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/furz.html"&gt;mehr von Furz&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-</content><category term="Comic"></category><category term="Kunst"></category></entry><entry><title>Furz muss kacken</title><link href="https://blog.bakera.de/furz-muss-kacken.html" rel="alternate"></link><published>2005-01-01T19:20:00+01:00</published><updated>2005-01-01T19:20:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-01-01:/furz-muss-kacken.html</id><summary type="html">&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/furz.html"&gt;&lt;img alt="image0" src="http://photos14.flickr.com/19823238_f17adf5cbd_o.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/furz.html"&gt;mehr von Furz&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-</summary><content type="html">&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/furz.html"&gt;&lt;img alt="image0" src="http://photos14.flickr.com/19823238_f17adf5cbd_o.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/furz.html"&gt;mehr von Furz&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-</content><category term="Comic"></category><category term="Kunst"></category></entry><entry><title>Furz geht auffe Kirmes</title><link href="https://blog.bakera.de/furz-geht-auffe-kirmes.html" rel="alternate"></link><published>2005-01-01T19:16:00+01:00</published><updated>2005-01-01T19:16:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-01-01:/furz-geht-auffe-kirmes.html</id><summary type="html">&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/furz.html"&gt;&lt;img alt="image0" src="http://photos17.flickr.com/19823237_4cfe48813b_b.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/furz.html"&gt;mehr von Furz&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-</summary><content type="html">&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/furz.html"&gt;&lt;img alt="image0" src="http://photos17.flickr.com/19823237_4cfe48813b_b.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/furz.html"&gt;mehr von Furz&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
+&lt;/div&gt;</content><category term="Spaß"></category></entry><entry><title>Furz feiert Silvester</title><link href="https://blog.bakera.de/furz-feiert-silvester.html" rel="alternate"></link><published>2005-01-02T19:24:00+01:00</published><updated>2005-01-02T19:24:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-01-02:/furz-feiert-silvester.html</id><summary type="html">&lt;p&gt;&lt;img alt="image0" src="http://photos17.flickr.com/19823239_92702b3ab5_b.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/furz.html"&gt;mehr von Furz&lt;/a&gt;&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;&lt;img alt="image0" src="http://photos17.flickr.com/19823239_92702b3ab5_b.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/furz.html"&gt;mehr von Furz&lt;/a&gt;&lt;/p&gt;
+</content><category term="Comic"></category><category term="Kunst"></category></entry><entry><title>Furz muss kacken</title><link href="https://blog.bakera.de/furz-muss-kacken.html" rel="alternate"></link><published>2005-01-01T19:20:00+01:00</published><updated>2005-01-01T19:20:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-01-01:/furz-muss-kacken.html</id><summary type="html">&lt;p&gt;&lt;img alt="image0" src="http://photos14.flickr.com/19823238_f17adf5cbd_o.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/furz.html"&gt;mehr von Furz&lt;/a&gt;&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;&lt;img alt="image0" src="http://photos14.flickr.com/19823238_f17adf5cbd_o.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/furz.html"&gt;mehr von Furz&lt;/a&gt;&lt;/p&gt;
+</content><category term="Comic"></category><category term="Kunst"></category></entry><entry><title>Furz geht auffe Kirmes</title><link href="https://blog.bakera.de/furz-geht-auffe-kirmes.html" rel="alternate"></link><published>2005-01-01T19:16:00+01:00</published><updated>2005-01-01T19:16:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2005-01-01:/furz-geht-auffe-kirmes.html</id><summary type="html">&lt;p&gt;&lt;img alt="image0" src="http://photos17.flickr.com/19823237_4cfe48813b_b.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/furz.html"&gt;mehr von Furz&lt;/a&gt;&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;&lt;img alt="image0" src="http://photos17.flickr.com/19823237_4cfe48813b_b.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/furz.html"&gt;mehr von Furz&lt;/a&gt;&lt;/p&gt;
 </content><category term="Comic"></category><category term="Kunst"></category></entry><entry><title>Nippes</title><link href="https://blog.bakera.de/nippes.html" rel="alternate"></link><published>2004-09-03T05:35:00+02:00</published><updated>2004-09-03T05:35:00+02:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2004-09-03:/nippes.html</id><summary type="html">&lt;p&gt;&lt;img alt="Image Hosted by ImageShack.us" src="http://img50.exs.cx/img50/1618/handtuchhaken.jpg" /&gt; OK, man kann wohl nicht wirklich viel
 erwarten, wenn man sich Dinge aus Alles-für-einen-Euro-Geschäften holt,
 doch beim Erstehen von sechs Handtuchhaltern - alle im Stil des auf dem
@@ -16311,27 +16217,24 @@ den Semesterferien meine Prüfung in VERTEILTE ALGORITHMEN II machen. Die
 Folien haben sich leider nicht als sonderlich ergiebig herausgestellt,
 weshalb ich nun in der Bereichsbibliothek mal nach etwas Literatur - die
 ja wenigstens angegeben ist - suchen werde.&lt;/p&gt;
-</content><category term="Spaß"></category></entry><entry><title>Furz</title><link href="https://blog.bakera.de/furz.html" rel="alternate"></link><published>2004-01-01T10:00:00+01:00</published><updated>2004-01-01T10:00:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2004-01-01:/furz.html</id><summary type="html">&lt;div&gt;&lt;p&gt;Vielleicht kennt ihn der ein oder andere ja schon von meiner alten
+</content><category term="Spaß"></category></entry><entry><title>Furz</title><link href="https://blog.bakera.de/furz.html" rel="alternate"></link><published>2004-01-01T10:00:00+01:00</published><updated>2004-01-01T10:00:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2004-01-01:/furz.html</id><summary type="html">&lt;p&gt;Vielleicht kennt ihn der ein oder andere ja schon von meiner alten
 Webseite:Furz. Meine selbstkreierte Comicfigur ist nun auch außerhalb
 der digitalen Welten zum Leben erwacht und erstrahlt in Strichen und
 Linien auf dem guten alten Papier.Extra für euch konnte ich eine
-digitale Kopie dieser analogen Einzelanfertigungen erhaschen …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;&lt;p&gt;Vielleicht kennt ihn der ein oder andere ja schon von meiner alten
+digitale Kopie dieser analogen Einzelanfertigungen erhaschen …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Vielleicht kennt ihn der ein oder andere ja schon von meiner alten
 Webseite:Furz. Meine selbstkreierte Comicfigur ist nun auch außerhalb
 der digitalen Welten zum Leben erwacht und erstrahlt in Strichen und
 Linien auf dem guten alten Papier.Extra für euch konnte ich eine
 digitale Kopie dieser analogen Einzelanfertigungen erhaschen und zack:
 hier sind sie auch schon. Furz in seinen neuen Abenteuern:&lt;/p&gt;
-&lt;/p&gt;&lt;ol class="arabic simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/furz-geht-auffe-kirmes.html"&gt;Furz geht auffe
-Kirmes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/furz-muss-kacken.html"&gt;Furz muss
-kacken&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/furz-feiert-silvester.html"&gt;Furz feiert
-Silvester&lt;/a&gt;&lt;/li&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/furz-geht-auffe-kirmes.html"&gt;Furz geht auffe Kirmes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/furz-muss-kacken.html"&gt;Furz muss kacken&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/furz-feiert-silvester.html"&gt;Furz feiert Silvester&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;&lt;hr class="docutils" /&gt;
+&lt;hr class="docutils" /&gt;
 &lt;p&gt;Vielleicht interessiert dich ja auch
-&lt;a class="reference external" href="http://pintman.blogspot.com/2005/08/fred-lebt.html"&gt;Fred&lt;/a&gt;.&lt;/p&gt;
+&lt;a class="reference external" href="https://blog.bakera.de/fred-lebt.html"&gt;Fred&lt;/a&gt;.&lt;/p&gt;
 </content><category term="Comic"></category><category term="Kunst"></category></entry><entry><title>Die Bluttransfusion</title><link href="https://blog.bakera.de/die-bluttransfusion.html" rel="alternate"></link><published>2004-01-01T00:00:00+01:00</published><updated>2004-01-01T00:00:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2004-01-01:/die-bluttransfusion.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://members.ping.de/~pintman/bakera.de-flash/die-bluttransfusion.mp3"&gt;[mp3]&lt;/a&gt;&lt;/p&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
@@ -16679,27 +16582,15 @@ Viel Spass beim Stoebern.&lt;/p&gt;
 &lt;/p&gt;</summary><content type="html">&lt;p&gt;
 &lt;center&gt;&lt;p&gt;&lt;img alt="image0" src="http://photos13.flickr.com/19822855_58168e4231_o.jpg" /&gt;&lt;/p&gt;
 &lt;/center&gt;
-&lt;/p&gt;</content><category term="Geschichten"></category><category term="Kunst"></category></entry><entry><title>Monster</title><link href="https://blog.bakera.de/monster.html" rel="alternate"></link><published>2004-01-01T00:00:00+01:00</published><updated>2004-01-01T00:00:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2004-01-01:/monster.html</id><summary type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;img alt="image0" src="http://photos14.flickr.com/19824656_145cf6f366_o.jpg" style="width: 80.0%;" /&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;Ein Plädoyer für Serientäter?&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;Mehr als Notlösung, da die &lt;em&gt;Passion Jesu Christi&lt;/em&gt; nicht zur gewünschten
+&lt;/p&gt;</content><category term="Geschichten"></category><category term="Kunst"></category></entry><entry><title>Monster</title><link href="https://blog.bakera.de/monster.html" rel="alternate"></link><published>2004-01-01T00:00:00+01:00</published><updated>2004-01-01T00:00:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2004-01-01:/monster.html</id><summary type="html">&lt;p&gt;&lt;img alt="image0" src="http://photos14.flickr.com/19824656_145cf6f366_o.jpg" style="width: 80.0%;" /&gt;&lt;/p&gt;
+&lt;p&gt;Ein Plädoyer für Serientäter?&lt;/p&gt;
+&lt;p&gt;Mehr als Notlösung, da die &lt;em&gt;Passion Jesu Christi&lt;/em&gt; nicht zur gewünschten
 Zeit lief, entpuppte sich der Film als wahrer Glücksgriff. Ein Film über
 die erste weibliche Serienmörderin der USA. Seit dem achten Lebensjahr
 regelmäßig vergewaltigt, als Prostituierte beinahe umgebracht,
-entwickelt sich eine Liebe zu einer anderen …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;&lt;img alt="image0" src="http://photos14.flickr.com/19824656_145cf6f366_o.jpg" style="width: 80.0%;" /&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;Ein Plädoyer für Serientäter?&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;p&gt;Mehr als Notlösung, da die &lt;em&gt;Passion Jesu Christi&lt;/em&gt; nicht zur gewünschten
+entwickelt sich eine Liebe zu einer anderen …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="image0" src="http://photos14.flickr.com/19824656_145cf6f366_o.jpg" style="width: 80.0%;" /&gt;&lt;/p&gt;
+&lt;p&gt;Ein Plädoyer für Serientäter?&lt;/p&gt;
+&lt;p&gt;Mehr als Notlösung, da die &lt;em&gt;Passion Jesu Christi&lt;/em&gt; nicht zur gewünschten
 Zeit lief, entpuppte sich der Film als wahrer Glücksgriff. Ein Film über
 die erste weibliche Serienmörderin der USA. Seit dem achten Lebensjahr
 regelmäßig vergewaltigt, als Prostituierte beinahe umgebracht,
@@ -16709,85 +16600,77 @@ real agieren die Darsteller hier durch diese kaputte amerikanische
 Wirklichkeit und bringen uns bei, dass wir nicht in einer Traumwelt
 leben, dass die Dinge nicht immer gerecht sind und, dass das Leben
 manchmal nur wenige Alternativen besitzt.&lt;/p&gt;
-&lt;/p&gt;&lt;p&gt;Doch will der Film etwa Mitleid auf der falschen Seite produzieren, wenn
+&lt;p&gt;Doch will der Film etwa Mitleid auf der falschen Seite produzieren, wenn
 uns nur die eine Wirklichkeit - die des Mörders - nahe gebracht wird?
 Hier ist es schwierig, objektiv zu bleiben, wir fühlen als Zuschauer,
 als Mensch, auf einmal mit dem Mörder, nicht mit dem Opfer. Und dennoch
 ist das Gefühl nicht &lt;em&gt;erzeugt&lt;/em&gt;, nicht aufgesetzt, als vielmehr logisch,
 konsequent, kausal.&lt;/p&gt;
-&lt;/div&gt;&lt;p&gt;Mehr Informationen über meinen Filmgeschmack bietet meine
-&lt;a class="reference external" href="http://pintman.blogspot.com/2004/01/filmwelten.html"&gt;Filmsammlung&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Mehr Informationen über meinen Filmgeschmack bietet meine
+&lt;a class="reference external" href="https://blog.bakera.de/filmwelten.html"&gt;Filmsammlung&lt;/a&gt;.&lt;/p&gt;
 </content><category term="Film"></category></entry><entry><title>Verlinkungen in die Außenwelt</title><link href="https://blog.bakera.de/verlinkungen-in-die-ausenwelt.html" rel="alternate"></link><published>2004-01-01T00:00:00+01:00</published><updated>2004-01-01T00:00:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2004-01-01:/verlinkungen-in-die-ausenwelt.html</id><summary type="html">&lt;p&gt;Hier findest du ein paar Verlinkungen in die Außenwelt, die komplett
 oder teilweise Meinereiner zuzuschreiben sind.&lt;/p&gt;
 &lt;hr class="docutils" /&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://www.comic-battle.de.vu/"&gt;&lt;img alt="die comicbattle" src="http://photos13.flickr.com/19825164_1ca2da27bb_t.jpg" /&gt;&lt;/a&gt;Die Comic-Battle ist ein kleines Projekt, das aus
-meiner kleinen Filmgruppe heraus entstanden ist. Es geht darum,&lt;/div&gt;
-&lt;div class="line"&gt;aus fertigen Bildern einen Comic erstellen. Die Bilder wurden von mir
-und einem Freund an einem Tag …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Hier findest du ein paar Verlinkungen in die Außenwelt, die komplett
+&lt;p&gt;&lt;a class="reference external" href="http://www.comic-battle.de.vu/"&gt;&lt;img alt="die comicbattle" src="http://photos13.flickr.com/19825164_1ca2da27bb_t.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Die Comic-Battle ist ein kleines Projekt, das aus
+meiner kleinen Filmgruppe heraus entstanden ist. Es geht darum,
+aus fertigen Bildern einen Comic erstellen. Die Bilder wurden von mir
+und einem Freund an einem Tag …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hier findest du ein paar Verlinkungen in die Außenwelt, die komplett
 oder teilweise Meinereiner zuzuschreiben sind.&lt;/p&gt;
 &lt;hr class="docutils" /&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://www.comic-battle.de.vu/"&gt;&lt;img alt="die comicbattle" src="http://photos13.flickr.com/19825164_1ca2da27bb_t.jpg" /&gt;&lt;/a&gt;Die Comic-Battle ist ein kleines Projekt, das aus
-meiner kleinen Filmgruppe heraus entstanden ist. Es geht darum,&lt;/div&gt;
-&lt;div class="line"&gt;aus fertigen Bildern einen Comic erstellen. Die Bilder wurden von mir
+&lt;p&gt;&lt;a class="reference external" href="http://www.comic-battle.de.vu/"&gt;&lt;img alt="die comicbattle" src="http://photos13.flickr.com/19825164_1ca2da27bb_t.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Die Comic-Battle ist ein kleines Projekt, das aus
+meiner kleinen Filmgruppe heraus entstanden ist. Es geht darum,
+aus fertigen Bildern einen Comic erstellen. Die Bilder wurden von mir
 und einem Freund an einem Tag aufgenommen. Es sind schon mehrere Werke
 dort zu sehen. Die Bilder müssen also nur mit Text unterlegt,
-Sprechblasen ausgefüllt oder&lt;/div&gt;
-&lt;div class="line"&gt;sonstwie verarbeitet werden. Die Ergebnisse gibt es dann immer wieder
-auf dieser Seite zu bewundern.&lt;/div&gt;
-&lt;/div&gt;
+Sprechblasen ausgefüllt oder
+sonstwie verarbeitet werden. Die Ergebnisse gibt es dann immer wieder
+auf dieser Seite zu bewundern.&lt;/p&gt;
 &lt;hr class="docutils" /&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://www.icq.com/59397823"&gt;&lt;img alt="Meine Seite bei ICQ" src="http://photos14.flickr.com/19825165_888377cf37_o.gif" /&gt;&lt;/a&gt;Meine ICQ-Seite. Dort steht nicht viel Neues,
+&lt;p&gt;&lt;a class="reference external" href="http://www.icq.com/59397823"&gt;&lt;img alt="Meine Seite bei ICQ" src="http://photos14.flickr.com/19825165_888377cf37_o.gif" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Meine ICQ-Seite. Dort steht nicht viel Neues,
 vielleicht ein paar veraltete Hobbies, ein paar veraltete
 email-Adressen. Was auch immer: Immerhin findet ihr dort meine
 aktuelle ICQ-Nummer. Nur wagt es ja nicht, mich anzusprechen, wenn ich
-online bin.&lt;/div&gt;
-&lt;/div&gt;
+online bin.&lt;/p&gt;
 &lt;hr class="docutils" /&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://www.google.de/groups?as_uauthors=Marco%20Bakera"&gt;&lt;img alt="meine Beitraege in diversen Newsgroups" src="http://photos14.flickr.com/19825166_815f3cea0a_o.gif" /&gt;&lt;/a&gt; Hierunter fällt alles, was
+&lt;p&gt;&lt;a class="reference external" href="http://www.google.de/groups?as_uauthors=Marco%20Bakera"&gt;&lt;img alt="meine Beitraege in diversen Newsgroups" src="http://photos14.flickr.com/19825166_815f3cea0a_o.gif" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hierunter fällt alles, was
 ich in den letzten Jahren in diversen newsgroups hinterlassen habe.
 Eigentlich ist es nur eine Abfrage an die Newsgroupsuche von google
 mit mir als Autor. Da mein Name jedoch sehr einzigartig zu sein
 scheint, stammen wohl alle Ergebnisse von mir. Ich hoffe mal, dass ich
 mich für keinen Beitrag rechtfertigen muss. Da halte ich es dann mal
 mit Adenauer und sage einfach Was interessiert mich mein Geschwätz von
-gestern?!&lt;/div&gt;
-&lt;/div&gt;
+gestern?!&lt;/p&gt;
 &lt;hr class="docutils" /&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://halnet.ath.cx/forum/search.php?search_author=pintman"&gt;&lt;img alt="Mein Beitraege im Halforum" src="http://photos16.flickr.com/19825167_0c4f576dae_o.gif" /&gt;&lt;/a&gt; Hier findest du meine Beträge aus dem
+&lt;p&gt;&lt;a class="reference external" href="http://halnet.ath.cx/forum/search.php?search_author=pintman"&gt;&lt;img alt="Mein Beitraege im Halforum" src="http://photos16.flickr.com/19825167_0c4f576dae_o.gif" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hier findest du meine Beträge aus dem
 HAL-Forum. Ein kleiner Zusammenschluss von Freunden, die sich über
 Gott, die Welt, Filme und alles dazwischen, da drüber und da hinter
-unterhalten.&lt;/div&gt;
-&lt;/div&gt;
+unterhalten.&lt;/p&gt;
 &lt;hr class="docutils" /&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://www.bulb-publications.de/"&gt;&lt;img alt="Die Seite meiner Filmgruppe" src="http://photos15.flickr.com/19825168_13cb0331a6_o.gif" /&gt;&lt;/a&gt;Filme, Fernsehen und mehr. All das
+&lt;p&gt;&lt;a class="reference external" href="http://www.bulb-publications.de/"&gt;&lt;img alt="Die Seite meiner Filmgruppe" src="http://photos15.flickr.com/19825168_13cb0331a6_o.gif" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Filme, Fernsehen und mehr. All das
 findet sich auf der Seite von bulb-publications. Einer Filmgruppe, die
 ich seit jungen Jahren mit ein paar Freunden mehr schlecht als recht
 aufrecht erhalte. Wir machen hier Filme, Fernsehsendungen und alles,
 was uns Spass macht. Wer irgendwann nochmal unbefangen ein Wort mit
-mir wechseln moechte, sollte hier nicht reinschauen. :)&lt;/div&gt;
-&lt;/div&gt;
+mir wechseln moechte, sollte hier nicht reinschauen. :)&lt;/p&gt;
 &lt;hr class="docutils" /&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://de.wikipedia.org/wiki/Spezial:Contributions/Pintman"&gt;&lt;img alt="Meine Beiträge bei wikipedia" src="http://photos21.flickr.com/27281295_12fd7e9d42_o.png" /&gt;&lt;/a&gt;Ab und zu, wenn es die Zeit und Muße
+&lt;p&gt;&lt;a class="reference external" href="http://de.wikipedia.org/wiki/Spezial:Contributions/Pintman"&gt;&lt;img alt="Meine Beiträge bei wikipedia" src="http://photos21.flickr.com/27281295_12fd7e9d42_o.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ab und zu, wenn es die Zeit und Muße
 zulassen, versuche ich mich auch mal an ein paar Einträgen bei
 wikipedia. Was ich bisher so geschrieben habe, kannst du finden, wenn
-du auf das linke Logo klickst.&lt;/div&gt;
-&lt;/div&gt;
+du auf das linke Logo klickst.&lt;/p&gt;
 &lt;hr class="docutils" /&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="http://www.amateurfilm-magazin.de/index.php?page=comments&amp;amp;action=showfromuser&amp;amp;memberid=263"&gt;&lt;img alt="image6" src="http://photos1.blogger.com/blogger/4366/184/400/banner234x60.gif" /&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;div class="line"&gt;Meine Beiträge in Form von
+&lt;p&gt;&lt;a class="reference external" href="http://www.amateurfilm-magazin.de/index.php?page=comments&amp;amp;action=showfromuser&amp;amp;memberid=263"&gt;&lt;img alt="image6" src="http://photos1.blogger.com/blogger/4366/184/400/banner234x60.gif" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Meine Beiträge in Form von
 &lt;a class="reference external" href="http://www.amateurfilm-magazin.de/index.php?page=comments&amp;amp;action=showfromuser&amp;amp;memberid=263"&gt;Filmkritiken»&lt;/a&gt;
-im &lt;a class="reference external" href="http://www.amateurfilm-magazin.de/"&gt;Amateufilm Magazin»&lt;/a&gt;.&lt;/div&gt;
-&lt;/div&gt;
+im &lt;a class="reference external" href="http://www.amateurfilm-magazin.de/"&gt;Amateufilm Magazin»&lt;/a&gt;.&lt;/p&gt;
 &lt;hr class="docutils" /&gt;
-&lt;/p&gt;</content><category term="Linkliste"></category></entry><entry><title>Weggefährten</title><link href="https://blog.bakera.de/weggefahrten.html" rel="alternate"></link><published>2004-01-01T00:00:00+01:00</published><updated>2004-01-01T00:00:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2004-01-01:/weggefahrten.html</id><summary type="html">&lt;div class="line-block"&gt;
+</content><category term="Linkliste"></category></entry><entry><title>Weggefährten</title><link href="https://blog.bakera.de/weggefahrten.html" rel="alternate"></link><published>2004-01-01T00:00:00+01:00</published><updated>2004-01-01T00:00:00+01:00</updated><author><name>admin</name></author><id>tag:blog.bakera.de,2004-01-01:/weggefahrten.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
 </summary><content type="html">&lt;div class="line-block"&gt;
