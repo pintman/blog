@@ -2,7 +2,7 @@ Bestimmen einer Funktionsgleichung
 ##################################
 :date: 2013-11-25 15:46
 :author: marco.bakera
-:tags: Unkategorisiert
+:tags: Tafelbild, Bildung, Mathe
 :slug: bestimmen-einer-funktionsgleichung-tafelbild
 :status: published
 

@@ -2,7 +2,7 @@ WDR setzt setzt 69 Sendungen wegen Schleichwerbung ab
 #####################################################
 :date: 2005-07-20 06:04
 :author: admin
-:tags: Unkategorisiert
+:tags: TV
 :slug: wdr-setzt-setzt-69-sendungen-wegen-schleichwerbung-ab
 :status: published
 

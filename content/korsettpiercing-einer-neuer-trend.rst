@@ -2,7 +2,7 @@ Korsettpiercing - einer neuer Trend?!
 #####################################
 :date: 2005-04-23 21:44
 :author: admin
-:tags: Unkategorisiert
+:tags: WTF
 :slug: korsettpiercing-einer-neuer-trend
 :status: published
 

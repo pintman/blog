@@ -2,7 +2,7 @@ Sammelsurium - Januar und Februar 2016
 ######################################
 :date: 2016-03-05 14:25
 :author: marco.bakera
-:tags: Unkategorisiert
+:tags: Linkliste
 :slug: sammelsurium-januar-und-februar-2016
 :status: published
 

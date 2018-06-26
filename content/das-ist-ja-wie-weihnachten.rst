@@ -2,7 +2,7 @@ Das ist ja wie Weihnachten
 ##########################
 :date: 2005-01-07 00:02
 :author: admin
-:tags: Unkategorisiert
+:tags: DVD, Film
 :slug: das-ist-ja-wie-weihnachten
 :status: published
 

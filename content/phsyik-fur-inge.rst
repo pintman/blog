@@ -2,7 +2,7 @@ Phsyik für Inge»
 ################
 :date: 2005-04-24 11:04
 :author: admin
-:tags: Unkategorisiert
+:tags: fun
 :slug: phsyik-fur-inge
 :status: published
 

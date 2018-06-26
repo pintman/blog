@@ -2,7 +2,7 @@ Kostenlos SMS verschicken
 #########################
 :date: 2008-07-13 11:12
 :author: admin
-:tags: Unkategorisiert
+:tags: SMS
 :slug: kostenlos-sms-verschicken
 :status: published
 
