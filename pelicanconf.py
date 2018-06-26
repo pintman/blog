@@ -10,10 +10,11 @@ PATH = 'content'
 STATIC_PATHS = ['images', 'media']
 DEFAULT_CATEGORY = 'Sonstiges'
 DISPLAY_CATEGORIES_ON_MENU = False
+"""
 MENUITEMS = (
     ("Archiv", "https://blog.bakera.de/archives.html"),
     ("Tags", "https://blog.bakera.de//tags.html"))
-
+"""
 
 TIMEZONE = 'Europe/Berlin'
 
@@ -66,6 +67,7 @@ THEME = "pelican-themes/pelican-bootstrap3"
 #DISPLAY_TAGS_ON_SIDEBAR = True
 #DISPLAY_ARCHIVE_ON_SIDEBAR = True
 #HIDE_SIDEBAR = True
+#PLUGINS = ['tipue_search']
 
 # Theme pelican-elegant
 #
@@ -85,5 +87,7 @@ THEME = "pelican-themes/pelican-bootstrap3"
 # Install all plugins there
 # git clone --recursive https://github.com/getpelican/pelican-plugins
 # 
-#PLUGIN_PATHS = ["pelican-plugins"]
-#PLUGINS = ['tipue_search']
+PLUGIN_PATHS = ["pelican-plugins"]
+PLUGINS = ['tipue_search']
+#DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
+DIRECT_TEMPLATES = ('index', 'archives', 'search')
