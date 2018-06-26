@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # install python packages
+# beautifulsoup is needed for plugin tipue search
 pip3 install pelican beautifulsoup4 markdown
 
 # install plugins repo
