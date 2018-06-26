@@ -32,11 +32,16 @@ LINKS = (('Archiv', 'archives.html'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
 """
+# Social widget
+SOCIAL = (
+    ("twitter", "https://www.twitter.com/pintman"),
+    ("github", "https://github.com/pintman"),
+    ("github TBS1", "https://github.com/tbs1-bo", "github"),
+    ("gitlab", "https://gitlab.com/pintman", "git"),
+    ("edugit", "https://edugit.org/bak", "git"))
+
+
 
 DEFAULT_PAGINATION = 10
 
@@ -60,7 +65,7 @@ THEME = "pelican-themes/pelican-bootstrap3"
 #PADDED_SINGLE_COLUMN_STYLE = True
 #DISPLAY_TAGS_ON_SIDEBAR = True
 #DISPLAY_ARCHIVE_ON_SIDEBAR = True
-HIDE_SIDEBAR = True
+#HIDE_SIDEBAR = True
 
 # Theme pelican-elegant
 #
