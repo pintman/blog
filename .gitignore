@@ -5,3 +5,5 @@ venv/
 pelican.pid
 srv.pid
 pelican-plugins
+pelican-themes
+
