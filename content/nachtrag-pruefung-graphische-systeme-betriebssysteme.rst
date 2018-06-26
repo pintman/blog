@@ -7,7 +7,7 @@ Nachtrag: Pruefung Graphische Systeme / Betriebssysteme
 :status: published
 
 Zur oben genannten Pruefung (siehe auch meinen `Beitrag vom
-22.7. <{filename}10.rst>`__) habe ich jetzt
+22.7. <{filename}1-0.rst>`__) habe ich jetzt
 auch mal die Karteikarten, die ich zum Lernen benutzt habe, ins Netz
 gestellt:
 

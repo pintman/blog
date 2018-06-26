@@ -9,7 +9,7 @@
 Derzeit läuft die `dritte Staffel von Bubble
 Universe <http://www.3min.de/video/gaming/bubble-universe/>`__ (ich
 habe über die ersten beiden Staffel bereits
-`berichtet <{filename}passionierte-und-professionelle.rst>`__).
+`berichtet <{filename}passionierte-und-professionelle-computerspieler.rst>`__).
 Diesmal gehen die Autoren der Entwicklung eines Computerspieles auf
 den Grund.
 
