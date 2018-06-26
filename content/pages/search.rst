@@ -5,7 +5,7 @@ Suche
 :date: 2018-06-24 16:20
 :author: marco.bakera
 :slug: search
-:status: published
+:status: hidden
 
 .. raw:: html
 
