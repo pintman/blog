@@ -11,69 +11,79 @@ oder teilweise Meinereiner zuzuschreiben sind.
 
 --------------
 
-| |die comicbattle|\ Die Comic-Battle ist ein kleines Projekt, das aus
-  meiner kleinen Filmgruppe heraus entstanden ist. Es geht darum,
-| aus fertigen Bildern einen Comic erstellen. Die Bilder wurden von mir
-  und einem Freund an einem Tag aufgenommen. Es sind schon mehrere Werke
-  dort zu sehen. Die Bilder müssen also nur mit Text unterlegt,
-  Sprechblasen ausgefüllt oder
-| sonstwie verarbeitet werden. Die Ergebnisse gibt es dann immer wieder
-  auf dieser Seite zu bewundern.
+|die comicbattle|
+
+Die Comic-Battle ist ein kleines Projekt, das aus
+meiner kleinen Filmgruppe heraus entstanden ist. Es geht darum,
+aus fertigen Bildern einen Comic erstellen. Die Bilder wurden von mir
+und einem Freund an einem Tag aufgenommen. Es sind schon mehrere Werke
+dort zu sehen. Die Bilder müssen also nur mit Text unterlegt,
+Sprechblasen ausgefüllt oder
+sonstwie verarbeitet werden. Die Ergebnisse gibt es dann immer wieder
+auf dieser Seite zu bewundern.
 
 --------------
 
-| |Meine Seite bei ICQ|\ Meine ICQ-Seite. Dort steht nicht viel Neues,
-  vielleicht ein paar veraltete Hobbies, ein paar veraltete
-  email-Adressen. Was auch immer: Immerhin findet ihr dort meine
-  aktuelle ICQ-Nummer. Nur wagt es ja nicht, mich anzusprechen, wenn ich
-  online bin.
+|Meine Seite bei ICQ|
+
+Meine ICQ-Seite. Dort steht nicht viel Neues,
+vielleicht ein paar veraltete Hobbies, ein paar veraltete
+email-Adressen. Was auch immer: Immerhin findet ihr dort meine
+aktuelle ICQ-Nummer. Nur wagt es ja nicht, mich anzusprechen, wenn ich
+online bin.
 
 --------------
 
-| |meine Beitraege in diversen Newsgroups| Hierunter fällt alles, was
-  ich in den letzten Jahren in diversen newsgroups hinterlassen habe.
-  Eigentlich ist es nur eine Abfrage an die Newsgroupsuche von google
-  mit mir als Autor. Da mein Name jedoch sehr einzigartig zu sein
-  scheint, stammen wohl alle Ergebnisse von mir. Ich hoffe mal, dass ich
-  mich für keinen Beitrag rechtfertigen muss. Da halte ich es dann mal
-  mit Adenauer und sage einfach Was interessiert mich mein Geschwätz von
-  gestern?!
+|meine Beitraege in diversen Newsgroups| 
+
+Hierunter fällt alles, was
+ich in den letzten Jahren in diversen newsgroups hinterlassen habe.
+Eigentlich ist es nur eine Abfrage an die Newsgroupsuche von google
+mit mir als Autor. Da mein Name jedoch sehr einzigartig zu sein
+scheint, stammen wohl alle Ergebnisse von mir. Ich hoffe mal, dass ich
+mich für keinen Beitrag rechtfertigen muss. Da halte ich es dann mal
+mit Adenauer und sage einfach Was interessiert mich mein Geschwätz von
+gestern?!
 
 --------------
 
-| |Mein Beitraege im Halforum| Hier findest du meine Beträge aus dem
-  HAL-Forum. Ein kleiner Zusammenschluss von Freunden, die sich über
-  Gott, die Welt, Filme und alles dazwischen, da drüber und da hinter
-  unterhalten.
+|Mein Beitraege im Halforum| 
+
+Hier findest du meine Beträge aus dem
+HAL-Forum. Ein kleiner Zusammenschluss von Freunden, die sich über
+Gott, die Welt, Filme und alles dazwischen, da drüber und da hinter
+unterhalten.
 
 --------------
 
-| |Die Seite meiner Filmgruppe|\ Filme, Fernsehen und mehr. All das
-  findet sich auf der Seite von bulb-publications. Einer Filmgruppe, die
-  ich seit jungen Jahren mit ein paar Freunden mehr schlecht als recht
-  aufrecht erhalte. Wir machen hier Filme, Fernsehsendungen und alles,
-  was uns Spass macht. Wer irgendwann nochmal unbefangen ein Wort mit
-  mir wechseln moechte, sollte hier nicht reinschauen. :)
+|Die Seite meiner Filmgruppe|
+
+Filme, Fernsehen und mehr. All das
+findet sich auf der Seite von bulb-publications. Einer Filmgruppe, die
+ich seit jungen Jahren mit ein paar Freunden mehr schlecht als recht
+aufrecht erhalte. Wir machen hier Filme, Fernsehsendungen und alles,
+was uns Spass macht. Wer irgendwann nochmal unbefangen ein Wort mit
+mir wechseln moechte, sollte hier nicht reinschauen. :)
 
 --------------
 
-| |Meine Beiträge bei wikipedia|\ Ab und zu, wenn es die Zeit und Muße
-  zulassen, versuche ich mich auch mal an ein paar Einträgen bei
-  wikipedia. Was ich bisher so geschrieben habe, kannst du finden, wenn
-  du auf das linke Logo klickst.
+|Meine Beiträge bei wikipedia|
+
+Ab und zu, wenn es die Zeit und Muße
+zulassen, versuche ich mich auch mal an ein paar Einträgen bei
+wikipedia. Was ich bisher so geschrieben habe, kannst du finden, wenn
+du auf das linke Logo klickst.
 
 --------------
 
-| |image6|
-| Meine Beiträge in Form von
-  `Filmkritiken» <http://www.amateurfilm-magazin.de/index.php?page=comments&action=showfromuser&memberid=263>`__
-  im `Amateufilm Magazin» <http://www.amateurfilm-magazin.de/>`__.
+|image6|
+
+Meine Beiträge in Form von
+`Filmkritiken» <http://www.amateurfilm-magazin.de/index.php?page=comments&action=showfromuser&memberid=263>`__
+im `Amateufilm Magazin» <http://www.amateurfilm-magazin.de/>`__.
 
 --------------
 
-.. raw:: html
-
-   </p>
 
 .. |die comicbattle| image:: http://photos13.flickr.com/19825164_1ca2da27bb_t.jpg
    :target: http://www.comic-battle.de.vu/

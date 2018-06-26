@@ -6,9 +6,6 @@ Wahlwerbespot der APPD verboten?
 :slug: wahlwerbespot-der-appd-verboten
 :status: published
 
-.. raw:: html
-
-   <div>
 
 Die Ausstrahlung des recht ekeligen Wahlspotes der APPD wurde durch ARD
 und ZDF verweigert, weil er dazu geeignet sei, *"die Entwicklung von
@@ -21,10 +18,6 @@ eine gekürzte Fassung des Spotes gezeigt. Nach einer Klage wurde der
 APPD jedoch recht gegeben und wir dürfen auf eine erneute Ausstrahlung
 am Montag, 12.9.2005 um 21:40 Uhr auf dem ZDF (vor dem heute-journal)
 "hoffen".
-
-.. raw:: html
-
-   </div>
 
 Die unzensierte Version gibt es derweil unter den folgenden Links:
 
