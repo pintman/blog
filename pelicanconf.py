@@ -11,8 +11,8 @@ STATIC_PATHS = ['images', 'media']
 DEFAULT_CATEGORY = 'Sonstiges'
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
-    ("Archiv", "/archives.html"),
-    ("Tags", "/tags.html"))
+    ("Archiv", "https://blog.bakera.de/archives.html"),
+    ("Tags", "https://blog.bakera.de//tags.html"))
 
 
 TIMEZONE = 'Europe/Berlin'
@@ -60,6 +60,7 @@ THEME = "pelican-themes/pelican-bootstrap3"
 #PADDED_SINGLE_COLUMN_STYLE = True
 #DISPLAY_TAGS_ON_SIDEBAR = True
 #DISPLAY_ARCHIVE_ON_SIDEBAR = True
+HIDE_SIDEBAR = True
 
 # Theme pelican-elegant
 #
