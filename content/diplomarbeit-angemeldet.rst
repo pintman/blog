@@ -6,7 +6,7 @@ Diplomarbeit angemeldet
 :slug: diplomarbeit-angemeldet
 :status: published
 
-Nach mittlerweile Semestern, durfte ich nun endlich zur Tat schreiten
+Nach mittlerweile <censored> Semestern, durfte ich nun endlich zur Tat schreiten
 und meine Diplomarbeit anmelden. Der ruhmlose Titel lautet "Pläne und
 Spiele – eine Anwendung für spielbasiertes Model Checking". Was
 tatsächlich dahinter steckt, wird in spätestens sechs Monaten in jeder
