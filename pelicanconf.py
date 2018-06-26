@@ -11,8 +11,8 @@ STATIC_PATHS = ['images', 'media']
 DEFAULT_CATEGORY = 'Sonstiges'
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
-    ("Archiv", "archives.html"),
-    ("Tags", "tags.html"))
+    ("Archiv", SITEURL + "/archives.html"),
+    ("Tags", SITEURL + "/tags.html"))
 
 
 TIMEZONE = 'Europe/Berlin'
