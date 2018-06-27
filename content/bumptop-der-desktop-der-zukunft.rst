@@ -18,5 +18,5 @@ zeigt deutlich, wohin die Reise gehen soll.
 via
 `digg.com» <http://digg.com/design/Video%3A_The_future_of_desktop_%28amazing_%29>`__
 
-.. |image0| image:: http://photos1.blogger.com/blogger/4366/184/1600/3d-desktop.jpg
+.. |image0| image:: {filename}images/3d-desktop.jpg
 

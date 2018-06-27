@@ -36,6 +36,6 @@ lange verloren. Kritische Schafe sind anscheinend nicht gewollt. Schade.
 
    </div>
 
-.. |Christentum vs. Islam| image:: http://img108.exs.cx/img108/6269/islamvschristentum4nz.gif
+.. |Christentum vs. Islam| image:: {filename}images/islamvschristentum4nz.gif
    :width: 458px
    :height: 5050px
