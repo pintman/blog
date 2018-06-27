@@ -67,5 +67,5 @@ Intelligenztheorien
    und Komponententheorie und ihre Bedeutung für die
    Hochbegabtenforschung erwähnt).
 
-.. |image0| image:: http://photos1.blogger.com/blogger/4366/184/1600/metz-goeckel%5B1%5D.gif
+.. |image0| image:: {filename}images/metz-goeckel.gif
 

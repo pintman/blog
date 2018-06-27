@@ -36,5 +36,5 @@ PDF-Fassung (welche beim Verlag erst nach etwas Suchen unter einem
 `etwas versteckten Link» <http://www.apress.com/free/>`__ zu finden ist)
 erhaeltlich.
 
-.. |image0| image:: http://photos1.blogger.com/blogger/4366/184/320/small-cover%5B1%5D.gif
+.. |image0| image:: {filename}images/small-cover.gif
 

@@ -102,5 +102,5 @@ jeden Fall nicht schaden.
 -  `Karteikarten fuer
    Betriebssysteme» <http://flickr.com/photos/pintman/tags/betriebssysteme/>`__
 
-.. |image0| image:: http://photos1.blogger.com/blogger/4366/184/400/heinrich_mueller.jpg
+.. |image0| image:: {filename}images/heinrich_mueller.jpg
 

@@ -11,6 +11,5 @@ Bau dir deine eigenen Fehlermeldungen »
   Fehlermeldungen <http://atom.smasher.org/error/>`__. Tolle Sache. Für
   irgendwas kann man das bestimmt gebrauchen.
 
-.. |image0| image:: http://img180.exs.cx/img180/459/dialogbox4pf.png
+.. |image0| image:: {filename}images/dialogbox4pf.png
    :width: 33.0%
-   :target: http://img180.exs.cx/img180/459/dialogbox4pf.png

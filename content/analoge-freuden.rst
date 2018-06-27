@@ -35,5 +35,5 @@ In diesem Sinne, lasst auch ihr es mal wieder knacken und knistern.
 
    </div>
 
-.. |image0| image:: http://img18.exs.cx/img18/7744/derneuevideorekorder4ni.jpg
+.. |image0| image:: {filename}images/derneuevideorekorder4ni.jpg
    :width: 100.0%

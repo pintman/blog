@@ -39,5 +39,4 @@ kannst du das Tool kostenlos
 und direkt loslegen. Bei Fragen wuselt bestimmt irgendjemand gerade im
 `Forum <http://connectit.cs.uni-dortmund.de/forum/>`__ umher. :)
 
-.. |image0| image:: http://3.bp.blogspot.com/_f_WnmSMXXic/SR6FGYtNkXI/AAAAAAAAAow/x0JMDZPGyeQ/s400/jabc-plugin.png
-   :target: http://3.bp.blogspot.com/_f_WnmSMXXic/SR6FGYtNkXI/AAAAAAAAAow/x0JMDZPGyeQ/s1600-h/jabc-plugin.png
+.. |image0| image:: {filename}images/jabc-plugin.png
