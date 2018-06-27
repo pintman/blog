@@ -6,9 +6,6 @@ Christentum vs. Islam
 :slug: christentum-vs-islam
 :status: published
 
-.. raw:: html
-
-   <div>
 
 Was mussten meine von Monitorwärme zerweichten Augen denn da schon
 wieder für einen Müll sehen?! Comics, die Islam und Christentum
@@ -21,21 +18,3 @@ soll das? Hat da jemand, Lessings Ringparabel nur kurz überflogen oder
 gar nicht reingeschaut? Müssen sich Religionen immer über andere
 Hinwegsetzen. Mit solchen Schriften hat man mich auf jeden Fall schon
 lange verloren. Kritische Schafe sind anscheinend nicht gewollt. Schade.
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   <div>
-
-|Christentum vs. Islam|
-
-.. raw:: html
-
-   </div>
-
-.. |Christentum vs. Islam| image:: {filename}images/islamvschristentum4nz.gif
-   :width: 458px
-   :height: 5050px

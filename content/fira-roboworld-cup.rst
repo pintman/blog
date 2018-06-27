@@ -41,5 +41,5 @@ niederschlaegt. Einer Liga, die die Roboter lediglich auf dem Rechner
 simuliert und sich damit mehr um die Strategie und Teaminteraktion der
 Klienten kuemmern kann/muss.
 
-.. |image0| image:: http://photos1.blogger.com/blogger/4366/184/1600/fira.jpg
+.. |image0| image:: {filename}images/fira.jpg
 

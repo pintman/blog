@@ -6,18 +6,8 @@ Durchfall
 :slug: durchfall
 :status: published
 
-.. raw:: html
 
-   <p>
-   <center>
-
-| 
-| |image0|
-
-.. raw:: html
-
-   </center>
-   </p>
+|image0|
 
 Wie jede anständige Seite, gibt es hier natürlich auch eine
 Gästetoilette, auf der sich jeder auslassen kann. Leider nur für Männer
@@ -28,5 +18,5 @@ Stunden/Wochen oder gar Monate vor dem Rechner angesammelt hat. Die
 einzige Seite, die du hier in der Nähe finden wirst, die dir diesen
 Luxus gönnt.
 
-.. |image0| image:: http://photos1.blogger.com/blogger/4366/184/400/Toilette%5B1%5D.jpg
+.. |image0| image:: {filename}images/Toilette.jpg
 

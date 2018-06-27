@@ -47,11 +47,11 @@ aus.
 Kurz und gut, wer sich ein bisschen für Kunst interessiert, dem sei die
 Ausstellung wärmstens ans Herz gelegt.
 
-| PS
-| An jedem Sonntag gibt es im Museumsbistro für 11,50 Euro ein
-  ausgiebiges Frühstück mit Sekt, so viel die Leber verträgt, welches
-  sich wunderbar mit dem Museumsbesuch zu einer dekadenten
-  Tagesgestaltung mit kulturellem Höhepunkt kombinieren lässt. Prost.
+PS
 
-.. |image0| image:: http://photos1.blogger.com/blogger/4366/184/200/img001.jpg
-   :target: http://photos1.blogger.com/blogger/4366/184/1600/img001.jpg
+An jedem Sonntag gibt es im Museumsbistro für 11,50 Euro ein
+ausgiebiges Frühstück mit Sekt, so viel die Leber verträgt, welches
+sich wunderbar mit dem Museumsbesuch zu einer dekadenten
+Tagesgestaltung mit kulturellem Höhepunkt kombinieren lässt. Prost.
+
+.. |image0| image:: {filename}images/img001.jpg

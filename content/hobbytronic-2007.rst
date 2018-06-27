@@ -6,8 +6,6 @@ Hobbytronic 2007
 :slug: hobbytronic-2007
 :status: published
 
-|image0|
-
 Wieder einmal war es soweit und die
 `Hobbytronic» <http://www.westfalenhallen.de/1900.php>`__ öffnete für
 eine Woche ihre Pforten in den Dortmunder Westfalenhallen, um - naja,
@@ -31,6 +29,3 @@ enttäuschend, langweilig. So würde ich die Messe in diesem Jahr wohl
 zusammenfassen. Aber die Nostalgie wird mich bestimmt auch im nächsten
 Jahr wieder in ihren Bann und mich zur Messe ziehen - dann hoffentlich
 wieder mit einer Freikarte.
-
-.. |image0| image:: http://1.bp.blogspot.com/_f_WnmSMXXic/Ri7meS77L0I/AAAAAAAAAAw/wSZEWaLqhOA/s1600-h/logo_hobbytronic_gross.jpg
-

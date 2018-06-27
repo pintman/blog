@@ -6,23 +6,15 @@ Frohes neues Jahr
 :slug: frohes-neues-jahr
 :status: published
 
-| Ein `Tweet von
-  @apfelkasten <https://twitter.com/apfelkasten/status/285894335894016000>`__
-  begrüßt das neue Jahr mit einer interessanten Eigenschaft:
+Ein `Tweet von
+@apfelkasten <https://twitter.com/apfelkasten/status/285894335894016000>`__
+begrüßt das neue Jahr mit einer interessanten Eigenschaft:
 
-.. raw:: html
-
-   <div>
 
 |image0|
 
-.. raw:: html
-
-   </div>
-
-| 
-| Könnt ihr das mt einem kleinen Programm überprüfen? Dann ab damit in
-  die Kommentare. :) Hier ist z.B. eine Variante in Smalltalk:
+Könnt ihr das mt einem kleinen Programm überprüfen? Dann ab damit in
+die Kommentare. :) Hier ist z.B. eine Variante in Smalltalk:
 
 ::
 
@@ -34,8 +26,7 @@ Frohes neues Jahr
                       show: jahreszahl;
                       cr]]
 
-| 
-| In diesem Sinne: Ein frohes neues Jahr!
+ 
+In diesem Sinne: Ein frohes neues Jahr!
 
-.. |image0| image:: http://2.bp.blogspot.com/-xuCZJs_-nxE/UOKwDh-tJTI/AAAAAAAACRU/9AE0dFpa4lU/s1600/Unbenannt.PNG
-   :target: http://2.bp.blogspot.com/-xuCZJs_-nxE/UOKwDh-tJTI/AAAAAAAACRU/9AE0dFpa4lU/s1600/Unbenannt.PNG
+.. |image0| image:: {filename}images/2013_tweet.PNG
