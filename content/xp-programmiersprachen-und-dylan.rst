@@ -30,5 +30,4 @@ und Unit-Testing versteift, ueberaus interessant, sondern auch vielmehr
 eine Quelle der Inspiration fuer das eigene Arbeiten. Ergo, reinhoeren
 und umsetzen.
 
-.. |image0| image:: http://photos1.blogger.com/blogger/4366/184/320/chaosradio-logo-transparent-300%5B1%5D.png
-   :target: http://chaosradio.ccc.de/index.html
+.. |image0| image:: {filename}images/chaosradio_express-logo-transparent.png

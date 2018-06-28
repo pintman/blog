@@ -6,22 +6,6 @@ Marco
 :slug: marco
 :status: published
 
-.. raw:: html
-
-   <div>
-
-.. raw:: html
-
-   <p>
-   <center>
-
-|image0|
-
-.. raw:: html
-
-   </center>
-   </p>
-
 Mein Name ist *nicht* Marco Bakera und ich werde hier sicher *nicht*
 schreiben, dass ich am 9. Januar 1979 geboren wurde, demnach Steinbock
 wäre, diese meine Geburt irgendwo in Dortmund passiert ist, ich dort
@@ -38,9 +22,4 @@ Phantasieprodukt deiner wahnwitzigen Wunschvorstellungen ist. Glaub'
 nichts, was du hier liest, es ist nicht real. Es ist nur der kranke
 Erguss deiner Wünsche.
 
-.. raw:: html
-
-   </div>
-
-.. |image0| image:: http://photos1.blogger.com/blogger/4366/184/400/marco%5B1%5D.jpg
 

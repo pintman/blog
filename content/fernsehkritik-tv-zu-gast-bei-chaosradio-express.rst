@@ -6,15 +6,9 @@ Fernsehkritik.tv zu Gast bei Chaosradio Express
 :slug: fernsehkritik-tv-zu-gast-bei-chaosradio-express
 :status: published
 
-.. raw:: html
-
-   <div>
 
 |image0|
 
-.. raw:: html
-
-   </div>
 
 Kürzlich ergab es sich, dass zwei der von mir am meisten geschätzten
 Formate der alternativen und freien Medienlandschaft im Internet eine
@@ -23,5 +17,5 @@ fernsehkritik.tv <http://fernsehkritik.tv/>`__ war zu Gast bei Tim
 Pritloves `Chaosradio Express zum Thema
 Fernsehen <http://chaosradio.ccc.de/cre157.html>`__.
 
-.. |image0| image:: http://chaosradio.ccc.de/chaosradio_express-logo-128x128.jpg
-   :target: http://chaosradio.ccc.de/chaosradio_express-logo-128x128.jpg
+.. |image0| image:: {filename}images/chaosradio_express-logo-128x128.jpg
+

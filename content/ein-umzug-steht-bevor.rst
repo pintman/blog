@@ -30,5 +30,5 @@ eingefunden.
 
 .. |image0| image:: {filename}images/show_address_4.gif
 
-.. |vrr-logo| image:: http://efa.vrr.de/vrr/images/vrr_logo.jpg
+.. |vrr-logo| image:: {filename}images/vrr_logo.jpg
    :target: http://efa.vrr.de/vrr/XSLT_TRIP_REQUEST2?language=de&place_destination=Dortmund&name_destination=ruhrallee%2065&type_destination=address&sessionID=0

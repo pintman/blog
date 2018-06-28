@@ -39,16 +39,14 @@ mehr Richtungen keimende, deutsche Kunstlandschaft – was auch immer dies
 sein mag – und hoffe auf regen Besucherstrom in die Ausstellungen von
 Markus Nilling.
 
-| PS
-| Wer viele tolle neue und interessante Postkarten sucht – oder sogar
-  sammelt, so wie ich – sollte bei der nächsten Diplomausstellung (in
-  diesem Jahr mit einer halbherzigen Webseite unter
-  `www.designdiplom.de» <http://www.designdiplom.de/>`__ vertreten)
-  vorbeischauen, wo es gerade eben diese koestenfrei zu erhaschen gibt.
+PS
 
-.. |image0| image:: http://photos1.blogger.com/blogger/4366/184/320/Bild7.jpg
-   :target: http://photos1.blogger.com/blogger/4366/184/1600/Bild7.jpg
-.. |image1| image:: http://photos1.blogger.com/blogger/4366/184/320/Bild8.jpg
-   :target: http://photos1.blogger.com/blogger/4366/184/1600/Bild8.jpg
-.. |image2| image:: http://photos1.blogger.com/blogger/4366/184/320/Bild6.jpg
-   :target: http://photos1.blogger.com/blogger/4366/184/1600/Bild6.jpg
+Wer viele tolle neue und interessante Postkarten sucht – oder sogar
+sammelt, so wie ich – sollte bei der nächsten Diplomausstellung (in
+diesem Jahr mit einer halbherzigen Webseite unter
+`www.designdiplom.de» <http://www.designdiplom.de/>`__ vertreten)
+vorbeischauen, wo es gerade eben diese koestenfrei zu erhaschen gibt.
+
+.. |image0| image:: {filename}images/Bild7.jpg
+.. |image1| image:: {filename}images/Bild8.jpg
+.. |image2| image:: {filename}images/Bild6.jpg

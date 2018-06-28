@@ -18,5 +18,4 @@ Mathematikunterricht von einer sehr kreativen Seite erleben. Besonders
 gut haben mir der Gehängte an der Wurzel und das Exemplar auf der
 rechten Seite gefallen. :)
 
-.. |image0| image:: http://math4allages.files.wordpress.com/2010/06/mathteacher2.png?w=300&h=300
-   :target: http://math4allages.files.wordpress.com/2010/06/mathteacher2.png?w=300&h=300
+.. |image0| image:: {filename}images/mathteacher2.png

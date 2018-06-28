@@ -46,6 +46,6 @@ In diesem Sinne:
 (Alonzo Church)
 
 
-.. |image0| image:: http://photos1.blogger.com/blogger/4366/184/400/wizard.jpg
-.. |image1| image:: http://photos1.blogger.com/blogger/4366/184/400/Church%5B1%5D.jpg
+.. |image0| image:: {filename}images/wizard.jpg
+.. |image1| image:: {filename}images/Church.jpg
    :target: http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Church.html

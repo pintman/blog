@@ -23,5 +23,5 @@ Ein brennendes Pamphlet für ein freiheitliches Verständnis der Welt, wie
 sie vom Menschen gestaltet wurde, dem ich an dieser Stelle zustimmen
 möchte.
 
-.. |image0| image:: http://4.bp.blogspot.com/_f_WnmSMXXic/R0qb1IhTSZI/AAAAAAAAACg/pDh8FSAVyKI/s400/ted_logo.gif
+.. |image0| image:: {filename}images/ted_logo.gif
    :target: http://ted.com/

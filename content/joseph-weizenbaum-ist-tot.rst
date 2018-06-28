@@ -6,7 +6,9 @@ Joseph Weizenbaum ist tot
 :slug: joseph-weizenbaum-ist-tot
 :status: published
 
-|image0|\ Computerrebell `Joseph
+|image0|
+
+Computerrebell `Joseph
 Weizenbaum <http://en.wikipedia.org/wiki/Joseph_Weizenbaum>`__ ist tot.
 Einer der großen Pioniere der Informatik ist am 5. März 2008, knapp zwei
 Monate nach seinem 85. Geburtstag, an den Folgen eines Schlaganfalls
@@ -16,5 +18,4 @@ Anschein erweckte, dem Computer Leben einzuhauchen und große Hoffnung in
 der KI sähte. Mehr zu seinem Leben berichtet
 `Golem <http://www.golem.de/0803/58259.html>`__.
 
-.. |image0| image:: http://4.bp.blogspot.com/_f_WnmSMXXic/R9kjpkLKk4I/AAAAAAAAAC4/cAw-0BqJdQs/s400/Joseph_Weizenbaum.jpg
-   :target: http://4.bp.blogspot.com/_f_WnmSMXXic/R9kjpkLKk4I/AAAAAAAAAC4/cAw-0BqJdQs/s1600-h/Joseph_Weizenbaum.jpg
+.. |image0| image:: {filename}images/Joseph_Weizenbaum.jpg

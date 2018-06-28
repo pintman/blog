@@ -38,5 +38,5 @@ werden soll.
 
 Also, auf geht's.
 
-.. |image0| image:: http://photos1.blogger.com/blogger/4366/184/400/logo%5B1%5D.png
+.. |image0| image:: {filename}images/logo1.png
    :target: http://de.fon.com/

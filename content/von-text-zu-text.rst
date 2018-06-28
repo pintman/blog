@@ -41,12 +41,8 @@ Links, die jeweils einmal auf das ursprüngliche PDF, das aus dem
 |LaTeX|-Dokument erzeugt wurde, sowie die automatisch generierte
 HTML-Version davon verweisen.
 
-.. raw:: html
-
-   </p>
-
 -  `PDF» <http://jabc.cs.uni-dortmund.de/modelchecking/pdf/gear-manual-0.9.04.pdf>`__
 -  `HTML» <http://jabc.cs.uni-dortmund.de/modelchecking/gear.html>`__
 
-.. |LaTeX| image:: http://photos1.blogger.com/blogger/4366/184/1600/latex-3347%5B1%5D.png
+.. |LaTeX| image:: {filename}images/latex-3347.png
 

@@ -6,7 +6,7 @@ Es lebt»
 :slug: es-lebt
 :status: published
 
-|Free Image Hosting at www.ImageShack.us|
+.. Bild fehlt |Free Image Hosting at www.ImageShack.us|
 
 Der Wahnsinn nagt! An einigen mehr, an anderen weniger - und an wenigen
 ganz besonders. Wunderbar, dass es in Zeiten von ebay, google und yahoo

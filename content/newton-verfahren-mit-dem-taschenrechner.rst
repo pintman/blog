@@ -6,9 +6,6 @@ Newton-Verfahren mit dem Taschenrechner
 :slug: newton-verfahren-mit-dem-taschenrechner
 :status: published
 
-.. raw:: html
-
-   <div class="level2">
 
 |(cc) Stefan-Xp| 
 
@@ -34,12 +31,8 @@ Nullstelle entfernt sind. L steht hier für die linke Seite und R für die
 rechte Seite der Gleichung. Ein Wert von 0 besagt, dass wir die
 Nullstelle exakt ermittelt haben.
 
-.. raw:: html
 
-   </div>
-
-.. |(cc) Stefan-Xp| image:: http://bakera.de/dokuwiki/lib/exe/fetch.php/schule/casiofx991-oben.jpg
+.. |(cc) Stefan-Xp| image:: {filename}images/casiofx991-oben.jpg
    :class: media
    :width: 486px
    :height: 353px
-   :target: http://bakera.de/dokuwiki/lib/exe/detail.php/schule/casiofx991-oben.jpg?id=schule%3Anullstellen

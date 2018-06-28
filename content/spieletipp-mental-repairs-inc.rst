@@ -6,19 +6,9 @@ Spieletipp: Mental Repairs Inc.
 :slug: spieletipp-mental-repairs-inc
 :status: published
 
-.. raw:: html
-
-   <div>
 
 |image0|
 
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   <div>
 
 `Mental Repairs Inc. <http://hulub.ch/mentalrepairs.php>`__ ist ein
 freies deutsches Point'n'Click-Adventure in der Tradition von Spielen
@@ -34,13 +24,7 @@ Und dabei erfahrt ihr nicht nur etwas über die Maschinen, sondern auch
 über euch selbst. Zum Ende bietet das Spiel noch einen kleinen Twist in
 der Handlung und komplettiert damit eine rundum schöne, einfallsreiche
 und stimmungsvolle Arbeit.
+ 
+Mein Tipp: Direkt herunterladen und spielen!
 
-.. raw:: html
-
-   </div>
-
-| 
-| Mein Tipp: Direkt herunterladen und spielen!
-
-.. |image0| image:: http://hulub.ch/images/MRI/MRI_Logo.jpg
-   :target: http://hulub.ch/images/MRI/MRI_Logo.jpg
+.. |image0| image:: {filename}images/MRI_Logo.jpg
