@@ -5,6 +5,8 @@ Erneuter Blogumzug
 :tags: bloggen, admin
 :status: draft
 
+.. noch ältere Seiten https://web.archive.org/web/20040126011740/http://members.ping.de/~pintman/
+
 Nach dem letzten `Blogumzug <{filename}blogumzug.rst>`_ im Jahr 2013
 steht nun ein erneuter Umzug an. Ich habe auf der Plattform
 *blogspot.com* begonnen. Diese hieß später *blogger.com* und wurde 
