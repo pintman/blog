@@ -12,7 +12,7 @@ Mein altes Blog aus dem Jahr 2003.
 Mein Senf zur Sache
 ===================
 
-|image1| 
+.. Bild fehlt |image1| 
 
                                  
 .. rubric:: *About Schmidt*:     
@@ -101,7 +101,8 @@ lange du darfst.
 .. rubric:: Naqoyqatsi im Kino?   
    :name: naqoyqatsi-im-kino      
                                   
-|image3|                          
+.. Bild fehlt |image3|                          
+
 Welch unsaussprechlicher Name,    
 wird sich der eine und welch      
 unsinniges Thema, wird sich der   
@@ -142,7 +143,8 @@ Ausweg ueber die DVD.
 .. rubric:: Es geht weiter        
    :name: es-geht-weiter          
                                   
-|image4|                          
+.. Bild fehlt |image4|                          
+
 das Semester. So würde man sicher 
 meinen. Ich für meinen Teil,      
 verlebe nun wieder unverrichteter 
@@ -164,8 +166,9 @@ aber erstmal etwas Ruhe,
    um 18h einschalten             
    :name: ok-dortmund-am-31.3.-um-18h-einschalten                  
                                   
-|image5|                          
-... denn wir werden wieder einmal 
+.. Bild fehlt |image5|                          
+
+denn wir werden wieder einmal 
 mehr in einer konspirative       
 Kurzfilmecke                      
 live aus den Katakomben des       
@@ -184,7 +187,7 @@ dieses mal wieder.
 .. rubric:: Solaris im Kino       
    :name: solaris-im-kino         
                                   
-|image6|                          
+.. Bild fehlt |image6|                          
 
 Wer es bisher noch nicht getan  
 hat und guten Filmen nicht      
@@ -234,7 +237,8 @@ Bochum Lagendreer.*
    auch Geschichten               
    :name: jetzt-gibt-es-hier-auch-geschichten                      
                                   
-|image7|                          
+.. Bild fehlt |image7|                          
+
 es gibt einen neuen Bereich auf   
 meiner Seite, den ich feierlich   
 `Es war                           
@@ -248,7 +252,7 @@ Schau' einfach mal rein.
 .. rubric:: Hobbytronic 2003      
    :name: hobbytronic-2003        
                                   
-|image8|                          
+.. Bild fehlt |image8|                          
 
 Vorweg: Während die Hobbytronic 
 ihre Eintrittspreise immer mehr 
@@ -282,7 +286,7 @@ nächsten Jahr; wenn überhaupt.
    Toilettenpapier                
    :name: lagiges-toilettenpapier 
                                   
-|image9|                          
+.. Bild fehlt |image9|                          
 
 Braucht es das wirklich?        
 Brauchen wir 3-lagiges          
@@ -343,7 +347,7 @@ erstmal verdauen.
    Popcornmampfer                 
    :name: brabbelnde-popcornmampfer                                
                                   
-|image10|                         
+.. Bild fehlt |image10|                         
 
 Es war mal wieder soweit. Ich   
 habe es gewagt. Vieles in mir   
@@ -414,7 +418,7 @@ gar nicht.
 .. rubric:: Soweit, so gut        
    :name: soweit-so-gut           
                                   
-|image11|                         
+.. Bild fehlt |image11|                         
 
 Ist es also doch noch passiert.   
 Die einzige Klausur in diesem     
@@ -453,7 +457,7 @@ So, jetzt ist es besser.
    sind da...                     
    :name: ein-paar-neue-bilder-sind-da...                          
                                   
-|image13|                         
+.. Bild fehlt |image13|                         
 
 Im                              
 `B&B-Tagebuch; <https://web.archive.org/web/20041107070549/http://home.arcor.de/pintman/film/bundb.htm>`__                         
@@ -475,7 +479,7 @@ ist) ;)
 .. rubric:: Neue Bilder...        
    :name: neue-bilder...          
                                   
-|image14|                         
+.. Bild fehlt |image14|                         
 
 kommen bald. Etliche neue Bilder  
 sind von der Maskenmacherei für   
@@ -495,7 +499,7 @@ Bilderspaß :)
 .. rubric:: Einige Bilder fehlen  
    :name: einige-bilder-fehlen    
                                   
-|image15|                         
+.. Bild fehlt |image15|                         
 
 Bei den B&B-Tagebucheintr;ägen    
 und in einigen Sektionen von Bulb 
@@ -513,7 +517,7 @@ man kann sie immer abrufen. :)
 .. rubric:: Ein Kalender ist da   
    :name: ein-kalender-ist-da     
                                   
-|image16|                         
+.. Bild fehlt |image16|                         
 
 Jetzt findet man im Kern einen  
 `Terminkalender <https://web.archive.org/web/20041107070549/http://calendar.yahoo.com/marcobakera>`__,                             
@@ -530,7 +534,7 @@ gestalten.
 .. rubric:: viel Neues            
    :name: viel-neues              
                                   
-|image17|                         
+.. Bild fehlt |image17|                         
 
 Ich habe vieles im Bereich von    
 bulb-publications getan. Zunächst 
@@ -557,7 +561,7 @@ weitergewerkelt. :)
 .. rubric:: Die 100 sind voll     
    :name: die-100-sind-voll       
                                   
-|image18|                         
+.. Bild fehlt |image18|                         
 
 Auha, das ging schnell. Gerade    
 mal seit ein paar Wochen online,  
@@ -572,7 +576,7 @@ wieder neue Sachen. :)
 .. rubric:: B&B;                  
    :name: bb                      
                                   
-|image19|                         
+.. Bild fehlt |image19|                         
 
 Da die neue (mittlerweile dritte) 
 Staffel von B&B; fast ihre        
@@ -592,7 +596,7 @@ Laufenden gehalten.
 .. rubric:: Geschafft             
    :name: geschafft               
                                   
-|image20|                         
+.. Bild fehlt |image20|                         
 
 Naja, eigentlich nur fast         
 geschafft. Vieles steht noch      
@@ -617,7 +621,7 @@ begleiten wird.
 .. rubric:: bald textonly         
    :name: bald-textonly           
                                   
-|image21|                         
+.. Bild fehlt |image21|                         
 
 Bald wird es nur noch eine      
 textonly-Version meiner Seite   
@@ -652,7 +656,7 @@ auf der Seite achten.
 .. rubric:: lange nicht neues     
    :name: lange-nicht-neues       
                                   
-|image22|                         
+.. Bild fehlt |image22|                         
 
 ...von mir gehoert? das kann      
 schon sein. hab' auch lange nicht 
@@ -670,7 +674,7 @@ woll? :)
    hat begonnen                   
    :name: das-nächste-semeter-hat-begonnen                         
                                   
-|image23|                         
+.. Bild fehlt |image23|                         
 
 ...und ich bin mitten drin.     
 juhu. und als brandheißes       
@@ -691,7 +695,7 @@ aber später wieder. ;)
 .. rubric:: Endlich,              
    :name: endlich                 
                                   
-|image24|                         
+.. Bild fehlt |image24|                         
 
 Der größte Teil ist geschafft   
 und das Pageupdate ist fast     
@@ -718,7 +722,7 @@ demnächst.
 .. rubric:: Ein Gaestebuch        
    :name: ein-gaestebuch          
                                   
-|image25|                         
+.. Bild fehlt |image25|                         
 
 ist nun endlich auch vorhanden. 
 Viele Tausende von Usern haben  
@@ -743,7 +747,7 @@ angehen.
 .. rubric:: Juhu,                 
    :name: juhu                    
                                   
-|image26|                         
+.. Bild fehlt |image26|                         
 
 endlich habe ich die letzte     
 Klausur für dieses Semester     
@@ -762,7 +766,7 @@ Also, bis dahin.
    :name: lange-nichts-neues      
                                   
 
-|image27|                         
+.. Bild fehlt |image27|                         
 
 Jaja, ich weiß, die Neuerungen  
 auf der Homepage lassen ein     
@@ -783,7 +787,7 @@ wenig Geduld.
 .. rubric:: FAQ                   
    :name: faq                     
                                   
-|image28|                         
+.. Bild fehlt |image28|                         
 
 Juhu, endlich habe ich meine    
 eigene FAQ. Schaut einfach mal  
@@ -800,7 +804,7 @@ damit. :)
 .. rubric:: weiter geht's         
    :name: weiter-gehts            
                                   
-|image29|                         
+.. Bild fehlt |image29|                         
 
 "Und wieder mal ein kleines     
 page-update. Man lässt sich ja  
@@ -827,7 +831,7 @@ pageimpressions. :)"
 .. rubric:: keine Panik           
    :name: keine-panik             
                                   
-|image30|                         
+.. Bild fehlt |image30|                         
 
 Und noch eine kleine Info an    
 alle, die vergeblich nach der   
@@ -848,7 +852,7 @@ Das kommt alles mit der Zeit.
 .. rubric:: Es ist geschafft...   
    :name: es-ist-geschafft...     
                                   
-|image31|                         
+.. Bild fehlt |image31|                         
 
 Endlich. Es gibt mal wieder ein 
 neues Design der Seite. Ich     
@@ -879,7 +883,7 @@ letzte Aktualisierung: 2003
 .. |image1| image:: /web/20041107070549im_/http://members.ping.de:80/~pintman/pix/senftopf.gif
    :width: 224px
    :height: 200px
-.. |image2| image:: /web/20041107070549im_/http://members.ping.de:80/~pintman/pix/about_schmidt.jpg
+.. |image2| image:: {filename}images/about_schmidt.jpg
    :width: 400px
    :height: 262px
 .. |image3| image:: /web/20041107070549im_/http://members.ping.de:80/~pintman/pix/news_naqoy.jpg
@@ -909,7 +913,7 @@ letzte Aktualisierung: 2003
 .. |image11| image:: /web/20041107070549im_/http://members.ping.de:80/~pintman/pix/news_relax.gif
    :width: 150px
    :height: 140px
-.. |image12| image:: /web/20041107070549im_/http://members.ping.de:80/~pintman/pix/news_neujahr.jpg
+.. |image12| image:: {filename}images/news_neujahr.jpg
    :width: 258px
    :height: 379px
 .. |image13| image:: /web/20041107070549im_/http://members.ping.de:80/~pintman/pix/leer.gif
