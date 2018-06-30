@@ -88,6 +88,22 @@ THEME = "pelican-themes/pelican-bootstrap3"
 # git clone --recursive https://github.com/getpelican/pelican-plugins
 # 
 PLUGIN_PATHS = ["pelican-plugins"]
-PLUGINS = ['tipue_search']
+PLUGINS = ['tipue_search', "sitemap"]
 #DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 DIRECT_TEMPLATES = ('index', 'archives', 'search')
+# Sitemap
+# https://github.com/getpelican/pelican-plugins/tree/master/sitemap
+SITEMAP = {
+    "format": "xml",
+    "priorities": {
+        "articles": 0.9,
+        "pages": 0.2,
+        "indexes": 0.8
+    },
+    "changefreqs": {
+        # values: always, hourly, daily, weekly, monthly, yearly and never
+        "articles": "weekly",
+        "pages": "monthly",
+        "indexes": "daily"
+    }
+}
