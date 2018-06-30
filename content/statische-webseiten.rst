@@ -23,7 +23,8 @@ Gitlab pages lassen sich in den Projekteinstellungen konfigurieren. Hierfür
 wird ein Script benötigt, das automatisch bei jedem Push auf den Server
 ausgeführt wird und die Webseite erzeugt. Dadurch ist das System recht flexibel
 und es gibt eine Reihe von statischen Webseiten-Generatoren, die unterstützt 
-werden. Das folgende Skript zeigt ein Beispiel für den Generator ``pelican``.
+werden. Das folgende Skript zeigt ein Beispiel für den Generator 
+`pelican <https://blog.getpelican.com/>`_.
 
 .. code:: yaml
 
@@ -64,11 +65,11 @@ HTTPS
 
 Als erheblicher Nachteil stellte sich für mich nach ersten Versuchen die 
 Tatsache heraus, dass die Unterstützung für TLS/HTTPS bei gitlab nicht 
-sonderlich gut ausgebaut ist. 
+gut ausgebaut ist. 
 Ich muss das Zertifikat selbst erstellen und auf der 
 Projektseite in den Einstellungen in ein Textfeld kopieren. Da die 
 Zertifikate von Lets Encrypt nur wenige Monate halten, muss dieses 
-Prozedere regelmäßig wiederholt werden. Bei kostenpflichtigen Zertifikaten,
+Prozedere regelmäßig wiederholt werden. Bei Zertifikaten,
 die ein Jahr gültig sind, mag dies noch zumutbar sein. Bei kürzeren
 Laufzeiten ist es jedoch ein zusätzlicher Aufwand, der nicht sein muss.
 Es gibt Bestrebungen dies zu ändern und ich hoffe, dass auch gitlab bald
@@ -84,7 +85,11 @@ Datenschutz
 Ein Wermutstropfen bleibt bei gitlab wie auch github: Beide Anbieter haben
 ihren Sitz nicht in Deutschland und sind damit auch nicht dem deutschen
 Datenschutz unterstellt. Ob sich mit der DSGVO diesbzgl. etwas tut, kann ich
-zum heutigen Tage noch nicht abschätzen. Wünschenswert wäre jedoch auch ein
+zum heutigen Tage noch nicht abschätzen. Als Daten fallen vermutlich nur
+die IP-Adresse des Besuchers der Webseite an, da es meist keine weiteren
+aktiven Komponenten auf statischen Webseiten gibt.
+
+Wünschenswert wäre jedoch auch ein
 deutscher Anbieter, der als datenschutzfreundliche Alternative auftauchen
 würde.
 
