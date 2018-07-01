@@ -1,0 +1,11 @@
+Ups
+===
+
+:date: 2018-07-01 12:20
+:author: marco.bakera
+:tags: admin
+:status: hidden
+:save_as: 404.html
+
+Hups. Da ist irgendwas schief gelaufen. Schau doch mal im 
+`Archiv <archives.html>`_ nach.
