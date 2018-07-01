@@ -22,6 +22,6 @@ Moeglichkeit, dies zu tun. Also, ich warte... Jetzt fehlen
 eigentlich nur noch die links, aber die werde ich demnaechst auch noch
 angehen.
 
-.. |image25| image:: {filename}images/news_computerhead.gif
+.. |image25| image:: {filename}images/2001/news_computerhead.gif
  :width: 113px
  :height: 113px
