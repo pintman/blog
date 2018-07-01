@@ -6,8 +6,8 @@ Die Geburt der Menschheit
 :slug: die-geburt-der-menschheit
 :status: published
 
-| 
-| |image0|
+
+|image0|
 
 Es war einmal die Freiheit. Sie lebte hoch droben über den Dächern eines
 kleinen Dorfes auf einer riesigen Wolke aus Sprühsahne. Jeden Morgen
@@ -100,13 +100,6 @@ blickte in die kindlichen erwartungsvollen Gesichter seines Volkes. "Was
 wir wollen, ist die Sonne. War wir brauchen ist die Sonne. Was wir weder
 brauchen noch wollen ist die Freiheit."
 
-.. raw:: html
-
-   </p>
-
-.. raw:: html
-
-   </div>
 
 | "Ihr verliert den Kontrast und sehnt euch nach Routine und
   Gewohnheiten."
@@ -128,15 +121,8 @@ an dem die Freiheit in die Flucht geschlagen wurde, von nun an den
 Und so lebte man unzufrieden aber erfolgreich und fortschrittlich bis an
 sein Lebens Ende.
 
-.. raw:: html
-
-   <div>
 
 ENDE
-
-.. raw:: html
-
-   </div>
 
 .. |image0| image:: http://photos13.flickr.com/19822464_3df583f21a_o.png
 
