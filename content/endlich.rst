@@ -21,6 +21,6 @@ vom Design dann nicht mehr so einheitlich aber es gibt immer eine
 Möglichkeit zurück in die Zone zu kommen, wenn ihr euch mal verlaufen
 haben solltet. :) Viel Spaß erstmal damit und bis demnächst.
 
-.. |image24| image:: {filename}images/news_dusche.gif
+.. |image24| image:: {filename}images/2001/news_dusche.gif
  :width: 86px
  :height: 84px

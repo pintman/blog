@@ -29,4 +29,4 @@ die Kommentare. :) Hier ist z.B. eine Variante in Smalltalk:
  
 In diesem Sinne: Ein frohes neues Jahr!
 
-.. |image0| image:: {filename}images/2013_tweet.PNG
+.. |image0| image:: {filename}images/2013/01/2013_tweet.PNG

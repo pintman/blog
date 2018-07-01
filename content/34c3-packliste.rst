@@ -30,7 +30,7 @@ wie einer Unterhose oder Zahnbürste.
 -  Laptop
 -  Pegelwandler
 
-.. |image0| image:: {filename}images/34c3-tuwat.png
+.. |image0| image:: {filename}images/2017/12/34c3-tuwat.png
    :class: alignnone size-full wp-image-2147
    :width: 289px
    :height: 168px
