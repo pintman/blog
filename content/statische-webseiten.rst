@@ -19,7 +19,8 @@ Anspruch ist das vollkommen ausreichend.
 Einrichten
 ----------
 
-Gitlab pages lassen sich in den Projekteinstellungen konfigurieren. Hierfür
+Gitlab pages lassen sich auf der Webseite in den Projekteinstellungen 
+konfigurieren. Hierfür
 wird ein Script benötigt, das automatisch bei jedem Push auf den Server
 ausgeführt wird und die Webseite erzeugt. Dadurch ist das System recht flexibel
 und es gibt eine Reihe von statischen Webseiten-Generatoren, die unterstützt 
