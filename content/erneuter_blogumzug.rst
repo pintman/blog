@@ -8,9 +8,10 @@ Erneuter Blogumzug
 .. noch ältere Seiten https://web.archive.org/web/20040126011740/http://members.ping.de/~pintman/
 
 Nach dem letzten `Blogumzug <{filename}blogumzug.rst>`_ im Jahr 2013
-steht nun ein erneuter Umzug an. Ich habe auf der Plattform
-*blogspot.com* begonnen. Diese hieß später *blogger.com* und wurde 
-irgendwann von Google gekauft. 
+steht nun ein erneuter Umzug an. Ich habe irgendwann um 2001 herum mit
+einem eigenen Perlscript begonnen. VERLINKEN
+Dann bin ich auf die Plattform *blogspot.com* gewechselt. Diese 
+hieß später *blogger.com* und wurde irgendwann von Google gekauft. 
 
 Ich bin dann zu einer eigenen Wordpress-Instalation gewechselt und war
 damit auch viele Jahre zufrieden. Problematisch war hier, dass die Artikel
