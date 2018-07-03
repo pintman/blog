@@ -7,7 +7,11 @@ SITENAME = '/home/bakera/blog'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['images', 'media']
+STATIC_PATHS = ['images', 'media', 'extra/CNAME', 'extra/favicon.ico']  
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
 DEFAULT_CATEGORY = 'Sonstiges'
 DISPLAY_CATEGORIES_ON_MENU = False
 """
