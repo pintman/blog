@@ -7,6 +7,6 @@
 :status: hidden
 :save_as: 404.html
 
-Hups. Da ist irgendwas schief gelaufen. Schau doch mal im 
-`Archiv <archives.html>`_ nach. Vielleicht wirst du dort
+Hups. Da ist irgendwas schief gelaufen. Schau doch mal auf der
+`Hauptseite <{index}>`_ nach. Vielleicht wirst du dort
 fündig.
