@@ -94,6 +94,14 @@ Wünschenswert wäre jedoch auch ein
 deutscher Anbieter, der als datenschutzfreundliche Alternative auftauchen
 würde.
 
+Neben dem Schutz der Daten der Nutzer, gibt es auch Unterschiede beim Schutz
+der Daten im Blog selbst. So lässt github in seinen privaten Account keine
+privaten Repositories zu, gitlab dagegen schon. Für nicht öffentliche Inhalte
+im Blog ist gitlab also besser geeignet. Hier können nach belieben
+Repositories angelegt werden, so dass diese nicht öffentlich einsehbar sind,
+deren Webseiten jedoch schon.
+
+
 Fazit
 -----
 
