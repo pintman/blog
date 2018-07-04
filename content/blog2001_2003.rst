@@ -1,10 +1,10 @@
 Blog 2001-2003
 ==============
-:date: 2018-01-03 12:20
+:date: 2018-07-04 14:42
 :author: marco.bakera
 :tags: Archiv, bloggen
 :slug: blog_2001_2003
-:status: draft
+:status: published
 
 Beim Graben in alten Beständen bin ich auf eine alte Version meines Blogs aus 
 den Jahren 2001-2003 gestoßen. So lange schreibe ich also schon mindestens
