@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2018-06-22T21:32:00+02:00</updated><entry><title>Videoreihe: Mit Python Funktionen zeichnen</title><link href="https://blog.bakera.de/videoreihe-mit-python-funktionen-zeichnen.html" rel="alternate"></link><published>2018-06-22T21:32:00+02:00</published><updated>2018-06-22T21:32:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-06-22:/videoreihe-mit-python-funktionen-zeichnen.html</id><summary type="html">&lt;p&gt;Ich habe mich mal wieder an ein paar Videos &lt;a class="footnote-reference" href="#id2" id="id1"&gt;[1]&lt;/a&gt; versucht, nachdem es auf meinem
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2018-07-04T14:42:00+02:00</updated><entry><title>Blog 2001-2003</title><link href="https://blog.bakera.de/blog_2001_2003.html" rel="alternate"></link><published>2018-07-04T14:42:00+02:00</published><updated>2018-07-04T14:42:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-07-04:/blog_2001_2003.html</id><summary type="html">&lt;p&gt;Beim Graben in alten Beständen bin ich auf eine alte Version meines Blogs aus
+den Jahren 2001-2003 gestoßen. So lange schreibe ich also schon mindestens
+ins Internet. Noch lange bevor es überhaupt Blog-Software oder den Begriff
+&lt;em&gt;Bloggen&lt;/em&gt; an sich gab. Ich habe die Artikel aus dem alten Blog in dieses …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Beim Graben in alten Beständen bin ich auf eine alte Version meines Blogs aus
+den Jahren 2001-2003 gestoßen. So lange schreibe ich also schon mindestens
+ins Internet. Noch lange bevor es überhaupt Blog-Software oder den Begriff
+&lt;em&gt;Bloggen&lt;/em&gt; an sich gab. Ich habe die Artikel aus dem alten Blog in dieses Blog
+gerettet. Die &lt;a class="reference external" href="https://web.archive.org/web/20041107070549/http://members.ping.de/~pintman/news.pl?id=all"&gt;archivierte Version&lt;/a&gt;
+gibt es immer noch bei der WayBack-Machine. Damals wurde die Seite noch
+in einem eigenen in Perl geschriebene Script erstellt. Daher mögen auch einige Links
+eventuell nicht mehr funktionieren. Dennoch ist es ein interessanter und
+persönlicher Blick in die Jahre 2001 bis 2003.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/about_schmidt_leises_kino.html"&gt;About Schmidt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/b_und_b.html"&gt;B&amp;amp;B&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/bald_text_only.html"&gt;Bald textonly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/einige_bilder_fehlen.html"&gt;Bilder fehlen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/brabbelnd_popcorn.html"&gt;Brabbelnde Popcornmampfer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/die_100_sind_voll.html"&gt;Die 100 ist voll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/dreilagiges_toilettenpapier.html"&gt;Dreilagiges Toilettenpapier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/ein_gaestebuch.html"&gt;Ein Gästebuch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/endlich.html"&gt;Endlich&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/es_geht_weiter.html"&gt;Es geht weiter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/es_ist_geschafft.html"&gt;Es ist geschafft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/faq.html"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/geschafft.html"&gt;Geschafft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/hobbytronic_2003.html"&gt;Hobbytronic 2003&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/jetzt_hier_geschichten.html"&gt;Jetzt gibt es hier Geschichten&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/juhu.html"&gt;Juhu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/ein_kalender_ist_da.html"&gt;Ein Kalender ist da&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/keine_panik.html"&gt;Keine Panik&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/lange_nichts_neues.html"&gt;Lange nichts Neues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/lange_nichts_neues2.html"&gt;Lange nichts Neues?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/das_naechste_semester_hat_begonnen.html"&gt;Nächstes Semester&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/naqoyqatsi_im_kino.html"&gt;Naqoyqatsi im Kino?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/ein_paar_neue_bilder.html"&gt;Ein paar neue Bilder sind da...&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/neue_bilder.html"&gt;Neue Bilder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/ok_dortmund_am_31_3_einschalten.html"&gt;OK Dortmund einschalten&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/solaris_im_kino.html"&gt;Solaris im Kino&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/soweit_so_gut.html"&gt;Soweit so gut&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/viel_neues.html"&gt;Viel Neues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/weiter_gehts.html"&gt;Weiter geht's&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/willkommen_im_neuen_jahr.html"&gt;Willkommen im neuen Jahr&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content><category term="Archiv"></category><category term="bloggen"></category></entry><entry><title>Videoreihe: Mit Python Funktionen zeichnen</title><link href="https://blog.bakera.de/videoreihe-mit-python-funktionen-zeichnen.html" rel="alternate"></link><published>2018-06-22T21:32:00+02:00</published><updated>2018-06-22T21:32:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-06-22:/videoreihe-mit-python-funktionen-zeichnen.html</id><summary type="html">&lt;p&gt;Ich habe mich mal wieder an ein paar Videos &lt;a class="footnote-reference" href="#id2" id="id1"&gt;[1]&lt;/a&gt; versucht, nachdem es auf meinem
 YouTube-Kanal längere Zeit etwas ruhiger geworden ist. In dieser Reihe
 habe ich verschiedene grundlegende Aspekte der Python-Programmierung
 am Beispiel von mathematischen Funktionen dargestellt.&lt;/p&gt;
@@ -1514,97 +1558,4 @@ Konfigurationsdatei.&lt;/p&gt;
 &lt;p&gt;Einmal installierte Pakete können mit &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;pypi-server&lt;/span&gt; &lt;span class="pre"&gt;-U&lt;/span&gt;&lt;/tt&gt; auf ihre
 Aktualität hin überprüft und ggf. mit einer neuen Version aus der
 offiziellen PyPI-Quelle aktualisiert werden.&lt;/p&gt;
-</content><category term="Informatik"></category><category term="Programmierung"></category><category term="Python"></category></entry><entry><title>Remote Desktops</title><link href="https://blog.bakera.de/remote-desktops.html" rel="alternate"></link><published>2017-11-02T13:28:00+01:00</published><updated>2017-11-02T13:28:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2017-11-02:/remote-desktops.html</id><summary type="html">&lt;p&gt;&lt;img alt="image0" class="alignnone size-full wp-image-2107" src="https://blog.bakera.de/images/2017/11/preferences-desktop-remote-desktop-300px.png" style="width: 300px; height: 300px;" /&gt;&lt;/p&gt;
-&lt;p&gt;Der Charme von Remote Desktops hat mich schon lange fasziniert. Ich
-sitze an einem Terminal, das die Tastatur, Maus und vielleicht noch
-einen USB-Stick über einen kleinen geräuschlosen und günstigen
-ThinClient an einen mächtigen Server weiterleitet. Schon während meines
-Studiums habe ich mit VNC und entsprechenden Implementierungen
-(hauptsächlich tightvnc und …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="image0" class="alignnone size-full wp-image-2107" src="https://blog.bakera.de/images/2017/11/preferences-desktop-remote-desktop-300px.png" style="width: 300px; height: 300px;" /&gt;&lt;/p&gt;
-&lt;p&gt;Der Charme von Remote Desktops hat mich schon lange fasziniert. Ich
-sitze an einem Terminal, das die Tastatur, Maus und vielleicht noch
-einen USB-Stick über einen kleinen geräuschlosen und günstigen
-ThinClient an einen mächtigen Server weiterleitet. Schon während meines
-Studiums habe ich mit VNC und entsprechenden Implementierungen
-(hauptsächlich tightvnc und einer einfachen X-Weiterleitung) meine
-ersten Versuche gestartet.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Rechnerpool einrichten&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Nun bin ich in die Verlegenheit gekommen, einen Rechnerraum mit
-bescheidenen 6 Clients einrichten zu (müssten) dürfen und das
-Thema ereilte mich erneut. Ich kann natürlich jeden Rechner einzeln
-einrichten. Ebenso kann ich einen Referenzrechner einrichten, von diesem
-ein Image erzeugen und dieses auf die anderen Rechner verteilen - z.B.
-mit &lt;a class="reference external" href="http://clonezilla.org/"&gt;Clonezilla&lt;/a&gt;. Besonders schön wäre es
-jedoch, wenn ich nur einen Server pflegen müsste, auf den sich alle
-Clients anschließend verbinden würden.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Remote Desktop as a Service mit x2go und virmach&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Für virtuelle Desktops gibt es sogar Dienstleiter, wie
-&lt;a class="reference external" href="https://virmach.com"&gt;virmach&lt;/a&gt;. Es geht natürlich auch mit jedem
-anderen Server, der genügend Ressourcen und Netzwerkbandbreite zur
-Verfügung stellt.&lt;/p&gt;
-&lt;p&gt;Gesagt getan. In einem ersten Test habe ich den für schmale Verbindungen
-optimierten Client und Server &lt;a class="reference external" href="http://x2go.org/"&gt;x2go&lt;/a&gt; auf dem Server
-und meinem Client - Windows und Linux - installiert und konnte mich
-direkt verbinden. Das klappt für günstige 4€/Monat schon recht gut.
-Eigentlich müsste ich auch lokale Laufwerke/Verzeichnisse auf den fernen
-Rechner transferieren können. Das klappte jedoch nicht sofort, da der
-gemietete Server lediglich in einer virtuellen Maschine läuft und
-notwendige Kernelmodule fehlten. Nach einem erfreulichen IRC-Chat mit
-einem Entwickler von x2go war der Schuldige (ein fehlendes FUSE-Modul)
-gefunden und zwei Iterationen beim Support von virmach später war dieses
-Modul im Kernel meines Servers nachinstalliert.&lt;/p&gt;
-&lt;p&gt;Das neue Setup läuft soweit schon ganz gut. LibreOffice, eine Konsole
-oder Fritzing lassen sich mittelgut bedienen. Lediglich der Firefox
-kommt etwas träger über die Leitung.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Raspberry Pi und andere Thin Clients&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Jetzt wäre es doch toll, wenn mein Rechner-Pool auch eine Verbindung zu
-einem Server im Schul-LAN aufbauen könnte. Da wir noch einige Raspberry
-Pis haben, wäre doch dieser kleine Rechner als ThinClient ideal. Es gibt
-mit &lt;a class="reference external" href="https://rpitc.blogspot.de/"&gt;rpitc&lt;/a&gt; sogar eine Distribution, die
-genau dies leisten möchte. Erste Tests verliefen gut, wenngleich die
-Webseite insgesamt unprofessionell wirkt. Zudem ist unklar, wie lange
-die SD-Karte in den Pi halten und wie sich die Geräte ausschalten lassen
-sollen. Für das Problem des Ausschaltens gibt es mit dem &lt;a class="reference external" href="https://shop.heise.de/katalog/pi-desktop-gehause-kit"&gt;Pi Desktop
-Gehäuse&lt;/a&gt; zwar
-eine Lösung - diese ist mit ca. 50 € jedoch auch nicht günstig.&lt;/p&gt;
-&lt;p&gt;Vielleicht gibt es außer dem Raspberry Pi noch andere Möglichkeiten für
-Clients. Eine &lt;a class="reference external" href="https://www.ebay.de/sch/i.html?_from=R40&amp;amp;_sacat=0&amp;amp;_sop=2&amp;amp;_nkw=thin+client&amp;amp;rt=nc&amp;amp;LH_BIN=1"&gt;Suche bei
-Ebay&lt;/a&gt;
-nach günstigen ThinClients lieferte brauchbare Geräte ab 9 € zu Tage.
-Das ist deutlich günstiger als ein Pi. Auf der Seite
-&lt;a class="reference external" href="http://www.parkytowers.me.uk/thin/index.shtml"&gt;ParkyTowers&lt;/a&gt; stellt
-David Parkinson verschiedene dieser Geräte vor. Eigentlich müssen sie
-nicht viel können: netzwerkbootfähig über PXE sollten sie sein, ein
-gering dimensionierter RAM ab 64 MB kann schon ausreichen.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Thinstation: das ThinClient OS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Doch welches Betriebssystem biete sich an, um einen ThinClient über das
-Netzwerk in ein System zu booten, das nur einen Remote Desktop Client
-starten muss? Man könnte eine einfache Linux Distribution wie
-&lt;a class="reference external" href="http://slitaz.org/"&gt;slitaz&lt;/a&gt; nehmen. Sie ist genügsam, klein und
-lässt sich auch über das Netz booten.&lt;/p&gt;
-&lt;p&gt;Daneben gibt es mit
-&lt;a class="reference external" href="https://thinstation.github.io/thinstation/"&gt;thinstation&lt;/a&gt; eine
-lebendige Distribution, bei der das Boot-Image genauer angepasst werden
-kann, als es eine fertige Distribution leisten könnte.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;PXE&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Essentiell für den Netzwerkboot ist das Protokoll PXE, das im
-Zusammenspiel mit DHCP und TFTP ein Boot-Image über das Netz ausliefern
-kann. Der Client fragt über DHCP nach einer IP-Adresse, einem Gateway
-und kann auch nach einem Boot-Image fragen. Das &lt;a class="reference external" href="https://wiki.ubuntuusers.de/PXE-Boot/"&gt;Wiki von
-ubuntuusers&lt;/a&gt; erklärt diesen
-Prozess und beschreibt, wie man &lt;a class="reference external" href="https://wiki.ubuntuusers.de/PXE-Installation/"&gt;dnsmasq
-einrichten&lt;/a&gt; muss,
-damit der Dienst mit einem bestehenden DHCP-Server zusammenarbeiten
-kann: dnsmasq kümmert sich um den Netzwerkboot, der vermutlich schon
-vorhandene DHCP-Server übernimmt die Netzwerkkonfiguration des Client.
-Bei der Einrichtung müssen ein Bootloader (pxelinux.0), ein Kernel
-(vmlinuz) und ein initiales Dateisystem, das im RAM läuft (initrd oder
-rootfs) bereitgestellt werden.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Und Windows?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Windows kann auch seinen Desktop an Clients weitergeben. Dazu müssen auf
-einem Windows Server sogenannte Windows &lt;em&gt;Remote Desktop Services
-(Terminaldienste)&lt;/em&gt; aktiviert werden. Nach der Aktivierung können alle
-lokalen Benutzer auf dem Server über einen RDP-Client auf den Server
-zugreifen. Windows hat hierfür &lt;em&gt;Remote Desktopverbindung&lt;/em&gt;, Linux bietet
-rdesktop oder das neuere xfreerdp an.&lt;/p&gt;
-</content><category term="Linux"></category><category term="Windows"></category></entry></feed>
+</content><category term="Informatik"></category><category term="Programmierung"></category><category term="Python"></category></entry></feed>
