@@ -51,9 +51,9 @@ Cronjob einrichten
 Das Einrichten des Cronjobs stellte sich komplizierter heraus als zunächst
 angenommen.
 Auf dem gewohnten Wege mit ``crontab -e`` klappt es nicht. Auch ein
-direktes Ändern des cronfiles in ``/etc/crontabs/root`` führte zu 
-keinem Ergebnis, da die Datei nicht editierbar. Der Grund: das Dateisystem
-wir read-only (nur lesend) eingebunden.
+direktes Ändern des cronfiles in ``/etc/crontab/root`` führte zu 
+keinem Ergebnis, da die Datei nicht editierbar ist. Der Grund: das Dateisystem
+wird nur read-only (nur lesend) eingebunden.
 Man muss es mit ``mntroot rw`` als beschreibbares Dateisystem mounten; 
 dann kann das Cronfile editiert werden.
 
@@ -61,7 +61,14 @@ dann kann das Cronfile editiert werden.
 Setup des Servers
 -----------------
 
-
+Beim Einrichten des Server ist mir aufgefallen, wir schwer es ist, an deutsche
+Wetterdaten zu kommen. Also als Web-Service, den ich ohne Anmeldung einfach
+aufrufen kann. Ich habe mich dann für einen etwas umständlichen Weg entschieden,
+über den norwegischen Wetterdienst `YR <https://www.yr.no>`_. Diese haben immer
+schöne und übersichtliche Darstellungen. Aus einem PDF habe ich ein SVG erzeugt,
+dieses etwas zurechgeschnitten und in ein PNG konvertiert. Hierbei wird das Bild
+gedreht. Diese Bemühungen sind in einem 
+`github repo <https://github.com/pintman/wettermonitor>`_ beschrieben.
 
 Die Schultern der Giganten
 --------------------------
