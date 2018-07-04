@@ -9,14 +9,14 @@ Computer sind spannend, Technik macht Spaß - bis man ein Schulfach daraus macht
 Motivation
 ----------
 
-„\ *Computer sind spannend, Technik macht Spaß.“*
+*„Computer sind spannend, Technik macht Spaß.“*
 
 So denken viele Schülerinnen und Schüler, wenn sie die Ausbildung zum
 Informationstechnischen Assistenten (ITA) beginnen. Den Computer kennen
 sie von zu Hause und unterwegs – man verbindet viele schöne Stunden mit
 ihm.
 
-„\ *Computer sind spannend, Technik macht Spaß“ – bis man ein Schulfach
+*„Computer sind spannend, Technik macht Spaß“ – bis man ein Schulfach
 daraus macht.*
 
 Ernüchterung tritt ein, wenn man nach den ersten Monaten der Ausbildung
@@ -113,7 +113,7 @@ Wiki
 ----
 
 In einer
-`Wiki-Installation <https://www.tbs1.de/itawiki/index.php/Projekttag>`__\ ` <#sdfootnote1sym>`__
+`Wiki-Installation <https://www.tbs1.de/itawiki/index.php/Projekttag>`_
 werden die Beschreibungen der Projekte inklusive einer Aufwands- und
 Schwierigkeitsabschätzung hinterlegt. Die Fachlehrer können dort ihre
 Projekte vorstellen, ablegen und mit anderen Projekten verzahnen. Zudem
@@ -209,7 +209,8 @@ veröffentlicht.
 Zusätzlich gibt es ein Treffen aller beteiligten Fachlehrer, in dem das
 aktuelle Jahr reflektiert und das nächste Jahr geplant wird.
 
-**Fazit**
+Fazit
+-----
 
 Immer mehr Hackerspaces sprießen aus dem Boden, Repair-Cafes entstehen
 und der Bastelcomputer Raspberry Pi wird zur erfolgreichsten
@@ -220,30 +221,21 @@ Motivationslagen und Frustration. Mit dem Projekttag versuchen wir eine
 Gratwanderung zwischen Anspruch, Spaß, Freiheit, Kreativität und
 Selbstbestimmung.
 
-„\ *Computer sind spannend, Technik macht Spaß“*
+*„Computer sind spannend, Technik macht Spaß“*
 
 Wenn man den Leistungsdruck herausnimmt und die Schülerinnen und Schüler
 eigene Wege gehen lässt, entstehen erstaunliche Ergebnisse und der Satz
 stimmt wieder – selbst in der Schule.
-
-.. raw:: html
-
-   <div id="sdfootnote1">
 
 --------------
 
 Dieser Artikel erschien zuerst in der Juniausgabe 2016 der Zeitschrift
 *bbw - Beruflicher Bildungsweg.*
 
-.. raw:: html
 
-   </div>
+.. |projekttag-diagramm| image:: {filename}images/2016/10/Projekttag-Diagramm.svg
+   :width: 100%
 
-.. |projekttag-diagramm| image:: {filename}images/2016/10/Projekttag-Diagramm.png
-   :class: alignnone size-full wp-image-2013
-   :width: 682px
-   :height: 275px
 .. |2015_ita-messe| image:: {filename}images/2016/10/2015_ITA-Messe.jpg
-   :class: alignnone size-full wp-image-2014
    :width: 755px
    :height: 500px

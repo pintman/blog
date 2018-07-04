@@ -15,9 +15,10 @@ B&B
 
 Da die neue (mittlerweile dritte) Staffel von B&B fast ihre
 Vorarbeitsphase abgeschlossen hat und bald die Dreharbeiten
-anstehen, gibt es jetzt auch unter `B&B; <h
-ttps://web.archive.org/web/20041107070549/http://home.arcor.de/pintman/film/bu
-ndb.htm>`__ im Bulb-Zweig der Navigation eine Extraseite dafür. Hier könnt
+anstehen, gibt es jetzt auch unter 
+`B&B <https://www.bakera.de/mw/index.php/Brandywine_und_Baldwin_-_Die_Drehtageb%C3%BCcher>`_ 
+(`Archiv <https://web.archive.org/web/20041107070549/http://home.arcor.de/pintman/film/bundb.htm>`_)
+im Bulb-Zweig der Navigation eine Extraseite dafür. Hier könnt
 ihr immer schauen, wenn etwas neues passiert und werdet auf dem
 Laufenden gehalten.
 
