@@ -41,6 +41,7 @@ LINKS = (('Archiv', 'archives.html'),
 # Social widget
 SOCIAL = (
     ("twitter", "https://www.twitter.com/pintman"),
+    ("twitter Archiv", "https://pintman.github.io/twitter", "twitter"),
     ("github", "https://github.com/pintman"),
     ("github TBS1", "https://github.com/tbs1-bo", "github"),
     ("gitlab", "https://gitlab.com/pintman", "git"),
