@@ -29,8 +29,9 @@ um eine solche Installation auch kümmern: PHP-Lücken müssen geschlossen,
 die Wordpress-Software aktuell gehalten werden.
 
 Nun bin ich bei einer statisch generierten Webseite gelandet. 
-Alle meine Artikel liegen
-als Textdateien in einem Github-Repo vor. Aus diesen kann ich sehr einfach eine
+Alle meine Artikel liegen als Textdateien in einem 
+`Github-Repo <https://github.com/pintman/blog>`_ vor. Aus diesen kann
+ich sehr einfach eine
 Webseite generieren lassen. Hierfür nutze ich den Generator 
 `pelican <https://blog.getpelican.com/>`_. Da dieser Generator in Python 
 geschrieben ist, kann ich bei Bedarf sogar einfach eingreifen. Die 
