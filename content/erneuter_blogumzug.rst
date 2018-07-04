@@ -5,16 +5,23 @@ Erneuter Blogumzug
 :tags: bloggen, admin
 :status: draft
 
+.. image:: {filename}images/2018/07/Fragile-1.svg
+   :alt: Umzug from https://openclipart.org/detail/86251/fragile
+   :width: 50%
 
 Nach dem letzten `Blogumzug <{filename}blogumzug.rst>`_ im Jahr 2013
 steht nun ein erneuter Umzug an. Ich habe irgendwann um 2001 herum mit
-einem eigenen Perlscript begonnen. Artefakte dieser ersten Versuche
+einem eigenen Perlscript begonnen und vor kurzem auch in diesem Blog
+`darüber gechrieben <{filename}blog2001_2003.rst>`_. 
+Artefakte dieser ersten Versuche
 lassen sich noch über die WayBack-Machine im 
 `Internet-Archiv <https://web.archive.org/web/20040126011740/http://members.ping.de/~pintman/>`_
-finden. Dann bin ich auf die Plattform *blogspot.com* gewechselt. Diese 
-hieß später *blogger.com* und wurde irgendwann von Google gekauft. 
+finden. Irgendwann bin ich dann auf die Plattform *blogspot.com* gewechselt.
+Diese hieß später *blogger.com* und wurde irgendwann von Google gekauft.
 
-Schließlich bin ich zu einer eigenen Wordpress-Instalation gewechselt und war
+Schließlich bin ich im Rahmen meiner 
+`digitalen Emanzipation <{filename}digitale-emanzipation.rst>`_ zu einer 
+eigenen Wordpress-Installation gewechselt und war
 damit auch viele Jahre zufrieden. Problematisch war hier, dass die Artikel
 in einer Datenbank verschwanden und ich bei komplexeren Suchanfragen oder
 Bearbeitungen auf die Web-Oberfläche angewiesen war. Außerdem muss man sich

@@ -6,7 +6,10 @@ Statische Webseiten
 :status: draft
 :slug: statische-webseiten
 
-Webseiten gibt es derer viele. Das Internet ist voll davon. Daher auch
+.. image:: {filename}images/2018/07/machinepipe.png
+   :alt: Maschine Pipe (https://openclipart.org/detail/300339/machine-pipe)
+
+Webseiten gibt es viele. Das Internet ist voll davon. Daher auch
 der Name. Doch, wie kann man einfach und schnell eine eigene Webseite 
 aufsetzen und betreiben? Verschiedene Hoster bieten Pakete an, doch in
 manchen Situationen benötigt man sie gar nicht. 
@@ -41,9 +44,9 @@ werden. Das folgende Skript zeigt ein Beispiel für den Generator
       - public/
 
 Weitere Beispiele für andere Generatoren werden in einem 
-`eigenen Repository <https://gitlab.com/pages>`_ gesammelt.
+`eigenen Repository <https://gitlab.com/pages>`_ von gitlab selbst gesammelt.
 
-Bei github muss die generierte Seite im Repo liegen - entweder in einem
+Bei github dagegen muss die generierte Seite im Repo liegen - entweder in einem
 speziellen Verzeichnis oder einem gesonderten Branch. In den Repo-Einstellungen
 kann zwischen verschiedenen Varianten gewählt werden.
 
@@ -60,6 +63,9 @@ werden. Hierfür wird im eigenen DNS-Eintrag einer Subdomain ein CNAME Eintrag
 hinzugefügt, der auf
 ``benutzername.github.io`` bzw. ``benutzername.gitlab.io`` zeigt. 
 Für Gruppen bzw. Projekte müssen diese URLs entsprechend angepasst werden.
+
+Bei github wird damit eine Datei ``CNAME`` im Wurzelverzeichnis der Webseite 
+angelegt. Die Datei enthält lediglich den Namen der Domain.
 
 HTTPS
 -----
