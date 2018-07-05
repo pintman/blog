@@ -18,21 +18,21 @@ persönlich! <http://t3n.de/news/aufgeweckt-unfollow-entfreunden-facebook-newsfe
 habe ich dazu ein paar interessante Fragen gefunden, die helfen können,
 die Prioritäten richtig zu setzen.
 
-    Hier sind ein paar Vorschläge, um die eigene Facebook-Timeline zu
-    entschlacken und wieder mit interessanten Dingen zu füllen.
+Hier sind ein paar Vorschläge, um die eigene Facebook-Timeline zu
+entschlacken und wieder mit interessanten Dingen zu füllen.
 
-    Folgende Dinge könnten dazu führen, dass ich dich
-    entfreunde/entfolge:
+Folgende Dinge könnten dazu führen, dass ich dich
+entfreunde/entfolge:
 
-    -  Du bist ein entfernter Bekannter und ich bin nicht an deinem
-       Leben interessiert
-    -  Du teilst heftig.co -Links
-    -  Du lügst
-    -  Du teilst überwiegend Fotos von deinen Kindern (No-go!)
-    -  Du teilst ständig Fotos von deiner Katze
-    -  Du sympathisierst mit der NPD
-    -  Du teilst (unkreative) Werbung
-    -  Du bist ein Slacktivist
+-  Du bist ein entfernter Bekannter und ich bin nicht an deinem
+   Leben interessiert
+-  Du teilst heftig.co -Links
+-  Du lügst
+-  Du teilst überwiegend Fotos von deinen Kindern (No-go!)
+-  Du teilst ständig Fotos von deiner Katze
+-  Du sympathisierst mit der NPD
+-  Du teilst (unkreative) Werbung
+-  Du bist ein Slacktivist
 
  
 
