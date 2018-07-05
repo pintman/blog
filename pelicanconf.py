@@ -41,6 +41,7 @@ LINKS = (('Archiv', 'archives.html'),
 # Social widget
 SOCIAL = (
     ("twitter", "https://www.twitter.com/pintman"),
+    # TODO change to https://twitter.bakera.de as soon as cert issued by github
     ("twitter Archiv", "https://pintman.github.io/twitter", "twitter"),
     ("github", "https://github.com/pintman"),
     ("github TBS1", "https://github.com/tbs1-bo", "github"),
