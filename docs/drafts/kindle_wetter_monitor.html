@@ -13,13 +13,13 @@
 
         <meta name="author" content="marco.bakera" />
         <meta name="keywords" content="Hacking,Hardware" />
-        <meta name="description" content="E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und sind meist recht günstig. Genau diese Kombination machen sie so reizvoll, um daraus ein Türschild zu bauen oder sie als Wetteranzeige zu verwenden. Die Displays stellen die Informationen sehr scharf dar, verbrauchen nur wenig Strom und stellen die Inhalt scharf dar …" />
+        <meta name="description" content="E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere Modelle bekommt man für wenig Geld. Genau diese Kombination machen sie so reizvoll, um daraus ein Türschild zu bauen oder, um sie als Wetteranzeige zu verwenden. Die Displays stellen die Informationen sehr scharf dar, verbrauchen nur wenig Strom und stellen …" />
 
         <meta property="og:site_name" content="/home/bakera/blog" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="Wetter Monitor mit einem Kindle"/>
         <meta property="og:url" content="https://blog.bakera.de/drafts/kindle_wetter_monitor.html"/>
-        <meta property="og:description" content="E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und sind meist recht günstig. Genau diese Kombination machen sie so reizvoll, um daraus ein Türschild zu bauen oder sie als Wetteranzeige zu verwenden. Die Displays stellen die Informationen sehr scharf dar, verbrauchen nur wenig Strom und stellen die Inhalt scharf dar …"/>
+        <meta property="og:description" content="E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere Modelle bekommt man für wenig Geld. Genau diese Kombination machen sie so reizvoll, um daraus ein Türschild zu bauen oder, um sie als Wetteranzeige zu verwenden. Die Displays stellen die Informationen sehr scharf dar, verbrauchen nur wenig Strom und stellen …"/>
         <meta property="article:published_time" content="2018-07-03" />
             <meta property="article:section" content="Sonstiges" />
             <meta property="article:tag" content="Hacking" />
@@ -115,33 +115,40 @@
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und sind
-meist recht günstig. Genau diese Kombination machen sie so reizvoll, um
-daraus ein Türschild zu bauen oder sie als Wetteranzeige zu verwenden. Die
+                <p>E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere
+Modelle bekommt man für wenig Geld.
+Genau diese Kombination machen sie so reizvoll, um
+daraus ein Türschild zu bauen oder, um sie als Wetteranzeige zu verwenden. Die
 Displays stellen die Informationen sehr scharf dar, verbrauchen nur wenig
-Strom und stellen die Inhalt scharf dar.</p>
+Strom und stellen die Inhalte scharf dar.</p>
 <div class="section" id="setup-des-kindle">
 <h2>Setup des Kindle</h2>
 <p>In einem kleinen Projekt wollte ich mich eines
 <a class="reference external" href="https://de.wikipedia.org/wiki/Amazon_Kindle#Kindle_Keyboard_(3._Generation)">Kindle-Keyboard</a>
-annehmen. Diese bekommt man für ca. 30-40 € gebraucht bei Ebay und sie
+annehmen, um es für eigene Anzeigewecke zu misbrauchen.
+Diese Geräte bekommt man für ca. 30-40 € gebraucht bei Ebay und sie
 lassen sich gut mit einem JailBreak öffnen und für eigene Projekte
 umfunktionieren. Das Mobileread-Forum bietet hierfür eine schöne
 <a class="reference external" href="https://wiki.mobileread.com/wiki/Kindle_Hacks_Information#Jail_break_JB">Anleitung für JailBreak</a></p>
-<p>In Kurzform: Kindle an den USB-Port stöpseln, die richtige Firmware ins
-Wurzelverzeichnis des USB-Laufwerkes ablegen, im Menü die
-Firmware-Aktualisierung auswählen. Das funktioniert erstaunlich gut und
-ohne größere Probleme.</p>
+<p>Die Kurzform lautet in etwa wie folgt:</p>
+<ol class="arabic simple">
+<li>Kindle an den USB-Port stöpseln,</li>
+<li>die richtige Firmware im Wurzelverzeichnis des USB-Laufwerkes ablegen und</li>
+<li>im Menü die Firmware-Aktualisierung auswählen.</li>
+</ol>
+<p>Das funktioniert erstaunlich gut und ohne größere Probleme.</p>
 <div class="section" id="ssh-server-einrichten">
 <h3>SSH-Server einrichten</h3>
-<p>Neben dem Jailbreak sollte man das <em>USB-Network</em> installieren. Das hat nicht
-ausschließlich etwas mit USB zu tun, sondern richtet auch den SSH-Server ein.
+<p>Neben dem Jailbreak sollte man das <em>USB-Network</em> installieren. Der Name ist
+etwas irreführend, hat es doch nicht
+ausschließlich etwas mit USB zu tun, sondern richtet auch einen SSH-Server ein.
+Auf diesen kann man sich dann über USB oder Wifi verbinden - sofern der gewählte
+Kindle über Wifi verfügt.
 Nach einem Neustart sollte man den eigenen SSH-Key an der richtigen
-Stelle ablegen. Die ausführliche Anleitung im Jailbreak hilft weiter.</p>
+Stelle unter ablegen. Die ausführliche Anleitung im Jailbreak hilft weiter.</p>
 <p>Nach einem Neustart kann der Kindle in den Debug-Modus versetzt werden. Dazu
-gibt man auf der Home-Seite <tt class="docutils literal">;debugOn</tt> ein. Um das USB Network zu starten
-gibt man <tt class="docutils literal">~usbNetwork</tt> ein und kann sich anschließend per SSH mit dem Kindle
-verbinden.</p>
+gibt man auf der Home-Seite <tt class="docutils literal">;debugOn</tt> ein. Das USB Network startet man mit
+<tt class="docutils literal">~usbNetwork</tt> . Anschließend kann man sich per SSH mit dem Kindle verbinden.</p>
 <p>Prinzipiell kann das Geräte nun alles Anzeigen, was in Form eines
 PNG auf einem Server findet. Hierfür richtet man einen Cronjob ein,
 der das Bild von einem Server herunterlädt und im Vollbild auf dem
@@ -154,9 +161,17 @@ angenommen.
 Auf dem gewohnten Wege mit <tt class="docutils literal">crontab <span class="pre">-e</span></tt> klappt es nicht. Auch ein
 direktes Ändern des cronfiles in <tt class="docutils literal">/etc/crontab/root</tt> führte zu
 keinem Ergebnis, da die Datei nicht editierbar ist. Der Grund: das Dateisystem
-wird nur read-only (nur lesend) eingebunden.
-Man muss es mit <tt class="docutils literal">mntroot rw</tt> als beschreibbares Dateisystem mounten;
-dann kann das Cronfile editiert werden.</p>
+wird read-only (nur lesend) eingebunden.
+Man kann es mit <tt class="docutils literal">mntroot rw</tt> als beschreibbares Dateisystem mounten und
+anschließend das Cronfile editieren.</p>
+</div>
+<div class="section" id="bilder-auf-dem-kindle-darstellen">
+<h3>Bilder auf dem Kindle darstellen</h3>
+<p>Für die Darstellung von Bildern und Text auf dem Kindle ist das
+Kommandozeilentool
+<a class="reference external" href="https://wiki.mobileread.com/wiki/Eips">eips</a> zuständig - vermutlich
+steht die Abkürzung für <em>e ink postscript</em>. Damit
+kann man den Bildschirm löschen, Text und auch Bilder anzeigen.</p>
 </div>
 </div>
 <div class="section" id="setup-des-servers">
@@ -165,19 +180,21 @@ dann kann das Cronfile editiert werden.</p>
 Wetterdaten zu kommen. Also als Web-Service, den ich ohne Anmeldung einfach
 aufrufen kann. Ich habe mich dann für einen etwas umständlichen Weg entschieden,
 über den norwegischen Wetterdienst <a class="reference external" href="https://www.yr.no">YR</a>. Diese haben immer
-schöne und übersichtliche Darstellungen. Aus einem PDF habe ich ein SVG erzeugt,
-dieses etwas zurechgeschnitten und in ein PNG konvertiert. Hierbei wird das Bild
-gedreht. Diese Bemühungen sind in einem
+schöne und übersichtliche Darstellungen - hier z.B.
+<a class="reference external" href="https://www.yr.no/place/Germany/North_Rhine-Westphalia/Bochum/hour_by_hour.html">für Bochum</a>.
+Aus einem PDF habe ich mit inkscape ein SVG erzeugt, dieses etwas
+zurechgeschnitten und in ein PNG konvertiert. Hierbei wird das Bild
+gedreht. Zum Schluss wird das PNG in ein Graustufenbild gewandlet und etwas
+komprimiert. Dieser Prozess wird durch einen Cronjob regelmäßig durchgeführt
+und das Ergebnisbild auf einem lokalen Webserver abgelegt.</p>
+<p>Diese Bemühungen sind in einem
 <a class="reference external" href="https://github.com/pintman/wettermonitor">github repo</a> beschrieben.</p>
 </div>
 <div class="section" id="die-schultern-der-giganten">
 <h2>Die Schultern der Giganten</h2>
-<p>Mein Projekt fußt auf dem <em>Kindle Weather Display</em>-
-<a class="reference external" href="https://mpetroff.net/2012/09/kindle-weather-display/">Projekt von Matthew Petroff</a>
+<p>Mein Projekt fußt auf dem Projekt <a class="reference external" href="https://mpetroff.net/2012/09/kindle-weather-display/">Kindle Weather Display</a> von Matthew Petroff
 und der
 <a class="reference external" href="http://www.shatteredhaven.com/2012/11/1347365-kindle-weather-display.html">Anleitung von Jennifer</a></p>
-<p><a class="reference external" href="https://github.com/pintman/wettermonitor">github repo</a></p>
-<p><a class="reference external" href="https://wiki.mobileread.com/wiki/Eips">eips</a></p>
 </div>
 
             </div>
