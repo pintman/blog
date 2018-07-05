@@ -6,6 +6,10 @@ Blog 2001-2003
 :slug: blog_2001_2003
 :status: published
 
+.. image:: {filename}images/2018/07/Anonymous-pen-pencil.svg
+   :alt: Pen Pencil (https://openclipart.org/detail/13088/pen-pencil)
+   :width: 60%
+
 Beim Graben in alten Beständen bin ich auf eine alte Version meines Blogs aus 
 den Jahren 2001-2003 gestoßen. So lange schreibe ich also schon mindestens
 ins Internet. Noch lange bevor es überhaupt Blog-Software oder den Begriff
