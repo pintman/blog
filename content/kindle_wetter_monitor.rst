@@ -36,8 +36,8 @@ Nach einem Neustart sollte man den eigenen SSH-Key an der richtigen
 Stelle ablegen. Die ausführliche Anleitung im Jailbreak hilft weiter.
 
 Nach einem Neustart kann der Kindle in den Debug-Modus versetzt werden. Dazu
-gibt man auf der Home-Seite ``;debugOn``ein. Um das USB Network zu starten
-gibt man ``~usbNetwork``ein und kann sich anschließend per SSH mit dem Kindle
+gibt man auf der Home-Seite ``;debugOn`` ein. Um das USB Network zu starten
+gibt man ``~usbNetwork`` ein und kann sich anschließend per SSH mit dem Kindle
 verbinden.
 
 Prinzipiell kann das Geräte nun alles Anzeigen, was in Form eines
