@@ -6,6 +6,9 @@ Wetter Monitor mit einem Kindle
 :slug: kindle_wetter_monitor
 :status: draft
 
+.. image:: {filename}images/2018/07/kindle_weather_display.jpg
+   :width: 100%
+
 E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere
 Modelle bekommt man für wenig Geld.
 Genau diese Kombination machen sie so reizvoll, um
