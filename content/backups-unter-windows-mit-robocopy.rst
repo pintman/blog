@@ -12,6 +12,10 @@ Standardinstallation von Windows vorhanden und spiegelt zuverlässig und
 schnell komplette Verzeichnisstrukturen - z.B. von einem USB-Stick auf
 den heimischen Rechner.
 
+.. image:: images/2014/07/s2go-DbY1rs.jpg
+   :alt: Youtube-Video
+   :target: https://www.youtube-nocookie.com/embed/s2go-DbY1rs?rel=0
+
 Hier ist noch einmal das kommentierte Skript, das ich in dem 
 `Video <//www.youtube-nocookie.com/embed/s2go-DbY1rs?rel=0>`_
 vorgestellt habe.
@@ -48,7 +52,6 @@ vorgestellt habe.
     REM /E        Kopiert alle Unterverzeichnisse (leer oder nicht leer).
     REM /Y        Unterdrückt die Aufforderung zur Bestätigung, dass eine
     REM           vorhandene Zieldatei überschrieben werden soll.
-
 
 
 
