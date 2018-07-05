@@ -17,6 +17,7 @@ Klettermax, Bergwek, und Freeclimber sowie dem Neoliet in Bochum
 möchte ich nun kurz zusammenfassen.
 
 `Klettermax <http://www.kletter-max.de/>`__
+
 Das Klettermax ist die älteste Kletterhalle in Dortmund und das sieht
 man ihr leider auch an. Wen dieser altertümliche Flair nicht stört,
 der bekommt eine Vielfalt von Klettermöglichkeiten geboten. Man kann
@@ -36,6 +37,7 @@ Wer also ruhig mal etwas anderes ausprobieren mag, ist mit dieser
 Kletterhalle gut beraten.
 
 `Bergwerk <http://www.kletterhalle-bergwerk.de/>`__
+
 Das Bergwerk bietet sowohl für den Anfänger wie auch den
 Fortgeschrittenen jede Menge Routen in allen Schwierigkeitsbereichen.
 Die Mitarbeiter sind engagiert und freundlich und die Halle ist sehr
@@ -48,6 +50,7 @@ sauberer Saunabereich lädt nach den Kletteranstrengungen zum
 Entspannen ein. Insgesamt ist das Bergwerk eine sehr schöne
 Kletterhalle in Dortmund mit wirklich minimalen Schönheitsfehlern, die
 von einem engagierten Team hoffentlich bald beseitigt werden.
+
 `Neoliet <http://www.neoliet.de/>`__
 
 Das Neoliet ist eine schöne und große Kletterhalle in Bochum, die
@@ -55,6 +58,7 @@ zentral über die A40/A43 zu erreichen ist. Die folgenden Plus- und
 Minuspunkte sind mir bei den letzten Besuchen aufgefallen.
 
 **Pluspunkte**
+
 (+) Es gibt einen schönen großen Boulderblock in der Mitte der Halle,
 der auch Anfängern etwas bietet.
 
@@ -85,6 +89,7 @@ Herrenumkleide in der Nähe des Urinals. :(
 bisweilen sehr viel Betrieb. 
 
 `Freeclimber <http://www.free-climber.com/>`__
+
 In dieser reinen Boulderhalle kann man ein paar richtig schöne Routen
 finden. Von supereinfach bis knüppelhart ist alles dabei und jeder
 kommt auf seine Kosten. Die Anlage selbst ist schön hell und
@@ -97,5 +102,4 @@ Die Preise liegen im oberen Drittel. Bei einem niedrigeren Preis wäre
 ich vielleicht Stammbesucher. Derzeit bleibt es eine interessante
 Abwechslung zum Kletterspaß in Bergwerk und Neoliet.
 
-.. |image0| image:: http://4.bp.blogspot.com/_f_WnmSMXXic/SzHlfOL8xtI/AAAAAAAABsc/yzCM_gY2UQc/s320/87393071_a2ea66373c_d%5B1%5D.jpg
-   :target: http://4.bp.blogspot.com/_f_WnmSMXXic/SzHlfOL8xtI/AAAAAAAABsc/yzCM_gY2UQc/s1600-h/87393071_a2ea66373c_d%5B1%5D.jpg
+.. |image0| image:: {filename}images/2009/87393071_a2ea66373c_d.jpg
