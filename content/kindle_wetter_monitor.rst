@@ -14,15 +14,15 @@ E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere
 Modelle bekommt man für wenig Geld.
 Genau diese Kombination machen sie so reizvoll, um
 daraus ein Türschild zu bauen oder, um sie als Wetteranzeige zu verwenden. Die
-Displays stellen die Informationen sehr scharf dar, verbrauchen nur wenig
-Strom und stellen die Inhalte scharf dar.
+Displays stellen die Informationen sehr scharf dar und verbrauchen nur wenig
+Strom.
 
 Setup des Kindle
 ----------------
 
 In einem kleinen Projekt wollte ich mich eines 
 `Kindle-Keyboard <https://de.wikipedia.org/wiki/Amazon_Kindle#Kindle_Keyboard_(3._Generation)>`_ 
-annehmen, um es für eigene Anzeigewecke zu misbrauchen. 
+annehmen, um das Gerät für eigene Anzeigewecke zu misbrauchen. 
 Diese Geräte bekommt man für ca. 30-40 € gebraucht bei Ebay und sie 
 lassen sich gut mit einem JailBreak öffnen und für eigene Projekte
 umfunktionieren. Das Mobileread-Forum bietet hierfür eine schöne
