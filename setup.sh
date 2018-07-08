@@ -24,3 +24,6 @@ cp $PCSDIR/theme/templates/pcs/comments.html $THEMEDIR/templates/pcs/comments.ht
 cp $PCSDIR/theme/static/js/comments.js      $THEMEDIR/static/js/comments.js
 # copy local version of article template
 cp theme.local/article.html $THEMEDIR/templates/
+
+# FIX for https://github.com/getpelican/pelican-plugins/pull/1044
+cp theme.local/comments.html $THEMEDIR/templates/pcs/comments.html
