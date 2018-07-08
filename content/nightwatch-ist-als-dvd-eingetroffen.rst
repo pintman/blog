@@ -6,11 +6,11 @@ Nightwatch ist als DVD eingetroffen
 :slug: nightwatch-ist-als-dvd-eingetroffen
 :status: published
 
-.. raw:: html
 
-   <div>
+.. Bild fehlt
+   |nightwatch|
 
-|nightwatch|\ Einer nicht weiter nennenswerten Zeitschrift durfte ich
+Einer nicht weiter nennenswerten Zeitschrift durfte ich
 noch kurz vor dem Jahreswechsel eine DVD entreißen, die ich seinerzeit
 sogar im Kino bewundern durfte: *Nightwatch*. Bisher habe ich noch nicht
 reingeschaut und kann daher auch noch nicht mit aller Sicherheit sagen,
@@ -21,9 +21,7 @@ meiner
 `Filmsammlung <http://members.ping.de/~pintman/bakera.de/Filmwelten/index.htm>`__
 angekommen.
 
-.. raw:: html
 
-   </div>
-
-.. |nightwatch| image:: http://members.ping.de/~pintman/bakera.de/Filmwelten/nightwatch.jpg
+.. Fehlt: 
+   |nightwatch| image:: http://members.ping.de/~pintman/bakera.de/Filmwelten/nightwatch.jpg
 
