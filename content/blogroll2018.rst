@@ -2,12 +2,16 @@ Blogroll 2018
 =============
 :date: 2018-01-03 12:20
 :author: marco.bakera
-:tags: bloggen
+:tags: bloggen, Linkliste
 :slug: blogroll2018
 :status: draft
 
-Das letzte mal habe ich `2008 <{filename}blogroll.rst>`_ über Blogs 
-geschrieben, die ich regelmäßig lese. Seitdem hat sich einiges getan und 
+.. image:: {filename}images/2018/07/ocal.svg
+   :alt: Offenes Buch (https://openclipart.org/detail/135727/ocal)
+   :width: 50%
+
+Das letzte mal habe ich `2008 <{filename}blogroll.rst>`_ über mein
+regelmäßig konsumierten Blogs geschrieben. Seitdem hat sich einiges getan und
 die Liste der Blogs, die ich regelmäßig lese ist weiterhin angewachsen.
 
 Für das Lesen von Feeds benutze ich das feine Tool
@@ -15,6 +19,14 @@ Für das Lesen von Feeds benutze ich das feine Tool
 Feeds konfiguriert und sortiert diese in IMAP-Ordner eines separaten
 E-Mail-Kontos ein. So kann ich mit Thunderbird am Schreibtisch, K9 unter
 Android oder einem E-Mail-Programm meiner Wahl die Feeds lesen.
+
+Ich habe die verschiedenen Feeds in Kategorien eingeteilt. Manche Feeds
+erhalten nur sehr selten neue Inhalte (vielleicht nur einmal jährlich),
+während andere Feeds täglich sehr viel Output haben. Bei manchen Feeds
+interessieren mich nur die Titel der Beiträge (etwa der hochfreuqente Blog von
+Hackaday), während ich andere Artikel gerne in Gänze lese. Daher mag die Länge
+der Liste keinen Aufschluss darüber geben, wieviel Inhalt tatsächlich über die
+unterschiedlichen Kanäle generiert wird.
 
 
 Bildung
