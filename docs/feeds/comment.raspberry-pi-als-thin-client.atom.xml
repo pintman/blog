@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog - Comments: Raspberry Pi als Thin Client</title><link href="https://blog.bakera.de/raspberry-pi-als-thin-client.html/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/comment.raspberry-pi-als-thin-client.atom.xml" rel="self"></link><id>https://blog.bakera.de/raspberry-pi-als-thin-client.html/</id><updated>2017-10-29T09:47:00+02:00</updated><entry><title>Posted by: Marco Bakera</title><link href="https://blog.bakera.de/raspberry-pi-als-thin-client.html/#comment-1md" rel="alternate"></link><published>2017-10-29T09:47:00+02:00</published><updated>2017-10-29T09:47:00+02:00</updated><author><name>Marco Bakera</name></author><id>tag:blog.bakera.de,2017-10-29:/raspberry-pi-als-thin-client.html//comment-1md</id><summary type="html">&lt;p&gt;Das ist richtig, obwohl der Pi auch schon netzbootfähig ist. Ich vermute, dass
+die Linuxmusterlösung einen FatClient voraussetzt. Die Lösung wollte ich mir
+aber auch einmal anschauen.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Das ist richtig, obwohl der Pi auch schon netzbootfähig ist. Ich vermute, dass
+die Linuxmusterlösung einen FatClient voraussetzt. Die Lösung wollte ich mir
+aber auch einmal anschauen.&lt;/p&gt;</content></entry><entry><title>Posted by: Sebastian</title><link href="https://blog.bakera.de/raspberry-pi-als-thin-client.html/#comment-0md" rel="alternate"></link><published>2017-10-27T17:22:00+02:00</published><updated>2017-10-27T17:22:00+02:00</updated><author><name>Sebastian</name></author><id>tag:blog.bakera.de,2017-10-27:/raspberry-pi-als-thin-client.html//comment-0md</id><summary type="html">&lt;p&gt;Zum Booten wird wohl immer noch eine SD-Karte nötig sein.
+Bei uns an der Schule läuft die Linuxmusterlösung ziemlich unkompliziert.&lt;/p&gt;
+&lt;p&gt;Schöne Grüße
+Sebastian&lt;/p&gt;</summary><content type="html">&lt;p&gt;Zum Booten wird wohl immer noch eine SD-Karte nötig sein.
+Bei uns an der Schule läuft die Linuxmusterlösung ziemlich unkompliziert.&lt;/p&gt;
+&lt;p&gt;Schöne Grüße
+Sebastian&lt;/p&gt;</content></entry></feed>
