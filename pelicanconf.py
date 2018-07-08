@@ -93,7 +93,7 @@ THEME = "pelican-themes/pelican-bootstrap3"
 # git clone --recursive https://github.com/getpelican/pelican-plugins
 # 
 PLUGIN_PATHS = ["pelican-plugins"]
-PLUGINS = ['tipue_search', "sitemap"]
+PLUGINS = ['tipue_search', "sitemap", "pelican_comment_system"]
 #DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 DIRECT_TEMPLATES = ('index', 'archives', 'search')
 # Sitemap
@@ -112,3 +112,5 @@ SITEMAP = {
         "indexes": "daily"
     }
 }
+PELICAN_COMMENT_SYSTEM = True
+PELICAN_COMMENT_SYSTEM_IDENTICON_DATA = ('author',)
