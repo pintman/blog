@@ -40,15 +40,17 @@ zu lange hinzuziehen. Andererseite hat es uns bei der Organisation der
 Vorstellungen für den zweiten Tag derart geholfen, dass wir einen Überblick
 über die Projekte bekommen haben und so die Präsentationen in eine Reihenfolge
 bringen konnten. 
-Dann gint es an die Arbeit und die Projekte konnten umgesetzt werden. 
+Dann ging es an die Arbeit und die Projekte konnten umgesetzt werden. 
 Zwischendurch haben wir ganz nerdig Pizza bestellt und gemeinsam gegessen.
 
 Als Lehrerteam haben wir auch ein Projekt umgesetzt: ein lineares 1D-Pong auf
 einem Steckbrett. Dazu später jedoch mehr.
 
-Die Auswahl der Projekte umfasste ein Anime-Quiz ...
+Ohne Anspruch auf Vollständigkeit greife ich ein paar Projekte heraus, von denen
+ich Bilder machen konnte. Diese Auswahl umfasste ein Anime-Quiz ...
 
 .. image:: {filename}/images/2018/07/anime-quiz.jpg
+   :target: {filename}/images/2018/07/anime-quiz.jpg
    :width: 50%
    :alt: Anime Quiz
 
@@ -56,18 +58,21 @@ Die Auswahl der Projekte umfasste ein Anime-Quiz ...
 angesteuert wurde ...
 
 .. image:: {filename}/images/2018/07/roboarm.jpg
+   :target: {filename}/images/2018/07/roboarm.jpg
    :width: 50%
    :alt: Roboarm
 
 ... ein Spiel, das mit dem Game-Make-Studio erstellt wurde ...
 
 .. image:: {filename}/images/2018/07/game-maker.jpg
+   :target: {filename}/images/2018/07/game-maker.jpg
    :width: 50%
    :alt: Game Maker
 
 ... eine RGB-LED, die in verschiedenen Farben leuchten konnte ...
 
 .. image:: {filename}/images/2018/07/rgb-led.jpg
+   :target: {filename}/images/2018/07/rgb-led.jpg
    :width: 50%
    :alt: RGB LED
 
