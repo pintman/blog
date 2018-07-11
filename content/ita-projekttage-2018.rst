@@ -2,7 +2,7 @@ Wenn ITAs Projekte machen
 =========================
 :date: 2018-07-11 12:20
 :author: marco.bakera
-:tags: ITA
+:tags: ITA, Bildung
 :slug: ita-projekttage-2018
 :status: draft
 
@@ -16,7 +16,7 @@ verschiedenen Projekten verbracht. Hier konnten die Schüler wählen,
 ob sie an einem Mini-Game-Jam teilnehmen und ein kleines Spiel programmieren
 oder, ob sie ein eigenes Hardware- oder Softwareprojekt umsetzen wollen.
 
-.. TOOO image:: {filename}/images/2018/07/game-jam-themen.jpg
+.. image:: {filename}/images/2018/07/game-jam-themen.jpg
    :width: 100%
    :alt: Themen für den Mini-Gam-Jam
 
@@ -28,18 +28,41 @@ was sie  machen wollen. So konnten erste Ideen ausgetauscht werden und
 unschlüssige Schüler haben noch Anregungen erhalten.
 
 Die Schüler haben sich dann in kleinen Gruppen organisiert: 9 Gruppen haben
-sich für den Mini-Game-Jam, 5 Gruppen für eigene Projekte entschieden. Wir
-haben als Lehrerteam auch ein Projekt umgesetzt: ein lineares 1D-Pong auf
-einem Steckbrett. Ein Lichtpunkt wandert über LEDs hin und her. Durch Druck
-auf den Taster im eigenen Feld kann er an den Gegner zurückgeschlagen werden.
-Wer zu spät drückt, hat verloren.
+sich für den Mini-Game-Jam, 5 Gruppen für eigene Projekte entschieden. In
+den Gruppen haben sie kurz wesentliche Aspekte des Projektes festgehalten:
 
-.. TOOO image:: {filename}/images/2018/07/1d-pong.jpg
-   :width: 100%
-   :alt: 1D-Pong auf einem Steckbrett
+- Projekttitel
+- Kurzbeschreibung
+- Das Team
+
+Das hat einerseits den Schülern geholfen, sich festzulegen und die
+Themenfindung nicht zu lange hinzuziehen. Andererseite hat es uns bei der
+Organisation der Vorstellungen geholfen, einen Überblick über die Projekte zu
+bekommen und die Präsentationen in eine Reihenfolge bringen zu können.
+
+Wir haben als Lehrerteam auch ein Projekt umgesetzt: ein lineares 1D-Pong auf
+einem Steckbrett. Mehr dazu später.
 
 Dann konnten die Projekte umgesetzt werden. Zwischendurch haben wir Pizza
 bestellt und gemeinsam gegessen.
+
+.. image:: {filename}/images/2018/07/anime-quiz.jpg
+   :target: {filename}/images/2018/07/anime-quiz.jpg
+   :width: 100%
+   :alt: Anime Quiz
+
+.. image:: {filename}/images/2018/07/roboarm.jpg
+   :width: 100%
+   :alt: Roboarm
+
+.. image:: {filename}/images/2018/07/game-maker.jpg
+   :width: 100%
+   :alt: Game Makera
+
+.. image:: {filename}/images/2018/07/rgb-led.jpg
+   :width: 100%
+   :alt: RGB LED
+
 
 Tag 2
 -----
@@ -54,6 +77,15 @@ Menge Spaß an den beiden Tagen gehabt haben.
 1D-Pong
 -------
 
+.. image:: {filename}/images/2018/07/1d-pong.jpg
+   :width: 100%
+   :alt: 1D-Pong auf einem Steckbrett
+
+
+Ein Lichtpunkt wandert über LEDs hinweg hin und her. Durch Druck auf den
+Taster im eigenen Feld mit den drei roten LED kann er an den Gegner
+zurückgeschlagen werden. Wer zu spät drückt, hat verloren.
+
 Falls jemand das 1D-Pong nachbauen möchte, so findet er hier den Quelltext für
 unser Projekt. Wir haben die LEDs auf drei Steckbrettern mit Vorwiderständen
 aufgebaut. An den Enden wurde jeweils ein Taster positioniert. Die LEDs hätte
@@ -65,5 +97,4 @@ etwas Neues hinzulernen können.
 
   import hwpong
   import time
-
 
