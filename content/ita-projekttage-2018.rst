@@ -47,32 +47,32 @@ Als Lehrerteam haben wir auch ein Projekt umgesetzt: ein lineares 1D-Pong auf
 einem Steckbrett. Dazu später jedoch mehr.
 
 Ohne Anspruch auf Vollständigkeit greife ich ein paar Projekte heraus, von denen
-ich Bilder machen konnte. Diese Auswahl umfasste ein Anime-Quiz ...
+ich Bilder machen konnte. Diese Auswahl umfasste z.B. ein Anime-Quiz.
 
 .. image:: {filename}/images/2018/07/small_anime-quiz.jpg
    :target: {filename}/images/2018/07/anime-quiz.jpg
    :alt: Anime Quiz
 
-... einen Roboterarm aus einem 3D-Drucker, der über Servo-Motoren
-angesteuert wurde ...
+Es wurde ein Roboterarm aus einem 3D-Drucker gedruckt, der über Servo-Motoren
+angesteuert wurde.
 
 .. image:: {filename}/images/2018/07/small_roboarm.jpg
    :target: {filename}/images/2018/07/roboarm.jpg
    :alt: Roboarm
 
-... ein Spiel, das mit dem Game-Make-Studio erstellt wurde ...
+Ein Spielt wurde mit dem Game-Make-Studio erstellt.
 
 .. image:: {filename}/images/2018/07/small_game-maker.jpg
    :target: {filename}/images/2018/07/game-maker.jpg
    :alt: Game Maker
 
-... eine RGB-LED, die in verschiedenen Farben leuchten konnte ...
+Eine RGB-LED leichtete in verschiedenen Farben.
 
 .. image:: {filename}/images/2018/07/small_rgb-led.jpg
    :target: {filename}/images/2018/07/rgb-led.jpg
    :alt: RGB LED
 
-... und vieles andere mehr.
+Und vieles andere mehr.
 
 Tag 2
 -----
