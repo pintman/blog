@@ -16,8 +16,8 @@ verschiedenen Projekten gearbeitet. Die Schüler konnten wählen,
 ob sie an einem Mini-Game-Jam teilnehmen und ein kleines Spiel programmieren
 oder, ob sie ein eigenes Hardware- oder Softwareprojekt umsetzen wollen.
 
-.. image:: {filename}/images/2018/07/game-jam-themen.jpg
-   :width: 100%
+.. image:: {filename}/images/2018/07/small_game-jam-themen.jpg
+   :target: {filename}/images/2018/07/game-jam-themen.jpg
    :alt: Themen für den Mini-Gam-Jam
 
 Tag 1
