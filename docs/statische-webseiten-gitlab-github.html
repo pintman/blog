@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Statische Webseiten - /home/bakera/blog</title>
+    <title>Statische Webseiten bei gitlab und github - /home/bakera/blog</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -9,20 +9,20 @@
 
 
 
-<link rel="canonical" href="https://blog.bakera.de/drafts/statische-webseiten.html">
+<link rel="canonical" href="https://blog.bakera.de/statische-webseiten-gitlab-github.html">
 
         <meta name="author" content="marco.bakera" />
-        <meta name="keywords" content="Web" />
-        <meta name="description" content="Webseiten gibt es viele. Das Internet ist voll davon. Daher auch der Name. Doch, wie kann man einfach und schnell eine eigene Webseite aufsetzen und betreiben? Verschiedene Hoster bieten Pakete an, doch in manchen Situationen benötigt man sie gar nicht. Bei gitlab und github gibt es unter dem Stichwort &#34;gitub …" />
+        <meta name="keywords" content="bloggen" />
+        <meta name="description" content="Webseiten gibt es viele. Das Internet ist voll davon. Doch, wie kann man einfach und schnell eine eigene Webseite aufsetzen und betreiben? Verschiedene Hoster bieten Pakete an, doch in vielen Situationen sind selbst diese meist kleinen Pakete nicht nötig. Bei gitlab und github gibt es unter den Stichwörtern github pages …" />
 
         <meta property="og:site_name" content="/home/bakera/blog" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Statische Webseiten"/>
-        <meta property="og:url" content="https://blog.bakera.de/drafts/statische-webseiten.html"/>
-        <meta property="og:description" content="Webseiten gibt es viele. Das Internet ist voll davon. Daher auch der Name. Doch, wie kann man einfach und schnell eine eigene Webseite aufsetzen und betreiben? Verschiedene Hoster bieten Pakete an, doch in manchen Situationen benötigt man sie gar nicht. Bei gitlab und github gibt es unter dem Stichwort &#34;gitub …"/>
-        <meta property="article:published_time" content="2018-06-20" />
+        <meta property="og:title" content="Statische Webseiten bei gitlab und github"/>
+        <meta property="og:url" content="https://blog.bakera.de/statische-webseiten-gitlab-github.html"/>
+        <meta property="og:description" content="Webseiten gibt es viele. Das Internet ist voll davon. Doch, wie kann man einfach und schnell eine eigene Webseite aufsetzen und betreiben? Verschiedene Hoster bieten Pakete an, doch in vielen Situationen sind selbst diese meist kleinen Pakete nicht nötig. Bei gitlab und github gibt es unter den Stichwörtern github pages …"/>
+        <meta property="article:published_time" content="2018-07-12" />
             <meta property="article:section" content="Sonstiges" />
-            <meta property="article:tag" content="Web" />
+            <meta property="article:tag" content="bloggen" />
             <meta property="article:author" content="marco.bakera" />
 
 
@@ -87,10 +87,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="https://blog.bakera.de/drafts/statische-webseiten.html"
+                    <a href="https://blog.bakera.de/statische-webseiten-gitlab-github.html"
                        rel="bookmark"
-                       title="Permalink to Statische Webseiten">
-                        Statische Webseiten
+                       title="Permalink to Statische Webseiten bei gitlab und github">
+                        Statische Webseiten bei gitlab und github
                     </a>
                 </h1>
             </header>
@@ -100,7 +100,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2018-06-20T12:20:00+02:00"> Mi 20 Juni 2018</time>
+        <i class="fa fa-calendar"></i><time datetime="2018-07-12T22:21:00+02:00"> Do 12 Juli 2018</time>
     </span>
 
 
@@ -108,22 +108,22 @@
 
 
 <span class="label label-default">Tags</span>
-	<a href="https://blog.bakera.de/tag/web.html">Web</a>
+	<a href="https://blog.bakera.de/tag/bloggen.html">bloggen</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
                 <img alt="Maschine Pipe (https://openclipart.org/detail/300339/machine-pipe)" src="https://blog.bakera.de/images/2018/07/machinepipe.png" />
-<p>Webseiten gibt es viele. Das Internet ist voll davon. Daher auch
-der Name. Doch, wie kann man einfach und schnell eine eigene Webseite
+<p>Webseiten gibt es viele. Das Internet ist voll davon.
+Doch, wie kann man einfach und schnell eine eigene Webseite
 aufsetzen und betreiben? Verschiedene Hoster bieten Pakete an, doch in
-manchen Situationen benötigt man sie gar nicht.</p>
-<p>Bei gitlab und github gibt es unter dem Stichwort &quot;gitub pages&quot; bzw.
-&quot;gitlab pages&quot; eine Möglichkeit, schnell und einfach  eine statische
+vielen Situationen sind selbst diese meist kleinen Pakete nicht nötig.</p>
+<p>Bei gitlab und github gibt es unter den Stichwörtern <em>github pages</em> bzw.
+<em>gitlab pages</em> die Möglichkeit, schnell und einfach eine statische
 Webseite zu hosten. Für Webseiten mit rein informatorischem
 Anspruch ist das vollkommen ausreichend.</p>
 <div class="section" id="einrichten">
 <h2>Einrichten</h2>
-<p>Gitlab pages lassen sich auf der Webseite in den Projekteinstellungen
+<p><strong>Gitlab pages</strong> lassen sich auf der Webseite in den Projekteinstellungen
 konfigurieren. Hierfür
 wird ein Script benötigt, das automatisch bei jedem Push auf den Server
 ausgeführt wird und die Webseite erzeugt. Dadurch ist das System recht flexibel
@@ -144,39 +144,37 @@ werden. Das folgende Skript zeigt ein Beispiel für den Generator
 </pre>
 <p>Weitere Beispiele für andere Generatoren werden in einem
 <a class="reference external" href="https://gitlab.com/pages">eigenen Repository</a> von gitlab selbst gesammelt.</p>
-<p>Bei github dagegen muss die generierte Seite im Repo liegen - entweder in einem
-speziellen Verzeichnis oder einem gesonderten Branch. In den Repo-Einstellungen
-kann zwischen verschiedenen Varianten gewählt werden.</p>
+<p>Bei <strong>github pages</strong> dagegen muss die generierte Seite in Form von
+HTML-Seiten direkt im Repo liegen - entweder in
+einem speziellen Verzeichnis oder einem gesonderten Branch. In den Repo-
+Einstellungen kann zwischen verschiedenen Varianten gewählt werden.</p>
 <p>Sowohl bei github als auch bei gitlab muss man sich nach den Einstellungen
 einige Minuten gedulden bis das Ergebnis online erscheint.</p>
 </div>
 <div class="section" id="eigene-domain">
 <h2>Eigene Domain</h2>
-<p>Die Webseiten stehen bei gitlab und github unter einer Domain von github
-bzw. gitlab zur Verfügung. Eine eigene Domain kann bei beiden Anbietern
-jedoch einfach und kostenlos hinzugefügt
-werden. Hierfür wird im eigenen DNS-Eintrag einer Subdomain ein CNAME Eintrag
-hinzugefügt, der auf
-<tt class="docutils literal">benutzername.github.io</tt> bzw. <tt class="docutils literal">benutzername.gitlab.io</tt> zeigt.
-Für Gruppen bzw. Projekte müssen diese URLs entsprechend angepasst werden.</p>
-<p>Bei github wird damit eine Datei <tt class="docutils literal">CNAME</tt> im Wurzelverzeichnis der Webseite
+<p>Die Webseiten werden bei gitlab und github als Subdomain unterhalb einer Domain
+von <tt class="docutils literal">github.io</tt> bzw. <tt class="docutils literal">gitlab.io</tt> publiziert.
+Eine eigene Domain kann bei beiden Anbietern jedoch einfach und
+kostenlos hinzugefügt werden. Hierfür muss im eigenen DNS ein CNAME-Eintrag
+für eine Subdomain hinzugefügt werden, der auf <tt class="docutils literal">benutzername.github.io</tt> bzw.
+<tt class="docutils literal">benutzername.gitlab.io</tt> zeigt.  Für Gruppen bzw. Projekte müssen diese URLs
+entsprechend angepasst werden.</p>
+<p>Bei github wird eine Datei <tt class="docutils literal">CNAME</tt> im Wurzelverzeichnis der Webseite
 angelegt. Die Datei enthält lediglich den Namen der Domain.</p>
 </div>
 <div class="section" id="https">
 <h2>HTTPS</h2>
-<p>Als erheblicher Nachteil stellte sich für mich nach ersten Versuchen die
-Tatsache heraus, dass die Unterstützung für TLS/HTTPS bei gitlab nicht
-gut ausgebaut ist.
-Ich muss das Zertifikat selbst erstellen und auf der
-Projektseite in den Einstellungen in ein Textfeld kopieren. Da die
-Zertifikate von Lets Encrypt nur wenige Monate halten, muss dieses
-Prozedere regelmäßig wiederholt werden. Bei Zertifikaten,
-die ein Jahr gültig sind, mag dies noch zumutbar sein. Bei kürzeren
-Laufzeiten ist es jedoch ein zusätzlicher Aufwand, der nicht sein muss.
-Es gibt Bestrebungen dies zu ändern und ich hoffe, dass auch gitlab bald
-automatische Zertifikate von Lets Encrypt anbietet.</p>
-<p>Github hat hier eine bessere Unterstützung. TLS-Zertifikate werden regelmäßig
-automatisch erneuert und man muss sich nach der Einrichtung nicht mehr
+<p>Die Unterstützung von TLS/HTTPS bei <strong>Gitlab pages</strong> ist leider nicht so gut
+ausgebaut. Ich muss das Zertifikat selbst erstellen und auf der  Projektseite in den
+Einstellungen in ein Textfeld kopieren. Da die  Zertifikate von Lets Encrypt nur
+wenige Monate halten, muss dieses  Prozedere regelmäßig wiederholt werden. Bei
+Zertifikaten, die ein Jahr gültig sind, mag dies noch zumutbar sein. Bei kürzeren
+Laufzeiten ist es jedoch ein zusätzlicher Aufwand, der nicht sein muss. Es gibt
+Bestrebungen dies zu ändern und ich hoffe, dass auch gitlab bald automatische
+Zertifikate von Lets Encrypt anbietet.</p>
+<p><strong>Github pages</strong> hat hier eine bessere Unterstützung. TLS-Zertifikate werden
+regelmäßig automatisch erneuert und man muss sich nach der Einrichtung nicht mehr
 darum kümmern.</p>
 </div>
 <div class="section" id="datenschutz">
@@ -187,23 +185,23 @@ Datenschutz unterstellt. Ob sich mit der DSGVO diesbzgl. etwas tut, kann ich
 zum heutigen Tage noch nicht abschätzen. Als Daten fallen vermutlich nur
 die IP-Adresse des Besuchers der Webseite an, da es meist keine weiteren
 aktiven Komponenten auf statischen Webseiten gibt.</p>
-<p>Wünschenswert wäre jedoch auch ein
-deutscher Anbieter, der als datenschutzfreundliche Alternative auftauchen
-würde.</p>
+<p>Wünschenswert wäre jedoch auch ein deutscher Anbieter, der als
+datenschutzfreundliche Alternative auftauchen würde.</p>
 <p>Neben dem Schutz der Daten der Nutzer, gibt es auch Unterschiede beim Schutz
-der Daten im Blog selbst. So lässt github in seinen privaten Account keine
+der Daten in der Webseite selbst. So lässt github in dem kostenlosten Account keine
 privaten Repositories zu, gitlab dagegen schon. Für nicht öffentliche Inhalte
-im Blog ist gitlab also besser geeignet. Hier können nach belieben
-Repositories angelegt werden, so dass diese nicht öffentlich einsehbar sind,
+im Blog ist gitlab also besser geeignet. Hier können nach Belieben
+private Repositories angelegt werden, die nicht öffentlich einsehbar sind,
 deren Webseiten jedoch schon.</p>
 </div>
 <div class="section" id="fazit">
 <h2>Fazit</h2>
 <p>Statische Webseiten, die nur Informationen anzeigen und keine Interaktion
-mit dem Besucher der Seite erfordern lassen sich TSL-gesichert derzeit
+mit dem Besucher der Seite erfordern, lassen sich TSL-gesichert derzeit
 nur auf github praktikabel umsetzen. Sobald gitlab automatische Zertifikate
 anbietet liegt der Anbieter vorn, da der Mechanismus, die Webseite über
-CI-Skripte zu generieren einen ganz eigenen Reiz besitzt.</p>
+CI-Skripte zu generieren, einen ganz eigenen Reiz besitzt und das Repository
+mit diesem Ansatz insgesamt schlanker bleibt.</p>
 </div>
 
             </div>
@@ -264,7 +262,7 @@ CI-Skripte zu generieren einen ganz eigenen Reiz besitzt.</p>
 				id="pcs-comment-form-button-submit"
 				>Post via email</button>
 
-			<a href="https://blog.bakera.de/feeds/comment.statische-webseiten.atom.xml">
+			<a href="https://blog.bakera.de/feeds/comment.statische-webseiten-gitlab-github.atom.xml">
 				Comment Atom Feed
 			</a>
 	</form>
@@ -290,7 +288,7 @@ CI-Skripte zu generieren einen ganz eigenen Reiz besitzt.</p>
 				function( event )
 				{
 					event.preventDefault();
-					$(location).attr('href', CommentSystem.getMailtoLink("statische-webseiten"));
+					$(location).attr('href', CommentSystem.getMailtoLink("statische-webseiten-gitlab-github"));
 				}
 			);
 		});

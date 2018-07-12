@@ -1,5 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2018-07-11T20:09:00+02:00</updated><entry><title>Wenn ITAs Projekte machen</title><link href="https://blog.bakera.de/ita-projekttage-2018.html" rel="alternate"></link><published>2018-07-11T20:09:00+02:00</published><updated>2018-07-11T20:09:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-07-11:/ita-projekttage-2018.html</id><summary type="html">&lt;p&gt;In der letzten Woche vor den Ferien passiert in Schulen meiste recht wenig
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2018-07-12T22:21:00+02:00</updated><entry><title>Statische Webseiten bei gitlab und github</title><link href="https://blog.bakera.de/statische-webseiten-gitlab-github.html" rel="alternate"></link><published>2018-07-12T22:21:00+02:00</published><updated>2018-07-12T22:21:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-07-12:/statische-webseiten-gitlab-github.html</id><summary type="html">&lt;img alt="Maschine Pipe (https://openclipart.org/detail/300339/machine-pipe)" src="https://blog.bakera.de/images/2018/07/machinepipe.png" /&gt;
+&lt;p&gt;Webseiten gibt es viele. Das Internet ist voll davon.
+Doch, wie kann man einfach und schnell eine eigene Webseite
+aufsetzen und betreiben? Verschiedene Hoster bieten Pakete an, doch in
+vielen Situationen sind selbst diese meist kleinen Pakete nicht nötig.&lt;/p&gt;
+&lt;p&gt;Bei gitlab und github gibt es unter den Stichwörtern &lt;em&gt;github pages …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;img alt="Maschine Pipe (https://openclipart.org/detail/300339/machine-pipe)" src="https://blog.bakera.de/images/2018/07/machinepipe.png" /&gt;
+&lt;p&gt;Webseiten gibt es viele. Das Internet ist voll davon.
+Doch, wie kann man einfach und schnell eine eigene Webseite
+aufsetzen und betreiben? Verschiedene Hoster bieten Pakete an, doch in
+vielen Situationen sind selbst diese meist kleinen Pakete nicht nötig.&lt;/p&gt;
+&lt;p&gt;Bei gitlab und github gibt es unter den Stichwörtern &lt;em&gt;github pages&lt;/em&gt; bzw.
+&lt;em&gt;gitlab pages&lt;/em&gt; die Möglichkeit, schnell und einfach eine statische
+Webseite zu hosten. Für Webseiten mit rein informatorischem
+Anspruch ist das vollkommen ausreichend.&lt;/p&gt;
+&lt;div class="section" id="einrichten"&gt;
+&lt;h2&gt;Einrichten&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Gitlab pages&lt;/strong&gt; lassen sich auf der Webseite in den Projekteinstellungen
+konfigurieren. Hierfür
+wird ein Script benötigt, das automatisch bei jedem Push auf den Server
+ausgeführt wird und die Webseite erzeugt. Dadurch ist das System recht flexibel
+und es gibt eine Reihe von statischen Webseiten-Generatoren, die unterstützt
+werden. Das folgende Skript zeigt ein Beispiel für den Generator
+&lt;a class="reference external" href="https://blog.getpelican.com/"&gt;pelican&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class="code yaml literal-block"&gt;
+&lt;span class="l-Scalar-Plain"&gt;image&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;python:3-alpine&lt;/span&gt;
+
+&lt;span class="l-Scalar-Plain"&gt;pages&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+  &lt;span class="l-Scalar-Plain"&gt;script&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+  &lt;span class="p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;pip install pelican markdown typogrify&lt;/span&gt;
+  &lt;span class="p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;pelican -o public -s publishconf.py&lt;/span&gt;
+
+  &lt;span class="l-Scalar-Plain"&gt;artifacts&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+    &lt;span class="l-Scalar-Plain"&gt;paths&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+    &lt;span class="p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;public/&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;Weitere Beispiele für andere Generatoren werden in einem
+&lt;a class="reference external" href="https://gitlab.com/pages"&gt;eigenen Repository&lt;/a&gt; von gitlab selbst gesammelt.&lt;/p&gt;
+&lt;p&gt;Bei &lt;strong&gt;github pages&lt;/strong&gt; dagegen muss die generierte Seite in Form von
+HTML-Seiten direkt im Repo liegen - entweder in
+einem speziellen Verzeichnis oder einem gesonderten Branch. In den Repo-
+Einstellungen kann zwischen verschiedenen Varianten gewählt werden.&lt;/p&gt;
+&lt;p&gt;Sowohl bei github als auch bei gitlab muss man sich nach den Einstellungen
+einige Minuten gedulden bis das Ergebnis online erscheint.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="eigene-domain"&gt;
+&lt;h2&gt;Eigene Domain&lt;/h2&gt;
+&lt;p&gt;Die Webseiten werden bei gitlab und github als Subdomain unterhalb einer Domain
+von &lt;tt class="docutils literal"&gt;github.io&lt;/tt&gt; bzw. &lt;tt class="docutils literal"&gt;gitlab.io&lt;/tt&gt; publiziert.
+Eine eigene Domain kann bei beiden Anbietern jedoch einfach und
+kostenlos hinzugefügt werden. Hierfür muss im eigenen DNS ein CNAME-Eintrag
+für eine Subdomain hinzugefügt werden, der auf &lt;tt class="docutils literal"&gt;benutzername.github.io&lt;/tt&gt; bzw.
+&lt;tt class="docutils literal"&gt;benutzername.gitlab.io&lt;/tt&gt; zeigt.  Für Gruppen bzw. Projekte müssen diese URLs
+entsprechend angepasst werden.&lt;/p&gt;
+&lt;p&gt;Bei github wird eine Datei &lt;tt class="docutils literal"&gt;CNAME&lt;/tt&gt; im Wurzelverzeichnis der Webseite
+angelegt. Die Datei enthält lediglich den Namen der Domain.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="https"&gt;
+&lt;h2&gt;HTTPS&lt;/h2&gt;
+&lt;p&gt;Die Unterstützung von TLS/HTTPS bei &lt;strong&gt;Gitlab pages&lt;/strong&gt; ist leider nicht so gut
+ausgebaut. Ich muss das Zertifikat selbst erstellen und auf der  Projektseite in den
+Einstellungen in ein Textfeld kopieren. Da die  Zertifikate von Lets Encrypt nur
+wenige Monate halten, muss dieses  Prozedere regelmäßig wiederholt werden. Bei
+Zertifikaten, die ein Jahr gültig sind, mag dies noch zumutbar sein. Bei kürzeren
+Laufzeiten ist es jedoch ein zusätzlicher Aufwand, der nicht sein muss. Es gibt
+Bestrebungen dies zu ändern und ich hoffe, dass auch gitlab bald automatische
+Zertifikate von Lets Encrypt anbietet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Github pages&lt;/strong&gt; hat hier eine bessere Unterstützung. TLS-Zertifikate werden
+regelmäßig automatisch erneuert und man muss sich nach der Einrichtung nicht mehr
+darum kümmern.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="datenschutz"&gt;
+&lt;h2&gt;Datenschutz&lt;/h2&gt;
+&lt;p&gt;Ein Wermutstropfen bleibt bei gitlab wie auch github: Beide Anbieter haben
+ihren Sitz nicht in Deutschland und sind damit auch nicht dem deutschen
+Datenschutz unterstellt. Ob sich mit der DSGVO diesbzgl. etwas tut, kann ich
+zum heutigen Tage noch nicht abschätzen. Als Daten fallen vermutlich nur
+die IP-Adresse des Besuchers der Webseite an, da es meist keine weiteren
+aktiven Komponenten auf statischen Webseiten gibt.&lt;/p&gt;
+&lt;p&gt;Wünschenswert wäre jedoch auch ein deutscher Anbieter, der als
+datenschutzfreundliche Alternative auftauchen würde.&lt;/p&gt;
+&lt;p&gt;Neben dem Schutz der Daten der Nutzer, gibt es auch Unterschiede beim Schutz
+der Daten in der Webseite selbst. So lässt github in dem kostenlosten Account keine
+privaten Repositories zu, gitlab dagegen schon. Für nicht öffentliche Inhalte
+im Blog ist gitlab also besser geeignet. Hier können nach Belieben
+private Repositories angelegt werden, die nicht öffentlich einsehbar sind,
+deren Webseiten jedoch schon.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="fazit"&gt;
+&lt;h2&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Statische Webseiten, die nur Informationen anzeigen und keine Interaktion
+mit dem Besucher der Seite erfordern, lassen sich TSL-gesichert derzeit
+nur auf github praktikabel umsetzen. Sobald gitlab automatische Zertifikate
+anbietet liegt der Anbieter vorn, da der Mechanismus, die Webseite über
+CI-Skripte zu generieren, einen ganz eigenen Reiz besitzt und das Repository
+mit diesem Ansatz insgesamt schlanker bleibt.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="bloggen"></category></entry><entry><title>Wenn ITAs Projekte machen</title><link href="https://blog.bakera.de/ita-projekttage-2018.html" rel="alternate"></link><published>2018-07-11T20:09:00+02:00</published><updated>2018-07-11T20:09:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-07-11:/ita-projekttage-2018.html</id><summary type="html">&lt;p&gt;In der letzten Woche vor den Ferien passiert in Schulen meiste recht wenig
 im Unterricht. Was nicht heißen soll, dass es nicht noch genug zu tun
 gibt: Zeugnisse erstellen, Räume einrichten etc.&lt;/p&gt;
 &lt;p&gt;Wir haben diese letzte Woche genutzt und zwei Tage mit den ITAs
@@ -11,7 +107,7 @@ gibt: Zeugnisse erstellen, Räume einrichten etc.&lt;/p&gt;
 verschiedenen Projekten gearbeitet. Die Schüler konnten wählen,
 ob sie an einem Mini-Game-Jam teilnehmen und ein kleines Spiel programmieren
 oder, ob sie ein eigenes Hardware- oder Softwareprojekt umsetzen wollen.&lt;/p&gt;
-&lt;img alt="Themen für den Mini-Gam-Jam" src="https://blog.bakera.de/images/2018/07/game-jam-themen.jpg" style="width: 100%;" /&gt;
+&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/game-jam-themen.jpg"&gt;&lt;img alt="Themen für den Mini-Gam-Jam" src="https://blog.bakera.de/images/2018/07/small_game-jam-themen.jpg" /&gt;&lt;/a&gt;
 &lt;div class="section" id="tag-1"&gt;
 &lt;h2&gt;Tag 1&lt;/h2&gt;
 &lt;p&gt;Zu Beginn haben sich die Schüler in einem kleinen Spiel gegenseitig erklärt,
@@ -25,25 +121,26 @@ den Gruppen haben sie kurz wesentliche Aspekte des Projektes festgehalten:&lt;/p
 &lt;li&gt;Kurzbeschreibung&lt;/li&gt;
 &lt;li&gt;Das Team&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Das hat einerseits den geholfen, sich festzulegen und die Themenfindung nicht
+&lt;p&gt;Das hat einerseits geholfen, sich festzulegen und die Themenfindung nicht
 zu lange hinzuziehen. Andererseite hat es uns bei der Organisation der
 Vorstellungen für den zweiten Tag derart geholfen, dass wir einen Überblick
 über die Projekte bekommen haben und so die Präsentationen in eine Reihenfolge
-bringen konnten.&lt;/p&gt;
-&lt;p&gt;Wir haben als Lehrerteam auch ein Projekt umgesetzt: ein lineares 1D-Pong auf
-einem Steckbrett. Dazu später mehr.&lt;/p&gt;
-&lt;p&gt;Dann konnten die Projekte umgesetzt werden. Zwischendurch haben wir Pizza
-bestellt und gemeinsam gegessen.&lt;/p&gt;
-&lt;p&gt;Es gab ein Anime-Quiz ...&lt;/p&gt;
-&lt;img alt="Anime Quiz" src="https://blog.bakera.de/images/2018/07/anime-quiz.jpg" style="width: 50%;" /&gt;
-&lt;p&gt;... einen Roboterarm aus einem eigenen 3D-Drucker, der über Servo-Motoren
-angesteuert wurde&lt;/p&gt;
-&lt;img alt="Roboarm" src="https://blog.bakera.de/images/2018/07/roboarm.jpg" style="width: 50%;" /&gt;
-&lt;p&gt;... ein Spiel, das mit dem Game-Make-Studio erstellt wurde ...&lt;/p&gt;
-&lt;img alt="Game Maker" src="https://blog.bakera.de/images/2018/07/game-maker.jpg" style="width: 50%;" /&gt;
-&lt;p&gt;... eine RGB-LED, die in verschiedenen Farben leuchten konnte ...&lt;/p&gt;
-&lt;img alt="RGB LED" src="https://blog.bakera.de/images/2018/07/rgb-led.jpg" style="width: 50%;" /&gt;
-&lt;p&gt;... und vieles andere mehr, das ich hier nicht abbilden konnte.&lt;/p&gt;
+bringen konnten.
+Dann ging es an die Arbeit und die Projekte konnten umgesetzt werden.
+Zwischendurch haben wir ganz nerdig Pizza bestellt und gemeinsam gegessen.&lt;/p&gt;
+&lt;p&gt;Als Lehrerteam haben wir auch ein Projekt umgesetzt: ein lineares 1D-Pong auf
+einem Steckbrett. Dazu später jedoch mehr.&lt;/p&gt;
+&lt;p&gt;Ohne Anspruch auf Vollständigkeit greife ich ein paar Projekte heraus, von denen
+ich Bilder machen konnte. Diese Auswahl umfasste z.B. ein Anime-Quiz.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/anime-quiz.jpg"&gt;&lt;img alt="Anime Quiz" src="https://blog.bakera.de/images/2018/07/small_anime-quiz.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;Es wurde ein Roboterarm aus einem 3D-Drucker gedruckt, der über Servo-Motoren
+angesteuert wurde.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/roboarm.jpg"&gt;&lt;img alt="Roboarm" src="https://blog.bakera.de/images/2018/07/small_roboarm.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;Ein Spielt wurde mit dem Game-Make-Studio erstellt.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/game-maker.jpg"&gt;&lt;img alt="Game Maker" src="https://blog.bakera.de/images/2018/07/small_game-maker.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;Eine RGB-LED leichtete in verschiedenen Farben.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/rgb-led.jpg"&gt;&lt;img alt="RGB LED" src="https://blog.bakera.de/images/2018/07/small_rgb-led.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;Und vieles andere mehr.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="tag-2"&gt;
 &lt;h2&gt;Tag 2&lt;/h2&gt;
@@ -56,7 +153,7 @@ haben.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="breadboardpong"&gt;
 &lt;h2&gt;Breadboardpong&lt;/h2&gt;
-&lt;img alt="1D-Pong auf einem Steckbrett" src="https://blog.bakera.de/images/2018/07/1d-pong.jpg" style="width: 100%;" /&gt;
+&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/1d-pong.jpg"&gt;&lt;img alt="1D-Pong auf einem Steckbrett" src="https://blog.bakera.de/images/2018/07/small_1d-pong.jpg" /&gt;&lt;/a&gt;
 &lt;p&gt;Das &amp;quot;Lehrerteam&amp;quot; hat auch ein Projekt umgesetzt: &lt;em&gt;Breadboardpong&lt;/em&gt;. Hierbei wandert
 ein Lichtpunkt über LEDs hinweg hin und her. Durch Druck auf den
 Taster im eigenen Feld mit den drei roten LED kann er an den Gegner
@@ -1594,17 +1691,4 @@ kurzweiligen Video &lt;a class="reference external" href="https://youtu.be/NB_VB
 Entscheidungen darüber, wie die 64 kB RAM des C64 genutzt werden können,
 ebenso ein wie das Beta-Testing und die Bestellung und Produktion von
 Disketten.&lt;/p&gt;
-</content><category term="Programmierung"></category><category term="Spiele"></category><category term="Tipp"></category><category term="Video"></category></entry><entry><title>"Hello Sir" - eine Podcastserie über Scam</title><link href="https://blog.bakera.de/hello-sir-eine-podcastserie-ueber-scam.html" rel="alternate"></link><published>2017-11-30T10:59:00+01:00</published><updated>2017-11-30T10:59:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2017-11-30:/hello-sir-eine-podcastserie-ueber-scam.html</id><summary type="html">&lt;p&gt;Die Podcastserie &lt;a class="reference external" href="http://viertausendhertz.de/hellosir/"&gt;Hello Sir&lt;/a&gt;
-geht den Versendern von &lt;a class="reference external" href="https://de.wikipedia.org/wiki/Scam"&gt;Scam&lt;/a&gt;
-nach. Eine Mail, die um eine große Summe bittet; ein Vermögen, das außer
-Land geschafft werden soll. Hierbei soll der Empfänger mithelfen und
-seine Kontodaten zur Verfügung stellen. Normalerweise wandern solche
-Mails bei mir direkt im Spamordner. Christian Conradi hat sich …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Die Podcastserie &lt;a class="reference external" href="http://viertausendhertz.de/hellosir/"&gt;Hello Sir&lt;/a&gt;
-geht den Versendern von &lt;a class="reference external" href="https://de.wikipedia.org/wiki/Scam"&gt;Scam&lt;/a&gt;
-nach. Eine Mail, die um eine große Summe bittet; ein Vermögen, das außer
-Land geschafft werden soll. Hierbei soll der Empfänger mithelfen und
-seine Kontodaten zur Verfügung stellen. Normalerweise wandern solche
-Mails bei mir direkt im Spamordner. Christian Conradi hat sich jedoch
-die Mühe gemacht und versucht, mit der Absenderin Kontakt aufzunehmen.
-Teilweise mit verstörenden Mails und Telefonaten.&lt;/p&gt;
-</content><category term="Audio"></category></entry></feed>
+</content><category term="Programmierung"></category><category term="Spiele"></category><category term="Tipp"></category><category term="Video"></category></entry></feed>
