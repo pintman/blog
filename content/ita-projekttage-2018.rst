@@ -49,31 +49,27 @@ einem Steckbrett. Dazu später jedoch mehr.
 Ohne Anspruch auf Vollständigkeit greife ich ein paar Projekte heraus, von denen
 ich Bilder machen konnte. Diese Auswahl umfasste ein Anime-Quiz ...
 
-.. image:: {filename}/images/2018/07/anime-quiz.jpg
+.. image:: {filename}/images/2018/07/small_anime-quiz.jpg
    :target: {filename}/images/2018/07/anime-quiz.jpg
-   :width: 50%
    :alt: Anime Quiz
 
 ... einen Roboterarm aus einem 3D-Drucker, der über Servo-Motoren
 angesteuert wurde ...
 
-.. image:: {filename}/images/2018/07/roboarm.jpg
+.. image:: {filename}/images/2018/07/small_roboarm.jpg
    :target: {filename}/images/2018/07/roboarm.jpg
-   :width: 50%
    :alt: Roboarm
 
 ... ein Spiel, das mit dem Game-Make-Studio erstellt wurde ...
 
-.. image:: {filename}/images/2018/07/game-maker.jpg
+.. image:: {filename}/images/2018/07/small_game-maker.jpg
    :target: {filename}/images/2018/07/game-maker.jpg
-   :width: 50%
    :alt: Game Maker
 
 ... eine RGB-LED, die in verschiedenen Farben leuchten konnte ...
 
-.. image:: {filename}/images/2018/07/rgb-led.jpg
+.. image:: {filename}/images/2018/07/small_rgb-led.jpg
    :target: {filename}/images/2018/07/rgb-led.jpg
-   :width: 50%
    :alt: RGB LED
 
 ... und vieles andere mehr.
@@ -91,8 +87,8 @@ haben.
 Breadboardpong
 --------------
 
-.. image:: {filename}/images/2018/07/1d-pong.jpg
-   :width: 100%
+.. image:: {filename}/images/2018/07/small_1d-pong.jpg
+   :target: {filename}/images/2018/07/1d-pong.jpg
    :alt: 1D-Pong auf einem Steckbrett
 
 Das "Lehrerteam" hat auch ein Projekt umgesetzt: *Breadboardpong*. Hierbei wandert
