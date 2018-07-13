@@ -60,13 +60,13 @@ angesteuert wurde.
    :target: {filename}/images/2018/07/roboarm.jpg
    :alt: Roboarm
 
-Ein Spielt wurde mit dem Game-Make-Studio erstellt.
+Ein Spiel wurde mit dem Game-Maker-Studio erstellt.
 
 .. image:: {filename}/images/2018/07/small_game-maker.jpg
    :target: {filename}/images/2018/07/game-maker.jpg
    :alt: Game Maker
 
-Eine RGB-LED leichtete in verschiedenen Farben.
+Eine RGB-LED leuchtete in verschiedenen Farben.
 
 .. image:: {filename}/images/2018/07/small_rgb-led.jpg
    :target: {filename}/images/2018/07/rgb-led.jpg
