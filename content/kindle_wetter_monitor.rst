@@ -1,4 +1,4 @@
-Wetter Monitor mit einem Kindle
+Wetter-Monitor mit einem Kindle
 ===============================
 :date: 2018-07-03 12:20
 :author: marco.bakera
@@ -92,6 +92,34 @@ zurechgeschnitten und in ein PNG konvertiert. Hierbei wird das Bild
 gedreht. Zum Schluss wird das PNG in ein Graustufenbild gewandelt und etwas 
 komprimiert. Dieser Prozess wird durch einen Cronjob regelmäßig durchgeführt
 und das Ergebnisbild auf einem lokalen Webserver abgelegt.
+
+.. code:: bash
+  
+  #!/bin/bash
+  
+  PDFURL=https://www.yr.no/place/Germany/North_Rhine-Westphalia/Bochum/forecast.pdf
+  OUTPDF=forecast.pdf
+  OUTPNG=forecast.png
+  OUTSVG=forecast.svg
+  
+  # Download pdf with forecast
+  wget -O $OUTPDF $PDFURL
+  
+  # convert to svg
+  inkscape --without-gui --file=$OUTPDF --export-plain-svg=$OUTSVG
+  
+  # change viewbox size in SVG file
+  sed -i -e '10s/height=.*/height="600.0"/' \
+    -e '11s/width=.*/width="800.0"/'\
+    -e '9s/viewBox=.*/viewBox="30 90 700 600"   preserveAspectRatio="slice"/'\
+    $OUTSVG
+  
+  rsvg-convert --background-color=white -o $OUTPNG $OUTSVG
+  # rotate landscape image
+  convert $OUTPNG -rotate "90" $OUTPNG
+  pngcrush -c 0 -ow $OUTPNG
+  
+
 
 Diese Bemühungen sind in einem 
 `github repo <https://github.com/pintman/wettermonitor>`_ beschrieben.
