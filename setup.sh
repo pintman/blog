@@ -12,8 +12,6 @@ test -d pelican-plugins || git clone https://github.com/getpelican/pelican-plugi
 
 # install theme repo
 test -d pelican-themes || git clone https://github.com/getpelican/pelican-themes
-# FIX: for theme pelican-bootstrap3
-git -C pelican-themes checkout be36234
 
 # setup pelican comment system
 THEMEDIR=pelican-themes/pelican-bootstrap3

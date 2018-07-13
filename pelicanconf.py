@@ -96,6 +96,13 @@ PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS = ['tipue_search', "sitemap", "pelican_comment_system"]
 #DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 DIRECT_TEMPLATES = ('index', 'archives', 'search')
+
+# needed for template bootstrap3 
+PLUGINS += ["i18n_subsites"]
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
+
 # Sitemap
 # https://github.com/getpelican/pelican-plugins/tree/master/sitemap
 SITEMAP = {
