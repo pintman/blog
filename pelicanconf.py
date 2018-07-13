@@ -62,6 +62,7 @@ RELATIVE_URLS = True
 #
 # FIX: theme needs 'git checkout be36234'
 THEME = "pelican-themes/pelican-bootstrap3"
+BOOTSTRAP_THEME = "lumen"  # one of https://bootswatch.com/
 #JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 #I18N_TEMPLATES_LANG = 'en'
 #GITHUB_REPO_COUNT = 5
