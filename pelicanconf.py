@@ -112,5 +112,6 @@ SITEMAP = {
         "indexes": "daily"
     }
 }
+# Pelican comment system
 PELICAN_COMMENT_SYSTEM = True
 PELICAN_COMMENT_SYSTEM_IDENTICON_DATA = ('author',)
