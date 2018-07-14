@@ -6,6 +6,14 @@ Wenn ITAs Projekte machen
 :slug: ita-projekttage-2018
 :status: published
 
+.. figure:: {filename}images/2018/07/an_electrical_machine.jpg
+   :alt: Zwei Personen hinter Maschine
+   :width: 75%
+
+   (Quelle: CC-BY 
+   `Wellcome Collection <https://wellcomecollection.org/works/dazvcmnt>`_)
+
+
 In der letzten Woche vor den Ferien passiert in Schulen meiste recht wenig
 im Unterricht. Was nicht heißen soll, dass es nicht noch genug zu tun
 gibt: Zeugnisse erstellen, Räume einrichten etc.
