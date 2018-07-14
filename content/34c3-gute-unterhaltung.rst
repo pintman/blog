@@ -6,9 +6,13 @@
 :slug: 34c3-gute-unterhaltung
 :status: published
 
-|image0|
+.. figure:: {filename}images/2018/01/Fnord_logo.jpg
+   :alt: Fnord-Logo
+   :class: size-full wp-image-2213
+   :width: 530px
+   :height: 246px
 
-CC BY-SA Jackytar
+   (CC BY-SA Jackytar)
 
 Neben rein technischen Vorträgen gab es beim letzten 34C3 auch solche
 mit größeren Unterhaltungswert.
@@ -44,7 +48,3 @@ gut gefallen, das unterschiedliche nerdige Themen kurz vorgestellt.
 Vieles war mir schon bekannt, einiges hatte ich vergessen, anderes war
 mir neu.
 
-.. |image0| image:: {filename}images/2018/01/Fnord_logo.jpg
-   :class: size-full wp-image-2213
-   :width: 530px
-   :height: 246px
