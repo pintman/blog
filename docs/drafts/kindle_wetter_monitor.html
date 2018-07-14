@@ -13,13 +13,13 @@
 
         <meta name="author" content="marco.bakera" />
         <meta name="keywords" content="Hacking,Hardware" />
-        <meta name="description" content="E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere Modelle bekommt man für wenig Geld. Genau diese Kombination machen sie so reizvoll, um daraus ein Türschild zu bauen oder, um sie als Wetteranzeige zu verwenden. Die Displays stellen die Informationen sehr scharf dar und verbrauchen nur wenig Strom. Setup …" />
+        <meta name="description" content="(Quelle: CC-BY Wellcome Collection) E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere Modelle bekommt man für wenig Geld. Genau diese Kombination machen sie so reizvoll, um daraus ein Türschild zu bauen oder, um sie als Wetteranzeige zu verwenden. Die Displays stellen die Informationen sehr scharf dar und verbrauchen …" />
 
         <meta property="og:site_name" content="/home/bakera/blog" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="Wetter-Monitor mit einem Kindle"/>
         <meta property="og:url" content="https://blog.bakera.de/drafts/kindle_wetter_monitor.html"/>
-        <meta property="og:description" content="E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere Modelle bekommt man für wenig Geld. Genau diese Kombination machen sie so reizvoll, um daraus ein Türschild zu bauen oder, um sie als Wetteranzeige zu verwenden. Die Displays stellen die Informationen sehr scharf dar und verbrauchen nur wenig Strom. Setup …"/>
+        <meta property="og:description" content="(Quelle: CC-BY Wellcome Collection) E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere Modelle bekommt man für wenig Geld. Genau diese Kombination machen sie so reizvoll, um daraus ein Türschild zu bauen oder, um sie als Wetteranzeige zu verwenden. Die Displays stellen die Informationen sehr scharf dar und verbrauchen …"/>
         <meta property="article:published_time" content="2018-07-03" />
             <meta property="article:section" content="Sonstiges" />
             <meta property="article:tag" content="Hacking" />
@@ -119,7 +119,11 @@
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/07/kindle_weather_display.jpg" style="width: 100%;" />
+                <div class="figure">
+<img alt="Alte Frau liest" src="https://blog.bakera.de/images/2018/07/weather.jpg" style="width: 100%;" />
+<p class="caption">(Quelle: CC-BY
+<a class="reference external" href="https://wellcomecollection.org/works/yxu44y6d">Wellcome Collection</a>)</p>
+</div>
 <p>E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere
 Modelle bekommt man für wenig Geld.
 Genau diese Kombination machen sie so reizvoll, um
@@ -171,15 +175,51 @@ beschreibbares Dateisystem mounten und anschließend das Cronfile editieren.</p>
 </div>
 <div class="section" id="bilder-auf-dem-kindle-darstellen">
 <h3>Bilder auf dem Kindle darstellen</h3>
+<a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/kindle_weather_display.jpg"><img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/07/small_kindle_weather_display.jpg" /></a>
 <p>Für die Darstellung von Bildern und Text auf dem Kindle ist das
 Kommandozeilentool
 <a class="reference external" href="https://wiki.mobileread.com/wiki/Eips">eips</a> zuständig - vermutlich
 steht die Abkürzung für <em>e ink postscript</em>. Damit
-kann man den Bildschirm löschen, Text und auch Bilder anzeigen.</p>
+kann man den Bildschirm löschen, Text und auch Bilder anzeigen. Die genauen
+Parameter sind in der verlinkten Dokumentation gut beschrieben.</p>
+<p>Die folgenden Befehle löschen den Bildschirm und zeigen ein Bild an.</p>
+<pre class="code bash literal-block">
+$ eips -c
+$ eips -g bild.png
+</pre>
+<p>Die folgenden Befehle in einer Datei <tt class="docutils literal"><span class="pre">init-weather.sh</span></tt> deaktivieren
+die Kindle-Software und das Power-Management. Somit geht das Gerät nicht
+in einen Schlafmodus, wenn eine Weile nichts passiert.</p>
+<pre class="code bash literal-block">
+<span class="ch">#!/bin/sh
+</span>
+/etc/init.d/framework stop
+/etc/init.d/powerd stop
+/mnt/us/wettermon/display-weather.sh
+</pre>
+<p>Im Pfad <tt class="docutils literal">/mnt/us/</tt> können Daten abgelegt werden, die auch einem
+Neustart überleben. Die Datei <tt class="docutils literal"><span class="pre">display-weather.sh</span></tt> lädt schließlich
+das Wetterbild herunter und zeigt es an. Der Bildschirm wird zweimal
+gelöscht, um Artefakte und Geisterbilder zu verhindern.</p>
+<pre class="code bash literal-block">
+<span class="ch">#!/bin/sh
+</span>
+<span class="nb">cd</span> <span class="s2">&quot;</span><span class="k">$(</span>dirname <span class="s2">&quot;</span><span class="nv">$0</span><span class="s2">&quot;</span><span class="k">)</span><span class="s2">&quot;</span>
+
+rm forecast.png
+eips -c
+eips -c
+
+<span class="k">if</span> wget http://www.example.com/wetter/forecast.png<span class="p">;</span> <span class="k">then</span>
+  eips -g forecast.png
+<span class="k">else</span>
+  eips -g error.png
+<span class="k">fi</span>
+</pre>
 </div>
 </div>
-<div class="section" id="setup-des-servers">
-<h2>Setup des Servers</h2>
+<div class="section" id="setup-des-wetter-servers">
+<h2>Setup des Wetter-Servers</h2>
 <p>Beim Einrichten des Servers ist mir aufgefallen, wir schwer es ist, an deutsche
 Wetterdaten zu kommen:  als Web-Service, den ich ohne Anmeldung einfach
 aufrufen kann. Ich habe mich dann für einen etwas umständlichen Weg entschieden:
@@ -199,10 +239,10 @@ und das Ergebnisbild auf einem lokalen Webserver abgelegt.</p>
 <span class="nv">OUTPNG</span><span class="o">=</span>forecast.png
 <span class="nv">OUTSVG</span><span class="o">=</span>forecast.svg
 
-<span class="c1"># Download pdf with forecast
+<span class="c1"># Download PDF with forecast
 </span>wget -O <span class="nv">$OUTPDF</span> <span class="nv">$PDFURL</span>
 
-<span class="c1"># convert to svg
+<span class="c1"># convert to SVG
 </span>inkscape --without-gui --file<span class="o">=</span><span class="nv">$OUTPDF</span> --export-plain-svg<span class="o">=</span><span class="nv">$OUTSVG</span>
 
 <span class="c1"># change viewbox size in SVG file
@@ -224,7 +264,7 @@ pngcrush -c <span class="m">0</span> -ow <span class="nv">$OUTPNG</span>
 <p>Mein Projekt fußt auf dem Projekt <a class="reference external" href="https://mpetroff.net/2012/09/kindle-weather-display/">Kindle Weather
 Display</a> von Matthew Petroff
 und der <a class="reference external" href="http://www.shatteredhaven.com/2012/11/1347365-kindle-weather-display.html">Anleitung &quot;Kindle Weather Display&quot; von
-Jennifer</a></p>
+Jennifer</a>.</p>
 </div>
 
             </div>
