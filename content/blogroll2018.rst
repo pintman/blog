@@ -6,9 +6,13 @@ Blogroll 2018
 :slug: blogroll2018
 :status: draft
 
-.. image:: {filename}images/2018/07/ocal.svg
-   :alt: Offenes Buch (https://openclipart.org/detail/135727/ocal)
-   :width: 50%
+.. figure:: {filename}images/2018/07/old_woman_reading.jpg
+   :alt: Alte Frau liest
+   :width: 75%
+
+   (Quelle: CC-BY 
+   `Wellcome Collection <https://wellcomecollection.org/works/kr7fr5sb>`_)
+
 
 Das letzte mal habe ich `2008 <{filename}blogroll.rst>`_ über 
 regelmäßig von mir konsumierte Blogs geschrieben. Seitdem hat sich
