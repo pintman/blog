@@ -6,10 +6,13 @@ Wetter-Monitor mit einem Kindle
 :slug: kindle_wetter_monitor
 :status: draft
 
-.. image:: {filename}images/2018/07/kindle_weather_display.jpg
-   :alt: Kindle mit Wetteranzeige
+
+.. figure:: {filename}images/2018/07/weather.jpg
+   :alt: Alte Frau liest
    :width: 100%
 
+   (Quelle: CC-BY 
+   `Wellcome Collection <https://wellcomecollection.org/works/yxu44y6d>`_)
 
 E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere
 Modelle bekommt man für wenig Geld.
@@ -20,6 +23,10 @@ Strom.
 
 Setup des Kindle
 ----------------
+
+.. image:: {filename}images/2018/07/kindle_weather_display.jpg
+   :alt: Kindle mit Wetteranzeige
+   :width: 100%
 
 In einem kleinen Projekt wollte ich mich eines 
 `Kindle-Keyboard <https://de.wikipedia.org/wiki/Amazon_Kindle#Kindle_Keyboard_(3._Generation)>`_ 
@@ -78,8 +85,8 @@ steht die Abkürzung für *e ink postscript*. Damit
 kann man den Bildschirm löschen, Text und auch Bilder anzeigen.
 
 
-Setup des Servers
------------------
+Setup des Wetter-Servers
+------------------------
 
 Beim Einrichten des Servers ist mir aufgefallen, wir schwer es ist, an deutsche
 Wetterdaten zu kommen:  als Web-Service, den ich ohne Anmeldung einfach
@@ -102,10 +109,10 @@ und das Ergebnisbild auf einem lokalen Webserver abgelegt.
   OUTPNG=forecast.png
   OUTSVG=forecast.svg
   
-  # Download pdf with forecast
+  # Download PDF with forecast
   wget -O $OUTPDF $PDFURL
   
-  # convert to svg
+  # convert to SVG
   inkscape --without-gui --file=$OUTPDF --export-plain-svg=$OUTSVG
   
   # change viewbox size in SVG file
@@ -130,5 +137,6 @@ Die Schultern der Giganten
 Mein Projekt fußt auf dem Projekt `Kindle Weather 
 Display <https://mpetroff.net/2012/09/kindle-weather-display/>`_ von Matthew Petroff
 und der `Anleitung "Kindle Weather Display" von 
-Jennifer <http://www.shatteredhaven.com/2012/11/1347365-kindle-weather-display.html>`_
+Jennifer 
+<http://www.shatteredhaven.com/2012/11/1347365-kindle-weather-display.html>`_.
 
