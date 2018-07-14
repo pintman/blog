@@ -10,11 +10,12 @@ Blogroll 2018
    :alt: Offenes Buch (https://openclipart.org/detail/135727/ocal)
    :width: 50%
 
-Das letzte mal habe ich `2008 <{filename}blogroll.rst>`_ über mein
-regelmäßig konsumierten Blogs geschrieben. Seitdem hat sich einiges getan und
+Das letzte mal habe ich `2008 <{filename}blogroll.rst>`_ über 
+regelmäßig von mir konsumierte Blogs geschrieben. Seitdem hat sich
+viel getan und
 die Liste der Blogs, die ich regelmäßig lese ist weiterhin angewachsen.
 
-Für das Lesen von Feeds benutze ich das feine Tool
+Für das Lesen von Feeds benutze ich 
 `feed2imap <https://github.com/feed2imap/feed2imap>`_. Es wird mit den 
 Feeds konfiguriert und sortiert diese in IMAP-Ordner eines separaten
 E-Mail-Kontos ein. So kann ich mit Thunderbird am Schreibtisch, K9 unter
@@ -58,7 +59,7 @@ Bildung
 Fefe
 ----
 
-Fefes Blog passt nicht so richtig in irgendeine Kategorie und hat genug 
+Fefes Blog lässt sich nur schwer kategorisieren und hat genug 
 Output für eine eigene Kategorie.
 
 - `Fefes Blog <http://blog.fefe.de/rss.xml?html>`_
@@ -89,13 +90,13 @@ IT
 - `Blog der OpenRheinRuhr <http://openrheinruhr.de/feed/>`_
 - `CCC Event Weblog <http://events.ccc.de/feed/>`_
 - `Chaos Computer Club: Updates <http://www.ccc.de/rss/updates.rdf>`_
-- `Chaosseminar - MP3  <http://archiv.ulm.ccc.de/feeds/cs_mp3.xml>`_
+- `Chaosseminar CCC Ulm - MP3  <http://archiv.ulm.ccc.de/feeds/cs_mp3.xml>`_
 - `Chaostreff-Dortmund <http://www.chaostreff-dortmund.de/feed/>`_
 - `Digitalcourage e.V. <http://digitalcourage.de/rss.xml>`_
-- `Docker Pirates ARMed with explosive stuff <https://blog.hypriot.com/index.xml>`_
+- `Docker Pirates - ARMed with explosive stuff <https://blog.hypriot.com/index.xml>`_
 - `easterhegg <http://www.easterhegg.eu/feed/>`_
 - `FreeBSDNews.com <http://www.freebsdnews.net/feed/>`_
-- `GI e.V : Aktuelle Meldungen <http://www.gi.de/aktuelles/rss.xml>`_
+- `GI e.V : Aktuelle Meldungen <http://www.gi.de/aktuelles/meldungen/rss.xml>`_
 - `heise Security <http://www.heise.de/security/news/news-atom.xml>`_
 - `Jeff Geerling's Blog <http://www.midwesternmac.com/feed.xml>`_
 - `Linux-Magazin Online News <http://www.linux-magazin.de/rss/feed/news>`_
@@ -135,7 +136,7 @@ Mathematik
 Medien
 ------
 
-- `Technolust since 2005 <http://www.hak5.org/feed>`_
+- `hak5 - technolust since 2005 <http://www.hak5.org/feed>`_
 - `3sat.scobel: Mediathek-Beiträge <http://www.3sat.de/mediathek/rss/mediathek_scobel.xml>`_
 - `Cinemassacre Productions <http://feeds2.feedburner.com/Cinemassacrecom>`_
 - `Computerclub Zwei Video-Podcast <http://www.cczwei.de/rss_tvissues.php>`_
