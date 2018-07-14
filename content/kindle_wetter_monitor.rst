@@ -24,10 +24,6 @@ Strom.
 Setup des Kindle
 ----------------
 
-.. image:: {filename}images/2018/07/kindle_weather_display.jpg
-   :alt: Kindle mit Wetteranzeige
-   :width: 100%
-
 In einem kleinen Projekt wollte ich mich eines 
 `Kindle-Keyboard <https://de.wikipedia.org/wiki/Amazon_Kindle#Kindle_Keyboard_(3._Generation)>`_ 
 annehmen, um das Gerät für eigene Anzeigewecke zu ge- bzw. misbrauchen. 
@@ -78,11 +74,56 @@ beschreibbares Dateisystem mounten und anschließend das Cronfile editieren.
 Bilder auf dem Kindle darstellen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: {filename}/images/2018/07/small_kindle_weather_display.jpg
+   :target: {filename}/images/2018/07/kindle_weather_display.jpg
+   :alt: Kindle mit Wetteranzeige
+
 Für die Darstellung von Bildern und Text auf dem Kindle ist das 
 Kommandozeilentool
 `eips <https://wiki.mobileread.com/wiki/Eips>`_ zuständig - vermutlich
 steht die Abkürzung für *e ink postscript*. Damit
-kann man den Bildschirm löschen, Text und auch Bilder anzeigen.
+kann man den Bildschirm löschen, Text und auch Bilder anzeigen. Die genauen
+Parameter sind in der verlinkten Dokumentation gut beschrieben.
+
+Die folgenden Befehle löschen den Bildschirm und zeigen ein Bild an.
+
+.. code:: bash
+   
+   $ eips -c
+   $ eips -g bild.png
+
+Die folgenden Befehle in einer Datei ``init-weather.sh`` deaktivieren
+die Kindle-Software und das Power-Management. Somit geht das Gerät nicht
+in einen Schlafmodus, wenn eine Weile nichts passiert.
+
+.. code:: bash
+
+  #!/bin/sh
+  
+  /etc/init.d/framework stop
+  /etc/init.d/powerd stop
+  /mnt/us/wettermon/display-weather.sh
+
+Im Pfad ``/mnt/us/`` können Daten abgelegt werden, die auch einem
+Neustart überleben. Die Datei ``display-weather.sh`` lädt schließlich
+das Wetterbild herunter und zeigt es an. Der Bildschirm wird zweimal
+gelöscht, um Artefakte und Geisterbilder zu verhindern.
+
+.. code:: bash
+
+  #!/bin/sh
+
+  cd "$(dirname "$0")"
+  
+  rm forecast.png
+  eips -c
+  eips -c
+  
+  if wget http://www.example.com/wetter/forecast.png; then
+    eips -g forecast.png
+  else
+    eips -g error.png
+  fi
 
 
 Setup des Wetter-Servers
