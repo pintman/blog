@@ -6,16 +6,12 @@ Mein Desktop des Monats »
 :slug: mein-desktop-des-monats
 :status: published
 
-.. raw:: html
 
-   <div>
+|image0|
 
-|image0|\ Mein Dekstop im Januar zum Anfang des Jahres. Immer einen
+Mein Dekstop im Januar zum Anfang des Jahres. Immer einen
 Blick wert.
 
-.. raw:: html
-
-   </div>
 
 .. |image0| image:: http://img68.exs.cx/img68/8343/desktop3is.png
    :width: 33.0%

@@ -6,7 +6,9 @@
 :slug: 1-0
 :status: published
 
-|image0|\ Heute war es soweit und ich habe meine letzte Nebenfachprüfung
+|image0|
+
+Heute war es soweit und ich habe meine letzte Nebenfachprüfung
 in meinem Nebenfach Psychologie (Hauptfach Informatik) bei Prof.
 Hellmuth Metz-Göckel (siehe Bild) mit eine Note von 1.0 abgelegt.
 Thematisch drehte sich alles um Motivationspsychologie,
