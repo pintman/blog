@@ -11,7 +11,9 @@ Institution des Internet - aus technischer, kultureller und auch
 historischer Sicht. Ich möchte mit euch eintauchen in diese Welt und sie
 als Nutzer und technisch Interessierter erkunden.**
 
-|ic_chat_black_48dp|\ Meine `digitale
+|ic_chat_black_48dp|
+
+Meine `digitale
 Emanzipation <{filename}digitale-emanzipation.rst>`__
 schreitet voran: Nachdem ich `meinen
 Server <{filename}my-home-is-my-server.rst>`__ in die

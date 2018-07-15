@@ -6,7 +6,9 @@ Eine öffentliche und verteilte Bibliothek
 :slug: eine-oeffentliche-und-verteilte-bibliothek
 :status: published
 
-|book_2|\ Der Vortrag `Public Library/Memory of the World - Access to
+|book_2|
+
+Der Vortrag `Public Library/Memory of the World - Access to
 knowledge for every member of
 society <https://media.ccc.de/v/32c3-7279-public_library_memory_of_the_world>`__,
 der Ende letzten Jahres auf dem 32C3 gehalten wurde, lenkte mein
