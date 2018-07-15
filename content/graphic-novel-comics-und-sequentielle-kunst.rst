@@ -62,10 +62,10 @@ aktuelle Veröffentlichungen zu erhalten.
 |Comics_richtig_lesen|
 
 Nach einem `Blick in den Katalog unserer
-Stadt-Bibliothek <{filename}mitglied-in-der-bibliothek-toll.rst>`__
+Stadt-Bibliothek <{filename}mitglied-in-der-bibliothek-toll.rst>`_
 weiß ich: hier bekomme ich viele Werke zum kleinen Preis - nämlich
-kostenlos, *`Comics richtig
-lesen <https://de.wikipedia.org/wiki/Comics_richtig_lesen>`__* von Scott
+kostenlos, `Comics richtig
+lesen <https://de.wikipedia.org/wiki/Comics_richtig_lesen>`_ von Scott
 McCloud ist eines davon und gilt als Standardwerk der Comicliteratur.
 Aber auch über die Szene hinaus hat das Werk zu Beginn des Jahrhunderts
 starken Einfluss auf die Gestaltung im Web genommen. Es beschreibt
