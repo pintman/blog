@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2018-07-12T22:21:00+02:00</updated><entry><title>Statische Webseiten bei gitlab und github</title><link href="https://blog.bakera.de/statische-webseiten-gitlab-github.html" rel="alternate"></link><published>2018-07-12T22:21:00+02:00</published><updated>2018-07-12T22:21:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-07-12:/statische-webseiten-gitlab-github.html</id><summary type="html">&lt;img alt="Maschine Pipe (https://openclipart.org/detail/300339/machine-pipe)" src="https://blog.bakera.de/images/2018/07/machinepipe.png" /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2018-08-05T13:37:00+02:00</updated><entry><title>Gamejam in Dortmund</title><link href="https://blog.bakera.de/gamejam-in-dortmund.html" rel="alternate"></link><published>2018-08-05T13:37:00+02:00</published><updated>2018-08-05T13:37:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-08-05:/gamejam-in-dortmund.html</id><summary type="html">&lt;img alt="Gamejam-Logo" src="https://blog.bakera.de/images/miniggamejamdo.png" /&gt;
+&lt;p&gt;Am Samstag trotzten ein paar unerschrockene Recken erneut den
+tropischen Temperaturen und versammelten sich im Dortmunder
+Künstlerhaus zu einer neuen Ausgabe des
+&lt;a class="reference external" href="https://game-jam-do.de/"&gt;MiniGameJam&lt;/a&gt;. Neben Pizza, Nudeln und
+Salat ventilierte angenehm kühle Luft durch die Räume und wir
+konnten uns an der Spieleprogrammierung erfreuen.&lt;/p&gt;
+&lt;p&gt;Wir, das waren Reinhard, Dominik und ich …&lt;/p&gt;</summary><content type="html">&lt;img alt="Gamejam-Logo" src="https://blog.bakera.de/images/miniggamejamdo.png" /&gt;
+&lt;p&gt;Am Samstag trotzten ein paar unerschrockene Recken erneut den
+tropischen Temperaturen und versammelten sich im Dortmunder
+Künstlerhaus zu einer neuen Ausgabe des
+&lt;a class="reference external" href="https://game-jam-do.de/"&gt;MiniGameJam&lt;/a&gt;. Neben Pizza, Nudeln und
+Salat ventilierte angenehm kühle Luft durch die Räume und wir
+konnten uns an der Spieleprogrammierung erfreuen.&lt;/p&gt;
+&lt;p&gt;Wir, das waren Reinhard, Dominik und ich, versuchten uns daran, eine kleine
+Flipdot-Anzeige zu einem Spiel zu überrreden. Es sollte eine Variante
+von Guitar-Hero werden, die durch einen Midi-Controller gesteuert
+wird.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/a97wuYli1_Q?rel=0"&gt;&lt;img alt="Video für Flip-Dot-Anzeige" src="https://blog.bakera.de/images/video_thumbnail.png" /&gt;&lt;/a&gt;
+&lt;p&gt;Leider hat es am Ende nicht ganz für ein rundum überzeugendes
+Spielkonzept gereicht und wir haben eine Notlösung umgesetzt - dabei
+aber auch gelernt, dass man vom Einfachen zum Komplexen entwickeln
+sollte.&lt;/p&gt;
+&lt;p&gt;Weiterhin gab es ein Spiel, bei dem Planeten mit Bedürfnissen
+von Satelliten umkreist wurden, ein Koop-Jump'n'Run und fragmentarische
+Entwicklungen an weiteren Spielen.&lt;/p&gt;
+&lt;p&gt;Ich freue mich auf die versprochene nächste Ausgabe in 3 Monaten.&lt;/p&gt;
+</content><category term="Programmierung"></category><category term="Spaß"></category><category term="Spiele"></category></entry><entry><title>Statische Webseiten bei gitlab und github</title><link href="https://blog.bakera.de/statische-webseiten-gitlab-github.html" rel="alternate"></link><published>2018-07-12T22:21:00+02:00</published><updated>2018-07-12T22:21:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-07-12:/statische-webseiten-gitlab-github.html</id><summary type="html">&lt;img alt="Maschine Pipe (https://openclipart.org/detail/300339/machine-pipe)" src="https://blog.bakera.de/images/2018/07/machinepipe.png" /&gt;
 &lt;p&gt;Webseiten gibt es viele. Das Internet ist voll davon.
 Doch, wie kann man einfach und schnell eine eigene Webseite
 aufsetzen und betreiben? Verschiedene Hoster bieten Pakete an, doch in
@@ -1692,23 +1719,4 @@ drei o. weniger Bewerber kommen. Schräge Begriffsdefinition
 #thinstation #rpitc #thinclient /home/bakera/blog
 &lt;a class="reference external" href="https://blog.bakera.de/remote-desktops.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="Linkliste"></category></entry><entry><title>Wie produziert man heute ein C64-Spiel?</title><link href="https://blog.bakera.de/wie-produziert-man-heute-ein-c64-spiel.html" rel="alternate"></link><published>2017-11-30T21:12:00+01:00</published><updated>2017-11-30T21:12:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2017-11-30:/wie-produziert-man-heute-ein-c64-spiel.html</id><summary type="html">&lt;p&gt;&lt;img alt="image0" class="alignnone wp-image-2126 size-medium" src="https://blog.bakera.de/images/2017/11/Planet2X-e1512072629664-300x248.png" style="width: 300px; height: 248px;" /&gt;&lt;/p&gt;
-&lt;p&gt;Früher wurden Spiele für den C64 in Schachteln ausgeliefert. Die
-Schachtel kaufte man im Laden und darin befand sich eine Diskette oder
-Kassette sowie eine Anleitung. Aber wie produziert man ein Spiel für den
-C64 heutzutage? Der 8-Bit-Guy hat das Spiel &lt;a class="reference external" href="http://www.the8bitguy.com/product/planet-x2-commodore-64/"&gt;Planet
-X2&lt;/a&gt; für
-den C64 selbst produziert - inklusive Soundtrack …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="image0" class="alignnone wp-image-2126 size-medium" src="https://blog.bakera.de/images/2017/11/Planet2X-e1512072629664-300x248.png" style="width: 300px; height: 248px;" /&gt;&lt;/p&gt;
-&lt;p&gt;Früher wurden Spiele für den C64 in Schachteln ausgeliefert. Die
-Schachtel kaufte man im Laden und darin befand sich eine Diskette oder
-Kassette sowie eine Anleitung. Aber wie produziert man ein Spiel für den
-C64 heutzutage? Der 8-Bit-Guy hat das Spiel &lt;a class="reference external" href="http://www.the8bitguy.com/product/planet-x2-commodore-64/"&gt;Planet
-X2&lt;/a&gt; für
-den C64 selbst produziert - inklusive Soundtrack, Schachtel, Grafiken,
-Anleitung und Vertrieb. Den Prozess der Entwicklung hat er in dem
-kurzweiligen Video &lt;a class="reference external" href="https://youtu.be/NB_VBl7ut9Y"&gt;Planet X2 for the Commodore
-64&lt;/a&gt; dokumentiert. Hier fließen
-Entscheidungen darüber, wie die 64 kB RAM des C64 genutzt werden können,
-ebenso ein wie das Beta-Testing und die Bestellung und Produktion von
-Disketten.&lt;/p&gt;
-</content><category term="Programmierung"></category><category term="Spiele"></category><category term="Tipp"></category><category term="Video"></category></entry></feed>
+</content><category term="Linkliste"></category></entry></feed>
