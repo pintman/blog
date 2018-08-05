@@ -34,6 +34,11 @@ definition
 :anderes Feld:
   Mit anderem Inhalt
 
+
+.. image:: {filename}images/godel.png
+   :alt: ein Bild
+
+
 ::
 
   Der Block
