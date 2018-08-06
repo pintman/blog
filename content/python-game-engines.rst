@@ -30,7 +30,7 @@ Python Game-Engines im Vergleich
   `geplant <https://github.com/lordmauve/pgzero/issues/70>`_)
 
 
-`Cocos2d <http://cocos2d-x.org>`_
+`Cocos2d <http://cocos2d.org>`_
 ----------------------------------
 
 :Pro:
