@@ -22,7 +22,8 @@ Python Game-Engines im Vergleich
 --------------------------------------------------
 
 :Pro: 
-  Abstraktion von Pygame, durchdachte API
+  Abstraktion von Pygame, durchdachte API, automatische Ressourcenverwaltung
+  für Bilder und Sounds.
 
 :Contra: 
   kein Gamepad Support (aber 
