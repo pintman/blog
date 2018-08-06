@@ -34,10 +34,12 @@ Python Game-Engines im Vergleich
 
 :Pro:
   Professionelle Erscheinung, breite Toolunterstützung, Unterstützung
-  für viele Prog.sprachen neben Pyhon, Game-Engine vom Spieledesigner getrennt
+  für viele Prog.sprachen neben Pyhon, Game-Engine vom Spieledesigner getrennt,
+  Unterstützung für mehrere Zielplattformen (Desktop und Mobile)
 
 :Contra: 
-  Designer für Spiele nur für Windows und Mac, nicht aber für Linux erhältlich
+  Designer für Spiele nur für Windows und Mac, nicht aber für Linux erhältlich,
+  komplexe API, komplizierte Installation
 
 
 `Arcade Academy <http://arcade.academy/>`_
