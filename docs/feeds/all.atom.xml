@@ -1,5 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2018-08-05T13:37:00+02:00</updated><entry><title>Gamejam in Dortmund</title><link href="https://blog.bakera.de/gamejam-in-dortmund.html" rel="alternate"></link><published>2018-08-05T13:37:00+02:00</published><updated>2018-08-05T13:37:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-08-05:/gamejam-in-dortmund.html</id><summary type="html">&lt;img alt="Gamejam-Logo" src="https://blog.bakera.de/images/miniggamejamdo.png" /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2018-08-07T12:02:00+02:00</updated><entry><title>Python Game-Engines im Vergleich</title><link href="https://blog.bakera.de/python-game-engines.html" rel="alternate"></link><published>2018-08-07T12:02:00+02:00</published><updated>2018-08-07T12:02:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-08-07:/python-game-engines.html</id><summary type="html">&lt;object data="https://blog.bakera.de/images/2018/Gamepad-Black.svg" style="width: 60%;" type="image/svg+xml"&gt;
+Gamepad (Quelle: https://openclipart.org/detail/212647/gamepad-black)&lt;/object&gt;
+&lt;p&gt;Auf der Suche nach einer Spiele-Engine habe ich mir verschiedene Engines
+für Python angeschaut. Die folgende Liste fasst Vor- und Nachteile zusammen.
+Explizit ausgenommen habe ich 3D-Engines wie &lt;em&gt;Blender&lt;/em&gt; oder &lt;em&gt;Panda 3D&lt;/em&gt;.&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;a class="reference external" href="http://pygame.org"&gt;Pygame&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;table class="first last docutils field-list" frame="void" rules="none"&gt;
+&lt;col class="field-name" /&gt;
+&lt;col class="field-body" /&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Pro:&lt;/th&gt;&lt;td class="field-body"&gt;Etabliert und weit verbreitet, Unterstützung für den Raspberry …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/dd&gt;&lt;/dl&gt;</summary><content type="html">&lt;object data="https://blog.bakera.de/images/2018/Gamepad-Black.svg" style="width: 60%;" type="image/svg+xml"&gt;
+Gamepad (Quelle: https://openclipart.org/detail/212647/gamepad-black)&lt;/object&gt;
+&lt;p&gt;Auf der Suche nach einer Spiele-Engine habe ich mir verschiedene Engines
+für Python angeschaut. Die folgende Liste fasst Vor- und Nachteile zusammen.
+Explizit ausgenommen habe ich 3D-Engines wie &lt;em&gt;Blender&lt;/em&gt; oder &lt;em&gt;Panda 3D&lt;/em&gt;.&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;a class="reference external" href="http://pygame.org"&gt;Pygame&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;table class="first last docutils field-list" frame="void" rules="none"&gt;
+&lt;col class="field-name" /&gt;
+&lt;col class="field-body" /&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Pro:&lt;/th&gt;&lt;td class="field-body"&gt;Etabliert und weit verbreitet, Unterstützung für den Raspberry Pi, gut
+dokumentiert, eingebaute Kollisionserkennung, breite
+Hardware-Unterstützung (MIDI, Kamera, CD-ROM)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Contra:&lt;/th&gt;&lt;td class="field-body"&gt;API stellenweise schwer verständlich, wenig OOP, basiert auf SDL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/dd&gt;
+&lt;dt&gt;&lt;a class="reference external" href="http://pygame-zero.readthedocs.io"&gt;Pygame Zero&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;table class="first last docutils field-list" frame="void" rules="none"&gt;
+&lt;col class="field-name" /&gt;
+&lt;col class="field-body" /&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Pro:&lt;/th&gt;&lt;td class="field-body"&gt;Abstraktion basiert auf Pygame, durchdachte API, automatische
+Ressourcenverwaltung für Bilder und Sounds, könnte in Zukunft Pygame ablösen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Contra:&lt;/th&gt;&lt;td class="field-body"&gt;kein Gamepad Support (aber
+&lt;a class="reference external" href="https://github.com/lordmauve/pgzero/issues/70"&gt;geplant&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/dd&gt;
+&lt;dt&gt;&lt;a class="reference external" href="http://cocos2d.org"&gt;Cocos2d&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;table class="first last docutils field-list" frame="void" rules="none"&gt;
+&lt;col class="field-name" /&gt;
+&lt;col class="field-body" /&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Pro:&lt;/th&gt;&lt;td class="field-body"&gt;Professionelle Erscheinung, breite Toolunterstützung, Unterstützung
+für viele Programmiersprachen neben Pyhon, Game-Engine vom Spieledesigner
+getrennt, Unterstützung für mehrere Zielplattformen (Desktop und Mobile)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Contra:&lt;/th&gt;&lt;td class="field-body"&gt;Designer für Spiele nur für Windows und Mac, nicht aber für Linux erhältlich,
+komplexe API, komplizierte Installation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/dd&gt;
+&lt;dt&gt;&lt;a class="reference external" href="http://arcade.academy/"&gt;Arcade Academy&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;table class="first last docutils field-list" frame="void" rules="none"&gt;
+&lt;col class="field-name" /&gt;
+&lt;col class="field-body" /&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Pro:&lt;/th&gt;&lt;td class="field-body"&gt;einfache API, integrierte Physik-Engine, basiert auf OpenGL, viel
+Beispiel-Code.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Contra:&lt;/th&gt;&lt;td class="field-body"&gt;mindestens Python 3.6 notwendig, entwickelt von 1-2 Entwicklern&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;div class="section" id="fazit"&gt;
+&lt;h2&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Derzeit scheint pygame mit seiner langen Tradition der defacto Standard für
+kleine Spiele mit Python-Unterstützung zu sein. Es gibt viele Erweiterungen
+und Dokumentationen an unterschiedlichen Stellen und es gut, die Bibliothek
+zu kennen. Die Frischzellenkur &lt;em&gt;Pygame
+Zero&lt;/em&gt; tritt an, ein würdiger Nachfolger zu werden. Dezeit muss man jedoch
+noch Abstriche bei der Feature-Auswahl machen.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="Programmierung"></category><category term="Python"></category><category term="Spiele"></category></entry><entry><title>Gamejam in Dortmund</title><link href="https://blog.bakera.de/gamejam-in-dortmund.html" rel="alternate"></link><published>2018-08-05T13:37:00+02:00</published><updated>2018-08-05T13:37:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-08-05:/gamejam-in-dortmund.html</id><summary type="html">&lt;img alt="Gamejam-Logo" src="https://blog.bakera.de/images/miniggamejamdo.png" /&gt;
 &lt;p&gt;Am Samstag trotzten ein paar unerschrockene Recken erneut den
 tropischen Temperaturen und versammelten sich im Dortmunder
 Künstlerhaus zu einer neuen Ausgabe des
@@ -1564,159 +1647,4 @@ auf mehrere Bytes zu verteilen. Beginnt ein UTF8-Zeichen mit
 beginnen. Die freien Plätze xxxxxyyyyyy zusammen ergeben damit den
 Eintrag in der Zeichentabelle.&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="Informatik"></category><category term="Video"></category></entry><entry><title>Sammelsurium Oktober - November 2017</title><link href="https://blog.bakera.de/sammelsurium-oktober-november-2017.html" rel="alternate"></link><published>2017-12-02T14:13:00+01:00</published><updated>2017-12-02T14:13:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2017-12-02:/sammelsurium-oktober-november-2017.html</id><summary type="html">&lt;p&gt;&lt;img alt="image0" class="size-full wp-image-1523" src="https://blog.bakera.de/images/2014/12/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/p&gt;
-&lt;p&gt;cc: Freepik&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tweets aus dem Oktober&lt;/strong&gt;&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;Spaß mit Tastaturen und Beamern. &lt;a class="reference external" href="http://keybright.net/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Spaß mit Tastaturen.&amp;nbsp; &lt;a class="reference external" href="http://magickeyboard.io/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Einen #RaspberryPi herunterfahren, indem zwei Pins über einen Jumper
-überbrückt werden.
-&lt;a class="reference external" href="https://github.com/gilyes/pi-shutdown"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Bitcoin Mining: Demnächst auch in Android Apps?!
-&lt;a class="reference external" href="https://blog.fefe.de/?ts=a70a980a"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Erstaunlich, wie weit wir schon einmal mit &amp;quot;Home Automation&amp;quot; waren.
-&lt;a class="reference external" href="https://youtu.be/pm33KB2Th9M"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Diese Vorträge der …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="image0" class="size-full wp-image-1523" src="https://blog.bakera.de/images/2014/12/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/p&gt;
-&lt;p&gt;cc: Freepik&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tweets aus dem Oktober&lt;/strong&gt;&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;Spaß mit Tastaturen und Beamern. &lt;a class="reference external" href="http://keybright.net/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Spaß mit Tastaturen.&amp;nbsp; &lt;a class="reference external" href="http://magickeyboard.io/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Einen #RaspberryPi herunterfahren, indem zwei Pins über einen Jumper
-überbrückt werden.
-&lt;a class="reference external" href="https://github.com/gilyes/pi-shutdown"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Bitcoin Mining: Demnächst auch in Android Apps?!
-&lt;a class="reference external" href="https://blog.fefe.de/?ts=a70a980a"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Erstaunlich, wie weit wir schon einmal mit &amp;quot;Home Automation&amp;quot; waren.
-&lt;a class="reference external" href="https://youtu.be/pm33KB2Th9M"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Diese Vorträge der diesjährigen SHA17 haben mir besonders gut
-gefallen.
-&lt;a class="reference external" href="https://blog.bakera.de/sha17-empfehlungen.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mit 'git bundle' können Änderungen an Repos per Mail oder USB-Stick
-verteilt werden.
-&lt;a class="reference external" href="https://git-scm.com/book/en/v2/Git-Tools-Bundling"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Der Nerd erklärt das Internet in überraschend eloquenten Worten.
-#AVGN&amp;nbsp; &lt;a class="reference external" href="https://youtu.be/x4hktqhBpzY?t=3m52s"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;rpitc ist der Versuch, den #RaspberryPi als ThinClient einzusetzen.
-&lt;a class="reference external" href="https://rpitc.blogspot.de/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Clonezilla kann nun Festplatten-Images nicht nur per Multicast,
-sondern auch via Bittorrent verteilen.
-&lt;a class="reference external" href="http://clonezilla.org/lecture-materials/021_LSM_2017/talk/LSM2017-clonezilla-v2.2.pdf"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;#westvisions Coole Location, super Lasershow, durchwachsenes
-Programm, tolle Verpflegung. Wunsch: inhaltlicher Fokus &amp;#64;WestVisions&lt;/li&gt;
-&lt;li&gt;Au weia, WiFi ist kaputt.
-&lt;a class="reference external" href="https://arstechnica.com/information-technology/2017/10/severe-flaw-in-wpa2-protocol-leaves-wi-fi-traffic-open-to-eavesdropping/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Eine Blockchain in Python in unter 50 Zeilen Quelltext. Nicht für den
-produktiven Einsatz aber für das Verständnis.
-&lt;a class="reference external" href="https://github.com/HoussemCharf/FunUtils/blob/master/Blockchain/blockchain.py"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Der nächste &amp;#64;GameJamDortmund findet am 10.2.2018 in Dortmund statt.
-Zeit genug, sich Zeit nehmen. &lt;a class="reference external" href="https://game-jam-do.de/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;TERES-I: ein Laptop zum Selbstbauen. Mit offenen Spezifikationen.
-&lt;a class="reference external" href="https://olimex.wordpress.com/2017/10/12/teres-i-do-it-yourself-open-source-laptop-update/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Ich bin dann auch mal auf dem #hacktoberfest
-&lt;a class="reference external" href="https://hacktoberfest.digitalocean.com/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Ein Open-Soruce-, Open-Hardware-Taschenrechner: NumWorks graphing
-calculator. &lt;a class="reference external" href="https://lwn.net/Articles/734766/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;quot;Never run a changing system.&amp;quot;&lt;/li&gt;
-&lt;li&gt;&amp;quot;The flat earth society has members all around the globe.&amp;quot;&lt;/li&gt;
-&lt;li&gt;Der ewige Kampf &amp;quot;screen&amp;quot; gegen &amp;quot;tmux&amp;quot;... #Linux #nerd&lt;/li&gt;
-&lt;li&gt;Werbung macht dumm! Glaubt ihr nicht.
-&lt;a class="reference external" href="https://twitter.com/timpritlove/status/917432712721465344"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Erst Schummelsoftware im Auto, nun eine Schummelsoftware bei der
-Berechnung der Verbrauche.
-&lt;a class="reference external" href="http://media.ndr.de/download/podcasts/panorama286/TV-20171005-2231-0600.h264.mp4"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Devuan ist ein Fork von Debian, der ohne systemd auskommt.
-&lt;a class="reference external" href="https://devuan.org/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;#RaspberryPi in einem ReadOnly-Modus betreiben und nicht mehr
-herunterfahren müssen: einfach Kabel ziehen.
-&lt;a class="reference external" href="https://learn.adafruit.com/read-only-raspberry-pi/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Hier stehen Atomwaffen in der Welt.
-&lt;a class="reference external" href="https://twitter.com/dpa/status/916248563449040896"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Die ist KEINE Meldung des &amp;#64;Der_Postillon
-&lt;a class="reference external" href="http://mobil.derstandard.at/2000065504181/Radler-als-Opfer-des-Burkaverbots?amplified=true"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Den Nürnberger Trichter gibt es es jetzt auch in einer digitalen,
-deutlich gruseligeren, Version.
-&lt;a class="reference external" href="https://twitter.com/pintman/status/916557344787566592/photo/1"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;#grandioseTitel
-&lt;a class="reference external" href="https://twitter.com/hackover_c3h/status/916340710701453318"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Software, aus öffentlichen Geldern finanziert, sollte Open Source
-sein. Habe den Offenen Brief unterschrieben.
-&lt;a class="reference external" href="https://publiccode.eu/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mit pandoc aus einer Webseite ein Office-Dokument erzeugen: $ pandoc
--f html -t odt -o bakera.de.odt
-&lt;a class="reference external" href="https://www.bakera.de/dokuwiki/doku.php"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Das &amp;quot;Civil Infrastructure Project&amp;quot; will Software entwickeln, die
-Jahrzehnte lang läuft. #FSF &amp;#64;fsf
-&lt;a class="reference external" href="https://www.cip-project.org/about"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Beagle Bone Boards haben eine Echtzeit-CPU (PRU), die man selbst
-programmieren kann.
-&lt;a class="reference external" href="https://www.embeddedrelated.com/showarticle/586.php"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Tweets aus dem November&lt;/strong&gt;&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;Wie produziert man heute ein C64-Spiel? Der 8-Bit-Guy hat es in einem
-kurzweiligen Video festgehalten
-&lt;a class="reference external" href="https://blog.bakera.de/wie-produziert-man-heute-ein-c64-spiel.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;„Hello Sir“ ist eine interessante Podcastserie über Scam
-&lt;a class="reference external" href="https://blog.bakera.de/hello-sir-eine-podcastserie-ueber-scam.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Ein einfacher Domino-Effekt in #Blender und #Python
-&lt;a class="reference external" href="http://slicker.me/blender/domino.htm"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;tuwat #34c3
-&lt;a class="reference external" href="https://events.ccc.de/2017/11/23/34c3-tuwat/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Google erfasst Standortdaten auch wenn Standortdienste deaktiviert
-sind. #android
-&lt;a class="reference external" href="https://qz.com/1131515/google-collects-android-users-locations-even-when-location-services-are-disabled/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;quot;Es wird immer deutlicher, dass wir in einen Realitätszweig abgebogen
-sind, der nicht für den Produktivbetrieb gedacht war.&amp;quot; - fefe&lt;/li&gt;
-&lt;li&gt;Ich vermute es schon länger: die Google-Suche ist kaputt. Ich
-probiere jetzt mal metager.&amp;nbsp; &lt;a class="reference external" href="https://metager.de/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Ein eigener PyPI-Server
-&lt;a class="reference external" href="https://blog.bakera.de/ein-eigener-pypi-server.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Endlich ein wertvoller Debattenbeitrag zur Frage &amp;quot;Wal oder
-Riesenrad?!&amp;quot;
-&lt;a class="reference external" href="https://twitter.com/clemensetz/status/931902903597568000"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Eine optische Mouse als &amp;quot;Kamera&amp;quot; nutzen.
-&lt;a class="reference external" href="https://youtu.be/bci7Gi05BNc"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Oszilloskop aus einem Laser, Spiegel und zwei Lautsprechern.
-&lt;a class="reference external" href="https://youtu.be/hkgu8wofYyM"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Gestern habe ich zwei Sonnenaufgänge im Sonnenaufgangsautomaten
-erlebt. #RaspberryPi #blicke
-&lt;a class="reference external" href="http://scheinzeitmenschen.eu/scheinzeitmenschen.eu/Sonnenaufgangsautomat.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Danke für die gestrige Verstörung im Theater Rottstr. #alice #bochum
-#youngnrotten&lt;/li&gt;
-&lt;li&gt;Technikverständnis ist eine notwendige Bedingung für Technikkritik.&lt;/li&gt;
-&lt;li&gt;Pauschale Aussagen sind immer falsch.&lt;/li&gt;
-&lt;li&gt;&amp;quot;We got the airplane on Sept. 19, 2016. Two days later, I was
-successful in accomplishing a remote, non-cooperative, penetration,&amp;quot;
-&lt;a class="reference external" href="https://blog.fefe.de/?ts=a4f4833b"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Visualisierung und Erklärung eines Modem Dialup Sound.
-&lt;a class="reference external" href="http://www.windytan.com/2012/11/the-sound-of-dialup-pictured.html?m=1"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;#labortage Danke für die interessanten Vorträge und die schöne
-Stimmung.&lt;/li&gt;
-&lt;li&gt;Auf zu den #labortage n im Bochumer &amp;#64;dasLabor&lt;/li&gt;
-&lt;li&gt;imress!ve macht aus PDF-Dokumenten Präsentationen.
-&lt;a class="reference external" href="http://impressive.sourceforge.net/index.php"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mikrofon in Steckern von Ethernetkabeln - gruselig.
-&lt;a class="reference external" href="https://twitter.com/nblr/status/928526534226391040"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Neuzugang in der Hardwarekiste: zwei ThinClients IGEL D200.
-&lt;a class="reference external" href="https://www.bakera.de/dokuwiki/doku.php/schule/hardwarekiste#igel_d200"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;FAIL = First Attempt In Learning #Fehlerkultur&lt;/li&gt;
-&lt;li&gt;Es ist lange her seit ich die letzte Ausgabe gelesen habe. #retro
-#amiga
-&lt;a class="reference external" href="https://twitter.com/kultpower/status/926821818941390848"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Neuzugang in der Hardwarekiste: ein ThinClient von Fujitsu
-&lt;a class="reference external" href="https://www.bakera.de/dokuwiki/doku.php/schule/hardwarekiste?�_fujitsu_futro_s450-2"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Arbeitsamt spricht von Bewerbermangel wenn auf eine offene Stelle
-drei o. weniger Bewerber kommen. Schräge Begriffsdefinition
-&amp;#64;AufwachenPod&lt;/li&gt;
-&lt;li&gt;Kaum ist das #Hacktoberfest vorbei, beginnt auch schon der
-#Makevember&lt;/li&gt;
-&lt;li&gt;&amp;quot;Python is the fastest-growing programming language, and by 2019 will
-... outstrip other languages.&amp;quot;
-&lt;a class="reference external" href="https://www.techrepublic.com/article/which-is-the-fastest-growing-programming-language-hint-its-not-javascript/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Remote Desktops: Mein Erfahrungsbericht #rdp #pxe #x2go #vnc
-#thinstation #rpitc #thinclient /home/bakera/blog
-&lt;a class="reference external" href="https://blog.bakera.de/remote-desktops.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content><category term="Linkliste"></category></entry></feed>
+</content><category term="Informatik"></category><category term="Video"></category></entry></feed>
