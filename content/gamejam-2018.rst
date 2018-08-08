@@ -11,7 +11,13 @@ Gamejam in Dortmund
 Am Samstag trotzten ein paar unerschrockene Recken erneut den 
 tropischen Temperaturen und versammelten sich im Dortmunder 
 Künstlerhaus zu einer neuen Ausgabe des 
-`MiniGameJam <https://game-jam-do.de/>`_. Neben Pizza, Nudeln und
+`MiniGameJam <https://game-jam-do.de/>`_ - auch im
+`Juni 2017 <{filename}/klein-aber-fein-der-minigamejam-in-dortmund.rst>`_
+und
+`März 2018 <{filename}/minigamejam-3-gebar-die-starfeetacademy.rst>`_ war
+ich dabei.
+
+Neben Pizza, Nudeln und
 Salat ventilierte angenehm kühle Luft durch die Räume und wir
 konnten uns an der Spieleprogrammierung erfreuen.
 
