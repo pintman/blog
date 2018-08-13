@@ -20,8 +20,9 @@ viel getan und
 die Liste der Blogs, die ich regelmäßig lese ist weiterhin angewachsen.
 
 Für das Lesen von Feeds benutze ich 
-`feed2imap <https://github.com/feed2imap/feed2imap>`_. Es wird mit den 
-Feeds konfiguriert und sortiert diese in IMAP-Ordner eines separaten
+`feed2imap <https://github.com/feed2imap/feed2imap>`_. Es wird mit 
+RSS- oder Atom-Feeds konfiguriert und sortiert neue Beiträge in diesen Feeds
+in IMAP-Ordner eines separaten
 E-Mail-Kontos ein. So kann ich mit Thunderbird am Schreibtisch, K9 unter
 Android oder einem E-Mail-Programm meiner Wahl die Feeds lesen.
 
@@ -41,19 +42,18 @@ Bildung
 - `Christian Spannagels Blog <http://cspannagel.wordpress.com/feed/>`_
 - `das Informatische und die Bildung <http://haukemorisse.de/blog/?feed=rss2>`_
 - `Der Lehrerfreund <http://www.lehrerfreund.de/schule/rss_2.0>`_
-- `Flip your Class! <http://flipyourclass.christian-spannagel.de/feed/>`_
+- `Flip your Class <http://flipyourclass.christian-spannagel.de/feed/>`_
 - `Informaticana <https://informaticanade.wordpress.com/feed/>`_
 - `J&K - Jöran und Konsorten <http://www.joeran.de/feed/>`_
-- `Jugend hackt! <http://jugendhackt.de/feed/>`_
-- `Jugend hackt! » Events <http://jugendhackt.de/events/feed/>`_
+- `Jugend hackt <http://jugendhackt.de/feed/>`_
+- `Jugend hackt » Events <http://jugendhackt.de/events/feed/>`_
 - `Learning in the Social Workplace <http://www.c4lpt.co.uk/blog/feed/>`_
 - `Lehrerzimmer Blog <http://www.herr-rau.de/wordpress/feed>`_
 - `Lehrzeit <http://blog.ingo-bartling.de/feed/>`_
 - `Martina Grosty <http://grosty.de/feed/>`_
 - `Neuigkeiten des Teckids e.V. <https://www.teckids.org/news.rss>`_
-- `Rete-Mirabile.net <http://feeds.feedburner.com/rete-mirabile>`_
+- `Rete-Mirabile.net - Gedanken über Lernen und Schule <http://feeds.feedburner.com/rete-mirabile>`_
 - `riecken.de <http://riecken.de/index.php/feed/>`_
-- `Schwamm drüber <http://ixsi.de/?feed=rss2>`_
 - `Zurück in die Schule - zurück in die Zukunft <http://zurueckindieschule.wordpress.com/feed/>`_
 - `OpenTechSchool <http://blog.opentechschool.org/atom.xml>`_
 - `Teach Computing <http://teachcomputing.wordpress.com/feed/>`_
@@ -72,7 +72,7 @@ Output für eine eigene Kategorie.
 Freunde und Bekannte
 --------------------
 
-- `Wiki Gummlich <http://elektro.schule/feed.php>`_
+- `Wiki elektro.schule <http://elektro.schule/feed.php>`_
 - `Claims Logfile 2.0 <http://www.claimaster.de/index.php?/feeds/index.rss2>`_
 - `Frickelnd durchs Leben <http://frickeltipps.blogspot.com/feeds/posts/default>`_
 - `maikmerten <http://maikmerten.livejournal.com/data/atom>`_
@@ -135,7 +135,7 @@ Lokales
 Mathematik
 ----------
 
-- `www.flippedmathe.de Blog Feed <http://www.flippedmathe.de/rss/blog>`_
+- `www.flippedmathe.de <http://www.flippedmathe.de/rss/blog>`_
 
 Medien
 ------
@@ -165,7 +165,7 @@ Medien
 News
 ----
 
-- `G! gutjahrs blog <http://gutjahr.biz/feed/>`_
+- `gutjahrs blog <http://gutjahr.biz/feed/>`_
 - `netzpolitik.org <http://netzpolitik.org/feed/>`_
 - `Edge.org <https://www.edge.org/feed>`_
 
