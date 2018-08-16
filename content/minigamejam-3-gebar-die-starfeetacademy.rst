@@ -25,6 +25,9 @@ gemacht hast. :) Mittlerweile gibt es sogar eine `Umsetzung für
 Android <https://play.google.com/store/search?q=Stoon82&c=apps&hl=de>`__.
 Der nächste Termin steht auch schon fest: am 12. Mai geht es weiter.
 
+**Update:** Quelltext und Musik sind nun bei 
+`archive.org <https://archive.org/details/starfeet-academy>`_ verfügbar.
+
 |image1|
 
 .. |image0| image:: {filename}images/2018/02/starfeet-768x1024.jpg
