@@ -24,7 +24,8 @@ konnten uns an der Spieleprogrammierung erfreuen.
 Wir, das waren Reinhard, Dominik und ich, versuchten uns daran, eine kleine
 Flipdot-Anzeige zu einem Spiel zu überrreden. Es sollte eine Variante 
 von Guitar-Hero werden, die durch einen Midi-Controller gesteuert 
-wird.
+wird. Wir nannten das Projekt daher kurz 
+`FlipDotHero <https://gist.github.com/pintman/52cd40876946c0e0b08f3ee92297af95>`_.
 
 .. image:: {filename}images/video_thumbnail.png
    :alt: Video für Flip-Dot-Anzeige
