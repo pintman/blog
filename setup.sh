@@ -14,6 +14,8 @@ test -d pelican-plugins || git clone https://github.com/getpelican/pelican-plugi
 test -d pelican-themes || git clone https://github.com/getpelican/pelican-themes
 
 # setup pelican comment system
+# https://github.com/getpelican/pelican-plugins/tree/master/pelican_comment_system
+#
 THEMEDIR=pelican-themes/pelican-bootstrap3
 PCSDIR=pelican-plugins/pelican_comment_system
 mkdir -p  $THEMEDIR/templates/pcs
@@ -22,6 +24,3 @@ cp $PCSDIR/theme/templates/pcs/comments.html $THEMEDIR/templates/pcs/comments.ht
 cp $PCSDIR/theme/static/js/comments.js      $THEMEDIR/static/js/comments.js
 # copy local version of article template
 cp theme.local/article.html $THEMEDIR/templates/
-
-# FIX for https://github.com/getpelican/pelican-plugins/pull/1044
-cp theme.local/comments.html $THEMEDIR/templates/pcs/comments.html
