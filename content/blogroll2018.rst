@@ -1,10 +1,10 @@
 Blogroll 2018
 =============
-:date: 2018-01-03 12:20
+:date: 2018-10-23 08:20
 :author: marco.bakera
 :tags: bloggen, Linkliste
 :slug: blogroll2018
-:status: draft
+:status: published
 
 .. figure:: {filename}images/2018/07/old_woman_reading.jpg
    :alt: Alte Frau liest
@@ -14,17 +14,16 @@ Blogroll 2018
    `Wellcome Collection <https://wellcomecollection.org/works/kr7fr5sb>`_)
 
 
-Das letzte mal habe ich `2008 <{filename}blogroll.rst>`_ über 
-regelmäßig von mir konsumierte Blogs geschrieben. Seitdem hat sich
-viel getan und
-die Liste der Blogs, die ich regelmäßig lese ist weiterhin angewachsen.
+Das letzte mal habe ich `2008 <{filename}blogroll.rst>`_ über regelmäßig von
+mir konsumierte Blogs geschrieben. Seitdem hat sich viel getan und die Liste
+der Blogs, die ich regelmäßig lese ist weiterhin angewachsen.
 
-Für das Lesen von Feeds benutze ich 
-`feed2imap <https://github.com/feed2imap/feed2imap>`_. Es wird mit 
-RSS- oder Atom-Feeds konfiguriert und sortiert neue Beiträge in diesen Feeds
-in IMAP-Ordner eines separaten
-E-Mail-Kontos ein. So kann ich mit Thunderbird am Schreibtisch, K9 unter
-Android oder einem E-Mail-Programm meiner Wahl die Feeds lesen.
+Für das Lesen von Feeds benutze ich das Tool 
+`feed2imap <https://github.com/feed2imap/feed2imap>`_. 
+Es wird mit  RSS- oder Atom-Feeds gefüttert und sortiert neue Beiträge in
+diesen Feeds in IMAP-Ordner eines separaten E-Mail-Kontos ein. So kann ich mit
+Thunderbird am Schreibtisch, K9 unter Android oder einem E-Mail-Programm
+meiner Wahl die Feeds lesen.
 
 Ich habe die verschiedenen Feeds in Kategorien eingeteilt. Manche Feeds
 erhalten nur sehr selten neue Inhalte (vielleicht nur einmal jährlich),
@@ -43,7 +42,6 @@ Bildung
 - `das Informatische und die Bildung <http://haukemorisse.de/blog/?feed=rss2>`_
 - `Der Lehrerfreund <http://www.lehrerfreund.de/schule/rss_2.0>`_
 - `Flip your Class <http://flipyourclass.christian-spannagel.de/feed/>`_
-- `Informaticana <https://informaticanade.wordpress.com/feed/>`_
 - `J&K - Jöran und Konsorten <http://www.joeran.de/feed/>`_
 - `Jugend hackt <http://jugendhackt.de/feed/>`_
 - `Jugend hackt » Events <http://jugendhackt.de/events/feed/>`_
@@ -77,13 +75,15 @@ Freunde und Bekannte
 - `Frickelnd durchs Leben <http://frickeltipps.blogspot.com/feeds/posts/default>`_
 - `maikmerten <http://maikmerten.livejournal.com/data/atom>`_
 
-Hackig
-------
+Hacking
+-------
 
 - `c't Hacks <http://www.heise.de/hardware-hacks/rss/hardware-hacks-atom.xml>`_
 - `Hack Im Pott <http://hackimpott.de/feed.xml>`_
 - `Hackaday <http://feeds2.feedburner.com/hackaday/LgoM>`_
 - `Hackster.io Blog <https://blog.hackster.io/feed>`_
+- `Hacker News <https://news.ycombinator.com/rss>`_
+- `cpu.ccc.de <https://cpu.ccc.de/feed/>`_
 
 IT
 --
@@ -105,7 +105,7 @@ IT
 - `Jeff Geerling's Blog <http://www.midwesternmac.com/feed.xml>`_
 - `Linux-Magazin Online News <http://www.linux-magazin.de/rss/feed/news>`_
 - `Mikrocontroller.net News <http://www.mikrocontroller.net/newsfeed>`_
-- `Pi and More <https://piandmore.de/rss/feed/de>`_
+- `Pi and More <https://piandmore.de/de/news/feed/>`_
 - `Pro-Linux aktuell <http://www.pro-linux.de/NB3/rss/2/4/atom_aktuell.xml>`_
 - `Raspberry Pi @heise <http://www.heise.de/thema/Raspberry-Pi?view=atom>`_
 - `chaospott - wir sind da wat am hacken dran... <http://chaospott.de/feed.xml>`_
@@ -123,7 +123,6 @@ Lokales
 -------
 
 - `Digitalcourage <https://digitalcourage.de/taxonomy/term/531/feed>`_
-- `Hochschule Bochum Aktuelle Meldungen <http://www.hochschule-bochum.de/campus/rss.xml>`_
 - `LABOR Bochum: Termine <https://www.das-labor.org/termine.rss>`_
 - `das labor <http://www.das-labor.org/?feed=rss2>`_
 - `Studentenorchester Dortmund » Feed <http://studentenorchester.tu-dortmund.de/feed/>`_
