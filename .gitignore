@@ -1,5 +1,6 @@
 output/
 __pycache__/
+.vscode/
 ftpup.sh
 venv/
 pelican.pid
