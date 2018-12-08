@@ -9,18 +9,18 @@
 
 
 
-<link rel="canonical" href="https://blog.bakera.de/drafts/kindle_wetter_monitor.html">
+<link rel="canonical" href="https://blog.bakera.de/kindle_wetter_monitor.html">
 
         <meta name="author" content="marco.bakera" />
         <meta name="keywords" content="Hacking,Hardware" />
-        <meta name="description" content="(Quelle: CC-BY Wellcome Collection) E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere Modelle bekommt man für wenig Geld. Genau diese Kombination machen sie so reizvoll, um daraus ein Türschild zu bauen oder, um sie als Wetteranzeige zu verwenden. Die Displays stellen die Informationen sehr scharf dar und verbrauchen …" />
+        <meta name="description" content="E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere Modelle bekommt man für wenig Geld. Genau diese Kombination machen sie so reizvoll, um daraus ein Türschild zu bauen oder, um sie als Wetteranzeige zu verwenden. Die Displays stellen die Informationen sehr scharf dar und verbrauchen nur wenig Strom. Setup …" />
 
         <meta property="og:site_name" content="/home/bakera/blog" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="Wetter-Monitor mit einem Kindle"/>
-        <meta property="og:url" content="https://blog.bakera.de/drafts/kindle_wetter_monitor.html"/>
-        <meta property="og:description" content="(Quelle: CC-BY Wellcome Collection) E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere Modelle bekommt man für wenig Geld. Genau diese Kombination machen sie so reizvoll, um daraus ein Türschild zu bauen oder, um sie als Wetteranzeige zu verwenden. Die Displays stellen die Informationen sehr scharf dar und verbrauchen …"/>
-        <meta property="article:published_time" content="2018-07-03" />
+        <meta property="og:url" content="https://blog.bakera.de/kindle_wetter_monitor.html"/>
+        <meta property="og:description" content="E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere Modelle bekommt man für wenig Geld. Genau diese Kombination machen sie so reizvoll, um daraus ein Türschild zu bauen oder, um sie als Wetteranzeige zu verwenden. Die Displays stellen die Informationen sehr scharf dar und verbrauchen nur wenig Strom. Setup …"/>
+        <meta property="article:published_time" content="2018-12-08" />
             <meta property="article:section" content="Sonstiges" />
             <meta property="article:tag" content="Hacking" />
             <meta property="article:tag" content="Hardware" />
@@ -92,7 +92,7 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="https://blog.bakera.de/drafts/kindle_wetter_monitor.html"
+                    <a href="https://blog.bakera.de/kindle_wetter_monitor.html"
                        rel="bookmark"
                        title="Permalink to Wetter-Monitor mit einem Kindle">
                         Wetter-Monitor mit einem Kindle
@@ -105,7 +105,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2018-07-03T12:20:00+02:00"> Di 03 Juli 2018</time>
+        <i class="fa fa-calendar"></i><time datetime="2018-12-08T16:48:00+01:00"> Sa 08 Dezember 2018</time>
     </span>
 
 
@@ -119,11 +119,7 @@
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <div class="figure">
-<img alt="Alte Frau liest" src="https://blog.bakera.de/images/2018/07/weather.jpg" style="width: 100%;" />
-<p class="caption">(Quelle: CC-BY
-<a class="reference external" href="https://wellcomecollection.org/works/yxu44y6d">Wellcome Collection</a>)</p>
-</div>
+                <a class="reference external image-reference" href="https://blog.bakera.de/images/2018/kindle_weather_display.jpg"><img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/small_kindle_weather_display.jpg" /></a>
 <p>E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere
 Modelle bekommt man für wenig Geld.
 Genau diese Kombination machen sie so reizvoll, um
@@ -156,7 +152,7 @@ ausschließlich etwas mit USB zu tun, sondern richtet auch einen SSH-Server ein.
 Auf diesen kann man sich dann über USB oder Wifi verbinden - sofern der gewählte
 Kindle über Wifi verfügt.
 Nach einem Neustart sollte man den eigenen SSH-Key an der richtigen
-Stelle unter ablegen. Die ausführliche Anleitung im Jailbreak hilft weiter.</p>
+Stelle ablegen. Die ausführliche Jailbreak-Anleitung hilft weiter.</p>
 <p>Nach einem Neustart kann der Kindle in den Debug-Modus versetzt werden. Dazu
 gibt man auf der Home-Seite <tt class="docutils literal">;debugOn</tt> ein. Das USB Network startet man mit
 <tt class="docutils literal">~usbNetwork</tt> . Anschließend kann man sich per SSH mit dem Kindle verbinden.</p>
@@ -170,12 +166,12 @@ der das Bild vom Server herunterlädt und im Vollbild auf dem Kindle anzeigt.</p
 angenommen. Auf dem gewohnten Wege mit <tt class="docutils literal">crontab <span class="pre">-e</span></tt> klappte es zunächst
 nicht. Auch ein direktes Ändern des Cronfiles <tt class="docutils literal">/etc/crontab/root</tt> führte zu
 keinem Ergebnis, da die Datei nicht editierbar ist. Der Grund: das Dateisystem
-wird read-only (nur lesend) eingebunden. Man kann es mit <tt class="docutils literal">mntroot rw</tt> als
-beschreibbares Dateisystem mounten und anschließend das Cronfile editieren.</p>
+wird read-only (nur lesend) eingebunden. Man kann es jedoch mit <tt class="docutils literal">mntroot rw</tt>
+als beschreibbares Dateisystem mounten und anschließend das Cronfile editieren.</p>
 </div>
 <div class="section" id="bilder-auf-dem-kindle-darstellen">
 <h3>Bilder auf dem Kindle darstellen</h3>
-<a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/kindle_weather_display.jpg"><img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/07/small_kindle_weather_display.jpg" /></a>
+<a class="reference external image-reference" href="https://blog.bakera.de/images/2018/kindle_weather_display.jpg"><img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/small_kindle_weather_display.jpg" /></a>
 <p>Für die Darstellung von Bildern und Text auf dem Kindle ist das
 Kommandozeilentool
 <a class="reference external" href="https://wiki.mobileread.com/wiki/Eips">eips</a> zuständig - vermutlich

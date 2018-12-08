@@ -1,5 +1,347 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2018-08-07T12:02:00+02:00</updated><entry><title>Python Game-Engines im Vergleich</title><link href="https://blog.bakera.de/python-game-engines.html" rel="alternate"></link><published>2018-08-07T12:02:00+02:00</published><updated>2018-08-07T12:02:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-08-07:/python-game-engines.html</id><summary type="html">&lt;object data="https://blog.bakera.de/images/2018/Gamepad-Black.svg" style="width: 60%;" type="image/svg+xml"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2018-12-08T16:48:00+01:00</updated><entry><title>Wetter-Monitor mit einem Kindle</title><link href="https://blog.bakera.de/kindle_wetter_monitor.html" rel="alternate"></link><published>2018-12-08T16:48:00+01:00</published><updated>2018-12-08T16:48:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-12-08:/kindle_wetter_monitor.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/kindle_weather_display.jpg"&gt;&lt;img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/small_kindle_weather_display.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere
+Modelle bekommt man für wenig Geld.
+Genau diese Kombination machen sie so reizvoll, um
+daraus ein Türschild zu bauen oder, um sie als Wetteranzeige zu verwenden. Die
+Displays stellen die Informationen sehr scharf dar und verbrauchen nur wenig
+Strom.&lt;/p&gt;
+&lt;div class="section" id="setup-des-kindle"&gt;
+&lt;h2&gt;Setup …&lt;/h2&gt;&lt;/div&gt;</summary><content type="html">&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/kindle_weather_display.jpg"&gt;&lt;img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/small_kindle_weather_display.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere
+Modelle bekommt man für wenig Geld.
+Genau diese Kombination machen sie so reizvoll, um
+daraus ein Türschild zu bauen oder, um sie als Wetteranzeige zu verwenden. Die
+Displays stellen die Informationen sehr scharf dar und verbrauchen nur wenig
+Strom.&lt;/p&gt;
+&lt;div class="section" id="setup-des-kindle"&gt;
+&lt;h2&gt;Setup des Kindle&lt;/h2&gt;
+&lt;p&gt;In einem kleinen Projekt wollte ich mich eines
+&lt;a class="reference external" href="https://de.wikipedia.org/wiki/Amazon_Kindle#Kindle_Keyboard_(3._Generation)"&gt;Kindle-Keyboard&lt;/a&gt;
+annehmen, um das Gerät für eigene Anzeigewecke zu ge- bzw. misbrauchen.
+Diese Geräte bekommt man für ca. 30-40 € gebraucht bei Ebay und sie
+lassen sich gut mit einem JailBreak öffnen und für eigene Projekte
+umfunktionieren. Das Mobileread-Forum bietet hierfür eine schöne
+&lt;a class="reference external" href="https://wiki.mobileread.com/wiki/Kindle_Hacks_Information#Jail_break_JB"&gt;Anleitung für JailBreak&lt;/a&gt;
+an.&lt;/p&gt;
+&lt;p&gt;Die Kurzform lautet in etwa wie folgt:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Kindle an den USB-Port stöpseln,&lt;/li&gt;
+&lt;li&gt;die richtige Firmware im Wurzelverzeichnis des USB-Laufwerkes ablegen und&lt;/li&gt;
+&lt;li&gt;im Menü &lt;em&gt;HOME &amp;gt; MENU &amp;gt; Settings &amp;gt; MENU &amp;gt; Update your Kindle&lt;/em&gt; die Firmware-Aktualisierung
+auswählen.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Das Prozedere funktioniert erstaunlich einfach und ohne größere Probleme.&lt;/p&gt;
+&lt;div class="section" id="ssh-server-einrichten"&gt;
+&lt;h3&gt;SSH-Server einrichten&lt;/h3&gt;
+&lt;p&gt;Neben dem Jailbreak sollte man das &lt;em&gt;USB-Network&lt;/em&gt; installieren. Der Name ist
+etwas irreführend, hat es doch nicht
+ausschließlich etwas mit USB zu tun, sondern richtet auch einen SSH-Server ein.
+Auf diesen kann man sich dann über USB oder Wifi verbinden - sofern der gewählte
+Kindle über Wifi verfügt.
+Nach einem Neustart sollte man den eigenen SSH-Key an der richtigen
+Stelle ablegen. Die ausführliche Jailbreak-Anleitung hilft weiter.&lt;/p&gt;
+&lt;p&gt;Nach einem Neustart kann der Kindle in den Debug-Modus versetzt werden. Dazu
+gibt man auf der Home-Seite &lt;tt class="docutils literal"&gt;;debugOn&lt;/tt&gt; ein. Das USB Network startet man mit
+&lt;tt class="docutils literal"&gt;~usbNetwork&lt;/tt&gt; . Anschließend kann man sich per SSH mit dem Kindle verbinden.&lt;/p&gt;
+&lt;p&gt;Prinzipiell kann das Geräte nun alles Anzeigen, was sich in Form eines
+PNG-Bildes auf einem Server befindet. Hierfür richtet man einen Cronjob ein,
+der das Bild vom Server herunterlädt und im Vollbild auf dem Kindle anzeigt.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="cronjob-einrichten"&gt;
+&lt;h3&gt;Cronjob einrichten&lt;/h3&gt;
+&lt;p&gt;Das Einrichten des Cronjobs stellte sich komplizierter heraus als zunächst
+angenommen. Auf dem gewohnten Wege mit &lt;tt class="docutils literal"&gt;crontab &lt;span class="pre"&gt;-e&lt;/span&gt;&lt;/tt&gt; klappte es zunächst
+nicht. Auch ein direktes Ändern des Cronfiles &lt;tt class="docutils literal"&gt;/etc/crontab/root&lt;/tt&gt; führte zu
+keinem Ergebnis, da die Datei nicht editierbar ist. Der Grund: das Dateisystem
+wird read-only (nur lesend) eingebunden. Man kann es jedoch mit &lt;tt class="docutils literal"&gt;mntroot rw&lt;/tt&gt;
+als beschreibbares Dateisystem mounten und anschließend das Cronfile editieren.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="bilder-auf-dem-kindle-darstellen"&gt;
+&lt;h3&gt;Bilder auf dem Kindle darstellen&lt;/h3&gt;
+&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/kindle_weather_display.jpg"&gt;&lt;img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/small_kindle_weather_display.jpg" /&gt;&lt;/a&gt;
+&lt;p&gt;Für die Darstellung von Bildern und Text auf dem Kindle ist das
+Kommandozeilentool
+&lt;a class="reference external" href="https://wiki.mobileread.com/wiki/Eips"&gt;eips&lt;/a&gt; zuständig - vermutlich
+steht die Abkürzung für &lt;em&gt;e ink postscript&lt;/em&gt;. Damit
+kann man den Bildschirm löschen, Text und auch Bilder anzeigen. Die genauen
+Parameter sind in der verlinkten Dokumentation gut beschrieben.&lt;/p&gt;
+&lt;p&gt;Die folgenden Befehle löschen den Bildschirm und zeigen ein Bild an.&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+$ eips -c
+$ eips -g bild.png
+&lt;/pre&gt;
+&lt;p&gt;Die folgenden Befehle in einer Datei &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;init-weather.sh&lt;/span&gt;&lt;/tt&gt; deaktivieren
+die Kindle-Software und das Power-Management. Somit geht das Gerät nicht
+in einen Schlafmodus, wenn eine Weile nichts passiert.&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+&lt;span class="ch"&gt;#!/bin/sh
+&lt;/span&gt;
+/etc/init.d/framework stop
+/etc/init.d/powerd stop
+/mnt/us/wettermon/display-weather.sh
+&lt;/pre&gt;
+&lt;p&gt;Im Pfad &lt;tt class="docutils literal"&gt;/mnt/us/&lt;/tt&gt; können Daten abgelegt werden, die auch einem
+Neustart überleben. Die Datei &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;display-weather.sh&lt;/span&gt;&lt;/tt&gt; lädt schließlich
+das Wetterbild herunter und zeigt es an. Der Bildschirm wird zweimal
+gelöscht, um Artefakte und Geisterbilder zu verhindern.&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+&lt;span class="ch"&gt;#!/bin/sh
+&lt;/span&gt;
+&lt;span class="nb"&gt;cd&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;dirname &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$0&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+
+rm forecast.png
+eips -c
+eips -c
+
+&lt;span class="k"&gt;if&lt;/span&gt; wget http://www.example.com/wetter/forecast.png&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="k"&gt;then&lt;/span&gt;
+  eips -g forecast.png
+&lt;span class="k"&gt;else&lt;/span&gt;
+  eips -g error.png
+&lt;span class="k"&gt;fi&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="setup-des-wetter-servers"&gt;
+&lt;h2&gt;Setup des Wetter-Servers&lt;/h2&gt;
+&lt;p&gt;Beim Einrichten des Servers ist mir aufgefallen, wir schwer es ist, an deutsche
+Wetterdaten zu kommen:  als Web-Service, den ich ohne Anmeldung einfach
+aufrufen kann. Ich habe mich dann für einen etwas umständlichen Weg entschieden:
+über den norwegischen Wetterdienst &lt;a class="reference external" href="https://www.yr.no"&gt;YR&lt;/a&gt;. Diese haben
+schöne und &lt;a class="reference external" href="https://www.yr.no/place/Germany/North_Rhine-Westphalia/Bochum/hour_by_hour.html"&gt;übersichtliche Darstellungen - hier z.B.
+für Bochum&lt;/a&gt;.
+Aus einem PDF habe ich mit inkscape ein SVG erzeugt, dieses etwas
+zurechgeschnitten und in ein PNG konvertiert. Hierbei wird das Bild
+gedreht. Zum Schluss wird das PNG in ein Graustufenbild gewandelt und etwas
+komprimiert. Dieser Prozess wird durch einen Cronjob regelmäßig durchgeführt
+und das Ergebnisbild auf einem lokalen Webserver abgelegt.&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+&lt;span class="ch"&gt;#!/bin/bash
+&lt;/span&gt;
+&lt;span class="nv"&gt;PDFURL&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;https://www.yr.no/place/Germany/North_Rhine-Westphalia/Bochum/forecast.pdf
+&lt;span class="nv"&gt;OUTPDF&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;forecast.pdf
+&lt;span class="nv"&gt;OUTPNG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;forecast.png
+&lt;span class="nv"&gt;OUTSVG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;forecast.svg
+
+&lt;span class="c1"&gt;# Download PDF with forecast
+&lt;/span&gt;wget -O &lt;span class="nv"&gt;$OUTPDF&lt;/span&gt; &lt;span class="nv"&gt;$PDFURL&lt;/span&gt;
+
+&lt;span class="c1"&gt;# convert to SVG
+&lt;/span&gt;inkscape --without-gui --file&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$OUTPDF&lt;/span&gt; --export-plain-svg&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$OUTSVG&lt;/span&gt;
+
+&lt;span class="c1"&gt;# change viewbox size in SVG file
+&lt;/span&gt;sed -i -e &lt;span class="s1"&gt;'10s/height=.*/height=&amp;quot;600.0&amp;quot;/'&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;  -e &lt;span class="s1"&gt;'11s/width=.*/width=&amp;quot;800.0&amp;quot;/'&lt;/span&gt;&lt;span class="se"&gt;\
+&lt;/span&gt;  -e &lt;span class="s1"&gt;'9s/viewBox=.*/viewBox=&amp;quot;30 90 700 600&amp;quot;   preserveAspectRatio=&amp;quot;slice&amp;quot;/'&lt;/span&gt;&lt;span class="se"&gt;\
+&lt;/span&gt;  &lt;span class="nv"&gt;$OUTSVG&lt;/span&gt;
+
+rsvg-convert --background-color&lt;span class="o"&gt;=&lt;/span&gt;white -o &lt;span class="nv"&gt;$OUTPNG&lt;/span&gt; &lt;span class="nv"&gt;$OUTSVG&lt;/span&gt;
+&lt;span class="c1"&gt;# rotate landscape image
+&lt;/span&gt;convert &lt;span class="nv"&gt;$OUTPNG&lt;/span&gt; -rotate &lt;span class="s2"&gt;&amp;quot;90&amp;quot;&lt;/span&gt; &lt;span class="nv"&gt;$OUTPNG&lt;/span&gt;
+pngcrush -c &lt;span class="m"&gt;0&lt;/span&gt; -ow &lt;span class="nv"&gt;$OUTPNG&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;Diese Bemühungen sind in einem
+&lt;a class="reference external" href="https://github.com/pintman/wettermonitor"&gt;github repo&lt;/a&gt; beschrieben.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="die-schultern-der-giganten"&gt;
+&lt;h2&gt;Die Schultern der Giganten&lt;/h2&gt;
+&lt;p&gt;Mein Projekt fußt auf dem Projekt &lt;a class="reference external" href="https://mpetroff.net/2012/09/kindle-weather-display/"&gt;Kindle Weather
+Display&lt;/a&gt; von Matthew Petroff
+und der &lt;a class="reference external" href="http://www.shatteredhaven.com/2012/11/1347365-kindle-weather-display.html"&gt;Anleitung &amp;quot;Kindle Weather Display&amp;quot; von
+Jennifer&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="Hacking"></category><category term="Hardware"></category></entry><entry><title>Blogroll 2018</title><link href="https://blog.bakera.de/blogroll2018.html" rel="alternate"></link><published>2018-10-23T08:20:00+02:00</published><updated>2018-10-23T08:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-10-23:/blogroll2018.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;img alt="Alte Frau liest" src="https://blog.bakera.de/images/2018/07/old_woman_reading.jpg" style="width: 75%;" /&gt;
+&lt;p class="caption"&gt;(Quelle: CC-BY
+&lt;a class="reference external" href="https://wellcomecollection.org/works/kr7fr5sb"&gt;Wellcome Collection&lt;/a&gt;)&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Das letzte mal habe ich &lt;a class="reference external" href="https://blog.bakera.de/blogroll.html"&gt;2008&lt;/a&gt; über regelmäßig von
+mir konsumierte Blogs geschrieben. Seitdem hat sich viel getan und die Liste
+der Blogs, die ich regelmäßig lese ist weiterhin angewachsen.&lt;/p&gt;
+&lt;p&gt;Für das Lesen von Feeds benutze ich das Tool
+&lt;a class="reference external" href="https://github.com/feed2imap/feed2imap"&gt;feed2imap&lt;/a&gt;.
+Es wird mit  RSS- oder Atom-Feeds …&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
+&lt;img alt="Alte Frau liest" src="https://blog.bakera.de/images/2018/07/old_woman_reading.jpg" style="width: 75%;" /&gt;
+&lt;p class="caption"&gt;(Quelle: CC-BY
+&lt;a class="reference external" href="https://wellcomecollection.org/works/kr7fr5sb"&gt;Wellcome Collection&lt;/a&gt;)&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Das letzte mal habe ich &lt;a class="reference external" href="https://blog.bakera.de/blogroll.html"&gt;2008&lt;/a&gt; über regelmäßig von
+mir konsumierte Blogs geschrieben. Seitdem hat sich viel getan und die Liste
+der Blogs, die ich regelmäßig lese ist weiterhin angewachsen.&lt;/p&gt;
+&lt;p&gt;Für das Lesen von Feeds benutze ich das Tool
+&lt;a class="reference external" href="https://github.com/feed2imap/feed2imap"&gt;feed2imap&lt;/a&gt;.
+Es wird mit  RSS- oder Atom-Feeds gefüttert und sortiert neue Beiträge in
+diesen Feeds in IMAP-Ordner eines separaten E-Mail-Kontos ein. So kann ich mit
+Thunderbird am Schreibtisch, K9 unter Android oder einem E-Mail-Programm
+meiner Wahl die Feeds lesen.&lt;/p&gt;
+&lt;p&gt;Ich habe die verschiedenen Feeds in Kategorien eingeteilt. Manche Feeds
+erhalten nur sehr selten neue Inhalte (vielleicht nur einmal jährlich),
+während andere Feeds täglich sehr viel Output haben. Bei manchen Feeds
+interessieren mich nur die Titel der Beiträge (etwa der hochfreuqente Blog von
+Hackaday), während ich andere Artikel gerne in Gänze lese. Daher mag die Länge
+der Liste keinen Aufschluss darüber geben, wieviel Inhalt tatsächlich über die
+unterschiedlichen Kanäle generiert wird.&lt;/p&gt;
+&lt;div class="section" id="bildung"&gt;
+&lt;h2&gt;Bildung&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://blog.bildungsserver.de/?feed=rss2"&gt;bildungsserver Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://cspannagel.wordpress.com/feed/"&gt;Christian Spannagels Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://haukemorisse.de/blog/?feed=rss2"&gt;das Informatische und die Bildung&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.lehrerfreund.de/schule/rss_2.0"&gt;Der Lehrerfreund&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://flipyourclass.christian-spannagel.de/feed/"&gt;Flip your Class&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.joeran.de/feed/"&gt;J&amp;amp;K - Jöran und Konsorten&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://jugendhackt.de/feed/"&gt;Jugend hackt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://jugendhackt.de/events/feed/"&gt;Jugend hackt » Events&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.c4lpt.co.uk/blog/feed/"&gt;Learning in the Social Workplace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.herr-rau.de/wordpress/feed"&gt;Lehrerzimmer Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://blog.ingo-bartling.de/feed/"&gt;Lehrzeit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://grosty.de/feed/"&gt;Martina Grosty&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.teckids.org/news.rss"&gt;Neuigkeiten des Teckids e.V.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://feeds.feedburner.com/rete-mirabile"&gt;Rete-Mirabile.net - Gedanken über Lernen und Schule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://riecken.de/index.php/feed/"&gt;riecken.de&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://zurueckindieschule.wordpress.com/feed/"&gt;Zurück in die Schule - zurück in die Zukunft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://blog.opentechschool.org/atom.xml"&gt;OpenTechSchool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://teachcomputing.wordpress.com/feed/"&gt;Teach Computing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://datenschutz-schule.info/feed/"&gt;datenschutz-schule.info&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.pohlers-web.de/feed/"&gt;Boris Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="fefe"&gt;
+&lt;h2&gt;Fefe&lt;/h2&gt;
+&lt;p&gt;Fefes Blog lässt sich nur schwer kategorisieren und hat genug
+Output für eine eigene Kategorie.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://blog.fefe.de/rss.xml?html"&gt;Fefes Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="freunde-und-bekannte"&gt;
+&lt;h2&gt;Freunde und Bekannte&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://elektro.schule/feed.php"&gt;Wiki elektro.schule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.claimaster.de/index.php?/feeds/index.rss2"&gt;Claims Logfile 2.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://frickeltipps.blogspot.com/feeds/posts/default"&gt;Frickelnd durchs Leben&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://maikmerten.livejournal.com/data/atom"&gt;maikmerten&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="hacking"&gt;
+&lt;h2&gt;Hacking&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.heise.de/hardware-hacks/rss/hardware-hacks-atom.xml"&gt;c't Hacks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://hackimpott.de/feed.xml"&gt;Hack Im Pott&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://feeds2.feedburner.com/hackaday/LgoM"&gt;Hackaday&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.hackster.io/feed"&gt;Hackster.io Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://news.ycombinator.com/rss"&gt;Hacker News&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://cpu.ccc.de/feed/"&gt;cpu.ccc.de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="it"&gt;
+&lt;h2&gt;IT&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.ldi.nrw.de/rss-feed/index.html"&gt;LDI NRW&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.stuffaboutcode.com/feeds/posts/default"&gt;Stuff about code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.uberspace.de/rss/"&gt;Uberspace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://openrheinruhr.de/feed/"&gt;Blog der OpenRheinRuhr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://events.ccc.de/feed/"&gt;CCC Event Weblog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.ccc.de/rss/updates.rdf"&gt;Chaos Computer Club: Updates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://archiv.ulm.ccc.de/feeds/cs_mp3.xml"&gt;Chaosseminar CCC Ulm - MP3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.chaostreff-dortmund.de/feed/"&gt;Chaostreff-Dortmund&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://digitalcourage.de/rss.xml"&gt;Digitalcourage e.V.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.hypriot.com/index.xml"&gt;Docker Pirates - ARMed with explosive stuff&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.easterhegg.eu/feed/"&gt;easterhegg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.freebsdnews.net/feed/"&gt;FreeBSDNews.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.gi.de/aktuelles/meldungen/rss.xml"&gt;GI e.V : Aktuelle Meldungen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.heise.de/security/news/news-atom.xml"&gt;heise Security&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.midwesternmac.com/feed.xml"&gt;Jeff Geerling's Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.linux-magazin.de/rss/feed/news"&gt;Linux-Magazin Online News&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.mikrocontroller.net/newsfeed"&gt;Mikrocontroller.net News&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://piandmore.de/de/news/feed/"&gt;Pi and More&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.pro-linux.de/NB3/rss/2/4/atom_aktuell.xml"&gt;Pro-Linux aktuell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.heise.de/thema/Raspberry-Pi?view=atom"&gt;Raspberry Pi &amp;#64;heise&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://chaospott.de/feed.xml"&gt;chaospott - wir sind da wat am hacken dran...&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://media.ccc.de/updates.rdf"&gt;Chaos Computer Club - recent events feed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://toplap.org/feed/"&gt;TOPLAP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.gitea.io/index.xml"&gt;gitea&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://rss.acm.org/technews/TechNews.xml"&gt;ACM TechNews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://feeds.feedburner.com/ChocolateyBlog"&gt;Chocolatey Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://hboeck.de/rss.xml"&gt;Hanno Böck&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.hypriot.com/index.xml"&gt;HypriotOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.raspberrypi.org/blog/feed/"&gt;Raspberry Pi Blog – Raspberry Pi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://feeds.dzone.com/iot"&gt;DZone IoT Zone&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="lokales"&gt;
+&lt;h2&gt;Lokales&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://digitalcourage.de/taxonomy/term/531/feed"&gt;Digitalcourage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.das-labor.org/termine.rss"&gt;LABOR Bochum: Termine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.das-labor.org/?feed=rss2"&gt;das labor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://studentenorchester.tu-dortmund.de/feed/"&gt;Studentenorchester Dortmund » Feed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.dortmunder-u.de/feed"&gt;Dortmunder U – Zentrum für Kunst und Kreativität&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://blog.do-foss.de/feed/"&gt;Do-FOSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://hackandsnack.de/index.xml"&gt;Hack and Snack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.tbs1.de/jcms/index.php?format=feed&amp;amp;type=atom"&gt;TBS1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mathematik"&gt;
+&lt;h2&gt;Mathematik&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.flippedmathe.de/rss/blog"&gt;www.flippedmathe.de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="medien"&gt;
+&lt;h2&gt;Medien&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.hak5.org/feed"&gt;hak5 - technolust since 2005&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.3sat.de/mediathek/rss/mediathek_scobel.xml"&gt;3sat.scobel: Mediathek-Beiträge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://feeds2.feedburner.com/Cinemassacrecom"&gt;Cinemassacre Productions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.cczwei.de/rss_tvissues.php"&gt;Computerclub Zwei Video-Podcast&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.ndr.de/podcast/extradrei196.xml"&gt;Extra3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://mediasteak.com/feed/"&gt;Mediasteak&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://podcast.wdr.de/monitor.xml"&gt;Monitor - zum Mitnehmen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.ndr.de/podcast/panorama286.xml"&gt;Panorama&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.sempervideo.de/?feed=rss2"&gt;SemperVideo.de&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://sysadmincasts.com/feed.rss"&gt;SysadminCasts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.ardmediathek.de/tv/alpha-Centauri/Sendung?documentId=14913006&amp;amp;bcastId=14913006&amp;amp;rss=true"&gt;Videos zu alpha-Centauri | ARD Mediathek&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.ardmediathek.de/tv/SWR3latenight/Sendung?documentId=248886&amp;amp;bcastId=248886&amp;amp;rss=true"&gt;Videos zu SWR3latenight | ARD Mediathek&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.ardmediathek.de/tv/Zapp/Sendung?documentId=3714742&amp;amp;bcastId=3714742&amp;amp;rss=true"&gt;Videos zu Zapp | ARD Mediathek&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.virtualdimension.de/atom.php"&gt;Virtual Dimension Multimedia Produktionen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.feministfrequency.com/feed/"&gt;Feminist Frequency&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://fun.drno.de/changelog/last-42-changes.rdf"&gt;fun.drno.de&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://feeds.feedburner.com/GeekAndPoke"&gt;Geek&amp;amp;Poke&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://glider.ink/atom.xml"&gt;Glider Ink&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://xkcd.com/rss.xml"&gt;xkcd.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://dbate.de/feed/"&gt;dbate – Videos. News. Debatte.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.ferienbande.de/feed/"&gt;Die Ferienbande&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://gutjahr.biz/feed/"&gt;gutjahrs blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://netzpolitik.org/feed/"&gt;netzpolitik.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.edge.org/feed"&gt;Edge.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="programmieren"&gt;
+&lt;h2&gt;Programmieren&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://lambda-the-ultimate.org/rss.xml"&gt;Lambda the Ultimate - Programming Languages Weblog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://joachimtuchel.wordpress.com/feed/"&gt;Joachims Small World (Smalltalk)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://pboop.wordpress.com/feed/"&gt;Pair Blog about OO-Programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://feeds.dzone.com/zones/refcardz"&gt;Refcardz - Free Cheat Sheets for Developers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://news.squeak.org/feed/"&gt;The Weekly Squeak&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://norvig.com/rss-feed.xml"&gt;Peter Norvig&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.blog.pythonlibrary.org/feed/"&gt;Mouse vs. Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pythonbytes.fm/episodes/rss"&gt;Python Bytes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="wissenschaft"&gt;
+&lt;h2&gt;Wissenschaft&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.scilogs.de/datentyp/feed/"&gt;Datentyp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="bloggen"></category><category term="Linkliste"></category></entry><entry><title>Python Game-Engines im Vergleich</title><link href="https://blog.bakera.de/python-game-engines.html" rel="alternate"></link><published>2018-08-07T12:02:00+02:00</published><updated>2018-08-07T12:02:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-08-07:/python-game-engines.html</id><summary type="html">&lt;object data="https://blog.bakera.de/images/2018/Gamepad-Black.svg" style="width: 60%;" type="image/svg+xml"&gt;
 Gamepad (Quelle: https://openclipart.org/detail/212647/gamepad-black)&lt;/object&gt;
 &lt;p&gt;Auf der Suche nach einer Spiele-Engine habe ich mir verschiedene Engines
 für Python angeschaut. Die folgende Liste fasst Vor- und Nachteile zusammen.
@@ -1575,88 +1917,4 @@ Zustands ist z.B. auch kein Game of Life möglich.&lt;/p&gt;
 &lt;a class="reference external" href="https://hackerspaceshop.com/products/blinkenrocket"&gt;Shop&lt;/a&gt; aus dem
 Dunstkreis des Metalab in Wien vertrieben wird - dort allerdings für gut
 investierte 25€.&lt;/p&gt;
-</content><category term="Hardware"></category><category term="Programmierung"></category><category term="34c3"></category></entry><entry><title>34C3 Packliste</title><link href="https://blog.bakera.de/34c3-packliste.html" rel="alternate"></link><published>2017-12-24T14:10:00+01:00</published><updated>2017-12-24T14:10:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2017-12-24:/34c3-packliste.html</id><summary type="html">&lt;p&gt;&lt;img alt="image0" class="alignnone size-full wp-image-2147" src="https://blog.bakera.de/images/2017/12/34c3-tuwat.png" style="width: 289px; height: 168px;" /&gt;&lt;/p&gt;
-&lt;p&gt;Das wichtigste für den Congress in Leipzig - neben unwesentlichen Dingen
-wie einer Unterhose oder Zahnbürste.&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;Aufkleber&lt;/li&gt;
-&lt;li&gt;RasPi&lt;/li&gt;
-&lt;li&gt;Powerbank&lt;/li&gt;
-&lt;li&gt;DECT-Telefon&lt;/li&gt;
-&lt;li&gt;GSM-Handy&lt;/li&gt;
-&lt;li&gt;Batterien AAA&lt;/li&gt;
-&lt;li&gt;LED-Blink-Kram&lt;/li&gt;
-&lt;li&gt;Geräuschsensor&lt;/li&gt;
-&lt;li&gt;microbit&lt;/li&gt;
-&lt;li&gt;Lockpickingset&lt;/li&gt;
-&lt;li&gt;Lupe&lt;/li&gt;
-&lt;li&gt;ESP8266&lt;/li&gt;
-&lt;li&gt;Steckbrücken&lt;/li&gt;
-&lt;li&gt;USB-Kabel&lt;/li&gt;
-&lt;li&gt;USB-Steckladedingens&lt;/li&gt;
-&lt;li&gt;Servomotor&lt;/li&gt;
-&lt;li&gt;Laptop&lt;/li&gt;
-&lt;li&gt;Pegelwandler&lt;/li&gt;
-&lt;/ul&gt;
-</summary><content type="html">&lt;p&gt;&lt;img alt="image0" class="alignnone size-full wp-image-2147" src="https://blog.bakera.de/images/2017/12/34c3-tuwat.png" style="width: 289px; height: 168px;" /&gt;&lt;/p&gt;
-&lt;p&gt;Das wichtigste für den Congress in Leipzig - neben unwesentlichen Dingen
-wie einer Unterhose oder Zahnbürste.&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;Aufkleber&lt;/li&gt;
-&lt;li&gt;RasPi&lt;/li&gt;
-&lt;li&gt;Powerbank&lt;/li&gt;
-&lt;li&gt;DECT-Telefon&lt;/li&gt;
-&lt;li&gt;GSM-Handy&lt;/li&gt;
-&lt;li&gt;Batterien AAA&lt;/li&gt;
-&lt;li&gt;LED-Blink-Kram&lt;/li&gt;
-&lt;li&gt;Geräuschsensor&lt;/li&gt;
-&lt;li&gt;microbit&lt;/li&gt;
-&lt;li&gt;Lockpickingset&lt;/li&gt;
-&lt;li&gt;Lupe&lt;/li&gt;
-&lt;li&gt;ESP8266&lt;/li&gt;
-&lt;li&gt;Steckbrücken&lt;/li&gt;
-&lt;li&gt;USB-Kabel&lt;/li&gt;
-&lt;li&gt;USB-Steckladedingens&lt;/li&gt;
-&lt;li&gt;Servomotor&lt;/li&gt;
-&lt;li&gt;Laptop&lt;/li&gt;
-&lt;li&gt;Pegelwandler&lt;/li&gt;
-&lt;/ul&gt;
-</content><category term="Informatik"></category><category term="Kunst"></category><category term="Programmierung"></category><category term="Spaß"></category><category term="34c3"></category></entry><entry><title>Charset - Encoding - Font</title><link href="https://blog.bakera.de/charset-encoding-font.html" rel="alternate"></link><published>2017-12-09T10:46:00+01:00</published><updated>2017-12-09T10:46:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2017-12-09:/charset-encoding-font.html</id><summary type="html">&lt;p&gt;Immer wieder komme ich mit den Begrifflichkeiten Zeichensatz
-(Characterset), Zeichkodierung (Encoding) und Schriftart (Font)
-durcheinander. Damit scheine ich nicht alleine zu sein. Das Chaosseminar
-Ulm hat daher einen
-&lt;a class="reference external" href="https://ulm.ccc.de/ChaosSeminar/2016/10_charset-encoding-font"&gt;Vortrag&lt;/a&gt;
-mit dem gleichen Titel veröffentlicht, der die Begrifft erklärt.&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;em&gt;Font&lt;/em&gt;: Schriftzeichen, die auf einem Bildschirm oder Papier
-ausgegeben werden - &amp;quot;das, was …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Immer wieder komme ich mit den Begrifflichkeiten Zeichensatz
-(Characterset), Zeichkodierung (Encoding) und Schriftart (Font)
-durcheinander. Damit scheine ich nicht alleine zu sein. Das Chaosseminar
-Ulm hat daher einen
-&lt;a class="reference external" href="https://ulm.ccc.de/ChaosSeminar/2016/10_charset-encoding-font"&gt;Vortrag&lt;/a&gt;
-mit dem gleichen Titel veröffentlicht, der die Begrifft erklärt.&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;em&gt;Font&lt;/em&gt;: Schriftzeichen, die auf einem Bildschirm oder Papier
-ausgegeben werden - &amp;quot;das, was man sieht&amp;quot;. Es werden Bitmap- und
-Proportionalfonts unterschieden. Erstere beschreiben die Zeichen in
-einem Pixelformat, letztere in Kurven.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Characterset&lt;/em&gt;: Alle Zeichen, die relevant zu sein scheinen: nur
-US-amerikanische, Chinesische, Griechische etc. Nicht alle
-Schritftarten unterstützen alle Zeichen und sind in ihrem Umfang
-unterschiedlich groß. Der umfangreichste Zeichensatz ist derzeit
-Unicode. Die Zeichen werden durchnummeriert abgelegt.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Encoding&lt;/em&gt;: Die Beschreibung, wie Zeichen eines Zeichensatzes im
-Rechner in Form von Bitmustern abgelegt werden. Solange maximal ein
-Byte benutzt wird, entspricht die Kodierung genau der Interpretation
-als Ganzzahl in der Zeichentabelle. ASCII (7 Bit) und latin1 (8 Bit)
-machen dies so. Bei mehr als einem Byte pro Zeichen, können die
-Zeichen mit fester oder variabler Anzahl von Bytes kodiert werden.
-Bei fester Anzahl werden für reine ASCII-Buchstaben viele Bytes
-häufig nur mit Nullen befüllt und damit schlecht ausgenutzt. Eine
-variable Breite, wie etwa bei UTF8 genutzt, ermöglicht, ein Zeichen
-auf mehrere Bytes zu verteilen. Beginnt ein UTF8-Zeichen mit
-110xxxxx, so folgen ein oder mehrere Bytes, die mit 10yyyyyy
-beginnen. Die freien Plätze xxxxxyyyyyy zusammen ergeben damit den
-Eintrag in der Zeichentabelle.&lt;/li&gt;
-&lt;/ul&gt;
-</content><category term="Informatik"></category><category term="Video"></category></entry></feed>
+</content><category term="Hardware"></category><category term="Programmierung"></category><category term="34c3"></category></entry></feed>
