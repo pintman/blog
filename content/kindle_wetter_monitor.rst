@@ -1,18 +1,15 @@
 Wetter-Monitor mit einem Kindle
 ===============================
-:date: 2018-07-03 12:20
+:date: 2018-12-08 16:48
 :author: marco.bakera
 :tags: Hacking, Hardware
 :slug: kindle_wetter_monitor
-:status: draft
+:status: published
 
 
-.. figure:: {filename}images/2018/07/weather.jpg
-   :alt: Alte Frau liest
-   :width: 100%
-
-   (Quelle: CC-BY 
-   `Wellcome Collection <https://wellcomecollection.org/works/yxu44y6d>`_)
+.. image:: {filename}/images/2018/small_kindle_weather_display.jpg
+   :target: {filename}/images/2018/kindle_weather_display.jpg
+   :alt: Kindle mit Wetteranzeige
 
 E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere
 Modelle bekommt man für wenig Geld.
@@ -51,7 +48,7 @@ ausschließlich etwas mit USB zu tun, sondern richtet auch einen SSH-Server ein.
 Auf diesen kann man sich dann über USB oder Wifi verbinden - sofern der gewählte
 Kindle über Wifi verfügt.
 Nach einem Neustart sollte man den eigenen SSH-Key an der richtigen
-Stelle unter ablegen. Die ausführliche Anleitung im Jailbreak hilft weiter.
+Stelle ablegen. Die ausführliche Jailbreak-Anleitung hilft weiter.
 
 Nach einem Neustart kann der Kindle in den Debug-Modus versetzt werden. Dazu
 gibt man auf der Home-Seite ``;debugOn`` ein. Das USB Network startet man mit 
@@ -68,14 +65,14 @@ Das Einrichten des Cronjobs stellte sich komplizierter heraus als zunächst
 angenommen. Auf dem gewohnten Wege mit ``crontab -e`` klappte es zunächst
 nicht. Auch ein direktes Ändern des Cronfiles ``/etc/crontab/root`` führte zu
 keinem Ergebnis, da die Datei nicht editierbar ist. Der Grund: das Dateisystem
-wird read-only (nur lesend) eingebunden. Man kann es mit ``mntroot rw`` als
-beschreibbares Dateisystem mounten und anschließend das Cronfile editieren.
+wird read-only (nur lesend) eingebunden. Man kann es jedoch mit ``mntroot rw``
+als beschreibbares Dateisystem mounten und anschließend das Cronfile editieren.
 
 Bilder auf dem Kindle darstellen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: {filename}/images/2018/07/small_kindle_weather_display.jpg
-   :target: {filename}/images/2018/07/kindle_weather_display.jpg
+.. image:: {filename}/images/2018/small_kindle_weather_display.jpg
+   :target: {filename}/images/2018/kindle_weather_display.jpg
    :alt: Kindle mit Wetteranzeige
 
 Für die Darstellung von Bildern und Text auf dem Kindle ist das 
