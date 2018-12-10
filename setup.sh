@@ -1,6 +1,12 @@
 #!/bin/sh
 
 VERSION=3.7.1
+# known stable release
+#PELICAN_THEMES_RELEASE=12d89d4
+#PELICAN_PLUGINS_RELEASE=d79a52ab820e0a7ea4bbf882a90b3086b367d72b
+
+# new release - produces error
+#VERSION=4.0.1
 
 # install python packages
 # beautifulsoup is needed for plugin tipue search
