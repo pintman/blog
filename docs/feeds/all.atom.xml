@@ -1,5 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2018-12-08T16:48:00+01:00</updated><entry><title>Wetter-Monitor mit einem Kindle</title><link href="https://blog.bakera.de/kindle_wetter_monitor.html" rel="alternate"></link><published>2018-12-08T16:48:00+01:00</published><updated>2018-12-08T16:48:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-12-08:/kindle_wetter_monitor.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/kindle_weather_display.jpg"&gt;&lt;img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/small_kindle_weather_display.jpg" /&gt;&lt;/a&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-01-02T12:20:00+01:00</updated><entry><title>35C3 - ein Erfahrungsbericht</title><link href="https://blog.bakera.de/35c3-ein-erfahrungsbericht.html" rel="alternate"></link><published>2019-01-02T12:20:00+01:00</published><updated>2019-01-02T12:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-02:/35c3-ein-erfahrungsbericht.html</id><summary type="html">&lt;object data="https://blog.bakera.de/images/2019/35C3Logo.svg" type="image/svg+xml"&gt;
+Logo des 35C3&lt;/object&gt;
+&lt;p&gt;Der letzte Kongress des 35C3 stand unter dem Motto &lt;em&gt;refreshing memories&lt;/em&gt; und
+fand am Ende des Jahres wie gewohnt
+zwischen dem 27.12. und dem 30.12. in Leipzig statt.
+Da es Vieles zu entdecken gab, hat jeder Teilnehmer sicher seinen
+eigenen Kongress erlebt. Ich versuche einmal …&lt;/p&gt;</summary><content type="html">&lt;object data="https://blog.bakera.de/images/2019/35C3Logo.svg" type="image/svg+xml"&gt;
+Logo des 35C3&lt;/object&gt;
+&lt;p&gt;Der letzte Kongress des 35C3 stand unter dem Motto &lt;em&gt;refreshing memories&lt;/em&gt; und
+fand am Ende des Jahres wie gewohnt
+zwischen dem 27.12. und dem 30.12. in Leipzig statt.
+Da es Vieles zu entdecken gab, hat jeder Teilnehmer sicher seinen
+eigenen Kongress erlebt. Ich versuche einmal, ein paar für mich relevante Highlights
+herauszugreifen.&lt;/p&gt;
+&lt;p&gt;Vor Ort hat ein kleines CTF auf Basis von  &lt;em&gt;Software Defined Radio (SDR)&lt;/em&gt;
+stattgefunden:
+die &lt;a class="reference external" href="https://sdr-challenge.muc.ccc.de"&gt;SDR-Challenge&lt;/a&gt;. Es war mein erster
+intensiverer Kontakt mit SDR überhaupt. Hierbei geht es darum,
+Radiosignale zu empfangen und zu dekodieren. Mit alten DVBT-Sticks klappt
+das erstaunlich gut und vor allem günstig. Für 10 € konnte ich einen solchen
+Empfänger erwerben/leihen und erste Versuche unternehmen. Das Programm
+&lt;a class="reference external" href="http://gqrx.dk/"&gt;gqrx&lt;/a&gt; visualisiert die Signale und kann auch für das Speichern
+genutzt werden. Diese Aufzeichnungen können dann z.B. mit
+&lt;a class="reference external" href="https://github.com/miek/inspectrum"&gt;inspectrum&lt;/a&gt; betrachtet und analysiert.
+Ich war erstaunt, wie groß diese Dateien werden können - 1GB pro Minute sind keine
+Seltenheit. Da jedoch das gesamte empfangene Spektrum aufgezeichnet wird, ist
+die Dateigröße wiederum erklärbar. Weitere Programme wie gnuradio habe ich
+leider nicht zum Laufen gebracht und daher auch nicht getestet - unter ArchLinux
+hat eine alte Qt4-Bibliothek gefehlt. Der Vortrag
+&lt;a class="reference external" href="https://media.ccc.de/v/35c3-9508-digital_airwaves"&gt;Digital Airwaves&lt;/a&gt; hat
+theoretische Grundlagen geliefert - mich jedoch auch recht schnell inhaltlich
+abgehängt. Ich werde mir die Aufzeichnnung noch einmal in Ruhe anschauen müssen.&lt;/p&gt;
+&lt;p&gt;Als die Tools schließlich liefen, konnte ich auf einigen Frequenzen Piepsignale,
+Radiosignale oder
+einen kurzen Puls auf einem breiten Spektrum entdecken. Leider sind wir mit einer
+kleinen Gruppe - darunter sogar ein Amateurfunker - jedoch nicht so weit gekommen,
+wie erhofft. Die Piepsignale konnten
+wir zwar als Morsecode dekodieren, sind jedoch auf eine Zufallsfolge ohne Wiederholung
+gestoßen. BTW, Morsecode ist verdammt schwierig. Daher hoffe ich auf ein Write-Up
+zu den Aufgaben.&lt;/p&gt;
+&lt;p&gt;Eine weitere interessante Neuigkeit, die ich mitnehme, ist das Programm
+&lt;a class="reference external" href="https://apps.ankiweb.net/"&gt;Anki&lt;/a&gt; - verfügbar für Windows, Linux, Mac, Android
+und iOS. Anki will Lerner_innen beim Lernen unterstützen.
+Es nutzt dafür Karteikarten, die als Lückentext
+oder klassisch mit einer Vorder- und Rückseite präsentiert werden. Ich werde das mal
+mit Lückenquelltext ausprobieren. Im Selbstversuch fühlte es sich bereits recht
+gut an. Leider kam die dafür angesetze Session nicht zum angesagten Zeitpunkt
+zustande und musste verschoben werden. Gut hingegen war,
+dass sich eine Medizinstudentin, die das Programm schon länger nutzt und sich
+weitere Tipps erfhoffte, spontant bereit erklärte, einer kleinen Gruppe Anfänger
+die Grundlagen zu erklären.&lt;/p&gt;
+&lt;p&gt;Auch in diesem Jahr habe ich mich wieder als Engel angemeldet und diesmal die
+&lt;a class="reference external" href="https://wiki.c3subtitles.de/de:start"&gt;Untertitelung&lt;/a&gt; genauer angeschaut.
+Es ist eine sehr ruhige und konzentrierte
+Engelarbeit. Die Texte der Talks werden automatisch vorbereitet und stehen in
+einem Etherpad zur Verfügung. Meine Aufgabe war es nun, diese Texte zu korrigieren
+und gegenzulesen. Ich war erstaunt, wie wenig ich in der Zeit geschafft habe. So
+war ich gerade bei Minute 8:40 eines Talks als meine 1-Stundenschicht zu Ende ging.&lt;/p&gt;
+&lt;p&gt;Nun werde ich mir noch viele der Talks anschauen, die glücklicherweise aufgezeichnet
+wurden und bei &lt;a class="reference external" href="https://media.ccc.de/c/35c3"&gt;media.ccc.de&lt;/a&gt; abgerufen werden können.
+Ich freue mich jetzt schon auf den nächsten Kongress.&lt;/p&gt;
+</content><category term="35c3"></category><category term="sdr"></category><category term="ctf"></category><category term="lernen"></category></entry><entry><title>Wetter-Monitor mit einem Kindle</title><link href="https://blog.bakera.de/kindle_wetter_monitor.html" rel="alternate"></link><published>2018-12-08T16:48:00+01:00</published><updated>2018-12-08T16:48:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-12-08:/kindle_wetter_monitor.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/kindle_weather_display.jpg"&gt;&lt;img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/small_kindle_weather_display.jpg" /&gt;&lt;/a&gt;
 &lt;p&gt;E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere
 Modelle bekommt man für wenig Geld.
 Genau diese Kombination machen sie so reizvoll, um
@@ -1887,34 +1948,4 @@ Anzahl der Lösungen ist noch einen separaten Blick wert:&lt;/div&gt;
 &lt;div class="line"&gt;int(round(30 + 470 / (1 + (max(0, solves - 1) / 11.92201) **
 1.206069)))&lt;/div&gt;
 &lt;/div&gt;
-</content><category term="Informatik"></category><category term="34c3"></category><category term="hacking"></category></entry><entry><title>Blinken-Rocket</title><link href="https://blog.bakera.de/blinken-rocket.html" rel="alternate"></link><published>2018-01-01T21:26:00+01:00</published><updated>2018-01-01T21:26:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-01-01:/blinken-rocket.html</id><summary type="html">&lt;p&gt;&lt;img alt="image0" class="alignnone size-full wp-image-2153" src="https://blog.bakera.de/images/2018/01/Screenshot-2018-1-1-blinkenrocket.png" style="width: 314px; height: 371px;" /&gt;&lt;/p&gt;
-&lt;p&gt;Auf dem 34C3 habe ich mir einen Bausatz (12 €) einer &lt;a class="reference external" href="http://blinkenrocket.de/"&gt;blinken
-rocket&lt;/a&gt; gekauft: eine Platine in
-Raketenform mit einer 8x8-LED-Matrix und zwei Buttons. Eine Anleitung
-erklärt, wie ich die Bauteile korrekt anlöten kann und ein Editor hilft
-bei den ersten Schritten, eine Schrift oder einfache Animationen über
-das Display laufen …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="image0" class="alignnone size-full wp-image-2153" src="https://blog.bakera.de/images/2018/01/Screenshot-2018-1-1-blinkenrocket.png" style="width: 314px; height: 371px;" /&gt;&lt;/p&gt;
-&lt;p&gt;Auf dem 34C3 habe ich mir einen Bausatz (12 €) einer &lt;a class="reference external" href="http://blinkenrocket.de/"&gt;blinken
-rocket&lt;/a&gt; gekauft: eine Platine in
-Raketenform mit einer 8x8-LED-Matrix und zwei Buttons. Eine Anleitung
-erklärt, wie ich die Bauteile korrekt anlöten kann und ein Editor hilft
-bei den ersten Schritten, eine Schrift oder einfache Animationen über
-das Display laufen zu lassen. Das Programm wird über ein
-Audioschnittstelle übertragen und so kann man mit seinem Handy direkt
-ein kleines Programm erstellen und loslegen. Betrieben wird die
-Schaltung mit einer CR2023 Knopfzelle. Die Quellen für das
-Hardware-Design und auch die Firmware für den auf der Platine verbauten
-ATiny88 sind bei &lt;a class="reference external" href="https://github.com/blinkenrocket"&gt;github
-verfügbar&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Nach meinen ersten Lötversuchen mit SMD-Bauteilen, konnte ich die Rakete
-innerhalb kurzer Zeit in Betrieb nehmen. Leider lassen sich die Buttons
-nicht über das Interface programmieren - sie dienen lediglich zum
-Durchschalten verschiedener Programme und als Ausschalter. Da die
-Firmware aber offen ist, kann sie vielleicht einfach erweitert werden,
-so dass auch komplexe Programme ablaufen können. Mangels internen
-Zustands ist z.B. auch kein Game of Life möglich.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; Ich habe gesehen, dass die Rakete bei einem
-&lt;a class="reference external" href="https://hackerspaceshop.com/products/blinkenrocket"&gt;Shop&lt;/a&gt; aus dem
-Dunstkreis des Metalab in Wien vertrieben wird - dort allerdings für gut
-investierte 25€.&lt;/p&gt;
-</content><category term="Hardware"></category><category term="Programmierung"></category><category term="34c3"></category></entry></feed>
+</content><category term="Informatik"></category><category term="34c3"></category><category term="hacking"></category></entry></feed>
