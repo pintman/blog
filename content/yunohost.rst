@@ -79,3 +79,7 @@ eine Chance. Die französischen Entwickler durfte ich beim 35C3 kennenlernen. Si
 haben einen kompetenten und ambitionierten Eindruck gemacht. Daher würde es mich
 freuen, wenn mehr Menschen ihre eigene Dienste hosten würden. Vielleicht ist
 es gar nicht so schwer.
+
+**Update:** Bei Twitter gibt es eine 
+`kurze Diskussion <https://twitter.com/pintman/status/1080794746677854208>`_
+zu diesem Post.
