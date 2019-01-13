@@ -126,7 +126,7 @@ gelöscht, um Artefakte und Geisterbilder zu verhindern.
 Setup des Wetter-Servers
 ------------------------
 
-Beim Einrichten des Servers ist mir aufgefallen, wir schwer es ist, an deutsche
+Beim Einrichten des Servers ist mir aufgefallen, wie schwer es ist, an deutsche
 Wetterdaten zu kommen:  als Web-Service, den ich ohne Anmeldung einfach
 aufrufen kann. Ich habe mich dann für einen etwas umständlichen Weg entschieden:
 über den norwegischen Wetterdienst `YR <https://www.yr.no>`_. Diese haben
