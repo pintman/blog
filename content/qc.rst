@@ -26,7 +26,7 @@ Beim Erstellen von Quantencomputern scheinen
 eine wichtige Rolle zu spielen - grob funktionieren sie ähnlich
 einem XOR-Gatter, im Detail ist es aber vermutlich komplizierter zu sein.
 
-Beim BSI gibt es 
+Beim BSI gibt es eine
 `Einführung in Quantencomputing für Einsteiger <https://www.bsi.bund.de/qcstudie>`_
 und einen ausführlicheren Bericht für Profis. Der ist dort als
 238-seitiges PDF verlinkt.
@@ -37,3 +37,7 @@ einem Punkteschema zugewiesen und das Programm läuft auf dem
 Quantencomputer. Es erinnert an die Batchverarbeitung von früher.
 Für Python gibt es auch `eine Bibliothek <https://nbviewer.jupyter.org/github/Qiskit/qiskit-tutorial/blob/master/community/hello_world/hello_zero.ipynb>`_,
 um auf den Quantencomputer zuzugreifen.
+
+Eine echte Anwendung für Quantencomputer mit wenigen QBits gibt es heute 
+bereits: die Berechnung von Energien in Molekülen.
+
