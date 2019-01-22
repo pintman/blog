@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-01-03T12:20:00+01:00</updated><entry><title>YunoHost - das Ubuntu für Server?!</title><link href="https://blog.bakera.de/yunohost.html" rel="alternate"></link><published>2019-01-03T12:20:00+01:00</published><updated>2019-01-03T12:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-03:/yunohost.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://yunohost.org/"&gt;YunoHost&lt;/a&gt; soll es jedem ermöglichen, einen eigenen
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-01-22T21:20:00+01:00</updated><entry><title>Quantencomputer</title><link href="https://blog.bakera.de/quantencomputer.html" rel="alternate"></link><published>2019-01-22T21:20:00+01:00</published><updated>2019-01-22T21:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-22:/quantencomputer.html</id><summary type="html">&lt;p&gt;Heute fand ein Vortrag und Workshop zum Thema Quantencomputer
+im Bochumer Labor statt. Diese Dinger können schnell rechnen, aber vermutlich
+nicht mehr Probleme lösen als klassische Computer. Statt
+mit Bits, die entweder 0 oder 1 repräsentieren, wird mit
+QBits gerechnet, die eine Wahrscheinlichkeitsverteilung
+zwischen 0 und 1 einnehmen. Es gibt …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Heute fand ein Vortrag und Workshop zum Thema Quantencomputer
+im Bochumer Labor statt. Diese Dinger können schnell rechnen, aber vermutlich
+nicht mehr Probleme lösen als klassische Computer. Statt
+mit Bits, die entweder 0 oder 1 repräsentieren, wird mit
+QBits gerechnet, die eine Wahrscheinlichkeitsverteilung
+zwischen 0 und 1 einnehmen. Es gibt verschiedene
+&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Quantum_algorithm"&gt;Quanten-Algorithmen&lt;/a&gt;
+die verschiedene Probleme lösen. So generell scheinen die
+Probleme aber wiederum auch nicht zu sein, da die Probleme
+immer in ähnlichen Problemgebieten wie der schnellen
+Fourier-Transformation liegen. Das Brechen von Kryptographie
+ist ein prominentes Gebiet für Quantencomputer. So prominent, dass die
+NIST derzeit
+&lt;a class="reference external" href="https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Round-1-Submissions"&gt;nach Algorithmen sucht&lt;/a&gt;,
+die auch mit Quantencomputern eine sichere Verschlüsselung garantieren.&lt;/p&gt;
+&lt;p&gt;Beim Erstellen von Quantencomputern scheinen
+&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Controlled_NOT_gate"&gt;Controlled NOT gates&lt;/a&gt;
+eine wichtige Rolle zu spielen - grob funktionieren sie ähnlich
+einem XOR-Gatter, im Detail ist es aber vermutlich komplizierter zu sein.&lt;/p&gt;
+&lt;p&gt;Beim BSI gibt es
+&lt;a class="reference external" href="https://www.bsi.bund.de/qcstudie"&gt;Einführung in Quantencomputing für Einsteiger&lt;/a&gt;
+und einen ausführlicheren Bericht für Profis. Der ist dort als
+238-seitiges PDF verlinkt.&lt;/p&gt;
+&lt;p&gt;Bei IBM kann man &lt;a class="reference external" href="https://quantumexperience.ng.bluemix.net/qx/editor"&gt;einen Quantencomputer selbst programmieren&lt;/a&gt;.
+Das geht über einen Editor direkt im Browser. Dann bekommt man Rechenzeit nach
+einem Punkteschema zugewiesen und das Programm läuft auf dem
+Quantencomputer. Es erinnert an die Batchverarbeitung von früher.
+Für Python gibt es auch &lt;a class="reference external" href="https://nbviewer.jupyter.org/github/Qiskit/qiskit-tutorial/blob/master/community/hello_world/hello_zero.ipynb"&gt;eine Bibliothek&lt;/a&gt;,
+um auf den Quantencomputer zuzugreifen.&lt;/p&gt;
+</content><category term="programmierung"></category><category term="python"></category></entry><entry><title>YunoHost - das Ubuntu für Server?!</title><link href="https://blog.bakera.de/yunohost.html" rel="alternate"></link><published>2019-01-03T12:20:00+01:00</published><updated>2019-01-03T12:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-03:/yunohost.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://yunohost.org/"&gt;YunoHost&lt;/a&gt; soll es jedem ermöglichen, einen eigenen
 kleinen Server zu betreiben - z.B. auf einem Raspberry Pi oder auf einer
 virtuellen Serverinstanz. So, wie es Ubuntu ermöglicht hat, jedem ein Linux
 auf seinem Rechner zu installieren.&lt;/p&gt;
@@ -55,6 +89,9 @@ eine Chance. Die französischen Entwickler durfte ich beim 35C3 kennenlernen. Si
 haben einen kompetenten und ambitionierten Eindruck gemacht. Daher würde es mich
 freuen, wenn mehr Menschen ihre eigene Dienste hosten würden. Vielleicht ist
 es gar nicht so schwer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Bei Twitter gibt es eine
+&lt;a class="reference external" href="https://twitter.com/pintman/status/1080794746677854208"&gt;kurze Diskussion&lt;/a&gt;
+zu diesem Post.&lt;/p&gt;
 </content><category term="35c3"></category><category term="cloud"></category><category term="e-mail"></category><category term="wiki"></category><category term="RaspberryPi"></category><category term="server"></category></entry><entry><title>35C3 - ein Erfahrungsbericht</title><link href="https://blog.bakera.de/35c3-ein-erfahrungsbericht.html" rel="alternate"></link><published>2019-01-02T15:10:00+01:00</published><updated>2019-01-02T15:10:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-02:/35c3-ein-erfahrungsbericht.html</id><summary type="html">&lt;object data="https://blog.bakera.de/images/2019/35C3Logo.svg" type="image/svg+xml"&gt;
 Logo des 35C3&lt;/object&gt;
 &lt;p&gt;Der letzte Kongress des 35C3 stand unter dem Motto &lt;em&gt;refreshing memories&lt;/em&gt; und
@@ -221,7 +258,7 @@ eips -c
 &lt;/div&gt;
 &lt;div class="section" id="setup-des-wetter-servers"&gt;
 &lt;h2&gt;Setup des Wetter-Servers&lt;/h2&gt;
-&lt;p&gt;Beim Einrichten des Servers ist mir aufgefallen, wir schwer es ist, an deutsche
+&lt;p&gt;Beim Einrichten des Servers ist mir aufgefallen, wie schwer es ist, an deutsche
 Wetterdaten zu kommen:  als Web-Service, den ich ohne Anmeldung einfach
 aufrufen kann. Ich habe mich dann für einen etwas umständlichen Weg entschieden:
 über den norwegischen Wetterdienst &lt;a class="reference external" href="https://www.yr.no"&gt;YR&lt;/a&gt;. Diese haben
@@ -1928,32 +1965,4 @@ bevor ich mich sorge.&lt;/p&gt;
 &lt;p&gt;Jetzt beginnt die Nachbereitung, in der viele Ideen und Projekte
 umgesetzt und die &lt;a class="reference external" href="https://media.ccc.de/c/34c3"&gt;Aufzeichnungen der
 Vorträge&lt;/a&gt; anschaut werden wollen.&lt;/p&gt;
-</content><category term="Informatik"></category><category term="34c3"></category></entry><entry><title>Mailboxen, Fidonetz und Netzwerke der 90er Jahre</title><link href="https://blog.bakera.de/mailboxen-fidonetz-und-netzwerke-der-90er-jahre.html" rel="alternate"></link><published>2018-01-02T15:14:00+01:00</published><updated>2018-01-02T15:14:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-01-02:/mailboxen-fidonetz-und-netzwerke-der-90er-jahre.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/2018/01/Screenshot-2018-1-2-BBSs-and-early-Internet-access-in-the-1990ies.png"&gt;&lt;img alt="image0" class="alignnone size-full wp-image-2174" src="https://blog.bakera.de/images/2018/01/Screenshot-2018-1-2-BBSs-and-early-Internet-access-in-the-1990ies.png" style="width: 661px; height: 423px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Auf dem 34C3 gab es den interessanten Vortrag &lt;a class="reference external" href="https://media.ccc.de/v/34c3-9034-bbss_and_early_internet_access_in_the_1990ies"&gt;BBSs and early Internet
-access in the 1990ies - Modems, FIDO, Z-Netz, Usenet, UUCP, SLIP and
-ISDN&lt;/a&gt;.
-Harald Welte erzählt aus persönlichen Erfahrungen über die frühe Zeit
-der Modems und Akkustikkoppler der Pre-Internet-Ära. Er erklärt die
-frühen &amp;quot;Mail&amp;quot;-Programme wie CrossPoint und sinniert …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/2018/01/Screenshot-2018-1-2-BBSs-and-early-Internet-access-in-the-1990ies.png"&gt;&lt;img alt="image0" class="alignnone size-full wp-image-2174" src="https://blog.bakera.de/images/2018/01/Screenshot-2018-1-2-BBSs-and-early-Internet-access-in-the-1990ies.png" style="width: 661px; height: 423px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Auf dem 34C3 gab es den interessanten Vortrag &lt;a class="reference external" href="https://media.ccc.de/v/34c3-9034-bbss_and_early_internet_access_in_the_1990ies"&gt;BBSs and early Internet
-access in the 1990ies - Modems, FIDO, Z-Netz, Usenet, UUCP, SLIP and
-ISDN&lt;/a&gt;.
-Harald Welte erzählt aus persönlichen Erfahrungen über die frühe Zeit
-der Modems und Akkustikkoppler der Pre-Internet-Ära. Er erklärt die
-frühen &amp;quot;Mail&amp;quot;-Programme wie CrossPoint und sinniert über Features, die
-es nicht in die neue Zeit geschafft haben. Ich kann diese Gedanken sehr
-gut nachvollziehen. In einer Live-Demo zeigt er aktuelle Mailboxen, über
-die man heute noch per Telnet oder sogar Telefonleitung zugreifen kann
-und wundert sich, dass diese noch aktiv genutzt werden. Die Seite
-&lt;a class="reference external" href="http://telnetbbsguide.com"&gt;Telnet BBS Guide&lt;/a&gt; stellt eine
-ausführliche Sammlung von Mailboxen zusammen.&lt;/p&gt;
-&lt;p&gt;Besonders spannend fand ich den Gedanken, dass mit dem Einzug des
-Internet auch der Grad der Selbständigkeit in der Verwaltung der
-Netzinfrastuktur sank. Mailboxenetze wurden damals vonPrivatleuten
-organisiert, die ihre Telefonanschlüsse zur Verfügung gestellt und
-darüber Nachrichten mit anderen Mailboxen geteilt hatten. Mit dem
-Aufkommen von ISPs ging eine Entmündigung einher, die heutzutage,
-zumindest teilweise, durch das Freifunkprojekt adressiert wird - jedoch
-nicht mit der gleichen Wirkmacht, die ein Fidonetz in den 90er Jahren
-entfalten konnte.&lt;/p&gt;
-</content><category term="Gesellschaft"></category><category term="Informatik"></category><category term="34c3"></category></entry></feed>
+</content><category term="Informatik"></category><category term="34c3"></category></entry></feed>
