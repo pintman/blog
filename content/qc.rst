@@ -24,7 +24,7 @@ die auch mit Quantencomputern eine sichere Verschlüsselung garantieren.
 Beim Erstellen von Quantencomputern scheinen
 `Controlled NOT gates <https://en.wikipedia.org/wiki/Controlled_NOT_gate>`_ 
 eine wichtige Rolle zu spielen - grob funktionieren sie ähnlich
-einem XOR-Gatter, im Detail ist es aber vermutlich komplizierter zu sein.
+einem XOR-Gatter, im Detail ist es aber vermutlich komplizierter.
 
 Beim BSI gibt es eine
 `Einführung in Quantencomputing für Einsteiger <https://www.bsi.bund.de/qcstudie>`_
