@@ -15,7 +15,27 @@ Physik-Experimente vor, die von echten Studenten in einer virtuellen
 Welt durchgeführt werden können. In der folgenden Bildergalerie nehme
 ich dich mit auf einen kleinen Rundgang.
 
-[gallery link="file" ids="610,611,612,609,613,608,614"]
+.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-.png
+   :alt: Führung durch das Science Center
+
+.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_00.png
+   :alt: Führung durch das Science Center
+
+.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_001.png
+   :alt: Führung durch das Science Center
+
+.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_002.png
+   :alt: Führung durch das Science Center
+
+.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_003.png
+   :alt: Führung durch das Science Center
+
+.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_006.png
+   :alt: Führung durch das Science Center
+
+.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_008.png
+   :alt: Führung durch das Science Center
+
 
 **Update:** Es existiert ein `Transcript des
 Chats <http://aquarobo.com/abyss/9thMIWoSE_Oddprofessor.pdf>`__ mit
