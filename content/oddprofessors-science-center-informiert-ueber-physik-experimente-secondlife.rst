@@ -15,7 +15,7 @@ Physik-Experimente vor, die von echten Studenten in einer virtuellen
 Welt durchgeführt werden können. In der folgenden Bildergalerie nehme
 ich dich mit auf einen kleinen Rundgang.
 
-.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-.jpg
+.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center.jpg
    :alt: Führung durch das Science Center
 
 .. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_00.jpg
