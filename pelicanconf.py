@@ -60,7 +60,6 @@ RELATIVE_URLS = True
 # Theme pelican-bootstrap3
 # https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3
 #
-# FIX: theme needs 'git checkout be36234'
 THEME = "pelican-themes/pelican-bootstrap3"
 BOOTSTRAP_THEME = "lumen"  # one of https://bootswatch.com/
 #JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
