@@ -61,7 +61,7 @@ RELATIVE_URLS = True
 # https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3
 #
 THEME = "pelican-themes/pelican-bootstrap3"
-BOOTSTRAP_THEME = "lumen"  # one of https://bootswatch.com/
+BOOTSTRAP_THEME = "cerulean"  # one of https://bootswatch.com/, be aware, not to import google fonts
 #JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 #I18N_TEMPLATES_LANG = 'en'
 #GITHUB_REPO_COUNT = 5
