@@ -15,25 +15,25 @@ Physik-Experimente vor, die von echten Studenten in einer virtuellen
 Welt durchgeführt werden können. In der folgenden Bildergalerie nehme
 ich dich mit auf einen kleinen Rundgang.
 
-.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-.png
+.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-.jpg
    :alt: Führung durch das Science Center
 
-.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_00.png
+.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_00.jpg
    :alt: Führung durch das Science Center
 
-.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_001.png
+.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_001.jpg
    :alt: Führung durch das Science Center
 
-.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_002.png
+.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_002.jpg
    :alt: Führung durch das Science Center
 
-.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_003.png
+.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_003.jpg
    :alt: Führung durch das Science Center
 
-.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_006.png
+.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_006.jpg
    :alt: Führung durch das Science Center
 
-.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_008.png
+.. image:: {static}images/2013/11/2013-11-09-Führung-durch-das-Science-Center-Snapshot_008.jpg
    :alt: Führung durch das Science Center
 
 
