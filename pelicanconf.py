@@ -94,7 +94,7 @@ BOOTSTRAP_THEME = "lumen"  # one of https://bootswatch.com/
 # git clone --recursive https://github.com/getpelican/pelican-plugins
 # 
 PLUGIN_PATHS = ["pelican-plugins"]
-PLUGINS = ['tipue_search', "sitemap", "pelican_comment_system"]
+PLUGINS = ['tipue_search', "sitemap"]
 #DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 DIRECT_TEMPLATES = ('index', 'archives', 'search')
 
@@ -120,6 +120,4 @@ SITEMAP = {
         "indexes": "daily"
     }
 }
-# Pelican comment system
-PELICAN_COMMENT_SYSTEM = True
-PELICAN_COMMENT_SYSTEM_IDENTICON_DATA = ('author',)
+
