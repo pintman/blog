@@ -27,7 +27,7 @@ von Guitar-Hero werden, die durch einen Midi-Controller gesteuert
 wird. Wir nannten das Projekt daher kurz 
 `FlipDotHero <https://gist.github.com/pintman/52cd40876946c0e0b08f3ee92297af95>`_.
 
-.. image:: {filename}images/video_thumbnail.png
+.. image:: {filename}images/2018/video_thumbnail.jpg
    :alt: Video für Flip-Dot-Anzeige
    :target: https://www.youtube-nocookie.com/embed/a97wuYli1_Q?rel=0
 
