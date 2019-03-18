@@ -22,8 +22,8 @@ die auch mit Quantencomputern eine sichere Verschlüsselung garantieren.&lt;/p&g
 &lt;p&gt;Beim Erstellen von Quantencomputern scheinen
 &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Controlled_NOT_gate"&gt;Controlled NOT gates&lt;/a&gt;
 eine wichtige Rolle zu spielen - grob funktionieren sie ähnlich
-einem XOR-Gatter, im Detail ist es aber vermutlich komplizierter zu sein.&lt;/p&gt;
-&lt;p&gt;Beim BSI gibt es
+einem XOR-Gatter, im Detail ist es aber vermutlich komplizierter.&lt;/p&gt;
+&lt;p&gt;Beim BSI gibt es eine
 &lt;a class="reference external" href="https://www.bsi.bund.de/qcstudie"&gt;Einführung in Quantencomputing für Einsteiger&lt;/a&gt;
 und einen ausführlicheren Bericht für Profis. Der ist dort als
 238-seitiges PDF verlinkt.&lt;/p&gt;
@@ -33,6 +33,8 @@ einem Punkteschema zugewiesen und das Programm läuft auf dem
 Quantencomputer. Es erinnert an die Batchverarbeitung von früher.
 Für Python gibt es auch &lt;a class="reference external" href="https://nbviewer.jupyter.org/github/Qiskit/qiskit-tutorial/blob/master/community/hello_world/hello_zero.ipynb"&gt;eine Bibliothek&lt;/a&gt;,
 um auf den Quantencomputer zuzugreifen.&lt;/p&gt;
+&lt;p&gt;Eine echte Anwendung für Quantencomputer mit wenigen QBits gibt es heute
+bereits: die Berechnung von Energien in Molekülen.&lt;/p&gt;
 </content><category term="programmierung"></category><category term="python"></category></entry><entry><title>YunoHost - das Ubuntu für Server?!</title><link href="https://blog.bakera.de/yunohost.html" rel="alternate"></link><published>2019-01-03T12:20:00+01:00</published><updated>2019-01-03T12:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-03:/yunohost.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://yunohost.org/"&gt;YunoHost&lt;/a&gt; soll es jedem ermöglichen, einen eigenen
 kleinen Server zu betreiben - z.B. auf einem Raspberry Pi oder auf einer
 virtuellen Serverinstanz. So, wie es Ubuntu ermöglicht hat, jedem ein Linux
