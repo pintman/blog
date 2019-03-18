@@ -35,3 +35,44 @@ Rechenhilfe.
    :class: size-full wp-image-1235
    :width: 100%
    :target: {filename}images/2014/06/soroban.jpg
+
+Kommentare
+----------
+
+    Hi
+    
+    schade das dieses Thema in Deutschland so gut wie unbekannt ist. Ich selber
+    habe vor ein paar Jahren gelernt mit dem Soroban umzugehen (ist mittlerweile
+    ein leidenschaftliches Hobby). Wie du schon geschrieben hast, kann man
+    irgendwann auch schneller rechnen als andere es im Taschenrechner eingeben
+    können. Dabei hat man dann natürlich auch ein viel besseres Tiefenverständnis
+    für Zahlen, Operationen und Größenordnungen. Allerdings ist es anfangs recht
+    schwierig und man muss sehr viel üben um auf ein hohes Niveau zu kommen. Kann
+    man erstmal einen Soroban gut visualisieren sind Grundrechenarten, Wurzeln,
+    Logarithmen, … auch gut im Kopf möglich.
+    
+    MfG
+    
+    Irena
+
+Irena 04.03.2016
+
+    Wow. Ich habe nur wenig mit dem Gerät probiert und war nicht sonderlich
+    erfolgreich. Die in dem Video gezeigten Schüler und dein Kommentar zeigen
+    jedoch, dass sehr viel mehr möglich ist.
+    
+    Vielleicht probiere ich es doch noch einmal. 🙂 Mein letzter Versuch war auch
+    nur auf eine App beschränkt. Ein echtes Gerät funktioniert sicherlich besser.
+
+author: Marco Bakera 04.03.2016
+
+    
+    Hallo Irena, zum Glück wurde durch deinen Kommentar dieses Artikel von Marco
+    in meinem Feedreader ganz nach oben gespült. So konnte ich mich die letzte
+    Stunde durch die Videoserie klicken und bin ganz begeistert. So etwas will ich
+    für mich und meine Kinder auch! Kannst du ein bestimmtes, in D erhältliches
+    Modell empfehlen? Und Literatur?
+    
+    @Marco: Danke für den Augenöffner!
+    
+`Michael Brenner <http://zurueckindieschule.wordpress.com/>`_ 05.04.2016

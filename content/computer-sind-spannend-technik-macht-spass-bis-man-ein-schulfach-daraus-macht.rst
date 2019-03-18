@@ -239,3 +239,21 @@ Dieser Artikel erschien zuerst in der Juniausgabe 2016 der Zeitschrift
 .. |2015_ita-messe| image:: {filename}images/2016/10/2015_ITA-Messe.jpg
    :width: 755px
    :height: 500px
+
+Kommentare
+----------
+
+    Sehr schöner Beitrag! Nachvollziehbar, anschaulich; macht Hoffnung. Erste
+    Reaktion: An meiner Schulart geht das ja nicht, aber ehrlich gesagt: Auch wenn
+    meine Schule wollte, dann könnte sie sich daran orientieren.
+
+`Herr Rau <http://www.herr-rau.de/>`_  01.10.2016
+
+    Wieso würde es an eurer Schule nicht funktionieren? Sind die Hemmnisse
+    organisatorischer, zwischenmenschlicher oder finanzieller Art?
+
+`Marco Bakera <http://www.bakera.de>`_ 02.10.2016
+
+    Eher einfach: Kein Interesse daran; andere Prioritäten.
+
+`Herr Rau <http://www.herr-rau.de/>`_ 02.10.2016

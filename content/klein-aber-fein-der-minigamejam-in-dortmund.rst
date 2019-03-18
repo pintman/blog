@@ -68,3 +68,15 @@ wieder mit mir.
 .. |image1| image:: {filename}images/2017/06/osziflap_overview_all.jpg
    :class: alignnone size-full wp-image-2078
    :width: 100%
+
+Kommentare
+----------
+
+
+    Jawohl, am 7.10. gehts weiter. Der Termin steht seit heute. Wir sind wieder im Künstlerhaus.
+
+`ztiromoritz <https://game-jam-do.de/>`_ 22.06.2017
+
+    Den Termin habe ich mir notiert und ich werde versuchen, wieder dabei zu sein.
+
+`Marco Bakera <https://www.bakera.de/>`_ 09.07.2017

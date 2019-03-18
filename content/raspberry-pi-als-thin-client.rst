@@ -24,4 +24,21 @@ Quellen angeben, die mir bei den ersten Schritten helfen? Dann schreibt
 es bitte in den Kommentar oder antwortet mir `bei
 Twitter <https://twitter.com/pintman/status/923913857197801472>`__.
 
+Kommentare
+----------
+
+    Zum Booten wird wohl immer noch eine SD-Karte nötig sein.
+    Bei uns an der Schule läuft die Linuxmusterlösung ziemlich unkompliziert.
+
+    Schöne Grüße
+    Sebastian
+
+`Sebastian <http://www.informaticana.de/>`_ 27.10.2017
+
+
+    Das ist richtig, obwohl der Pi auch schon netzbootfähig ist. Ich vermute, dass
+    die Linuxmusterlösung einen FatClient voraussetzt. Die Lösung wollte ich mir
+    aber auch einmal anschauen.
+
+`Marco Bakera <https://www.bakera.de>`_ 29.10.2017
  
