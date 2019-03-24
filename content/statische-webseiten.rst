@@ -6,7 +6,7 @@ Statische Webseiten bei gitlab und github
 :status: published
 :slug: statische-webseiten-gitlab-github
 
-.. image:: {filename}images/2018/07/machinepipe.png
+.. image:: {filename}images/2018/07/machinepipe.jpg
    :alt: Maschine Pipe (https://openclipart.org/detail/300339/machine-pipe)
 
 Webseiten gibt es viele. Das Internet ist voll davon. 
