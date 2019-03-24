@@ -2,7 +2,7 @@ Quantencomputer
 ===============
 :date: 2019-01-22 21:20
 :author: marco.bakera
-:tags: programmierung, python
+:tags: programmierung, python, das labor
 :status: published
 
 Heute fand ein Vortrag und Workshop zum Thema Quantencomputer
