@@ -35,7 +35,7 @@ definition
   Mit anderem Inhalt
 
 
-.. image:: {filename}images/godel.jpg
+.. image:: {static}images/godel.jpg
    :alt: ein Bild
 
 
