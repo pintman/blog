@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-01-22T21:20:00+01:00</updated><entry><title>Quantencomputer</title><link href="https://blog.bakera.de/quantencomputer.html" rel="alternate"></link><published>2019-01-22T21:20:00+01:00</published><updated>2019-01-22T21:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-22:/quantencomputer.html</id><summary type="html">&lt;p&gt;Heute fand ein Vortrag und Workshop zum Thema Quantencomputer
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-03-24T12:20:00+01:00</updated><entry><title>spring(); break; - 2019</title><link href="https://blog.bakera.de/springbreak2019.html" rel="alternate"></link><published>2019-03-24T12:20:00+01:00</published><updated>2019-03-24T12:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-03-24:/springbreak2019.html</id><summary type="html">&lt;img alt="Logo" src="https://blog.bakera.de/images/2019/spring_break_logo.png" /&gt;
+&lt;p&gt;Gestern fand zum ersten Mal im Bochumer Labor die
+&lt;a class="reference external" href="https://wiki.das-labor.org/w/Veranstaltung/springbreak"&gt;spring(); break;&lt;/a&gt; statt.
+Hinter diesem etwas sperrigen und vielleicht fehl leitenden Titel verbirgt sich eine
+Veranstaltung, die an einem Tag Nerds, Macher*innen und Interessent*innen
+in Vorträgen und Workshops versammelt. Nach einem Frühstück und dem ersten
+Veranstaltungspunkt - einem Rundgang durch …&lt;/p&gt;</summary><content type="html">&lt;img alt="Logo" src="https://blog.bakera.de/images/2019/spring_break_logo.png" /&gt;
+&lt;p&gt;Gestern fand zum ersten Mal im Bochumer Labor die
+&lt;a class="reference external" href="https://wiki.das-labor.org/w/Veranstaltung/springbreak"&gt;spring(); break;&lt;/a&gt; statt.
+Hinter diesem etwas sperrigen und vielleicht fehl leitenden Titel verbirgt sich eine
+Veranstaltung, die an einem Tag Nerds, Macher*innen und Interessent*innen
+in Vorträgen und Workshops versammelt. Nach einem Frühstück und dem ersten
+Veranstaltungspunkt - einem Rundgang durch die Örtlichkeiten - war der Zeitplan
+bereits vollständig aus dem Ruder gelaufen - welches aber auch gar nicht
+schlimm war, da die Atmosphäre zum Verweilen und Plauschen einlud.&lt;/p&gt;
+&lt;p&gt;Es folgten verschiedene Vorträge: z.B. zum Einsatz von Plasmen in der Biologie
+(ich konnte hier leider nur wenig mitnehmen). Ein Mikrocontroller-Board für
+prototypische Projekte im Bildungsbereich wurde vorgestellt - inklusive
+Live-Demo.&lt;/p&gt;
+&lt;p&gt;Einen Einführungs-Workshop in Git habe ich selbst bestritten und dabei erneut
+festgestellt, wie kompliziert das Tool doch sein kann. Dann folgten
+ein Vortrag und ein Workshop zur freien BIOS-Alternative coreboot. Hier
+war ich leider nicht dabei, sondern musste mich zunächst etwas stärken.&lt;/p&gt;
+&lt;p&gt;In einem weiteren Vortrag wurde ein Schneidplotter (eine spannende
+Gerätekategorie) vorgestellt und um seine unsägliche Eigenart mit
+Herstellerservern zu kommunizieren, erleichtert. Mir ist immer noch schleierhaft,
+warum eine Hardware mit dem Hersteller kommunizieren muss, um eine eigentlich
+lokal realisierbare Funktion auszuführen.&lt;/p&gt;
+&lt;p&gt;Ein Vortrag, der in die Verwendung von FPGAs einführte, war mir zwar schon
+bekannt, hat aber trotzdem noch einmal einen frischen neuen Blick auf
+das Thema &amp;quot;programmierbare Hardware&amp;quot; geworfen.&lt;/p&gt;
+&lt;p&gt;Die Veranstaltung hatte mit den Demonstrationen rund um Artikel 13, einem
+Barcamp in Essen und der Maker Faire in Dortmund harte Konkurrenz, konnte sich
+aber gut dagegen positionieren. Die gut gefüllten Räume vor Ort und die
+breite Themenauswahl lassen mich hoffen, dass sich die Veranstaltung
+mit etwas Feinschliff in polierter Form (im nächsten Jahr?) wieder zeigen wird.&lt;/p&gt;
+</content></entry><entry><title>Quantencomputer</title><link href="https://blog.bakera.de/quantencomputer.html" rel="alternate"></link><published>2019-01-22T21:20:00+01:00</published><updated>2019-01-22T21:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-22:/quantencomputer.html</id><summary type="html">&lt;p&gt;Heute fand ein Vortrag und Workshop zum Thema Quantencomputer
 im Bochumer Labor statt. Diese Dinger können schnell rechnen, aber vermutlich
 nicht mehr Probleme lösen als klassische Computer. Statt
 mit Bits, die entweder 0 oder 1 repräsentieren, wird mit
@@ -1936,35 +1972,4 @@ minutes Location Room:Chaos West Stage&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;div id="magicdomid182"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Projects:TEX_Certificates"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Projects:TEX_Certificates&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;div id="magicdomid183"&gt;&lt;/div&gt;&lt;div id="magicdomid184"&gt;&lt;p&gt;Projects:Einmal mit Profis!&lt;/p&gt;
 &lt;/div&gt;&lt;div id="magicdomid185"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Projects:Einmal_mit_Profis"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Projects:Einmal_mit_Profis&lt;/a&gt;!&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid186"&gt;&lt;/div&gt;&lt;div id="magicdomid187"&gt;&lt;/div&gt;</content><category term="Informatik"></category><category term="34c3"></category></entry><entry><title>Eindrücke vom 34c3</title><link href="https://blog.bakera.de/eindruecke-vom-34c3.html" rel="alternate"></link><published>2018-01-03T10:10:00+01:00</published><updated>2018-01-03T10:10:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-01-03:/eindruecke-vom-34c3.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/2018/01/IMG_20171227_080203117.jpg"&gt;&lt;img alt="image0" class="alignnone wp-image-2166" src="https://blog.bakera.de/images/2018/01/IMG_20171227_080203117-300x169.jpg" style="width: 412px; height: 232px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Der 34C3 ist nun vorbei und die ersten Eindrücke der Veranstaltung sind
-gemischt aber überwiegend positiv. Nach dem Umzug von Hamburg im letzten
-nach Leipzig in diesem Jahr war zu erwarten, dass der neue Ort Risiken
-und Chancen bieten würde. Die Hallen waren sehr groß und ließen für
-meinen Geschmack …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/2018/01/IMG_20171227_080203117.jpg"&gt;&lt;img alt="image0" class="alignnone wp-image-2166" src="https://blog.bakera.de/images/2018/01/IMG_20171227_080203117-300x169.jpg" style="width: 412px; height: 232px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Der 34C3 ist nun vorbei und die ersten Eindrücke der Veranstaltung sind
-gemischt aber überwiegend positiv. Nach dem Umzug von Hamburg im letzten
-nach Leipzig in diesem Jahr war zu erwarten, dass der neue Ort Risiken
-und Chancen bieten würde. Die Hallen waren sehr groß und ließen für
-meinen Geschmack zu wenig Raum für kleinere intime Treffen und
-Gespräche. Häufig war man auf der Suche nach einem Platz, an dem man
-ungestört (hacken) arbeiten konnte. Die riesige Halle 2 mit
-all ihren Hackingspaces, dem Künstlerbereich und der
-Hardware-Hacking-Area haben dennoch nie einen Hauch von Langeweile
-aufkommen lassen.&lt;a class="reference external" href="https://blog.bakera.de/images/2018/01/IMG_20171228_131208504.jpg"&gt;&lt;img alt="image1" class="alignnone size-large wp-image-2181" src="https://blog.bakera.de/images/2018/01/IMG_20171228_131208504-1024x575.jpg" style="width: 625px; height: 351px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;In diesem Jahr habe ich mich erstmals als Engel eingebracht. Das
-empfehle ich jedem Besucher, der dies bisher noch nicht gemacht hat oder
-sich bisher nicht traute. Es lohnt sich. Man bekommt eine tieferen
-Einblick in die Veranstaltung und lernt vor allem viele nette Leute
-kennen.&lt;/p&gt;
-&lt;p&gt;Nach meiner Wahrnehmung waren in diesem Jahr mehr Künstler, politische
-Gruppen, Frauen und Kinder auf dem Kongress. Insbesondere die Künstler-
-und politischen Gruppen verschieben etwas den Fokus - was ich nicht
-schlecht finde, sich aber in Zukunft als problematisch erweisen kann,
-sobald Interessen zu stark divergieren. Ich warte das aber zunächst ab,
-bevor ich mich sorge.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/2018/01/IMG_20171228_114802842.jpg"&gt;&lt;img alt="image2" class="alignnone size-large wp-image-2183" src="https://blog.bakera.de/images/2018/01/IMG_20171228_114802842-1024x575.jpg" style="width: 625px; height: 351px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Jetzt beginnt die Nachbereitung, in der viele Ideen und Projekte
-umgesetzt und die &lt;a class="reference external" href="https://media.ccc.de/c/34c3"&gt;Aufzeichnungen der
-Vorträge&lt;/a&gt; anschaut werden wollen.&lt;/p&gt;
-</content><category term="Informatik"></category><category term="34c3"></category></entry></feed>
+&lt;/div&gt;&lt;div id="magicdomid186"&gt;&lt;/div&gt;&lt;div id="magicdomid187"&gt;&lt;/div&gt;</content><category term="Informatik"></category><category term="34c3"></category></entry></feed>
