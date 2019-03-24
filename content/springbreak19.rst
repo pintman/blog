@@ -17,7 +17,8 @@ Veranstaltung, die an einem Tag Nerds, Macher\*innen und Interessent\*innen
 in Vorträgen und Workshops versammelt. Nach einem Frühstück und dem ersten 
 Veranstaltungspunkt - einem Rundgang durch die Örtlichkeiten - war der Zeitplan
 bereits vollständig aus dem Ruder gelaufen - welches aber auch gar nicht 
-schlimm war, da die Atmosphäre zum Verweilen und Plauschen einlud.
+schlimm war, da die Atmosphäre zum Verweilen und 
+`Plauschen <https://julianlaubstein.de/>`_ einlud.
 
 Es folgten verschiedene Vorträge: z.B. zum Einsatz von Plasmen in der Biologie
 (ich konnte hier leider nur wenig mitnehmen). Ein Mikrocontroller-Board für 
