@@ -36,8 +36,8 @@ wir uns mehr den langweiligen Ergebnissen zuwenden?!
 
  
 
-.. |image0| image:: {filename}images/2018/01/Screenshot-2018-1-4-scienceisbroken-pdf.png
+.. |image0| image:: {filename}images/2018/01/Screenshot-2018-1-4-scienceisbroken-pdf.jpg
    :class: alignnone size-full wp-image-2207
    :width: 572px
    :height: 575px
-   :target: {filename}images/2018/01/Screenshot-2018-1-4-scienceisbroken-pdf.png
+   :target: {filename}images/2018/01/Screenshot-2018-1-4-scienceisbroken-pdf.jpg
