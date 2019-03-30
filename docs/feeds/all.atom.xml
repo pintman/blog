@@ -36,12 +36,19 @@ Barcamp in Essen und der Maker Faire in Dortmund harte Konkurrenz, konnte sich
 aber gut dagegen positionieren. Die gut gefüllten Räume vor Ort und die
 breite Themenauswahl lassen mich hoffen, dass sich die Veranstaltung
 mit etwas Feinschliff in polierter Form (im nächsten Jahr?) wieder zeigen wird.&lt;/p&gt;
-</content><category term="bildung"></category><category term="hacking"></category><category term="hardware"></category><category term="bio"></category><category term="lernen"></category><category term="git"></category><category term="workshop"></category><category term="das labor"></category></entry><entry><title>Quantencomputer</title><link href="https://blog.bakera.de/quantencomputer.html" rel="alternate"></link><published>2019-01-22T21:20:00+01:00</published><updated>2019-01-22T21:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-22:/quantencomputer.html</id><summary type="html">&lt;p&gt;Heute fand ein Vortrag und Workshop zum Thema Quantencomputer
+</content><category term="bildung"></category><category term="hacking"></category><category term="hardware"></category><category term="bio"></category><category term="lernen"></category><category term="git"></category><category term="workshop"></category><category term="das labor"></category></entry><entry><title>Quantencomputer</title><link href="https://blog.bakera.de/quantencomputer.html" rel="alternate"></link><published>2019-01-22T21:20:00+01:00</published><updated>2019-01-22T21:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-22:/quantencomputer.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;img alt="Wissenschaftler" src="https://blog.bakera.de/images/2019/scientists.jpg" /&gt;
+&lt;p class="caption"&gt;Quelle: CC-BY &lt;a class="reference external" href="https://wellcomecollection.org/works/nvzv2343"&gt;https://wellcomecollection.org/works/nvzv2343&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Heute fand ein Vortrag und Workshop zum Thema Quantencomputer
 im Bochumer Labor statt. Diese Dinger können schnell rechnen, aber vermutlich
 nicht mehr Probleme lösen als klassische Computer. Statt
 mit Bits, die entweder 0 oder 1 repräsentieren, wird mit
-QBits gerechnet, die eine Wahrscheinlichkeitsverteilung
-zwischen 0 und 1 einnehmen. Es gibt …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Heute fand ein Vortrag und Workshop zum Thema Quantencomputer
+QBits gerechnet, die eine Wahrscheinlichkeitsverteilung …&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
+&lt;img alt="Wissenschaftler" src="https://blog.bakera.de/images/2019/scientists.jpg" /&gt;
+&lt;p class="caption"&gt;Quelle: CC-BY &lt;a class="reference external" href="https://wellcomecollection.org/works/nvzv2343"&gt;https://wellcomecollection.org/works/nvzv2343&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Heute fand ein Vortrag und Workshop zum Thema Quantencomputer
 im Bochumer Labor statt. Diese Dinger können schnell rechnen, aber vermutlich
 nicht mehr Probleme lösen als klassische Computer. Statt
 mit Bits, die entweder 0 oder 1 repräsentieren, wird mit
@@ -72,12 +79,19 @@ Für Python gibt es auch &lt;a class="reference external" href="https://nbviewer
 um auf den Quantencomputer zuzugreifen.&lt;/p&gt;
 &lt;p&gt;Eine echte Anwendung für Quantencomputer mit wenigen QBits gibt es heute
 bereits: die Berechnung von Energien in Molekülen.&lt;/p&gt;
-</content><category term="programmierung"></category><category term="python"></category><category term="das labor"></category></entry><entry><title>YunoHost - das Ubuntu für Server?!</title><link href="https://blog.bakera.de/yunohost.html" rel="alternate"></link><published>2019-01-03T12:20:00+01:00</published><updated>2019-01-03T12:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-03:/yunohost.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://yunohost.org/"&gt;YunoHost&lt;/a&gt; soll es jedem ermöglichen, einen eigenen
+</content><category term="programmierung"></category><category term="python"></category><category term="das labor"></category></entry><entry><title>YunoHost - das Ubuntu für Server?!</title><link href="https://blog.bakera.de/yunohost.html" rel="alternate"></link><published>2019-01-03T12:20:00+01:00</published><updated>2019-01-03T12:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-03:/yunohost.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;img alt="Meme" src="https://blog.bakera.de/images/2019/dude_yunohost.jpg" /&gt;
+&lt;p class="caption"&gt;Quelle: &lt;a class="reference external" href="https://github.com/alexAubin/yunohostWorkshop/tree/master/img"&gt;https://github.com/alexAubin/yunohostWorkshop/tree/master/img&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://yunohost.org/"&gt;YunoHost&lt;/a&gt; soll es jedem ermöglichen, einen eigenen
 kleinen Server zu betreiben - z.B. auf einem Raspberry Pi oder auf einer
 virtuellen Serverinstanz. So, wie es Ubuntu ermöglicht hat, jedem ein Linux
 auf seinem Rechner zu installieren.&lt;/p&gt;
-&lt;p&gt;Yunohost wird ausgesprochen als &amp;quot;Why You No Host&amp;quot; -
-also &amp;quot;warum hostet du nicht&amp;quot; und …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="http://yunohost.org/"&gt;YunoHost&lt;/a&gt; soll es jedem ermöglichen, einen eigenen
+&lt;p&gt;Yunohost wird ausgesprochen als &amp;quot;Why …&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
+&lt;img alt="Meme" src="https://blog.bakera.de/images/2019/dude_yunohost.jpg" /&gt;
+&lt;p class="caption"&gt;Quelle: &lt;a class="reference external" href="https://github.com/alexAubin/yunohostWorkshop/tree/master/img"&gt;https://github.com/alexAubin/yunohostWorkshop/tree/master/img&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://yunohost.org/"&gt;YunoHost&lt;/a&gt; soll es jedem ermöglichen, einen eigenen
 kleinen Server zu betreiben - z.B. auf einem Raspberry Pi oder auf einer
 virtuellen Serverinstanz. So, wie es Ubuntu ermöglicht hat, jedem ein Linux
 auf seinem Rechner zu installieren.&lt;/p&gt;
