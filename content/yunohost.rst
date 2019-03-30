@@ -7,7 +7,7 @@ YunoHost - das Ubuntu für Server?!
 :slug: yunohost
 
 .. image:: {static}images/2019/dude_yunohost.jpg
-   :alt: Meme
+   :alt: Meme from https://github.com/alexAubin/yunohostWorkshop/tree/master/img
 
 
 `YunoHost <http://yunohost.org/>`_ soll es jedem ermöglichen, einen eigenen
