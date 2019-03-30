@@ -23,7 +23,7 @@ Ich spiele das prozedere einmal mit einem Cloudserver von Hetzner durch.
 Zuerst wird eine Instanz mit einem aktuellen Debian Image erstellt. 
 Die kleinste Version ist hier ausreichend.
 
-.. image:: {filename}images/2019/yunohost1.gif
+.. image:: {static}images/2019/yunohost1.gif
    :alt: Start eines Hetzner-Servers
 
 Nach dem Start kann ich mich per SSH einloggen und die Installation starten.
@@ -45,7 +45,7 @@ Nach dem ersten Zugriff begrüßt mich die Seite mit einer Zertifikatswarnung.
 Da ich noch kein Zertifikat für eine Domäne eingerichtet habe, kann ich diese
 Warnung ignorieren und das selbst signierte Zertifikat akzeptieren.
 
-.. image:: {filename}images/2019/yunohost2.gif
+.. image:: {static}images/2019/yunohost2.gif
    :alt: erster Zugriff
 
 Nun erfolgt eine Post-Installationsroutine, in der ein Administrationspasswort und 
@@ -57,14 +57,14 @@ Die Projektleiter haben zusätzlich noch den französischen Dienst
 `NetLibe.re <http://netlib.re/>`_ empfohlen,
 über den eigenständig beliebige DNS-Einträge vorgenommen werden können.
 
-.. image:: {filename}images/2019/yunohost3.gif
+.. image:: {static}images/2019/yunohost3.gif
    :alt: Post Installation
 
 Für eine sinnvolle Verwendung, muss nun ein erster Nutzer angelegt werden. Die Nutzer
 werden an zentraler Stelle verwaltet und können anschließend auf alle installierten 
 Dienste zugreifen.
 
-.. image:: {filename}images/2019/yunohost4.gif
+.. image:: {static}images/2019/yunohost4.gif
    :alt: Benutzer anlegen
 
 Es sind noch keine Dienste installiert. Als einfaches Beispiel installiere ich ein
@@ -75,7 +75,7 @@ In der Auswahl lässt sich erkennen, dass die Dienste nach ihrer Güte in
 verschiedene Level eingeteilt sind. Erprobte Dienste bekommen ein höheres Level als
 experimentelle Dienste.
 
-.. image:: {filename}images/2019/yunohost5.gif
+.. image:: {static}images/2019/yunohost5.gif
    :alt: Applikation installieren
 
 Ich habe noch keine längeren Tests mit dem System durchgeführt, gebe ihm aber 
