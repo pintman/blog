@@ -44,6 +44,6 @@ bleibt aber auch eine Erinnerung an ein Gefühl, an eine Botschaft:
 Leben dein leben, solange du es hast und liebe, so lange du darfst.
 
 
-.. |image2| image:: {filename}images/2003/about_schmidt.jpg
+.. |image2| image:: {static}images/2003/about_schmidt.jpg
  :width: 400px
  :height: 262px

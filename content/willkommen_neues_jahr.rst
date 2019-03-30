@@ -19,6 +19,6 @@ im neuen Jahr willkommen zu heißen. Ja, auch ich finde diese Unsitte
 zum kotzen und hoffe, dass ich möglichst schnell über meinen eigenen Ekel
 hinwegkomme. So, jetzt ist es besser.
  
-.. |image12| image:: {filename}images/2003/news_neujahr.jpg
+.. |image12| image:: {static}images/2003/news_neujahr.jpg
  :width: 258px
  :height: 379px

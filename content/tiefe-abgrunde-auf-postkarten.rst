@@ -18,6 +18,6 @@ selbstgebastelte Postkarten, auf denen man in die tiefen Abgründe der
 Absender schauen kann. Irgendwie sehr interessant. Oder bin ich etwa ein
 Voyeur? Sollte ich etwa auch eine Postkarte basteln wollen?
 
-.. |image0| image:: {filename}images/step2.jpg
-.. |image1| image:: {filename}images/pain.jpg
+.. |image0| image:: {static}images/step2.jpg
+.. |image1| image:: {static}images/pain.jpg
 
