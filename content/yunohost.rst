@@ -6,6 +6,10 @@ YunoHost - das Ubuntu für Server?!
 :status: published
 :slug: yunohost
 
+.. image:: {static}images/2019/dude_yunohost.jpg
+   :alt: Meme
+
+
 `YunoHost <http://yunohost.org/>`_ soll es jedem ermöglichen, einen eigenen
 kleinen Server zu betreiben - z.B. auf einem Raspberry Pi oder auf einer 
 virtuellen Serverinstanz. So, wie es Ubuntu ermöglicht hat, jedem ein Linux
