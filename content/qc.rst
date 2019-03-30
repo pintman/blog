@@ -5,6 +5,11 @@ Quantencomputer
 :tags: programmierung, python, das labor
 :status: published
 
+.. figure:: {static}images/2019/scientists.jpg
+   :alt: Wissenschaftler
+   
+   Quelle: CC-BY https://wellcomecollection.org/works/nvzv2343
+
 Heute fand ein Vortrag und Workshop zum Thema Quantencomputer
 im Bochumer Labor statt. Diese Dinger können schnell rechnen, aber vermutlich
 nicht mehr Probleme lösen als klassische Computer. Statt
