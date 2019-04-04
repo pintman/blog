@@ -90,3 +90,7 @@ es gar nicht so schwer.
 **Update:** Bei Twitter gibt es eine 
 `kurze Diskussion <https://twitter.com/pintman/status/1080794746677854208>`_
 zu diesem Post.
+
+**Update 2:** Folien und Materialien, die für einen Workshop verwendet werden 
+können, befinden sich 
+`hier <https://github.com/alexAubin/yunohostWorkshop>`_.
