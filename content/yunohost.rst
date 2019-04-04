@@ -71,7 +71,7 @@ Dienste zugreifen.
    :alt: Benutzer anlegen
 
 Es sind noch keine Dienste installiert. Als einfaches Beispiel installiere ich ein
-DokuWiki - eine populäre aber einfach Wiki-Software. Die Installation anderer Dienste
+DokuWiki - eine populäre und einfache Wiki-Software. Die Installation anderer Dienste
 erfolgt analog. Selbst ein E-Mail-Server lässt sich leicht einrichten. 
 
 In der Auswahl lässt sich erkennen, dass die Dienste nach ihrer Güte in 
