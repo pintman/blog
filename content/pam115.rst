@@ -31,7 +31,7 @@ Im Vormittag gab es den durchaus interessanten Vortrag
 eine Idee aus einem Manga bzw. Anime aufgriff und versuchte, diese in der
 Realität umzusetzen. Hierbei ging es um eine Mikrowelle, mit deren Hilfe
 man eine E-Mail in die Vergangenheit schicken konnte. Der Aufbau ist ziemlich
-seltsam: Über ein DTMF-Signal wird über eine Telefon eine Zahl an eine 
+seltsam: Über ein DTMF-Signal [#dtmf]_ wird über eine Telefon eine Zahl an eine 
 Mikrowelle geschickt, die diese Zahl in ihrem Display anzeigt. Diese Zahl gibt
 an, wieviele Minuten Mails in die Vergangenheit geschickt werden sollen. Trifft
 nun eine E-Mail an einer vorgegeben Adresse ein, so wird deren Zeitstempel
@@ -77,7 +77,7 @@ Ergebnisse liefert. Ich habe aber folgende Quellen gefunden:
 `Raspberry PWN <https://github.com/pwnieexpress/raspberry_pwn>`_,
 `p4wnp1 
 <https://dantheiotman.com/2017/09/15/p4wnp1-the-pi-zero-based-usb-attack-platform/>`_,
-und `P4wnP1 <https://github.com/mame82/P4wnP1>`_.
+und `P4wnP1 (andere Schreibweise) <https://github.com/mame82/P4wnP1>`_.
 
 Alle Videos werden zeitnah auf dem `YouTube-Kanal
 <https://www.youtube.com/user/PiAndMore>`_ der Veranstaltung
@@ -86,3 +86,9 @@ veröffentlicht.
 Ich freue mich schon die nächste Veranstaltung und danke den Veranstaltern
 für die tolle Organisation und insbesondere das tolle und kostenlose
 Catering.
+
+----
+
+.. [#dtmf] DTMF ist ein Verfahren das Töne zum Wählen von Telefonnummern nutzt.
+   Die Töne setzen sich dabei aus zwei Frequenzen zusammen und identifizieren
+   darüber eindeutig eine Ziffer.
