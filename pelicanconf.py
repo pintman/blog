@@ -7,7 +7,7 @@ SITENAME = '/home/bakera/blog'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['images', 'media', 'extra/CNAME', 'extra/favicon.ico']  
+STATIC_PATHS = ['images', 'media', 'extra']  
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
     'extra/favicon.ico': {'path': 'favicon.ico'}
@@ -73,6 +73,8 @@ BOOTSTRAP_THEME = "cerulean"  # one of https://bootswatch.com/, be aware, not to
 #DISPLAY_ARCHIVE_ON_SIDEBAR = True
 #HIDE_SIDEBAR = True
 #PLUGINS = ['tipue_search']
+CUSTOM_CSS = 'static/css/custom.css'
+#CUSTOM_JS = 'static/js/custom.js'
 
 # Theme pelican-elegant
 #
