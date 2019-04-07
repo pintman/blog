@@ -66,6 +66,11 @@ das bei Ausstellungen und in Museen zum Einsatz kommt.
 Die eingesetzte Steuerungssoftware nennt sich `Pi Presents
 <https://pipresents.wordpress.com/>`_.
 
+Im Nachmittagsprogramm gab es eine kleine Session mit `Lightning-Talks
+<https://piandmore.de/de/conference/pam11-5/schedule/event/4818>`_,
+in der ich auch meinen Beitrag leisten durfte. Das war eine schöne belebende 
+Abwechslung, da mich Zuhören im Vortragsprogramm doch stark ermüdet hatte.
+
 Alle Videos werden zeitnah auf dem `YouTube-Kanal
 <https://www.youtube.com/user/PiAndMore>`_ der Veranstaltung
 veröffentlicht.
