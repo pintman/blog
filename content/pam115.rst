@@ -1,0 +1,79 @@
+Pi And More 11½
+===============
+:date: 2019-04-07 12:20
+:author: marco.bakera
+:tags: raspberrypi, hacking
+:status: draft
+:slug: pam115
+
+.. figure:: {static}images/2019/pam115.png
+   :alt: pam Anhänger
+   
+   Anhänger aus dem Lasergravierer
+
+In diesem Jahr lockte die *Pi And More 11½* Interessierte, Bastler, Hacker,
+Programmierer und Freigeister nach Krefeld in die Hochschule am Niederrhein.
+Es gab ein buntes `Veranstaltungsprogramm 
+<https://piandmore.de/de/conference/pam11-5/>`_ garniert mit Vorträgen, 
+Workshops und einer Ausstellung. Die Veranstaltung findet regelmäßig an 
+immer wieder unterschiedlichen Orten statt. 
+
+Ausgangspunkt ist Trier, in der immer die geraden
+Nummer stattfinden. Die Veranstaltungsnummern mit halben Zahlen wechseln 
+dann immer wieder den Ort. Und so war nun wieder Krefeld an der Reihe.
+
+Da ich die angebotenen Workshops schon aus der Veranstaltung aus dem Jahr 
+2017 kannte, habe ich mich diesmal auf die Vorträge konzentriert.
+
+Im Vormittag gab es den durchaus interessanten Vortrag
+`Die E-Mail, die durch die Zeit sprang 
+<https://piandmore.de/de/conference/pam11-5/schedule/event/4811>`_, der 
+eine Idee aus einem Manga bzw. Anime aufgriff und versuchte, diese in der
+Realität umzusetzen. Hierbei ging es um eine Mikrowelle, mit deren Hilfe
+man eine E-Mail in die Vergangenheit schicken konnte. Der Aufbau ist ziemlich
+seltsam: Über ein DTMF-Signal wird über eine Telefon eine Zahl an eine 
+Mikrowelle geschickt, die diese Zahl in ihrem Display anzeigt. Diese Zahl gibt
+an, wieviele Minuten Mails in die Vergangenheit geschickt werden sollen. Trifft
+nun eine E-Mail an einer vorgegeben Adresse ein, so wird deren Zeitstempel
+um die eingestellte Zeit zurückgesetzt. Die Idee hat mir super gut gefallen,
+da sie viele Ideen des kreativen Umgangs im Umgang mit Technik aufzeigt. Leider
+verlor sich die Präsentation in vielen technischen Details, die das Aushebeln
+von Spam-Erkennungsmechanismen in den Fokus nahmen. Hier hätte ich mir eine 
+ausgewogene Darstellung der anderen genutzen Technologien wie dem Pi als 
+Telefonanlage (`Asterisk
+<http://www.raspberry-asterisk.org/documentation/#nextsteps>`_, `FreePBX
+<https://www.freepbx.org/downloads/freepbx-distro/>`_, `FreePBX Einrichtung
+<https://wiki.freepbx.org/display/PHON/Getting+Started>`_, `3G USB Modem
+<http://wiki.e1550.mobi/doku.php>`_), die Umsetzung 
+der DTMF-Töne oder die Ansteuerung der Mikrowelle
+gewünscht. Details kann man übrigens `hier
+<https://futuregadgetlab.de/index.php/2018/08/10/phonewave-name-subject-to-change-howto-replicate-the-remote-control-function>`_
+nachlesen.
+
+Am Nachmittag weckte der Vortrag `Prepi19 - Präsentationen im 
+19-Zoll-Rackformat 
+<https://piandmore.de/de/conference/pam11-5/schedule/event/4795>`_ mein 
+Interesse. In einer liebevollen und charmanten Präsentation stellte ein 
+deutscher Rentner ein Kooperationsprojekt mit einem Rentner aus den USA 
+und einem Schweizer Künstler vor. Gemeinsam haben sie ein Rack unter dem 
+Namen `Prepi19 
+<https://www.markofner.ch/angebot/raspberry-pi-prepi19>`_ entwickelt,
+das bei Ausstellungen und in Museen zum Einsatz kommt.
+
+  Mit dem Prepi19 integriert sich der Raspberry Pi in professionelle 
+  Steuerungsumgebungen für Museen, Theater und Showbühnen.
+
+Die eingesetzte Steuerungssoftware nennt sich `Pi Presents
+<https://pipresents.wordpress.com/>`_.
+
+Alle Videos werden zeitnah auf dem `YouTube-Kanal
+<https://www.youtube.com/user/PiAndMore>`_ der Veranstaltung
+veröffentlicht.
+
+PWN Pi Zero
+https://github.com/pwnieexpress/raspberry_pwn
+https://dantheiotman.com/2017/09/15/p4wnp1-the-pi-zero-based-usb-attack-platform/
+https://github.com/mame82/P4wnP1
+
+
+
