@@ -18,11 +18,12 @@ Es gab ein buntes `Veranstaltungsprogramm
 Workshops und einer Ausstellung. Die Veranstaltung findet regelmäßig an 
 immer wieder unterschiedlichen Orten statt. 
 
-Ausgangspunkt ist Trier, in der immer die geraden
-Nummer stattfinden. Die Veranstaltungsnummern mit halben Zahlen wechseln 
-dann immer wieder den Ort. Und so war nun wieder Krefeld an der Reihe.
+Ausgangspunkt ist Trier, in der immer die ganzzahligen
+Veranstaltungsnummern stattfinden. Die Veranstaltungsnummern mit halben
+Nummern wechseln dagegen munter 
+den Veranstaltungsort. Und so war nun wieder Krefeld an der Reihe.
 
-Da ich die angebotenen Workshops schon aus der Veranstaltung aus dem Jahr 
+Da ich die angebotenen Workshops schon aus der Veranstaltung im Jahr 
 2017 kannte, habe ich mich diesmal auf die Vorträge konzentriert.
 
 Im Vormittag gab es den durchaus interessanten Vortrag
@@ -36,17 +37,17 @@ Mikrowelle geschickt, die diese Zahl in ihrem Display anzeigt. Diese Zahl gibt
 an, wieviele Minuten Mails in die Vergangenheit geschickt werden sollen. Trifft
 nun eine E-Mail an einer vorgegeben Adresse ein, so wird deren Zeitstempel
 um die eingestellte Zeit zurückgesetzt. Die Idee hat mir super gut gefallen,
-da sie viele Ideen des kreativen Umgangs im Umgang mit Technik aufzeigt. Leider
+da sie viele Ideen des kreativen Umgangs mit Technik aufzeigt. Leider
 verlor sich die Präsentation in vielen technischen Details, die das Aushebeln
 von Spam-Erkennungsmechanismen in den Fokus nahmen. Hier hätte ich mir eine 
-ausgewogene Darstellung der anderen genutzen Technologien wie dem Pi als 
-Telefonanlage (`Asterisk
+ausgewogenere Darstellung der anderen genutzen Technologien gewünscht: 
+der Pi als Telefonanlage (`Asterisk
 <http://www.raspberry-asterisk.org/documentation/#nextsteps>`_, `FreePBX
 <https://www.freepbx.org/downloads/freepbx-distro/>`_, `FreePBX Einrichtung
 <https://wiki.freepbx.org/display/PHON/Getting+Started>`_, `3G USB Modem
 <http://wiki.e1550.mobi/doku.php>`_), die Umsetzung 
-der DTMF-Töne oder die Ansteuerung der Mikrowelle
-gewünscht. Details kann man übrigens `hier
+der DTMF-Töne oder die Ansteuerung der Mikrowelle.
+Details kann man übrigens `hier
 <https://futuregadgetlab.de/index.php/2018/08/10/phonewave-name-subject-to-change-howto-replicate-the-remote-control-function>`_
 nachlesen.
 
@@ -69,9 +70,9 @@ Die eingesetzte Steuerungssoftware nennt sich `Pi Presents
 Im Nachmittagsprogramm gab es eine kleine Session mit `Lightning-Talks
 <https://piandmore.de/de/conference/pam11-5/schedule/event/4818>`_,
 in der ich auch meinen Beitrag leisten durfte. Das war eine schöne belebende 
-Abwechslung, da mich Zuhören im Vortragsprogramm doch stark ermüdet hatte.
+Abwechslung, da mich das Zuhören im Vortragsprogramm doch stark ermüdet hatte.
 In einem dieser kurzen Talks wurde ein mir noch ungekanntes Projekt
-PwnPi erwähnt, das sich anzuschauen lohnt. Ich bin mir unsicher, ob ich
+*PwnPi* erwähnt, das sich anzuschauen lohnt. Ich bin mir unsicher, ob ich
 die korrekten Quellen hierfür gefunden habe, da der Name keine eindeutigen
 Ergebnisse liefert. Ich habe aber folgende Quellen gefunden:
 `Raspberry PWN <https://github.com/pwnieexpress/raspberry_pwn>`_,
@@ -83,7 +84,7 @@ Alle Videos werden zeitnah auf dem `YouTube-Kanal
 <https://www.youtube.com/user/PiAndMore>`_ der Veranstaltung
 veröffentlicht.
 
-Ich freue mich schon die nächste Veranstaltung und danke den Veranstaltern
+Ich freue mich schon auf die nächste Veranstaltung und danke den Veranstaltern
 für die tolle Organisation und insbesondere das tolle und kostenlose
 Catering.
 
