@@ -83,10 +83,6 @@ Alle Videos werden zeitnah auf dem `YouTube-Kanal
 <https://www.youtube.com/user/PiAndMore>`_ der Veranstaltung
 veröffentlicht.
 
-PWN Pi Zero
-https://github.com/pwnieexpress/raspberry_pwn
-https://dantheiotman.com/2017/09/15/p4wnp1-the-pi-zero-based-usb-attack-platform/
-https://github.com/mame82/P4wnP1
-
-
-
+Ich freue mich schon die nächste Veranstaltung und danke den Veranstaltern
+für die tolle Organisation und insbesondere das tolle und kostenlose
+Catering.
