@@ -17,10 +17,11 @@ Programmierer und Freigeister nach Krefeld in die Hochschule am Niederrhein.
 Es gab ein buntes &lt;a class="reference external" href="https://piandmore.de/de/conference/pam11-5/"&gt;Veranstaltungsprogramm&lt;/a&gt; garniert mit Vorträgen,
 Workshops und einer Ausstellung. Die Veranstaltung findet regelmäßig an
 immer wieder unterschiedlichen Orten statt.&lt;/p&gt;
-&lt;p&gt;Ausgangspunkt ist Trier, in der immer die geraden
-Nummer stattfinden. Die Veranstaltungsnummern mit halben Zahlen wechseln
-dann immer wieder den Ort. Und so war nun wieder Krefeld an der Reihe.&lt;/p&gt;
-&lt;p&gt;Da ich die angebotenen Workshops schon aus der Veranstaltung aus dem Jahr
+&lt;p&gt;Ausgangspunkt ist Trier, in der immer die ganzzahligen
+Veranstaltungsnummern stattfinden. Die Veranstaltungsnummern mit halben
+Nummern wechseln dagegen munter
+den Veranstaltungsort. Und so war nun wieder Krefeld an der Reihe.&lt;/p&gt;
+&lt;p&gt;Da ich die angebotenen Workshops schon aus der Veranstaltung im Jahr
 2017 kannte, habe ich mich diesmal auf die Vorträge konzentriert.&lt;/p&gt;
 &lt;p&gt;Im Vormittag gab es den durchaus interessanten Vortrag
 &lt;a class="reference external" href="https://piandmore.de/de/conference/pam11-5/schedule/event/4811"&gt;Die E-Mail, die durch die Zeit sprang&lt;/a&gt;, der
@@ -32,13 +33,13 @@ Mikrowelle geschickt, die diese Zahl in ihrem Display anzeigt. Diese Zahl gibt
 an, wieviele Minuten Mails in die Vergangenheit geschickt werden sollen. Trifft
 nun eine E-Mail an einer vorgegeben Adresse ein, so wird deren Zeitstempel
 um die eingestellte Zeit zurückgesetzt. Die Idee hat mir super gut gefallen,
-da sie viele Ideen des kreativen Umgangs im Umgang mit Technik aufzeigt. Leider
+da sie viele Ideen des kreativen Umgangs mit Technik aufzeigt. Leider
 verlor sich die Präsentation in vielen technischen Details, die das Aushebeln
 von Spam-Erkennungsmechanismen in den Fokus nahmen. Hier hätte ich mir eine
-ausgewogene Darstellung der anderen genutzen Technologien wie dem Pi als
-Telefonanlage (&lt;a class="reference external" href="http://www.raspberry-asterisk.org/documentation/#nextsteps"&gt;Asterisk&lt;/a&gt;, &lt;a class="reference external" href="https://www.freepbx.org/downloads/freepbx-distro/"&gt;FreePBX&lt;/a&gt;, &lt;a class="reference external" href="https://wiki.freepbx.org/display/PHON/Getting+Started"&gt;FreePBX Einrichtung&lt;/a&gt;, &lt;a class="reference external" href="http://wiki.e1550.mobi/doku.php"&gt;3G USB Modem&lt;/a&gt;), die Umsetzung
-der DTMF-Töne oder die Ansteuerung der Mikrowelle
-gewünscht. Details kann man übrigens &lt;a class="reference external" href="https://futuregadgetlab.de/index.php/2018/08/10/phonewave-name-subject-to-change-howto-replicate-the-remote-control-function"&gt;hier&lt;/a&gt;
+ausgewogenere Darstellung der anderen genutzen Technologien gewünscht:
+der Pi als Telefonanlage (&lt;a class="reference external" href="http://www.raspberry-asterisk.org/documentation/#nextsteps"&gt;Asterisk&lt;/a&gt;, &lt;a class="reference external" href="https://www.freepbx.org/downloads/freepbx-distro/"&gt;FreePBX&lt;/a&gt;, &lt;a class="reference external" href="https://wiki.freepbx.org/display/PHON/Getting+Started"&gt;FreePBX Einrichtung&lt;/a&gt;, &lt;a class="reference external" href="http://wiki.e1550.mobi/doku.php"&gt;3G USB Modem&lt;/a&gt;), die Umsetzung
+der DTMF-Töne oder die Ansteuerung der Mikrowelle.
+Details kann man übrigens &lt;a class="reference external" href="https://futuregadgetlab.de/index.php/2018/08/10/phonewave-name-subject-to-change-howto-replicate-the-remote-control-function"&gt;hier&lt;/a&gt;
 nachlesen.&lt;/p&gt;
 &lt;p&gt;Am Nachmittag weckte der Vortrag &lt;a class="reference external" href="https://piandmore.de/de/conference/pam11-5/schedule/event/4795"&gt;Prepi19 - Präsentationen im
 19-Zoll-Rackformat&lt;/a&gt; mein
@@ -53,9 +54,9 @@ Steuerungsumgebungen für Museen, Theater und Showbühnen.&lt;/blockquote&gt;
 &lt;p&gt;Die eingesetzte Steuerungssoftware nennt sich &lt;a class="reference external" href="https://pipresents.wordpress.com/"&gt;Pi Presents&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Im Nachmittagsprogramm gab es eine kleine Session mit &lt;a class="reference external" href="https://piandmore.de/de/conference/pam11-5/schedule/event/4818"&gt;Lightning-Talks&lt;/a&gt;,
 in der ich auch meinen Beitrag leisten durfte. Das war eine schöne belebende
-Abwechslung, da mich Zuhören im Vortragsprogramm doch stark ermüdet hatte.
+Abwechslung, da mich das Zuhören im Vortragsprogramm doch stark ermüdet hatte.
 In einem dieser kurzen Talks wurde ein mir noch ungekanntes Projekt
-PwnPi erwähnt, das sich anzuschauen lohnt. Ich bin mir unsicher, ob ich
+&lt;em&gt;PwnPi&lt;/em&gt; erwähnt, das sich anzuschauen lohnt. Ich bin mir unsicher, ob ich
 die korrekten Quellen hierfür gefunden habe, da der Name keine eindeutigen
 Ergebnisse liefert. Ich habe aber folgende Quellen gefunden:
 &lt;a class="reference external" href="https://github.com/pwnieexpress/raspberry_pwn"&gt;Raspberry PWN&lt;/a&gt;,
@@ -63,7 +64,7 @@ Ergebnisse liefert. Ich habe aber folgende Quellen gefunden:
 und &lt;a class="reference external" href="https://github.com/mame82/P4wnP1"&gt;P4wnP1 (andere Schreibweise)&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Alle Videos werden zeitnah auf dem &lt;a class="reference external" href="https://www.youtube.com/user/PiAndMore"&gt;YouTube-Kanal&lt;/a&gt; der Veranstaltung
 veröffentlicht.&lt;/p&gt;
-&lt;p&gt;Ich freue mich schon die nächste Veranstaltung und danke den Veranstaltern
+&lt;p&gt;Ich freue mich schon auf die nächste Veranstaltung und danke den Veranstaltern
 für die tolle Organisation und insbesondere das tolle und kostenlose
 Catering.&lt;/p&gt;
 &lt;hr class="docutils" /&gt;
