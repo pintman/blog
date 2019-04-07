@@ -34,6 +34,11 @@ definition
 :anderes Feld:
   Mit anderem Inhalt
 
+.. figure:: {static}images/2019/dude_yunohost.jpg
+   :alt: Meme
+   
+   Quelle: https://github.com/alexAubin/yunohostWorkshop/tree/master/img
+
 
 .. image:: {static}images/godel.jpg
    :alt: ein Bild
