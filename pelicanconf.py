@@ -10,7 +10,9 @@ PATH = 'content'
 STATIC_PATHS = ['images', 'media', 'extra']  
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
-    'extra/favicon.ico': {'path': 'favicon.ico'}
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/custom.css': {'path': 'static/css/custom.css'},
+    # 'extra/custom.js': {'path': 'static/js/custom.js'}    
 }
 DEFAULT_CATEGORY = 'Sonstiges'
 DISPLAY_CATEGORIES_ON_MENU = False
