@@ -70,6 +70,14 @@ Im Nachmittagsprogramm gab es eine kleine Session mit `Lightning-Talks
 <https://piandmore.de/de/conference/pam11-5/schedule/event/4818>`_,
 in der ich auch meinen Beitrag leisten durfte. Das war eine schöne belebende 
 Abwechslung, da mich Zuhören im Vortragsprogramm doch stark ermüdet hatte.
+In einem dieser kurzen Talks wurde ein mir noch ungekanntes Projekt
+PwnPi erwähnt, das sich anzuschauen lohnt. Ich bin mir unsicher, ob ich
+die korrekten Quellen hierfür gefunden habe, da der Name keine eindeutigen
+Ergebnisse liefert. Ich habe aber folgende Quellen gefunden:
+`Raspberry PWN <https://github.com/pwnieexpress/raspberry_pwn>`_,
+`p4wnp1 
+<https://dantheiotman.com/2017/09/15/p4wnp1-the-pi-zero-based-usb-attack-platform/>`_,
+und `P4wnP1 <https://github.com/mame82/P4wnP1>`_.
 
 Alle Videos werden zeitnah auf dem `YouTube-Kanal
 <https://www.youtube.com/user/PiAndMore>`_ der Veranstaltung
