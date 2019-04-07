@@ -1,5 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-03-24T12:20:00+01:00</updated><entry><title>spring(); break;</title><link href="https://blog.bakera.de/springbreak2019.html" rel="alternate"></link><published>2019-03-24T12:20:00+01:00</published><updated>2019-03-24T12:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-03-24:/springbreak2019.html</id><summary type="html">&lt;img alt="Logo" src="https://blog.bakera.de/images/2019/spring_break_logo.png" /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-04-07T12:20:00+02:00</updated><entry><title>Pi And More 11½</title><link href="https://blog.bakera.de/pam115.html" rel="alternate"></link><published>2019-04-07T12:20:00+02:00</published><updated>2019-04-07T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-04-07:/pam115.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;img alt="pam Anhänger" src="https://blog.bakera.de/images/2019/pam115.png" /&gt;
+&lt;p class="caption"&gt;Anhänger aus dem Lasergravierer&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;In diesem Jahr lockte die &lt;em&gt;Pi And More 11½&lt;/em&gt; Interessierte, Bastler, Hacker,
+Programmierer und Freigeister nach Krefeld in die Hochschule am Niederrhein.
+Es gab ein buntes &lt;a class="reference external" href="https://piandmore.de/de/conference/pam11-5/"&gt;Veranstaltungsprogramm&lt;/a&gt; garniert mit Vorträgen,
+Workshops und einer Ausstellung. Die Veranstaltung findet regelmäßig an
+immer wieder unterschiedlichen Orten statt.&lt;/p&gt;
+&lt;p&gt;Ausgangspunkt ist …&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
+&lt;img alt="pam Anhänger" src="https://blog.bakera.de/images/2019/pam115.png" /&gt;
+&lt;p class="caption"&gt;Anhänger aus dem Lasergravierer&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;In diesem Jahr lockte die &lt;em&gt;Pi And More 11½&lt;/em&gt; Interessierte, Bastler, Hacker,
+Programmierer und Freigeister nach Krefeld in die Hochschule am Niederrhein.
+Es gab ein buntes &lt;a class="reference external" href="https://piandmore.de/de/conference/pam11-5/"&gt;Veranstaltungsprogramm&lt;/a&gt; garniert mit Vorträgen,
+Workshops und einer Ausstellung. Die Veranstaltung findet regelmäßig an
+immer wieder unterschiedlichen Orten statt.&lt;/p&gt;
+&lt;p&gt;Ausgangspunkt ist Trier, in der immer die geraden
+Nummer stattfinden. Die Veranstaltungsnummern mit halben Zahlen wechseln
+dann immer wieder den Ort. Und so war nun wieder Krefeld an der Reihe.&lt;/p&gt;
+&lt;p&gt;Da ich die angebotenen Workshops schon aus der Veranstaltung aus dem Jahr
+2017 kannte, habe ich mich diesmal auf die Vorträge konzentriert.&lt;/p&gt;
+&lt;p&gt;Im Vormittag gab es den durchaus interessanten Vortrag
+&lt;a class="reference external" href="https://piandmore.de/de/conference/pam11-5/schedule/event/4811"&gt;Die E-Mail, die durch die Zeit sprang&lt;/a&gt;, der
+eine Idee aus einem Manga bzw. Anime aufgriff und versuchte, diese in der
+Realität umzusetzen. Hierbei ging es um eine Mikrowelle, mit deren Hilfe
+man eine E-Mail in die Vergangenheit schicken konnte. Der Aufbau ist ziemlich
+seltsam: Über ein DTMF-Signal &lt;a class="footnote-reference" href="#dtmf" id="id1"&gt;[1]&lt;/a&gt; wird über eine Telefon eine Zahl an eine
+Mikrowelle geschickt, die diese Zahl in ihrem Display anzeigt. Diese Zahl gibt
+an, wieviele Minuten Mails in die Vergangenheit geschickt werden sollen. Trifft
+nun eine E-Mail an einer vorgegeben Adresse ein, so wird deren Zeitstempel
+um die eingestellte Zeit zurückgesetzt. Die Idee hat mir super gut gefallen,
+da sie viele Ideen des kreativen Umgangs im Umgang mit Technik aufzeigt. Leider
+verlor sich die Präsentation in vielen technischen Details, die das Aushebeln
+von Spam-Erkennungsmechanismen in den Fokus nahmen. Hier hätte ich mir eine
+ausgewogene Darstellung der anderen genutzen Technologien wie dem Pi als
+Telefonanlage (&lt;a class="reference external" href="http://www.raspberry-asterisk.org/documentation/#nextsteps"&gt;Asterisk&lt;/a&gt;, &lt;a class="reference external" href="https://www.freepbx.org/downloads/freepbx-distro/"&gt;FreePBX&lt;/a&gt;, &lt;a class="reference external" href="https://wiki.freepbx.org/display/PHON/Getting+Started"&gt;FreePBX Einrichtung&lt;/a&gt;, &lt;a class="reference external" href="http://wiki.e1550.mobi/doku.php"&gt;3G USB Modem&lt;/a&gt;), die Umsetzung
+der DTMF-Töne oder die Ansteuerung der Mikrowelle
+gewünscht. Details kann man übrigens &lt;a class="reference external" href="https://futuregadgetlab.de/index.php/2018/08/10/phonewave-name-subject-to-change-howto-replicate-the-remote-control-function"&gt;hier&lt;/a&gt;
+nachlesen.&lt;/p&gt;
+&lt;p&gt;Am Nachmittag weckte der Vortrag &lt;a class="reference external" href="https://piandmore.de/de/conference/pam11-5/schedule/event/4795"&gt;Prepi19 - Präsentationen im
+19-Zoll-Rackformat&lt;/a&gt; mein
+Interesse. In einer liebevollen und charmanten Präsentation stellte ein
+deutscher Rentner ein Kooperationsprojekt mit einem Rentner aus den USA
+und einem Schweizer Künstler vor. Gemeinsam haben sie ein Rack unter dem
+Namen &lt;a class="reference external" href="https://www.markofner.ch/angebot/raspberry-pi-prepi19"&gt;Prepi19&lt;/a&gt; entwickelt,
+das bei Ausstellungen und in Museen zum Einsatz kommt.&lt;/p&gt;
+&lt;blockquote&gt;
+Mit dem Prepi19 integriert sich der Raspberry Pi in professionelle
+Steuerungsumgebungen für Museen, Theater und Showbühnen.&lt;/blockquote&gt;
+&lt;p&gt;Die eingesetzte Steuerungssoftware nennt sich &lt;a class="reference external" href="https://pipresents.wordpress.com/"&gt;Pi Presents&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Im Nachmittagsprogramm gab es eine kleine Session mit &lt;a class="reference external" href="https://piandmore.de/de/conference/pam11-5/schedule/event/4818"&gt;Lightning-Talks&lt;/a&gt;,
+in der ich auch meinen Beitrag leisten durfte. Das war eine schöne belebende
+Abwechslung, da mich Zuhören im Vortragsprogramm doch stark ermüdet hatte.
+In einem dieser kurzen Talks wurde ein mir noch ungekanntes Projekt
+PwnPi erwähnt, das sich anzuschauen lohnt. Ich bin mir unsicher, ob ich
+die korrekten Quellen hierfür gefunden habe, da der Name keine eindeutigen
+Ergebnisse liefert. Ich habe aber folgende Quellen gefunden:
+&lt;a class="reference external" href="https://github.com/pwnieexpress/raspberry_pwn"&gt;Raspberry PWN&lt;/a&gt;,
+&lt;a class="reference external" href="https://dantheiotman.com/2017/09/15/p4wnp1-the-pi-zero-based-usb-attack-platform/"&gt;p4wnp1&lt;/a&gt;,
+und &lt;a class="reference external" href="https://github.com/mame82/P4wnP1"&gt;P4wnP1 (andere Schreibweise)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Alle Videos werden zeitnah auf dem &lt;a class="reference external" href="https://www.youtube.com/user/PiAndMore"&gt;YouTube-Kanal&lt;/a&gt; der Veranstaltung
+veröffentlicht.&lt;/p&gt;
+&lt;p&gt;Ich freue mich schon die nächste Veranstaltung und danke den Veranstaltern
+für die tolle Organisation und insbesondere das tolle und kostenlose
+Catering.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;table class="docutils footnote" frame="void" id="dtmf" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;DTMF ist ein Verfahren das Töne zum Wählen von Telefonnummern nutzt.
+Die Töne setzen sich dabei aus zwei Frequenzen zusammen und identifizieren
+darüber eindeutig eine Ziffer.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content><category term="raspberrypi"></category><category term="hacking"></category></entry><entry><title>spring(); break;</title><link href="https://blog.bakera.de/springbreak2019.html" rel="alternate"></link><published>2019-03-24T12:20:00+01:00</published><updated>2019-03-24T12:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-03-24:/springbreak2019.html</id><summary type="html">&lt;img alt="Logo" src="https://blog.bakera.de/images/2019/spring_break_logo.png" /&gt;
 &lt;p&gt;Gestern fand zum ersten Mal im Bochumer Labor die
 &lt;a class="reference external" href="https://wiki.das-labor.org/w/Veranstaltung/springbreak"&gt;spring(); break;&lt;/a&gt; statt.
 Hinter diesem etwas sperrigen und vielleicht fehl leitenden Titel verbirgt sich eine
@@ -1805,189 +1881,4 @@ spricht fefe über Patterns und insbesondere auch Anti-Patterns aus der
 Sicht von Softwareentwicklern und devOps. Unterhaltsam, kurzweilig, mit
 einem breiten Themenspektrum und vielen Anekdoten und konkreten
 Beispielen aus der Praxis gespickt. Sehenswert.&lt;/p&gt;
-</content><category term="Informatik"></category><category term="Video"></category><category term="34c3"></category></entry><entry><title>34c3 Pad</title><link href="https://blog.bakera.de/34c3-pad.html" rel="alternate"></link><published>2018-01-03T12:20:00+01:00</published><updated>2018-01-03T12:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-01-03:/34c3-pad.html</id><summary type="html">&lt;p&gt;Während des Congresses haben mich folgende Notizen in einem Pad
-begleitet. Als Erinnerung an mich veröffentliche ich sie an dieser
-Stelle.&lt;/p&gt;
-&lt;div id="magicdomid2"&gt;&lt;p&gt;&lt;strong&gt;Alle Events&lt;/strong&gt;
-&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Static:Timetable"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Static:Timetable&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid3"&gt;&lt;/div&gt;&lt;div id="magicdomid4"&gt;&lt;p&gt;-Pi Laptop&lt;a class="reference external" href="https://github.com/sarah314/SpyPi"&gt;https://github.com/sarah314/SpyPi&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid5"&gt;&lt;p&gt;-CTF Holiday hack challenge&lt;a class="reference external" href="https://holidayhackchallenge.com/2017/"&gt;https://holidayhackchallenge.com/2017/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid6"&gt;&lt;p&gt;-Gameboy …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Während des Congresses haben mich folgende Notizen in einem Pad
-begleitet. Als Erinnerung an mich veröffentliche ich sie an dieser
-Stelle.&lt;/p&gt;
-&lt;div id="magicdomid2"&gt;&lt;p&gt;&lt;strong&gt;Alle Events&lt;/strong&gt;
-&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Static:Timetable"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Static:Timetable&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid3"&gt;&lt;/div&gt;&lt;div id="magicdomid4"&gt;&lt;p&gt;-Pi Laptop&lt;a class="reference external" href="https://github.com/sarah314/SpyPi"&gt;https://github.com/sarah314/SpyPi&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid5"&gt;&lt;p&gt;-CTF Holiday hack challenge&lt;a class="reference external" href="https://holidayhackchallenge.com/2017/"&gt;https://holidayhackchallenge.com/2017/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid6"&gt;&lt;p&gt;-Gameboy Sequenzer&lt;a class="reference external" href="http://nanoloop.de"&gt;http://nanoloop.de&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid7"&gt;&lt;ul class="simple"&gt;
-&lt;li&gt;Atari Punk Console&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Atari_Punk_Console"&gt;https://en.wikipedia.org/wiki/Atari_Punk_Console&lt;/a&gt;oder&lt;a class="reference external" href="https://syntherjack.net/atari-punk-console/"&gt;https://syntherjack.net/atari-punk-console/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;&lt;div id="magicdomid8"&gt;&lt;p&gt;-Blinkenrocket&lt;a class="reference external" href="http://blinkenrocket.de"&gt;http://blinkenrocket.de&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid9"&gt;&lt;/div&gt;&lt;div id="magicdomid10"&gt;&lt;p&gt;&lt;strong&gt;Fahrplan&lt;/strong&gt; Tram 16e
-&lt;a class="reference external" href="https://twitter.com/ajuvo/status/943072228454912000"&gt;https://twitter.com/ajuvo/status/943072228454912000&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid11"&gt;&lt;/div&gt;&lt;div id="magicdomid12"&gt;&lt;p&gt;&lt;strong&gt;Karten&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid13"&gt;&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;strong&gt;Allgemein&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;&lt;div id="magicdomid14"&gt;&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://34c3.c3nav.de"&gt;https://34c3.c3nav.de&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;&lt;div id="magicdomid15"&gt;&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Static:Leipziger_Messe"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Static:Leipziger_Messe&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;&lt;div id="magicdomid16"&gt;&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;strong&gt;Halle 2&lt;/strong&gt;
-&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/images/5/5c/HHA_map_Hall2.jpg"&gt;https://events.ccc.de/congress/2017/wiki/images/5/5c/HHA_map_Hall2.jpg&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;&lt;div id="magicdomid17"&gt;&lt;/div&gt;&lt;div id="magicdomid18"&gt;&lt;p&gt;&lt;strong&gt;Spaß&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid19"&gt;&lt;ul class="simple"&gt;
-&lt;li&gt;Logo-Generator&lt;a class="reference external" href="https://my.c3sign.de/34c3/"&gt;https://my.c3sign.de/34c3/&lt;/a&gt;oder&lt;a class="reference external" href="http://schild.chaos.lol/34c3"&gt;http://schild.chaos.lol/34c3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;&lt;div id="magicdomid20"&gt;&lt;/div&gt;&lt;div id="magicdomid21"&gt;&lt;/div&gt;&lt;div id="magicdomid22"&gt;&lt;p&gt;&lt;strong&gt;Talks&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid23"&gt;&lt;/div&gt;&lt;div id="magicdomid24"&gt;&lt;p&gt;2017-12-27&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid25"&gt;&lt;/div&gt;&lt;div id="magicdomid26"&gt;&lt;p&gt;Ladeinfrastruktur für Elektroautos: Ausbau statt Sicherheit&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid27"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/Fahrplan/events/9092.html"&gt;https://events.ccc.de/congress/2017/Fahrplan/events/9092.html&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid28"&gt;&lt;p&gt;&lt;strong&gt;time:&lt;/strong&gt; 12:45 &lt;strong&gt;Duration:&lt;/strong&gt; 01:00 &lt;strong&gt;Room:&lt;/strong&gt; Saal Adams&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div id="magicdomid30"&gt;&lt;p&gt;Die Lauschprogramme der Geheimdienste&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid31"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/Fahrplan/events/9289.html"&gt;https://events.ccc.de/congress/2017/Fahrplan/events/9289.html&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid32"&gt;&lt;p&gt;&lt;strong&gt;time:&lt;/strong&gt; 16:30 &lt;strong&gt;Duration:&lt;/strong&gt; 01:00 &lt;strong&gt;Room:&lt;/strong&gt; Saal Adams&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div id="magicdomid34"&gt;&lt;p&gt;&lt;strong&gt;Sessions&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid35"&gt;&lt;/div&gt;&lt;div id="magicdomid36"&gt;&lt;p&gt;&lt;strong&gt;2017-12-2X&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid37"&gt;&lt;p&gt;The ultimate Free Software challenge&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid38"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:The_ultimate_Free_Software_challenge"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:The_ultimate_Free_Software_challenge&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid39"&gt;&lt;p&gt;Starts at 2017/12/2x hh:00 Ends at TBD Duration TBD Location
-Assembly:Free Software Foundation Europe&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid40"&gt;&lt;/div&gt;&lt;div id="magicdomid41"&gt;&lt;p&gt;&lt;strong&gt;2017-12-27&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid42"&gt;&lt;/div&gt;&lt;div id="magicdomid43"&gt;&lt;p&gt;&lt;em&gt;CTF oder CTF junior&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid44"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/2017/12/23/34c3-ctf/"&gt;*https://events.ccc.de/2017/12/23/34c3-ctf/*&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid45"&gt;&lt;p&gt;&lt;em&gt;Time: The contest will run for 48 hours, from Dec 27th, 20:00 UTC to
-Dec 29th, 20:00 UTC.&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div id="magicdomid47"&gt;&lt;p&gt;Lets play Hedgewars!&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid48"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Lets_play_Hedgewars"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Lets_play_Hedgewars&lt;/a&gt;!&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid49"&gt;&lt;p&gt;Starts at 2017/12/27 12:00 Ends at 2017/12/29 19:23 Duration 3323
-minutes Location ???&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid50"&gt;&lt;/div&gt;&lt;div id="magicdomid51"&gt;&lt;p&gt;Session:Chaos-Notizen&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid52"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Chaos-Notizen"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Chaos-Notizen&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid53"&gt;&lt;p&gt;Starts at 2017/12/27 15:00 Ends at 2017/12/27 15:40&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid54"&gt;&lt;p&gt;Location Assembly:Bogonauten&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid55"&gt;&lt;/div&gt;&lt;div id="magicdomid56"&gt;&lt;p&gt;Cryptoparty&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid57"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Cryptoparty"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Cryptoparty&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid58"&gt;&lt;p&gt;How to use OpenPGP with Enigmail and Thunderbird. If there is time left
-we can do keysigning afterwards. Bring your laptops&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid59"&gt;&lt;p&gt;Starts at 2017/12/27 16:00 Ends at 2017/12/27 18:00 Room:Komona Coral
-Reef&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid60"&gt;&lt;/div&gt;&lt;div id="magicdomid61"&gt;&lt;p&gt;“How To Survice 34C3” CryptoParty&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid62"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:%E2%80%9CHow_To_Survice_34C3%E2%80%9D_CryptoParty"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:%E2%80%9CHow_To_Survice_34C3%E2%80%9D_CryptoParty&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid63"&gt;&lt;p&gt;Starts at 2017/12/27 16:00 Ends at 2017/12/27 18:30 Duration 150 minutes
-Location Room:Lecture room 12&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid64"&gt;&lt;/div&gt;&lt;div id="magicdomid65"&gt;&lt;p&gt;Session:LearnToSolder&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid66"&gt;&lt;p&gt;Mitch \o/&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid67"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:LearnToSolder"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:LearnToSolder&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid68"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/images/5/5c/HHA_map_Hall2.jpg"&gt;https://events.ccc.de/congress/2017/wiki/images/5/5c/HHA_map_Hall2.jpg&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid69"&gt;&lt;p&gt;Starts at 2017/12/27 17:00 Ends at 2017/12/30 14:59&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid70"&gt;&lt;/div&gt;&lt;div id="magicdomid71"&gt;&lt;p&gt;Pretty Easy privacy (p≡p) for Thunderbird via Enigmail: How it works!&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid72"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Pretty_Easy_privacy_(p%E2%89%A1p)_for_Thunderbird_via_Enigmail:_How_it_works"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Pretty_Easy_privacy_(p%E2%89%A1p)_for_Thunderbird_via_Enigmail:_How_it_works&lt;/a&gt;!&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid73"&gt;&lt;p&gt;Starts at 2017/12/27 18:00 Ends at TBD Duration TBD Location Room:Hall 3&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid74"&gt;&lt;/div&gt;&lt;div id="magicdomid75"&gt;&lt;p&gt;&lt;em&gt;Session:Lehrerstammtisch&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid76"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Lehrerstammtisch"&gt;*https://events.ccc.de/congress/2017/wiki/index.php/Session:Lehrerstammtisch*&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid77"&gt;&lt;p&gt;&lt;em&gt;Starts at 2017/12/27 20:00 Ends at 2017/12/27 21:00 Duration 60 minutes
-Location Room:Lecture room 12&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid78"&gt;&lt;/div&gt;&lt;div id="magicdomid79"&gt;&lt;p&gt;Ki+Philosophie&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid80"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Ki%2BPhilosophie"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Ki%2BPhilosophie&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid81"&gt;&lt;p&gt;Starts at 2017/12/27 20:00 Ends at 2017/12/27 21:00 Duration 60 minutes
-Location Room:Seminar room 14-15&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid82"&gt;&lt;/div&gt;&lt;div id="magicdomid83"&gt;&lt;p&gt;Social Networking, powered by FreeSoftware&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid84"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Social_Networking,_powered_by_FreeSoftware"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Social_Networking,_powered_by_FreeSoftware&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid85"&gt;&lt;p&gt;Starts at 2017/12/27 20:00 Ends at 2017/12/27 21:00 Duration 60 minutes
-Location Room:Hall 3&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid86"&gt;&lt;/div&gt;&lt;div id="magicdomid87"&gt;&lt;p&gt;Session:Pixel Art Workshop&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid88"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Pixel_Art_Workshop"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Pixel_Art_Workshop&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid89"&gt;&lt;p&gt;Starts at 2017/12/27 20:00 Ends at 2017/12/27 22:00&amp;nbsp; Location
-Room:Esszimmer&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid90"&gt;&lt;/div&gt;&lt;div id="magicdomid91"&gt;&lt;p&gt;&lt;strong&gt;2017-12-28&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid92"&gt;&lt;/div&gt;&lt;div id="magicdomid93"&gt;&lt;p&gt;How does artificial intelligence accomplish the feat of learning?
-(Wondrous Mathematics)&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid94"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:How_does_artificial_intelligence_accomplish_the_feat_of_learning%3F_(Wondrous_Mathematics"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:How_does_artificial_intelligence_accomplish_the_feat_of_learning%3F_(Wondrous_Mathematics&lt;/a&gt;)&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid95"&gt;&lt;p&gt;Starts at 2017/12/28 11:30 Ends at 2017/12/28 12:20 Duration 50 minutes
-Location Room:Seminar room 14-15&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid96"&gt;&lt;/div&gt;&lt;div id="magicdomid97"&gt;&lt;p&gt;Session:TrickmischSession:Trickmisch&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid98"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Trickmisch"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Trickmisch&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid99"&gt;&lt;p&gt;Subtitle Trickfilm Workshop Starts at 2017/12/28 12:00 Ends at
-2017/12/28 16:00 Duration 240 minutes Location Room:Kidspace&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid100"&gt;&lt;/div&gt;&lt;div id="magicdomid101"&gt;&lt;p&gt;Session:Learning to draw for techies&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid102"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Learning_to_draw_for_techies"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Learning_to_draw_for_techies&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid103"&gt;&lt;p&gt;Starts at 2017/12/28 12:00 Ends at 2017/12/28 13:45 Duration Location
-Komona Coral Reef&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid104"&gt;&lt;/div&gt;&lt;div id="magicdomid105"&gt;&lt;p&gt;Intro to 3D Shader Programming&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid106"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Intro_to_3D_Shader_Programming"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Intro_to_3D_Shader_Programming&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid107"&gt;&lt;p&gt;Starts at 2017/12/28 12:30 Ends at 2017/12/28 13:30 Duration 60 minutes
-Location Room:Lecture room 12&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid108"&gt;&lt;/div&gt;&lt;div id="magicdomid109"&gt;&lt;p&gt;Introduction into anarchism&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid110"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Introduction_into_anarchism"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Introduction_into_anarchism&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid111"&gt;&lt;p&gt;Starts at 2017/12/28 14:00 Ends at 2017/12/28 15:30 Duration 90 minutes
-Location Room:Komona Coral Reef&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid112"&gt;&lt;/div&gt;&lt;div id="magicdomid113"&gt;&lt;p&gt;Vorführung und Workshop: Digitales Graffiti auf Facebook (Lukas, Tobi)&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid114"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Digitales_Graffiti_auf_Facebook"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Digitales_Graffiti_auf_Facebook&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid115"&gt;&lt;p&gt;Starts at 2017/12/28 16:00 Ends at 2017/12/28 18:00 Location Room:Komona
-D.Ressrosa&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid116"&gt;&lt;/div&gt;&lt;div id="magicdomid117"&gt;&lt;p&gt;&lt;em&gt;Hacking with wget&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid118"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Hacking_with_wget"&gt;*https://events.ccc.de/congress/2017/wiki/index.php/Session:Hacking_with_wget*&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid119"&gt;&lt;p&gt;&lt;em&gt;Starts at 2017/12/28 18:00 Ends at 2017/12/28 19:00 Duration 60 minutes
-Location Room:Hall 3&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid120"&gt;&lt;p&gt;&lt;em&gt;Http://hboeck.de&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid121"&gt;&lt;p&gt;&lt;em&gt;&amp;#64;hanno&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid122"&gt;&lt;/div&gt;&lt;div id="magicdomid123"&gt;&lt;p&gt;&lt;em&gt;How to make chiptune with a Game Boy DMG&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid124"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:How_to_make_chiptune_with_a_Game_Boy_DMG"&gt;*https://events.ccc.de/congress/2017/wiki/index.php/Session:How_to_make_chiptune_with_a_Game_Boy_DMG*&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid125"&gt;&lt;p&gt;&lt;em&gt;Starts at 2017/12/28 20:00 Ends at 2017/12/28 21:30 Duration 90 minutes
-Location Room:Komona Aquarius&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid126"&gt;&lt;/div&gt;&lt;div id="magicdomid127"&gt;&lt;p&gt;Session:D Town, Christopher: Eigenes HackLab bauen!&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid128"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:D_Town,_Christopher:_Eigenes_HackLab_bauen"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:D_Town,_Christopher:_Eigenes_HackLab_bauen&lt;/a&gt;!&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid129"&gt;&lt;p&gt;Starts at 2017/12/28 20:00 Ends at 2017/12/28 20:45&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid130"&gt;&lt;p&gt;Location Room:Chaos West Stage&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid131"&gt;&lt;/div&gt;&lt;div id="magicdomid132"&gt;&lt;p&gt;Synth Jam&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid133"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Synth_Jam"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Synth_Jam&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid134"&gt;&lt;p&gt;Starts at 2017/12/28 22:00 Ends at 2017/12/28 23:00 Duration 60 minutes
-Location Assembly:HardwareHackingArea&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid135"&gt;&lt;/div&gt;&lt;div id="magicdomid136"&gt;&lt;p&gt;&lt;strong&gt;2017-12-29&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid137"&gt;&lt;/div&gt;&lt;div id="magicdomid138"&gt;&lt;p&gt;Faith in mathematics (Wondrous Mathematics)&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid139"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Faith_in_mathematics_(Wondrous_Mathematics"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Faith_in_mathematics_(Wondrous_Mathematics&lt;/a&gt;)&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid140"&gt;&lt;p&gt;Starts at 2017/12/29 11:30 Ends at 2017/12/29 12:30 Duration 60 minutes
-Room:Lecture room 12&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid141"&gt;&lt;/div&gt;&lt;div id="magicdomid142"&gt;&lt;p&gt;Session:Bouldering&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid143"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Bouldering"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Bouldering&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid144"&gt;&lt;p&gt;Starts at 2017/12/29 14:00 Ends at 2017/12/29 16:00 Duration 120 minutes&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid145"&gt;&lt;/div&gt;&lt;div id="magicdomid146"&gt;&lt;p&gt;Session:Schauvorlesung Physik&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid147"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Schauvorlesung_Physik#_8498ecd2769824e7b9eb51cb3c5039ba"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Schauvorlesung_Physik#_8498ecd2769824e7b9eb51cb3c5039ba&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid148"&gt;&lt;p&gt;Starts at 2017/12/29 15:00 Ends at 2017/12/29 15:20 Duration 20 minutes
-Location Assembly:Physikfachschaft Rostock&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid149"&gt;&lt;/div&gt;&lt;div id="magicdomid150"&gt;&lt;p&gt;Session:Limlug: In der Weihnachtsbäckerei - Data Science und Kekse&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid151"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Limlug:_In_der_Weihnachtsb%C3%A4ckerei_-_Data_Science_und_Kekse"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Limlug:_In_der_Weihnachtsb%C3%A4ckerei_-_Data_Science_und_Kekse&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid152"&gt;&lt;p&gt;Starts at 2017/12/29 16:00 Ends at 2017/12/29 16:45&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid153"&gt;&lt;/div&gt;&lt;div id="magicdomid154"&gt;&lt;p&gt;Session:Postapocalyptic fidget spinner workshop&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid155"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Postapocalyptic_fidget_spinner_workshop"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Postapocalyptic_fidget_spinner_workshop&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid156"&gt;&lt;p&gt;Starts at 2017/12/29 16:00 Ends at 2017/12/29 18:00 Duration 120 minutes
-Location Assembly:Chaos West&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid157"&gt;&lt;/div&gt;&lt;div id="magicdomid158"&gt;&lt;p&gt;Public Money? Public Code!&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid159"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Public_Money%3F_Public_Code"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Public_Money%3F_Public_Code&lt;/a&gt;!&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid160"&gt;&lt;p&gt;Starts at 2017/12/29 19:00 Ends at 2017/12/29 20:00 Duration 60 minutes
-Location Room:Hall 3&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid161"&gt;&lt;/div&gt;&lt;div id="magicdomid162"&gt;&lt;p&gt;Session:Lehrerstammtisch VR&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid163"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Lehrerstammtisch_VR#_8148e82733b1a7a7bf77c6523e43ce1f"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Session:Lehrerstammtisch_VR#_8148e82733b1a7a7bf77c6523e43ce1f&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid164"&gt;&lt;p&gt;&amp;nbsp;Starts at 2017/12/29 20:00 Ends at TBD Duration TBD Location
-Assembly:VR&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid165"&gt;&lt;/div&gt;&lt;div id="magicdomid166"&gt;&lt;p&gt;&lt;em&gt;Session:34C3 CTF Afterparty&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid167"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:34C3_CTF_Afterparty#_b20ed29f0c1dcada15213dfdeddabe50"&gt;*https://events.ccc.de/congress/2017/wiki/index.php/Session:34C3_CTF_Afterparty#_b20ed29f0c1dcada15213dfdeddabe50*&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid168"&gt;&lt;p&gt;&lt;em&gt;Starts at 2017/12/29 21:30 Ends at 2017/12/29 23:30 Duration 120
-minutes Location Room:Chaos West Stage&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid169"&gt;&lt;/div&gt;&lt;div id="magicdomid170"&gt;&lt;/div&gt;&lt;div id="magicdomid171"&gt;&lt;/div&gt;&lt;div id="magicdomid172"&gt;&lt;p&gt;&lt;strong&gt;Projects&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid173"&gt;&lt;/div&gt;&lt;div id="magicdomid174"&gt;&lt;p&gt;Projects:Bildschirmtext&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid175"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Projects:Bildschirmtext"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Projects:Bildschirmtext&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid176"&gt;&lt;p&gt;Located at assembly Assembly:Weisswurscht.is&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid177"&gt;&lt;/div&gt;&lt;div id="magicdomid178"&gt;&lt;p&gt;Projects:Xilwatch&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid179"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Projects:Xilwatch"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Projects:Xilwatch&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid180"&gt;&lt;/div&gt;&lt;div id="magicdomid181"&gt;&lt;p&gt;Projects:TEX Certificates&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid182"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Projects:TEX_Certificates"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Projects:TEX_Certificates&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid183"&gt;&lt;/div&gt;&lt;div id="magicdomid184"&gt;&lt;p&gt;Projects:Einmal mit Profis!&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid185"&gt;&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2017/wiki/index.php/Projects:Einmal_mit_Profis"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Projects:Einmal_mit_Profis&lt;/a&gt;!&lt;/p&gt;
-&lt;/div&gt;&lt;div id="magicdomid186"&gt;&lt;/div&gt;&lt;div id="magicdomid187"&gt;&lt;/div&gt;</content><category term="Informatik"></category><category term="34c3"></category></entry></feed>
+</content><category term="Informatik"></category><category term="Video"></category><category term="34c3"></category></entry></feed>
