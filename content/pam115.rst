@@ -88,6 +88,15 @@ Ich freue mich schon auf die nächste Veranstaltung und danke den Veranstaltern
 für die tolle Organisation und insbesondere das tolle und kostenlose
 Catering.
 
+Update
+------
+
+Die Lightning-Talks und damit auch `mein Vortrag über das Hardware 101
+<https://www.youtube.com/watch?v=_8yzRQuGX-Y>`_ sind nun bei YouTube
+hochgeladen. Mein Kollege Reinhard hat einen ebenfalls interessanten `Vortrag
+über das TBS1-Board <https://www.youtube.com/watch?v=qSOjdG02QLc>`_ gehalten.
+
+
 ----
 
 .. [#dtmf] DTMF ist ein Verfahren das Töne zum Wählen von Telefonnummern nutzt.
