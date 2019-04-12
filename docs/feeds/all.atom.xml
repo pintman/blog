@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-04-07T12:20:00+02:00</updated><entry><title>Pi And More 11½</title><link href="https://blog.bakera.de/pam115.html" rel="alternate"></link><published>2019-04-07T12:20:00+02:00</published><updated>2019-04-07T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-04-07:/pam115.html</id><summary type="html">&lt;div class="figure"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-04-12T12:20:00+02:00</updated><entry><title>Buchtipp: Arrival</title><link href="https://blog.bakera.de/arrival.html" rel="alternate"></link><published>2019-04-12T12:20:00+02:00</published><updated>2019-04-12T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-04-12:/arrival.html</id><summary type="html">&lt;img alt="Buch Arrival" src="https://blog.bakera.de/images/2019/arrival.png" style="width: 500px;" /&gt;
+&lt;p&gt;&lt;em&gt;Arrival&lt;/em&gt; ist ein toller Film über die Kommunikation von Außerirdischen
+und die beschränkte Sicht der Menschen auf mögliche alternative
+Intelligenzen. Geschrieben wurde die Buchvorlage für den Film von
+&lt;a class="reference external" href="https://de.wikipedia.org/wiki/Ted_Chiang"&gt;Ted Chiang&lt;/a&gt;. Und über
+den Film bin ich auch auf die schöne Sammlung von Kurzgeschichten
+&lt;em&gt;Arrival - Die Hölle ist die Abwesenheit Gottes …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;img alt="Buch Arrival" src="https://blog.bakera.de/images/2019/arrival.png" style="width: 500px;" /&gt;
+&lt;p&gt;&lt;em&gt;Arrival&lt;/em&gt; ist ein toller Film über die Kommunikation von Außerirdischen
+und die beschränkte Sicht der Menschen auf mögliche alternative
+Intelligenzen. Geschrieben wurde die Buchvorlage für den Film von
+&lt;a class="reference external" href="https://de.wikipedia.org/wiki/Ted_Chiang"&gt;Ted Chiang&lt;/a&gt;. Und über
+den Film bin ich auch auf die schöne Sammlung von Kurzgeschichten
+&lt;em&gt;Arrival - Die Hölle ist die Abwesenheit Gottes&lt;/em&gt; gestoßen. Der Buchtitel ist
+maximal verwirrend, da die Geschichte zum Film Arrival in dem Buch
+selbst &lt;em&gt;Die Geschichte deines Lebens heißt&lt;/em&gt;. Der eigentliche Buchtitel
+&lt;em&gt;Die Hölle ist die Abwesenheit Gottes&lt;/em&gt; (so hieß es noch in der ersten
+Auflage) aber vermutlich dem erfolgreichen Filmtitel weichen musste.&lt;/p&gt;
+&lt;p&gt;Sei es drum. Die verschiedenen Geschichten in dem Buch lassen sich leider
+nur schlecht wiedergeben, ohne direkt wesentliche Inhalte preiszugeben. Eines
+sei jedoch verraten: alle Geschichten spielen in der Zukunft oder einer
+alternativen Gegenwart; leicht entrückt und unwirklich, nicht aber
+abgehoben oder von Technik durchzogen. Manche Geschichten würde man
+vielleicht sogar als historisch oder biblisch interpretieren können.
+Allen Geschichten ist gemein, dass sie mit verschiedenen Literaturpreisen
+ausgezeichnet wurden und Chiang damit ein Autor eines vom Umfang her
+extrem kompakten aber hoch ausgezeichneten Werkes ist.&lt;/p&gt;
+&lt;p&gt;Mir gefällt der Einfallsreichtum, den Chiang mit jeder Geschichte wieder
+neu unter Beweis stellt. So sind die Geshichten zwar schnell gelesen,
+aber nicht schnell durchdacht. Sie hinterlassen ein Gefühl der intellektuellen
+Forderung und reizen zu Gedankenspielen.&lt;/p&gt;
+&lt;p&gt;Lesens-, be- und duchdenkenswert.&lt;/p&gt;
+</content><category term="buch"></category></entry><entry><title>Pi And More 11½</title><link href="https://blog.bakera.de/pam115.html" rel="alternate"></link><published>2019-04-07T12:20:00+02:00</published><updated>2019-04-07T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-04-07:/pam115.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="pam Anhänger" src="https://blog.bakera.de/images/2019/pam115.png" /&gt;
 &lt;p class="caption"&gt;Anhänger aus dem Lasergravierer&lt;/p&gt;
 &lt;/div&gt;
@@ -1874,18 +1905,4 @@ Data LOST: 0.00 Byte (0 sectors)
         Overwritten: 0.00 Byte (0 sectors)
 Average reading speed: 7.75 MB/s
 &lt;/pre&gt;
-</content><category term="Hardware"></category><category term="Linux"></category><category term="Tipp"></category><category term="Tools"></category></entry><entry><title>Patterns und Antipatterns</title><link href="https://blog.bakera.de/patterns-und-anitpatterns.html" rel="alternate"></link><published>2018-01-04T10:36:00+01:00</published><updated>2018-01-04T10:36:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-01-04:/patterns-und-anitpatterns.html</id><summary type="html">&lt;p&gt;In dem Vortrag &lt;a class="reference external" href="https://media.ccc.de/v/34c3-9095-antipatterns_und_missverstandnisse_in_der_softwareentwicklung"&gt;Antipatterns und Missverständnisse in der
-Softwareentwicklung - Eine Geschichte voller
-Missverständnisse&lt;/a&gt;
-spricht fefe über Patterns und insbesondere auch Anti-Patterns aus der
-Sicht von Softwareentwicklern und devOps. Unterhaltsam, kurzweilig, mit
-einem breiten Themenspektrum und vielen Anekdoten und konkreten
-Beispielen aus der Praxis gespickt. Sehenswert.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;In dem Vortrag &lt;a class="reference external" href="https://media.ccc.de/v/34c3-9095-antipatterns_und_missverstandnisse_in_der_softwareentwicklung"&gt;Antipatterns und Missverständnisse in der
-Softwareentwicklung - Eine Geschichte voller
-Missverständnisse&lt;/a&gt;
-spricht fefe über Patterns und insbesondere auch Anti-Patterns aus der
-Sicht von Softwareentwicklern und devOps. Unterhaltsam, kurzweilig, mit
-einem breiten Themenspektrum und vielen Anekdoten und konkreten
-Beispielen aus der Praxis gespickt. Sehenswert.&lt;/p&gt;
-</content><category term="Informatik"></category><category term="Video"></category><category term="34c3"></category></entry></feed>
+</content><category term="Hardware"></category><category term="Linux"></category><category term="Tipp"></category><category term="Tools"></category></entry></feed>
