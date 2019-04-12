@@ -32,8 +32,8 @@ ausgezeichnet wurden und Chiang damit ein Autor eines vom Umfang her
 extrem kompakten aber hoch ausgezeichneten Werkes ist.
 
 Mir gefällt der Einfallsreichtum, den Chiang mit jeder Geschichte wieder 
-neu unter Beweis stellt. So sind die Geshichten zwar schnell gelesen,
+neu unter Beweis stellt. So sind die Geschichten zwar schnell gelesen,
 aber nicht schnell durchdacht. Sie hinterlassen ein Gefühl der intellektuellen 
 Forderung und reizen zu Gedankenspielen. 
 
-Lesens-, be- und duchdenkenswert.
+Lesens-, be- und durchdenkenswert.
