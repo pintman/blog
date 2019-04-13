@@ -91,6 +91,13 @@ Catering.
 Update
 ------
 
+.. figure:: {static}images/2019/pam115-lt-marco.png
+   :alt: Lightning Talk zum Hardware 101 (bei YouTube)
+   :target: https://www.youtube.com/watch?v=_8yzRQuGX-Y
+   
+   Lightning Talk zum Hardware 101 (bei YouTube)
+
+
 Die Lightning-Talks und damit auch `mein Vortrag über das Hardware 101
 <https://www.youtube.com/watch?v=_8yzRQuGX-Y>`_ sind nun bei YouTube
 hochgeladen. Mein Kollege Reinhard hat einen ebenfalls interessanten `Vortrag
