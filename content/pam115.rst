@@ -2,7 +2,7 @@ Pi And More 11½
 ===============
 :date: 2019-04-07 12:20
 :author: marco.bakera
-:tags: raspberrypi, hacking
+:tags: raspberrypi, hacking, video
 :status: published
 :slug: pam115
 
