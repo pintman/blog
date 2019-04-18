@@ -6,9 +6,11 @@ Buchtipp: Arrival
 :status: published
 :slug: arrival 
 
-.. image:: {static}images/2019/arrival.png
+.. figure:: {static}images/2019/arrival.png
    :alt: Buch Arrival
    :width: 500px
+
+   "Arrival" von Ted Chiang
 
 *Arrival* ist ein toller Film über die Kommunikation von Außerirdischen
 und die beschränkte Sicht der Menschen auf mögliche alternative 
