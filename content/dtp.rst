@@ -19,14 +19,22 @@ LaTeX (kompliziert), Scribus (mir noch ungekannt), groff (vielleicht zu unflexib
 LibreOffice/Word (fühlt sich falsch an)? Ich habe mir die verschiedenen
 Programme mal angeschaut und resümiere hier etwas.
 
-InDesign
---------
-Das Programm scheint so eine Art Goldstandard in der Magazinwelt zu sein. Das will man haben, 
-wenn man professionell Magazine erstellt. Bis zur vorletzten Ausgabe #97 wurde auch die 
-`Datenschleuder <http://ds.ccc.de/>`_ des CCC damit erstellt. Leider steht aber auch ein
+InDesign und QuarkXPress
+------------------------
+Das Programm InDesign scheint so eine Art Goldstandard in der Magazinwelt zu 
+sein. Das will man haben, wenn man professionell Magazine erstellt. Viele Ausgaben der 
+`Datenschleuder <http://ds.ccc.de/>`_ des CCC wurden sogar damit erstellt. Leider steht aber auch ein
 hohes Preisschild an der Software, welches ich nicht zahlen wollte. Selbst steinalte 
-Versionen kosten bei Ebay gebraucht immer noch mehrere Hundert Euro. Zudem werden leider
-nur Nischen-Betriebssysteme wie Windows oder MacOS unterstützt.
+Versionen kosten bei Ebay gebraucht immer noch mehrere Hundert Euro. Bei neuen Versionen ist 
+ein Abo in der CreativeCloud von Adobe nötig. Zudem werden leider nur 
+Nischen-Betriebssysteme wie Windows oder MacOS unterstützt.
+
+Eine ähnliche Verbreitung hat QuarkXPress in der professionellen Welt. Wer Adobe nicht nutzt
+oder andere Gründe vorweisen kann, wird QuarkXPress für seine Dienste nutzen. Ich habe keine 
+Erfahrungen damit und weiß nur, dass es seit 1987(!) regelmäßig neue Versionen gibt und diese 
+zu fürstlichen Preisen um 800 € (bei Aktionen für 400 €) verkauft werden. 
+Sympatisch wird die Software durch die Slogans "cloud-frei" oder 
+"Lebenslange Lizenz -- Kein Abonnement", die eindeutig gegen InDesign sticheln.
 
 Scribus
 -------
