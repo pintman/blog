@@ -14,7 +14,7 @@ Dektop Publishing im Jahr 2019
 Eigentlich wollte ich nur einen schönen Text erstellen, oder genauer: gestalten. Ein Skript mit 
 Abbildungen und Grafiken zu einem Thema. So, dass man den Text ausdrucken und in Form eines kleines 
 Buches verteilen kann. Doch womit - also mit welcher Software - macht man das heutzutage 
-eigentlich? Mit InDesign (kommerziell), 
+eigentlich? Mit InDesign bzw. QuarkXPress (kommerziell), 
 LaTeX (kompliziert), Scribus (mir noch ungekannt), groff (vielleicht zu unflexibel), 
 LibreOffice/Word (fühlt sich falsch an)? Ich habe mir die verschiedenen
 Programme mal angeschaut und resümiere hier etwas.
@@ -33,15 +33,15 @@ Eine ähnliche Verbreitung hat QuarkXPress in der professionellen Welt. Wer Adob
 oder andere Gründe vorweisen kann, wird QuarkXPress für seine Dienste nutzen. Ich habe keine 
 Erfahrungen damit und weiß nur, dass es seit 1987(!) regelmäßig neue Versionen gibt und diese 
 zu fürstlichen Preisen um 800 € (bei Aktionen für 400 €) verkauft werden. 
-Sympatisch wird die Software durch die Slogans "cloud-frei" oder 
-"Lebenslange Lizenz -- Kein Abonnement", die eindeutig gegen InDesign sticheln.
+Sympathisch wird die Software durch die Slogans "cloud-frei" oder 
+"Lebenslange Lizenz - Kein Abonnement", die eindeutig gegen InDesign sticheln.
 
 Scribus
 -------
 Hinter `Scribus <https://www.scribus.net/>`_ verbirgt sich der ambitionierte Versuch, eine 
 OpenSource-Variante von InDesign zu erstellen. Das Programm kann eine ganze Menge 
 und fühlt sich genügend kompliziert an, als dass es viele Möglichkeiten bietet, die ich 
-vielleicht noch gar nicht kenne. 
+bei meinen ersten Gehversuchen vielleicht noch nicht kennengelernt habe.
 
 Alles scheint irgendwie möglich zu sein - wenn auch manchmal 
 auf umständlichen Wegen. Dynamische Inhalte wie Inhaltsverzeichnisse oder Kopfzeilen, die 
@@ -54,15 +54,15 @@ groff
 -----
 So viel möchte ich über dieses steinalte Tool (und damit ist eine durchaus positive Wertung 
 verbunden) hier gar nicht schreiben. Ich habe einen  ausführlichen Artikel darüber geschrieben, 
-der demnächst an andere Stelle erscheinen wird. So viel sei aber schon verraten: für 
+der demnächst an andere Stelle erscheinen wird. Für diesen Artikel sei aber schon so viel verraten: für 
 technische Berichte ist das Tool mehr als gut geeignet - immerhin ist es auch für die 
-Generierung von man pages unter Linux verantwortlich. Textsatz und der Umgang mit Abbildungen 
-ist aber definitiv nicht seine Stärke. 
+Generierung von man pages unter Linux verantwortlich. Textsatz, der Umgang mit Abbildungen 
+oder ein variablen Textfluss um Abbildungen herum sind definitiv nicht seine Stärken.
 
 LaTeX
 -----
-Ach ja, das gute alte LaTeX. Viele Textmacros, eine kryptische Syntax, die sich auf deutschen
-Tastaturlayouts weigert, ins motorische Gedächtnis gebrannt zu werden und irgendwie
+Ach ja, das gute alte LaTeX. Viele Textmakros, eine kryptische Syntax, die sich auf deutschen
+Tastaturlayouts vehement weigert, ins motorische Gedächtnis gebrannt zu werden und irgendwie
 ist selbst Einfaches viel zu kompliziert. Aber dafür habe 
 ich reinen Text, eine gute Unterstützung für die Arbeit mit mehreren Leuten und viele Pakete, die
 versprechen, jeden Wunsch zu erfüllen. Ja, es gibt viele Pakete. Und auch viele Dateien. 
@@ -72,7 +72,7 @@ Die Installation verschlingt gigantische 4 GB. Ganz schön viel für ein
 Programm, das hauptsächlich Text produzieren möchte. Und jedes Paket hat seine
 eigene Dokumentation. Mit ``texdoc PAKETNAME`` findet man diese - wenn man 
 Glück hat. Wenn nicht, hilft ein Blick auf `CTAN <https://www.ctan.org/>`_ 
-(Comprehensive TeX Archive Network). Dort versammelt sich eine Unmenge von 
+(Comprehensive TeX Archive Network). Dort versammelt sich ein Berg von 
 umfänglichen Dokumenten. Und davon gibt es wahrlich eine Menge, z.B. zu 
 `KOMAScript <https://www.ctan.org/pkg/koma-script>`_. Das ist eine 
 Art Ersatz für die gewohnten LaTeX-Klassen ``article, book``, etc. Alleine diese 
@@ -112,7 +112,8 @@ Dieses kann z.B. Seitennummern oder ein Logo enthalten Mit der Operation `multis
 das Musterdokument am Ende auf die Einzelseiten gepresst werden [1]_.
 
 In Kombination mit Scribus und dem Einfügen von PDF-Seiten als "Bild-Objekte" können
-auch interessante Gestaltunskonzepte umgesetzt werden, die mehr als zwei Ebenen zu lassen.
+auch interessante Gestaltungskonzepte umgesetzt werden, die mehr als zwei Ebenen 
+zulassen.
 
 Fazit
 -----
@@ -120,7 +121,7 @@ Mein Fazit: Viele Wege führen nach Rom und alle sind leider steinig. Alle Lösu
 ihre Berechtigung und damit Vor- und Nachteile. Eine in allem überzeugende 
 Lösung konnte ich daher leider nicht finden. Scribus ist ein würdiges Werkzeug für schönes,
 unkonventionelles Layout und ist sicher einen Blick wert. LaTeX ist auf der anderen Seite das 
-zuverlässige Pferd im Stall, das häufig muckt, am Ende aber doch zuverlässig abliefert.
+zuverlässige Pferd im Stall, das häufig muckt, am Ende aber doch konsequent abliefert.
 
 ----
 
