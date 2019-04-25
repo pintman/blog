@@ -1,9 +1,9 @@
 Dektop Publishing im Jahr 2019
 ==============================
-:date: 2019-04-17 12:20
+:date: 2019-04-25 19:30
 :author: marco.bakera
 :tags: dtp, pdf, software
-:status: draft
+:status: published
 :slug: dtp2019
 
 .. figure:: {static}images/2019/groff_latex.png
@@ -13,8 +13,8 @@ Dektop Publishing im Jahr 2019
 
 Eigentlich wollte ich nur einen schönen Text erstellen, oder genauer: gestalten. Ein Skript mit 
 Abbildungen und Grafiken zu einem Thema. So, dass man den Text ausdrucken und in Form eines kleines 
-Buches verteilen kann. Doch womit - also mit welcher Software - macht man das heutzutage 
-eigentlich? Mit InDesign bzw. QuarkXPress (kommerziell), 
+Buches verteilen kann. Doch womit macht man das heutzutage eigentlich - also 
+mit welcher Software? Mit InDesign bzw. QuarkXPress (kommerziell), 
 LaTeX (kompliziert), Scribus (mir noch ungekannt), groff (vielleicht zu unflexibel), 
 LibreOffice/Word (fühlt sich falsch an)? Ich habe mir die verschiedenen
 Programme mal angeschaut und resümiere hier etwas.
@@ -38,7 +38,8 @@ Sympathisch wird die Software durch die Slogans "cloud-frei" oder
 
 Scribus
 -------
-Hinter `Scribus <https://www.scribus.net/>`_ verbirgt sich der ambitionierte Versuch, eine 
+Hinter `Scribus <https://www.scribus.net/>`_ verbirgt sich der ambitionierte 
+und begrüßenswerte Versuch, eine 
 OpenSource-Variante von InDesign zu erstellen. Das Programm kann eine ganze Menge 
 und fühlt sich genügend kompliziert an, als dass es viele Möglichkeiten bietet, die ich 
 bei meinen ersten Gehversuchen vielleicht noch nicht kennengelernt habe.
@@ -57,7 +58,7 @@ verbunden) hier gar nicht schreiben. Ich habe einen  ausführlichen Artikel dar�
 der demnächst an andere Stelle erscheinen wird. Für diesen Artikel sei aber schon so viel verraten: für 
 technische Berichte ist das Tool mehr als gut geeignet - immerhin ist es auch für die 
 Generierung von man pages unter Linux verantwortlich. Textsatz, der Umgang mit Abbildungen 
-oder ein variablen Textfluss um Abbildungen herum sind definitiv nicht seine Stärken.
+oder ein variabler Textfluss um Abbildungen herum sind definitiv nicht seine Stärken.
 
 LaTeX
 -----
@@ -76,7 +77,7 @@ Glück hat. Wenn nicht, hilft ein Blick auf `CTAN <https://www.ctan.org/>`_
 umfänglichen Dokumenten. Und davon gibt es wahrlich eine Menge, z.B. zu 
 `KOMAScript <https://www.ctan.org/pkg/koma-script>`_. Das ist eine 
 Art Ersatz für die gewohnten LaTeX-Klassen ``article, book``, etc. Alleine diese 
-Dokumentation umfasst über 500 Seiten, die gelesen werden sollen. Ein weiteres
+Dokumentation umfasst über 500 Seiten, die gelesen werden wollen. Ein weiteres
 Beispiel ist das Paket `inputenc <https://www.ctan.org/pkg/inputenc>`_, welches
 verspricht, dass man auch UTF8-Zeichen wie deutsche Umlaute eingeben darf. Wieder 
 45 Seiten, die dieses eigentlich selbstverständliche Detail erklären.
@@ -115,9 +116,9 @@ In Kombination mit Scribus und dem Einfügen von PDF-Seiten als "Bild-Objekte" k
 auch interessante Gestaltungskonzepte umgesetzt werden, die mehr als zwei Ebenen 
 zulassen.
 
-Fazit
------
-Mein Fazit: Viele Wege führen nach Rom und alle sind leider steinig. Alle Lösungen haben
+Mein Fazit
+----------
+Viele Wege führen nach Rom und leider sind alle steinig. Alle Lösungen haben
 ihre Berechtigung und damit Vor- und Nachteile. Eine in allem überzeugende 
 Lösung konnte ich daher leider nicht finden. Scribus ist ein würdiges Werkzeug für schönes,
 unkonventionelles Layout und ist sicher einen Blick wert. LaTeX ist auf der anderen Seite das 
