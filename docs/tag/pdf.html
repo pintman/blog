@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>PDF Dokumente mit Inkscape editieren - /home/bakera/blog</title>
+    <title>pdf - /home/bakera/blog</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -9,23 +9,16 @@
 
 
 
-<link rel="canonical" href="https://blog.bakera.de/pdf-dokumente-mit-inkscape-editieren.html">
 
-        <meta name="author" content="admin" />
-        <meta name="keywords" content="Tipp,Tools,pdf" />
-        <meta name="description" content="Man hat nicht immer einen Acrobat Professional zur Hand, wenn man nur ein Formular ausfüllen muss. Leider trifft man auch immer wieder auf PDF-Dokumente, die zwar wie ein Formular aussehen, jedoch keine eigentlichen PDF-Formularfelder enthalten und sich daher auch nicht editieren lassen. Und abspeichern kann man das Ganze dann meist …" />
+    <meta name="author" content="Marco Bakera" />
+    <meta name="keywords" content="pdf" />
 
+    <!-- Open Graph tags -->
         <meta property="og:site_name" content="/home/bakera/blog" />
-        <meta property="og:type" content="article"/>
-        <meta property="og:title" content="PDF Dokumente mit Inkscape editieren"/>
-        <meta property="og:url" content="https://blog.bakera.de/pdf-dokumente-mit-inkscape-editieren.html"/>
-        <meta property="og:description" content="Man hat nicht immer einen Acrobat Professional zur Hand, wenn man nur ein Formular ausfüllen muss. Leider trifft man auch immer wieder auf PDF-Dokumente, die zwar wie ein Formular aussehen, jedoch keine eigentlichen PDF-Formularfelder enthalten und sich daher auch nicht editieren lassen. Und abspeichern kann man das Ganze dann meist …"/>
-        <meta property="article:published_time" content="2008-10-12" />
-            <meta property="article:section" content="Sonstiges" />
-            <meta property="article:tag" content="Tipp" />
-            <meta property="article:tag" content="Tools" />
-            <meta property="article:tag" content="pdf" />
-            <meta property="article:author" content="admin" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="/home/bakera/blog"/>
+        <meta property="og:url" content="https://blog.bakera.de"/>
+        <meta property="og:description" content="/home/bakera/blog"/>
 
 
 
@@ -88,62 +81,72 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-    <section id="content">
-        <article>
-            <header class="page-header">
-                <h1>
-                    <a href="https://blog.bakera.de/pdf-dokumente-mit-inkscape-editieren.html"
-                       rel="bookmark"
-                       title="Permalink to PDF Dokumente mit Inkscape editieren">
-                        PDF Dokumente mit Inkscape editieren
-                    </a>
-                </h1>
-            </header>
-            <div class="entry-content">
-                <div class="panel">
-                    <div class="panel-body">
-<footer class="post-info">
-    <span class="label label-default">Date</span>
-    <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2008-10-12T15:36:00+02:00"> So 12 Oktober 2008</time>
-    </span>
-
-
-
-
-
-<span class="label label-default">Tags</span>
-	<a href="https://blog.bakera.de/tag/tipp.html">Tipp</a>
-        /
-	<a href="https://blog.bakera.de/tag/tools.html">Tools</a>
-        /
-	<a href="https://blog.bakera.de/tag/pdf.html">pdf</a>
-    
-</footer><!-- /.post-info -->                    </div>
+            <article>
+                <h2><a href="https://blog.bakera.de/dtp2019.html">Dektop Publishing im Jahr 2019</a></h2>
+                <div class="summary"><div class="figure">
+<img alt="Bücher" src="https://blog.bakera.de/images/2019/groff_latex.png" />
+<p class="caption">Zwei Standardwerke zu LaTeX und groff</p>
+</div>
+<p>Eigentlich wollte ich nur einen schönen Text erstellen, oder genauer: gestalten. Ein Skript mit
+Abbildungen und Grafiken zu einem Thema. So, dass man den Text ausdrucken und in Form eines kleines
+Buches verteilen kann. Doch womit macht man das heutzutage eigentlich - also
+mit welcher …</p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/dtp2019.html">more ...</a>
                 </div>
-                <p>Man hat nicht immer einen Acrobat Professional zur Hand, wenn man nur
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/dateianhang-fuer-pdf.html">Dateianhang für PDF</a></h2>
+                <div class="summary"><p>Ein wenig bekanntes Feature ist, dass man PDF-Dokumenten Dateien
+anhängen kann - wie auch bei E-Mails. So kann man immer die
+Originaldokumente anhängen, aus denen das PDF entstanden ist. Hierfür
+gibt es das <a class="reference external" href="https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/">PDF
+Toolkit</a> - kurz
+pdftk. Unter Linux klappt es mit der folgenden Kommandozeile.</p>
+<pre class="literal-block">
+~&gt; pdftk datei.pdf attach_files anhang.odt …</pre>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/dateianhang-fuer-pdf.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/seiten-aus-einem-pdf-dokument-als-bild-abspeichern-linux.html">Seiten aus einem PDF-Dokument als Bild abspeichern</a></h2>
+                <div class="summary"><p>Mit dem folgenden einfachen Befehl lassen sich die einzelnen Seiten aus
+einem PDF-Dokument extrahieren und z.B. in PNG-Bilddateien abspeichern.</p>
+<pre class="literal-block">
+pdftoppm -png dokument.pdf dokument
+</pre>
+<p>Die Seiten des PDF-Dokumentes werden als <em>dokument-SEITENZAHL.png</em>
+abgespeichert.</p>
+
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/seiten-aus-einem-pdf-dokument-als-bild-abspeichern-linux.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/pdf-dokumente-mit-inkscape-editieren.html">PDF Dokumente mit Inkscape editieren</a></h2>
+                <div class="summary"><p>Man hat nicht immer einen Acrobat Professional zur Hand, wenn man nur
 ein Formular ausfüllen muss. Leider trifft man auch immer wieder auf
 PDF-Dokumente, die zwar wie ein Formular aussehen, jedoch keine
 eigentlichen PDF-Formularfelder enthalten und sich daher auch nicht
-editieren lassen. Und abspeichern kann man das Ganze dann meist auch
-nicht.</p>
-<p>Hier hat <a class="reference external" href="http://z-pod.de/archives/260-Z%21-Episode-113-Wir-sind-Schaeuble.html">Folge 113 des Z!
-Podcast</a>
-einen schönen Tipp parat. Benutzt hierfür die Textfunktionen zum
-Editieren von PDFs das freie (und auch für andere Zwecke bestens
-geeignete) <a class="reference external" href="http://www.inkscape.org/">Vektorzeichenprogramm
-Inkscape</a>, das in der neuesten Version nun
-auch PDFs öffnen und speichern kann.</p>
+editieren lassen. Und abspeichern kann man das Ganze dann meist …</p>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/pdf-dokumente-mit-inkscape-editieren.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://blog.bakera.de/ipe-fur-die-erstellung-von-pdf-dokumenten.html">Ipe für die Erstellung von PDF-Dokumenten</a></h2>
+                <div class="summary"><p><a class="reference external" href="http://tclab.kaist.ac.kr/ipe/">Ipe»</a> ist ein kleines aber feines
+Tool zur Erstellung von PDF-Grafiken. Besonders schön dabei ist die
+Möglichkeit, LaTeX-Formeln in die Dokumente einbinden zu können.</p>
+<p>Danke an dieser Stelle an <a class="reference external" href="http://andorfer.cs.uni-dortmund.de/~jabbar/">Shahid
+Jabbar»</a> für den Hinweis
+auf dieses kleine nützliche Programm.</p>
 
-            </div>
-            <!-- /.entry-content -->
-            	
-	
-	
-
-            
-        </article>
-    </section>
+                    <a class="btn btn-default btn-xs" href="https://blog.bakera.de/ipe-fur-die-erstellung-von-pdf-dokumenten.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
 
         </div>
         <div class="col-sm-3" id="sidebar">

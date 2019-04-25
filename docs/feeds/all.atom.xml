@@ -1,11 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-04-12T12:20:00+02:00</updated><entry><title>Buchtipp: Arrival</title><link href="https://blog.bakera.de/arrival.html" rel="alternate"></link><published>2019-04-12T12:20:00+02:00</published><updated>2019-04-12T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-04-12:/arrival.html</id><summary type="html">&lt;img alt="Buch Arrival" src="https://blog.bakera.de/images/2019/arrival.png" style="width: 500px;" /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-04-25T19:30:00+02:00</updated><entry><title>Dektop Publishing im Jahr 2019</title><link href="https://blog.bakera.de/dtp2019.html" rel="alternate"></link><published>2019-04-25T19:30:00+02:00</published><updated>2019-04-25T19:30:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-04-25:/dtp2019.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;img alt="Bücher" src="https://blog.bakera.de/images/2019/groff_latex.png" /&gt;
+&lt;p class="caption"&gt;Zwei Standardwerke zu LaTeX und groff&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Eigentlich wollte ich nur einen schönen Text erstellen, oder genauer: gestalten. Ein Skript mit
+Abbildungen und Grafiken zu einem Thema. So, dass man den Text ausdrucken und in Form eines kleines
+Buches verteilen kann. Doch womit macht man das heutzutage eigentlich - also
+mit welcher …&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
+&lt;img alt="Bücher" src="https://blog.bakera.de/images/2019/groff_latex.png" /&gt;
+&lt;p class="caption"&gt;Zwei Standardwerke zu LaTeX und groff&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Eigentlich wollte ich nur einen schönen Text erstellen, oder genauer: gestalten. Ein Skript mit
+Abbildungen und Grafiken zu einem Thema. So, dass man den Text ausdrucken und in Form eines kleines
+Buches verteilen kann. Doch womit macht man das heutzutage eigentlich - also
+mit welcher Software? Mit InDesign bzw. QuarkXPress (kommerziell),
+LaTeX (kompliziert), Scribus (mir noch ungekannt), groff (vielleicht zu unflexibel),
+LibreOffice/Word (fühlt sich falsch an)? Ich habe mir die verschiedenen
+Programme mal angeschaut und resümiere hier etwas.&lt;/p&gt;
+&lt;div class="section" id="indesign-und-quarkxpress"&gt;
+&lt;h2&gt;InDesign und QuarkXPress&lt;/h2&gt;
+&lt;p&gt;Das Programm InDesign scheint so eine Art Goldstandard in der Magazinwelt zu
+sein. Das will man haben, wenn man professionell Magazine erstellt. Viele Ausgaben der
+&lt;a class="reference external" href="http://ds.ccc.de/"&gt;Datenschleuder&lt;/a&gt; des CCC wurden sogar damit erstellt. Leider steht aber auch ein
+hohes Preisschild an der Software, welches ich nicht zahlen wollte. Selbst steinalte
+Versionen kosten bei Ebay gebraucht immer noch mehrere Hundert Euro. Bei neuen Versionen ist
+ein Abo in der CreativeCloud von Adobe nötig. Zudem werden leider nur
+Nischen-Betriebssysteme wie Windows oder MacOS unterstützt.&lt;/p&gt;
+&lt;p&gt;Eine ähnliche Verbreitung hat QuarkXPress in der professionellen Welt. Wer Adobe nicht nutzt
+oder andere Gründe vorweisen kann, wird QuarkXPress für seine Dienste nutzen. Ich habe keine
+Erfahrungen damit und weiß nur, dass es seit 1987(!) regelmäßig neue Versionen gibt und diese
+zu fürstlichen Preisen um 800 € (bei Aktionen für 400 €) verkauft werden.
+Sympathisch wird die Software durch die Slogans &amp;quot;cloud-frei&amp;quot; oder
+&amp;quot;Lebenslange Lizenz - Kein Abonnement&amp;quot;, die eindeutig gegen InDesign sticheln.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="scribus"&gt;
+&lt;h2&gt;Scribus&lt;/h2&gt;
+&lt;p&gt;Hinter &lt;a class="reference external" href="https://www.scribus.net/"&gt;Scribus&lt;/a&gt; verbirgt sich der ambitionierte
+und begrüßenswerte Versuch, eine
+OpenSource-Variante von InDesign zu erstellen. Das Programm kann eine ganze Menge
+und fühlt sich genügend kompliziert an, als dass es viele Möglichkeiten bietet, die ich
+bei meinen ersten Gehversuchen vielleicht noch nicht kennengelernt habe.&lt;/p&gt;
+&lt;p&gt;Alles scheint irgendwie möglich zu sein - wenn auch manchmal
+auf umständlichen Wegen. Dynamische Inhalte wie Inhaltsverzeichnisse oder Kopfzeilen, die
+sich an aktuellen Abschnitten orientieren, lassen sich nur umständlich oder gar nicht realisieren.
+Die Software ist jedoch gut abgehangen und wird von einer aktiven Community getragen. Die
+produzierten PDFs haben die richtigen Farbprofile, die eine Druckerei so haben möchte. Insgesamt
+also ein schönes Stück Software, das mehr Unterstützung gebrauchen könnte.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="groff"&gt;
+&lt;h2&gt;groff&lt;/h2&gt;
+&lt;p&gt;So viel möchte ich über dieses steinalte Tool (und damit ist eine durchaus positive Wertung
+verbunden) hier gar nicht schreiben. Ich habe einen  ausführlichen Artikel darüber geschrieben,
+der demnächst an andere Stelle erscheinen wird. Für diesen Artikel sei aber schon so viel verraten: für
+technische Berichte ist das Tool mehr als gut geeignet - immerhin ist es auch für die
+Generierung von man pages unter Linux verantwortlich. Textsatz, der Umgang mit Abbildungen
+oder ein variabler Textfluss um Abbildungen herum sind definitiv nicht seine Stärken.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="latex"&gt;
+&lt;h2&gt;LaTeX&lt;/h2&gt;
+&lt;p&gt;Ach ja, das gute alte LaTeX. Viele Textmakros, eine kryptische Syntax, die sich auf deutschen
+Tastaturlayouts vehement weigert, ins motorische Gedächtnis gebrannt zu werden und irgendwie
+ist selbst Einfaches viel zu kompliziert. Aber dafür habe
+ich reinen Text, eine gute Unterstützung für die Arbeit mit mehreren Leuten und viele Pakete, die
+versprechen, jeden Wunsch zu erfüllen. Ja, es gibt viele Pakete. Und auch viele Dateien.
+Und irgendwie ist alles viel und groß.&lt;/p&gt;
+&lt;p&gt;Die Installation verschlingt gigantische 4 GB. Ganz schön viel für ein
+Programm, das hauptsächlich Text produzieren möchte. Und jedes Paket hat seine
+eigene Dokumentation. Mit &lt;tt class="docutils literal"&gt;texdoc PAKETNAME&lt;/tt&gt; findet man diese - wenn man
+Glück hat. Wenn nicht, hilft ein Blick auf &lt;a class="reference external" href="https://www.ctan.org/"&gt;CTAN&lt;/a&gt;
+(Comprehensive TeX Archive Network). Dort versammelt sich ein Berg von
+umfänglichen Dokumenten. Und davon gibt es wahrlich eine Menge, z.B. zu
+&lt;a class="reference external" href="https://www.ctan.org/pkg/koma-script"&gt;KOMAScript&lt;/a&gt;. Das ist eine
+Art Ersatz für die gewohnten LaTeX-Klassen &lt;tt class="docutils literal"&gt;article, book&lt;/tt&gt;, etc. Alleine diese
+Dokumentation umfasst über 500 Seiten, die gelesen werden wollen. Ein weiteres
+Beispiel ist das Paket &lt;a class="reference external" href="https://www.ctan.org/pkg/inputenc"&gt;inputenc&lt;/a&gt;, welches
+verspricht, dass man auch UTF8-Zeichen wie deutsche Umlaute eingeben darf. Wieder
+45 Seiten, die dieses eigentlich selbstverständliche Detail erklären.&lt;/p&gt;
+&lt;p&gt;So richtig schick sehen die Dokumente damit am Ende aber nicht aus. Das Schriftbild ist
+toll und vieles sieht zunächst gut aus. Man merkt aber schnell, dass LaTeX für die
+Konzeption von längeren Fließtexten und rechteckigen Layouts erstellt wurde. Gerade das
+Umfließen von Text um Bilder ist nicht seine Stärke und nur mit &lt;a class="reference external" href="https://www.ctan.org/topic/text-flow"&gt;Klimmzügen&lt;/a&gt; möglich.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="libreoffice-und-word"&gt;
+&lt;h2&gt;LibreOffice und Word&lt;/h2&gt;
+&lt;p&gt;Ein einfacher Wordprocessor wie LibreOffice-Writer oder Word (welches aber direkt ausscheidet,
+da ich Plattformunabhängigkeit mag) kann doch sicher auch schon eine
+ganze Menge. Und ja, das stimmt schon.
+Mit Writer sieht ein solches Dokument durchaus schick aus. Man kann viel machen und
+einfache Layouts gehen leicht von der Hand. Bei der Positionierung von Abbildungen merkt man
+dann aber doch, dass sich Writer an Zeilen, Zeichen oder Absätzen orientieren mag und nicht so
+gut mit der freien Platzierung von Grafiken harmoniert.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="gefrickel"&gt;
+&lt;h2&gt;Gefrickel&lt;/h2&gt;
+&lt;p&gt;Als etwas frickelige Lösung bietet sich ein Stückwerk an, in dem ein Dokument aus
+Einzelseiten zusammensetzt wird. Jede Einzelseite wird mit dem Programm der Wahl erstellt
+und das Gesamtdokument wird zum Schluss durch Aneinanderhängen der Einzelseiten
+konstruiert. Das Aneinanderhängen kann leicht mit &lt;a class="reference external" href="https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/"&gt;pdftk&lt;/a&gt; realisiert werden.&lt;/p&gt;
+&lt;p&gt;Man kann das Dokument noch etwas einheitlicher gestalten, indem zuvor eine Art
+Musterdokument erstellt wird, das wie eine Folie über alle Seiten gelegt wird.
+Dieses kann z.B. Seitennummern oder ein Logo enthalten Mit der Operation &lt;a class="reference external" href="https://manpages.debian.org/stretch/pdftk/pdftk.1.en.html"&gt;multistamp&lt;/a&gt; von &lt;tt class="docutils literal"&gt;pdftk&lt;/tt&gt; kann
+das Musterdokument am Ende auf die Einzelseiten gepresst werden &lt;a class="footnote-reference" href="#id3" id="id2"&gt;[1]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In Kombination mit Scribus und dem Einfügen von PDF-Seiten als &amp;quot;Bild-Objekte&amp;quot; können
+auch interessante Gestaltungskonzepte umgesetzt werden, die mehr als zwei Ebenen
+zulassen.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mein-fazit"&gt;
+&lt;h2&gt;Mein Fazit&lt;/h2&gt;
+&lt;p&gt;Viele Wege führen nach Rom und leider sind alle steinig. Alle Lösungen haben
+ihre Berechtigung und damit Vor- und Nachteile. Eine in allem überzeugende
+Lösung konnte ich daher leider nicht finden. Scribus ist ein würdiges Werkzeug für schönes,
+unkonventionelles Layout und ist sicher einen Blick wert. LaTeX ist auf der anderen Seite das
+zuverlässige Pferd im Stall, das häufig muckt, am Ende aber doch konsequent abliefert.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;table class="docutils footnote" frame="void" id="id3" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;p class="first"&gt;Eine mögliche Anwendung von pdftk:&lt;/p&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;pdftk a.pdf b.pdf cat output out.pdf&lt;/tt&gt;&lt;/p&gt;
+&lt;p&gt;Dann kann die Musterseite aufgedruckt werden:&lt;/p&gt;
+&lt;p class="last"&gt;&lt;tt class="docutils literal"&gt;pdftk out.pdf multistamp muster.pdf output final.pdf&lt;/tt&gt;.&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</content><category term="dtp"></category><category term="pdf"></category><category term="software"></category></entry><entry><title>Buchtipp: Arrival</title><link href="https://blog.bakera.de/arrival.html" rel="alternate"></link><published>2019-04-12T12:20:00+02:00</published><updated>2019-04-12T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-04-12:/arrival.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;img alt="Buch Arrival" src="https://blog.bakera.de/images/2019/arrival.png" style="width: 500px;" /&gt;
+&lt;p class="caption"&gt;&amp;quot;Arrival&amp;quot; von Ted Chiang&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Arrival&lt;/em&gt; ist ein toller Film über die Kommunikation von Außerirdischen
 und die beschränkte Sicht der Menschen auf mögliche alternative
 Intelligenzen. Geschrieben wurde die Buchvorlage für den Film von
 &lt;a class="reference external" href="https://de.wikipedia.org/wiki/Ted_Chiang"&gt;Ted Chiang&lt;/a&gt;. Und über
 den Film bin ich auch auf die schöne Sammlung von Kurzgeschichten
-&lt;em&gt;Arrival - Die Hölle ist die Abwesenheit Gottes …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;img alt="Buch Arrival" src="https://blog.bakera.de/images/2019/arrival.png" style="width: 500px;" /&gt;
+&lt;em&gt;Arrival - Die Hölle …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
+&lt;img alt="Buch Arrival" src="https://blog.bakera.de/images/2019/arrival.png" style="width: 500px;" /&gt;
+&lt;p class="caption"&gt;&amp;quot;Arrival&amp;quot; von Ted Chiang&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Arrival&lt;/em&gt; ist ein toller Film über die Kommunikation von Außerirdischen
 und die beschränkte Sicht der Menschen auf mögliche alternative
 Intelligenzen. Geschrieben wurde die Buchvorlage für den Film von
@@ -1869,44 +2000,4 @@ science&amp;quot; (positive und überraschende Resultate, große Effekte, viele
 Zitierungen, meist nicht korrekt) und &amp;quot;boring science&amp;quot; (viele negative
 Ergebnisse, geringe Effekte, näher an der Wahrheit). Vielleicht sollten
 wir uns mehr den langweiligen Ergebnissen zuwenden?!&lt;/p&gt;
-</content><category term="Bildung"></category><category term="Video"></category><category term="34c3"></category></entry><entry><title>USB-Sticks und SD-Karten validieren</title><link href="https://blog.bakera.de/usb-sticks-und-sd-karten-validieren.html" rel="alternate"></link><published>2018-01-05T10:45:00+01:00</published><updated>2018-01-05T10:45:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-01-05:/usb-sticks-und-sd-karten-validieren.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/2018/01/webmichl-sd-card-800px.png"&gt;&lt;img alt="image0" class="alignnone size-full wp-image-2191" src="https://blog.bakera.de/images/2018/01/webmichl-sd-card-800px.png" style="width: 800px; height: 510px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Nicht immer funktionieren USB-Sticks und SD-Karten so wie sie sollen.
-Bei meiner letzten Bestellung aus China hatte ich den Verdacht, dass
-einige SD-Karten defekt waren - sie funktionierten für einen kurzen
-Zeitraum und gaben dann den Geist auf. Aus der c't kannte ich das
-Programm &lt;a class="reference external" href="http://www.heise.de/download/h2testw.html"&gt;H2testw&lt;/a&gt;, mit
-dem Flashspeicher geprüft werden …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/2018/01/webmichl-sd-card-800px.png"&gt;&lt;img alt="image0" class="alignnone size-full wp-image-2191" src="https://blog.bakera.de/images/2018/01/webmichl-sd-card-800px.png" style="width: 800px; height: 510px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Nicht immer funktionieren USB-Sticks und SD-Karten so wie sie sollen.
-Bei meiner letzten Bestellung aus China hatte ich den Verdacht, dass
-einige SD-Karten defekt waren - sie funktionierten für einen kurzen
-Zeitraum und gaben dann den Geist auf. Aus der c't kannte ich das
-Programm &lt;a class="reference external" href="http://www.heise.de/download/h2testw.html"&gt;H2testw&lt;/a&gt;, mit
-dem Flashspeicher geprüft werden kann. Dazu wird das Speichermedium mit
-Testdaten vollständig beschrieben und die Daten anschließend wieder
-gelesen. Wenn alles korrekt läuft, stimmen die gelesenen Daten mit den
-ursprünglich geschriebenen Daten überein. Das kann je nach Größe des
-Speichermediums durchaus eine Weile dauern.&lt;/p&gt;
-&lt;p&gt;Für Linux gibt es hierfür das Paket f3, das mit den Programmen f3write
-und f3read das gleiche tut. Für einen korrekten USB-Stick läuft das
-Programm wie folgt ab:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-$ f3write /media/STICK/
-Free space: 196.84 MB
-Creating file 1.h2w ... OK!
-Free space: 0.00 Byte
-Average writing speed: 6.76 MB/s
-&lt;/pre&gt;
-&lt;p&gt;Anschließend werden die geschriebenen Daten wieder gelesen.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-$ f3read /media/STICK/
-                  SECTORS     ok/corrupted/changed/overwritten
-Validating file 1.h2w ... 403128/        0/      0/      0
-
-  Data OK: 196.84 MB (403128 sectors)
-Data LOST: 0.00 Byte (0 sectors)
-          Corrupted: 0.00 Byte (0 sectors)
-   Slightly changed: 0.00 Byte (0 sectors)
-        Overwritten: 0.00 Byte (0 sectors)
-Average reading speed: 7.75 MB/s
-&lt;/pre&gt;
-</content><category term="Hardware"></category><category term="Linux"></category><category term="Tipp"></category><category term="Tools"></category></entry></feed>
+</content><category term="Bildung"></category><category term="Video"></category><category term="34c3"></category></entry></feed>
