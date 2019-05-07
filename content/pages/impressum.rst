@@ -7,15 +7,8 @@ Impressum, Datenschutz
 :status: published
 
 
-| Marco Bakera
-| Westenfelder Str. 202c
-| 44867 Bochum
-
- 
-
 **Datenschutzerklärung**
 
- 
 
 Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck
 der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“)
@@ -29,8 +22,6 @@ Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).
 **Verantwortlicher**
 
 | Marco Bakera
-| Westenfelder Str. 202c
-| 44867 Bochum
 | marco@bakera.de
 
 **Arten der verarbeiteten Daten:**
