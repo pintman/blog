@@ -21,7 +21,7 @@ blockquote {
 /* Changing aligment */
 body {
 	/* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
-	font-family: FontAwesome;
+	font-family: FontAwesome, Georgia, serif;
 	font-size: 16px;	
 	line-height: 1.5;
 	color: #555555;
