@@ -1,5 +1,5 @@
-Gamejam in Dortmund
-===================
+Kleine Spiele, großer Spaß
+==========================
 :date: 2019-05-12 12:20
 :author: marco.bakera
 :tags: Programmierung, Spaß, Spiele
@@ -22,9 +22,12 @@ auch ich mit einem Kollegen wieder mit einem kleinen Projekt unter dem
 Arbeitstitel `firefly hunt 
 <https://github.com/elektroschule/firefly_hunt>`_ daran teilgenommen. Wir
 haben versucht, eine LED so umzufunktionieren, dass sie statt Licht zu
-emittieren, eben dieses Licht in seiner Intensität messen kann. Die LED
-wurde flux auf ein Steckbrett gesteckt und man musste mit einem
-Laserpointer drauf zielen und versuchen, sie zu treffen.
+emittieren, eben dieses Licht in seiner Intensität messen kann. Nach der
+Phase einer groben Ideenfindung, war die LED
+flux auf ein Steckbrett gesteckt und mit einem Arduino verbunden.
+Nun musste man mit einem Laserpointer auf die LED zielen und versuchen, sie 
+zu treffen. Mit wachsender Entfernung und zittrigen Fingern steigt die
+Schwierigkeit dieser Aufgabe schnell an.
 
 .. figure:: {static}images/2019/ffhunt3.png
    :alt: Nahaufnahme des Spiels
@@ -33,7 +36,7 @@ Laserpointer drauf zielen und versuchen, sie zu treffen.
 
 Eine Hauptschwierigkeit war die Kalibrierung dieses Sensors gegenüber
 des Umgebungslichtes. Nach verschiedenen Experimenten mit Änderungen im
-Programm und dem Verbauen von Kondensatoren war die einfachste und 
+Programm und dem Verbauen von Kondensatoren, war die einfachste und 
 effektivste Lösung die Verwendung einer Papprolle, die das Umgebungslicht
 abschirmt. So einfach kann es manchmal sein.
 
@@ -56,8 +59,8 @@ zu werden.
 Viele Projekte
 --------------
 
-Neben diesem gab es eine ganze Reihe anderer interessanter kreativer und
-ganz unterschiedlicher Projekte. Ein Textadventure wurde entwickelt, bei
+Unser Projekt war nur eines von vielen interessanten, kreativen und
+ganz unterschiedlichen Projekten. Ein Textadventure wurde entwickelt, bei
 dem man den Ablauf der Geschichte selbst wählen konnte.
 
 Es wurde ein
@@ -79,8 +82,9 @@ in einem Holzblock und die Aufgabe des Spielers war es, den Fluss des
 Harzes von der Quelle zum Ziel durch das Verschieben von Teilen zu
 beeinflussen.
 
-Ein anderes Projekt zeigte, wie man aus Holzwürfeln, die in einem 8 mal
-8 Raster angeordnet waren, einen Sprite gestalten konnte. Ein zweiter
+Ein anderes Projekt zeigte, wie man aus echten Holzwürfeln, die in einem 8 mal
+8 Raster eines Tapeziertisches angeordnet waren, einen Sprite gestalten konnte. 
+Ein zweiter
 Sprite konnte direkt daneben konstruiert werden: ebenfalls mit Würfeln.
 Eine Kamera, die an einen Raspberry Pi angeschlossen war, hat beide
 Bilder aufgenommen und daraus eine Mini-Animation aus zwei Bildern
@@ -95,8 +99,8 @@ Gute Atmosphäre und interessante Entdeckungen
 ---------------------------------------------
 
 Die Atmosphäre während der Entwicklung war locker und ungezwungen.
-Zwischendurch gab es Pizza (bestellt), Kaffee und Kuchen (jeweils selstgemacht)
-sowei Club-Mate. Auch internationales Publikum war diesmal anwesend, sodass
+Zwischendurch gab es Pizza (bestellt), Kaffee und Kuchen (jeweils selbstgemacht)
+sowie Club-Mate. Auch internationales Publikum war diesmal anwesend, sodass
 das ein oder andere Gespräch und auch die Abschlusspräsentationen in
 Englisch gehalten wurden.
 
@@ -106,7 +110,7 @@ Details der Geschichte und
 Tiefen der Katakomben des Gebäudes selbst geführt und
 interessante geschichtsträchtige Einblicke gewährt.
 
-Der nächste Game Jam findet wieder in ein paar Monaten statt und wird
+Der nächste Game Jam findet in ein paar Monaten statt und wird
 hoffentlich wieder viele unterschiedliche kreative Ansätze hervorbringen
 und genauso viel Spaß machen.
 
