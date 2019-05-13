@@ -2,7 +2,7 @@ Kleine Spiele, großer Spaß
 ==========================
 :date: 2019-05-13 14:19
 :author: marco.bakera
-:tags: Programmierung, Spaß, Spiele
+:tags: Programmierung, Spaß, Spiele, gamejam
 :status: published
 :slug: gamejam19-05
 

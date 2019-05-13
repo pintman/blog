@@ -2,7 +2,7 @@ Gamejam in Dortmund
 ===================
 :date: 2018-08-05 13:37
 :author: marco.bakera
-:tags: Programmierung, Spaß, Spiele
+:tags: Programmierung, Spaß, Spiele, gamejam
 :status: published
 
 .. image:: {filename}images/miniggamejamdo.png

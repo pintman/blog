@@ -2,7 +2,7 @@ MiniGameJam #3 gebar die StarFeetAcademy
 ########################################
 :date: 2018-03-03 12:21
 :author: marco.bakera
-:tags: Informatik, Programmierung, Spaß, Spiele
+:tags: Informatik, Programmierung, Spaß, Spiele, gamejam
 :slug: minigamejam-3-gebar-die-starfeetacademy
 :status: published
 

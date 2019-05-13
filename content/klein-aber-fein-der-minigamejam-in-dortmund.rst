@@ -2,7 +2,7 @@ Klein aber fein - der MiniGameJam in Dortmund
 #############################################
 :date: 2017-06-18 08:40
 :author: marco.bakera
-:tags: Hardware, Programmierung, Python, Spaß, Video
+:tags: Hardware, Programmierung, Python, Spaß, Video, gamejam
 :slug: klein-aber-fein-der-minigamejam-in-dortmund
 :status: published
 
