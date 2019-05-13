@@ -1,31 +1,35 @@
 Kleine Spiele, großer Spaß
 ==========================
-:date: 2019-05-12 12:20
+:date: 2019-05-13 14:19
 :author: marco.bakera
 :tags: Programmierung, Spaß, Spiele
-:status: draft
+:status: published
 :slug: gamejam19-05
 
 .. figure:: {static}images/2019/ffhunt1.png
    :alt: Das Spiel im Einsatz
 
-   Das Spiel im Einsatz.
+   "firefly hunt" im Einsatz.
 
 Bei einem Game Jam werden in kurzer Zeit kleine Spiele mit 
 interessanten Themen und witzigen Ideen entwickelt. Und genau
 ein solcher `Game Jam <https://game-jam-do.de/>`_ fand am 11.05. in 
 Dortmund im Künstlerhaus statt.
 
-Dies war nicht der erste Game Jam, sondern reiht sich ein in eine Reihe von
-Game James, die alle paar Monate in Dortmund stattfinden. Diesmal habe
+Dies war nicht der erste Game Jam: es gab bereits eine Reihe
+von Veranstaltungen dieser Art, 
+die alle paar Monate in Dortmund stattfinden. Diesmal habe
 auch ich mit einem Kollegen wieder mit einem kleinen Projekt unter dem 
 Arbeitstitel `firefly hunt 
-<https://github.com/elektroschule/firefly_hunt>`_ daran teilgenommen. Wir
-haben versucht, eine LED so umzufunktionieren, dass sie statt Licht zu
-emittieren, eben dieses Licht in seiner Intensität messen kann. Nach der
-Phase einer groben Ideenfindung, war die LED
+<https://github.com/elektroschule/firefly_hunt>`_ daran teilgenommen. 
+
+In unserem Projekt haben wir
+versucht, eine LED so umzufunktionieren, dass sie statt Licht zu
+emittieren, eben dieses Licht in seiner Intensität messen kann. Nach 
+einer groben Ideenfindung, war die LED
 flux auf ein Steckbrett gesteckt und mit einem Arduino verbunden.
-Nun musste man mit einem Laserpointer auf die LED zielen und versuchen, sie 
+Ziel des Spiels ist,
+mit einem Laserpointer auf die LED zu zielen und versuchen, sie 
 zu treffen. Mit wachsender Entfernung und zittrigen Fingern steigt die
 Schwierigkeit dieser Aufgabe schnell an.
 
@@ -69,10 +73,10 @@ Spieles realisieren kann. Und zwar so, dass die Musik nicht
 zusammengesetzt oder gar abgehackt, sondern geschmeidig ineinander
 laufend wirkt. 
 
-Bei einem weiteren Spiel ging es darum, aus einem
-Altenheim zu entkommen. Der Clou dabei war, dass das Spiel und
+Bei einem weiteren Spiel musste der Spieler aus einem
+Altenheim entkommen. Der Clou dabei war, dass das Spiel und
 der Controller voneinander physisch getrennt waren und über das Netzwerk
-miteinander kommunizieren.
+miteinander kommunizierten.
 
 Das `15-Puzzle <https://de.wikipedia.org/wiki/15-Puzzle>`_ (ein Schiebepuzzle
 mit dem Ziel, die Zahlen von 1 bis 15 in die richtige Reihenfolge zu
@@ -88,8 +92,8 @@ Ein zweiter
 Sprite konnte direkt daneben konstruiert werden: ebenfalls mit Würfeln.
 Eine Kamera, die an einen Raspberry Pi angeschlossen war, hat beide
 Bilder aufgenommen und daraus eine Mini-Animation aus zwei Bildern
-(z.B. für Spiele-Engines wie
-`Bitsy <https://ledoux.itch.io/bitsy>`_) erstellt. Es war damit
+erstellt - z.B. für Spiele-Engines wie
+`Bitsy <https://ledoux.itch.io/bitsy>`_. Es war damit
 möglich, einen Sprite mit seinen eigenen Händen physisch zu gestalten.
 
 Ich habe bestimmt noch ein oder mehrere interessante Projekt vergessen. 
@@ -112,9 +116,8 @@ interessante geschichtsträchtige Einblicke gewährt.
 
 Der nächste Game Jam findet in ein paar Monaten statt und wird
 hoffentlich wieder viele unterschiedliche kreative Ansätze hervorbringen
-und genauso viel Spaß machen.
+und genauso viel Spaß bringen.
 
 .. figure:: {static}images/miniggamejamdo.png
    :alt: Gamejam-Logo
 
-   Logo des Minigamejam aus Dortmund
