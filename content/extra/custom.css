@@ -31,6 +31,25 @@ body {
 	background-color: #ffffef;
 }
 
+h1 {
+	text-align: left;
+}
+h2 {
+	text-align: left;
+}
+h3 {
+	text-align: left;
+}
+h4 {
+	text-align: left;
+}
+h5 {
+	text-align: left;
+}
+h6 {
+	text-align: left;
+}
+
 .navbar {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	background-color: #1e4054;
