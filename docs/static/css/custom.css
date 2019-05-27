@@ -15,7 +15,7 @@ blockquote {
 	padding: 10px 20px;
 	margin: 0 0 20px;
 	font-size: 16px;
-	border-left: 5px solid #eeeeee;
+	border-left: 5px solid #fffff8;
 }
 
 body {
@@ -23,10 +23,14 @@ body {
 	font-family: FontAwesome, Georgia, serif;
 	font-size: 16px;	
 	line-height: 1.5;
-	color: #555555;
+	color: #111111;
 
-	background-color: #ffffff;
+	background-color: #fffff8;
 
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+	color: #111111;
 }
 
 p {
@@ -57,10 +61,14 @@ p {
 
 /* part above article and below title */
 .panel {
-	background-color: #ffffff;
+	background-color: #fffff8;
 }
 
 /* box with links right to the article */
 .well {
-	background-color: #ffffff;
+	background-color: #fffff8;
+}
+
+.tipue_search_content_text {
+	font-family: FontAwesome, Georgia, serif;
 }
