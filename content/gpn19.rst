@@ -2,7 +2,7 @@ Veganes Gulasch
 ===============
 :date: 2019-06-11 14:20
 :author: marco.bakera
-:tags: programmieren, ccc, hacking, hardware, kunst
+:tags: programmierung, ccc, hacking, hardware, kunst
 :status: published
 :slug: gpn19
 
