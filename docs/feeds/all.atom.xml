@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-05-13T14:19:00+02:00</updated><entry><title>Kleine Spiele, großer Spaß</title><link href="https://blog.bakera.de/gamejam19-05.html" rel="alternate"></link><published>2019-05-13T14:19:00+02:00</published><updated>2019-05-13T14:19:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-05-13:/gamejam19-05.html</id><summary type="html">&lt;div class="figure"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-06-11T14:20:00+02:00</updated><entry><title>Veganes Gulasch</title><link href="https://blog.bakera.de/gpn19.html" rel="alternate"></link><published>2019-06-11T14:20:00+02:00</published><updated>2019-06-11T14:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-06-11:/gpn19.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;img alt="Saal" src="https://blog.bakera.de/images/2019/gpn_saal.jpg" /&gt;
+&lt;p class="caption"&gt;Vortragssaal der GPN&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Zigmal hat die &lt;a class="reference external" href="https://entropia.de/GPN19"&gt;Gulasch-Programmiernacht&lt;/a&gt; bereits stattgefunden,
+doch erst in diesem Jahr bin ich dazu gekommen, sie erstmals zu besuchen.
+Es muss an der weiten Anfahrt bis nach Karlsruhe gelegen haben, dass
+ich erst jetzt Erstbesucher geworden bin. Inhaltlich und organisatorisch
+ist die Veranstaltung nämlich ein Glanzlicht der …&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
+&lt;img alt="Saal" src="https://blog.bakera.de/images/2019/gpn_saal.jpg" /&gt;
+&lt;p class="caption"&gt;Vortragssaal der GPN&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Zigmal hat die &lt;a class="reference external" href="https://entropia.de/GPN19"&gt;Gulasch-Programmiernacht&lt;/a&gt; bereits stattgefunden,
+doch erst in diesem Jahr bin ich dazu gekommen, sie erstmals zu besuchen.
+Es muss an der weiten Anfahrt bis nach Karlsruhe gelegen haben, dass
+ich erst jetzt Erstbesucher geworden bin. Inhaltlich und organisatorisch
+ist die Veranstaltung nämlich ein Glanzlicht der chaotischen
+Veranstaltungszene rund um den kreativen und künstlerischen Umgang mit
+Technik, Kultur und Gesellschaft.&lt;/p&gt;
+&lt;p&gt;Über verschiedene Lichthöfe innerhalb des ZKM und die Wiese vor dem selbigen
+erstreckte
+sich der Bereich, der von Hackenden über vier Tage bespielt, verspielt,
+beschallt und bekocht wurde. Vorträge, Workshops (Standards), ein
+lautes und ein leises Hackcenter, sowie ein ganzes Museum durften
+für Projekte und allerlei Fug (das ist wie Unfug, nur besser) genutzt werden.&lt;/p&gt;
+&lt;p&gt;In einem Außenbereich wurden Waffeln (mit und ohne Alkohol) gegen eine
+Spende vom &lt;a class="reference external" href="https://c3woc.de/"&gt;c3woc&lt;/a&gt; (mit 'w' wie Video) bis tief in
+die Nacht hinein kredenzt - wenn nicht gerade der Zustand des akuten
+Waffelstillstands ausgerufen war.&lt;/p&gt;
+&lt;p&gt;Es gab Bastelprojekte, &lt;a class="reference external" href="https://github.com/schlangenprogrammiernacht"&gt;programmierbare Schlangen&lt;/a&gt;, die &lt;a class="reference external" href="https://c3post.de/"&gt;ChaosPost&lt;/a&gt; und viele Kleinigkeiten &lt;a class="reference external" href="https://github.com/pintman/spnoled"&gt;am Wegesrand&lt;/a&gt; oder
+gerade mitten darauf, die
+den Eindruck eines Jahrmarktes der Unmöglichkeiten erweckten.&lt;/p&gt;
+&lt;p&gt;Die Veranstaltung wagte das kapitalimusfeindliche - ergo sympathische -
+Experiment, keinen Eintritt zu verlangen und wesentliche Einnahmen
+über Spenden erzielen zu wollen. Das hat in den vergangenen Jahren
+funktioniert, tat es (hoffentlich) in diesem Jahr ebenso und sollte
+als Vorbild für andere Veranstaltungen dienen, die Menschen
+unterschiedlicher Naturelle zusammenbringen möchten.&lt;/p&gt;
+&lt;p&gt;Bis zum nächsten Mal (hoffentlich).&lt;/p&gt;
+</content><category term="programmierung"></category><category term="ccc"></category><category term="hacking"></category><category term="hardware"></category><category term="kunst"></category></entry><entry><title>Kleine Spiele, großer Spaß</title><link href="https://blog.bakera.de/gamejam19-05.html" rel="alternate"></link><published>2019-05-13T14:19:00+02:00</published><updated>2019-05-13T14:19:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-05-13:/gamejam19-05.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Das Spiel im Einsatz" src="https://blog.bakera.de/images/2019/ffhunt1.png" /&gt;
 &lt;p class="caption"&gt;&amp;quot;firefly hunt&amp;quot; im Einsatz.&lt;/p&gt;
 &lt;/div&gt;
@@ -2031,44 +2070,4 @@ Gerät also durchaus interessant.&lt;/p&gt;
 weitertreibt, mit zusätzlichen Auf- und Anbauten ausstattet ist und Teil
 einer 2017 fertig gestellten Abschlussarbeit ist. Die Hardware wird
 unter &lt;a class="reference external" href="http://spypi.ch/"&gt;spypi.ch&lt;/a&gt; beschrieben.&lt;/p&gt;
-</content><category term="Hardware"></category><category term="34c3"></category><category term="RaspberryPi"></category></entry><entry><title>34C3: Gute Unterhaltung</title><link href="https://blog.bakera.de/34c3-gute-unterhaltung.html" rel="alternate"></link><published>2018-01-10T20:06:00+01:00</published><updated>2018-01-10T20:06:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-01-10:/34c3-gute-unterhaltung.html</id><summary type="html">&lt;div class="figure"&gt;
-&lt;img alt="Fnord-Logo" class="size-full wp-image-2213" src="https://blog.bakera.de/images/2018/01/Fnord_logo.jpg" style="width: 530px; height: 246px;" /&gt;
-&lt;p class="caption"&gt;(CC BY-SA Jackytar)&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Neben rein technischen Vorträgen gab es beim letzten 34C3 auch solche
-mit größeren Unterhaltungswert.
-&lt;a class="reference external" href="https://media.ccc.de/v/34c3-8993-nougatbytes_11"&gt;Nougatbytes&lt;/a&gt;&amp;nbsp;ist
-ein Ratespiel mit Bildern. Sehr liebevoll und aufwändig gestaltet mit
-dem notwendigen Gefühl für die Fähigkeit um die Ecke denken zu können.&lt;/p&gt;
-&lt;p&gt;Das im letzten Jahr pausierende und in diesem Jahr …&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
-&lt;img alt="Fnord-Logo" class="size-full wp-image-2213" src="https://blog.bakera.de/images/2018/01/Fnord_logo.jpg" style="width: 530px; height: 246px;" /&gt;
-&lt;p class="caption"&gt;(CC BY-SA Jackytar)&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Neben rein technischen Vorträgen gab es beim letzten 34C3 auch solche
-mit größeren Unterhaltungswert.
-&lt;a class="reference external" href="https://media.ccc.de/v/34c3-8993-nougatbytes_11"&gt;Nougatbytes&lt;/a&gt;&amp;nbsp;ist
-ein Ratespiel mit Bildern. Sehr liebevoll und aufwändig gestaltet mit
-dem notwendigen Gefühl für die Fähigkeit um die Ecke denken zu können.&lt;/p&gt;
-&lt;p&gt;Das im letzten Jahr pausierende und in diesem Jahr wieder veranstaltete
-&lt;a class="reference external" href="https://media.ccc.de/v/34c3-9007-hacker_jeopardy"&gt;Hacker
-Jeopardy&lt;/a&gt;&amp;nbsp;zeigt in
-verschiedenen Kategorien, wie wenig man bisweilen weiß. Besonders gut
-hat mir die Kategorie &amp;quot;\LaTeX&amp;quot; gefallen, in der man LatTeX-Formeln
-ausrechnen musste.&lt;/p&gt;
-&lt;p&gt;Schließlich berichtete das &lt;em&gt;Zentrum für politische Schönheit&lt;/em&gt; im Vortrag
-&lt;a class="reference external" href="https://media.ccc.de/v/34c3-8896-tiger_drucker_und_ein_mahnmal"&gt;Tiger, Drucker und
-Mahnmale&lt;/a&gt;
-über die Aktivitäten im letzten Jahr. Hier bleibt so manches Lachen im
-Halse stecken und ich wünsche mir mehr von diesen Aktionen. Neben rein
-unterhaltsamen Elementen, habe ich dort etwa verfahren, dass selbst
-anspruchsberechtigte Flüchtlinge nicht mit dem Flugzeug einreisen
-dürfen, da dies gesetzlich mit Geldstrafen gegenüber Fluglinien
-sanktioniert wird.&lt;/p&gt;
-&lt;p&gt;Trotzdem: Gute Unterhaltung!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Die Chaoswest-Bühne hat nun im März auch ihre Videos
-veröffentlicht. Hier hat mir das Video &lt;a class="reference external" href="https://media.ccc.de/v/34C3-jugend-hackt-1039-operation_mindfuck"&gt;Operation
-Mindfuck&lt;/a&gt;
-gut gefallen, das unterschiedliche nerdige Themen kurz vorgestellt.
-Vieles war mir schon bekannt, einiges hatte ich vergessen, anderes war
-mir neu.&lt;/p&gt;
-</content><category term="Spaß"></category><category term="Video"></category><category term="34c3"></category></entry></feed>
+</content><category term="Hardware"></category><category term="34c3"></category><category term="RaspberryPi"></category></entry></feed>
