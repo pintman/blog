@@ -11,7 +11,7 @@ Veganes Gulasch
 
    Vortragssaal der GPN
 
-Zigmal hat die `Gulasch-Programmiernacht
+Zigmal hat die `Gulaschprogrammiernacht
 <https://entropia.de/GPN19>`_ bereits stattgefunden,
 doch erst in diesem Jahr bin ich dazu gekommen, sie erstmals zu besuchen.
 Es muss an der weiten Anfahrt bis nach Karlsruhe gelegen haben, dass
