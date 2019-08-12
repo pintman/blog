@@ -1,5 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-06-11T14:20:00+02:00</updated><entry><title>Veganes Gulasch</title><link href="https://blog.bakera.de/gpn19.html" rel="alternate"></link><published>2019-06-11T14:20:00+02:00</published><updated>2019-06-11T14:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-06-11:/gpn19.html</id><summary type="html">&lt;div class="figure"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-08-12T12:20:00+02:00</updated><entry><title>Gamejam mit Motten</title><link href="https://blog.bakera.de/gamejam0819.html" rel="alternate"></link><published>2019-08-12T12:20:00+02:00</published><updated>2019-08-12T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-08-12:/gamejam0819.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;img alt="FlipFlop-Display mit Spiel" src="https://blog.bakera.de/images/2019/mottenflop.png" /&gt;
+&lt;p class="caption"&gt;Flip-Dot-Display mit Controller-Kiste.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Sie waren gekommen, um Ideen für selbst erstellte Spiele zu entwickeln und
+diese in
+kurzer Zeit umzusetzen. Sowohl abwegige Ideen wie auch ambitionierte Projekte
+stießen beim &lt;a class="reference external" href="https://game-jam-do.de/"&gt;MiniGameJam in Dortmund&lt;/a&gt; vom 10.08.
+aufeinander.&lt;/p&gt;
+&lt;p&gt;Gleichzeitig hatte sich eine »Armee« aus Motten angekündigt, dem Treiben
+einen Strich durch die …&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
+&lt;img alt="FlipFlop-Display mit Spiel" src="https://blog.bakera.de/images/2019/mottenflop.png" /&gt;
+&lt;p class="caption"&gt;Flip-Dot-Display mit Controller-Kiste.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Sie waren gekommen, um Ideen für selbst erstellte Spiele zu entwickeln und
+diese in
+kurzer Zeit umzusetzen. Sowohl abwegige Ideen wie auch ambitionierte Projekte
+stießen beim &lt;a class="reference external" href="https://game-jam-do.de/"&gt;MiniGameJam in Dortmund&lt;/a&gt; vom 10.08.
+aufeinander.&lt;/p&gt;
+&lt;p&gt;Gleichzeitig hatte sich eine »Armee« aus Motten angekündigt, dem Treiben
+einen Strich durch die Rechnung zu machen, war jedoch aus geheimnisvollen
+Gründen nicht erschienen.
+Nur ein Schild an der Tür zur Teeküche sollte den Unterschrockenen
+Warnung sein, Abstand zu halten.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;img alt="Hinweis zu Mottenbefall" src="https://blog.bakera.de/images/2019/mottenbefall.png" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Wieder dienten drei Themen der kreativen Initialzündung und sollten
+dem uninspirierten Nerd helfen, einen Ansatz zu finden. Wie immer wurde
+die Pflicht zur Einhaltung der Themen von der Orga nur in geringem Umfang
+kontrolliert - also gar nicht. So konnten Spieleideen entstehen, die
+sich an allen, einer Auswahl oder keinem der genannten Themen
+orientierte.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;img alt="Themen des Gamejam" src="https://blog.bakera.de/images/2019/gamejam_themen.png" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Ich habe mit &lt;a class="reference external" href="https://elektro.schule/"&gt;Reinhard&lt;/a&gt; und Armin eine
+Gruppe gebildet. Wir haben uns an einem Spiel versucht, das einen
+Gyrosensor und Beschleunigungsmesser in Form eines MPU6050 auswerten und als
+Spielecontroller für ein FlipDot-Display nutzbar machen wollte. Auf einen
+Klappkorb montiert konnte damit ein Pixel, der mit viel kreativer Energie
+als Spielfigur interpretiert werden kann, durch ein Labyrinth gesteuert
+werden. Auf dem Weg musste der Spieler Motten beseitigen, um in das
+nächste Level zu gelangen. Insgesamt konnten
+wir vier Level umsetzen und waren erstaunt, wie komplex sich die Auswertung
+derartiger Sensoren im Detail gestaltet. Gleichzeitig entstand eine
+durchaus nutzbare Steuerung.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/waw8Q1aqwW4?rel=0"&gt;&lt;img alt="FlipFlop-Display mit Spiel" src="https://blog.bakera.de/images/2019/mottenflop_video.png" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;Andere Gruppen und Einzelkämpfer setzten die Themen kreativ mit eigenen
+Spielen um. So entstand etwa eine Fahrsimulation, bei der ein Fahrer auf dem
+Weg in eine Cyberpunk-Version des Ruhrgebiets die Motten
+auf der Windschutzscheibe verscheuchen musste. Ein Babysimulator griff das
+Thema »Müdigkeit« auf: man musste ein Baby  durch Herumlaufen in den Schlaf
+wiegen. Bei einem Memoryspiel wurden Kleidungsstücke farblich passend
+mit Motten kombiniert. In einem Jump'n'Run musste sich der Spieler durch
+Lichtkegel in einer von Motten besetzten Welt orientieren.&lt;/p&gt;
+&lt;p&gt;Spaß und Entdeckergeist standen auch bei dieserm Veranstaltung wieder im
+Vorderung. Danke an alle Teilnehmer und Moritz im Besonderen für die
+Organisation.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;img alt="Gamejam-Logo" src="https://blog.bakera.de/images/miniggamejamdo.png" /&gt;
+&lt;/div&gt;
+</content><category term="Programmierung"></category><category term="Spaß"></category><category term="Spiele"></category><category term="gamejam"></category><category term="hacking"></category><category term="hardware"></category></entry><entry><title>Veganes Gulasch</title><link href="https://blog.bakera.de/gpn19.html" rel="alternate"></link><published>2019-06-11T14:20:00+02:00</published><updated>2019-06-11T14:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-06-11:/gpn19.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Saal" src="https://blog.bakera.de/images/2019/gpn_saal.jpg" /&gt;
 &lt;p class="caption"&gt;Vortragssaal der GPN&lt;/p&gt;
 &lt;/div&gt;
@@ -2051,23 +2115,4 @@ $ docker-compose up
 zusammenfügen&lt;/a&gt;
 und auf mehrere Pis verteilen. HypriotOS bringt alle wichtigen Tools mit
 und läuft zuverlässig.&lt;/p&gt;
-</content><category term="Hardware"></category><category term="RaspberryPi"></category></entry><entry><title>Laptop selbstgebaut</title><link href="https://blog.bakera.de/laptop-selbstgebaut.html" rel="alternate"></link><published>2018-01-14T12:37:00+01:00</published><updated>2018-01-14T12:37:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-01-14:/laptop-selbstgebaut.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/2018/01/IMG_20171228_112705311.jpg"&gt;&lt;img alt="image0" class="alignnone size-large wp-image-2220" src="https://blog.bakera.de/images/2018/01/IMG_20171228_112705311-1024x575.jpg" style="width: 625px; height: 351px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Eigentlich ist es gar nicht so einfach, einen Laptop selbst zusammen zu
-stellen, da die Einzelkomponenten hochgradig integriert sind. Auf dem
-34C3 ist mir jedoch ein Koffer begegnet, der genau diesen Versuch mit
-einem Raspberry Pi unternommen hat. Neben dem Pi, sind unter dem
-Plexiglas zwei Powerbanks verbaut, die das …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/2018/01/IMG_20171228_112705311.jpg"&gt;&lt;img alt="image0" class="alignnone size-large wp-image-2220" src="https://blog.bakera.de/images/2018/01/IMG_20171228_112705311-1024x575.jpg" style="width: 625px; height: 351px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Eigentlich ist es gar nicht so einfach, einen Laptop selbst zusammen zu
-stellen, da die Einzelkomponenten hochgradig integriert sind. Auf dem
-34C3 ist mir jedoch ein Koffer begegnet, der genau diesen Versuch mit
-einem Raspberry Pi unternommen hat. Neben dem Pi, sind unter dem
-Plexiglas zwei Powerbanks verbaut, die das Display und den Pi mit Strom
-versorgen - und das über 16 Stunden lang. Daneben ist noch Platz für ein
-Steckbrett und kleinere Bauteile. Als mobile Hacking-Stations ist das
-Gerät also durchaus interessant.&lt;/p&gt;
-&lt;p&gt;Inspiriert wurde das Projekt von
-&lt;a class="reference external" href="https://github.com/sarah314/SpyPi"&gt;SpyPi&lt;/a&gt;, welches den Kofferansatz
-weitertreibt, mit zusätzlichen Auf- und Anbauten ausstattet ist und Teil
-einer 2017 fertig gestellten Abschlussarbeit ist. Die Hardware wird
-unter &lt;a class="reference external" href="http://spypi.ch/"&gt;spypi.ch&lt;/a&gt; beschrieben.&lt;/p&gt;
-</content><category term="Hardware"></category><category term="34c3"></category><category term="RaspberryPi"></category></entry></feed>
+</content><category term="Hardware"></category><category term="RaspberryPi"></category></entry></feed>
