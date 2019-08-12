@@ -35,8 +35,8 @@ orientierte.&lt;/p&gt;
 &lt;div class="figure"&gt;
 &lt;img alt="Themen des Gamejam" src="https://blog.bakera.de/images/2019/gamejam_themen.png" /&gt;
 &lt;/div&gt;
-&lt;p&gt;Ich habe mit &lt;a class="reference external" href="https://elektro.schule/"&gt;Reinhard&lt;/a&gt; und Armin eine
-Gruppe gebildet. Wir haben uns an einem Spiel versucht, das einen
+&lt;p&gt;Ich habe mit &lt;a class="reference external" href="https://elektro.schule/"&gt;Reinhard&lt;/a&gt; und &lt;a class="reference external" href="https://www.meetup.com/de-DE/Game-Developers-Dortmund/members/282626313/"&gt;Armin&lt;/a&gt;
+ein Team gebildet. Wir haben uns an einem Spiel versucht, das einen
 Gyrosensor und Beschleunigungsmesser in Form eines MPU6050 auswerten und als
 Spielecontroller für ein FlipDot-Display nutzbar machen wollte. Auf einen
 Klappkorb montiert konnte damit ein Pixel, der mit viel kreativer Energie

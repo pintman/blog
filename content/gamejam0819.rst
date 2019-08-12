@@ -36,8 +36,9 @@ orientierte.
 .. figure:: {static}images/2019/gamejam_themen.png
    :alt: Themen des Gamejam
 
-Ich habe mit `Reinhard <https://elektro.schule/>`_ und Armin eine
-Gruppe gebildet. Wir haben uns an einem Spiel versucht, das einen
+Ich habe mit `Reinhard <https://elektro.schule/>`_ und `Armin
+<https://www.meetup.com/de-DE/Game-Developers-Dortmund/members/282626313/>`_
+ein Team gebildet. Wir haben uns an einem Spiel versucht, das einen
 Gyrosensor und Beschleunigungsmesser in Form eines MPU6050 auswerten und als
 Spielecontroller für ein FlipDot-Display nutzbar machen wollte. Auf einen
 Klappkorb montiert konnte damit ein Pixel, der mit viel kreativer Energie
