@@ -66,5 +66,8 @@ Spaß und Entdeckergeist standen auch bei dieserm Veranstaltung wieder im
 Vorderung. Danke an alle Teilnehmer und Moritz im Besonderen für die
 Organisation.
 
+**Update**: Die Dateien für das Spiel sind nun in einem
+`Zip-Archiv <{static}/media/gamejam0819.zip>`_ verfügbar.
+
 .. figure:: {static}images/miniggamejamdo.png
    :alt: Gamejam-Logo
