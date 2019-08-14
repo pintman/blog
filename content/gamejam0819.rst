@@ -62,7 +62,7 @@ wiegen. Bei einem Memoryspiel wurden Kleidungsstücke farblich passend
 mit Motten kombiniert. In einem Jump'n'Run musste sich der Spieler durch
 Lichtkegel in einer von Motten besetzten Welt orientieren.
 
-Spaß und Entdeckergeist standen auch bei dieserm Veranstaltung wieder im
+Spaß und Entdeckergeist standen auch bei dieser Veranstaltung wieder im
 Vorderung. Danke an alle Teilnehmer und Moritz im Besonderen für die
 Organisation.
 
