@@ -4,6 +4,7 @@ Vorlage
 :author: marco.bakera
 :tags: 
 :status: draft
+:slug: vorlage
 
 Untertitel
 ----------
