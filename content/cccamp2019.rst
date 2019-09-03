@@ -20,7 +20,7 @@ Partyeifer und ein dicker Pulli gegen die nächtliche Kälte als sinnvolle
 Retter in der Not.
 
 Die Voträge spielten eine noch geringere Rolle als schon beim
-`Congress <{filename}/35c3-ein-erfahrungsbericht.rst>`_. Zu vielfältig
+`Congress <{filename}/35c3_erfahrung.rst>`_. Zu vielfältig
 waren die Eindrücke, zu viel wollte entdeckt werden: Aufbauten,
 kleine und große Projekte,
 leuchtende Installationen, interessante und normle Leute. Am letzten
@@ -39,7 +39,7 @@ es das Wetter zuließ. Denn die Temperaturen über den Tag zwangen den Nerd in
 die kühlen und schattigen Ecken des Geländes. Für ein paar kleine Spiele
 und eine eigene `Implementierung von RS232 über GPIOs
 <https://twitter.com/elektroschule/status/1165241992584073216>`_ reichte es
-dann aber doch. Gesammelt wurde die Projekte in der
+dann aber doch. Gesammelt wurden die Projekte in der
 `hatchery <https://badge.team/badge/card10>`_.
 
 Kaum hatte man sich an die Geräuschkulisse, Temperaturen und die überaus
