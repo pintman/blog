@@ -20,7 +20,7 @@ Partyeifer und ein dicker Pulli gegen die nächtliche Kälte als sinnvolle
 Retter in der Not.
 
 Die Voträge spielten eine noch geringere Rolle als schon beim
-`Congress <{filename}/eindruecke-vom-34c3.rst>`_. Zu vielfältig
+`Congress <{filename}/35c3-ein-erfahrungsbericht.rst>`_. Zu vielfältig
 waren die Eindrücke, zu viel wollte entdeckt werden: Aufbauten,
 kleine und große Projekte,
 leuchtende Installationen, interessante und normle Leute. Am letzten
