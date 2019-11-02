@@ -22,9 +22,6 @@ unter einer freien Lizenz steht, kann man auch selbst eine Installation hosten.
 - `Cryptpad bei den Piraten <https://cryptpad.piratenpartei.de/>`_
 - `Vortrag bei der GPN <https://media.ccc.de/v/gpn19-79-cryptpad-practice-and-theory>`_
 
-Als Beispiel ist das Skript für das Video, welches in CryptPad erstellt
-wurde, unten eingebunden.
-
-.. raw:: html
-
-   <iframe width="100%" height="800" src="https://pad.0xabc.de/pad/#/2/pad/view/Mdg1DSUeOw1PutA6GVMfQgrxEynzc3K+iID9FfVNipY/embed/present/"></iframe>
+Als Beispiel ist das Skript für dieses Video, welches in CryptPad erstellt
+wurde, `hier verlinkt
+<https://pad.0xabc.de/pad/#/2/pad/view/Mdg1DSUeOw1PutA6GVMfQgrxEynzc3K+iID9FfVNipY/>`_.
