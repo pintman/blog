@@ -11,7 +11,7 @@ CryptPad
    :target: https://www.youtube-nocookie.com/embed/HQsX7N7hfOk?rel=0
    :alt: Youtube-Video
 
-   YouTube-Video
+   YouTube-Video (`bei archive.org <https://archive.org/details/cryptpadonlineeditormitendezuendeverschlusselung>`_)
 
 
 `CryptPad <https://cryptpad.fr/>`_ ist eine Software, mit der mehrere Nutzer 
