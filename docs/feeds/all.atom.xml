@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-11-02T18:30:00+01:00</updated><entry><title>CryptPad</title><link href="https://blog.bakera.de/cryptpad.html" rel="alternate"></link><published>2019-11-02T18:30:00+01:00</published><updated>2019-11-02T18:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-02:/cryptpad.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/HQsX7N7hfOk?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2019/cryptpadvideo.png" /&gt;&lt;/a&gt;
-&lt;p class="caption"&gt;YouTube-Video&lt;/p&gt;
+&lt;p class="caption"&gt;YouTube-Video (&lt;a class="reference external" href="https://archive.org/details/cryptpadonlineeditormitendezuendeverschlusselung"&gt;bei archive.org&lt;/a&gt;)&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://cryptpad.fr/"&gt;CryptPad&lt;/a&gt; ist eine Software, mit der mehrere Nutzer
 gleichzeitig an Dokumenten
@@ -13,7 +13,7 @@ unter einer freien Lizenz steht, kann man auch selbst eine Installation hosten.&
 &lt;/ul&gt;
 </summary><content type="html">&lt;div class="figure"&gt;
 &lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/HQsX7N7hfOk?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2019/cryptpadvideo.png" /&gt;&lt;/a&gt;
-&lt;p class="caption"&gt;YouTube-Video&lt;/p&gt;
+&lt;p class="caption"&gt;YouTube-Video (&lt;a class="reference external" href="https://archive.org/details/cryptpadonlineeditormitendezuendeverschlusselung"&gt;bei archive.org&lt;/a&gt;)&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://cryptpad.fr/"&gt;CryptPad&lt;/a&gt; ist eine Software, mit der mehrere Nutzer
 gleichzeitig an Dokumenten
