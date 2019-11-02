@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-09-02T12:20:00+02:00</updated><entry><title>CCCamp 2019</title><link href="https://blog.bakera.de/cccamp19.html" rel="alternate"></link><published>2019-09-02T12:20:00+02:00</published><updated>2019-09-02T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-09-02:/cccamp19.html</id><summary type="html">&lt;div class="figure"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-11-02T18:30:00+01:00</updated><entry><title>CryptPad</title><link href="https://blog.bakera.de/cryptpad.html" rel="alternate"></link><published>2019-11-02T18:30:00+01:00</published><updated>2019-11-02T18:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-02:/cryptpad.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/HQsX7N7hfOk?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2019/cryptpadvideo.png" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;YouTube-Video&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://cryptpad.fr/"&gt;CryptPad&lt;/a&gt; ist eine Software, mit der mehrere Nutzer
+gleichzeitig an Dokumenten
+arbeiten können. Alle Daten werden hierbei verschlüsselt. Da die Software
+unter einer freien Lizenz steht, kann man auch selbst eine Installation hosten.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://cryptpad.piratenpartei.de/"&gt;Cryptpad bei den Piraten&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://media.ccc.de/v/gpn19-79-cryptpad-practice-and-theory"&gt;Vortrag bei der GPN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</summary><content type="html">&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/HQsX7N7hfOk?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2019/cryptpadvideo.png" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;YouTube-Video&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://cryptpad.fr/"&gt;CryptPad&lt;/a&gt; ist eine Software, mit der mehrere Nutzer
+gleichzeitig an Dokumenten
+arbeiten können. Alle Daten werden hierbei verschlüsselt. Da die Software
+unter einer freien Lizenz steht, kann man auch selbst eine Installation hosten.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://cryptpad.piratenpartei.de/"&gt;Cryptpad bei den Piraten&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://media.ccc.de/v/gpn19-79-cryptpad-practice-and-theory"&gt;Vortrag bei der GPN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content></entry><entry><title>CCCamp 2019</title><link href="https://blog.bakera.de/cccamp19.html" rel="alternate"></link><published>2019-09-02T12:20:00+02:00</published><updated>2019-09-02T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-09-02:/cccamp19.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Fairy Dust" src="https://blog.bakera.de/images/2019/fairydust.png" /&gt;
 &lt;p class="caption"&gt;Fairy Dust - gelandet im Ziegeleipark.&lt;/p&gt;
 &lt;/div&gt;
@@ -1194,15 +1218,15 @@ und es gibt eine Reihe von statischen Webseiten-Generatoren, die unterstützt
 werden. Das folgende Skript zeigt ein Beispiel für den Generator
 &lt;a class="reference external" href="https://blog.getpelican.com/"&gt;pelican&lt;/a&gt;.&lt;/p&gt;
 &lt;pre class="code yaml literal-block"&gt;
-&lt;span class="l-Scalar-Plain"&gt;image&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;python:3-alpine&lt;/span&gt;
+&lt;span class="nt"&gt;image&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;python:3-alpine&lt;/span&gt;
 
-&lt;span class="l-Scalar-Plain"&gt;pages&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
-  &lt;span class="l-Scalar-Plain"&gt;script&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+&lt;span class="nt"&gt;pages&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+  &lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
   &lt;span class="p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;pip install pelican markdown typogrify&lt;/span&gt;
   &lt;span class="p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;pelican -o public -s publishconf.py&lt;/span&gt;
 
-  &lt;span class="l-Scalar-Plain"&gt;artifacts&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
-    &lt;span class="l-Scalar-Plain"&gt;paths&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+  &lt;span class="nt"&gt;artifacts&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="nt"&gt;paths&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
     &lt;span class="p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;public/&lt;/span&gt;
 &lt;/pre&gt;
 &lt;p&gt;Weitere Beispiele für andere Generatoren werden in einem
@@ -1890,244 +1914,4 @@ Der nächste Termin steht auch schon fest: am 12. Mai geht es weiter.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Quelltext und Musik sind nun bei
 &lt;a class="reference external" href="https://archive.org/details/starfeet-academy"&gt;archive.org&lt;/a&gt; verfügbar.&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/miniggamejamdo.png"&gt;&lt;img alt="image1" class="alignnone size-full wp-image-2076" src="https://blog.bakera.de/images/miniggamejamdo.png" style="width: 790px; height: 144px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-</content><category term="Informatik"></category><category term="Programmierung"></category><category term="Spaß"></category><category term="Spiele"></category><category term="gamejam"></category></entry><entry><title>Sammelsurium Dezember 2017 - Januar 2018</title><link href="https://blog.bakera.de/sammelsurium-dezember-2017-januar-2018.html" rel="alternate"></link><published>2018-02-08T17:53:00+01:00</published><updated>2018-02-08T17:53:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-02-08:/sammelsurium-dezember-2017-januar-2018.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/2014/12/wwwSitzen2.png"&gt;&lt;img alt="image0" class="size-full wp-image-1523" src="https://blog.bakera.de/images/2014/12/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;cc: Freepik&lt;/p&gt;
-&lt;p&gt;Wieder sind zwei Monate vergangen. Ein Rückblick auf die letzten
-Twitterfeeds ist auch immer wieder ein Blick auf Dinge, die man schon
-längst vergessen hat.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tweets aus 2017-12&lt;/strong&gt;&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;Aluhut günstig abzugeben. Kaum getragen. Nichtraucherhaushalt. #34c3
-&lt;a class="reference external" href="https://twitter.com/pintman/status/946784408501215232/photo/1"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Danke für die Arbeit. Danke für den wichtigen Satz.
-&lt;a class="reference external" href="https://twitter.com/Chaos_m_Schule/status/946080787690131456"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mythen der …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/2014/12/wwwSitzen2.png"&gt;&lt;img alt="image0" class="size-full wp-image-1523" src="https://blog.bakera.de/images/2014/12/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;cc: Freepik&lt;/p&gt;
-&lt;p&gt;Wieder sind zwei Monate vergangen. Ein Rückblick auf die letzten
-Twitterfeeds ist auch immer wieder ein Blick auf Dinge, die man schon
-längst vergessen hat.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tweets aus 2017-12&lt;/strong&gt;&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;Aluhut günstig abzugeben. Kaum getragen. Nichtraucherhaushalt. #34c3
-&lt;a class="reference external" href="https://twitter.com/pintman/status/946784408501215232/photo/1"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Danke für die Arbeit. Danke für den wichtigen Satz.
-&lt;a class="reference external" href="https://twitter.com/Chaos_m_Schule/status/946080787690131456"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mythen der digitalen Bildung: - PDF statt Arbeitsblatt -
-Gerätebedienkompetenz - abgefilmter Frontalunterricht #34c3
-#Lehrerstammtisch&lt;/li&gt;
-&lt;li&gt;Registrierung als Engel, check. SIM-Karte, check. Flora-Mate
-getrunken, check. Spaß in der Schlange zur Kasse gehabt, check. #34c3&lt;/li&gt;
-&lt;li&gt;Viele Muggel am Leipziger Hbf unterwegs. Ich glaube, die
-Kongressteilnehmer dennoch an den mit Konsolen gepflasterten
-Laptopbilschirmen in den Cafés zu erkennen. #34C3&lt;/li&gt;
-&lt;li&gt;Bahnfahrt nach Leipzig genutzt und für edukative sowie
-selbsterbauliche Zwecke eine Hashtabelle als Datenstruktur in #python
-programmiert. #34c3 #tuwat
-&lt;a class="reference external" href="https://zumpad.zum.de/p/hashtable/timeslider#3"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Angeblich hält mein ICE gerade in Bielefeld. Immer diese Nerdwitze
-zum #34c3&lt;/li&gt;
-&lt;li&gt;☑Im Engelsystem registriert #34c3&lt;/li&gt;
-&lt;li&gt;Kniffliger Adventskalender mit schönen Rätseln vom
-Adventuretreff-Forum.
-&lt;a class="reference external" href="http://www.adventure-treff.de/adventskalender2017"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Es gibt eine App für die Indoor-Navigation auf dem 34c3.
-&lt;a class="reference external" href="https://play.google.com/store/apps/details?id=de.c3nav.droid"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Meine Mini-Packliste für den #34c3
-&lt;a class="reference external" href="https://blog.bakera.de/34c3-packliste.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Python vielleicht demnächst in Excel.
-&lt;a class="reference external" href="https://twitter.com/ThePSF/status/944538082266767360"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Früher stieg die Aufregung direkt vor Weihnachten, nun steigt sie
-direkt danach. #34C3 #tuwat&lt;/li&gt;
-&lt;li&gt;Wir sind endlich in der Zukunft angekommen. Vergesst die fliegenden
-Autos. Laptops in Klassenzimmern sind das eindeutige Zeichen.
-#ironie
-&lt;a class="reference external" href="https://twitter.com/welt/status/944209185964781568"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Ein schönes Tutorial für die Shaderprogrammierung auf Grafikkarten.
-#GPU
-&lt;a class="reference external" href="http://hughsk.io/fragment-foundry/chapters/01-hello-world.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Enigmail ist derzeit kaputt.
-&lt;a class="reference external" href="https://twitter.com/symbolicsoft/status/943106337617084417"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wenn man mal SyntaxHighlighting in Libre-Office-Dokumenten benötigt:
-&lt;a class="reference external" href="https://extensions.libreoffice.org/extensions/code-highlighter"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Eine gute Aluhut-Grundbildung für jeden IT'ler.
-&lt;a class="reference external" href="https://youtu.be/624S9ly09Xk"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Werde dieses Jahr auch mein Tel. mitbringen und hoffe auf das
-Matometer.
-&lt;a class="reference external" href="https://twitter.com/eventphone/status/939656762730450944"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Eine Hasente.
-&lt;a class="reference external" href="https://twitter.com/AcademiaObscura/status/939101027915190272"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Glossar: Charset – Encoding – Font
-&lt;a class="reference external" href="https://blog.bakera.de/charset-encoding-font.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;WTF = WhatsApp Twitter Facebook&lt;/li&gt;
-&lt;li&gt;Ein flammendes Plädoyer für Textmails ohne HTML-Schnickschnack. +1
-&lt;a class="reference external" href="https://twitter.com/JohnnyThan/status/938434049789571072"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wir hatten damals schon Escape Rooms.
-&lt;a class="reference external" href="https://twitter.com/ewindisch/status/937934527749439488"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Schellmische Kritik eines Mathelehrers auf immer albernere Aufgaben
-aus der Analysis?!
-&lt;a class="reference external" href="https://twitter.com/schlitterwicke/status/937755609470062598"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Es hat begonnen: KIs programmieren sich selbst besser als Menschen.
-&lt;a class="reference external" href="http://www.sciencealert.com/google-s-ai-built-it-s-own-ai-that-outperforms-any-made-by-humans"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;quot;Das ist fraktal falsch. Je näher du rangehst, desto mehr ist falsch
-daran.&amp;quot; - fefe&lt;/li&gt;
-&lt;li&gt;Username und Passwort ist noch keine 2-Faktor-Auth.&lt;/li&gt;
-&lt;li&gt;Was passiert, wenn man etwas in den Browser eingibt? Hier steht es -
-sehr(!) detailliert.
-&lt;a class="reference external" href="https://github.com/alex/what-happens-when/blob/master/README.rst,http://google.com"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;So einfach kann ein Python-Skript als systemd service gestartet
-werden.
-&lt;a class="reference external" href="https://gist.github.com/ewenchou/be496b2b73be801fd85267ef5471458c"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Tweets aus 2018-01&lt;/strong&gt;&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&amp;quot;Vom Mythos der Digital Natives und der Net Generation&amp;quot; (von 2012!) -
-&amp;quot;Die Mediennutzung gilt nur der Freizeit, ein Transfer auf Lernen
-findet nicht statt. Sie dient in erster Linie der Kommunikation mit
-den Peers[...].&amp;quot;
-&lt;a class="reference external" href="https://www.bibb.de/veroeffentlichungen/de/bwp/show/6871"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Früher hießen Gewinnspiel und Umfrage noch schlicht Werbung.&lt;/li&gt;
-&lt;li&gt;Planen, Testen, Nachdenken helfen. Wird leider häufig vernachlässigt,
-weil es Kosten verursacht.
-&lt;a class="reference external" href="https://twitter.com/CodeWisdom/status/958037113307623438"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Das Vorurteil, dass Lehrer zu wenig arbeiten, stimmt also nicht.
-&lt;a class="reference external" href="https://twitter.com/gew_bund/status/957931578486861824"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;RFC 1855 beschreibt die Netiquette-Regeln.
-&lt;a class="reference external" href="https://tools.ietf.org/html/rfc1855"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Digitalpoeten von heute.
-&lt;a class="reference external" href="https://twitter.com/kleineSchwalbe_/status/956183164036243456"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wenn Binärdarstellungen von Primzahlen wie Giraffen aussehen.
-&lt;a class="reference external" href="https://www.reddit.com/r/math/comments/7qpfls/does_there_exist_a_prime_number_whose/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wenn Twitter auf Videotext/Teletext trifft.
-&lt;a class="reference external" href="https://github.com/mpentler/teletext-twitter"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;#MagpPi: Immer wieder einen Blick wert.
-&lt;a class="reference external" href="https://twitter.com/Raspberry_Pi/status/956835926440906752"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wenn Ende-zu-Ende kaputt ist, nennt man es halt Ende-zu-Mitte. Muss
-ich mir merken.
-&lt;a class="reference external" href="https://twitter.com/golem/status/956768718402580480"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wieder ein Beleg dafür, dass Android keine vertrauenswürdiges OS
-ist.
-&lt;a class="reference external" href="https://netzpolitik.org/2018/android-sammelt-daten-ueber-bluetooth-auch-wenn-bluetooth-ausgeschalten-ist/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Buchtipp: Kryptographie mit Python umsetzen und brechen.
-&lt;a class="reference external" href="http://inventwithpython.com/cracking"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Schule in Arnsberg gründet Hackerspace.
-&lt;a class="reference external" href="https://twitter.com/FranzStockGym/status/956119961092657153"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;#poesie
-&lt;a class="reference external" href="https://twitter.com/fxneumann/status/956086802389102593"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;An der Uni in Oxford bekommen Frauen bei Mathe- und Informatik-Tests
-15 Minuten mehr Zeit, weil ... ähhh ... warum eigentlich?
-&lt;a class="reference external" href="http://www.telegraph.co.uk/education/2018/01/22/oxford-university-gives-women-time-pass-exams/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;#PyCharm kann jetzt auch MicroPython.
-&lt;a class="reference external" href="https://www.heise.de/developer/meldung/JetBrains-veroeffentlicht-ein-MicroPython-Plug-in-fuer-PyCharm-3941867.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Viele Basisinformationen der Elektrotechnik in einem Artikel
-zusammengefasst und schön bebildert.
-&lt;a class="reference external" href="https://blog.hackster.io/an-introduction-to-basic-electronics-6ce768210f5b"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Chaos Darmstadt berichtet über das besondere elektronische
-Anwaltspostfach und zeigt, wie man ein Projekt auf vielen
-verschiedenen Ebenen gegen die Wand fahren kann.
-&lt;a class="reference external" href="https://media.ccc.de/c/CCCDA"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Gelesen, Twitter geschlossen und drüber nachgedacht.
-&lt;a class="reference external" href="https://twitter.com/worrydream/status/953780424211222528"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Immer, wenn wir &amp;quot;sozial schwach&amp;quot; hören oder sagen, lasst uns
-überlegen, ob &amp;quot;ökonomisch schwach&amp;quot; nicht die bessere Formulierung
-wäre.&lt;/li&gt;
-&lt;li&gt;Mädchen können Teamwork besser als Jungs. Und Deutschland ist diesmal
-deutlich über dem OECD-Schnitt. Da gibt es noch Potenzial, das wir
-nicht nutzen, gerade in Bereich IT/Informatik.
-&lt;a class="reference external" href="https://twitter.com/Davos/status/953371623603757056"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Ist schon wichtig, so eine schnelle und verlässliche
-Informations-Infrastruktur in Krisensituationen.
-&lt;a class="reference external" href="https://blog.fefe.de/?ts=a49e52e4"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;traefik ist ein HTTP Reverse Proxy und Load Balancer für z.B. docker.
-&lt;a class="reference external" href="https://traefik.io/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PicoCluster verkauft Cluster für #RaspberryPi s.
-&lt;a class="reference external" href="https://www.picocluster.com/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Für mehr Datenkonfusion.
-&lt;a class="reference external" href="https://twitter.com/regnerischerTag/status/953153411930886144"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wow, Geolocation geht auch mit einer Knopfzelle und einer Laufzeit
-von ca. 30 Jahren. Aus der Berechnung des Verhältnis von
-Helligkeitsdauer und Dunklheitsdauer über den Tag.
-&lt;a class="reference external" href="https://hackaday.io/project/28550-light-level-geolocator"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wenn man mal eben einen reverse proxy unter seinen #docker containern
-benötigt.&lt;/li&gt;
-&lt;li&gt;Erstaunlich, was man mit einer Knopfzelle alles machen kann.
-&lt;a class="reference external" href="https://hackaday.com/2018/01/15/coin-cell-hacks-that-won-the-coin-cell-challenge/?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+hackaday%2FLgoM+%28Hack+a+Day%29"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Auch heute noch kann man einen Laptop selbst bauen - z.B. aus einem
-#RaspberryPi. #34c3
-&lt;a class="reference external" href="https://blog.bakera.de/laptop-selbstgebaut.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Easterhegg in Dortmund. Das wäre toll.
-&lt;a class="reference external" href="https://twitter.com/ctdo/status/951409601941004289"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fremden Quelltext lesen ... oder den eigenen Quelltext aus einer
-fernen Vergangenheit.
-&lt;a class="reference external" href="http://fun.drno.de/pics/cartoons/english/other_peoples_code.jpg"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Gute Unterhaltung mit &amp;quot;Nougatbytes&amp;quot;, &amp;quot;Hacker Jeopardy&amp;quot; und dem
-&amp;quot;Zentrum für politische Schönheit&amp;quot;. #34c3
-&lt;a class="reference external" href="https://blog.bakera.de/34c3-gute-unterhaltung.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Immer schön aufpassen mit den Abhängigkeiten.
-&lt;a class="reference external" href="https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;#64;hanno erklärt, warum die empirische Wissenschaft kaputt ist. #34c3
-&lt;a class="reference external" href="https://blog.bakera.de/die-empirische-wissenschaft-ist-kaputt.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Dateien einfach aber sicher über Tor teilen.
-&lt;a class="reference external" href="https://github.com/micahflee/onionshare"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Sehr ausführliche aber noch verständliche Erklärung von
-Spectre/Meltdown und warum der #RaspberryPi nicht betroffen ist.
-Inklusive kurzer Geschichte von CPU-Architekturen.
-&lt;a class="reference external" href="https://www.raspberrypi.org/blog/why-raspberry-pi-isnt-vulnerable-to-spectre-or-meltdown/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mit PiServer kann man #RaspberryPi s über das Netzwerk mit einem OS
-versorgen - ohne SD-Karte.
-&lt;a class="reference external" href="https://www.raspberrypi.org/blog/piserver/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reisepass/Perso nicht auf ein Induktionskochfeld legen. Die
-gespeicherten biometrischen Daten würden sonst Schaden nehmen. IIRC
-bleibt der Ausweis dennoch gültig. #Servicetweet&lt;/li&gt;
-&lt;li&gt;Solange wir nur eine amtsführende Regierung haben, kann das
-Grundgesetz einmal durchatmen.&lt;/li&gt;
-&lt;li&gt;Das müsste mal soziologisch untersucht werden.
-&lt;a class="reference external" href="https://twitter.com/dahendriik/status/948946737728774150"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;quot;Smells Like Teen Spirit&amp;quot; mit Auto-Tune. Ja, bei gruselig klingt
-das.
-&lt;a class="reference external" href="https://twitter.com/TheBrandonMorse/status/949074288073682944"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Eine schöne Broschüre zum Thema digitale Selbstverteidigung mit einem
-leichten Fokus auf Schweizer Verhältnisse. Dennoch einen Blick wert.
-&lt;a class="reference external" href="https://www.digitale-gesellschaft.ch/uploads/2017/09/Eine_Anleitung_zur_digitalen_Selbstverteidigung.pdf"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;So lassen sich USB-Sticks und SD-Karten validieren.
-&lt;a class="reference external" href="https://blog.bakera.de/usb-sticks-und-sd-karten-validieren.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PC-Wahl bietet 8-Bit-Voll&amp;quot;verschlüsselung&amp;quot; und liefert den Schlüssel
-gleich mit aus, obwohl man ihn auch raten kann. #34c3 #encraption
-(S.22)
-&lt;a class="reference external" href="https://ccc.de/system/uploads/230/original/PC-Wahl_Bericht_CCC.pdf,https://twitter.com/pintman/status/949210180981534720/photo/1"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Das Kerhoff'sche Prinzip: Die Sicherheit eines
-Verschlüsselungsverfahren muss basieren auf der Geheimhaltung des
-Schlüssels, nicht des Verfahrens. Bereits 1883 veröffentlicht.
-&lt;a class="reference external" href="https://de.wikipedia.org/wiki/Kerckhoffs%E2%80%99_Prinzip"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Eine einfache Python-Implementierung einer Block-Chain - sogar mit
-einem einfachen Proof-Of-Work.
-&lt;a class="reference external" href="http://www.pyscoop.com/building-a-simple-blockchain-in-python/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Gruselige Vorstellungen von Lehrerkollegen. SuS = Schülerinnen und
-Schüler
-&lt;a class="reference external" href="https://twitter.com/damianduchamps/status/948849355129262082"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wow, ein Infrastrukturprojekt im Zeitplan.
-&lt;a class="reference external" href="https://twitter.com/bochum_de/status/948896786495737856"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;quot;Patterns und Anitpatterns&amp;quot; - ein schöner und unterhaltsamer Vortrag
-von fefe.
-&lt;a class="reference external" href="https://blog.bakera.de/patterns-und-anitpatterns.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Daten sind das Schlangenöl des 21. Jahrhunderts. #fnord&lt;/li&gt;
-&lt;li&gt;Universalkommunikator #34C3 #blinkenrocket
-&lt;a class="reference external" href="https://twitter.com/pintman/status/948641476136849410/video/1"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Noch gibt es günstige Hotels.
-&lt;a class="reference external" href="https://twitter.com/c3daysleft/status/948485844024856578"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Eindrücke vom #34c3
-&lt;a class="reference external" href="https://blog.bakera.de/eindruecke-vom-34c3.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Termine zu #34c3 ähnlichen Veranstaltungen.
-&lt;a class="reference external" href="https://pads.ccc.de/termine"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;quot;Computer sind Spiel-, Werk- und Denkzeug.&amp;quot; #34c3&lt;/li&gt;
-&lt;li&gt;Mailboxen, das Fidonetz und Netzwerke der 90er Jahre #34c3
-&lt;a class="reference external" href="https://blog.bakera.de/mailboxen-fidonetz-und-netzwerke-der-90er-jahre.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;CTF – Kreuzworträtsel für Nerds #34c3
-&lt;a class="reference external" href="https://blog.bakera.de/ctf-kreuzwortraetsel-fuer-nerds.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Blinken-Rocket: ein schönes Bastelprojekt vom #34c3
-&lt;a class="reference external" href="https://blog.bakera.de/blinken-rocket.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Firmware für einen ESP8266 basierten Router. Inklusive Meshing.
-&lt;a class="reference external" href="https://github.com/martin-ger/esp_wifi_repeater"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Alte Weisheiten
-&lt;a class="reference external" href="https://twitter.com/erdgeist/status/947562667606192128"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content><category term="Linkliste"></category></entry></feed>
+</content><category term="Informatik"></category><category term="Programmierung"></category><category term="Spaß"></category><category term="Spiele"></category><category term="gamejam"></category></entry></feed>
