@@ -1,5 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-11-02T18:30:00+01:00</updated><entry><title>CryptPad</title><link href="https://blog.bakera.de/cryptpad.html" rel="alternate"></link><published>2019-11-02T18:30:00+01:00</published><updated>2019-11-02T18:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-02:/cryptpad.html</id><summary type="html">&lt;div class="figure"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-12-19T16:20:00+01:00</updated><entry><title>Ach ... ich lass das jetzt so!</title><link href="https://blog.bakera.de/lt19.html" rel="alternate"></link><published>2019-12-19T16:20:00+01:00</published><updated>2019-12-19T16:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-12-19:/lt19.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;img alt="Bändchen" src="https://blog.bakera.de/images/2019/lt19_baendchen.png" /&gt;
+&lt;p class="caption"&gt;Bändchen&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;So lautete das Motto der
+&lt;a class="reference external" href="https://wiki.das-labor.org/w/Labortage_2019"&gt;Labortage 2019&lt;/a&gt;.
+Es greift den Mut zum Unfertigen
+und den Zauber des Anfangs auf. Und es scheint mir sagen zu wollen: &amp;quot;Versuche,
+zu beginnen, auch wenn du scheiterst. Scheitere, aber
+habe Spaß dabei. Vielleicht entsteht etwas Neues und Spannendes.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Und so ließ ich mich …&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
+&lt;img alt="Bändchen" src="https://blog.bakera.de/images/2019/lt19_baendchen.png" /&gt;
+&lt;p class="caption"&gt;Bändchen&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;So lautete das Motto der
+&lt;a class="reference external" href="https://wiki.das-labor.org/w/Labortage_2019"&gt;Labortage 2019&lt;/a&gt;.
+Es greift den Mut zum Unfertigen
+und den Zauber des Anfangs auf. Und es scheint mir sagen zu wollen: &amp;quot;Versuche,
+zu beginnen, auch wenn du scheiterst. Scheitere, aber
+habe Spaß dabei. Vielleicht entsteht etwas Neues und Spannendes.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Und so ließ ich mich mit vielen anderen am Wochenende vom Freitag, 8.11.
+bis zum Sonntag, 10.11. darauf ein.
+Es lockten ein Vortrags- und Workshopprogramm, Essen, Getränke und jede
+Menge normle Leute.&lt;/p&gt;
+&lt;p&gt;Mit einem Mithacker habe ich einen kleinen CTF-Wettbewerb organisiert
+sowie einen Vortrag über FlipDot-Displays gehalten.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;img alt="CTF-Spendendost und Flipdotanzeige" src="https://blog.bakera.de/images/2019/lt19_ctf_flipdot.png" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ctf"&gt;
+&lt;h2&gt;CTF&lt;/h2&gt;
+&lt;p&gt;Der von uns organisierte CTF-Wettbewerb foderte uns fast alle Challenges ab,
+die wir uns im Jahr
+zuvor überlegt hatten. Wir habe den Wettbewerb für Einsteiger konzipiert,
+doch fanden auch einige erfahrene Hacker ihren Spaß am Entdecken der Flaggen
+im technischen Strom der Digitaltechnik.&lt;/p&gt;
+&lt;p&gt;Technisch haben wir den Wettbewerb auf zwei Hetzner-Servern umgesetzt:
+auf einem lief die Verwaltungssoftware CTFd, dem anderen mussten einige
+Flaggen entlockt werden. In einem kleinen Einstiegsvortrag haben wir das
+Konzept CTF vorgestellt und alle Teilnehmer*innen eingeladen, mitzumachen.&lt;/p&gt;
+&lt;p&gt;Erstmals konnte ich ein CTF von der Veranstalterseite erleben. Und ich muss
+sagen: Es macht Spaß, die Leute motiviert an den Aufgaben sitzen zu sehen:
+Artikel lesend, Quelltexte maßierend und die Haare raufend. Hier und da mussten
+Fragen geklärt und Probleme gelöst werden. Und dann waren da noch die vielen
+Fragen nach neuen Challenges. Wir konnte noch das ein oder andere Bonbon
+präsentieren, die guten Gruppen jedoch nicht lange damit aufhalten. Und so
+gab es am Ende nicht nur einen Sieger, sondern gleich mehrere.&lt;/p&gt;
+&lt;p&gt;Der folgende Graph zeigt noch einmal das Abschlussbild der Teams und der
+gefunden Flaggen zusammen mit dem Eifer, der besonders in den Nachstunden
+zum Tragen kam.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;img alt="CTF-Statistik" src="https://blog.bakera.de/images/2019/lt19_ctf_scores.png" /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="flipdotanzeigen"&gt;
+&lt;h2&gt;Flipdotanzeigen&lt;/h2&gt;
+&lt;p&gt;Zur &lt;a class="reference external" href="https://tbs1-bo.github.io/flipflapflop/"&gt;Ansteuerung von Flipdotanzeigen&lt;/a&gt;
+stand am Samstag ein Vortrag von uns
+auf dem Programm. Wir hatten uns explizit keine Folienpräsentation
+vorgenommen, sondern versucht, das Thema über ein Handout, eine Dokumentenkamera
+und eine Live-Demo zu transportieren.&lt;/p&gt;
+&lt;p&gt;Zu Beginn sollten wir jedoch auf eine harte Probe gestellt werden, als
+der vorige Vortrag 30 Minuten überzogen und unsere geplante Umbauzeit
+damit komplett aufgebraucht hatte. Zusätzlich wollte sich das Display zunächst
+nicht recht ansteuern lassen. Der Schuldige (eine lose Steckbrücke) war
+jedoch schnell gefunden und wir konnten den Vortrag halten. Den Nachfragen
+nach zu urteilen ist das Thema scheinbar gut angekommen.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="das-labor"></category><category term="hardware"></category><category term="hacking"></category></entry><entry><title>CryptPad</title><link href="https://blog.bakera.de/cryptpad.html" rel="alternate"></link><published>2019-11-02T18:30:00+01:00</published><updated>2019-11-02T18:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-02:/cryptpad.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/HQsX7N7hfOk?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2019/cryptpadvideo.png" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;YouTube-Video (&lt;a class="reference external" href="https://archive.org/details/cryptpadonlineeditormitendezuendeverschlusselung"&gt;bei archive.org&lt;/a&gt;)&lt;/p&gt;
 &lt;/div&gt;
@@ -1889,31 +1957,4 @@ haben den Vorzug, nicht auf Gitlab beschränkt zu sein und integrieren
 sich auch in andere Plattformen wie etwa
 &lt;a class="reference external" href="https://github.com"&gt;github&lt;/a&gt;, &lt;a class="reference external" href="http://gitea.io/"&gt;gitea&lt;/a&gt; oder
 &lt;a class="reference external" href="https://gogs.io/"&gt;gogs&lt;/a&gt;.&lt;/p&gt;
-</content><category term="Informatik"></category><category term="Programmierung"></category><category term="Python"></category></entry><entry><title>MiniGameJam #3 gebar die StarFeetAcademy</title><link href="https://blog.bakera.de/minigamejam-3-gebar-die-starfeetacademy.html" rel="alternate"></link><published>2018-03-03T12:21:00+01:00</published><updated>2018-03-03T12:21:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-03-03:/minigamejam-3-gebar-die-starfeetacademy.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/2018/02/starfeet-768x1024.jpg"&gt;&lt;img alt="image0" class="alignnone size-large wp-image-2249" src="https://blog.bakera.de/images/2018/02/starfeet-768x1024.jpg" style="width: 625px; height: 833px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Am Samstag, dem 10.2. ging der &lt;a class="reference external" href="https://game-jam-do.de/"&gt;Mini Game Jam
-Dortmund&lt;/a&gt; in die &lt;a class="reference external" href="https://www.meetup.com/de-DE/Game-Developers-Dortmund/events/244182120/"&gt;dritte
-Runde&lt;/a&gt;.
-Wieder mussten Spielentwickler (Profis, Amateure und Dilettanten) an
-einem Tag in 8 Stunden ein Spiel erdenken und umsetzen. Es war das
-zweite mal, dass ich daran teilgenommen habe. Die Organisation war
-wieder einmal klasse und …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/2018/02/starfeet-768x1024.jpg"&gt;&lt;img alt="image0" class="alignnone size-large wp-image-2249" src="https://blog.bakera.de/images/2018/02/starfeet-768x1024.jpg" style="width: 625px; height: 833px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Am Samstag, dem 10.2. ging der &lt;a class="reference external" href="https://game-jam-do.de/"&gt;Mini Game Jam
-Dortmund&lt;/a&gt; in die &lt;a class="reference external" href="https://www.meetup.com/de-DE/Game-Developers-Dortmund/events/244182120/"&gt;dritte
-Runde&lt;/a&gt;.
-Wieder mussten Spielentwickler (Profis, Amateure und Dilettanten) an
-einem Tag in 8 Stunden ein Spiel erdenken und umsetzen. Es war das
-zweite mal, dass ich daran teilgenommen habe. Die Organisation war
-wieder einmal klasse und ich danke
-&lt;a class="reference external" href="https://twitter.com/ztiromoritz/"&gt;Moritz&lt;/a&gt;, der diese Veranstaltung
-immer wieder möglich macht. Mit Sven, Reinhard, Janis und Dominik haben
-wir uns diesmal als Team super ergänzt. Herausgekommen ist ein
-Multiplayer Spiel, das mit vier Spielern auf einer Tanzmatte auf einer
-LED-Matrix gespielt wird. Ein kräftiger Soundtrack erfüllte das Spiel
-mit Leben, so dass auch mir die ein oder andere Runde durchaus Spaß
-gemacht hast. :) Mittlerweile gibt es sogar eine &lt;a class="reference external" href="https://play.google.com/store/search?q=Stoon82&amp;amp;c=apps&amp;amp;hl=de"&gt;Umsetzung für
-Android&lt;/a&gt;.
-Der nächste Termin steht auch schon fest: am 12. Mai geht es weiter.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Quelltext und Musik sind nun bei
-&lt;a class="reference external" href="https://archive.org/details/starfeet-academy"&gt;archive.org&lt;/a&gt; verfügbar.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/miniggamejamdo.png"&gt;&lt;img alt="image1" class="alignnone size-full wp-image-2076" src="https://blog.bakera.de/images/miniggamejamdo.png" style="width: 790px; height: 144px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-</content><category term="Informatik"></category><category term="Programmierung"></category><category term="Spaß"></category><category term="Spiele"></category><category term="gamejam"></category></entry></feed>
+</content><category term="Informatik"></category><category term="Programmierung"></category><category term="Python"></category></entry></feed>
