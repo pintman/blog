@@ -9,8 +9,6 @@ Ach ... ich lass das jetzt so!
 .. figure:: {static}images/2019/lt19_baendchen.png
    :alt: Bändchen
    
-   Bändchen
-
 So lautete das Motto der 
 `Labortage 2019 <https://wiki.das-labor.org/w/Labortage_2019>`_. 
 Es greift den Mut zum Unfertigen
