@@ -1,0 +1,78 @@
+Ach ... ich lass das jetzt so!
+==============================
+:date: 2019-12-19 16:20
+:author: marco.bakera
+:tags: das-labor, hardware, hacking
+:status: published
+:slug: lt19
+
+.. figure:: {static}images/2019/lt19_baendchen.png
+   :alt: Bändchen
+   
+   Bändchen
+
+So lautete das Motto der 
+`Labortage 2019 <https://wiki.das-labor.org/w/Labortage_2019>`_. 
+Es greift den Mut zum Unfertigen
+und den Zauber des Anfangs auf. Und es scheint mir sagen zu wollen: "Versuche, 
+zu beginnen, auch wenn du scheiterst. Scheitere, aber
+habe Spaß dabei. Vielleicht entsteht etwas Neues und Spannendes."
+
+Und so ließ ich mich mit vielen anderen am Wochenende vom Freitag, 8.11.
+bis zum Sonntag, 10.11. darauf ein.
+Es lockten ein Vortrags- und Workshopprogramm, Essen, Getränke und jede 
+Menge normle Leute.
+
+Mit einem Mithacker habe ich einen kleinen CTF-Wettbewerb organisiert 
+sowie einen Vortrag über FlipDot-Displays gehalten.
+
+.. figure:: {static}images/2019/lt19_ctf_flipdot.png
+   :alt: CTF-Spendendost und Flipdotanzeige
+   
+
+CTF
+---
+
+Der von uns organisierte CTF-Wettbewerb foderte uns fast alle Challenges ab, 
+die wir uns im Jahr
+zuvor überlegt hatten. Wir habe den Wettbewerb für Einsteiger konzipiert, 
+doch fanden auch einige erfahrene Hacker ihren Spaß am Entdecken der Flaggen 
+im technischen Strom der Digitaltechnik.
+
+Technisch haben wir den Wettbewerb auf zwei Hetzner-Servern umgesetzt:
+auf einem lief die Verwaltungssoftware CTFd, dem anderen mussten einige
+Flaggen entlockt werden. In einem kleinen Einstiegsvortrag haben wir das
+Konzept CTF vorgestellt und alle Teilnehmer*innen eingeladen, mitzumachen.
+
+Erstmals konnte ich ein CTF von der Veranstalterseite erleben. Und ich muss 
+sagen: Es macht Spaß, die Leute motiviert an den Aufgaben sitzen zu sehen:
+Artikel lesend, Quelltexte maßierend und die Haare raufend. Hier und da mussten
+Fragen geklärt und Probleme gelöst werden. Und dann waren da noch die vielen
+Fragen nach neuen Challenges. Wir konnte noch das ein oder andere Bonbon
+präsentieren, die guten Gruppen jedoch nicht lange damit aufhalten. Und so
+gab es am Ende nicht nur einen Sieger, sondern gleich mehrere. 
+
+Der folgende Graph zeigt noch einmal das Abschlussbild der Teams und der
+gefunden Flaggen zusammen mit dem Eifer, der besonders in den Nachstunden
+zum Tragen kam.
+
+.. figure:: {static}images/2019/lt19_ctf_scores.png
+   :alt: CTF-Statistik
+
+
+Flipdotanzeigen
+---------------
+
+Zur `Ansteuerung von Flipdotanzeigen <https://tbs1-bo.github.io/flipflapflop/>`_
+stand am Samstag ein Vortrag von uns
+auf dem Programm. Wir hatten uns explizit keine Folienpräsentation
+vorgenommen, sondern versucht, das Thema über ein Handout, eine Dokumentenkamera
+und eine Live-Demo zu transportieren. 
+
+Zu Beginn sollten wir jedoch auf eine harte Probe gestellt werden, als
+der vorige Vortrag 30 Minuten überzogen und unsere geplante Umbauzeit
+damit komplett aufgebraucht hatte. Zusätzlich wollte sich das Display zunächst
+nicht recht ansteuern lassen. Der Schuldige (eine lose Steckbrücke) war
+jedoch schnell gefunden und wir konnten den Vortrag halten. Den Nachfragen
+nach zu urteilen ist das Thema scheinbar gut angekommen.
+
