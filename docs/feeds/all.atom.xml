@@ -21,14 +21,15 @@ habe Spaß dabei. Vielleicht entsteht etwas Neues und Spannendes.&amp;quot;&lt;/
 bis zum Sonntag, 10.11. darauf ein.
 Es lockten ein Vortrags- und Workshopprogramm, Essen, Getränke und jede
 Menge normle Leute.&lt;/p&gt;
-&lt;p&gt;Mit einem Mithacker habe ich einen kleinen CTF-Wettbewerb organisiert
+&lt;p&gt;Mit einem Mithacker &lt;a class="reference external" href="https://elektro.schule/doku.php"&gt;(GUM)&lt;/a&gt; habe ich
+einen kleinen CTF-Wettbewerb organisiert
 sowie einen Vortrag über FlipDot-Displays gehalten.&lt;/p&gt;
 &lt;div class="figure"&gt;
-&lt;img alt="CTF-Spendendost und Flipdotanzeige" src="https://blog.bakera.de/images/2019/lt19_ctf_flipdot.png" /&gt;
+&lt;img alt="CTF-Spendendose und Flipdotanzeige" src="https://blog.bakera.de/images/2019/lt19_ctf_flipdot.png" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="ctf"&gt;
 &lt;h2&gt;CTF&lt;/h2&gt;
-&lt;p&gt;Der von uns organisierte CTF-Wettbewerb foderte uns fast alle Challenges ab,
+&lt;p&gt;Der von uns organisierte CTF-Wettbewerb forderte uns fast alle Challenges ab,
 die wir uns im Jahr
 zuvor überlegt hatten. Wir habe den Wettbewerb für Einsteiger konzipiert,
 doch fanden auch einige erfahrene Hacker ihren Spaß am Entdecken der Flaggen
@@ -45,7 +46,7 @@ Fragen nach neuen Challenges. Wir konnte noch das ein oder andere Bonbon
 präsentieren, die guten Gruppen jedoch nicht lange damit aufhalten. Und so
 gab es am Ende nicht nur einen Sieger, sondern gleich mehrere.&lt;/p&gt;
 &lt;p&gt;Der folgende Graph zeigt noch einmal das Abschlussbild der Teams und der
-gefunden Flaggen zusammen mit dem Eifer, der besonders in den Nachstunden
+gefunden Flaggen zusammen mit dem Eifer, der besonders in den Nachtstunden
 zum Tragen kam.&lt;/p&gt;
 &lt;div class="figure"&gt;
 &lt;img alt="CTF-Statistik" src="https://blog.bakera.de/images/2019/lt19_ctf_scores.png" /&gt;
@@ -64,6 +65,17 @@ damit komplett aufgebraucht hatte. Zusätzlich wollte sich das Display zunächst
 nicht recht ansteuern lassen. Der Schuldige (eine lose Steckbrücke) war
 jedoch schnell gefunden und wir konnten den Vortrag halten. Den Nachfragen
 nach zu urteilen ist das Thema scheinbar gut angekommen.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="resumee"&gt;
+&lt;h2&gt;Resümee&lt;/h2&gt;
+&lt;p&gt;Ich hatte den Eindruck, dass es bei den Besuchern, und so auch bei mir,
+ein großes Bedürfnis gab, etwas »zu hacken«: aktiv zu sein, Spaß zu haben
+mit der Technik und am Gerät. Das Vortragsprogramm selbst schien mir
+dagegen weniger wichtig zu sein. Auch die Länge der Vorträge selbst ist
+sicher nicht jedem Inhalt gerecht geworden. Selten wurden Inhalte so
+dargestellt, dass sie einen Vortrag benötigen, der mehr als zwanzig Minuten
+Länge verträgt. Hier würde ich mir für die Zukunft eine Umgestaltung
+wünschen.&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="das-labor"></category><category term="hardware"></category><category term="hacking"></category></entry><entry><title>CryptPad</title><link href="https://blog.bakera.de/cryptpad.html" rel="alternate"></link><published>2019-11-02T18:30:00+01:00</published><updated>2019-11-02T18:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-02:/cryptpad.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/HQsX7N7hfOk?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2019/cryptpadvideo.png" /&gt;&lt;/a&gt;

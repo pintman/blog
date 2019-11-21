@@ -21,17 +21,18 @@ bis zum Sonntag, 10.11. darauf ein.
 Es lockten ein Vortrags- und Workshopprogramm, Essen, Getränke und jede 
 Menge normle Leute.
 
-Mit einem Mithacker habe ich einen kleinen CTF-Wettbewerb organisiert 
+Mit einem Mithacker `(GUM) <https://elektro.schule/doku.php>`_ habe ich 
+einen kleinen CTF-Wettbewerb organisiert 
 sowie einen Vortrag über FlipDot-Displays gehalten.
 
 .. figure:: {static}images/2019/lt19_ctf_flipdot.png
-   :alt: CTF-Spendendost und Flipdotanzeige
+   :alt: CTF-Spendendose und Flipdotanzeige
    
 
 CTF
 ---
 
-Der von uns organisierte CTF-Wettbewerb foderte uns fast alle Challenges ab, 
+Der von uns organisierte CTF-Wettbewerb forderte uns fast alle Challenges ab, 
 die wir uns im Jahr
 zuvor überlegt hatten. Wir habe den Wettbewerb für Einsteiger konzipiert, 
 doch fanden auch einige erfahrene Hacker ihren Spaß am Entdecken der Flaggen 
@@ -51,7 +52,7 @@ präsentieren, die guten Gruppen jedoch nicht lange damit aufhalten. Und so
 gab es am Ende nicht nur einen Sieger, sondern gleich mehrere. 
 
 Der folgende Graph zeigt noch einmal das Abschlussbild der Teams und der
-gefunden Flaggen zusammen mit dem Eifer, der besonders in den Nachstunden
+gefunden Flaggen zusammen mit dem Eifer, der besonders in den Nachtstunden
 zum Tragen kam.
 
 .. figure:: {static}images/2019/lt19_ctf_scores.png
@@ -74,3 +75,15 @@ nicht recht ansteuern lassen. Der Schuldige (eine lose Steckbrücke) war
 jedoch schnell gefunden und wir konnten den Vortrag halten. Den Nachfragen
 nach zu urteilen ist das Thema scheinbar gut angekommen.
 
+
+Resümee
+-------
+
+Ich hatte den Eindruck, dass es bei den Besuchern, und so auch bei mir,
+ein großes Bedürfnis gab, etwas »zu hacken«: aktiv zu sein, Spaß zu haben
+mit der Technik und am Gerät. Das Vortragsprogramm selbst schien mir
+dagegen weniger wichtig zu sein. Auch die Länge der Vorträge selbst ist 
+sicher nicht jedem Inhalt gerecht geworden. Selten wurden Inhalte so 
+dargestellt, dass sie einen Vortrag benötigen, der mehr als zwanzig Minuten
+Länge verträgt. Hier würde ich mir für die Zukunft eine Umgestaltung
+wünschen.
