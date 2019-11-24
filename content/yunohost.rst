@@ -84,7 +84,7 @@ experimentelle Dienste.
 Ich habe noch keine längeren Tests mit dem System durchgeführt, gebe ihm aber 
 eine Chance. Die französischen Entwickler durfte ich beim 35C3 kennenlernen. Sie 
 haben einen kompetenten und ambitionierten Eindruck gemacht. Daher würde es mich
-freuen, wenn mehr Menschen ihre eigene Dienste hosten würden. Vielleicht ist
+freuen, wenn mehr Menschen ihre eigenen Dienste hosten würden. Vielleicht ist
 es gar nicht so schwer.
 
 **Update:** Bei Twitter gibt es eine 
