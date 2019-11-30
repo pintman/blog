@@ -1,6 +1,6 @@
 Vorlage
 =======
-:date: 2018-01-03 12:20
+:date: 2019-01-03 12:20
 :author: marco.bakera
 :tags: 
 :status: draft
@@ -41,7 +41,7 @@ definition
    Quelle: https://github.com/alexAubin/yunohostWorkshop/tree/master/img
 
 
-.. image:: {static}images/godel.jpg
+.. image:: {static}images/2019/godel.jpg
    :alt: ein Bild
 
 
