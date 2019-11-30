@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-12-19T16:20:00+01:00</updated><entry><title>Ach ... ich lass das jetzt so!</title><link href="https://blog.bakera.de/lt19.html" rel="alternate"></link><published>2019-12-19T16:20:00+01:00</published><updated>2019-12-19T16:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-12-19:/lt19.html</id><summary type="html">&lt;div class="figure"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-11-30T20:30:00+01:00</updated><entry><title>Kleinster Anzunehmender Emulator: CHIP-8</title><link href="https://blog.bakera.de/chip8.html" rel="alternate"></link><published>2019-11-30T20:30:00+01:00</published><updated>2019-11-30T20:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-30:/chip8.html</id><summary type="html">&lt;img alt="Pong auf dem CHIP-8" src="https://blog.bakera.de/images/2019/PONG_CHIP8.png" /&gt;
+&lt;p&gt;In den 70er Jahren suchte man eine möglichst einfache
+Spezifikation für die Bescheibung von Videospielen.
+Herausgekommen ist der
+&lt;a class="reference external" href="https://en.wikipedia.org/wiki/CHIP-8"&gt;CHIP-8&lt;/a&gt;: 2 Farben, eine
+Auflösung von 64x32 Bildpunkten, 16 Register für die Speicherung
+von Variablen, 4kB Speicher, eine Tastatureingabe mit 16 Tasten
+und eine Audioausgabe, die genau einen Ton erzeugen kann. Programmiert …&lt;/p&gt;</summary><content type="html">&lt;img alt="Pong auf dem CHIP-8" src="https://blog.bakera.de/images/2019/PONG_CHIP8.png" /&gt;
+&lt;p&gt;In den 70er Jahren suchte man eine möglichst einfache
+Spezifikation für die Bescheibung von Videospielen.
+Herausgekommen ist der
+&lt;a class="reference external" href="https://en.wikipedia.org/wiki/CHIP-8"&gt;CHIP-8&lt;/a&gt;: 2 Farben, eine
+Auflösung von 64x32 Bildpunkten, 16 Register für die Speicherung
+von Variablen, 4kB Speicher, eine Tastatureingabe mit 16 Tasten
+und eine Audioausgabe, die genau einen Ton erzeugen kann. Programmiert
+wird der CHIP-8 mit 35 Opcodes, die jeweils zwei Byte lang sind.&lt;/p&gt;
+&lt;p&gt;Ausgedacht hat sich das Joseph Weisbecker bereits in
+den 70er  Jahren und den Artikel
+&lt;a class="reference external" href="https://archive.org/details/byte-magazine-1978-12/page/n109"&gt;An Easy Programming System&lt;/a&gt;
+in der Zeitschrift »Byte« in der Dezember-Ausgabe von 1978
+veröffentlicht - zusammen mit einer Beispiel-Implementierung
+eines Spiels.&lt;/p&gt;
+&lt;p&gt;Seitdem sind einige kleinere Spiele für diese virtuelle
+Maschine entstanden und das Projekt hat sich zu einer
+Hallo-Welt-Fingerübung der Emulatoren-Programmierung gewandelt.
+Daher gibt es für nahezu jede Plattform oder Programmiersprache
+einen Emulator, der die Spiele-Roms ausführen kann.&lt;/p&gt;
+&lt;p&gt;Ich bin durch den Vortrag
+&lt;a class="reference external" href="https://media.ccc.de/v/c4.openchaos.2019.11.retro-gaming-emacs"&gt;State of Retro Gaming in Emacs&lt;/a&gt;
+darauf gestoßen. In diesem stellt &lt;em&gt;wasamasa&lt;/em&gt; eine eigene
+Emulator-Implementierung vor, die er für den Emacs erstellt hat.&lt;/p&gt;
+</content><category term="programmierung"></category><category term="hardware"></category><category term="game-engine"></category></entry><entry><title>Ach ... ich lass das jetzt so!</title><link href="https://blog.bakera.de/lt19.html" rel="alternate"></link><published>2019-11-19T16:20:00+01:00</published><updated>2019-11-19T16:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-19:/lt19.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Bändchen" src="https://blog.bakera.de/images/2019/lt19_baendchen.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;So lautete das Motto der
@@ -743,7 +774,7 @@ experimentelle Dienste.&lt;/p&gt;
 &lt;p&gt;Ich habe noch keine längeren Tests mit dem System durchgeführt, gebe ihm aber
 eine Chance. Die französischen Entwickler durfte ich beim 35C3 kennenlernen. Sie
 haben einen kompetenten und ambitionierten Eindruck gemacht. Daher würde es mich
-freuen, wenn mehr Menschen ihre eigene Dienste hosten würden. Vielleicht ist
+freuen, wenn mehr Menschen ihre eigenen Dienste hosten würden. Vielleicht ist
 es gar nicht so schwer.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Bei Twitter gibt es eine
 &lt;a class="reference external" href="https://twitter.com/pintman/status/1080794746677854208"&gt;kurze Diskussion&lt;/a&gt;
@@ -1919,52 +1950,4 @@ Kommunikation mit einem zentralen Gateway - werde ich sie behalten und
 weiter testen. Für die Integration über ein Gateway und damit auch als
 Schnittstelle mit anderen Geräten würde ich jedoch wieder auf Lampen
 zurückgreifen, die den Standard besser unterstützen.&lt;/p&gt;
-</content><category term="Hardware"></category><category term="IoT"></category><category term="Smarthome"></category></entry><entry><title>CI/CD mit Gitlab</title><link href="https://blog.bakera.de/ci-cd-mit-gitlab.html" rel="alternate"></link><published>2018-03-23T18:08:00+01:00</published><updated>2018-03-23T18:08:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-03-23:/ci-cd-mit-gitlab.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://gitlab.com/"&gt;Gitlab&lt;/a&gt; ist neben github eine der großen
-Plattformen für Softwareentwickler, um Quelltext in Git-Repos zu
-verwalten. Mir hat immer gut gefallen, dass die Plattform keine Probleme
-mit privaten Repos hat - github stellt sich etwas an und möchte hier nur
-ein privates Repo pro Nutzer kostenlos zur Verfügung stellen. Auch die …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="http://gitlab.com/"&gt;Gitlab&lt;/a&gt; ist neben github eine der großen
-Plattformen für Softwareentwickler, um Quelltext in Git-Repos zu
-verwalten. Mir hat immer gut gefallen, dass die Plattform keine Probleme
-mit privaten Repos hat - github stellt sich etwas an und möchte hier nur
-ein privates Repo pro Nutzer kostenlos zur Verfügung stellen. Auch die
-&lt;a class="reference external" href="https://tosdr.org/#github"&gt;Terms of Service&lt;/a&gt; von github bereiten mir
-zunehmend Bauchschmerzen. Hinzu kommt, dass sich github nicht auf
-eigener Infrastruktur hosten lässt. Gitlab dagegen bietet eine mächtige
-&lt;a class="reference external" href="https://about.gitlab.com/installation/"&gt;Community-Edition&lt;/a&gt; an. Das
-Projekt &lt;a class="reference external" href="https://edugit.org/"&gt;edugit&lt;/a&gt; des Teckids e.V. ist ein
-Vorstoß in die Richtung, diesen Dienst datenschutzkonform auch im
-Bildungsbereich in Deutschland anbieten zu können.&lt;/p&gt;
-&lt;p&gt;Zurück zu den Vorzügen von Gitlab. Ein tolles mir neues Feature sind
-sogenannte Runner. Das sind virtuelle Maschinen, Rechner oder
-Docker-Container, die meinen Quelltext automatisch prüfen können. Dieses
-Feature heißt CI/CD (für Continuous Integration/Continuous Delivery) und
-wird durch die Datei &lt;em&gt;.gitlab-ci.yml&lt;/em&gt; konfiguriert. Ein Beispiel, das
-einen Pythontest in einem Python-Container auf alpine-Basis ausführt,
-sieht so aus.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-image: python:alpine  # Das Basisimage des Containers
-
-before_script:  # Wird vor jedem Task ausgeführt
- - echo nothing to do
-
-tests:    # Ein Task mit Namen 'tests'
- script:  # Das Script hat mehrere Befehle
- - find ex.py test.py
- - python3 test.py
- - python3 -m doctest ex.py
-&lt;/pre&gt;
-&lt;p&gt;Sobald nun Quelltext in das Repo gepusht wird, läuft ein sogenannter
-Runner und führt die Tasks einzeln aus. Gitlab selbst stellt auf seiner
-Plattform verschiedene Runner zur Verfügung, die von Digital Ocean
-gesponsert werden und in ihrer Laufzeit auf generöse 2000 CPU-Minuten
-pro Monat und User beschränkt sind. Wem das nicht reicht, der kann auch
-selbst einen &lt;a class="reference external" href="https://docs.gitlab.com/runner/install/"&gt;Runner bei sich
-installieren&lt;/a&gt;, laufen lassen
-und darin die Tests ausführen. Wem Gitlab nicht behagt, der kann auch
-einen Runner mit &lt;a class="reference external" href="http://docs.drone.io"&gt;drone.io&lt;/a&gt; betreiben. Diese
-haben den Vorzug, nicht auf Gitlab beschränkt zu sein und integrieren
-sich auch in andere Plattformen wie etwa
-&lt;a class="reference external" href="https://github.com"&gt;github&lt;/a&gt;, &lt;a class="reference external" href="http://gitea.io/"&gt;gitea&lt;/a&gt; oder
-&lt;a class="reference external" href="https://gogs.io/"&gt;gogs&lt;/a&gt;.&lt;/p&gt;
-</content><category term="Informatik"></category><category term="Programmierung"></category><category term="Python"></category></entry></feed>
+</content><category term="Hardware"></category><category term="IoT"></category><category term="Smarthome"></category></entry></feed>
