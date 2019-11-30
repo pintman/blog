@@ -10,7 +10,7 @@ Kleinster Anzunehmender Emulator: CHIP-8
    :alt: Pong auf dem CHIP-8
 
 In den 70er Jahren suchte man eine möglichst einfache 
-Spezifikation für die Bescheibung von Videospielen. 
+Spezifikation für die Beschreibung von Videospielen. 
 Herausgekommen ist der 
 `CHIP-8 <https://en.wikipedia.org/wiki/CHIP-8>`_: 2 Farben, eine 
 Auflösung von 64x32 Bildpunkten, 16 Register für die Speicherung

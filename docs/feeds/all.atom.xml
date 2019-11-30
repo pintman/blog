@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-11-30T20:30:00+01:00</updated><entry><title>Kleinster Anzunehmender Emulator: CHIP-8</title><link href="https://blog.bakera.de/chip8.html" rel="alternate"></link><published>2019-11-30T20:30:00+01:00</published><updated>2019-11-30T20:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-30:/chip8.html</id><summary type="html">&lt;img alt="Pong auf dem CHIP-8" src="https://blog.bakera.de/images/2019/PONG_CHIP8.png" /&gt;
 &lt;p&gt;In den 70er Jahren suchte man eine möglichst einfache
-Spezifikation für die Bescheibung von Videospielen.
+Spezifikation für die Beschreibung von Videospielen.
 Herausgekommen ist der
 &lt;a class="reference external" href="https://en.wikipedia.org/wiki/CHIP-8"&gt;CHIP-8&lt;/a&gt;: 2 Farben, eine
 Auflösung von 64x32 Bildpunkten, 16 Register für die Speicherung
 von Variablen, 4kB Speicher, eine Tastatureingabe mit 16 Tasten
 und eine Audioausgabe, die genau einen Ton erzeugen kann. Programmiert …&lt;/p&gt;</summary><content type="html">&lt;img alt="Pong auf dem CHIP-8" src="https://blog.bakera.de/images/2019/PONG_CHIP8.png" /&gt;
 &lt;p&gt;In den 70er Jahren suchte man eine möglichst einfache
-Spezifikation für die Bescheibung von Videospielen.
+Spezifikation für die Beschreibung von Videospielen.
 Herausgekommen ist der
 &lt;a class="reference external" href="https://en.wikipedia.org/wiki/CHIP-8"&gt;CHIP-8&lt;/a&gt;: 2 Farben, eine
 Auflösung von 64x32 Bildpunkten, 16 Register für die Speicherung
