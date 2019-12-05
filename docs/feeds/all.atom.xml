@@ -30,6 +30,10 @@ einen Emulator, der die Spiele-Roms ausführen kann.&lt;/p&gt;
 &lt;a class="reference external" href="https://media.ccc.de/v/c4.openchaos.2019.11.retro-gaming-emacs"&gt;State of Retro Gaming in Emacs&lt;/a&gt;
 darauf gestoßen. In diesem stellt &lt;em&gt;wasamasa&lt;/em&gt; eine eigene
 Emulator-Implementierung vor, die er für den Emacs erstellt hat.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; In der Zwischenzeit hat Herr Rau in zwei
+sehr lesenwerten Blog-Artikeln den CHIP-8 genauer beschrieben.
+&lt;a class="reference external" href="https://www.herr-rau.de/wordpress/2019/12/chip-8-teil-1-in-welchem-es-vor-allem-erst-einmal-um-0-und-1-geht.htm"&gt;Teil 1&lt;/a&gt;,
+&lt;a class="reference external" href="https://www.herr-rau.de/wordpress/2019/12/chip-8-teil-2-in-welchem-das-eigentliche-programm-vorgestellt-wird.htm"&gt;Teil 2&lt;/a&gt;.&lt;/p&gt;
 </content><category term="programmierung"></category><category term="hardware"></category><category term="game-engine"></category></entry><entry><title>Ach ... ich lass das jetzt so!</title><link href="https://blog.bakera.de/lt19.html" rel="alternate"></link><published>2019-11-19T16:20:00+01:00</published><updated>2019-11-19T16:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-19:/lt19.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Bändchen" src="https://blog.bakera.de/images/2019/lt19_baendchen.png" /&gt;
 &lt;/div&gt;
