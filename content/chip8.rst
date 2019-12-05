@@ -35,3 +35,8 @@ Ich bin durch den Vortrag
 `State of Retro Gaming in Emacs <https://media.ccc.de/v/c4.openchaos.2019.11.retro-gaming-emacs>`_
 darauf gestoßen. In diesem stellt *wasamasa* eine eigene 
 Emulator-Implementierung vor, die er für den Emacs erstellt hat.
+
+**Update:** In der Zwischenzeit hat Herr Rau in zwei
+sehr lesenwerten Blog-Artikeln den CHIP-8 genauer beschrieben.
+`Teil 1 <https://www.herr-rau.de/wordpress/2019/12/chip-8-teil-1-in-welchem-es-vor-allem-erst-einmal-um-0-und-1-geht.htm>`_,
+`Teil 2 <https://www.herr-rau.de/wordpress/2019/12/chip-8-teil-2-in-welchem-das-eigentliche-programm-vorgestellt-wird.htm>`_.
