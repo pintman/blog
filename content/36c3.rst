@@ -29,7 +29,7 @@ Das Projekt war fantastisch für den Congress geeignet, da es eine Bastelkompone
 Telnet-Challenge
 ----------------
 
-Die `Telnet-Challenge <https://klartext-reden.net/winkekatze-2-0/>`_ war ein liebevoll gestaltetes CTF, das mit einer Winkekatze begann. Die blinkenden Augen wollten in Morsecode übersetzt werden, ein Parcours durch einen heißen Draht musste fehlerfrei absolviert und die ID aus einem RFID-Token ausgelesen werden. Dann erhielt man einen RSA-Private-Key, der mit einer Passphrase geschützt war. Die relevanten Zeichen für die Passphrase ließen sich an der Assembly mit dem RFID-Tag auf einer LED-Säule anzeigen und die Passphrase konnte anschließend mit einer Brute-Force-Suche und einem eingeschränkten Alphabet schnell ermittelt werden.
+Die `Telnet-Challenge <https://klartext-reden.net/winkekatze-2-0/>`_ war ein liebevoll gestaltetes CTF, das mit einer Winkekatze begann (`hier <https://media.ccc.de/v/36c3-10524-lightning_talks_day_2#t=2633>`_ auch bei den Lightning Talks an Tag 2 vorgestellt). Die blinkenden Augen wollten in Morsecode übersetzt werden, ein Parcours durch einen heißen Draht musste fehlerfrei absolviert und die ID aus einem RFID-Token ausgelesen werden. Dann erhielt man einen RSA-Private-Key, der mit einer Passphrase geschützt war. Die relevanten Zeichen für die Passphrase ließen sich an der Assembly mit dem RFID-Tag auf einer LED-Säule anzeigen und die Passphrase konnte anschließend mit einer Brute-Force-Suche und einem eingeschränkten Alphabet schnell ermittelt werden.
 
 Leider sind wir bis zum Ende nicht mehr rechtzeitig fertig geworden. Der Weg dorthin und die vielen Gespräche mit Mitstreiter*innen haben dennoch viel Spaß bereitet und für Abwechslung gesorgt. 
 
