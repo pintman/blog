@@ -5,14 +5,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.bakera.de/</loc>
-<lastmod>2019-12-05T19:11:53-00:00</lastmod>
+<lastmod>2020-01-02T12:54:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>https://blog.bakera.de/archives.html</loc>
-<lastmod>2019-12-05T19:11:53-00:00</lastmod>
+<lastmod>2020-01-02T12:54:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
@@ -36,6 +36,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <lastmod>2018-07-16T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.2</priority>
+</url>
+
+<url>
+<loc>https://blog.bakera.de/36c3.html</loc>
+<lastmod>2020-01-02T12:55:00+01:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
 </url>
 
 <url>
@@ -741,13 +748,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://blog.bakera.de/meine-erste-geloetete-schaltung.html</loc>
 <lastmod>2014-12-27T22:59:00+01:00</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://blog.bakera.de/1551.html</loc>
-<lastmod>2014-12-23T08:23:00+01:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
@@ -3946,7 +3946,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.bakera.de/category/sonstiges.html</loc>
-<lastmod>2019-11-30T20:30:00+00:53</lastmod>
+<lastmod>2020-01-02T12:55:00+00:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://blog.bakera.de/tag/ccc.html</loc>
+<lastmod>2020-01-02T12:55:00+00:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://blog.bakera.de/tag/ctf.html</loc>
+<lastmod>2020-01-02T12:55:00+00:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://blog.bakera.de/tag/badge.html</loc>
+<lastmod>2020-01-02T12:55:00+00:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://blog.bakera.de/tag/video.html</loc>
+<lastmod>2020-01-02T12:55:00+00:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
@@ -3982,13 +4010,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://blog.bakera.de/tag/hacking.html</loc>
 <lastmod>2019-11-19T16:20:00+00:53</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.8</priority>
-</url>
-
-<url>
-<loc>https://blog.bakera.de/tag/ccc.html</loc>
-<lastmod>2019-09-02T12:20:00+00:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
@@ -4051,13 +4072,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.bakera.de/tag/raspberrypi.html</loc>
-<lastmod>2019-04-07T12:20:00+00:53</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.8</priority>
-</url>
-
-<url>
-<loc>https://blog.bakera.de/tag/video.html</loc>
 <lastmod>2019-04-07T12:20:00+00:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
@@ -4142,13 +4156,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.bakera.de/tag/sdr.html</loc>
-<lastmod>2019-01-02T15:10:00+00:53</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.8</priority>
-</url>
-
-<url>
-<loc>https://blog.bakera.de/tag/ctf.html</loc>
 <lastmod>2019-01-02T15:10:00+00:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
@@ -5234,7 +5241,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.bakera.de/author/marcobakera.html</loc>
-<lastmod>2019-11-30T20:30:00+00:53</lastmod>
+<lastmod>2020-01-02T12:55:00+00:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>

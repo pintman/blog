@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2019-11-30T20:30:00+01:00</updated><entry><title>Kleinster Anzunehmender Emulator: CHIP-8</title><link href="https://blog.bakera.de/chip8.html" rel="alternate"></link><published>2019-11-30T20:30:00+01:00</published><updated>2019-11-30T20:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-30:/chip8.html</id><summary type="html">&lt;img alt="Pong auf dem CHIP-8" src="https://blog.bakera.de/images/2019/PONG_CHIP8.png" /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2020-01-02T12:55:00+01:00</updated><entry><title>36C3 in Leipzig</title><link href="https://blog.bakera.de/36c3.html" rel="alternate"></link><published>2020-01-02T12:55:00+01:00</published><updated>2020-01-02T12:55:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2020-01-02:/36c3.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;img alt="Bill Badge" src="https://blog.bakera.de/images/2020/billbadge-cut.png" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Auch im Jahr 2019 lud der CCC wieder zum Chaos Communication Congress nach Leipzig ein - und 17.000 Lebewesen folgten diesem Aufruf. Ein buntes Gemisch aus technischen Vorträgen, politischer Agenda, künstlerischer Auseinandersetzung und ausgelassener Partystimmung prägten die vier Tage. Es gab wieder so viel zu entdecken, dass auch in diesem …&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
+&lt;img alt="Bill Badge" src="https://blog.bakera.de/images/2020/billbadge-cut.png" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Auch im Jahr 2019 lud der CCC wieder zum Chaos Communication Congress nach Leipzig ein - und 17.000 Lebewesen folgten diesem Aufruf. Ein buntes Gemisch aus technischen Vorträgen, politischer Agenda, künstlerischer Auseinandersetzung und ausgelassener Partystimmung prägten die vier Tage. Es gab wieder so viel zu entdecken, dass auch in diesem Jahr jede Besucher*in einen eigenen Congress erlebte, je nachdem, was er oder sie wo und wann besuchte. Ich greife daher hier ein paar interessante Highlights heraus, die mir gut gefallen haben
+und weiß dabei auch, dass viele genau so interessante andere Dinge keine Berücksichtigung finden können.&lt;/p&gt;
+&lt;div class="section" id="billbadge"&gt;
+&lt;h2&gt;BillBadge&lt;/h2&gt;
+&lt;p&gt;Die Mystery-Hack-Assembly hat zum Congress ein kleines &lt;a class="reference external" href="https://bill.mysteryhack.space/"&gt;Badge&lt;/a&gt; produziert, welches nach Vorbestellung beim Congress abgeholt werden konnte. Die Anzahl war begrenzt und streng legitimiert, jedoch konnte ich trotzdem ohne Bestellung ein Badge erhalten, da Restverkäufe »aus der Kiste heraus« auch noch während der Veranstaltung stattfanden.&lt;/p&gt;
+&lt;p&gt;Das Badge enthielt eine einfache Schaltung (ATTiny, Infrarotsensor und -empfänger, RGB-LED, Batteriefach, Taster) und eine Platine. Alles zusammen ließ sich in kurzer Zeit zusammenlöten. Danach erhielt jeder Spieler beim Einschalten zufällig eine Farbe zugewiesen, die mit der RGB-LED angezeigt wurde. Mit einem Tastendruck konnten andere Badges in die eigene Farbe konvertiert werden, wenn man mit der Infrarot-LED auf ein anderes Badge zielte. Dies führte dazu, das man zunächst auf die &amp;quot;Jagd&amp;quot; ging, um andere Badges in das eigene Team zu lotsen.&lt;/p&gt;
+&lt;p&gt;Bei genauerer Betrachtung fiel auf, dass die Platinen in  unterschiedlichen Farben existierten. Wer noch genauer schaute, sah auf den Platinen zudem unterschiedliche Codes abgedruckt. Es begann eine Suche nach allen Farben und den darauf abgedruckten Codes. Nachdem alle Codes eingesammelt waren, konnte man diese auf der Projekt-Webseite eingeben und erhielt weitere Informationen in Form von neuen Regeln.&lt;/p&gt;
+&lt;p&gt;Die neuen Regeln forderten nun auf, von möglichst vielen anderen Farben übernommen zu werden. Das neue Ziel war jetzt, die eigene LED in alle verfügbaren Farben einmal leuchten zu lassen. Dann erhielt man eine Art Regenbogenstatus und konnte andere Spieler*innnen kurzzeitig ebenfalls in diesen besonderen Status versetzen und für ein Erstaunen aus der Ferne sorgen.&lt;/p&gt;
+&lt;p&gt;Das Projekt war fantastisch für den Congress geeignet, da es eine Bastelkomponente zu Beginn und eine Rätsel- und Kommunikationskompononente während des Spieles enthielt. Ich hoffe, dass nach der Veröffentlichung der Firmware auch eine Post-Congress-Hackingkomponente hinzukommt. Damit würden sich Anpassungen der Spielregeln für zukünftige Veranstaltungen dieser Art ergeben.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="telnet-challenge"&gt;
+&lt;h2&gt;Telnet-Challenge&lt;/h2&gt;
+&lt;p&gt;Die &lt;a class="reference external" href="https://klartext-reden.net/winkekatze-2-0/"&gt;Telnet-Challenge&lt;/a&gt; war ein liebevoll gestaltetes CTF, das mit einer Winkekatze begann. Die blinkenden Augen wollten in Morsecode übersetzt werden, ein Parcours durch einen heißen Draht musste fehlerfrei absolviert und die ID aus einem RFID-Token ausgelesen werden. Dann erhielt man einen RSA-Private-Key, der mit einer Passphrase geschützt war. Die relevanten Zeichen für die Passphrase ließen sich an der Assembly mit dem RFID-Tag auf einer LED-Säule anzeigen und die Passphrase konnte anschließend mit einer Brute-Force-Suche und einem eingeschränkten Alphabet schnell ermittelt werden.&lt;/p&gt;
+&lt;p&gt;Leider sind wir bis zum Ende nicht mehr rechtzeitig fertig geworden. Der Weg dorthin und die vielen Gespräche mit Mitstreiter*innen haben dennoch viel Spaß bereitet und für Abwechslung gesorgt.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="horror-haus"&gt;
+&lt;h2&gt;Horror-Haus&lt;/h2&gt;
+&lt;p&gt;Keine Geisterbahn, sondern ein Horrorhaus lud auf dem Congress mutige Besucher ein, verschiedene Schrecken der IT-Geschichte zu erkunden. Das gesamte Gebäude war liebevoll gestaltet und erinnerte an einen Escape-Room.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="engeln"&gt;
+&lt;h2&gt;Engeln&lt;/h2&gt;
+&lt;p&gt;Auch in diesem Jahr habe ich mich wieder als Engel eingeschrieben. Es viel mir jedoch schwer, interessante Engelschichten zu bekommen. Entweder waren sie schon vergeben oder ich benötigte eine Infoveranstaltung als Voraussetzung, die ich verpasst hatte.&lt;/p&gt;
+&lt;p&gt;Als Notiz für's nächste Jahr: versuche, bei den Auti-Engeln die Einführungsveranstaltung mitzunehmen und dann als Trainee eine Schicht zu übernehmen. Auch die Arbeit als AV-Engel stelle ich mir spannend vor.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="videos"&gt;
+&lt;h2&gt;Videos&lt;/h2&gt;
+&lt;p&gt;Es wird wahrscheinlich wieder bis Ostern dauern, um alle Vorträge anzuschauen. Einige interessante Schnipsel habe ich aber schon entdeckt.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://media.ccc.de/v/36c3-10496-das_mauern_muss_weg"&gt;Das Mauern muss weg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://media.ccc.de/v/36c3-10639-let_s_play_infokrieg"&gt;Let's play Infokrieg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://media.ccc.de/v/36c3-11177-hacker_jeopardy"&gt;Hacker Jeopardy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://media.ccc.de/v/36c3-10608-das_nutzlich-unbedenklich_spektrum"&gt;Das nützlich-unbedenklich Spektrum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://media.ccc.de/v/36c3-10652-bahnmining_-_punktlichkeit_ist_eine_zier"&gt;BahnMining - Pünktlichkeit ist eine Zier&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="ccc"></category><category term="ctf"></category><category term="badge"></category><category term="video"></category></entry><entry><title>Kleinster Anzunehmender Emulator: CHIP-8</title><link href="https://blog.bakera.de/chip8.html" rel="alternate"></link><published>2019-11-30T20:30:00+01:00</published><updated>2019-11-30T20:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-30:/chip8.html</id><summary type="html">&lt;img alt="Pong auf dem CHIP-8" src="https://blog.bakera.de/images/2019/PONG_CHIP8.png" /&gt;
 &lt;p&gt;In den 70er Jahren suchte man eine möglichst einfache
 Spezifikation für die Beschreibung von Videospielen.
 Herausgekommen ist der
@@ -1914,44 +1955,4 @@ passen und auch beim nächsten Bootvorgang erhalten bleiben sollen. Wer
 jedoch die umfangreiche Hardwareausstattung des Pi nutzen möchte und
 keine Sorgen mit dem Blinden Trennen von der Stromversorgung haben
 möchte, sollten einen Blick auf piCore werfen.&lt;/p&gt;
-</content><category term="Hardware"></category><category term="Linux"></category><category term="RaspberryPi"></category></entry><entry><title>Gar nicht so schlaue Tradfri-Lampen von IKEA</title><link href="https://blog.bakera.de/gar-nicht-so-schlaue-tradfri-lampen-von-ikea.html" rel="alternate"></link><published>2018-03-30T16:14:00+02:00</published><updated>2018-03-30T16:14:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-03-30:/gar-nicht-so-schlaue-tradfri-lampen-von-ikea.html</id><summary type="html">&lt;p&gt;Die Problemstellung ist eigentlich ganz einfach: In unserer Wohnung gibt
-es einen Flur ohne Fenster - der demnach immer recht dunkel ist. Wenn
-man durch den Flur hindurchgehen möchte, macht man das Licht an, geht in
-den nächsten Raum und mach dann das Licht wieder aus. Wie schön wäre es,
-wenn …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Die Problemstellung ist eigentlich ganz einfach: In unserer Wohnung gibt
-es einen Flur ohne Fenster - der demnach immer recht dunkel ist. Wenn
-man durch den Flur hindurchgehen möchte, macht man das Licht an, geht in
-den nächsten Raum und mach dann das Licht wieder aus. Wie schön wäre es,
-wenn man einen Bewegungsmelder hätte, der diese Lampen automatisch ein-
-und ausschalten würde. Von Ikea gibt es nun eine Reihe Lampen und
-Zubehör, die sich miteinander über das Protokoll ZigBee verbinden lassen
-- genannt Tradfri.&lt;/p&gt;
-&lt;p&gt;Also bin ich losgezogen und habe mir ein solches Lampenset gekauft. Die
-Installation verlief ohne Probleme: Lampen werden in die Fassung
-geschraubt, man hält einen kleinen Bewegungsmelder in sehr kurzem
-Abstand direkt daneben, drückt auf einen Knopf und die beiden Geräte
-sind miteinander verbunden. Am Bewegungsmelder lässt sich einstellen,
-wie schnell die Lampen bei einer erkannten Bewegung wieder ausgehen
-sollen (nach ein, fünf oder zehn Minuten). Zudem kann man einstellen, ob
-der Bewegungsmelder&amp;nbsp; bei Tag oder nur bei Dunkelheit arbeiten soll. Das
-klappt alles ganz gut und auch so, wie ich mir das vorgestellt habe. Bei
-einem Preis von 15 € pro Lampe (E14-Sockel) und 18 € für den
-Bewegungsmelder ist der Spaß im Bereich der Smart-Home-Lampen im
-akzeptablen bis günstigen Bereich.&lt;/p&gt;
-&lt;p&gt;Als weiteres Feature der Lampen habe ich von der Kompatibilität mit
-Philips Hue Bridges gehört. Also habe ich das auch einmal mit einer
-alten Hue Bridge der ersten Generation ausprobiert. Leider klappte das
-nicht wie gewünscht. Verschiedene Blog-Artikel weisen darauf hin, dass
-die Lampen erst ab einer gewissen Firmware Versionen mit den Bridges
-kommunizieren können. Um die Lampen auf eine neue Firmware zu
-aktualisieren oder gar auszulesen, benötigt man jedoch ein weiteres
-Gerät von Ikea: ein Tradfri-Gateway. Dieses Gateway ist, zumindest hier
-im Ruhrgebiet, derzeit überall ausverkauft und mit 30 € auch
-einigermaßen teuer. Die Verbindung der Lampen mit dem Gateway ist mir
-daher leider nicht gelungen.&lt;/p&gt;
-&lt;p&gt;Da die Lampen aber dennoch das tun, was sie sollen - auch ohne eine
-Kommunikation mit einem zentralen Gateway - werde ich sie behalten und
-weiter testen. Für die Integration über ein Gateway und damit auch als
-Schnittstelle mit anderen Geräten würde ich jedoch wieder auf Lampen
-zurückgreifen, die den Standard besser unterstützen.&lt;/p&gt;
-</content><category term="Hardware"></category><category term="IoT"></category><category term="Smarthome"></category></entry></feed>
+</content><category term="Hardware"></category><category term="Linux"></category><category term="RaspberryPi"></category></entry></feed>
