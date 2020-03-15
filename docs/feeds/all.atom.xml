@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2020-01-02T12:55:00+01:00</updated><entry><title>36C3 in Leipzig</title><link href="https://blog.bakera.de/36c3.html" rel="alternate"></link><published>2020-01-02T12:55:00+01:00</published><updated>2020-01-02T12:55:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2020-01-02:/36c3.html</id><summary type="html">&lt;div class="figure"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2020-03-15T12:30:00+01:00</updated><entry><title>Bildungsfern - ein Podcast</title><link href="https://blog.bakera.de/bildungsfern.html" rel="alternate"></link><published>2020-03-15T12:30:00+01:00</published><updated>2020-03-15T12:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2020-03-15:/bildungsfern.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;img alt="Logo des Podcast" src="https://blog.bakera.de/images/2020/bildungsfern_logo.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Nachdem am Freitag, dem 13.3.2020 der Schulbetrieb in weiten Teilen
+Deutschlands eingestellt wurde, um die Verbreitung des
+Coronavirus SARS-CoV-2 zu  verlangsamen, entstand die Idee, das
+Geschehen der nächsten Tage und Wochen in einem Podcast festzuhalten.&lt;/p&gt;
+&lt;p&gt;Ich berichte aus der Sicht eines Bochumer Berufsschullehrers
+über die sich ergebenden Herausforderungen …&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
+&lt;img alt="Logo des Podcast" src="https://blog.bakera.de/images/2020/bildungsfern_logo.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;Nachdem am Freitag, dem 13.3.2020 der Schulbetrieb in weiten Teilen
+Deutschlands eingestellt wurde, um die Verbreitung des
+Coronavirus SARS-CoV-2 zu  verlangsamen, entstand die Idee, das
+Geschehen der nächsten Tage und Wochen in einem Podcast festzuhalten.&lt;/p&gt;
+&lt;p&gt;Ich berichte aus der Sicht eines Bochumer Berufsschullehrers
+über die sich ergebenden Herausforderungen, Probleme und Chancen.&lt;/p&gt;
+&lt;p&gt;Da sich die Bildungsarbeit in der nächsten Zeit vermutlich aus der Ferne
+wird regeln müssen, habe ich dem Projekt den Namen
+&lt;a class="reference external" href="https://anchor.fm/bildungsfern"&gt;Bildungsfern&lt;/a&gt;
+(&lt;a class="reference external" href="https://anchor.fm/s/165e2ebc/podcast/rss"&gt;RSS-Feed&lt;/a&gt;)
+gegeben.&lt;/p&gt;
+</content><category term="audio"></category><category term="podcast"></category></entry><entry><title>36C3 in Leipzig</title><link href="https://blog.bakera.de/36c3.html" rel="alternate"></link><published>2020-01-02T12:55:00+01:00</published><updated>2020-01-02T12:55:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2020-01-02:/36c3.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Bill Badge" src="https://blog.bakera.de/images/2020/billbadge-cut.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;Auch im Jahr 2019 lud der CCC wieder zum Chaos Communication Congress nach Leipzig ein - und 17.000 Lebewesen folgten diesem Aufruf. Ein buntes Gemisch aus technischen Vorträgen, politischer Agenda, künstlerischer Auseinandersetzung und ausgelassener Partystimmung prägten die vier Tage. Es gab wieder so viel zu entdecken, dass auch in diesem …&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
@@ -1914,45 +1936,4 @@ Python und matplotlib zeichnen kann - inkl. &amp;quot;list comprehension&amp;quo
 &lt;li&gt;#Mehr #Hashtag #geht #nicht.
 &lt;a class="reference external" href="https://twitter.com/TFConsult/status/991406221692424192"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="Linkliste"></category></entry><entry><title>piCore: Zwischen Einplatinencomputer und Microcontroller</title><link href="https://blog.bakera.de/picore-zwischen-einplatinencomputer-und-microcontroller.html" rel="alternate"></link><published>2018-03-31T12:24:00+02:00</published><updated>2018-03-31T12:24:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-03-31:/picore-zwischen-einplatinencomputer-und-microcontroller.html</id><summary type="html">&lt;p&gt;Der RaspberryPi ist ein Einplatinencomputer, der über GPIO Pins mit
-angeschlossener Elektronik kommunizieren kann. Mikrocontroller (µC)
-können das auch. Dafür hat der Pi ein ausgewachsenes Betriebssystem
-(meist Raspbian), ein Dateisystem, ein Netzwerk etc. Andererseits
-benötigt der µC wenig Strom und man kann ihn ohne Bedenken ausschalten.
-Der Pi mag das …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Der RaspberryPi ist ein Einplatinencomputer, der über GPIO Pins mit
-angeschlossener Elektronik kommunizieren kann. Mikrocontroller (µC)
-können das auch. Dafür hat der Pi ein ausgewachsenes Betriebssystem
-(meist Raspbian), ein Dateisystem, ein Netzwerk etc. Andererseits
-benötigt der µC wenig Strom und man kann ihn ohne Bedenken ausschalten.
-Der Pi mag das Ausschalten nicht so gerne: er möchte sauber
-heruntergefahren werden. Und auch sonst muss man sich mehr um ihn
-&amp;quot;kümmern&amp;quot; - Software aktuell halten, ggf. das Betriebssystem
-aktualisieren.&lt;/p&gt;
-&lt;p&gt;Besonders der Punkt des Herunterfahrens störte mich bei vielen
-Pi-Projekten, die irgendwann in den Dauerbetrieb gehen sollen. Wenn ich
-eine LED-Wand damit ansteuere, möchte ich sie ausschalten können, ohne
-mich zuvor per SSH anmelden zu müssen.&lt;/p&gt;
-&lt;p&gt;Diese Lücke zwischen ausgewachsenem OS und µC-Firmware adressiert die
-Distribution
-&lt;a class="reference external" href="http://tinycorelinux.net/9.x/armv6/releases/RPi/README"&gt;piCore&lt;/a&gt; -
-ein auf &lt;a class="reference external" href="http://tinycorelinux.net/"&gt;TinyCoreLinux&lt;/a&gt; aufbauendes Linux,
-das komplett im RAM läuft. Mittlerweile gibt es schon Version 9 und ein
-aktives
-&lt;a class="reference external" href="http://forum.tinycorelinux.net/index.php/board,57.0.html"&gt;Forum&lt;/a&gt; mit
-Nutzern und Entwicklern. Das Basisimage von PiCore ist weniger als 40 MB
-groß und lässt sich daher schnell installieren. Eine Testinstallation
-bootete flott in weniger als zehn Sekunden. Weil alle Programme direkt
-im RAM laufen und es keine langsamen Zugriffe auf die SD-Karte gibt,
-verhält sich das System äußerst responsiv und flott. Da das OS von
-SD-Karte bootet und diese anschließend nicht mehr benötigt, kann der Pi
-ohne schlechtes Gewissen ausgeschaltet werden - alle Daten liegen ja im
-RAM. Sollen Daten das Ausschalten überleben und auch beim nächsten
-Bootvorgang erhalten bleiben, gibt es hierfür das Programm
-&lt;tt class="docutils literal"&gt;filetool.sh&lt;/tt&gt;, das die Userdaten auf die SD-Karte schreibt.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Fazit:&lt;/strong&gt; Die Grenzen von piCore liegen klar bei Anwendungen, die viele
-Daten schreiben - insbesondere, wenn diese Daten nicht mehr in der RAM
-passen und auch beim nächsten Bootvorgang erhalten bleiben sollen. Wer
-jedoch die umfangreiche Hardwareausstattung des Pi nutzen möchte und
-keine Sorgen mit dem Blinden Trennen von der Stromversorgung haben
-möchte, sollten einen Blick auf piCore werfen.&lt;/p&gt;
-</content><category term="Hardware"></category><category term="Linux"></category><category term="RaspberryPi"></category></entry></feed>
+</content><category term="Linkliste"></category></entry></feed>
