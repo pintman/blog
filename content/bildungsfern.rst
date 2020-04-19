@@ -22,3 +22,6 @@ wird regeln müssen, habe ich dem Projekt den Namen
 `Bildungsfern <https://anchor.fm/bildungsfern>`_ 
 (`RSS-Feed <https://anchor.fm/s/165e2ebc/podcast/rss>`_)
 gegeben.
+
+**Update:** Jetzt gibt es auch eine eigene Webseite
+für den Podcast: https://bildungsfern-podcast.de
