@@ -6,7 +6,7 @@ Bildungsfern - ein Podcast
 :status: published
 :slug: bildungsfern
 
-.. figure:: {static}images/2020/bildungsfern_logo.jpg
+.. figure:: {static}images/2020/bildungsfern_logo.png
    :alt: Logo des Podcast
 
 Nachdem am Freitag, dem 13.3.2020 der Schulbetrieb in weiten Teilen 
