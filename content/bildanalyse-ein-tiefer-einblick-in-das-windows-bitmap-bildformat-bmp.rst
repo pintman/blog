@@ -79,6 +79,9 @@ einem
 Das Team von `Hak5 <https://hak5.org/>`__ hat einen solchen Hack `schon
 einmal vorgestellt <http://youtu.be/Nwc2g4eGvTs?t=6m27s>`__.
 
+**Update:** Ausführlicher Artikel über das JPEG-Bildformat:
+`Understanding and Decoding a JPEG Image using Python <https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/>`__. 
+
 .. |Pixelbild| image:: {filename}images/Pixelbild.png
    :class: alignleft wp-image-1511 size-full
    :width: 757px
