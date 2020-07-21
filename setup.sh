@@ -7,8 +7,7 @@ VERSION=4.2.0
 
 # install python packages
 # beautifulsoup is needed for plugin tipue search
-# pillow is needed for pelican comment system (for generating identicons)
-pip3 install pelican==$VERSION beautifulsoup4 markdown pillow
+pip3 install pelican==$VERSION beautifulsoup4 markdown
 
 # install plugins repo
 test -d pelican-plugins || git clone https://github.com/getpelican/pelican-plugins
