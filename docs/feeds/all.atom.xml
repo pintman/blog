@@ -23,7 +23,7 @@ wird regeln müssen, habe ich dem Projekt den Namen
 gegeben.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Jetzt gibt es auch eine eigene Webseite
 für den Podcast: &lt;a class="reference external" href="https://bildungsfern-podcast.de"&gt;https://bildungsfern-podcast.de&lt;/a&gt;&lt;/p&gt;
-</content><category term="audio"></category><category term="podcast"></category></entry><entry><title>36C3 in Leipzig</title><link href="https://blog.bakera.de/36c3.html" rel="alternate"></link><published>2020-01-02T12:55:00+01:00</published><updated>2020-01-02T12:55:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2020-01-02:/36c3.html</id><summary type="html">&lt;div class="figure"&gt;
+</content><category term="Sonstiges"></category><category term="audio"></category><category term="podcast"></category></entry><entry><title>36C3 in Leipzig</title><link href="https://blog.bakera.de/36c3.html" rel="alternate"></link><published>2020-01-02T12:55:00+01:00</published><updated>2020-01-02T12:55:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2020-01-02:/36c3.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Bill Badge" src="https://blog.bakera.de/images/2020/billbadge-cut.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;Auch im Jahr 2019 lud der CCC wieder zum Chaos Communication Congress nach Leipzig ein - und 17.000 Lebewesen folgten diesem Aufruf. Ein buntes Gemisch aus technischen Vorträgen, politischer Agenda, künstlerischer Auseinandersetzung und ausgelassener Partystimmung prägten die vier Tage. Es gab wieder so viel zu entdecken, dass auch in diesem …&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
@@ -64,7 +64,7 @@ und weiß dabei auch, dass viele genau so interessante andere Dinge keine Berüc
 &lt;li&gt;&lt;a class="reference external" href="https://media.ccc.de/v/36c3-10652-bahnmining_-_punktlichkeit_ist_eine_zier"&gt;BahnMining - Pünktlichkeit ist eine Zier&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</content><category term="ccc"></category><category term="ctf"></category><category term="badge"></category><category term="video"></category></entry><entry><title>Kleinster Anzunehmender Emulator: CHIP-8</title><link href="https://blog.bakera.de/chip8.html" rel="alternate"></link><published>2019-11-30T20:30:00+01:00</published><updated>2019-11-30T20:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-30:/chip8.html</id><summary type="html">&lt;img alt="Pong auf dem CHIP-8" src="https://blog.bakera.de/images/2019/PONG_CHIP8.png" /&gt;
+</content><category term="Sonstiges"></category><category term="ccc"></category><category term="ctf"></category><category term="badge"></category><category term="video"></category></entry><entry><title>Kleinster Anzunehmender Emulator: CHIP-8</title><link href="https://blog.bakera.de/chip8.html" rel="alternate"></link><published>2019-11-30T20:30:00+01:00</published><updated>2019-11-30T20:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-30:/chip8.html</id><summary type="html">&lt;img alt="Pong auf dem CHIP-8" src="https://blog.bakera.de/images/2019/PONG_CHIP8.png" /&gt;
 &lt;p&gt;In den 70er Jahren suchte man eine möglichst einfache
 Spezifikation für die Beschreibung von Videospielen.
 Herausgekommen ist der
@@ -99,7 +99,7 @@ Emulator-Implementierung vor, die er für den Emacs erstellt hat.&lt;/p&gt;
 sehr lesenwerten Blog-Artikeln den CHIP-8 genauer beschrieben.
 &lt;a class="reference external" href="https://www.herr-rau.de/wordpress/2019/12/chip-8-teil-1-in-welchem-es-vor-allem-erst-einmal-um-0-und-1-geht.htm"&gt;Teil 1&lt;/a&gt;,
 &lt;a class="reference external" href="https://www.herr-rau.de/wordpress/2019/12/chip-8-teil-2-in-welchem-das-eigentliche-programm-vorgestellt-wird.htm"&gt;Teil 2&lt;/a&gt;.&lt;/p&gt;
-</content><category term="programmierung"></category><category term="hardware"></category><category term="game-engine"></category></entry><entry><title>Ach ... ich lass das jetzt so!</title><link href="https://blog.bakera.de/lt19.html" rel="alternate"></link><published>2019-11-19T16:20:00+01:00</published><updated>2019-11-19T16:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-19:/lt19.html</id><summary type="html">&lt;div class="figure"&gt;
+</content><category term="Sonstiges"></category><category term="programmierung"></category><category term="hardware"></category><category term="game-engine"></category></entry><entry><title>Ach ... ich lass das jetzt so!</title><link href="https://blog.bakera.de/lt19.html" rel="alternate"></link><published>2019-11-19T16:20:00+01:00</published><updated>2019-11-19T16:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-19:/lt19.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Bändchen" src="https://blog.bakera.de/images/2019/lt19_baendchen.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;So lautete das Motto der
@@ -177,7 +177,7 @@ dargestellt, dass sie einen Vortrag benötigen, der mehr als zwanzig Minuten
 Länge verträgt. Hier würde ich mir für die Zukunft eine Umgestaltung
 wünschen.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="das-labor"></category><category term="hardware"></category><category term="hacking"></category></entry><entry><title>CryptPad</title><link href="https://blog.bakera.de/cryptpad.html" rel="alternate"></link><published>2019-11-02T18:30:00+01:00</published><updated>2019-11-02T18:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-02:/cryptpad.html</id><summary type="html">&lt;div class="figure"&gt;
+</content><category term="Sonstiges"></category><category term="das-labor"></category><category term="hardware"></category><category term="hacking"></category></entry><entry><title>CryptPad</title><link href="https://blog.bakera.de/cryptpad.html" rel="alternate"></link><published>2019-11-02T18:30:00+01:00</published><updated>2019-11-02T18:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-02:/cryptpad.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/HQsX7N7hfOk?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2019/cryptpadvideo.png" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;YouTube-Video (&lt;a class="reference external" href="https://archive.org/details/cryptpadonlineeditormitendezuendeverschlusselung"&gt;bei archive.org&lt;/a&gt;)&lt;/p&gt;
 &lt;/div&gt;
@@ -203,7 +203,7 @@ unter einer freien Lizenz steht, kann man auch selbst eine Installation hosten.&
 &lt;/ul&gt;
 &lt;p&gt;Als Beispiel ist das Skript für dieses Video, welches in CryptPad erstellt
 wurde, &lt;a class="reference external" href="https://pad.0xabc.de/pad/#/2/pad/view/Mdg1DSUeOw1PutA6GVMfQgrxEynzc3K+iID9FfVNipY/"&gt;hier verlinkt&lt;/a&gt;.&lt;/p&gt;
-</content></entry><entry><title>CCCamp 2019</title><link href="https://blog.bakera.de/cccamp19.html" rel="alternate"></link><published>2019-09-02T12:20:00+02:00</published><updated>2019-09-02T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-09-02:/cccamp19.html</id><summary type="html">&lt;div class="figure"&gt;
+</content><category term="Sonstiges"></category></entry><entry><title>CCCamp 2019</title><link href="https://blog.bakera.de/cccamp19.html" rel="alternate"></link><published>2019-09-02T12:20:00+02:00</published><updated>2019-09-02T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-09-02:/cccamp19.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Fairy Dust" src="https://blog.bakera.de/images/2019/fairydust.png" /&gt;
 &lt;p class="caption"&gt;Fairy Dust - gelandet im Ziegeleipark.&lt;/p&gt;
 &lt;/div&gt;
@@ -245,7 +245,7 @@ dann aber doch. Gesammelt wurden die Projekte in der
 angenehme Atmosphäre gewöhnt, war es auch schon wieder vorbei. Ich freue
 mich auf ein Wiedersehen in vier Jahren - wo auch immer dann die Nerdzelte
 ihren Platz finden werden.&lt;/p&gt;
-</content><category term="ccc"></category><category term="hacking"></category><category term="hardware"></category></entry><entry><title>Gamejam mit Motten</title><link href="https://blog.bakera.de/gamejam0819.html" rel="alternate"></link><published>2019-08-12T12:20:00+02:00</published><updated>2019-08-12T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-08-12:/gamejam0819.html</id><summary type="html">&lt;div class="figure"&gt;
+</content><category term="Sonstiges"></category><category term="ccc"></category><category term="hacking"></category><category term="hardware"></category></entry><entry><title>Gamejam mit Motten</title><link href="https://blog.bakera.de/gamejam0819.html" rel="alternate"></link><published>2019-08-12T12:20:00+02:00</published><updated>2019-08-12T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-08-12:/gamejam0819.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="FlipFlop-Display mit Spiel" src="https://blog.bakera.de/images/2019/mottenflop.png" /&gt;
 &lt;p class="caption"&gt;Flip-Dot-Display mit Controller-Kiste.&lt;/p&gt;
 &lt;/div&gt;
@@ -311,7 +311,7 @@ Organisation.&lt;/p&gt;
 &lt;div class="figure"&gt;
 &lt;img alt="Gamejam-Logo" src="https://blog.bakera.de/images/miniggamejamdo.png" /&gt;
 &lt;/div&gt;
-</content><category term="Programmierung"></category><category term="Spaß"></category><category term="Spiele"></category><category term="gamejam"></category><category term="hacking"></category><category term="hardware"></category></entry><entry><title>Veganes Gulasch</title><link href="https://blog.bakera.de/gpn19.html" rel="alternate"></link><published>2019-06-11T14:20:00+02:00</published><updated>2019-06-11T14:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-06-11:/gpn19.html</id><summary type="html">&lt;div class="figure"&gt;
+</content><category term="Sonstiges"></category><category term="Programmierung"></category><category term="Spaß"></category><category term="Spiele"></category><category term="gamejam"></category><category term="hacking"></category><category term="hardware"></category></entry><entry><title>Veganes Gulasch</title><link href="https://blog.bakera.de/gpn19.html" rel="alternate"></link><published>2019-06-11T14:20:00+02:00</published><updated>2019-06-11T14:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-06-11:/gpn19.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Saal" src="https://blog.bakera.de/images/2019/gpn_saal.jpg" /&gt;
 &lt;p class="caption"&gt;Vortragssaal der GPN&lt;/p&gt;
 &lt;/div&gt;
@@ -350,7 +350,7 @@ funktioniert, tat es (hoffentlich) in diesem Jahr ebenso und sollte
 als Vorbild für andere Veranstaltungen dienen, die Menschen
 unterschiedlicher Naturelle zusammenbringen möchten.&lt;/p&gt;
 &lt;p&gt;Bis zum nächsten Mal (hoffentlich).&lt;/p&gt;
-</content><category term="programmierung"></category><category term="ccc"></category><category term="hacking"></category><category term="hardware"></category><category term="kunst"></category></entry><entry><title>Kleine Spiele, großer Spaß</title><link href="https://blog.bakera.de/gamejam19-05.html" rel="alternate"></link><published>2019-05-13T14:19:00+02:00</published><updated>2019-05-13T14:19:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-05-13:/gamejam19-05.html</id><summary type="html">&lt;div class="figure"&gt;
+</content><category term="Sonstiges"></category><category term="programmierung"></category><category term="ccc"></category><category term="hacking"></category><category term="hardware"></category><category term="kunst"></category></entry><entry><title>Kleine Spiele, großer Spaß</title><link href="https://blog.bakera.de/gamejam19-05.html" rel="alternate"></link><published>2019-05-13T14:19:00+02:00</published><updated>2019-05-13T14:19:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-05-13:/gamejam19-05.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Das Spiel im Einsatz" src="https://blog.bakera.de/images/2019/ffhunt1.png" /&gt;
 &lt;p class="caption"&gt;&amp;quot;firefly hunt&amp;quot; im Einsatz.&lt;/p&gt;
 &lt;/div&gt;
@@ -453,7 +453,7 @@ und genauso viel Spaß bringen.&lt;/p&gt;
 &lt;img alt="Gamejam-Logo" src="https://blog.bakera.de/images/miniggamejamdo.png" /&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="Programmierung"></category><category term="Spaß"></category><category term="Spiele"></category><category term="gamejam"></category></entry><entry><title>Dektop Publishing im Jahr 2019</title><link href="https://blog.bakera.de/dtp2019.html" rel="alternate"></link><published>2019-04-25T19:30:00+02:00</published><updated>2019-04-25T19:30:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-04-25:/dtp2019.html</id><summary type="html">&lt;div class="figure"&gt;
+</content><category term="Sonstiges"></category><category term="Programmierung"></category><category term="Spaß"></category><category term="Spiele"></category><category term="gamejam"></category></entry><entry><title>Dektop Publishing im Jahr 2019</title><link href="https://blog.bakera.de/dtp2019.html" rel="alternate"></link><published>2019-04-25T19:30:00+02:00</published><updated>2019-04-25T19:30:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-04-25:/dtp2019.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Bücher" src="https://blog.bakera.de/images/2019/groff_latex.png" /&gt;
 &lt;p class="caption"&gt;Zwei Standardwerke zu LaTeX und groff&lt;/p&gt;
 &lt;/div&gt;
@@ -578,7 +578,7 @@ zuverlässige Pferd im Stall, das häufig muckt, am Ende aber doch konsequent ab
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
-</content><category term="dtp"></category><category term="pdf"></category><category term="software"></category></entry><entry><title>Buchtipp: Arrival</title><link href="https://blog.bakera.de/arrival.html" rel="alternate"></link><published>2019-04-12T12:20:00+02:00</published><updated>2019-04-12T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-04-12:/arrival.html</id><summary type="html">&lt;div class="figure"&gt;
+</content><category term="Sonstiges"></category><category term="dtp"></category><category term="pdf"></category><category term="software"></category></entry><entry><title>Buchtipp: Arrival</title><link href="https://blog.bakera.de/arrival.html" rel="alternate"></link><published>2019-04-12T12:20:00+02:00</published><updated>2019-04-12T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-04-12:/arrival.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Buch Arrival" src="https://blog.bakera.de/images/2019/arrival.png" style="width: 500px;" /&gt;
 &lt;p class="caption"&gt;&amp;quot;Arrival&amp;quot; von Ted Chiang&lt;/p&gt;
 &lt;/div&gt;
@@ -615,7 +615,7 @@ neu unter Beweis stellt. So sind die Geschichten zwar schnell gelesen,
 aber nicht schnell durchdacht. Sie hinterlassen ein Gefühl der intellektuellen
 Forderung und reizen zu Gedankenspielen.&lt;/p&gt;
 &lt;p&gt;Lesens-, be- und durchdenkenswert.&lt;/p&gt;
-</content><category term="buch"></category></entry><entry><title>Pi And More 11½</title><link href="https://blog.bakera.de/pam115.html" rel="alternate"></link><published>2019-04-07T12:20:00+02:00</published><updated>2019-04-07T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-04-07:/pam115.html</id><summary type="html">&lt;div class="figure"&gt;
+</content><category term="Sonstiges"></category><category term="buch"></category></entry><entry><title>Pi And More 11½</title><link href="https://blog.bakera.de/pam115.html" rel="alternate"></link><published>2019-04-07T12:20:00+02:00</published><updated>2019-04-07T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-04-07:/pam115.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="pam Anhänger" src="https://blog.bakera.de/images/2019/pam115.png" /&gt;
 &lt;p class="caption"&gt;Anhänger aus dem Lasergravierer&lt;/p&gt;
 &lt;/div&gt;
@@ -702,7 +702,7 @@ darüber eindeutig eine Ziffer.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
-</content><category term="raspberrypi"></category><category term="hacking"></category><category term="video"></category></entry><entry><title>spring(); break;</title><link href="https://blog.bakera.de/springbreak2019.html" rel="alternate"></link><published>2019-03-24T12:20:00+01:00</published><updated>2019-03-24T12:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-03-24:/springbreak2019.html</id><summary type="html">&lt;img alt="Logo" src="https://blog.bakera.de/images/2019/spring_break_logo.png" /&gt;
+</content><category term="Sonstiges"></category><category term="raspberrypi"></category><category term="hacking"></category><category term="video"></category></entry><entry><title>spring(); break;</title><link href="https://blog.bakera.de/springbreak2019.html" rel="alternate"></link><published>2019-03-24T12:20:00+01:00</published><updated>2019-03-24T12:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-03-24:/springbreak2019.html</id><summary type="html">&lt;img alt="Logo" src="https://blog.bakera.de/images/2019/spring_break_logo.png" /&gt;
 &lt;p&gt;Gestern fand zum ersten Mal im Bochumer Labor die
 &lt;a class="reference external" href="https://wiki.das-labor.org/w/Veranstaltung/springbreak"&gt;spring(); break;&lt;/a&gt; statt.
 Hinter diesem etwas sperrigen und vielleicht fehl leitenden Titel verbirgt sich eine
@@ -739,7 +739,7 @@ Barcamp in Essen und der Maker Faire in Dortmund harte Konkurrenz, konnte sich
 aber gut dagegen positionieren. Die gut gefüllten Räume vor Ort und die
 breite Themenauswahl lassen mich hoffen, dass sich die Veranstaltung
 mit etwas Feinschliff in polierter Form (im nächsten Jahr?) wieder zeigen wird.&lt;/p&gt;
-</content><category term="bildung"></category><category term="hacking"></category><category term="hardware"></category><category term="bio"></category><category term="lernen"></category><category term="git"></category><category term="workshop"></category><category term="das labor"></category></entry><entry><title>Quantencomputer</title><link href="https://blog.bakera.de/quantencomputer.html" rel="alternate"></link><published>2019-01-22T21:20:00+01:00</published><updated>2019-01-22T21:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-22:/quantencomputer.html</id><summary type="html">&lt;div class="figure"&gt;
+</content><category term="Sonstiges"></category><category term="bildung"></category><category term="hacking"></category><category term="hardware"></category><category term="bio"></category><category term="lernen"></category><category term="git"></category><category term="workshop"></category><category term="das labor"></category></entry><entry><title>Quantencomputer</title><link href="https://blog.bakera.de/quantencomputer.html" rel="alternate"></link><published>2019-01-22T21:20:00+01:00</published><updated>2019-01-22T21:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-22:/quantencomputer.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Wissenschaftler" src="https://blog.bakera.de/images/2019/scientists.jpg" /&gt;
 &lt;p class="caption"&gt;Quelle: CC-BY &lt;a class="reference external" href="https://wellcomecollection.org/works/nvzv2343"&gt;https://wellcomecollection.org/works/nvzv2343&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -782,7 +782,7 @@ Für Python gibt es auch &lt;a class="reference external" href="https://nbviewer
 um auf den Quantencomputer zuzugreifen.&lt;/p&gt;
 &lt;p&gt;Eine echte Anwendung für Quantencomputer mit wenigen QBits gibt es heute
 bereits: die Berechnung von Energien in Molekülen.&lt;/p&gt;
-</content><category term="programmierung"></category><category term="python"></category><category term="das labor"></category></entry><entry><title>YunoHost - das Ubuntu für Server?!</title><link href="https://blog.bakera.de/yunohost.html" rel="alternate"></link><published>2019-01-03T12:20:00+01:00</published><updated>2019-01-03T12:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-03:/yunohost.html</id><summary type="html">&lt;div class="figure"&gt;
+</content><category term="Sonstiges"></category><category term="programmierung"></category><category term="python"></category><category term="das labor"></category></entry><entry><title>YunoHost - das Ubuntu für Server?!</title><link href="https://blog.bakera.de/yunohost.html" rel="alternate"></link><published>2019-01-03T12:20:00+01:00</published><updated>2019-01-03T12:20:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-03:/yunohost.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Meme" src="https://blog.bakera.de/images/2019/dude_yunohost.jpg" /&gt;
 &lt;p class="caption"&gt;Quelle: &lt;a class="reference external" href="https://github.com/alexAubin/yunohostWorkshop/tree/master/img"&gt;https://github.com/alexAubin/yunohostWorkshop/tree/master/img&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -851,7 +851,7 @@ zu diesem Post.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update 2:&lt;/strong&gt; Folien und Materialien, die für einen Workshop verwendet werden
 können, befinden sich
 &lt;a class="reference external" href="https://github.com/alexAubin/yunohostWorkshop"&gt;hier&lt;/a&gt;.&lt;/p&gt;
-</content><category term="35c3"></category><category term="cloud"></category><category term="e-mail"></category><category term="wiki"></category><category term="RaspberryPi"></category><category term="server"></category></entry><entry><title>35C3 - ein Erfahrungsbericht</title><link href="https://blog.bakera.de/35c3-ein-erfahrungsbericht.html" rel="alternate"></link><published>2019-01-02T15:10:00+01:00</published><updated>2019-01-02T15:10:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-02:/35c3-ein-erfahrungsbericht.html</id><summary type="html">&lt;object data="https://blog.bakera.de/images/2019/35C3Logo.svg" type="image/svg+xml"&gt;
+</content><category term="Sonstiges"></category><category term="35c3"></category><category term="cloud"></category><category term="e-mail"></category><category term="wiki"></category><category term="RaspberryPi"></category><category term="server"></category></entry><entry><title>35C3 - ein Erfahrungsbericht</title><link href="https://blog.bakera.de/35c3-ein-erfahrungsbericht.html" rel="alternate"></link><published>2019-01-02T15:10:00+01:00</published><updated>2019-01-02T15:10:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-02:/35c3-ein-erfahrungsbericht.html</id><summary type="html">&lt;object data="https://blog.bakera.de/images/2019/35C3Logo.svg" type="image/svg+xml"&gt;
 Logo des 35C3&lt;/object&gt;
 &lt;p&gt;Der letzte Kongress des 35C3 stand unter dem Motto &lt;em&gt;refreshing memories&lt;/em&gt; und
 fand am Ende des Jahres wie gewohnt
@@ -912,7 +912,7 @@ war ich gerade bei Minute 8:40 eines Talks als meine 1-Stundenschicht zu Ende gi
 &lt;p&gt;Nun werde ich mir noch viele der Talks anschauen, die glücklicherweise aufgezeichnet
 wurden und bei &lt;a class="reference external" href="https://media.ccc.de/c/35c3"&gt;media.ccc.de&lt;/a&gt; abgerufen werden können.
 Ich freue mich jetzt schon auf den nächsten Kongress.&lt;/p&gt;
-</content><category term="35c3"></category><category term="sdr"></category><category term="ctf"></category><category term="lernen"></category></entry><entry><title>Wetter-Monitor mit einem Kindle</title><link href="https://blog.bakera.de/kindle_wetter_monitor.html" rel="alternate"></link><published>2018-12-08T16:48:00+01:00</published><updated>2018-12-08T16:48:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-12-08:/kindle_wetter_monitor.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/kindle_weather_display.jpg"&gt;&lt;img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/small_kindle_weather_display.jpg" /&gt;&lt;/a&gt;
+</content><category term="Sonstiges"></category><category term="35c3"></category><category term="sdr"></category><category term="ctf"></category><category term="lernen"></category></entry><entry><title>Wetter-Monitor mit einem Kindle</title><link href="https://blog.bakera.de/kindle_wetter_monitor.html" rel="alternate"></link><published>2018-12-08T16:48:00+01:00</published><updated>2018-12-08T16:48:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-12-08:/kindle_wetter_monitor.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/kindle_weather_display.jpg"&gt;&lt;img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/small_kindle_weather_display.jpg" /&gt;&lt;/a&gt;
 &lt;p&gt;E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere
 Modelle bekommt man für wenig Geld.
 Genau diese Kombination machen sie so reizvoll, um
@@ -1063,7 +1063,7 @@ Display&lt;/a&gt; von Matthew Petroff
 und der &lt;a class="reference external" href="http://www.shatteredhaven.com/2012/11/1347365-kindle-weather-display.html"&gt;Anleitung &amp;quot;Kindle Weather Display&amp;quot; von
 Jennifer&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="Hacking"></category><category term="Hardware"></category></entry><entry><title>Blogroll 2018</title><link href="https://blog.bakera.de/blogroll2018.html" rel="alternate"></link><published>2018-10-23T08:20:00+02:00</published><updated>2018-10-23T08:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-10-23:/blogroll2018.html</id><summary type="html">&lt;div class="figure"&gt;
+</content><category term="Sonstiges"></category><category term="Hacking"></category><category term="Hardware"></category></entry><entry><title>Blogroll 2018</title><link href="https://blog.bakera.de/blogroll2018.html" rel="alternate"></link><published>2018-10-23T08:20:00+02:00</published><updated>2018-10-23T08:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-10-23:/blogroll2018.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Alte Frau liest" src="https://blog.bakera.de/images/2018/07/old_woman_reading.jpg" style="width: 75%;" /&gt;
 &lt;p class="caption"&gt;(Quelle: CC-BY
 &lt;a class="reference external" href="https://wellcomecollection.org/works/kr7fr5sb"&gt;Wellcome Collection&lt;/a&gt;)&lt;/p&gt;
@@ -1254,7 +1254,7 @@ Output für eine eigene Kategorie.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.scilogs.de/datentyp/feed/"&gt;Datentyp&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</content><category term="bloggen"></category><category term="Linkliste"></category></entry><entry><title>Python Game-Engines im Vergleich</title><link href="https://blog.bakera.de/python-game-engines.html" rel="alternate"></link><published>2018-08-07T12:02:00+02:00</published><updated>2018-08-07T12:02:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-08-07:/python-game-engines.html</id><summary type="html">&lt;object data="https://blog.bakera.de/images/2018/Gamepad-Black.svg" style="width: 60%;" type="image/svg+xml"&gt;
+</content><category term="Sonstiges"></category><category term="bloggen"></category><category term="Linkliste"></category></entry><entry><title>Python Game-Engines im Vergleich</title><link href="https://blog.bakera.de/python-game-engines.html" rel="alternate"></link><published>2018-08-07T12:02:00+02:00</published><updated>2018-08-07T12:02:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-08-07:/python-game-engines.html</id><summary type="html">&lt;object data="https://blog.bakera.de/images/2018/Gamepad-Black.svg" style="width: 60%;" type="image/svg+xml"&gt;
 Gamepad (Quelle: https://openclipart.org/detail/212647/gamepad-black)&lt;/object&gt;
 &lt;p&gt;Auf der Suche nach einer Spiele-Engine habe ich mir verschiedene Engines
 für Python angeschaut. Die folgende Liste fasst Vor- und Nachteile zusammen.
@@ -1337,7 +1337,7 @@ zu kennen. Die Frischzellenkur &lt;em&gt;Pygame
 Zero&lt;/em&gt; tritt an, ein würdiger Nachfolger zu werden. Dezeit muss man jedoch
 noch Abstriche bei der Feature-Auswahl machen.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="Programmierung"></category><category term="Python"></category><category term="Spiele"></category></entry><entry><title>Gamejam in Dortmund</title><link href="https://blog.bakera.de/gamejam-in-dortmund.html" rel="alternate"></link><published>2018-08-05T13:37:00+02:00</published><updated>2018-08-05T13:37:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-08-05:/gamejam-in-dortmund.html</id><summary type="html">&lt;img alt="Gamejam-Logo" src="https://blog.bakera.de/images/miniggamejamdo.png" /&gt;
+</content><category term="Sonstiges"></category><category term="Programmierung"></category><category term="Python"></category><category term="Spiele"></category></entry><entry><title>Gamejam in Dortmund</title><link href="https://blog.bakera.de/gamejam-in-dortmund.html" rel="alternate"></link><published>2018-08-05T13:37:00+02:00</published><updated>2018-08-05T13:37:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-08-05:/gamejam-in-dortmund.html</id><summary type="html">&lt;img alt="Gamejam-Logo" src="https://blog.bakera.de/images/miniggamejamdo.png" /&gt;
 &lt;p&gt;Am Samstag trotzten ein paar unerschrockene Recken erneut den
 tropischen Temperaturen und versammelten sich im Dortmunder
 Künstlerhaus zu einer neuen Ausgabe des
@@ -1374,7 +1374,7 @@ sollte.&lt;/p&gt;
 von Satelliten umkreist wurden, ein Koop-Jump'n'Run und fragmentarische
 Entwicklungen an weiteren Spielen.&lt;/p&gt;
 &lt;p&gt;Ich freue mich auf die versprochene nächste Ausgabe in 3 Monaten.&lt;/p&gt;
-</content><category term="Programmierung"></category><category term="Spaß"></category><category term="Spiele"></category><category term="gamejam"></category></entry><entry><title>Statische Webseiten bei gitlab und github</title><link href="https://blog.bakera.de/statische-webseiten-gitlab-github.html" rel="alternate"></link><published>2018-07-12T22:21:00+02:00</published><updated>2018-07-12T22:21:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-07-12:/statische-webseiten-gitlab-github.html</id><summary type="html">&lt;img alt="Maschine Pipe (https://openclipart.org/detail/300339/machine-pipe)" src="https://blog.bakera.de/images/2018/07/machinepipe.png" /&gt;
+</content><category term="Sonstiges"></category><category term="Programmierung"></category><category term="Spaß"></category><category term="Spiele"></category><category term="gamejam"></category></entry><entry><title>Statische Webseiten bei gitlab und github</title><link href="https://blog.bakera.de/statische-webseiten-gitlab-github.html" rel="alternate"></link><published>2018-07-12T22:21:00+02:00</published><updated>2018-07-12T22:21:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-07-12:/statische-webseiten-gitlab-github.html</id><summary type="html">&lt;img alt="Maschine Pipe (https://openclipart.org/detail/300339/machine-pipe)" src="https://blog.bakera.de/images/2018/07/machinepipe.png" /&gt;
 &lt;p&gt;Webseiten gibt es viele. Das Internet ist voll davon.
 Doch, wie kann man einfach und schnell eine eigene Webseite
 aufsetzen und betreiben? Verschiedene Hoster bieten Pakete an, doch in
@@ -1470,7 +1470,7 @@ anbietet liegt der Anbieter vorn, da der Mechanismus, die Webseite über
 CI-Skripte zu generieren, einen ganz eigenen Reiz besitzt und das Repository
 mit diesem Ansatz insgesamt schlanker bleibt.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="bloggen"></category></entry><entry><title>Wenn ITAs Projekte machen</title><link href="https://blog.bakera.de/ita-projekttage-2018.html" rel="alternate"></link><published>2018-07-11T20:09:00+02:00</published><updated>2018-07-11T20:09:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-07-11:/ita-projekttage-2018.html</id><summary type="html">&lt;div class="figure"&gt;
+</content><category term="Sonstiges"></category><category term="bloggen"></category></entry><entry><title>Wenn ITAs Projekte machen</title><link href="https://blog.bakera.de/ita-projekttage-2018.html" rel="alternate"></link><published>2018-07-11T20:09:00+02:00</published><updated>2018-07-11T20:09:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-07-11:/ita-projekttage-2018.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Zwei Personen hinter Maschine" src="https://blog.bakera.de/images/2018/07/an_electrical_machine.jpg" style="width: 75%;" /&gt;
 &lt;p class="caption"&gt;(Quelle: CC-BY
 &lt;a class="reference external" href="https://wellcomecollection.org/works/dazvcmnt"&gt;Wellcome Collection&lt;/a&gt;)&lt;/p&gt;
@@ -1551,7 +1551,7 @@ man direkt über den Pi ansteuern können. Wir haben uns jedoch für den &amp;qu
 entschieden, einen Port-Expander zu verwenden. So hat unser Team auch noch
 etwas Neues hinzulernen können.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="ITA"></category><category term="Bildung"></category></entry><entry><title>Blog 2001-2003</title><link href="https://blog.bakera.de/blog_2001_2003.html" rel="alternate"></link><published>2018-07-04T14:42:00+02:00</published><updated>2018-07-04T14:42:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-07-04:/blog_2001_2003.html</id><summary type="html">&lt;div class="figure"&gt;
+</content><category term="Sonstiges"></category><category term="ITA"></category><category term="Bildung"></category></entry><entry><title>Blog 2001-2003</title><link href="https://blog.bakera.de/blog_2001_2003.html" rel="alternate"></link><published>2018-07-04T14:42:00+02:00</published><updated>2018-07-04T14:42:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-07-04:/blog_2001_2003.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="alter Mann mit Buch" src="https://blog.bakera.de/images/2018/07/old_man_book.jpg" /&gt;
 &lt;p class="caption"&gt;(Quelle: CC-BY
 &lt;a class="reference external" href="https://wellcomecollection.org/works/gg8ks4y6"&gt;Wellcome Collection&lt;/a&gt;)&lt;/p&gt;
@@ -1605,7 +1605,7 @@ persönlicher Blick in die Jahre 2001 bis 2003.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/weiter_gehts.html"&gt;Weiter geht's&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/willkommen_im_neuen_jahr.html"&gt;Willkommen im neuen Jahr&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="Archiv"></category><category term="bloggen"></category></entry><entry><title>Videoreihe: Mit Python Funktionen zeichnen</title><link href="https://blog.bakera.de/videoreihe-mit-python-funktionen-zeichnen.html" rel="alternate"></link><published>2018-06-22T21:32:00+02:00</published><updated>2018-06-22T21:32:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-06-22:/videoreihe-mit-python-funktionen-zeichnen.html</id><summary type="html">&lt;p&gt;Ich habe mich mal wieder an ein paar Videos &lt;a class="footnote-reference" href="#id2" id="id1"&gt;[1]&lt;/a&gt; versucht, nachdem es auf meinem
+</content><category term="Sonstiges"></category><category term="Archiv"></category><category term="bloggen"></category></entry><entry><title>Videoreihe: Mit Python Funktionen zeichnen</title><link href="https://blog.bakera.de/videoreihe-mit-python-funktionen-zeichnen.html" rel="alternate"></link><published>2018-06-22T21:32:00+02:00</published><updated>2018-06-22T21:32:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-06-22:/videoreihe-mit-python-funktionen-zeichnen.html</id><summary type="html">&lt;p&gt;Ich habe mich mal wieder an ein paar Videos &lt;a class="footnote-reference" href="#id2" id="id1"&gt;[1]&lt;/a&gt; versucht, nachdem es auf meinem
 YouTube-Kanal längere Zeit etwas ruhiger geworden ist. In dieser Reihe
 habe ich verschiedene grundlegende Aspekte der Python-Programmierung
 am Beispiel von mathematischen Funktionen dargestellt.&lt;/p&gt;
@@ -1660,7 +1660,7 @@ Falle findet man die Videos auch bei
 &lt;a class="reference external" href="https://archive.org/details/python-funktionen"&gt;archive.org&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</content><category term="Video"></category><category term="Programmierung"></category><category term="Python"></category><category term="Funktionen"></category><category term="Mathe"></category></entry><entry><title>Sammelsurium Februar – Mai</title><link href="https://blog.bakera.de/sammelsurium-februar-mai.html" rel="alternate"></link><published>2018-06-03T13:26:00+02:00</published><updated>2018-06-03T13:26:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-06-03:/sammelsurium-februar-mai.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/wwwSitzen2.png"&gt;&lt;img alt="cc: Freepik" class="size-full wp-image-1523" src="https://blog.bakera.de/images/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content><category term="Sonstiges"></category><category term="Video"></category><category term="Programmierung"></category><category term="Python"></category><category term="Funktionen"></category><category term="Mathe"></category></entry><entry><title>Sammelsurium Februar – Mai</title><link href="https://blog.bakera.de/sammelsurium-februar-mai.html" rel="alternate"></link><published>2018-06-03T13:26:00+02:00</published><updated>2018-06-03T13:26:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-06-03:/sammelsurium-februar-mai.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/wwwSitzen2.png"&gt;&lt;img alt="cc: Freepik" class="size-full wp-image-1523" src="https://blog.bakera.de/images/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Interessante Einsichten aus vier Monaten.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Tweets aus 2018-02&lt;/strong&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
@@ -1938,4 +1938,4 @@ Python und matplotlib zeichnen kann - inkl. &amp;quot;list comprehension&amp;quo
 &lt;li&gt;#Mehr #Hashtag #geht #nicht.
 &lt;a class="reference external" href="https://twitter.com/TFConsult/status/991406221692424192"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="Linkliste"></category></entry></feed>
+</content><category term="Sonstiges"></category><category term="Linkliste"></category></entry></feed>
