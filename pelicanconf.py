@@ -45,6 +45,7 @@ LINKS = (('Archiv', 'archives.html'),
 # Social widget
 SOCIAL = (
     ("twitter", "https://www.twitter.com/pintman"),
+    ("mastodon", "https://mastodon.social/@pintman", "users"),  # "mastodon" funktioniert (noch?) nicht
     # removed since current version of archive does not deliver static site
     #("twitter Archiv", "https://twitter.bakera.de", "twitter"),
     ("github", "https://github.com/pintman"),
