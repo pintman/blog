@@ -100,6 +100,8 @@ CUSTOM_CSS = 'static/css/custom.css'
 # Install all plugins there
 # git clone --recursive https://github.com/getpelican/pelican-plugins
 # 
+# https://github.com/pelican-plugins/tipue-search 
+# https://github.com/pelican-plugins/sitemap
 PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS = ['tipue_search', "sitemap"]
 #DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
@@ -112,7 +114,7 @@ JINJA_ENVIRONMENT = {
 }
 
 # Sitemap
-# https://github.com/getpelican/pelican-plugins/tree/master/sitemap
+# https://github.com/pelican-plugins/sitemap
 SITEMAP = {
     "format": "xml",
     "priorities": {
