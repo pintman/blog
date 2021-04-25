@@ -851,14 +851,12 @@ zu diesem Post.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update 2:&lt;/strong&gt; Folien und Materialien, die für einen Workshop verwendet werden
 können, befinden sich
 &lt;a class="reference external" href="https://github.com/alexAubin/yunohostWorkshop"&gt;hier&lt;/a&gt;.&lt;/p&gt;
-</content><category term="Sonstiges"></category><category term="35c3"></category><category term="cloud"></category><category term="e-mail"></category><category term="wiki"></category><category term="RaspberryPi"></category><category term="server"></category></entry><entry><title>35C3 - ein Erfahrungsbericht</title><link href="https://blog.bakera.de/35c3-ein-erfahrungsbericht.html" rel="alternate"></link><published>2019-01-02T15:10:00+01:00</published><updated>2019-01-02T15:10:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-02:/35c3-ein-erfahrungsbericht.html</id><summary type="html">&lt;object data="https://blog.bakera.de/images/2019/35C3Logo.svg" type="image/svg+xml"&gt;
-Logo des 35C3&lt;/object&gt;
+</content><category term="Sonstiges"></category><category term="35c3"></category><category term="cloud"></category><category term="e-mail"></category><category term="wiki"></category><category term="RaspberryPi"></category><category term="server"></category></entry><entry><title>35C3 - ein Erfahrungsbericht</title><link href="https://blog.bakera.de/35c3-ein-erfahrungsbericht.html" rel="alternate"></link><published>2019-01-02T15:10:00+01:00</published><updated>2019-01-02T15:10:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-01-02:/35c3-ein-erfahrungsbericht.html</id><summary type="html">&lt;object data="https://blog.bakera.de/images/2019/35C3Logo.svg" type="image/svg+xml"&gt;Logo des 35C3&lt;/object&gt;
 &lt;p&gt;Der letzte Kongress des 35C3 stand unter dem Motto &lt;em&gt;refreshing memories&lt;/em&gt; und
 fand am Ende des Jahres wie gewohnt
 zwischen dem 27.12. und dem 30.12. in Leipzig statt.
 Da es Vieles zu entdecken gab, hat jeder Teilnehmer sicher seinen
-eigenen Kongress erlebt. Ich versuche einmal …&lt;/p&gt;</summary><content type="html">&lt;object data="https://blog.bakera.de/images/2019/35C3Logo.svg" type="image/svg+xml"&gt;
-Logo des 35C3&lt;/object&gt;
+eigenen Kongress erlebt. Ich versuche einmal …&lt;/p&gt;</summary><content type="html">&lt;object data="https://blog.bakera.de/images/2019/35C3Logo.svg" type="image/svg+xml"&gt;Logo des 35C3&lt;/object&gt;
 &lt;p&gt;Der letzte Kongress des 35C3 stand unter dem Motto &lt;em&gt;refreshing memories&lt;/em&gt; und
 fand am Ende des Jahres wie gewohnt
 zwischen dem 27.12. und dem 30.12. in Leipzig statt.
@@ -1254,8 +1252,7 @@ Output für eine eigene Kategorie.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.scilogs.de/datentyp/feed/"&gt;Datentyp&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</content><category term="Sonstiges"></category><category term="bloggen"></category><category term="Linkliste"></category></entry><entry><title>Python Game-Engines im Vergleich</title><link href="https://blog.bakera.de/python-game-engines.html" rel="alternate"></link><published>2018-08-07T12:02:00+02:00</published><updated>2018-08-07T12:02:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-08-07:/python-game-engines.html</id><summary type="html">&lt;object data="https://blog.bakera.de/images/2018/Gamepad-Black.svg" style="width: 60%;" type="image/svg+xml"&gt;
-Gamepad (Quelle: https://openclipart.org/detail/212647/gamepad-black)&lt;/object&gt;
+</content><category term="Sonstiges"></category><category term="bloggen"></category><category term="Linkliste"></category></entry><entry><title>Python Game-Engines im Vergleich</title><link href="https://blog.bakera.de/python-game-engines.html" rel="alternate"></link><published>2018-08-07T12:02:00+02:00</published><updated>2018-08-07T12:02:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-08-07:/python-game-engines.html</id><summary type="html">&lt;object data="https://blog.bakera.de/images/2018/Gamepad-Black.svg" style="width: 60%;" type="image/svg+xml"&gt;Gamepad (Quelle: https://openclipart.org/detail/212647/gamepad-black)&lt;/object&gt;
 &lt;p&gt;Auf der Suche nach einer Spiele-Engine habe ich mir verschiedene Engines
 für Python angeschaut. Die folgende Liste fasst Vor- und Nachteile zusammen.
 Explizit ausgenommen habe ich 3D-Engines wie &lt;em&gt;Blender&lt;/em&gt; oder &lt;em&gt;Panda 3D&lt;/em&gt;.&lt;/p&gt;
@@ -1265,8 +1262,7 @@ Explizit ausgenommen habe ich 3D-Engines wie &lt;em&gt;Blender&lt;/em&gt; oder &
 &lt;col class="field-name" /&gt;
 &lt;col class="field-body" /&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Pro:&lt;/th&gt;&lt;td class="field-body"&gt;Etabliert und weit verbreitet, Unterstützung für den Raspberry …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/dd&gt;&lt;/dl&gt;</summary><content type="html">&lt;object data="https://blog.bakera.de/images/2018/Gamepad-Black.svg" style="width: 60%;" type="image/svg+xml"&gt;
-Gamepad (Quelle: https://openclipart.org/detail/212647/gamepad-black)&lt;/object&gt;
+&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Pro:&lt;/th&gt;&lt;td class="field-body"&gt;Etabliert und weit verbreitet, Unterstützung für den Raspberry …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/dd&gt;&lt;/dl&gt;</summary><content type="html">&lt;object data="https://blog.bakera.de/images/2018/Gamepad-Black.svg" style="width: 60%;" type="image/svg+xml"&gt;Gamepad (Quelle: https://openclipart.org/detail/212647/gamepad-black)&lt;/object&gt;
 &lt;p&gt;Auf der Suche nach einer Spiele-Engine habe ich mir verschiedene Engines
 für Python angeschaut. Die folgende Liste fasst Vor- und Nachteile zusammen.
 Explizit ausgenommen habe ich 3D-Engines wie &lt;em&gt;Blender&lt;/em&gt; oder &lt;em&gt;Panda 3D&lt;/em&gt;.&lt;/p&gt;
@@ -1660,7 +1656,7 @@ Falle findet man die Videos auch bei
 &lt;a class="reference external" href="https://archive.org/details/python-funktionen"&gt;archive.org&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</content><category term="Sonstiges"></category><category term="Video"></category><category term="Programmierung"></category><category term="Python"></category><category term="Funktionen"></category><category term="Mathe"></category></entry><entry><title>Sammelsurium Februar – Mai</title><link href="https://blog.bakera.de/sammelsurium-februar-mai.html" rel="alternate"></link><published>2018-06-03T13:26:00+02:00</published><updated>2018-06-03T13:26:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-06-03:/sammelsurium-februar-mai.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/wwwSitzen2.png"&gt;&lt;img alt="cc: Freepik" class="size-full wp-image-1523" src="https://blog.bakera.de/images/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content><category term="Sonstiges"></category><category term="Video"></category><category term="Programmierung"></category><category term="Python"></category><category term="Funktionen"></category><category term="Mathe"></category></entry><entry><title>Sammelsurium Februar – Mai</title><link href="https://blog.bakera.de/sammelsurium-februar-mai.html" rel="alternate"></link><published>2018-06-03T13:26:00+02:00</published><updated>2018-06-03T13:26:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-06-03:/sammelsurium-februar-mai.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/wwwSitzen2.png"&gt;&lt;img alt="cc: Freepik" class="size-full wp-image-1523" src="https://blog.bakera.de/images/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Interessante Einsichten aus vier Monaten.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Tweets aus 2018-02&lt;/strong&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
@@ -1674,7 +1670,7 @@ euren Datenschutz respektiert. Danke &amp;#64;teckids_eV
 &lt;a class="reference external" href="https://twitter.com/Noelte030/status/966922926594260992"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Schönes neues Wort gelernt: emblematisch.
 &lt;a class="reference external" href="https://de.wiktionary.org/wiki/emblematisch"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PGP+WoT …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://blog.bakera.de/images/wwwSitzen2.png"&gt;&lt;img alt="cc: Freepik" class="size-full wp-image-1523" src="https://blog.bakera.de/images/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;PGP+WoT …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/wwwSitzen2.png"&gt;&lt;img alt="cc: Freepik" class="size-full wp-image-1523" src="https://blog.bakera.de/images/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Interessante Einsichten aus vier Monaten.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Tweets aus 2018-02&lt;/strong&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
