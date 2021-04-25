@@ -8,5 +8,5 @@ Wiki
 :status: published
 
 Neben diesem Blog gibt es ein
-`Wiki <https://www.bakera.de/dokuwiki>`_ mit Inhalten zu Informatik
+`Wiki <https://www.bakera.de/>`_ mit Inhalten zu Informatik
 und Mathematik.
