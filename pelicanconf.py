@@ -50,8 +50,8 @@ SOCIAL = (
     #("twitter Archiv", "https://twitter.bakera.de", "twitter"),
     ("github", "https://github.com/pintman"),
     ("github TBS1", "https://github.com/tbs1-bo", "github"),
-    ("gitlab", "https://gitlab.com/pintman", "git"),
-    ("edugit", "https://edugit.org/bak", "git"),
+    #("gitlab", "https://gitlab.com/pintman", "git"),
+    #("edugit", "https://edugit.org/bak", "git"),
     ("email", "mailto:blog@bakera.de?subject=Blog-Feedback", "envelope"))
 
 
