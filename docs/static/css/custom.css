@@ -25,7 +25,7 @@ body {
 	line-height: 1.5;
 	color: #111111;
 
-	background-color: #fffff8;
+	background-color: #ffffff;
 
 }
 
@@ -61,12 +61,12 @@ p {
 
 /* part above article and below title */
 .panel {
-	background-color: #fffff8;
+	background-color: #ffffff;
 }
 
 /* box with links right to the article */
 .well {
-	background-color: #fffff8;
+	background-color: #ffffff;
 }
 
 .tipue_search_content_text {
