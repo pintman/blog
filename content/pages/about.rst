@@ -11,11 +11,11 @@ About
 
 Dies ist das Blog von Marco Bakera. Ich bin Lehrer für
 Informatik und Mathematik an der Technischen Beruflichen Schule 1 in
-Bochum (kurz `TBS1 <http://www.tbs1.de>`__).
+Bochum (kurz `TBS1 <https://www.tbs1.de>`__).
 
--  Mein
-   `Twitteraccount <http://www.bakera.de/dokuwiki/doku.php/twitter>`__
--  Mein `Wiki <http://www.bakera.de/dokuwiki/doku.php>`__
+-  Meine 
+   `Social Media Accounts <https://www.bakera.de/social>`__
+-  Mein `Wiki <https://www.bakera.de/>`__
 
 .. |Marco Bakera| image:: ../images/2018/05/avatar-100x100.png
 
