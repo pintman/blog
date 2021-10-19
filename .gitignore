@@ -8,3 +8,4 @@ srv.pid
 pelican-plugins
 pelican-themes
 
+poetry.lock
