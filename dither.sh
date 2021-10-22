@@ -10,4 +10,4 @@ echo "Resize to new width $WIDTH"
 echo "using $COLORS colors"
 echo "New file name $OUT"
 
-convert $1 -resize $WIDTH -dither FloydSteinberg -colors $COLORS $OUT
+convert $IN -resize $WIDTH -dither FloydSteinberg -colors $COLORS $OUT
