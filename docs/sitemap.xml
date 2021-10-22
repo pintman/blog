@@ -5,21 +5,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.bakera.de/</loc>
-<lastmod>2021-07-05T11:35:31-00:00</lastmod>
+<lastmod>2021-10-22T14:26:58-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>https://blog.bakera.de/archives.html</loc>
-<lastmod>2021-07-05T11:35:31-00:00</lastmod>
+<lastmod>2021-10-22T14:26:58-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>https://blog.bakera.de/search.html</loc>
-<lastmod>2021-07-05T11:35:31-00:00</lastmod>
+<lastmod>2021-10-22T14:26:58-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
@@ -43,6 +43,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <lastmod>2018-07-16T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.2</priority>
+</url>
+
+<url>
+<loc>https://blog.bakera.de/wlampe.html</loc>
+<lastmod>2021-10-20T12:20:00+02:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
 </url>
 
 <url>
@@ -3960,7 +3967,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.bakera.de/category/sonstiges.html</loc>
-<lastmod>2020-03-15T12:30:00+00:53</lastmod>
+<lastmod>2021-10-20T12:20:00+00:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://blog.bakera.de/tag/esp8266.html</loc>
+<lastmod>2021-10-20T12:20:00+00:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://blog.bakera.de/tag/hacking.html</loc>
+<lastmod>2021-10-20T12:20:00+00:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://blog.bakera.de/tag/hardware.html</loc>
+<lastmod>2021-10-20T12:20:00+00:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
@@ -4015,13 +4043,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://blog.bakera.de/tag/hardware.html</loc>
-<lastmod>2019-11-30T20:30:00+00:53</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.8</priority>
-</url>
-
-<url>
 <loc>https://blog.bakera.de/tag/game-engine.html</loc>
 <lastmod>2019-11-30T20:30:00+00:53</lastmod>
 <changefreq>daily</changefreq>
@@ -4030,13 +4051,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.bakera.de/tag/das-labor.html</loc>
-<lastmod>2019-11-19T16:20:00+00:53</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.8</priority>
-</url>
-
-<url>
-<loc>https://blog.bakera.de/tag/hacking.html</loc>
 <lastmod>2019-11-19T16:20:00+00:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
@@ -4290,13 +4304,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://blog.bakera.de/tag/windows.html</loc>
 <lastmod>2017-11-02T13:28:00+00:53</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.8</priority>
-</url>
-
-<url>
-<loc>https://blog.bakera.de/tag/esp8266.html</loc>
-<lastmod>2016-08-25T15:44:00+00:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
@@ -5255,7 +5262,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.bakera.de/author/marcobakera.html</loc>
-<lastmod>2020-03-15T12:30:00+00:53</lastmod>
+<lastmod>2021-10-20T12:20:00+00:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>

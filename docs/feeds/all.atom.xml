@@ -1,5 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2020-03-15T12:30:00+01:00</updated><entry><title>Bildungsfern - ein Podcast</title><link href="https://blog.bakera.de/bildungsfern.html" rel="alternate"></link><published>2020-03-15T12:30:00+01:00</published><updated>2020-03-15T12:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2020-03-15:/bildungsfern.html</id><summary type="html">&lt;div class="figure"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2021-10-20T12:20:00+02:00</updated><entry><title>WLampe</title><link href="https://blog.bakera.de/wlampe.html" rel="alternate"></link><published>2021-10-20T12:20:00+02:00</published><updated>2021-10-20T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2021-10-20:/wlampe.html</id><summary type="html">&lt;img alt="Lampe beleuchtet" src="https://blog.bakera.de/images/2021/Lampe.png" style="width: 600px;" /&gt;
+&lt;p&gt;Man nehme: Eine Ikea-Lampe
+&lt;a class="reference external" href="https://www.ikea.com/de/de/p/vickleby-standleuchte-weiss-handarbeit-50430390/"&gt;Vickleby&lt;/a&gt;,
+einen ESP8266, einen Streifen WS2812b LEDs, etwas Kabelbinder und das Projekt
+&lt;a class="reference external" href="https://kno.wled.ge/"&gt;WLED&lt;/a&gt; für die Ansteuerung. Fertig ist eine schicke Lampe, die
+sich mit einer App oder verschiedene Protokolle (MQTT, UDP, DMX, ...) ansteuern lässt.&lt;/p&gt;
+&lt;p&gt;Das fertige Ergebnis kann man sich in einem Video bei
+&lt;a class="reference external" href="https://youtu.be/RV2hnFb_tM8"&gt;YouTube&lt;/a&gt; oder …&lt;/p&gt;</summary><content type="html">&lt;img alt="Lampe beleuchtet" src="https://blog.bakera.de/images/2021/Lampe.png" style="width: 600px;" /&gt;
+&lt;p&gt;Man nehme: Eine Ikea-Lampe
+&lt;a class="reference external" href="https://www.ikea.com/de/de/p/vickleby-standleuchte-weiss-handarbeit-50430390/"&gt;Vickleby&lt;/a&gt;,
+einen ESP8266, einen Streifen WS2812b LEDs, etwas Kabelbinder und das Projekt
+&lt;a class="reference external" href="https://kno.wled.ge/"&gt;WLED&lt;/a&gt; für die Ansteuerung. Fertig ist eine schicke Lampe, die
+sich mit einer App oder verschiedene Protokolle (MQTT, UDP, DMX, ...) ansteuern lässt.&lt;/p&gt;
+&lt;p&gt;Das fertige Ergebnis kann man sich in einem Video bei
+&lt;a class="reference external" href="https://youtu.be/RV2hnFb_tM8"&gt;YouTube&lt;/a&gt; oder
+&lt;a class="reference external" href="https://peertube.fidonet.io/videos/watch/ad40447e-a5ea-4656-8e65-bae389f4a226"&gt;Peertube&lt;/a&gt;
+ansehen.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RV2hnFb_tM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;p&gt;Die LEDs wurden stümperhaft mit etwas Kabelbinder an dem mittleren Metallstab
+befestigt:&lt;/p&gt;
+&lt;img alt="Blick in die Lampe" src="https://blog.bakera.de/images/2021/Lampe_1183.png" style="width: 400px;" /&gt;
+&lt;img alt="LEDs befestigt" src="https://blog.bakera.de/images/2021/Lampe_1184.png" style="width: 400px;" /&gt;
+&lt;p&gt;Im unteren Bereich befinden sich eigentlich eine Fassung und ein Netzstecker, die
+ich entfernen musste, da die Fassung Teil der Befestigung der unteren Konstruktion ist.&lt;/p&gt;
+&lt;img alt="Netzstecker entfernt" src="https://blog.bakera.de/images/2021/Lampe_1185.png" style="width: 600px;" /&gt;
+&lt;p&gt;Die Kabel der LEDs wurde mit einer Lüsterklemme mit ein paar Steckbrücken verbunden,
+die wiederum in einem ESP8266 stecken. Zwischen Masse und 5V steckt ein kleiner
+Kondensator. Die LEDs können beim Einschalten recht viel Strom ziehen und geben dem
+ESP dann ggf. nicht die Möglichkeit, zu starten.&lt;/p&gt;
+&lt;img alt="Lüsterklemme" src="https://blog.bakera.de/images/2021/Lampe_1186.png" style="width: 600px;" /&gt;
+&lt;p&gt;Die folgenden Bilder zeigen die recht simple Verdrahtung mit dem ESP8266. Wichtig ist
+hier nur Pin D4, der als Datenleitung die LEDs ansteuert. Wenn der ESP über die USB-Buchse
+betrieben wird, liegen an Vin 5V an, die für die LEDs genutzt werden können.&lt;/p&gt;
+&lt;img alt="ESP Unterseite" src="https://blog.bakera.de/images/2021/Lampe_1187.png" style="width: 400px;" /&gt;
+&lt;img alt="ESP Oberseite" src="https://blog.bakera.de/images/2021/Lampe_1188.png" style="width: 400px;" /&gt;
+&lt;p&gt;Der LED-Streifen verläuft einmal von unten nach oben und dann wieder nach unten. Um die
+beiden Stränge in der gleichen Richtung zu betreiben, werden sie in der Mitte geteilt und
+in WLED in zwei Segmente eingeteilt, wobei das zweite Segment in umgekehrter Reihenfolge
+konfiguriert wird.&lt;/p&gt;
+&lt;img alt="ein Bild" src="https://blog.bakera.de/images/2021/wlampe_settings.png" /&gt;
+&lt;p&gt;Die Einstellungen werden in dem Preset 16 gespeichert - nur dieses Preset speichert auch
+die Konfiguration der Segmente ab.&lt;/p&gt;
+&lt;p&gt;Als JSON-Export sieht die Konfiguration aus wie folgt:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+{
+&amp;quot;on&amp;quot;: true,
+&amp;quot;bri&amp;quot;: 128,
+&amp;quot;transition&amp;quot;: 7,
+&amp;quot;mainseg&amp;quot;: 0,
+&amp;quot;seg&amp;quot;: [
+    {
+    &amp;quot;id&amp;quot;: 0,
+    &amp;quot;start&amp;quot;: 0,
+    &amp;quot;stop&amp;quot;: 19,
+    &amp;quot;grp&amp;quot;: 1,
+    &amp;quot;spc&amp;quot;: 0,
+    &amp;quot;on&amp;quot;: true,
+    &amp;quot;bri&amp;quot;: 255,
+    &amp;quot;col&amp;quot;: [
+        [
+        255,
+        0,
+        0
+        ],
+        [
+        0,
+        0,
+        255
+        ],
+        [
+        8,
+        255,
+        0
+        ]
+    ],
+    &amp;quot;fx&amp;quot;: 66,
+    &amp;quot;sx&amp;quot;: 121,
+    &amp;quot;ix&amp;quot;: 125,
+    &amp;quot;pal&amp;quot;: 0,
+    &amp;quot;sel&amp;quot;: true,
+    &amp;quot;rev&amp;quot;: false,
+    &amp;quot;mi&amp;quot;: false
+    },
+    {
+    &amp;quot;id&amp;quot;: 1,
+    &amp;quot;start&amp;quot;: 19,
+    &amp;quot;stop&amp;quot;: 38,
+    &amp;quot;grp&amp;quot;: 1,
+    &amp;quot;spc&amp;quot;: 0,
+    &amp;quot;on&amp;quot;: true,
+    &amp;quot;bri&amp;quot;: 255,
+    &amp;quot;col&amp;quot;: [
+        [
+        255,
+        0,
+        0
+        ],
+        [
+        0,
+        0,
+        255
+        ],
+        [
+        8,
+        255,
+        0
+        ]
+    ],
+    &amp;quot;fx&amp;quot;: 66,
+    &amp;quot;sx&amp;quot;: 121,
+    &amp;quot;ix&amp;quot;: 125,
+    &amp;quot;pal&amp;quot;: 0,
+    &amp;quot;sel&amp;quot;: true,
+    &amp;quot;rev&amp;quot;: true,
+    &amp;quot;mi&amp;quot;: false
+    },
+    {
+    &amp;quot;stop&amp;quot;: 0
+    },
+    {
+    &amp;quot;stop&amp;quot;: 0
+    },
+    {
+    &amp;quot;stop&amp;quot;: 0
+    },
+    {
+    &amp;quot;stop&amp;quot;: 0
+    },
+    {
+    &amp;quot;stop&amp;quot;: 0
+    },
+    {
+    &amp;quot;stop&amp;quot;: 0
+    },
+    {
+    &amp;quot;stop&amp;quot;: 0
+    },
+    {
+    &amp;quot;stop&amp;quot;: 0
+    },
+    {
+    &amp;quot;stop&amp;quot;: 0
+    },
+    {
+    &amp;quot;stop&amp;quot;: 0
+    }
+]
+}
+&lt;/pre&gt;
+</content><category term="Sonstiges"></category><category term="esp8266"></category><category term="hacking"></category><category term="hardware"></category></entry><entry><title>Bildungsfern - ein Podcast</title><link href="https://blog.bakera.de/bildungsfern.html" rel="alternate"></link><published>2020-03-15T12:30:00+01:00</published><updated>2020-03-15T12:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2020-03-15:/bildungsfern.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Logo des Podcast" src="https://blog.bakera.de/images/2020/bildungsfern_logo.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;Nachdem am Freitag, dem 13.3.2020 der Schulbetrieb in weiten Teilen
@@ -1656,282 +1804,4 @@ Falle findet man die Videos auch bei
 &lt;a class="reference external" href="https://archive.org/details/python-funktionen"&gt;archive.org&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</content><category term="Sonstiges"></category><category term="Video"></category><category term="Programmierung"></category><category term="Python"></category><category term="Funktionen"></category><category term="Mathe"></category></entry><entry><title>Sammelsurium Februar – Mai</title><link href="https://blog.bakera.de/sammelsurium-februar-mai.html" rel="alternate"></link><published>2018-06-03T13:26:00+02:00</published><updated>2018-06-03T13:26:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-06-03:/sammelsurium-februar-mai.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/wwwSitzen2.png"&gt;&lt;img alt="cc: Freepik" class="size-full wp-image-1523" src="https://blog.bakera.de/images/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Interessante Einsichten aus vier Monaten.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tweets aus 2018-02&lt;/strong&gt;&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&amp;quot;Rpi ZWEI&amp;quot; ist #Chiptune Musik produziert von Yerzmyey mit dem
-#RaspberryPi
-&lt;a class="reference external" href="https://yerzmyey.bandcamp.com/album/rpi-zwei"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Edugit ist ein mächtiger Git-Server für den Bildungsbereich, der
-euren Datenschutz respektiert. Danke &amp;#64;teckids_eV
-&lt;a class="reference external" href="https://edugit.org"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Sind das die Folgen einer &amp;quot;Leistungsgesellschaft&amp;quot;?
-&lt;a class="reference external" href="https://twitter.com/Noelte030/status/966922926594260992"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Schönes neues Wort gelernt: emblematisch.
-&lt;a class="reference external" href="https://de.wiktionary.org/wiki/emblematisch"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PGP+WoT …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/wwwSitzen2.png"&gt;&lt;img alt="cc: Freepik" class="size-full wp-image-1523" src="https://blog.bakera.de/images/wwwSitzen2.png" style="width: 506px; height: 334px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Interessante Einsichten aus vier Monaten.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tweets aus 2018-02&lt;/strong&gt;&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&amp;quot;Rpi ZWEI&amp;quot; ist #Chiptune Musik produziert von Yerzmyey mit dem
-#RaspberryPi
-&lt;a class="reference external" href="https://yerzmyey.bandcamp.com/album/rpi-zwei"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Edugit ist ein mächtiger Git-Server für den Bildungsbereich, der
-euren Datenschutz respektiert. Danke &amp;#64;teckids_eV
-&lt;a class="reference external" href="https://edugit.org"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Sind das die Folgen einer &amp;quot;Leistungsgesellschaft&amp;quot;?
-&lt;a class="reference external" href="https://twitter.com/Noelte030/status/966922926594260992"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Schönes neues Wort gelernt: emblematisch.
-&lt;a class="reference external" href="https://de.wiktionary.org/wiki/emblematisch"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PGP+WoT, das soziale Netzwerk für Nerds.&lt;/li&gt;
-&lt;li&gt;media.ccc.de = Nerdflix &lt;a class="reference external" href="http://media.ccc.de"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Früher war ROT13 ein Standard-Feature eines jeden Mail-Clients. Heute
-habe ich es im Thunderbird vermisst.&lt;/li&gt;
-&lt;li&gt;Mit Schrecken stelle ich gerade fest, dass ich am 5. Juli schon 10
-Jahre bei Twitter bin. Und ich kann euch sagen: früher war alles[tm]
-besser. SCNR&lt;/li&gt;
-&lt;li&gt;Das HPI bietet einen Online-Kurs zum Thema/Buzzword &amp;quot;Embedded Smart
-Home&amp;quot; an - mit #RaspberryPi und vielen Sensoren. Das klingt auf jeden
-Fall spannend und ist auch für Externe kostenfrei.
-&lt;a class="reference external" href="https://open.hpi.de/courses/smarthome2017"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Glückwunsch an die Teams, die beim Hackvent letzten Jahres
-überdurchschnittliche Ergebnisse erzielt haben.
-&lt;a class="reference external" href="https://hacking-lab.com/export/sites/www.hacking-lab.com/references/hackvent2017/HACKvent-2017-Summary.pdf,https://twitter.com/pintman/status/965197619361468416/photo/1"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Früher hießen Tabs noch Bookmarks. Aber das ist vermutlich zu
-altmodisch.
-&lt;a class="reference external" href="https://twitter.com/lulu_cheng/status/964947708275343361"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;quot;For someone who grew up with a Commodore 64, learning to program was
-hard enough.&amp;nbsp; For someone growing up with a cloud-connected mobile
-device, it is much harder.&amp;quot;
-&lt;a class="reference external" href="https://twitter.com/AllenDowney/status/964549077173186562"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Außerdem toll, dass es freie Software nutzt.
-&lt;a class="reference external" href="https://twitter.com/180gradflip/status/964760631898501120"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Habe in dieser Woche gleich mehrere Klassen für CTF begeistern
-können. Noch ein paar Tage läuft derzeit der &amp;#64;easyctf Da geht aber
-sicher mehr.&lt;/li&gt;
-&lt;li&gt;Eine schöne Erklärung von CTF-Wettbewerben (ab 2:45)
-&lt;a class="reference external" href="https://youtu.be/5ODp886ZHTc"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;birdseye visualisiert Python-Code
-&lt;a class="reference external" href="https://github.com/alexmojaki/birdseye/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Hütehunde erkennt man an den Hüten.&lt;/li&gt;
-&lt;li&gt;Morgen ist wieder MiniGameJam in Dortmund. Sachen sind gepackt, die
-Ideen müssen morgen folgen. 🤗🚀
-&lt;a class="reference external" href="https://twitter.com/GameJamDortmund/status/918921869499293697"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;#formatinception
-&lt;a class="reference external" href="https://www.alchemistowl.org/pocorgtfo/pocorgtfo17.pdf,https://twitter.com/pintman/status/961255396064350208/photo/1"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;quot;International Journal of Proof-of-Concept or Get The Fuck Out&amp;quot; - POC
-|| GTFO. Wie gerne hätte ich darin ein Veröffentlichung.
-&lt;a class="reference external" href="https://www.alchemistowl.org/pocorgtfo/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Das passiert, wenn sich Lehrer IoT-Projekte ausdenken.
-&lt;a class="reference external" href="https://twitter.com/Bitkom_erlebeIT/status/955492529226571777"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Im Browser malen, das generierte Audio-Signal an ein Oszilloskop
-schicken und fertig ist das Malprogramm. Eine Analoguhr ist auch
-dabei. &lt;a class="reference external" href="https://neil.fraser.name/news/2018/01/25/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Bin dabei.
-&lt;a class="reference external" href="https://twitter.com/easyctf/status/960543841513287682"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Schöne Abbildung zur Umwandlung von Verzweigungen in Polymorphismus.
-&lt;a class="reference external" href="https://twitter.com/pintman/status/960250876123320321/photo/1"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wenn es schon keine Nixietube sein kann, dann wenigstens eine
-LIXIE-tube.
-&lt;a class="reference external" href="https://www.tindie.com/products/connornishijima/lixie-an-led-alternative-to-the-nixie-tube/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;So funktioniert E-Mail also tatsächlich.
-&lt;a class="reference external" href="http://fun.drno.de/pics/cartoons/english/how_email_really_works.jpg"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Schöne Halbjahreszeugnisferien. Bis Montag also.&lt;/li&gt;
-&lt;li&gt;Das könnte ein Kandidat für ein starkes Gegen-Narrativ sein.
-&lt;a class="reference external" href="https://twitter.com/nutellaberliner/status/958768736260980736"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Tweets aus 2018-03&lt;/strong&gt;&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;Soul-Crushing Meeting - Now your kids can suffer just like you!
-&lt;a class="reference external" href="http://fun.drno.de/pics/werbung/soul-crushing-meeting.jpg"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Sprachsynthese in 39 kB. Unter auch in einer Online-Demo.
-&lt;a class="reference external" href="https://github.com/s-macke/SAM,https://simulationcorner.net/index.php?page=sam"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Interessanter Gedanke: Gamer, woher wisst ihr, dass euer Rechner im
-Hintergrund kein Crypto-Mining macht?
-&lt;a class="reference external" href="http://blog.fefe.de/?ts=a4450459"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Es gibt Osterhasen und es gibt Osterhasen für Mädchen.
-&lt;a class="reference external" href="https://twitter.com/pintman/status/978862845126434818/photo/1"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;TheCatAPI: Wenn man mal was mit Web-Services macht und einen
-Demo-Service benötigt. &lt;a class="reference external" href="http://thecatapi.com/docs.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Der #CTF Hacky Easter ist gestartet.
-&lt;a class="reference external" href="https://twitter.com/HackyEaster/status/978210199248031746"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;quot;MintBox Mini 2&amp;quot; ist ein kleiner lüfterloser Mini-Desktop-Computer,
-der auf Linux Mint optimiert wurde. Ab Juni im Handel.
-&lt;a class="reference external" href="https://blog.linuxmint.com/?p=3528"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Die Umfrage von stackoverflow zeigtinteressante Einblicke:
-Meistgenutzte/beliebteste Plattform ist Linux, Raspi folgt wenige
-Plätze dahinter. Beliebte Programmiersprachen: Python auf Platz 3
-hinter Rust und Kotlin . Vim beliebtester Editor für SysAdmins.
-&lt;a class="reference external" href="https://insights.stackoverflow.com/survey/2018"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;A: &amp;quot;Hast du etwa etwas zu verbergen!?&amp;quot; B: &amp;quot;Aber natürlich!&amp;quot;
-#richtigeAntworten&lt;/li&gt;
-&lt;li&gt;Leider reicht das nicht. Eine kritische digitale Gesellschaft braucht
-mehr als nur Programmierer.
-&lt;a class="reference external" href="https://twitter.com/Bitkom_erlebeIT/status/975712182225825792"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Ich habe das etwas zu Automatisierung mit Gitlab verblogt.
-&lt;a class="reference external" href="https://blog.bakera.de/ci-cd-mit-gitlab.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Danke. Werde es dort probieren.&lt;/li&gt;
-&lt;li&gt;Wenn Schüler auf eigene Ideen kommen. #ITA
-&lt;a class="reference external" href="https://twitter.com/pintman/status/976490449971171333/photo/1"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;\o/ neuer &amp;quot;Stoff&amp;quot; vom #34C3.
-&lt;a class="reference external" href="https://twitter.com/ChaosWildWest/status/975008965154234368"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;quot;If you’re not paying for it, you are the product - Privacy-Bildung
-und die Rolle der Informatik&amp;quot; Viel zu selten bestimmt das Thema
-Privacy die Inhalte von Lehrerfortbildungen - selbst bei IT-affinen
-Veranstaltungen. Danke #itnrw18 dafür.
-&lt;a class="reference external" href="https://veranstaltungen.informatiktag-nrw.de/#WS17"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Am Montag geht es zum #itnrw18 nach Paderborn. \o/&lt;/li&gt;
-&lt;li&gt;&amp;quot;If you're reading this, you've been in a coma for almost 20 years
-now. We're trying a new technique. We don't know where this message
-will end up in your dream, but we hope it works. Please wake up, we
-miss you.&amp;quot; #HumanInjection
-&lt;a class="reference external" href="https://github.com/minimaxir/big-list-of-naughty-strings/blob/master/blns.txt"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Dortmund feiert 15 Jahre Chaos. \o/
-&lt;a class="reference external" href="https://www.chaostreff-dortmund.de/2018/03/01/dortmund-feiert-15-jahre-chaos/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;MiniGameJam #3 gebar die StarFeetAcademy
-&lt;a class="reference external" href="https://blog.bakera.de/minigamejam-3-gebar-die-starfeetacademy.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wann war Peak Twitter?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Tweets aus 2018-04&lt;/strong&gt;&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;Wieder ein Video für den Einstieg in Python. Diesmal geht es um die
-Berechnung von Nullstellen.
-&lt;a class="reference external" href="https://youtu.be/fUtne5Zx124"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Drei einfache Regeln für gutes Feedback.
-&lt;a class="reference external" href="https://twitter.com/WilkinsonJamesD/status/885852390506844160"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Britische Schüler können keine Analog-Uhren lesen. Daher werden sie
-in Prüfungssälen jetzt durch Digital-Uhren ersetzt.
-&lt;a class="reference external" href="https://www.telegraph.co.uk/education/2018/04/24/schools-removing-analogue-clocks-exam-halls-teenagers-unable/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Bilder von einer anderen Welt: #Rosetta
-&lt;a class="reference external" href="https://twitter.com/landru79/status/988490703075463168"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Diese &amp;quot;bionomischen&amp;quot; Formeln kannte ich noch nicht. Muss ich mir mal
-anschauen. &lt;a class="reference external" href="https://youtu.be/UL3-Wa14Zp0"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Die Lächerlichkeit von Versionsnummern.
-&lt;a class="reference external" href="https://twitter.com/schb/status/989825124101709824"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;IT Tech Support. &lt;a class="reference external" href="https://youtu.be/rksCTVFtjM4"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Die Zuckerberg Anhörung mit interessanten neuen Einsichten.
-&lt;a class="reference external" href="https://youtu.be/_zCDvOsdL9Q"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Im Theater gewesen. Gelacht und gestaunt.
-&lt;a class="reference external" href="https://twitter.com/pintman/status/987572562157821952/photo/1"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Habt ihr einen wissenschaftlichen Beleg für die Wirksamkeit von
-Homöopathie entdeckt, &amp;#64;aok_plus ?
-&lt;a class="reference external" href="https://twitter.com/aok_plus/status/986897914508333056"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Buttgereit ist heute in Dortmund.
-&lt;a class="reference external" href="https://mobile.theaterdo.de/detail/event/18941/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;KI ist doch noch nicht so weit.
-&lt;a class="reference external" href="https://twitter.com/ojahnn/status/986590116423626752"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Das muss diese Cyberwehr sein.
-&lt;a class="reference external" href="https://twitter.com/polizei_nrw_bo/status/986843527211634688"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Alan Turing gastiert derzeit im Bochumer Hbf.
-&lt;a class="reference external" href="https://twitter.com/pintman/status/986846314502721536/photo/1"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Facebook sammelt auch Daten über Nutzer, die kein Profil bei Facebook
-haben.
-&lt;a class="reference external" href="https://techcrunch.com/2018/04/11/facebook-shadow-profiles-hearing-lujan-zuckerberg/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;piwheels ist ein alternatives Repository für pip, wenn man ein
-kompiliertes Paket für ARM-Architekturen braucht - z.B. für den
-Raspberry PI - und nicht so lange auf das Kompilieren warten möchte.
-&lt;a class="reference external" href="https://www.piwheels.hostedpi.com/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;quot;mythic beasts&amp;quot; bietet Hosting auf der Basis von Raspberry Pi2.
-&lt;a class="reference external" href="https://www.mythic-beasts.com/order/rpi"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mit TriggerHappy lässt sich ein Raspberry Pi in headless Betrieb mit
-einem Mausklick herunterfahren.
-&lt;a class="reference external" href="https://hackernoon.com/shut-down-your-raspberry-pi-the-easy-way-9c7be0b4fff8"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mit Alt+SysRequest+REISUB lässt sich manches hängende Linux rebooten,
-auch ein Raspberry Pi.
-&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Magic_SysRq_key"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Schöne grafische Zusammenfassung von Linux Dateirechten.
-&lt;a class="reference external" href="https://twitter.com/b0rk/status/982641594305273856"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;AdminZen mit vielen guten, kurzen, prägnanten Regeln, nicht nur für
-Admins. &lt;a class="reference external" href="https://adminzen.org/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;flip flap flop &lt;a class="reference external" href="https://youtu.be/a97wuYli1_Q"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Luxemburg hat jetzt auch einen Mini Computer für die Schule mit dem
-schwierigen Namen KNIWWELINO. Er basiert auf einem ESP8266 und ist ab
-12 € zu haben. &lt;a class="reference external" href="http://www.kniwwelino.lu/en/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;quot;Perfect Home Automation&amp;quot; ist schon etwas älter, fasst aber wichtige
-Ideen zu Heim-Automatisierung und Smartphone gut zusammen.
-&lt;a class="reference external" href="https://www.home-assistant.io/blog/2016/01/19/perfect-home-automation/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Ein Simulator für Quantencomputer, der mit einer Blocksprache
-programmiert werden kann. &lt;a class="reference external" href="http://algassert.com/quirk"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;quot;System designers have become expert at manufacturing consent &amp;quot;
-Richard Stallaman
-&lt;a class="reference external" href="https://www.theguardian.com/commentisfree/2018/apr/03/facebook-abusing-data-law-privacy-big-tech-surveillance"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Tweets aus 2018-05&lt;/strong&gt;&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;Pixelflut ist ein tolles Projekt, bei dem man mit mehreren Personen
-gemeinsam eine Beamerfläche programmieren kann. Hier eine kurze
-Erklärung per Video. &amp;#64;ccc_goe
-&lt;a class="reference external" href="https://youtu.be/znQGIrJE2ow"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Dark Patterns beschreibt, wie man ethisch fragliche Software
-entwickelt.
-&lt;a class="reference external" href="https://darkpatterns.org/types-of-dark-pattern"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Nächster &amp;#64;GameJamDortmund am 04. August.
-&lt;a class="reference external" href="https://twitter.com/GameJamDortmund/status/1000675648971657216"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Diese Software kann Spuren von Algorithmen enthalten.
-&lt;a class="reference external" href="https://twitter.com/tlangkabel/status/999910437335351297"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Ich würde mir mehr dieser Blicke auf die Schattenseiten moderner
-IT-Konzerne wünschen.
-&lt;a class="reference external" href="https://twitter.com/pintman/status/1000291660406951936/photo/1"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;So unrealistisch können gut gemeinte Matheaufgaben sein.
-&lt;a class="reference external" href="https://twitter.com/ixsi/status/999563795864354821"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Hier ein Link zu einer Twitter-Ansicht wir sie sein sollte.
-&lt;a class="reference external" href="https://twitter.com/waxpancake/status/999704968524324864"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Schöne Zusammenstellung unterschiedlicher Zustimmungen zur DSGVO.
-&lt;a class="reference external" href="https://twitter.com/ChristophKappes/status/999203261172387840"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Interessante Diskussion.
-&lt;a class="reference external" href="https://twitter.com/Leaving_Orbit/status/999571764459065345"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Word macht beim Start 31 Netzwerkverbindungen auf.
-&lt;a class="reference external" href="https://twitter.com/frank_rieger/status/999319383917957121"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;In einem neuen Video erkläre ich, default-Parameter bei
-Python-Funktionen/Methoden
-&lt;a class="reference external" href="https://youtu.be/c8ih2nW-SCI"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Schöne Herausforderungen nicht nur für Python Programmierer.
-&lt;a class="reference external" href="http://www.pythonchallenge.com/"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Natürlich ist Unix/Linux benutzerfreundlich. Nur nicht für alle.
-&lt;a class="reference external" href="https://twitter.com/Souvir/status/992744521468432384"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Neues Video: Python Programme lassen sich mit assert-Anweisungen und
-Komponententests mit dem unittest-Modul testen | Python-Programme
-testen (assert, unittest) &lt;a class="reference external" href="https://youtu.be/FVT1yGQJF2s"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Ich habe einen Synthesizer gebaut. #Krach #Spaß
-&lt;a class="reference external" href="https://youtu.be/nQmzXENCyoQ"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lambda-Ausdrücke und anonyme Funktionen in Python | Das Thema hört
-sich komplizierter an als es ist. Ich versuche, es in einem kleinen
-Video zu erklären. &lt;a class="reference external" href="https://youtu.be/TRQZN6gR62E"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PGP ist wohl doch nicht so kaputt wie angenommen. HTML in Mails mit
-verlinkten Inhalten dagegen schon - wie schon länger.
-&lt;a class="reference external" href="https://lists.gnupg.org/pipermail/gnupg-users/2018-May/060315.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PGP im Moment besser ausschalten, rät die EFF. Details werden morgen
-veröffentlicht.
-&lt;a class="reference external" href="https://twitter.com/golem/status/995932029014376449"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wenn ich Spamer wäre, würde ich jetzt Mails mit Informationen zu
-Anpassungen bzgl. der #DSGVO verschicken und einen bösen
-Bestätigungslink einbauen.&lt;/li&gt;
-&lt;li&gt;4.6.-8.6.: Tresen-Filmfestival in Dortmund. (save the date)
-&lt;a class="reference external" href="http://dtff.de/das-festival.html"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Im August geht es weiter mit dem &amp;#64;GameJamDortmund
-&lt;a class="reference external" href="https://twitter.com/GameJamDortmund/status/995549822609391616"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Programmierer legen ja gerne ihre Tasten auf die richtigen
-Positionen: Ich habe mal die Compose-Taste auf die Menü- und CTRL auf
-Caps-Lock umgelegt (in ~/.profile): setxkbmap -option &amp;quot;compose:menu&amp;quot;
--option &amp;quot;caps:ctrl_modifier&amp;quot;&lt;/li&gt;
-&lt;li&gt;Vim ist auch bei den BWLern agenkommen.
-&lt;a class="reference external" href="https://twitter.com/pintman/status/995215197064318976/photo/1"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;quot;Wer sein Publikum unterfordert verliert es schneller als der, der es
-überfordert.&amp;quot; - frei nach Hans Jessen.&lt;/li&gt;
-&lt;li&gt;Klassen und Objekte sind die Grundlage der Objeckt-Orientierten
-Programmierung (kurz OOP). In dem Video zeige ich, wie aus einer
-Implementierung mit Python-Funktionen eine Implementierung mit
-Klassen und Objekten entsteht.
-&lt;a class="reference external" href="https://youtu.be/8L1yR_o7_IU"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Apple Laptop lädt sich selbst auf.
-&lt;a class="reference external" href="https://twitter.com/chancancode/status/992529084025528320"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Visualisierung verschiedener AGBs von Messengern.
-&lt;a class="reference external" href="https://twitter.com/hailmika/status/992391607302451200"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Ich habe da ein Video gemacht, das zeigt, wie man Funktionen mit
-Python und matplotlib zeichnen kann - inkl. &amp;quot;list comprehension&amp;quot;
-&lt;a class="reference external" href="https://youtu.be/yfUfnitZeyQ"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;#Mehr #Hashtag #geht #nicht.
-&lt;a class="reference external" href="https://twitter.com/TFConsult/status/991406221692424192"&gt;[Quelle]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content><category term="Sonstiges"></category><category term="Linkliste"></category></entry></feed>
+</content><category term="Sonstiges"></category><category term="Video"></category><category term="Programmierung"></category><category term="Python"></category><category term="Funktionen"></category><category term="Mathe"></category></entry></feed>
