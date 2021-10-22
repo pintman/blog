@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="de" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>WLampe - /home/bakera/blog</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="https://blog.bakera.de/wlampe.html">
+
+        <meta name="author" content="marco.bakera" />
+        <meta name="keywords" content="esp8266,hacking,hardware" />
+        <meta name="description" content="Man nehme: Eine Ikea-Lampe Vickleby, einen ESP8266, einen Streifen WS2812b LEDs, etwas Kabelbinder und das Projekt WLED für die Ansteuerung. Fertig ist eine schicke Lampe, die sich mit einer App oder verschiedene Protokolle (MQTT, UDP, DMX, ...) ansteuern lässt. Das fertige Ergebnis kann man sich in einem Video bei YouTube oder …" />
+
+        <meta property="og:site_name" content="/home/bakera/blog" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="WLampe"/>
+        <meta property="og:url" content="https://blog.bakera.de/wlampe.html"/>
+        <meta property="og:description" content="Man nehme: Eine Ikea-Lampe Vickleby, einen ESP8266, einen Streifen WS2812b LEDs, etwas Kabelbinder und das Projekt WLED für die Ansteuerung. Fertig ist eine schicke Lampe, die sich mit einer App oder verschiedene Protokolle (MQTT, UDP, DMX, ...) ansteuern lässt. Das fertige Ergebnis kann man sich in einem Video bei YouTube oder …"/>
+        <meta property="article:published_time" content="2021-10-20" />
+            <meta property="article:section" content="Sonstiges" />
+            <meta property="article:tag" content="esp8266" />
+            <meta property="article:tag" content="hacking" />
+            <meta property="article:tag" content="hardware" />
+            <meta property="article:author" content="marco.bakera" />
+
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://blog.bakera.de/theme/css/bootstrap.cerulean.min.css" type="text/css"/>
+    <link href="https://blog.bakera.de/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://blog.bakera.de/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="https://blog.bakera.de/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://blog.bakera.de/theme/css/style.css" type="text/css"/>
+        <link href="https://blog.bakera.de/static/css/custom.css" rel="stylesheet">
+
+        <link href="https://blog.bakera.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="/home/bakera/blog ATOM Feed"/>
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://blog.bakera.de/" class="navbar-brand">
+/home/bakera/blog            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="https://blog.bakera.de/pages/impressum.html">
+                             Impressum, Datenschutz
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/wiki.html">
+                             Wiki
+                          </a></li>
+                         <li><a href="https://blog.bakera.de/pages/about.html">
+                             Über
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="/search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+
+<!-- Banner -->
+<!-- End Banner -->
+
+<!-- Content Container -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="https://blog.bakera.de/wlampe.html"
+                       rel="bookmark"
+                       title="Permalink to WLampe">
+                        WLampe
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2021-10-20T12:20:00+02:00"> Mi 20 Oktober 2021</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="https://blog.bakera.de/tag/esp8266.html">esp8266</a>
+        /
+	<a href="https://blog.bakera.de/tag/hacking.html">hacking</a>
+        /
+	<a href="https://blog.bakera.de/tag/hardware.html">hardware</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <img alt="Lampe beleuchtet" src="https://blog.bakera.de/images/2021/Lampe.png" style="width: 600px;" />
+<p>Man nehme: Eine Ikea-Lampe
+<a class="reference external" href="https://www.ikea.com/de/de/p/vickleby-standleuchte-weiss-handarbeit-50430390/">Vickleby</a>,
+einen ESP8266, einen Streifen WS2812b LEDs, etwas Kabelbinder und das Projekt
+<a class="reference external" href="https://kno.wled.ge/">WLED</a> für die Ansteuerung. Fertig ist eine schicke Lampe, die
+sich mit einer App oder verschiedene Protokolle (MQTT, UDP, DMX, ...) ansteuern lässt.</p>
+<p>Das fertige Ergebnis kann man sich in einem Video bei
+<a class="reference external" href="https://youtu.be/RV2hnFb_tM8">YouTube</a> oder
+<a class="reference external" href="https://peertube.fidonet.io/videos/watch/ad40447e-a5ea-4656-8e65-bae389f4a226">Peertube</a>
+ansehen.</p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RV2hnFb_tM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Die LEDs wurden stümperhaft mit etwas Kabelbinder an dem mittleren Metallstab
+befestigt:</p>
+<img alt="Blick in die Lampe" src="https://blog.bakera.de/images/2021/Lampe_1183.png" style="width: 400px;" />
+<img alt="LEDs befestigt" src="https://blog.bakera.de/images/2021/Lampe_1184.png" style="width: 400px;" />
+<p>Im unteren Bereich befinden sich eigentlich eine Fassung und ein Netzstecker, die
+ich entfernen musste, da die Fassung Teil der Befestigung der unteren Konstruktion ist.</p>
+<img alt="Netzstecker entfernt" src="https://blog.bakera.de/images/2021/Lampe_1185.png" style="width: 600px;" />
+<p>Die Kabel der LEDs wurde mit einer Lüsterklemme mit ein paar Steckbrücken verbunden,
+die wiederum in einem ESP8266 stecken. Zwischen Masse und 5V steckt ein kleiner
+Kondensator. Die LEDs können beim Einschalten recht viel Strom ziehen und geben dem
+ESP dann ggf. nicht die Möglichkeit, zu starten.</p>
+<img alt="Lüsterklemme" src="https://blog.bakera.de/images/2021/Lampe_1186.png" style="width: 600px;" />
+<p>Die folgenden Bilder zeigen die recht simple Verdrahtung mit dem ESP8266. Wichtig ist
+hier nur Pin D4, der als Datenleitung die LEDs ansteuert. Wenn der ESP über die USB-Buchse
+betrieben wird, liegen an Vin 5V an, die für die LEDs genutzt werden können.</p>
+<img alt="ESP Unterseite" src="https://blog.bakera.de/images/2021/Lampe_1187.png" style="width: 400px;" />
+<img alt="ESP Oberseite" src="https://blog.bakera.de/images/2021/Lampe_1188.png" style="width: 400px;" />
+<p>Der LED-Streifen verläuft einmal von unten nach oben und dann wieder nach unten. Um die
+beiden Stränge in der gleichen Richtung zu betreiben, werden sie in der Mitte geteilt und
+in WLED in zwei Segmente eingeteilt, wobei das zweite Segment in umgekehrter Reihenfolge
+konfiguriert wird.</p>
+<img alt="ein Bild" src="https://blog.bakera.de/images/2021/wlampe_settings.png" />
+<p>Die Einstellungen werden in dem Preset 16 gespeichert - nur dieses Preset speichert auch
+die Konfiguration der Segmente ab.</p>
+<p>Als JSON-Export sieht die Konfiguration aus wie folgt:</p>
+<pre class="literal-block">
+{
+&quot;on&quot;: true,
+&quot;bri&quot;: 128,
+&quot;transition&quot;: 7,
+&quot;mainseg&quot;: 0,
+&quot;seg&quot;: [
+    {
+    &quot;id&quot;: 0,
+    &quot;start&quot;: 0,
+    &quot;stop&quot;: 19,
+    &quot;grp&quot;: 1,
+    &quot;spc&quot;: 0,
+    &quot;on&quot;: true,
+    &quot;bri&quot;: 255,
+    &quot;col&quot;: [
+        [
+        255,
+        0,
+        0
+        ],
+        [
+        0,
+        0,
+        255
+        ],
+        [
+        8,
+        255,
+        0
+        ]
+    ],
+    &quot;fx&quot;: 66,
+    &quot;sx&quot;: 121,
+    &quot;ix&quot;: 125,
+    &quot;pal&quot;: 0,
+    &quot;sel&quot;: true,
+    &quot;rev&quot;: false,
+    &quot;mi&quot;: false
+    },
+    {
+    &quot;id&quot;: 1,
+    &quot;start&quot;: 19,
+    &quot;stop&quot;: 38,
+    &quot;grp&quot;: 1,
+    &quot;spc&quot;: 0,
+    &quot;on&quot;: true,
+    &quot;bri&quot;: 255,
+    &quot;col&quot;: [
+        [
+        255,
+        0,
+        0
+        ],
+        [
+        0,
+        0,
+        255
+        ],
+        [
+        8,
+        255,
+        0
+        ]
+    ],
+    &quot;fx&quot;: 66,
+    &quot;sx&quot;: 121,
+    &quot;ix&quot;: 125,
+    &quot;pal&quot;: 0,
+    &quot;sel&quot;: true,
+    &quot;rev&quot;: true,
+    &quot;mi&quot;: false
+    },
+    {
+    &quot;stop&quot;: 0
+    },
+    {
+    &quot;stop&quot;: 0
+    },
+    {
+    &quot;stop&quot;: 0
+    },
+    {
+    &quot;stop&quot;: 0
+    },
+    {
+    &quot;stop&quot;: 0
+    },
+    {
+    &quot;stop&quot;: 0
+    },
+    {
+    &quot;stop&quot;: 0
+    },
+    {
+    &quot;stop&quot;: 0
+    },
+    {
+    &quot;stop&quot;: 0
+    },
+    {
+    &quot;stop&quot;: 0
+    }
+]
+}
+</pre>
+
+            </div>
+            <!-- /.entry-content -->
+            	
+	
+	
+
+            
+        </article>
+    </section>
+    <script data-isso="https://comments.0xabc.de/"
+    data-isso-reply-notifications="true"
+    src="https://comments.0xabc.de/js/embed.min.js">
+    </script>
+    <section id="isso-thread"></section>
+
+        </div>
+    </div>
+</div>
+<!-- End Content Container -->
+
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2021 Marco Bakera
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="https://blog.bakera.de/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://blog.bakera.de/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="https://blog.bakera.de/theme/js/respond.min.js"></script>
+
+
+
+
+</body>
+</html>
