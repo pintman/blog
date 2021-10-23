@@ -13,13 +13,13 @@
 
         <meta name="author" content="marco.bakera" />
         <meta name="keywords" content="esp8266,hacking,hardware" />
-        <meta name="description" content="Man nehme: Eine Ikea-Lampe Vickleby, einen ESP8266, einen Streifen WS2812b LEDs, etwas Kabelbinder und das Projekt WLED für die Ansteuerung. Fertig ist eine schicke Lampe, die sich mit einer App oder verschiedene Protokolle (MQTT, UDP, DMX, ...) ansteuern lässt. Das fertige Ergebnis kann man sich in einem Video bei YouTube oder …" />
+        <meta name="description" content="Man nehme: Eine Ikea-Lampe Vickleby, einen ESP8266, einen Streifen WS2812b LEDs, etwas Kabelbinder und das Projekt WLED für die Ansteuerung. Fertig ist eine schicke Lampe, die sich mit einer App oder über verschiedene Protokolle (MQTT, UDP, DMX, ...) ansteuern lässt. Das fertige Ergebnis kann man sich in einem Video bei YouTube …" />
 
         <meta property="og:site_name" content="/home/bakera/blog" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="WLampe"/>
         <meta property="og:url" content="https://blog.bakera.de/wlampe.html"/>
-        <meta property="og:description" content="Man nehme: Eine Ikea-Lampe Vickleby, einen ESP8266, einen Streifen WS2812b LEDs, etwas Kabelbinder und das Projekt WLED für die Ansteuerung. Fertig ist eine schicke Lampe, die sich mit einer App oder verschiedene Protokolle (MQTT, UDP, DMX, ...) ansteuern lässt. Das fertige Ergebnis kann man sich in einem Video bei YouTube oder …"/>
+        <meta property="og:description" content="Man nehme: Eine Ikea-Lampe Vickleby, einen ESP8266, einen Streifen WS2812b LEDs, etwas Kabelbinder und das Projekt WLED für die Ansteuerung. Fertig ist eine schicke Lampe, die sich mit einer App oder über verschiedene Protokolle (MQTT, UDP, DMX, ...) ansteuern lässt. Das fertige Ergebnis kann man sich in einem Video bei YouTube …"/>
         <meta property="article:published_time" content="2021-10-20" />
             <meta property="article:section" content="Sonstiges" />
             <meta property="article:tag" content="esp8266" />
@@ -126,7 +126,7 @@
 <a class="reference external" href="https://www.ikea.com/de/de/p/vickleby-standleuchte-weiss-handarbeit-50430390/">Vickleby</a>,
 einen ESP8266, einen Streifen WS2812b LEDs, etwas Kabelbinder und das Projekt
 <a class="reference external" href="https://kno.wled.ge/">WLED</a> für die Ansteuerung. Fertig ist eine schicke Lampe, die
-sich mit einer App oder verschiedene Protokolle (MQTT, UDP, DMX, ...) ansteuern lässt.</p>
+sich mit einer App oder über verschiedene Protokolle (MQTT, UDP, DMX, ...) ansteuern lässt.</p>
 <p>Das fertige Ergebnis kann man sich in einem Video bei
 <a class="reference external" href="https://youtu.be/RV2hnFb_tM8">YouTube</a> oder
 <a class="reference external" href="https://peertube.fidonet.io/videos/watch/ad40447e-a5ea-4656-8e65-bae389f4a226">Peertube</a>
@@ -138,14 +138,17 @@ befestigt:</p>
 <p>Im unteren Bereich befinden sich eigentlich eine Fassung und ein Netzstecker, die
 ich entfernen musste, da die Fassung Teil der Befestigung der unteren Konstruktion ist.</p>
 <img alt="Netzstecker entfernt" src="https://blog.bakera.de/images/2021/Lampe_1185.png" style="width: 600px;" />
-<p>Die Kabel der LEDs wurde mit einer Lüsterklemme mit ein paar Steckbrücken verbunden,
+<p>Die Kabel der LEDs wurden über eine Lüsterklemme mit ein paar Steckbrücken verbunden,
 die wiederum in einem ESP8266 stecken. Zwischen Masse und 5V steckt ein kleiner
 Kondensator. Die LEDs können beim Einschalten recht viel Strom ziehen und geben dem
 ESP dann ggf. nicht die Möglichkeit, zu starten.</p>
 <img alt="Lüsterklemme" src="https://blog.bakera.de/images/2021/Lampe_1186.png" style="width: 600px;" />
 <p>Die folgenden Bilder zeigen die recht simple Verdrahtung mit dem ESP8266. Wichtig ist
-hier nur Pin D4, der als Datenleitung die LEDs ansteuert. Wenn der ESP über die USB-Buchse
-betrieben wird, liegen an Vin 5V an, die für die LEDs genutzt werden können.</p>
+hier nur Pin D4, der als Datenleitung die LEDs ansteuert. Eigentlich mögen die LEDs
+5V und man könnte daher zusätzlich einen Level-Shifter einbauen (die Projektseite von
+WLED stellt unterschiedliche Bauteile vor), bei mir klappte es jedoch auch so.</p>
+<p>Wenn der ESP über die USB-Buchse betrieben wird, liegen an Vin 5V an, die für die LEDs
+genutzt werden können.</p>
 <img alt="ESP Unterseite" src="https://blog.bakera.de/images/2021/Lampe_1187.png" style="width: 400px;" />
 <img alt="ESP Oberseite" src="https://blog.bakera.de/images/2021/Lampe_1188.png" style="width: 400px;" />
 <p>Der LED-Streifen verläuft einmal von unten nach oben und dann wieder nach unten. Um die
