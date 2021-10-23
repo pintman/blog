@@ -14,7 +14,7 @@ Man nehme: Eine Ikea-Lampe
 `Vickleby <https://www.ikea.com/de/de/p/vickleby-standleuchte-weiss-handarbeit-50430390/>`_,
 einen ESP8266, einen Streifen WS2812b LEDs, etwas Kabelbinder und das Projekt 
 `WLED <https://kno.wled.ge/>`_ für die Ansteuerung. Fertig ist eine schicke Lampe, die 
-sich mit einer App oder verschiedene Protokolle (MQTT, UDP, DMX, ...) ansteuern lässt.
+sich mit einer App oder über verschiedene Protokolle (MQTT, UDP, DMX, ...) ansteuern lässt.
 
 Das fertige Ergebnis kann man sich in einem Video bei
 `YouTube <https://youtu.be/RV2hnFb_tM8>`_ oder
@@ -44,7 +44,7 @@ ich entfernen musste, da die Fassung Teil der Befestigung der unteren Konstrukti
    :alt: Netzstecker entfernt
    :width: 600
 
-Die Kabel der LEDs wurde mit einer Lüsterklemme mit ein paar Steckbrücken verbunden,
+Die Kabel der LEDs wurden über eine Lüsterklemme mit ein paar Steckbrücken verbunden,
 die wiederum in einem ESP8266 stecken. Zwischen Masse und 5V steckt ein kleiner 
 Kondensator. Die LEDs können beim Einschalten recht viel Strom ziehen und geben dem
 ESP dann ggf. nicht die Möglichkeit, zu starten.
@@ -54,8 +54,12 @@ ESP dann ggf. nicht die Möglichkeit, zu starten.
    :width: 600
 
 Die folgenden Bilder zeigen die recht simple Verdrahtung mit dem ESP8266. Wichtig ist 
-hier nur Pin D4, der als Datenleitung die LEDs ansteuert. Wenn der ESP über die USB-Buchse
-betrieben wird, liegen an Vin 5V an, die für die LEDs genutzt werden können.
+hier nur Pin D4, der als Datenleitung die LEDs ansteuert. Eigentlich mögen die LEDs 
+5V und man könnte daher zusätzlich einen Level-Shifter einbauen (die Projektseite von 
+WLED stellt unterschiedliche Bauteile vor), bei mir klappte es jedoch auch so.
+
+Wenn der ESP über die USB-Buchse betrieben wird, liegen an Vin 5V an, die für die LEDs 
+genutzt werden können.
 
 .. image:: {static}images/2021/Lampe_1187.png
    :alt: ESP Unterseite
