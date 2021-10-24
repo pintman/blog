@@ -100,21 +100,9 @@ Als JSON-Export sieht die Konfiguration aus wie folgt:
         "on": true,
         "bri": 255,
         "col": [
-            [
-            255,
-            0,
-            0
-            ],
-            [
-            0,
-            0,
-            255
-            ],
-            [
-            8,
-            255,
-            0
-            ]
+            [255, 0, 0 ],
+            [0, 0, 255],
+            [8, 255, 0]
         ],
         "fx": 66,
         "sx": 121,
@@ -133,21 +121,9 @@ Als JSON-Export sieht die Konfiguration aus wie folgt:
         "on": true,
         "bri": 255,
         "col": [
-            [
-            255,
-            0,
-            0
-            ],
-            [
-            0,
-            0,
-            255
-            ],
-            [
-            8,
-            255,
-            0
-            ]
+            [255, 0, 0],
+            [0, 0, 255],
+            [8, 255, 0 ]
         ],
         "fx": 66,
         "sx": 121,
@@ -157,36 +133,16 @@ Als JSON-Export sieht die Konfiguration aus wie folgt:
         "rev": true,
         "mi": false
         },
-        {
-        "stop": 0
-        },
-        {
-        "stop": 0
-        },
-        {
-        "stop": 0
-        },
-        {
-        "stop": 0
-        },
-        {
-        "stop": 0
-        },
-        {
-        "stop": 0
-        },
-        {
-        "stop": 0
-        },
-        {
-        "stop": 0
-        },
-        {
-        "stop": 0
-        },
-        {
-        "stop": 0
-        }
+        { "stop": 0 },
+        { "stop": 0 },
+        { "stop": 0 },
+        { "stop": 0 },
+        { "stop": 0 },
+        { "stop": 0 },
+        { "stop": 0 },
+        { "stop": 0 },
+        { "stop": 0 },
+        { "stop": 0 }
     ]
     }
 
