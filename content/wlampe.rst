@@ -190,3 +190,39 @@ Als JSON-Export sieht die Konfiguration aus wie folgt:
     ]
     }
 
+
+Die Lampe kann mit verschiedenen Protokollen angesprochen werden.
+Das folgende Beispiel zeigt ein Python-Programm, welches eine sehr 
+direkte Steuerung der einzelnen LEDs über ein eigenes UDP basiertes
+`Protokoll <https://kno.wled.ge/interfaces/udp-realtime/#udp-realtime>`_ 
+erlaubt.
+
+.. code-block:: python
+
+   import socket
+
+   API_ENDPOINT = ('192.168.179.15', 21324)
+   NUM_LEDS = 50
+
+   # Byte 0 of the UDP packet tells the server which realtime protocol to use.
+   PROTO_WARLS = 1  # WARLS
+   PROTO_DRGB = 2   # DRGB
+   PROTO_DRGBW = 4  # DRGBW
+   PROTO_DNRGB = 3  # DNRGB
+   PROTO_WLED_NOTIFIER = 0
+   PROTO_WAIT_TIME = 50 # seconds
+
+   sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+   pos = 0
+
+   while True:
+      data = [PROTO_WARLS, PROTO_WAIT_TIME]
+      for i in range(NUM_LEDS):
+         data.append(i)
+
+         data.append(2*i) # red
+         data.append(255-2*i) # green
+         data.append(255 if i==pos else 0) # blue
+
+      sock.sendto(bytes(data), API_ENDPOINT)
+      pos = (pos  + 1) % NUM_LEDS
