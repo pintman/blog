@@ -265,6 +265,39 @@ die Konfiguration der Segmente ab.</p>
 ]
 }
 </pre>
+<p>Die Lampe kann mit verschiedenen Protokollen angesprochen werden.
+Das folgende Beispiel zeigt ein Python-Programm, welches eine sehr
+direkte Steuerung der einzelnen LEDs über ein eigenes UDP basiertes
+<a class="reference external" href="https://kno.wled.ge/interfaces/udp-realtime/#udp-realtime">Protokoll</a>
+erlaubt.</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">socket</span>
+
+<span class="n">API_ENDPOINT</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;192.168.179.15&#39;</span><span class="p">,</span> <span class="mi">21324</span><span class="p">)</span>
+<span class="n">NUM_LEDS</span> <span class="o">=</span> <span class="mi">50</span>
+
+<span class="c1"># Byte 0 of the UDP packet tells the server which realtime protocol to use.</span>
+<span class="n">PROTO_WARLS</span> <span class="o">=</span> <span class="mi">1</span>  <span class="c1"># WARLS</span>
+<span class="n">PROTO_DRGB</span> <span class="o">=</span> <span class="mi">2</span>   <span class="c1"># DRGB</span>
+<span class="n">PROTO_DRGBW</span> <span class="o">=</span> <span class="mi">4</span>  <span class="c1"># DRGBW</span>
+<span class="n">PROTO_DNRGB</span> <span class="o">=</span> <span class="mi">3</span>  <span class="c1"># DNRGB</span>
+<span class="n">PROTO_WLED_NOTIFIER</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">PROTO_WAIT_TIME</span> <span class="o">=</span> <span class="mi">50</span> <span class="c1"># seconds</span>
+
+<span class="n">sock</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">socket</span><span class="o">.</span><span class="n">AF_INET</span><span class="p">,</span> <span class="n">socket</span><span class="o">.</span><span class="n">SOCK_DGRAM</span><span class="p">)</span>
+<span class="n">pos</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+   <span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">PROTO_WARLS</span><span class="p">,</span> <span class="n">PROTO_WAIT_TIME</span><span class="p">]</span>
+   <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">NUM_LEDS</span><span class="p">):</span>
+      <span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+
+      <span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">i</span><span class="p">)</span> <span class="c1"># red</span>
+      <span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">255</span><span class="o">-</span><span class="mi">2</span><span class="o">*</span><span class="n">i</span><span class="p">)</span> <span class="c1"># green</span>
+      <span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">255</span> <span class="k">if</span> <span class="n">i</span><span class="o">==</span><span class="n">pos</span> <span class="k">else</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># blue</span>
+
+   <span class="n">sock</span><span class="o">.</span><span class="n">sendto</span><span class="p">(</span><span class="nb">bytes</span><span class="p">(</span><span class="n">data</span><span class="p">),</span> <span class="n">API_ENDPOINT</span><span class="p">)</span>
+   <span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="n">pos</span>  <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">%</span> <span class="n">NUM_LEDS</span>
+</pre></div>
 
             </div>
             <!-- /.entry-content -->
