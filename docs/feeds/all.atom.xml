@@ -60,21 +60,9 @@ die Konfiguration der Segmente ab.&lt;/p&gt;
     &amp;quot;on&amp;quot;: true,
     &amp;quot;bri&amp;quot;: 255,
     &amp;quot;col&amp;quot;: [
-        [
-        255,
-        0,
-        0
-        ],
-        [
-        0,
-        0,
-        255
-        ],
-        [
-        8,
-        255,
-        0
-        ]
+        [255, 0, 0 ],
+        [0, 0, 255],
+        [8, 255, 0]
     ],
     &amp;quot;fx&amp;quot;: 66,
     &amp;quot;sx&amp;quot;: 121,
@@ -93,21 +81,9 @@ die Konfiguration der Segmente ab.&lt;/p&gt;
     &amp;quot;on&amp;quot;: true,
     &amp;quot;bri&amp;quot;: 255,
     &amp;quot;col&amp;quot;: [
-        [
-        255,
-        0,
-        0
-        ],
-        [
-        0,
-        0,
-        255
-        ],
-        [
-        8,
-        255,
-        0
-        ]
+        [255, 0, 0],
+        [0, 0, 255],
+        [8, 255, 0 ]
     ],
     &amp;quot;fx&amp;quot;: 66,
     &amp;quot;sx&amp;quot;: 121,
@@ -117,36 +93,16 @@ die Konfiguration der Segmente ab.&lt;/p&gt;
     &amp;quot;rev&amp;quot;: true,
     &amp;quot;mi&amp;quot;: false
     },
-    {
-    &amp;quot;stop&amp;quot;: 0
-    },
-    {
-    &amp;quot;stop&amp;quot;: 0
-    },
-    {
-    &amp;quot;stop&amp;quot;: 0
-    },
-    {
-    &amp;quot;stop&amp;quot;: 0
-    },
-    {
-    &amp;quot;stop&amp;quot;: 0
-    },
-    {
-    &amp;quot;stop&amp;quot;: 0
-    },
-    {
-    &amp;quot;stop&amp;quot;: 0
-    },
-    {
-    &amp;quot;stop&amp;quot;: 0
-    },
-    {
-    &amp;quot;stop&amp;quot;: 0
-    },
-    {
-    &amp;quot;stop&amp;quot;: 0
-    }
+    { &amp;quot;stop&amp;quot;: 0 },
+    { &amp;quot;stop&amp;quot;: 0 },
+    { &amp;quot;stop&amp;quot;: 0 },
+    { &amp;quot;stop&amp;quot;: 0 },
+    { &amp;quot;stop&amp;quot;: 0 },
+    { &amp;quot;stop&amp;quot;: 0 },
+    { &amp;quot;stop&amp;quot;: 0 },
+    { &amp;quot;stop&amp;quot;: 0 },
+    { &amp;quot;stop&amp;quot;: 0 },
+    { &amp;quot;stop&amp;quot;: 0 }
 ]
 }
 &lt;/pre&gt;
