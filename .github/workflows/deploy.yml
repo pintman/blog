@@ -26,11 +26,6 @@ jobs:
         poetry install
         poetry run ./setup.sh
 
-    - name: hotfix for old plugin tipue search
-      run: |
-        cd pelican-plugins/tipue_search/
-        cp pelican/plugins/tipue_search/* .
-
     - name: create static website
       run: |
         poetry run make publish
