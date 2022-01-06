@@ -215,7 +215,7 @@ konstruiert. Das Aneinanderhängen kann leicht mit <a class="reference external"
 <p>Man kann das Dokument noch etwas einheitlicher gestalten, indem zuvor eine Art
 Musterdokument erstellt wird, das wie eine Folie über alle Seiten gelegt wird.
 Dieses kann z.B. Seitennummern oder ein Logo enthalten Mit der Operation <a class="reference external" href="https://manpages.debian.org/stretch/pdftk/pdftk.1.en.html">multistamp</a> von <tt class="docutils literal">pdftk</tt> kann
-das Musterdokument am Ende auf die Einzelseiten gepresst werden <a class="footnote-reference" href="#id3" id="id2">[1]</a>.</p>
+das Musterdokument am Ende auf die Einzelseiten gepresst werden <a class="footnote-reference" href="#footnote-1" id="footnote-reference-1">[1]</a>.</p>
 <p>In Kombination mit Scribus und dem Einfügen von PDF-Seiten als &quot;Bild-Objekte&quot; können
 auch interessante Gestaltungskonzepte umgesetzt werden, die mehr als zwei Ebenen
 zulassen.</p>
@@ -228,10 +228,10 @@ Lösung konnte ich daher leider nicht finden. Scribus ist ein würdiges Werkzeug
 unkonventionelles Layout und ist sicher einen Blick wert. LaTeX ist auf der anderen Seite das
 zuverlässige Pferd im Stall, das häufig muckt, am Ende aber doch konsequent abliefert.</p>
 <hr class="docutils" />
-<table class="docutils footnote" frame="void" id="id3" rules="none">
+<table class="docutils footnote" frame="void" id="footnote-1" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id2">[1]</a></td><td><p class="first">Eine mögliche Anwendung von pdftk:</p>
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-1">[1]</a></td><td><p class="first">Eine mögliche Anwendung von pdftk:</p>
 <p><tt class="docutils literal">pdftk a.pdf b.pdf cat output out.pdf</tt></p>
 <p>Dann kann die Musterseite aufgedruckt werden:</p>
 <p class="last"><tt class="docutils literal">pdftk out.pdf multistamp muster.pdf output final.pdf</tt>.</p>

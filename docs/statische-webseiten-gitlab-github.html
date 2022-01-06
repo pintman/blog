@@ -134,16 +134,16 @@ und es gibt eine Reihe von statischen Webseiten-Generatoren, die unterstützt
 werden. Das folgende Skript zeigt ein Beispiel für den Generator
 <a class="reference external" href="https://blog.getpelican.com/">pelican</a>.</p>
 <pre class="code yaml literal-block">
-<span class="nt">image</span><span class="p">:</span> <span class="l-Scalar-Plain">python:3-alpine</span>
+<span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l-Scalar-Plain">python:3-alpine</span><span class="w">
 
-<span class="nt">pages</span><span class="p">:</span>
-  <span class="nt">script</span><span class="p">:</span>
-  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">pip install pelican markdown typogrify</span>
-  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">pelican -o public -s publishconf.py</span>
+</span><span class="nt">pages</span><span class="p">:</span><span class="w">
+  </span><span class="nt">script</span><span class="p">:</span><span class="w">
+  </span><span class="p-Indicator">-</span><span class="w"> </span><span class="l-Scalar-Plain">pip install pelican markdown typogrify</span><span class="w">
+  </span><span class="p-Indicator">-</span><span class="w"> </span><span class="l-Scalar-Plain">pelican -o public -s publishconf.py</span><span class="w">
 
-  <span class="nt">artifacts</span><span class="p">:</span>
-    <span class="nt">paths</span><span class="p">:</span>
-    <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">public/</span>
+  </span><span class="nt">artifacts</span><span class="p">:</span><span class="w">
+    </span><span class="nt">paths</span><span class="p">:</span><span class="w">
+    </span><span class="p-Indicator">-</span><span class="w"> </span><span class="l-Scalar-Plain">public/</span>
 </pre>
 <p>Weitere Beispiele für andere Generatoren werden in einem
 <a class="reference external" href="https://gitlab.com/pages">eigenen Repository</a> von gitlab selbst gesammelt.</p>

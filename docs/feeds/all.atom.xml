@@ -14,7 +14,7 @@ einen ESP8266, einen Streifen WS2812b LEDs, etwas Kabelbinder und das Projekt
 sich mit einer App oder über verschiedene Protokolle (MQTT, UDP, DMX, ...) ansteuern lässt.&lt;/p&gt;
 &lt;p&gt;Das fertige Ergebnis kann man sich in einem Video bei
 &lt;a class="reference external" href="https://youtu.be/RV2hnFb_tM8"&gt;YouTube&lt;/a&gt; oder
-&lt;a class="reference external" href="https://peertube.fidonet.io/videos/watch/ad40447e-a5ea-4656-8e65-bae389f4a226"&gt;Peertube&lt;/a&gt;
+&lt;a class="reference external" href="https://tube.tchncs.de/w/iDkTK4NdmmXKMpPRDCbg8K"&gt;Peertube&lt;/a&gt;
 ansehen.&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RV2hnFb_tM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;p&gt;Die LEDs wurden stümperhaft mit etwas Kabelbinder an dem mittleren Metallstab
 befestigt:&lt;/p&gt;
@@ -694,7 +694,7 @@ konstruiert. Das Aneinanderhängen kann leicht mit &lt;a class="reference extern
 &lt;p&gt;Man kann das Dokument noch etwas einheitlicher gestalten, indem zuvor eine Art
 Musterdokument erstellt wird, das wie eine Folie über alle Seiten gelegt wird.
 Dieses kann z.B. Seitennummern oder ein Logo enthalten Mit der Operation &lt;a class="reference external" href="https://manpages.debian.org/stretch/pdftk/pdftk.1.en.html"&gt;multistamp&lt;/a&gt; von &lt;tt class="docutils literal"&gt;pdftk&lt;/tt&gt; kann
-das Musterdokument am Ende auf die Einzelseiten gepresst werden &lt;a class="footnote-reference" href="#id3" id="id2"&gt;[1]&lt;/a&gt;.&lt;/p&gt;
+das Musterdokument am Ende auf die Einzelseiten gepresst werden &lt;a class="footnote-reference" href="#footnote-1" id="footnote-reference-1"&gt;[1]&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In Kombination mit Scribus und dem Einfügen von PDF-Seiten als &amp;quot;Bild-Objekte&amp;quot; können
 auch interessante Gestaltungskonzepte umgesetzt werden, die mehr als zwei Ebenen
 zulassen.&lt;/p&gt;
@@ -707,10 +707,10 @@ Lösung konnte ich daher leider nicht finden. Scribus ist ein würdiges Werkzeug
 unkonventionelles Layout und ist sicher einen Blick wert. LaTeX ist auf der anderen Seite das
 zuverlässige Pferd im Stall, das häufig muckt, am Ende aber doch konsequent abliefert.&lt;/p&gt;
 &lt;hr class="docutils" /&gt;
-&lt;table class="docutils footnote" frame="void" id="id3" rules="none"&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-1" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;p class="first"&gt;Eine mögliche Anwendung von pdftk:&lt;/p&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;p class="first"&gt;Eine mögliche Anwendung von pdftk:&lt;/p&gt;
 &lt;p&gt;&lt;tt class="docutils literal"&gt;pdftk a.pdf b.pdf cat output out.pdf&lt;/tt&gt;&lt;/p&gt;
 &lt;p&gt;Dann kann die Musterseite aufgedruckt werden:&lt;/p&gt;
 &lt;p class="last"&gt;&lt;tt class="docutils literal"&gt;pdftk out.pdf multistamp muster.pdf output final.pdf&lt;/tt&gt;.&lt;/p&gt;
@@ -784,7 +784,7 @@ den Veranstaltungsort. Und so war nun wieder Krefeld an der Reihe.&lt;/p&gt;
 eine Idee aus einem Manga bzw. Anime aufgriff und versuchte, diese in der
 Realität umzusetzen. Hierbei ging es um eine Mikrowelle, mit deren Hilfe
 man eine E-Mail in die Vergangenheit schicken konnte. Der Aufbau ist ziemlich
-seltsam: Über ein DTMF-Signal &lt;a class="footnote-reference" href="#dtmf" id="id1"&gt;[1]&lt;/a&gt; wird über eine Telefon eine Zahl an eine
+seltsam: Über ein DTMF-Signal &lt;a class="footnote-reference" href="#dtmf" id="footnote-reference-1"&gt;[1]&lt;/a&gt; wird über eine Telefon eine Zahl an eine
 Mikrowelle geschickt, die diese Zahl in ihrem Display anzeigt. Diese Zahl gibt
 an, wieviele Minuten Mails in die Vergangenheit geschickt werden sollen. Trifft
 nun eine E-Mail an einer vorgegeben Adresse ein, so wird deren Zeitstempel
@@ -836,7 +836,7 @@ hochgeladen. Mein Kollege Reinhard hat einen ebenfalls interessanten &lt;a class
 &lt;table class="docutils footnote" frame="void" id="dtmf" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;DTMF ist ein Verfahren das Töne zum Wählen von Telefonnummern nutzt.
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;DTMF ist ein Verfahren das Töne zum Wählen von Telefonnummern nutzt.
 Die Töne setzen sich dabei aus zwei Frequenzen zusammen und identifizieren
 darüber eindeutig eine Ziffer.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
@@ -1534,16 +1534,16 @@ und es gibt eine Reihe von statischen Webseiten-Generatoren, die unterstützt
 werden. Das folgende Skript zeigt ein Beispiel für den Generator
 &lt;a class="reference external" href="https://blog.getpelican.com/"&gt;pelican&lt;/a&gt;.&lt;/p&gt;
 &lt;pre class="code yaml literal-block"&gt;
-&lt;span class="nt"&gt;image&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;python:3-alpine&lt;/span&gt;
+&lt;span class="nt"&gt;image&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l-Scalar-Plain"&gt;python:3-alpine&lt;/span&gt;&lt;span class="w"&gt;
 
-&lt;span class="nt"&gt;pages&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-  &lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-  &lt;span class="p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;pip install pelican markdown typogrify&lt;/span&gt;
-  &lt;span class="p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;pelican -o public -s publishconf.py&lt;/span&gt;
+&lt;/span&gt;&lt;span class="nt"&gt;pages&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;&lt;span class="p-Indicator"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l-Scalar-Plain"&gt;pip install pelican markdown typogrify&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;&lt;span class="p-Indicator"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l-Scalar-Plain"&gt;pelican -o public -s publishconf.py&lt;/span&gt;&lt;span class="w"&gt;
 
-  &lt;span class="nt"&gt;artifacts&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-    &lt;span class="nt"&gt;paths&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-    &lt;span class="p-Indicator"&gt;-&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;public/&lt;/span&gt;
+  &lt;/span&gt;&lt;span class="nt"&gt;artifacts&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+    &lt;/span&gt;&lt;span class="nt"&gt;paths&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+    &lt;/span&gt;&lt;span class="p-Indicator"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l-Scalar-Plain"&gt;public/&lt;/span&gt;
 &lt;/pre&gt;
 &lt;p&gt;Weitere Beispiele für andere Generatoren werden in einem
 &lt;a class="reference external" href="https://gitlab.com/pages"&gt;eigenen Repository&lt;/a&gt; von gitlab selbst gesammelt.&lt;/p&gt;
@@ -1741,14 +1741,14 @@ persönlicher Blick in die Jahre 2001 bis 2003.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/weiter_gehts.html"&gt;Weiter geht's&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/willkommen_im_neuen_jahr.html"&gt;Willkommen im neuen Jahr&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="Sonstiges"></category><category term="Archiv"></category><category term="bloggen"></category></entry><entry><title>Videoreihe: Mit Python Funktionen zeichnen</title><link href="https://blog.bakera.de/videoreihe-mit-python-funktionen-zeichnen.html" rel="alternate"></link><published>2018-06-22T21:32:00+02:00</published><updated>2018-06-22T21:32:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-06-22:/videoreihe-mit-python-funktionen-zeichnen.html</id><summary type="html">&lt;p&gt;Ich habe mich mal wieder an ein paar Videos &lt;a class="footnote-reference" href="#id2" id="id1"&gt;[1]&lt;/a&gt; versucht, nachdem es auf meinem
+</content><category term="Sonstiges"></category><category term="Archiv"></category><category term="bloggen"></category></entry><entry><title>Videoreihe: Mit Python Funktionen zeichnen</title><link href="https://blog.bakera.de/videoreihe-mit-python-funktionen-zeichnen.html" rel="alternate"></link><published>2018-06-22T21:32:00+02:00</published><updated>2018-06-22T21:32:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-06-22:/videoreihe-mit-python-funktionen-zeichnen.html</id><summary type="html">&lt;p&gt;Ich habe mich mal wieder an ein paar Videos &lt;a class="footnote-reference" href="#footnote-1" id="footnote-reference-1"&gt;[1]&lt;/a&gt; versucht, nachdem es auf meinem
 YouTube-Kanal längere Zeit etwas ruhiger geworden ist. In dieser Reihe
 habe ich verschiedene grundlegende Aspekte der Python-Programmierung
 am Beispiel von mathematischen Funktionen dargestellt.&lt;/p&gt;
 &lt;p&gt;Im ersten Video wird eine Wertetabelle mit Hilfe einfacher Python-Funktionen
 gezeichnet.&lt;/p&gt;
 &lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/ofhJJPlsaBg?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2018/06/ofhJJPlsaBg.jpg" /&gt;&lt;/a&gt;
-&lt;p&gt;Im …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ich habe mich mal wieder an ein paar Videos &lt;a class="footnote-reference" href="#id2" id="id1"&gt;[1]&lt;/a&gt; versucht, nachdem es auf meinem
+&lt;p&gt;Im …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ich habe mich mal wieder an ein paar Videos &lt;a class="footnote-reference" href="#footnote-1" id="footnote-reference-1"&gt;[1]&lt;/a&gt; versucht, nachdem es auf meinem
 YouTube-Kanal längere Zeit etwas ruhiger geworden ist. In dieser Reihe
 habe ich verschiedene grundlegende Aspekte der Python-Programmierung
 am Beispiel von mathematischen Funktionen dargestellt.&lt;/p&gt;
@@ -1787,10 +1787,10 @@ kann auch Default-Werte angeben, die verwendet werden, wenn kein
 Parameter beim Aufruf angegeben wurde.&lt;/p&gt;
 &lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/c8ih2nW-SCI?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2018/06/c8ih2nW-SCI.jpg" /&gt;&lt;/a&gt;
 &lt;hr class="docutils" /&gt;
-&lt;table class="docutils footnote" frame="void" id="id2" rules="none"&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-1" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Die verlinkten Videos wurden bei YouTube veröffentlicht. Gleichzeitig
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Die verlinkten Videos wurden bei YouTube veröffentlicht. Gleichzeitig
 lade ich sie aber auch immer an einer zweiten Stelle hoch. In diesem
 Falle findet man die Videos auch bei
 &lt;a class="reference external" href="https://archive.org/details/python-funktionen"&gt;archive.org&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
