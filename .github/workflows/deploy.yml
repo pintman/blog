@@ -28,6 +28,7 @@ jobs:
 
     - name: hotfix for old plugin tipue search
       run: |
+        cd pelican-plugins/tipue-search/
         cp pelican/plugins/tipue_search/* .
 
     - name: create static website
