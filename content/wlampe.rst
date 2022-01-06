@@ -18,7 +18,7 @@ sich mit einer App oder über verschiedene Protokolle (MQTT, UDP, DMX, ...) anst
 
 Das fertige Ergebnis kann man sich in einem Video bei
 `YouTube <https://youtu.be/RV2hnFb_tM8>`_ oder
-`Peertube <https://peertube.fidonet.io/videos/watch/ad40447e-a5ea-4656-8e65-bae389f4a226>`_
+`Peertube <https://tube.tchncs.de/w/iDkTK4NdmmXKMpPRDCbg8K>`_
 ansehen.
 
 .. raw:: html
