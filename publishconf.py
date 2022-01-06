@@ -10,9 +10,6 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-#SITEURL = 'https://www.bakera.de/wp'
-#SITEURL = 'https://pintman.gitlab.io/blog'
-#SITEURL = 'http://gl.bakera.de'
 SITEURL = 'https://blog.bakera.de'
 RELATIVE_URLS = False
 
