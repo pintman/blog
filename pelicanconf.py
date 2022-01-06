@@ -60,9 +60,6 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-#THEME = "simple"
-#THEME = "notmyidea"
-
 # Theme pelican-bootstrap3
 # https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3
 #
@@ -78,24 +75,8 @@ BOOTSTRAP_THEME = "cerulean"  # one of https://bootswatch.com/, be aware, not to
 #DISPLAY_TAGS_ON_SIDEBAR = True
 #DISPLAY_ARCHIVE_ON_SIDEBAR = True
 HIDE_SIDEBAR = True
-#PLUGINS = ['tipue_search']
 CUSTOM_CSS = 'static/css/custom.css'
 #CUSTOM_JS = 'static/js/custom.js'
-
-# Theme pelican-elegant
-#
-# http://oncrashreboot.com/elegant-best-pelican-theme-features
-#THEME = "pelican-elegant"
-#
-# settings suggested in doc:
-#
-#PLUGINS = ['sitemap', 'extract_toc', 'tipue_search']
-#MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
-#DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
-#STATIC_PATHS = ['theme/images', 'images']
-#TAG_SAVE_AS = ''
-#CATEGORY_SAVE_AS = ''
-#AUTHOR_SAVE_AS = ''
 
 # Install all plugins there
 # git clone --recursive https://github.com/getpelican/pelican-plugins
