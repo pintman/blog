@@ -20,10 +20,10 @@ jobs:
     - name: Install poetry
       run: |
         curl -sSL https://install.python-poetry.org | python3 -
-        poetry install
 
     - name: Install dependencies via poetry
       run: |
+        poetry install
         poetry run ./setup.sh
 
     - name: hotfix for old plugin tipue search
