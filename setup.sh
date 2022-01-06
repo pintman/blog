@@ -1,4 +1,7 @@
-#!/bin/sh
+#!/bin/bash
+
+# exit on error
+set -e
 
 #VERSION=4.5.3
 # known stable release
