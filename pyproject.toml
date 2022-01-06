@@ -9,6 +9,7 @@ python = "^3.9"
 pelican = "^4.5.3"
 beautifulsoup4 = "^4.10.0"
 Markdown = "^3.3.4"
+pelican-sitemap = "^1.0.2"
 
 [tool.poetry.dev-dependencies]
 
