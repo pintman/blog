@@ -139,6 +139,8 @@ erlaubt.&lt;/p&gt;
    &lt;span class="n"&gt;sock&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sendto&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;bytes&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;API_ENDPOINT&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
    &lt;span class="n"&gt;pos&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pos&lt;/span&gt;  &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;NUM_LEDS&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; Das Projekt wurde auch im &lt;a class="reference external" href="https://wiki.das-labor.org/w/Projekt/WLampe"&gt;Labor-Wiki&lt;/a&gt;
+hinterlegt. Weitere Aktualisierungen werde also vermutlich eher dort zu finden sein.&lt;/p&gt;
 </content><category term="Sonstiges"></category><category term="esp8266"></category><category term="hacking"></category><category term="hardware"></category></entry><entry><title>Bildungsfern - ein Podcast</title><link href="https://blog.bakera.de/bildungsfern.html" rel="alternate"></link><published>2020-03-15T12:30:00+01:00</published><updated>2020-03-15T12:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2020-03-15:/bildungsfern.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Logo des Podcast" src="https://blog.bakera.de/images/2020/bildungsfern_logo.png" /&gt;
 &lt;/div&gt;
