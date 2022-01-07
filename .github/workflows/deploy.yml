@@ -23,7 +23,6 @@ jobs:
 
     - name: Install dependencies via poetry
       run: |
-        poetry install
         poetry run ./setup.sh
 
     - name: create static website
