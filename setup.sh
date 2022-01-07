@@ -22,3 +22,5 @@ popd
 # install theme repo
 test -d pelican-themes || git clone https://github.com/getpelican/pelican-themes
 git  -C pelican-themes checkout $THEMES_VERSION
+
+cp -v theme.local/* pelican-themes/pelican-bootstrap3/templates
