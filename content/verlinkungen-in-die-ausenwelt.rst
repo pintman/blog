@@ -90,7 +90,7 @@ im `Amateufilm Magazin» <http://www.amateurfilm-magazin.de/>`__.
 .. |Meine Seite bei ICQ| image:: http://photos14.flickr.com/19825165_888377cf37_o.gif
    :target: http://www.icq.com/59397823
 .. |meine Beitraege in diversen Newsgroups| image:: http://photos14.flickr.com/19825166_815f3cea0a_o.gif
-   :target: http://www.google.de/groups?as_uauthors=Marco%20Bakera
+   :target: https://groups.google.com/search/conversations?q=marco%20bakera
 .. |Mein Beitraege im Halforum| image:: http://photos16.flickr.com/19825167_0c4f576dae_o.gif
    :target: http://halnet.ath.cx/forum/search.php?search_author=pintman
 .. |Die Seite meiner Filmgruppe| image:: http://photos15.flickr.com/19825168_13cb0331a6_o.gif
