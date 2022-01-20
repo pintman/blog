@@ -100,7 +100,8 @@ Update
 
 Die Lightning-Talks und damit auch `mein Vortrag über das Hardware 101
 <https://www.youtube.com/watch?v=_8yzRQuGX-Y>`_ sind nun bei YouTube
-hochgeladen. Mein Kollege Reinhard hat einen ebenfalls interessanten `Vortrag
+hochgeladen (`Mirror <https://tube.tchncs.de/w/qnK6YTZt7AmR7jKtrVUnHs>`_). 
+Mein Kollege Reinhard hat einen ebenfalls interessanten `Vortrag
 über das TBS1-Board <https://www.youtube.com/watch?v=qSOjdG02QLc>`_ gehalten.
 
 
