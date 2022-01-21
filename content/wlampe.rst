@@ -184,4 +184,4 @@ erlaubt.
       pos = (pos  + 1) % NUM_LEDS
 
 **Update** Das Projekt wurde auch im `Labor-Wiki <https://wiki.das-labor.org/w/Projekt/WLampe>`_ 
-hinterlegt. Weitere Aktualisierungen werde also vermutlich eher dort zu finden sein.
+hinterlegt. Weitere Aktualisierungen werden also vermutlich eher dort zu finden sein.
