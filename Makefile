@@ -5,8 +5,10 @@ PELICANOPTS=
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/docs
+OUTPUTDIR_BEAKER=$(BASEDIR)/docs_beaker
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
+PUBLISHCONF_BEAKER=$(BASEDIR)/publishconf_beaker.py
 
 FTP_HOST=localhost
 FTP_USER=anonymous
@@ -98,6 +100,9 @@ stopserver:
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+
+publish_beaker:
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR_BEAKER) -s $(PUBLISHCONF_BEAKER) $(PELICANOPTS)
 
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)

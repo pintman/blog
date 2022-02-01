@@ -9,3 +9,4 @@ pelican-plugins
 pelican-themes
 
 poetry.lock
+docs_beaker/
