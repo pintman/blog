@@ -6,7 +6,7 @@ Die Bluttransfusion
 :slug: die-bluttransfusion
 :status: published
 
-`[mp3] <http://members.ping.de/~pintman/bakera.de-flash/die-bluttransfusion.mp3>`__
+`[mp3] <https://archive.org/details/die-bluttransfusion>`__
 
 | 
 | |image0|
