@@ -8,25 +8,11 @@ Die Bluttransfusion
 
 `[mp3] <https://archive.org/details/die-bluttransfusion>`__
 
-| 
-| |image0|
-
-.. raw:: html
-
-   <div>
-
-.. raw:: html
-
-   <div>
 
 Die folgende Geschichte ist während einer Es war einmal...-Session
 entstanden, die ich mit Falko abgehalten habe. Nachträglich habe ich die
 Geschichte dann aus meiner Erinnerung niedergeschrieben - weshalb
 natürlich keinerlei Gewähr auf Wahrhaftigkeit besteht.
-
-.. raw:: html
-
-   </div>
 
 Es war einmal...
 
@@ -314,10 +300,3 @@ darauf wartete irgendwo eingebaut zu werden.
   Pferd in dem kleinen Dorf und wenn sie nicht gestorben sind, dann
   leben sie noch heute.
 
-.. raw:: html
-
-   </div>
-
-.. |image0| image:: http://photos14.flickr.com/19822637_857ad1e4c0_o.gif
-   :width: 315px
-   :height: 163px
