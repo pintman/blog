@@ -1,5 +1,226 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2021-10-20T12:20:00+02:00</updated><entry><title>WLampe</title><link href="https://blog.bakera.de/wlampe.html" rel="alternate"></link><published>2021-10-20T12:20:00+02:00</published><updated>2021-10-20T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2021-10-20:/wlampe.html</id><summary type="html">&lt;img alt="Lampe beleuchtet" src="https://blog.bakera.de/images/2021/Lampe.png" style="width: 600px;" /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2023-10-31T17:00:00+01:00</updated><entry><title>Pagerank mit ChatGPT4 entwickeln - ein Dialog</title><link href="https://blog.bakera.de/pr-mit-chatgpt4.html" rel="alternate"></link><published>2023-10-31T17:00:00+01:00</published><updated>2023-10-31T17:00:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2023-10-31:/pr-mit-chatgpt4.html</id><summary type="html">&lt;p&gt;Ich wollte mit ChatGPT4 die Möglichkeiten ausloten, ob es sich für die Entwicklung des Pagerank-Algorithmus eignet. Dazu habe ich einen Dialog mit ChatGPT4 geführt. Die Fragen sind von mir, die Antworten von ChatGPT4.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;em&gt;Erstelle eine Liste mit 5 wichtigen Stichpunkten plus Erklärungen zum Thema “Pagerank Algorithmus”.&lt;/em&gt;&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;&lt;strong&gt;Definition des PageRank-Algorithmus&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last"&gt;
+&lt;li&gt;Der …&lt;/li&gt;&lt;/ul&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;Ich wollte mit ChatGPT4 die Möglichkeiten ausloten, ob es sich für die Entwicklung des Pagerank-Algorithmus eignet. Dazu habe ich einen Dialog mit ChatGPT4 geführt. Die Fragen sind von mir, die Antworten von ChatGPT4.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;em&gt;Erstelle eine Liste mit 5 wichtigen Stichpunkten plus Erklärungen zum Thema “Pagerank Algorithmus”.&lt;/em&gt;&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;&lt;strong&gt;Definition des PageRank-Algorithmus&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last"&gt;
+&lt;li&gt;Der PageRank-Algorithmus ist ein Verfahren, das von den Google-Gründern Larry Page und Sergey Brin entwickelt wurde. Es bestimmt die Wichtigkeit oder das Gewicht einer Webseite im Internet. Der Algorithmus bewertet Webseiten basierend auf der Anzahl und Qualität der Links, die auf sie verweisen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;&lt;strong&gt;Funktionsweise des PageRank-Algorithmus&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last"&gt;
+&lt;li&gt;Der Algorithmus basiert auf der Idee, dass wichtige Webseiten wahrscheinlich mehr Links von anderen Webseiten erhalten. Jeder Link zu einer Webseite wird als eine Art Empfehlung oder Stimme für diese Webseite angesehen. Der PageRank ist daher eine Art Wahrscheinlichkeit dafür, dass ein zufällig ausgewählter Internetnutzer auf einer bestimmten Webseite landet, indem er Links folgt.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;&lt;strong&gt;Dämpfungsfaktor&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last"&gt;
+&lt;li&gt;Der Dämpfungsfaktor ist ein wichtiger Bestandteil des PageRank-Algorithmus. Er repräsentiert die Wahrscheinlichkeit, dass ein zufälliger Surfer seine Navigation fortsetzt. Typischerweise wird der Dämpfungsfaktor auf 0,85 gesetzt, was bedeutet, dass ein Surfer mit einer Wahrscheinlichkeit von 85% auf den nächsten Link klickt und mit einer Wahrscheinlichkeit von 15% die Navigation stoppt.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;&lt;strong&gt;Bedeutung von PageRank für SEO&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last"&gt;
+&lt;li&gt;Der PageRank-Algorithmus ist ein wichtiger Bestandteil der Suchmaschinenoptimierung (SEO). Ein höherer PageRank kann dazu führen, dass eine Webseite in den Suchergebnissen von Google höher eingestuft wird, was zu mehr Traffic auf der Webseite führen kann. Es ist jedoch zu beachten, dass Google viele andere Faktoren berücksichtigt, wenn es darum geht, Webseiten zu rangieren, und PageRank ist nur einer von vielen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;&lt;strong&gt;Kritik am PageRank-Algorithmus&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last"&gt;
+&lt;li&gt;Trotz seiner weit verbreiteten Anwendung ist der PageRank-Algorithmus nicht ohne Kritik. Einige Kritiker weisen darauf hin, dass der Algorithmus dazu neigt, etablierte Webseiten zu bevorzugen und es neuen oder weniger bekannten Webseiten schwer macht, einen hohen PageRank zu erzielen. Darüber hinaus kann der Algorithmus manipuliert werden, indem künstlich Links zu einer Webseite erstellt werden, um deren PageRank zu erhöhen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;em&gt;Schreibe ein Python-Programm, das den Algorithmus umsetzt. Das Programm soll einen Test mit einem Beispielgraphen enthalten.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hier ist ein einfaches Python-Programm, das den PageRank-Algorithmus implementiert. Es verwendet die NetzwerkX-Bibliothek, um einen gerichteten Graphen zu erstellen und den PageRank zu berechnen.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;networkx&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;nx&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;pagerank&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;damping_factor&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.85&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;max_iterations&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;min_delta&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.00001&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="sd"&gt;    Berechnet den PageRank für jeden Knoten im Graph.&lt;/span&gt;
+
+&lt;span class="sd"&gt;    Args:&lt;/span&gt;
+&lt;span class="sd"&gt;    graph: Ein gerichteter Graph.&lt;/span&gt;
+&lt;span class="sd"&gt;    damping_factor: Die Wahrscheinlichkeit, dass der Surfer weiter surft.&lt;/span&gt;
+&lt;span class="sd"&gt;    max_iterations: Die maximale Anzahl von Iterationen für das Konvergenzkriterium.&lt;/span&gt;
+&lt;span class="sd"&gt;    min_delta: Die minimale Änderung zwischen PageRanks von aufeinanderfolgenden Iterationen zur Bestimmung der Konvergenz.&lt;/span&gt;
+
+&lt;span class="sd"&gt;    Returns:&lt;/span&gt;
+&lt;span class="sd"&gt;    Ein Wörterbuch, das den Knoten (Schlüssel) und ihren PageRank (Wert) zuordnet.&lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;pagerank&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;max_iterations&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;new_pagerank&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{}&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="n"&gt;inbound_pagerank&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pagerank&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;neighbor&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;neighbors&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;neighbor&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;neighbor&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;predecessors&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+            &lt;span class="n"&gt;new_pagerank&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;damping_factor&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;damping_factor&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;inbound_pagerank&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nb"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;abs&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;new_pagerank&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;pagerank&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;min_delta&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;new_pagerank&lt;/span&gt;
+        &lt;span class="n"&gt;pagerank&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;new_pagerank&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;pagerank&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Erstellt einen Beispielgraphen und berechnet den PageRank.&lt;/span&gt;
+&lt;span class="n"&gt;graph&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;nx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;DiGraph&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_edge&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;A&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;B&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_edge&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;A&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;C&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_edge&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;B&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;C&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_edge&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;C&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;A&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_edge&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;D&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;C&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;pagerank_dict&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pagerank&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pagerank_dict&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Dieses Programm erstellt einen gerichteten Graphen mit vier Knoten: A, B, C und D. Es gibt eine Kante von A nach B, A nach C, B nach C, C nach A und D nach C. Der PageRank jedes Knotens wird dann berechnet und ausgegeben.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;em&gt;Benutze keine externen Bibliotheken. Setze den Algorithmus objekt-orientiert um.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Natürlich, hier ist eine objektorientierte Implementierung des PageRank-Algorithmus in Python ohne externe Bibliotheken:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Node&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="fm"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;links&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pagerank&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;add_link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;links&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Graph&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="fm"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;nodes&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{}&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;add_node&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;node&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Node&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;nodes&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;calculate_pagerank&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;damping_factor&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.85&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;max_iterations&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;min_delta&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.00001&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;num_nodes&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;nodes&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;max_iterations&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+            &lt;span class="n"&gt;max_change&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+            &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;nodes&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;values&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+                &lt;span class="n"&gt;total&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;link_node&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pagerank&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;link_node&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;links&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;link_node&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;links&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+                &lt;span class="n"&gt;new_pagerank&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;damping_factor&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;num_nodes&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;damping_factor&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;total&lt;/span&gt;
+                &lt;span class="n"&gt;max_change&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;max_change&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;abs&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pagerank&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;new_pagerank&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+                &lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pagerank&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;new_pagerank&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;max_change&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;min_delta&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+                &lt;span class="k"&gt;break&lt;/span&gt;
+
+
+&lt;span class="c1"&gt;# Erstellt einen Beispielgraphen und berechnet den PageRank.&lt;/span&gt;
+&lt;span class="n"&gt;graph&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Graph&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_node&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;A&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_node&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;B&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_node&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;C&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;d&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_node&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;D&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;calculate_pagerank&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;nodes&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;values&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Node &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt; hat einen PageRank von &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pagerank&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In diesem Code stellen die Klassen &lt;tt class="docutils literal"&gt;Node&lt;/tt&gt; und &lt;tt class="docutils literal"&gt;Graph&lt;/tt&gt; einen gerichteten Graphen dar. Jeder Knoten (&lt;tt class="docutils literal"&gt;Node&lt;/tt&gt;) hat einen Namen, eine Liste der Knoten, zu denen er verlinkt, und einen PageRank-Wert. Der Graph (&lt;tt class="docutils literal"&gt;Graph&lt;/tt&gt;) enthält alle Knoten und eine Methode zur Berechnung des PageRank für jeden Knoten. Im Hauptteil des Codes wird ein Beispielgraph erstellt und der PageRank für jeden Knoten berechnet und ausgegeben.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;em&gt;Welche Bedeutung hat links in der Klasse Node?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In der Klasse &lt;tt class="docutils literal"&gt;Node&lt;/tt&gt; repräsentiert &lt;tt class="docutils literal"&gt;links&lt;/tt&gt; eine Liste von Knoten, zu denen der aktuelle Knoten verlinkt ist.&lt;/p&gt;
+&lt;p&gt;In der Kontext des PageRank-Algorithmus, wenn ein Knoten A zu einem Knoten B verlinkt ist (d.h., es gibt eine Kante von A nach B im Graph), dann würde B in der &lt;tt class="docutils literal"&gt;links&lt;/tt&gt; Liste von A erscheinen.&lt;/p&gt;
+&lt;p&gt;Diese Links repräsentieren die Verbindungen zwischen Webseiten. Wenn eine Webseite A auf eine Webseite B verlinkt, sieht der PageRank-Algorithmus diese Verlinkung als eine Art &amp;quot;Empfehlung&amp;quot; von A für B.&lt;/p&gt;
+&lt;p&gt;Die Anzahl und Qualität dieser &amp;quot;Empfehlungen&amp;quot; (Links) bestimmen den PageRank-Wert einer Webseite. Je mehr hochwertige Links auf eine Webseite verweisen, desto höher ist ihr PageRank-Wert.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;em&gt;Nutzt calc_pagerank dann nicht die falschen Verbindungs-Knoten - ausgehende statt eingehende?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Ja, das ist korrekt. Entschuldigen Sie bitte meinen Fehler. Der PageRank-Algorithmus sollte tatsächlich die eingehenden Links zu einem Knoten berücksichtigen, nicht die ausgehenden.&lt;/p&gt;
+&lt;p&gt;In der ursprünglichen Implementierung repräsentiert die &lt;tt class="docutils literal"&gt;links&lt;/tt&gt;-Liste eines Knotens die Knoten, zu denen er verlinkt (ausgehende Links), aber für den PageRank-Algorithmus sollten wir die Knoten betrachten, die auf ihn verlinken (eingehende Links).&lt;/p&gt;
+&lt;p&gt;Hier ist eine korrigierte Version des Programms, in dem wir für jeden Knoten eine Liste von Knoten pflegen, die auf ihn verlinken:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Node&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="fm"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;outgoing_links&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;incoming_links&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pagerank&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;add_outgoing_link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;outgoing_links&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;incoming_links&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Graph&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="fm"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;nodes&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{}&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;add_node&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;node&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Node&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;nodes&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;calculate_pagerank&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;damping_factor&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.85&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;max_iterations&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;min_delta&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.00001&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;num_nodes&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;nodes&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;max_iterations&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+            &lt;span class="n"&gt;max_change&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+            &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;nodes&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;values&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+                &lt;span class="n"&gt;total&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;link_node&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pagerank&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;link_node&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;outgoing_links&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;link_node&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;incoming_links&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+                &lt;span class="n"&gt;new_pagerank&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;damping_factor&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;num_nodes&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;damping_factor&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;total&lt;/span&gt;
+                &lt;span class="n"&gt;max_change&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;max_change&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;abs&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pagerank&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;new_pagerank&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+                &lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pagerank&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;new_pagerank&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;max_change&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;min_delta&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+                &lt;span class="k"&gt;break&lt;/span&gt;
+
+
+&lt;span class="c1"&gt;# Erstellt einen Beispielgraphen und berechnet den PageRank.&lt;/span&gt;
+&lt;span class="n"&gt;graph&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Graph&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_node&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;A&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_node&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;B&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_node&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;C&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;d&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_node&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;D&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_outgoing_link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_outgoing_link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_outgoing_link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_outgoing_link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_outgoing_link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;calculate_pagerank&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;node&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;graph&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;nodes&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;values&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Node &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt; hat einen PageRank von &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pagerank&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In dieser überarbeiteten Version hat jeder Knoten zwei Listen: &lt;tt class="docutils literal"&gt;outgoing_links&lt;/tt&gt; und &lt;tt class="docutils literal"&gt;incoming_links&lt;/tt&gt;. Die Methode &lt;tt class="docutils literal"&gt;add_outgoing_link&lt;/tt&gt; aktualisiert beide Listen entsprechend. Wenn ein Knoten A einen ausgehenden Link zu einem Knoten B hinzufügt, wird B zu den &lt;tt class="docutils literal"&gt;outgoing_links&lt;/tt&gt; von A hinzugefügt und A wird zu den &lt;tt class="docutils literal"&gt;incoming_links&lt;/tt&gt; von B hinzugefügt.&lt;/p&gt;
+&lt;p&gt;In der &lt;tt class="docutils literal"&gt;calculate_pagerank&lt;/tt&gt; Methode wird nun die Summe der PageRanks der eingehenden Links (geteilt durch die Anzahl ihrer jeweiligen ausgehenden Links) berechnet, was dem PageRank-Algorithmus entspricht.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;em&gt;Wie sicher (in Prozent) bist du dir, dass die jetzige Lösung korrekt ist?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Ich bin mir zu 90% sicher, dass die aktuelle Lösung korrekt ist. Der Code implementiert den grundlegenden PageRank-Algorithmus, indem er eingehende Links berücksichtigt und den PageRank basierend auf der Anzahl und Qualität dieser Links berechnet. Es sind jedoch immer noch einige Aspekte zu beachten:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Der Code berücksichtigt nicht &amp;quot;Sackgassen&amp;quot; oder &amp;quot;Spinnennetze&amp;quot;, d.h., Knoten ohne ausgehende Links oder Gruppen von Knoten, die nur untereinander verlinkt sind. In der Praxis wird der PageRank-Algorithmus so modifiziert, dass er solche Situationen behandelt.&lt;/li&gt;
+&lt;li&gt;Der Code verwendet eine einfache Konvergenzbedingung (eine maximale Anzahl von Iterationen oder eine minimale Änderung zwischen den PageRanks in aufeinanderfolgenden Iterationen). In der Praxis könnte die Konvergenzbedingung komplexer sein.&lt;/li&gt;
+&lt;li&gt;Der Code hat eine feste Dämpfungsfaktor von 0,85, was ein häufig verwendeter Wert ist, aber in der Praxis könnte dieser Wert variieren.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Trotz dieser Einschränkungen glaube ich, dass der Code eine gute Grundlage für das Verständnis und die Implementierung des PageRank-Algorithmus bietet.&lt;/p&gt;
+</content><category term="Sonstiges"></category><category term="python"></category><category term="chatgpt"></category><category term="programmierung"></category></entry><entry><title>WLampe</title><link href="https://blog.bakera.de/wlampe.html" rel="alternate"></link><published>2021-10-20T12:20:00+02:00</published><updated>2021-10-20T12:20:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2021-10-20:/wlampe.html</id><summary type="html">&lt;img alt="Lampe beleuchtet" src="https://blog.bakera.de/images/2021/Lampe.png" style="width: 600px;" /&gt;
 &lt;p&gt;Man nehme: Eine Ikea-Lampe
 &lt;a class="reference external" href="https://www.ikea.com/de/de/p/vickleby-standleuchte-weiss-handarbeit-50430390/"&gt;Vickleby&lt;/a&gt;,
 einen ESP8266, einen Streifen WS2812b LEDs, etwas Kabelbinder und das Projekt
@@ -1122,18 +1343,18 @@ kann man den Bildschirm löschen, Text und auch Bilder anzeigen. Die genauen
 Parameter sind in der verlinkten Dokumentation gut beschrieben.&lt;/p&gt;
 &lt;p&gt;Die folgenden Befehle löschen den Bildschirm und zeigen ein Bild an.&lt;/p&gt;
 &lt;pre class="code bash literal-block"&gt;
-$ eips -c
-$ eips -g bild.png
+$&lt;span class="w"&gt; &lt;/span&gt;eips&lt;span class="w"&gt; &lt;/span&gt;-c&lt;span class="w"&gt;
+&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;eips&lt;span class="w"&gt; &lt;/span&gt;-g&lt;span class="w"&gt; &lt;/span&gt;bild.png
 &lt;/pre&gt;
 &lt;p&gt;Die folgenden Befehle in einer Datei &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;init-weather.sh&lt;/span&gt;&lt;/tt&gt; deaktivieren
 die Kindle-Software und das Power-Management. Somit geht das Gerät nicht
 in einen Schlafmodus, wenn eine Weile nichts passiert.&lt;/p&gt;
 &lt;pre class="code bash literal-block"&gt;
 &lt;span class="ch"&gt;#!/bin/sh
-&lt;/span&gt;
-/etc/init.d/framework stop
-/etc/init.d/powerd stop
-/mnt/us/wettermon/display-weather.sh
+&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;/etc/init.d/framework&lt;span class="w"&gt; &lt;/span&gt;stop&lt;span class="w"&gt;
+&lt;/span&gt;/etc/init.d/powerd&lt;span class="w"&gt; &lt;/span&gt;stop&lt;span class="w"&gt;
+&lt;/span&gt;/mnt/us/wettermon/display-weather.sh
 &lt;/pre&gt;
 &lt;p&gt;Im Pfad &lt;tt class="docutils literal"&gt;/mnt/us/&lt;/tt&gt; können Daten abgelegt werden, die auch einem
 Neustart überleben. Die Datei &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;display-weather.sh&lt;/span&gt;&lt;/tt&gt; lädt schließlich
@@ -1141,18 +1362,18 @@ das Wetterbild herunter und zeigt es an. Der Bildschirm wird zweimal
 gelöscht, um Artefakte und Geisterbilder zu verhindern.&lt;/p&gt;
 &lt;pre class="code bash literal-block"&gt;
 &lt;span class="ch"&gt;#!/bin/sh
-&lt;/span&gt;
-&lt;span class="nb"&gt;cd&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;dirname &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$0&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;dirname&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$0&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;
 
-rm forecast.png
-eips -c
-eips -c
+&lt;/span&gt;rm&lt;span class="w"&gt; &lt;/span&gt;forecast.png&lt;span class="w"&gt;
+&lt;/span&gt;eips&lt;span class="w"&gt; &lt;/span&gt;-c&lt;span class="w"&gt;
+&lt;/span&gt;eips&lt;span class="w"&gt; &lt;/span&gt;-c&lt;span class="w"&gt;
 
-&lt;span class="k"&gt;if&lt;/span&gt; wget http://www.example.com/wetter/forecast.png&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="k"&gt;then&lt;/span&gt;
-  eips -g forecast.png
-&lt;span class="k"&gt;else&lt;/span&gt;
-  eips -g error.png
-&lt;span class="k"&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;wget&lt;span class="w"&gt; &lt;/span&gt;http://www.example.com/wetter/forecast.png&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;then&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;eips&lt;span class="w"&gt; &lt;/span&gt;-g&lt;span class="w"&gt; &lt;/span&gt;forecast.png&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;eips&lt;span class="w"&gt; &lt;/span&gt;-g&lt;span class="w"&gt; &lt;/span&gt;error.png&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="k"&gt;fi&lt;/span&gt;
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1171,28 +1392,28 @@ komprimiert. Dieser Prozess wird durch einen Cronjob regelmäßig durchgeführt
 und das Ergebnisbild auf einem lokalen Webserver abgelegt.&lt;/p&gt;
 &lt;pre class="code bash literal-block"&gt;
 &lt;span class="ch"&gt;#!/bin/bash
-&lt;/span&gt;
-&lt;span class="nv"&gt;PDFURL&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;https://www.yr.no/place/Germany/North_Rhine-Westphalia/Bochum/forecast.pdf
-&lt;span class="nv"&gt;OUTPDF&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;forecast.pdf
-&lt;span class="nv"&gt;OUTPNG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;forecast.png
-&lt;span class="nv"&gt;OUTSVG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;forecast.svg
+&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="nv"&gt;PDFURL&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;https://www.yr.no/place/Germany/North_Rhine-Westphalia/Bochum/forecast.pdf&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="nv"&gt;OUTPDF&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;forecast.pdf&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="nv"&gt;OUTPNG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;forecast.png&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="nv"&gt;OUTSVG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;forecast.svg&lt;span class="w"&gt;
 
-&lt;span class="c1"&gt;# Download PDF with forecast
-&lt;/span&gt;wget -O &lt;span class="nv"&gt;$OUTPDF&lt;/span&gt; &lt;span class="nv"&gt;$PDFURL&lt;/span&gt;
+&lt;/span&gt;&lt;span class="c1"&gt;# Download PDF with forecast
+&lt;/span&gt;wget&lt;span class="w"&gt; &lt;/span&gt;-O&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;$OUTPDF&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;$PDFURL&lt;/span&gt;&lt;span class="w"&gt;
 
-&lt;span class="c1"&gt;# convert to SVG
-&lt;/span&gt;inkscape --without-gui --file&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$OUTPDF&lt;/span&gt; --export-plain-svg&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$OUTSVG&lt;/span&gt;
+&lt;/span&gt;&lt;span class="c1"&gt;# convert to SVG
+&lt;/span&gt;inkscape&lt;span class="w"&gt; &lt;/span&gt;--without-gui&lt;span class="w"&gt; &lt;/span&gt;--file&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$OUTPDF&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;--export-plain-svg&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$OUTSVG&lt;/span&gt;&lt;span class="w"&gt;
 
-&lt;span class="c1"&gt;# change viewbox size in SVG file
-&lt;/span&gt;sed -i -e &lt;span class="s1"&gt;'10s/height=.*/height=&amp;quot;600.0&amp;quot;/'&lt;/span&gt; &lt;span class="se"&gt;\
-&lt;/span&gt;  -e &lt;span class="s1"&gt;'11s/width=.*/width=&amp;quot;800.0&amp;quot;/'&lt;/span&gt;&lt;span class="se"&gt;\
-&lt;/span&gt;  -e &lt;span class="s1"&gt;'9s/viewBox=.*/viewBox=&amp;quot;30 90 700 600&amp;quot;   preserveAspectRatio=&amp;quot;slice&amp;quot;/'&lt;/span&gt;&lt;span class="se"&gt;\
-&lt;/span&gt;  &lt;span class="nv"&gt;$OUTSVG&lt;/span&gt;
+&lt;/span&gt;&lt;span class="c1"&gt;# change viewbox size in SVG file
+&lt;/span&gt;sed&lt;span class="w"&gt; &lt;/span&gt;-i&lt;span class="w"&gt; &lt;/span&gt;-e&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;'10s/height=.*/height=&amp;quot;600.0&amp;quot;/'&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\
+&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;-e&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;'11s/width=.*/width=&amp;quot;800.0&amp;quot;/'&lt;/span&gt;&lt;span class="se"&gt;\
+&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;-e&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;'9s/viewBox=.*/viewBox=&amp;quot;30 90 700 600&amp;quot;   preserveAspectRatio=&amp;quot;slice&amp;quot;/'&lt;/span&gt;&lt;span class="se"&gt;\
+&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nv"&gt;$OUTSVG&lt;/span&gt;&lt;span class="w"&gt;
 
-rsvg-convert --background-color&lt;span class="o"&gt;=&lt;/span&gt;white -o &lt;span class="nv"&gt;$OUTPNG&lt;/span&gt; &lt;span class="nv"&gt;$OUTSVG&lt;/span&gt;
-&lt;span class="c1"&gt;# rotate landscape image
-&lt;/span&gt;convert &lt;span class="nv"&gt;$OUTPNG&lt;/span&gt; -rotate &lt;span class="s2"&gt;&amp;quot;90&amp;quot;&lt;/span&gt; &lt;span class="nv"&gt;$OUTPNG&lt;/span&gt;
-pngcrush -c &lt;span class="m"&gt;0&lt;/span&gt; -ow &lt;span class="nv"&gt;$OUTPNG&lt;/span&gt;
+&lt;/span&gt;rsvg-convert&lt;span class="w"&gt; &lt;/span&gt;--background-color&lt;span class="o"&gt;=&lt;/span&gt;white&lt;span class="w"&gt; &lt;/span&gt;-o&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;$OUTPNG&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;$OUTSVG&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="c1"&gt;# rotate landscape image
+&lt;/span&gt;convert&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;$OUTPNG&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;-rotate&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;90&amp;quot;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;$OUTPNG&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;pngcrush&lt;span class="w"&gt; &lt;/span&gt;-c&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;-ow&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;$OUTPNG&lt;/span&gt;
 &lt;/pre&gt;
 &lt;p&gt;Diese Bemühungen sind in einem
 &lt;a class="reference external" href="https://github.com/pintman/wettermonitor"&gt;github repo&lt;/a&gt; beschrieben.&lt;/p&gt;
@@ -1744,59 +1965,4 @@ persönlicher Blick in die Jahre 2001 bis 2003.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/weiter_gehts.html"&gt;Weiter geht's&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://blog.bakera.de/willkommen_im_neuen_jahr.html"&gt;Willkommen im neuen Jahr&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="Sonstiges"></category><category term="Archiv"></category><category term="bloggen"></category></entry><entry><title>Videoreihe: Mit Python Funktionen zeichnen</title><link href="https://blog.bakera.de/videoreihe-mit-python-funktionen-zeichnen.html" rel="alternate"></link><published>2018-06-22T21:32:00+02:00</published><updated>2018-06-22T21:32:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-06-22:/videoreihe-mit-python-funktionen-zeichnen.html</id><summary type="html">&lt;p&gt;Ich habe mich mal wieder an ein paar Videos &lt;a class="footnote-reference" href="#footnote-1" id="footnote-reference-1"&gt;[1]&lt;/a&gt; versucht, nachdem es auf meinem
-YouTube-Kanal längere Zeit etwas ruhiger geworden ist. In dieser Reihe
-habe ich verschiedene grundlegende Aspekte der Python-Programmierung
-am Beispiel von mathematischen Funktionen dargestellt.&lt;/p&gt;
-&lt;p&gt;Im ersten Video wird eine Wertetabelle mit Hilfe einfacher Python-Funktionen
-gezeichnet.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/ofhJJPlsaBg?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2018/06/ofhJJPlsaBg.jpg" /&gt;&lt;/a&gt;
-&lt;p&gt;Im …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ich habe mich mal wieder an ein paar Videos &lt;a class="footnote-reference" href="#footnote-1" id="footnote-reference-1"&gt;[1]&lt;/a&gt; versucht, nachdem es auf meinem
-YouTube-Kanal längere Zeit etwas ruhiger geworden ist. In dieser Reihe
-habe ich verschiedene grundlegende Aspekte der Python-Programmierung
-am Beispiel von mathematischen Funktionen dargestellt.&lt;/p&gt;
-&lt;p&gt;Im ersten Video wird eine Wertetabelle mit Hilfe einfacher Python-Funktionen
-gezeichnet.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/ofhJJPlsaBg?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2018/06/ofhJJPlsaBg.jpg" /&gt;&lt;/a&gt;
-&lt;p&gt;Im nächsten Schritt versuchen wir, ein algorithmisches Problem mit einem
-Pythonprogramm zu lösen: die Berechnung der Nullstelle einer Funktion.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/fUtne5Zx124?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2018/06/fUtne5Zx124.jpg" /&gt;&lt;/a&gt;
-&lt;p&gt;Schließlich wird die Funktion mit Hilfe der Pythonbibliothek
-&lt;a class="reference external" href="http://matplotlib.org/"&gt;matplotlib&lt;/a&gt;
-gezeichnet. Wir schauen uns in diesem Zusammenhang auch das wichtige
-Konstrukt der &amp;quot;list comprehension&amp;quot; an.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/yfUfnitZeyQ?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2018/06/yfUfnitZeyQ.jpg" /&gt;&lt;/a&gt;
-&lt;p&gt;Nach den ersten Versuchen mit Funktionen, kann die Implementierung jetzt
-in eine objekt-orientierte Version mit Klassen und Objekten überführt
-werden.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/8L1yR_o7_IU?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2018/06/8L1yR_o7_IU.jpg" /&gt;&lt;/a&gt;
-&lt;p&gt;Die Dokumentation von Klassen und Objekten ist wichtig für andere
-Programmierer - und auch für einen selbst, wenn man nach längerer Zeit
-wieder auf den Quelltext schaut. Python bietet hierfür umfangreiche
-Möglichkeiten, den eigenen Quelltext zu dokumentieren. Eine grundlegende
-Möglichkeit stelle ich in dem Video vor.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/TWsU3xuVQdQ?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2018/06/TWsU3xuVQdQ.jpg" /&gt;&lt;/a&gt;
-&lt;p&gt;Unter dem Begriff Lambda-Ausdruck lassen sich anonyme Funktionen,
-also Funktionen oder Methoden ohne einen Namen, zusammenfassend
-beschreiben.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/TRQZN6gR62E?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2018/06/TRQZN6gR62E.jpg" /&gt;&lt;/a&gt;
-&lt;p&gt;Schön, wenn das Programm das tut, was es soll. Damit dies auch in Zukunft
-so bleibt, können Programme automatisch getestet werden. Das geht zum
-einen mit Unit-Test, zum anderen mit assert-Anweisungen. Beide Konzepte
-werden in dem Video vorgestellt.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/FVT1yGQJF2s?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2018/06/FVT1yGQJF2s.jpg" /&gt;&lt;/a&gt;
-&lt;p&gt;Nicht immer müssen Parameter bei einem Aufruf übergeben werden. Man
-kann auch Default-Werte angeben, die verwendet werden, wenn kein
-Parameter beim Aufruf angegeben wurde.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/c8ih2nW-SCI?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2018/06/c8ih2nW-SCI.jpg" /&gt;&lt;/a&gt;
-&lt;hr class="docutils" /&gt;
-&lt;table class="docutils footnote" frame="void" id="footnote-1" rules="none"&gt;
-&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
-&lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Die verlinkten Videos wurden bei YouTube veröffentlicht. Gleichzeitig
-lade ich sie aber auch immer an einer zweiten Stelle hoch. In diesem
-Falle findet man die Videos auch bei
-&lt;a class="reference external" href="https://archive.org/details/python-funktionen"&gt;archive.org&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</content><category term="Sonstiges"></category><category term="Video"></category><category term="Programmierung"></category><category term="Python"></category><category term="Funktionen"></category><category term="Mathe"></category></entry></feed>
+</content><category term="Sonstiges"></category><category term="Archiv"></category><category term="bloggen"></category></entry></feed>
