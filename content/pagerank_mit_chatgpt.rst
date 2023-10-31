@@ -8,7 +8,6 @@ Pagerank mit ChatGPT4 entwickeln - ein Dialog
 
 Ich wollte mit ChatGPT4 die Möglichkeiten ausloten, ob es sich für die Entwicklung des Pagerank-Algorithmus eignet. Dazu habe ich einen Dialog mit ChatGPT4 geführt. Die Fragen sind von mir, die Antworten von ChatGPT4.
 
-
 ----
 
 *Erstelle eine Liste mit 5 wichtigen Stichpunkten plus Erklärungen zum Thema “Pagerank Algorithmus”.*
