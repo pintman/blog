@@ -13,13 +13,13 @@
 
         <meta name="author" content="marco.bakera" />
         <meta name="keywords" content="python,chatgpt,programmierung" />
-        <meta name="description" content="Ich wollte mit ChatGPT4 die Möglichkeiten ausloten, ob es sich für die Entwicklung des Pagerank-Algorithmus eignet. Dazu habe ich einen Dialog mit ChatGPT4 geführt. Die Fragen sind von mir, die Antworten von ChatGPT4. Erstelle eine Liste mit 5 wichtigen Stichpunkten plus Erklärungen zum Thema “Pagerank Algorithmus”. Definition des PageRank-Algorithmus Der …" />
+        <meta name="description" content="Ich wollte mit ChatGPT4 die Möglichkeiten ausloten, ob es sich für die Entwicklung des Pagerank-Algorithmus eignet. Dazu habe ich einen Dialog mit ChatGPT4 geführt. Die Fragen sind von mir, die Antworten von ChatGPT4. &gt; Erstelle eine Liste mit 5 wichtigen Stichpunkten plus Erklärungen zum Thema “Pagerank Algorithmus”. Definition des PageRank-Algorithmus Der …" />
 
         <meta property="og:site_name" content="/home/bakera/blog" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="Pagerank mit ChatGPT4 entwickeln - ein Dialog"/>
         <meta property="og:url" content="https://blog.bakera.de/pr-mit-chatgpt4.html"/>
-        <meta property="og:description" content="Ich wollte mit ChatGPT4 die Möglichkeiten ausloten, ob es sich für die Entwicklung des Pagerank-Algorithmus eignet. Dazu habe ich einen Dialog mit ChatGPT4 geführt. Die Fragen sind von mir, die Antworten von ChatGPT4. Erstelle eine Liste mit 5 wichtigen Stichpunkten plus Erklärungen zum Thema “Pagerank Algorithmus”. Definition des PageRank-Algorithmus Der …"/>
+        <meta property="og:description" content="Ich wollte mit ChatGPT4 die Möglichkeiten ausloten, ob es sich für die Entwicklung des Pagerank-Algorithmus eignet. Dazu habe ich einen Dialog mit ChatGPT4 geführt. Die Fragen sind von mir, die Antworten von ChatGPT4. &gt; Erstelle eine Liste mit 5 wichtigen Stichpunkten plus Erklärungen zum Thema “Pagerank Algorithmus”. Definition des PageRank-Algorithmus Der …"/>
         <meta property="article:published_time" content="2023-10-31" />
             <meta property="article:section" content="Sonstiges" />
             <meta property="article:tag" content="python" />
@@ -125,7 +125,7 @@
                 </div>
                 <p>Ich wollte mit ChatGPT4 die Möglichkeiten ausloten, ob es sich für die Entwicklung des Pagerank-Algorithmus eignet. Dazu habe ich einen Dialog mit ChatGPT4 geführt. Die Fragen sind von mir, die Antworten von ChatGPT4.</p>
 <hr class="docutils" />
-<p><em>Erstelle eine Liste mit 5 wichtigen Stichpunkten plus Erklärungen zum Thema “Pagerank Algorithmus”.</em></p>
+<p>&gt; <em>Erstelle eine Liste mit 5 wichtigen Stichpunkten plus Erklärungen zum Thema “Pagerank Algorithmus”.</em></p>
 <ol class="arabic simple">
 <li><dl class="first docutils">
 <dt><strong>Definition des PageRank-Algorithmus</strong></dt>
@@ -169,7 +169,7 @@
 </li>
 </ol>
 <hr class="docutils" />
-<p><em>Schreibe ein Python-Programm, das den Algorithmus umsetzt. Das Programm soll einen Test mit einem Beispielgraphen enthalten.</em></p>
+<p>&gt; <em>Schreibe ein Python-Programm, das den Algorithmus umsetzt. Das Programm soll einen Test mit einem Beispielgraphen enthalten.</em></p>
 <p>Hier ist ein einfaches Python-Programm, das den PageRank-Algorithmus implementiert. Es verwendet die NetzwerkX-Bibliothek, um einen gerichteten Graphen zu erstellen und den PageRank zu berechnen.</p>
 <div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
 
@@ -210,7 +210,7 @@
 </pre></div>
 <p>Dieses Programm erstellt einen gerichteten Graphen mit vier Knoten: A, B, C und D. Es gibt eine Kante von A nach B, A nach C, B nach C, C nach A und D nach C. Der PageRank jedes Knotens wird dann berechnet und ausgegeben.</p>
 <hr class="docutils" />
-<p><em>Benutze keine externen Bibliotheken. Setze den Algorithmus objekt-orientiert um.</em></p>
+<p>&gt; <em>Benutze keine externen Bibliotheken. Setze den Algorithmus objekt-orientiert um.</em></p>
 <p>Natürlich, hier ist eine objektorientierte Implementierung des PageRank-Algorithmus in Python ohne externe Bibliotheken:</p>
 <div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Node</span><span class="p">:</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
@@ -264,13 +264,13 @@
 </pre></div>
 <p>In diesem Code stellen die Klassen <tt class="docutils literal">Node</tt> und <tt class="docutils literal">Graph</tt> einen gerichteten Graphen dar. Jeder Knoten (<tt class="docutils literal">Node</tt>) hat einen Namen, eine Liste der Knoten, zu denen er verlinkt, und einen PageRank-Wert. Der Graph (<tt class="docutils literal">Graph</tt>) enthält alle Knoten und eine Methode zur Berechnung des PageRank für jeden Knoten. Im Hauptteil des Codes wird ein Beispielgraph erstellt und der PageRank für jeden Knoten berechnet und ausgegeben.</p>
 <hr class="docutils" />
-<p><em>Welche Bedeutung hat links in der Klasse Node?</em></p>
+<p>&gt; <em>Welche Bedeutung hat links in der Klasse Node?</em></p>
 <p>In der Klasse <tt class="docutils literal">Node</tt> repräsentiert <tt class="docutils literal">links</tt> eine Liste von Knoten, zu denen der aktuelle Knoten verlinkt ist.</p>
 <p>In der Kontext des PageRank-Algorithmus, wenn ein Knoten A zu einem Knoten B verlinkt ist (d.h., es gibt eine Kante von A nach B im Graph), dann würde B in der <tt class="docutils literal">links</tt> Liste von A erscheinen.</p>
 <p>Diese Links repräsentieren die Verbindungen zwischen Webseiten. Wenn eine Webseite A auf eine Webseite B verlinkt, sieht der PageRank-Algorithmus diese Verlinkung als eine Art &quot;Empfehlung&quot; von A für B.</p>
 <p>Die Anzahl und Qualität dieser &quot;Empfehlungen&quot; (Links) bestimmen den PageRank-Wert einer Webseite. Je mehr hochwertige Links auf eine Webseite verweisen, desto höher ist ihr PageRank-Wert.</p>
 <hr class="docutils" />
-<p><em>Nutzt calc_pagerank dann nicht die falschen Verbindungs-Knoten - ausgehende statt eingehende?</em></p>
+<p>&gt; <em>Nutzt calc_pagerank dann nicht die falschen Verbindungs-Knoten - ausgehende statt eingehende?</em></p>
 <p>Ja, das ist korrekt. Entschuldigen Sie bitte meinen Fehler. Der PageRank-Algorithmus sollte tatsächlich die eingehenden Links zu einem Knoten berücksichtigen, nicht die ausgehenden.</p>
 <p>In der ursprünglichen Implementierung repräsentiert die <tt class="docutils literal">links</tt>-Liste eines Knotens die Knoten, zu denen er verlinkt (ausgehende Links), aber für den PageRank-Algorithmus sollten wir die Knoten betrachten, die auf ihn verlinken (eingehende Links).</p>
 <p>Hier ist eine korrigierte Version des Programms, in dem wir für jeden Knoten eine Liste von Knoten pflegen, die auf ihn verlinken:</p>
@@ -329,7 +329,7 @@
 <p>In dieser überarbeiteten Version hat jeder Knoten zwei Listen: <tt class="docutils literal">outgoing_links</tt> und <tt class="docutils literal">incoming_links</tt>. Die Methode <tt class="docutils literal">add_outgoing_link</tt> aktualisiert beide Listen entsprechend. Wenn ein Knoten A einen ausgehenden Link zu einem Knoten B hinzufügt, wird B zu den <tt class="docutils literal">outgoing_links</tt> von A hinzugefügt und A wird zu den <tt class="docutils literal">incoming_links</tt> von B hinzugefügt.</p>
 <p>In der <tt class="docutils literal">calculate_pagerank</tt> Methode wird nun die Summe der PageRanks der eingehenden Links (geteilt durch die Anzahl ihrer jeweiligen ausgehenden Links) berechnet, was dem PageRank-Algorithmus entspricht.</p>
 <hr class="docutils" />
-<p><em>Wie sicher (in Prozent) bist du dir, dass die jetzige Lösung korrekt ist?</em></p>
+<p>&gt; <em>Wie sicher (in Prozent) bist du dir, dass die jetzige Lösung korrekt ist?</em></p>
 <p>Ich bin mir zu 90% sicher, dass die aktuelle Lösung korrekt ist. Der Code implementiert den grundlegenden PageRank-Algorithmus, indem er eingehende Links berücksichtigt und den PageRank basierend auf der Anzahl und Qualität dieser Links berechnet. Es sind jedoch immer noch einige Aspekte zu beachten:</p>
 <ul class="simple">
 <li>Der Code berücksichtigt nicht &quot;Sackgassen&quot; oder &quot;Spinnennetze&quot;, d.h., Knoten ohne ausgehende Links oder Gruppen von Knoten, die nur untereinander verlinkt sind. In der Praxis wird der PageRank-Algorithmus so modifiziert, dass er solche Situationen behandelt.</li>
@@ -349,34 +349,9 @@
     <!-- Tag Cloud-->
     <hr />
     <div class="tagcloud">
-            <span class="tag-1">
-                <a href="https://blog.bakera.de/tag/tipp.html">
-                Tipp
-                </a>
-            </span>
             <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/ldlmooc.html">
-                ldlmooc
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/dortmund.html">
-                Dortmund
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/workshop.html">
-                workshop
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/badge.html">
-                badge
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/twitter.html">
-                Twitter
+                <a href="https://blog.bakera.de/tag/das-labor.html">
+                das-labor
                 </a>
             </span>
             <span class="tag-4">
@@ -384,39 +359,54 @@
                 3dDruck
                 </a>
             </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/zdf.html">
+                ZDF
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/tafelbild.html">
+                Tafelbild
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/text.html">
+                Text
+                </a>
+            </span>
+            <span class="tag-2">
+                <a href="https://blog.bakera.de/tag/termin.html">
+                Termin
+                </a>
+            </span>
+            <span class="tag-2">
+                <a href="https://blog.bakera.de/tag/hardware.html">
+                hardware
+                </a>
+            </span>
             <span class="tag-1">
-                <a href="https://blog.bakera.de/tag/bildung.html">
-                bildung
+                <a href="https://blog.bakera.de/tag/programmierung.html">
+                programmierung
                 </a>
             </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/bio.html">
-                bio
+            <span class="tag-1">
+                <a href="https://blog.bakera.de/tag/informatik.html">
+                Informatik
+                </a>
+            </span>
+            <span class="tag-1">
+                <a href="https://blog.bakera.de/tag/kunst.html">
+                kunst
                 </a>
             </span>
             <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/python.html">
-                python
-                </a>
-            </span>
-            <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/das-labor.html">
-                das-labor
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/35c3.html">
-                35c3
+                <a href="https://blog.bakera.de/tag/taschenrechner.html">
+                Taschenrechner
                 </a>
             </span>
             <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/debian.html">
-                debian
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/xmpp.html">
-                xmpp
+                <a href="https://blog.bakera.de/tag/rs232.html">
+                rs232
                 </a>
             </span>
             <span class="tag-3">
@@ -425,38 +415,18 @@
                 </a>
             </span>
             <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/software.html">
-                software
-                </a>
-            </span>
-            <span class="tag-1">
-                <a href="https://blog.bakera.de/tag/informatik.html">
-                Informatik
+                <a href="https://blog.bakera.de/tag/tv.html">
+                TV
                 </a>
             </span>
             <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/serielle-schnittstelle.html">
-                serielle Schnittstelle
+                <a href="https://blog.bakera.de/tag/workshop.html">
+                workshop
                 </a>
             </span>
             <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/smarthome.html">
-                Smarthome
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/iot.html">
-                IoT
-                </a>
-            </span>
-            <span class="tag-1">
-                <a href="https://blog.bakera.de/tag/programmierung.html">
-                programmierung
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/rss.html">
-                RSS
+                <a href="https://blog.bakera.de/tag/bio.html">
+                bio
                 </a>
             </span>
             <span class="tag-2">
@@ -464,14 +434,104 @@
                 Tools
                 </a>
             </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/podcast.html">
+                podcast
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/konferenz.html">
+                Konferenz
+                </a>
+            </span>
             <span class="tag-1">
                 <a href="https://blog.bakera.de/tag/mathe.html">
                 Mathe
                 </a>
             </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/serielle-schnittstelle.html">
+                serielle Schnittstelle
+                </a>
+            </span>
             <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/pdf.html">
-                pdf
+                <a href="https://blog.bakera.de/tag/mooc.html">
+                mooc
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/smarthome.html">
+                Smarthome
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/lernen.html">
+                lernen
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/arduino.html">
+                Arduino
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/inn.html">
+                INN
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/esp8266.html">
+                esp8266
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/software.html">
+                software
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/dtp.html">
+                dtp
+                </a>
+            </span>
+            <span class="tag-1">
+                <a href="https://blog.bakera.de/tag/wissenschaft.html">
+                Wissenschaft
+                </a>
+            </span>
+            <span class="tag-2">
+                <a href="https://blog.bakera.de/tag/bloggen.html">
+                bloggen
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/scifi.html">
+                SciFi
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/psychologie.html">
+                Psychologie
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/docker.html">
+                docker
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/gpio.html">
+                GPIO
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/cloud.html">
+                cloud
+                </a>
+            </span>
+            <span class="tag-2">
+                <a href="https://blog.bakera.de/tag/windows.html">
+                Windows
                 </a>
             </span>
             <span class="tag-1">
@@ -479,34 +539,69 @@
                 audio
                 </a>
             </span>
-            <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/hacking.html">
-                hacking
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/rss.html">
+                RSS
                 </a>
             </span>
             <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/sport.html">
-                Sport
+                <a href="https://blog.bakera.de/tag/bilder.html">
+                Bilder
                 </a>
             </span>
-            <span class="tag-1">
-                <a href="https://blog.bakera.de/tag/importiert.html">
-                importiert
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/datenbank.html">
+                Datenbank
                 </a>
             </span>
-            <span class="tag-1">
-                <a href="https://blog.bakera.de/tag/linux.html">
-                Linux
-                </a>
-            </span>
-            <span class="tag-1">
-                <a href="https://blog.bakera.de/tag/video.html">
-                video
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/commandline.html">
+                Commandline
                 </a>
             </span>
             <span class="tag-2">
                 <a href="https://blog.bakera.de/tag/admin.html">
                 admin
+                </a>
+            </span>
+            <span class="tag-1">
+                <a href="https://blog.bakera.de/tag/spass.html">
+                Spaß
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/35c3.html">
+                35c3
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/game-engine.html">
+                game-engine
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/sdr.html">
+                sdr
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/chatgpt.html">
+                chatgpt
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/twitter.html">
+                Twitter
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/latex.html">
+                Latex
+                </a>
+            </span>
+            <span class="tag-1">
+                <a href="https://blog.bakera.de/tag/importiert.html">
+                importiert
                 </a>
             </span>
             <span class="tag-3">
@@ -515,23 +610,8 @@
                 </a>
             </span>
             <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/funktionen.html">
-                Funktionen
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/tv.html">
-                TV
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/scifi.html">
-                SciFi
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/javascript.html">
-                JavaScript
+                <a href="https://blog.bakera.de/tag/ct.html">
+                c't
                 </a>
             </span>
             <span class="tag-1">
@@ -539,9 +619,54 @@
                 Linkliste
                 </a>
             </span>
+            <span class="tag-1">
+                <a href="https://blog.bakera.de/tag/video.html">
+                video
+                </a>
+            </span>
             <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/text.html">
-                Text
+                <a href="https://blog.bakera.de/tag/buch.html">
+                buch
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/iot.html">
+                IoT
+                </a>
+            </span>
+            <span class="tag-2">
+                <a href="https://blog.bakera.de/tag/geschichten.html">
+                Geschichten
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/ubuntu.html">
+                ubuntu
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/studium.html">
+                Studium
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/javascript.html">
+                JavaScript
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/badge.html">
+                badge
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/funktionen.html">
+                Funktionen
+                </a>
+            </span>
+            <span class="tag-1">
+                <a href="https://blog.bakera.de/tag/linux.html">
+                Linux
                 </a>
             </span>
             <span class="tag-4">
@@ -549,9 +674,74 @@
                 Newsgroup
                 </a>
             </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/ita.html">
+                ITA
+                </a>
+            </span>
             <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/datenbank.html">
-                Datenbank
+                <a href="https://blog.bakera.de/tag/server.html">
+                server
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/second-life.html">
+                Second Life
+                </a>
+            </span>
+            <span class="tag-2">
+                <a href="https://blog.bakera.de/tag/hacking.html">
+                hacking
+                </a>
+            </span>
+            <span class="tag-2">
+                <a href="https://blog.bakera.de/tag/gamejam.html">
+                gamejam
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/heise.html">
+                heise
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/fun.html">
+                fun
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/e-mail.html">
+                e-mail
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/archiv.html">
+                Archiv
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/clonezilla.html">
+                Clonezilla
+                </a>
+            </span>
+            <span class="tag-1">
+                <a href="https://blog.bakera.de/tag/tipp.html">
+                Tipp
+                </a>
+            </span>
+            <span class="tag-2">
+                <a href="https://blog.bakera.de/tag/comic.html">
+                Comic
+                </a>
+            </span>
+            <span class="tag-2">
+                <a href="https://blog.bakera.de/tag/hp35s.html">
+                HP35s
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/nntp.html">
+                NNTP
                 </a>
             </span>
             <span class="tag-4">
@@ -564,24 +754,79 @@
                 git
                 </a>
             </span>
-            <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/comic.html">
-                Comic
-                </a>
-            </span>
             <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/lernen.html">
-                lernen
+                <a href="https://blog.bakera.de/tag/chat.html">
+                Chat
                 </a>
             </span>
             <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/geschichten.html">
-                Geschichten
+                <a href="https://blog.bakera.de/tag/pdf.html">
+                pdf
+                </a>
+            </span>
+            <span class="tag-2">
+                <a href="https://blog.bakera.de/tag/ldlmooc.html">
+                ldlmooc
                 </a>
             </span>
             <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/esp8266.html">
-                esp8266
+                <a href="https://blog.bakera.de/tag/ccc.html">
+                ccc
+                </a>
+            </span>
+            <span class="tag-2">
+                <a href="https://blog.bakera.de/tag/raspberrypi.html">
+                raspberrypi
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/sport.html">
+                Sport
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/gesellschaft.html">
+                Gesellschaft
+                </a>
+            </span>
+            <span class="tag-1">
+                <a href="https://blog.bakera.de/tag/bildung.html">
+                bildung
+                </a>
+            </span>
+            <span class="tag-2">
+                <a href="https://blog.bakera.de/tag/python.html">
+                python
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/xmpp.html">
+                xmpp
+                </a>
+            </span>
+            <span class="tag-2">
+                <a href="https://blog.bakera.de/tag/spiele.html">
+                Spiele
+                </a>
+            </span>
+            <span class="tag-4">
+                <a href="https://blog.bakera.de/tag/debian.html">
+                debian
+                </a>
+            </span>
+            <span class="tag-3">
+                <a href="https://blog.bakera.de/tag/dortmund.html">
+                Dortmund
+                </a>
+            </span>
+            <span class="tag-1">
+                <a href="https://blog.bakera.de/tag/film.html">
+                Film
+                </a>
+            </span>
+            <span class="tag-2">
+                <a href="https://blog.bakera.de/tag/ldl.html">
+                ldl
                 </a>
             </span>
             <span class="tag-3">
@@ -595,258 +840,13 @@
                 </a>
             </span>
             <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/spiele.html">
-                Spiele
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/sdr.html">
-                sdr
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/ita.html">
-                ITA
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/ct.html">
-                c't
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/gpio.html">
-                GPIO
-                </a>
-            </span>
-            <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/taschenrechner.html">
-                Taschenrechner
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/gesellschaft.html">
-                Gesellschaft
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/studium.html">
-                Studium
-                </a>
-            </span>
-            <span class="tag-1">
-                <a href="https://blog.bakera.de/tag/film.html">
-                Film
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/archiv.html">
-                Archiv
-                </a>
-            </span>
-            <span class="tag-1">
-                <a href="https://blog.bakera.de/tag/kunst.html">
-                kunst
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/nntp.html">
-                NNTP
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/commandline.html">
-                Commandline
-                </a>
-            </span>
-            <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/termin.html">
-                Termin
-                </a>
-            </span>
-            <span class="tag-2">
                 <a href="https://blog.bakera.de/tag/34c3.html">
                 34c3
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/latex.html">
-                Latex
-                </a>
-            </span>
-            <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/mooc.html">
-                mooc
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/inn.html">
-                INN
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/docker.html">
-                docker
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/tafelbild.html">
-                Tafelbild
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/cloud.html">
-                cloud
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/heise.html">
-                heise
-                </a>
-            </span>
-            <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/hp35s.html">
-                HP35s
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/server.html">
-                server
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/bilder.html">
-                Bilder
-                </a>
-            </span>
-            <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/ldl.html">
-                ldl
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/psychologie.html">
-                Psychologie
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/podcast.html">
-                podcast
-                </a>
-            </span>
-            <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/bloggen.html">
-                bloggen
-                </a>
-            </span>
-            <span class="tag-1">
-                <a href="https://blog.bakera.de/tag/spass.html">
-                Spaß
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/ubuntu.html">
-                ubuntu
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/chatgpt.html">
-                chatgpt
-                </a>
-            </span>
-            <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/gamejam.html">
-                gamejam
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/rs232.html">
-                rs232
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/e-mail.html">
-                e-mail
-                </a>
-            </span>
-            <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/hardware.html">
-                hardware
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/dtp.html">
-                dtp
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/second-life.html">
-                Second Life
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/buch.html">
-                buch
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/arduino.html">
-                Arduino
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/ccc.html">
-                ccc
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/konferenz.html">
-                Konferenz
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/clonezilla.html">
-                Clonezilla
-                </a>
-            </span>
-            <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/raspberrypi.html">
-                raspberrypi
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/chat.html">
-                Chat
-                </a>
-            </span>
-            <span class="tag-4">
-                <a href="https://blog.bakera.de/tag/zdf.html">
-                ZDF
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/fun.html">
-                fun
-                </a>
-            </span>
-            <span class="tag-3">
-                <a href="https://blog.bakera.de/tag/game-engine.html">
-                game-engine
                 </a>
             </span>
             <span class="tag-4">
                 <a href="https://blog.bakera.de/tag/sketchnotes.html">
                 Sketchnotes
-                </a>
-            </span>
-            <span class="tag-1">
-                <a href="https://blog.bakera.de/tag/wissenschaft.html">
-                Wissenschaft
-                </a>
-            </span>
-            <span class="tag-2">
-                <a href="https://blog.bakera.de/tag/windows.html">
-                Windows
                 </a>
             </span>
     </div>
