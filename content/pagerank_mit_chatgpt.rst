@@ -10,7 +10,7 @@ Ich wollte mit ChatGPT4 die Möglichkeiten ausloten, ob es sich für die Entwick
 
 ----
 
-*Erstelle eine Liste mit 5 wichtigen Stichpunkten plus Erklärungen zum Thema “Pagerank Algorithmus”.*
+> *Erstelle eine Liste mit 5 wichtigen Stichpunkten plus Erklärungen zum Thema “Pagerank Algorithmus”.*
 
 
 1. **Definition des PageRank-Algorithmus**
@@ -30,7 +30,7 @@ Ich wollte mit ChatGPT4 die Möglichkeiten ausloten, ob es sich für die Entwick
 
 ----
 
-*Schreibe ein Python-Programm, das den Algorithmus umsetzt. Das Programm soll einen Test mit einem Beispielgraphen enthalten.*
+> *Schreibe ein Python-Programm, das den Algorithmus umsetzt. Das Programm soll einen Test mit einem Beispielgraphen enthalten.*
 
 Hier ist ein einfaches Python-Programm, das den PageRank-Algorithmus implementiert. Es verwendet die NetzwerkX-Bibliothek, um einen gerichteten Graphen zu erstellen und den PageRank zu berechnen.
 
@@ -78,9 +78,7 @@ Dieses Programm erstellt einen gerichteten Graphen mit vier Knoten: A, B, C und 
 
 ----
 
-
-*Benutze keine externen Bibliotheken. Setze den Algorithmus objekt-orientiert um.*
-
+> *Benutze keine externen Bibliotheken. Setze den Algorithmus objekt-orientiert um.*
 
 Natürlich, hier ist eine objektorientierte Implementierung des PageRank-Algorithmus in Python ohne externe Bibliotheken:
 
@@ -142,7 +140,7 @@ In diesem Code stellen die Klassen ``Node`` und ``Graph`` einen gerichteten Grap
 
 ----
 
-*Welche Bedeutung hat links in der Klasse Node?*
+> *Welche Bedeutung hat links in der Klasse Node?*
 
 
 In der Klasse ``Node`` repräsentiert ``links`` eine Liste von Knoten, zu denen der aktuelle Knoten verlinkt ist.
@@ -155,7 +153,7 @@ Die Anzahl und Qualität dieser "Empfehlungen" (Links) bestimmen den PageRank-We
 
 ----
 
-*Nutzt calc_pagerank dann nicht die falschen Verbindungs-Knoten - ausgehende statt eingehende?*
+> *Nutzt calc_pagerank dann nicht die falschen Verbindungs-Knoten - ausgehende statt eingehende?*
 
 
 Ja, das ist korrekt. Entschuldigen Sie bitte meinen Fehler. Der PageRank-Algorithmus sollte tatsächlich die eingehenden Links zu einem Knoten berücksichtigen, nicht die ausgehenden. 
@@ -225,7 +223,7 @@ In der ``calculate_pagerank`` Methode wird nun die Summe der PageRanks der einge
 
 ----
 
-*Wie sicher (in Prozent) bist du dir, dass die jetzige Lösung korrekt ist?*
+> *Wie sicher (in Prozent) bist du dir, dass die jetzige Lösung korrekt ist?*
 
 
 Ich bin mir zu 90% sicher, dass die aktuelle Lösung korrekt ist. Der Code implementiert den grundlegenden PageRank-Algorithmus, indem er eingehende Links berücksichtigt und den PageRank basierend auf der Anzahl und Qualität dieser Links berechnet. Es sind jedoch immer noch einige Aspekte zu beachten:
