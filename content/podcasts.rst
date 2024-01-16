@@ -120,6 +120,9 @@ Ja, sie sind wieder da. Nur eben nicht so ganz.
 **Update:** Die Podcasts befinden sich auch `bei
 archive.org <https://archive.org/details/marco.bakera/>`__.
 
+**Update 2:** Alle Folgen inklusive Feed nun auch `bei
+archive.org <https://archive.org/details/marcos_gedanken>`__.
+
 .. raw:: html
 
    </div>
