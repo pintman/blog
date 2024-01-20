@@ -6,9 +6,9 @@ Worn das Wiesel
 :slug: worn-das-wiesel
 :status: published
 
-Bei `suhiradio.de» <http://sushiradio.de/pivot/entry.php?id=44>`__ gibt
+Bei `suhiradio.de» <https://web.archive.org/sushiradio.de/pivot/entry.php?id=44>`__ gibt
 es in einem Podcast den Hinweis auf eine kleine Hörgeschichte mit dem
 Namem "Worn das Wiesel"
-`[mp3] <http://sushiradio.de/audio/sushiradio-027-musik.mp3>`__. Klingt
+`[mp3] <https://web.archive.org/sushiradio.de/audio/sushiradio-027-musik.mp3>`__. Klingt
 alles recht spaßig und ich kann das ganze Vorhaben auch nur
 unterstützen.
