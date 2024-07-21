@@ -541,7 +541,9 @@ Länge verträgt. Hier würde ich mir für die Zukunft eine Umgestaltung
 wünschen.&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="Sonstiges"></category><category term="das-labor"></category><category term="hardware"></category><category term="hacking"></category></entry><entry><title>CryptPad</title><link href="https://blog.bakera.de/cryptpad.html" rel="alternate"></link><published>2019-11-02T18:30:00+01:00</published><updated>2019-11-02T18:30:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2019-11-02:/cryptpad.html</id><summary type="html">&lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/HQsX7N7hfOk?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2019/cryptpadvideo.png" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/HQsX7N7hfOk?rel=0"&gt;
+&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2019/cryptpadvideo.png" /&gt;
+&lt;/a&gt;
 &lt;p class="caption"&gt;YouTube-Video (&lt;a class="reference external" href="https://archive.org/details/cryptpadonlineeditormitendezuendeverschlusselung"&gt;bei archive.org&lt;/a&gt;)&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://cryptpad.fr/"&gt;CryptPad&lt;/a&gt; ist eine Software, mit der mehrere Nutzer
@@ -553,7 +555,9 @@ unter einer freien Lizenz steht, kann man auch selbst eine Installation hosten.&
 &lt;li&gt;&lt;a class="reference external" href="https://media.ccc.de/v/gpn19-79-cryptpad-practice-and-theory"&gt;Vortrag bei der GPN&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Als Beispiel ist das Skript …&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/HQsX7N7hfOk?rel=0"&gt;&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2019/cryptpadvideo.png" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/HQsX7N7hfOk?rel=0"&gt;
+&lt;img alt="Youtube-Video" src="https://blog.bakera.de/images/2019/cryptpadvideo.png" /&gt;
+&lt;/a&gt;
 &lt;p class="caption"&gt;YouTube-Video (&lt;a class="reference external" href="https://archive.org/details/cryptpadonlineeditormitendezuendeverschlusselung"&gt;bei archive.org&lt;/a&gt;)&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://cryptpad.fr/"&gt;CryptPad&lt;/a&gt; ist eine Software, mit der mehrere Nutzer
@@ -656,7 +660,9 @@ wir vier Level umsetzen und waren erstaunt, wie komplex sich die Auswertung
 derartiger Sensoren im Detail gestaltet. Gleichzeitig entstand eine
 durchaus nutzbare Steuerung.&lt;/p&gt;
 &lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/waw8Q1aqwW4?rel=0"&gt;&lt;img alt="FlipFlop-Display mit Spiel" src="https://blog.bakera.de/images/2019/mottenflop_video.png" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/waw8Q1aqwW4?rel=0"&gt;
+&lt;img alt="FlipFlop-Display mit Spiel" src="https://blog.bakera.de/images/2019/mottenflop_video.png" /&gt;
+&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;Andere Gruppen und Einzelkämpfer setzten die Themen kreativ mit eigenen
 Spielen um. So entstand etwa eine Fahrsimulation, bei der ein Fahrer auf dem
@@ -1049,7 +1055,9 @@ Catering.&lt;/p&gt;
 &lt;div class="section" id="update"&gt;
 &lt;h2&gt;Update&lt;/h2&gt;
 &lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=_8yzRQuGX-Y"&gt;&lt;img alt="Lightning Talk zum Hardware 101 (bei YouTube)" src="https://blog.bakera.de/images/2019/pam115-lt-marco.png" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=_8yzRQuGX-Y"&gt;
+&lt;img alt="Lightning Talk zum Hardware 101 (bei YouTube)" src="https://blog.bakera.de/images/2019/pam115-lt-marco.png" /&gt;
+&lt;/a&gt;
 &lt;p class="caption"&gt;Lightning Talk zum Hardware 101 (bei YouTube)&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Die Lightning-Talks und damit auch &lt;a class="reference external" href="https://www.youtube.com/watch?v=_8yzRQuGX-Y"&gt;mein Vortrag über das Hardware 101&lt;/a&gt; sind nun bei YouTube
@@ -1274,7 +1282,9 @@ war ich gerade bei Minute 8:40 eines Talks als meine 1-Stundenschicht zu Ende gi
 &lt;p&gt;Nun werde ich mir noch viele der Talks anschauen, die glücklicherweise aufgezeichnet
 wurden und bei &lt;a class="reference external" href="https://media.ccc.de/c/35c3"&gt;media.ccc.de&lt;/a&gt; abgerufen werden können.
 Ich freue mich jetzt schon auf den nächsten Kongress.&lt;/p&gt;
-</content><category term="Sonstiges"></category><category term="35c3"></category><category term="sdr"></category><category term="ctf"></category><category term="lernen"></category></entry><entry><title>Wetter-Monitor mit einem Kindle</title><link href="https://blog.bakera.de/kindle_wetter_monitor.html" rel="alternate"></link><published>2018-12-08T16:48:00+01:00</published><updated>2018-12-08T16:48:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-12-08:/kindle_wetter_monitor.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/kindle_weather_display.jpg"&gt;&lt;img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/small_kindle_weather_display.jpg" /&gt;&lt;/a&gt;
+</content><category term="Sonstiges"></category><category term="35c3"></category><category term="sdr"></category><category term="ctf"></category><category term="lernen"></category></entry><entry><title>Wetter-Monitor mit einem Kindle</title><link href="https://blog.bakera.de/kindle_wetter_monitor.html" rel="alternate"></link><published>2018-12-08T16:48:00+01:00</published><updated>2018-12-08T16:48:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-12-08:/kindle_wetter_monitor.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/kindle_weather_display.jpg"&gt;
+&lt;img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/small_kindle_weather_display.jpg" /&gt;
+&lt;/a&gt;
 &lt;p&gt;E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere
 Modelle bekommt man für wenig Geld.
 Genau diese Kombination machen sie so reizvoll, um
@@ -1282,7 +1292,9 @@ daraus ein Türschild zu bauen oder, um sie als Wetteranzeige zu verwenden. Die
 Displays stellen die Informationen sehr scharf dar und verbrauchen nur wenig
 Strom.&lt;/p&gt;
 &lt;div class="section" id="setup-des-kindle"&gt;
-&lt;h2&gt;Setup …&lt;/h2&gt;&lt;/div&gt;</summary><content type="html">&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/kindle_weather_display.jpg"&gt;&lt;img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/small_kindle_weather_display.jpg" /&gt;&lt;/a&gt;
+&lt;h2&gt;Setup …&lt;/h2&gt;&lt;/div&gt;</summary><content type="html">&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/kindle_weather_display.jpg"&gt;
+&lt;img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/small_kindle_weather_display.jpg" /&gt;
+&lt;/a&gt;
 &lt;p&gt;E-Book-Reader haben meist ein E-Ink-Display, ein schönes Gehäuse und ältere
 Modelle bekommt man für wenig Geld.
 Genau diese Kombination machen sie so reizvoll, um
@@ -1334,7 +1346,9 @@ als beschreibbares Dateisystem mounten und anschließend das Cronfile editieren.
 &lt;/div&gt;
 &lt;div class="section" id="bilder-auf-dem-kindle-darstellen"&gt;
 &lt;h3&gt;Bilder auf dem Kindle darstellen&lt;/h3&gt;
-&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/kindle_weather_display.jpg"&gt;&lt;img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/small_kindle_weather_display.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/kindle_weather_display.jpg"&gt;
+&lt;img alt="Kindle mit Wetteranzeige" src="https://blog.bakera.de/images/2018/small_kindle_weather_display.jpg" /&gt;
+&lt;/a&gt;
 &lt;p&gt;Für die Darstellung von Bildern und Text auf dem Kindle ist das
 Kommandozeilentool
 &lt;a class="reference external" href="https://wiki.mobileread.com/wiki/Eips"&gt;eips&lt;/a&gt; zuständig - vermutlich
@@ -1725,7 +1739,9 @@ Flipdot-Anzeige zu einem Spiel zu überrreden. Es sollte eine Variante
 von Guitar-Hero werden, die durch einen Midi-Controller gesteuert
 wird. Wir nannten das Projekt daher kurz
 &lt;a class="reference external" href="https://gist.github.com/pintman/52cd40876946c0e0b08f3ee92297af95"&gt;FlipDotHero&lt;/a&gt;.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/a97wuYli1_Q?rel=0"&gt;&lt;img alt="Video für Flip-Dot-Anzeige" src="https://blog.bakera.de/images/2018/video_thumbnail.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://www.youtube-nocookie.com/embed/a97wuYli1_Q?rel=0"&gt;
+&lt;img alt="Video für Flip-Dot-Anzeige" src="https://blog.bakera.de/images/2018/video_thumbnail.jpg" /&gt;
+&lt;/a&gt;
 &lt;p&gt;Leider hat es am Ende nicht ganz für ein rundum überzeugendes
 Spielkonzept gereicht und wir haben eine Notlösung umgesetzt - dabei
 aber auch gelernt, dass man vom Einfachen zum Komplexen entwickeln
@@ -1852,7 +1868,9 @@ gibt: Zeugnisse erstellen, Räume einrichten etc.&lt;/p&gt;
 verschiedenen Projekten gearbeitet. Die Schüler konnten wählen,
 ob sie an einem Mini-Game-Jam teilnehmen und ein kleines Spiel programmieren
 oder, ob sie ein eigenes Hardware- oder Softwareprojekt umsetzen wollen.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/game-jam-themen.jpg"&gt;&lt;img alt="Themen für den Mini-Gam-Jam" src="https://blog.bakera.de/images/2018/07/small_game-jam-themen.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/game-jam-themen.jpg"&gt;
+&lt;img alt="Themen für den Mini-Gam-Jam" src="https://blog.bakera.de/images/2018/07/small_game-jam-themen.jpg" /&gt;
+&lt;/a&gt;
 &lt;div class="section" id="tag-1"&gt;
 &lt;h2&gt;Tag 1&lt;/h2&gt;
 &lt;p&gt;Zu Beginn haben sich die Schüler in einem kleinen Spiel gegenseitig erklärt,
@@ -1877,14 +1895,22 @@ Zwischendurch haben wir ganz nerdig Pizza bestellt und gemeinsam gegessen.&lt;/p
 einem Steckbrett. Dazu später jedoch mehr.&lt;/p&gt;
 &lt;p&gt;Ohne Anspruch auf Vollständigkeit greife ich ein paar Projekte heraus, von denen
 ich Bilder machen konnte. Diese Auswahl umfasste z.B. ein Anime-Quiz.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/anime-quiz.jpg"&gt;&lt;img alt="Anime Quiz" src="https://blog.bakera.de/images/2018/07/small_anime-quiz.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/anime-quiz.jpg"&gt;
+&lt;img alt="Anime Quiz" src="https://blog.bakera.de/images/2018/07/small_anime-quiz.jpg" /&gt;
+&lt;/a&gt;
 &lt;p&gt;Es wurde ein Roboterarm aus einem 3D-Drucker gedruckt, der über Servo-Motoren
 angesteuert wurde.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/roboarm.jpg"&gt;&lt;img alt="Roboarm" src="https://blog.bakera.de/images/2018/07/small_roboarm.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/roboarm.jpg"&gt;
+&lt;img alt="Roboarm" src="https://blog.bakera.de/images/2018/07/small_roboarm.jpg" /&gt;
+&lt;/a&gt;
 &lt;p&gt;Ein Spiel wurde mit dem Game-Maker-Studio erstellt.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/game-maker.jpg"&gt;&lt;img alt="Game Maker" src="https://blog.bakera.de/images/2018/07/small_game-maker.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/game-maker.jpg"&gt;
+&lt;img alt="Game Maker" src="https://blog.bakera.de/images/2018/07/small_game-maker.jpg" /&gt;
+&lt;/a&gt;
 &lt;p&gt;Eine RGB-LED leuchtete in verschiedenen Farben.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/rgb-led.jpg"&gt;&lt;img alt="RGB LED" src="https://blog.bakera.de/images/2018/07/small_rgb-led.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/rgb-led.jpg"&gt;
+&lt;img alt="RGB LED" src="https://blog.bakera.de/images/2018/07/small_rgb-led.jpg" /&gt;
+&lt;/a&gt;
 &lt;p&gt;Und vieles andere mehr.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="tag-2"&gt;
@@ -1898,7 +1924,9 @@ haben.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="breadboardpong"&gt;
 &lt;h2&gt;Breadboardpong&lt;/h2&gt;
-&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/1d-pong.jpg"&gt;&lt;img alt="1D-Pong auf einem Steckbrett" src="https://blog.bakera.de/images/2018/07/small_1d-pong.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/1d-pong.jpg"&gt;
+&lt;img alt="1D-Pong auf einem Steckbrett" src="https://blog.bakera.de/images/2018/07/small_1d-pong.jpg" /&gt;
+&lt;/a&gt;
 &lt;p&gt;Das &amp;quot;Lehrerteam&amp;quot; hat auch ein Projekt umgesetzt: &lt;em&gt;Breadboardpong&lt;/em&gt;. Hierbei wandert
 ein Lichtpunkt über LEDs hinweg hin und her. Durch Druck auf den
 Taster im eigenen Feld mit den drei roten LED kann er an den Gegner
