@@ -23,6 +23,8 @@
 | Schaut es euch an und prüft, inwieweit euer Kopf in der Lage ist, eine
   Welt für euch zu erschaffen.
 
-  2024-07-21 Update: Das Tutorial ist nun 
-  `hier <https://playfic.com/games/pintman/tutorial-deutsch>`__ verfügbar.
+2024-07-21 Update: Das Tutorial ist nun 
+`hier <https://playfic.com/games/pintman/tutorial-deutsch>`__ 
+und `hier <https://pintman.itch.io/if-tutorial>`__ 
+verfügbar.
 
