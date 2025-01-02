@@ -16,7 +16,7 @@ Lebewesen diesem Aufruf - und ich war eines davon.
 Flip Flap Flop
 --------------
 
-Mit `Gum <https://chaos.social/@elektroschule@mastodon.social>`_  habe ich zwei 
+Mit `Gum <https://mastodon.social/@elektroschule>`_  habe ich zwei 
 `Flipdotanzeigen <https://wiki.das-labor.org/w/Projekt/FlipFlapFlop>`_ bei der 
 Assembly des Labors betrieben. Schon beim 37c3 hatten wir die Anzeige dabei. Da 
 es damals jedoch Probleme in der Hardware gab, verbrachten wir viel Zeit damit, 
