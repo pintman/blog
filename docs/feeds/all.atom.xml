@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"></link><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"></link><id>https://blog.bakera.de/</id><updated>2025-01-02T11:00:00+01:00</updated><entry><title>38C3</title><link href="https://blog.bakera.de/38c3.html" rel="alternate"></link><published>2025-01-02T11:00:00+01:00</published><updated>2025-01-02T11:00:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2025-01-02:/38c3.html</id><summary type="html">&lt;div class="figure"&gt;
-&lt;img alt="Spiegelknoten" src="https://blog.bakera.de/images/2025/flipdotanzeige.png" /&gt;
+&lt;img alt="Flipdotanzeige beim 38C3" src="https://blog.bakera.de/images/2025/flipdotanzeige.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;Auch im Jahr 2024 lud der CCC zwischen dem 27. und dem 30.12. wieder zum
 Chaos Communication Congress nach Hamburg ein. Diesmal folgten 14.000
@@ -10,7 +10,7 @@ Lebewesen diesem Aufruf - und ich war eines davon.&lt;/p&gt;
 &lt;p&gt;Mit Gum (&amp;#64;elektroschule) habe ich zwei
 &lt;a class="reference external" href="https://wiki.das-labor.org/w/Projekt/FlipFlapFlop"&gt;Flipdotanzeigen&lt;/a&gt; bei der
 Assembly des Labors betrieben …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="figure"&gt;
-&lt;img alt="Spiegelknoten" src="https://blog.bakera.de/images/2025/flipdotanzeige.png" /&gt;
+&lt;img alt="Flipdotanzeige beim 38C3" src="https://blog.bakera.de/images/2025/flipdotanzeige.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;Auch im Jahr 2024 lud der CCC zwischen dem 27. und dem 30.12. wieder zum
 Chaos Communication Congress nach Hamburg ein. Diesmal folgten 14.000
@@ -76,18 +76,18 @@ mehr als aufgeweckten Schülers ließ mich mit offenem Mund zurück.&lt;/p&gt;
 auf unterschiedlichen Chaos-Veranstaltungen. Christoph hat sich dem Spaß
 angenommen und das Logo unserer Schule tatsächlich auf das Display senden
 können. Vor 6 Jahren hatte ich dazu bereits ein
-&lt;a class="reference external" href="https://www.youtube.com/watch?v=znQGIrJE2ow&amp;amp;t=441s"&gt;Video&lt;/a&gt; gemacht. An dem
-Protokoll, um das Display zu bespielen hat sich seitdem wenig geändert.&lt;/p&gt;
+&lt;a class="reference external" href="https://www.youtube.com/watch?v=znQGIrJE2ow&amp;amp;t=441s"&gt;Video&lt;/a&gt; gemacht. Am Protokoll,
+um das Display zu bespielen, hat sich seitdem wenig geändert.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="podcast"&gt;
 &lt;h2&gt;Podcast&lt;/h2&gt;
-&lt;p&gt;Auch diesmal stand ein Podcast von Lukas auf der Tageordnung. Es sollte eine
+&lt;p&gt;Auch diesmal stand ein Podcast von Lukas auf der Tagesordnung. Es sollte eine
 &lt;a class="reference external" href="https://chaos.social/&amp;#64;pintman/113735229484406608"&gt;Folge zu IT-Sicherheit&lt;/a&gt;
-werden. Zusammen mit Hendrik haben wir ca. eine Stunde über private
+werden. Zusammen mit Hendrik haben wir etwa eine Stunde über private
 Schutzmöglichkeiten, IT-Sicherheit in Unternehmen bis hin zu kritischen
-Infrastukturen und Gesetzesinitiativen aus der EU gesprochen. Es war ein wilder
+Infrastrukturen und Gesetzesinitiativen aus der EU gesprochen. Es war ein wilder
 Ritt durch ein breites Themenfeld. Daher war ich froh, dass Hendrik meine
-eher anekdotischen Erfahrungen mit Fachwissen unterfüttern konnte.&lt;/p&gt;
+eher anekdotischen Erfahrungen mit Fachwissen untermauern konnte.&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="Sonstiges"></category><category term="python"></category><category term="ccc"></category><category term="video"></category><category term="audio"></category><category term="podcast"></category><category term="hacking"></category><category term="gamge-engine"></category><category term="programmierung"></category><category term="llm"></category></entry><entry><title>Pagerank mit ChatGPT4 entwickeln - ein Dialog</title><link href="https://blog.bakera.de/pr-mit-chatgpt4.html" rel="alternate"></link><published>2023-10-31T17:00:00+01:00</published><updated>2023-10-31T17:00:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2023-10-31:/pr-mit-chatgpt4.html</id><summary type="html">&lt;p&gt;Ich wollte mit ChatGPT4 die Möglichkeiten ausloten, ob es sich für die Entwicklung des Pagerank-Algorithmus eignet. Dazu habe ich einen Dialog mit ChatGPT4 geführt. Die Fragen sind von mir, die Antworten von ChatGPT4.&lt;/p&gt;
 &lt;hr class="docutils" /&gt;
