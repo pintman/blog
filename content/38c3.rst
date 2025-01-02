@@ -1,0 +1,102 @@
+38C3
+====
+:date: 2025-01-02 11:00
+:author: marco.bakera
+:tags: python, ccc, video, audio, podcast, hacking, gamge-engine, programmierung, llm
+:status: published
+:slug: 38c3
+
+.. figure:: {static}images/2025/flipdotanzeige.png
+   :alt: Spiegelknoten
+
+Auch im Jahr 2024 lud der CCC zwischen dem 27. und dem 30.12. wieder zum 
+Chaos Communication Congress nach Hamburg ein. Diesmal folgten 14.000 
+Lebewesen diesem Aufruf - und ich war eines davon. 
+
+Flip Flap Flop
+--------------
+
+Mit Gum (@elektroschule) habe ich zwei 
+`Flipdotanzeigen <https://wiki.das-labor.org/w/Projekt/FlipFlapFlop>`_ bei der 
+Assembly des Labors betrieben. Schon beim 37c3 hatten wir die Anzeige dabei. Da 
+es damals jedoch Probleme in der Hardware gab, verbrachten wir viel Zeit damit, 
+fehlende Bauteile zu beschaffen und auf Fehlersuche zu gehen.
+
+In diesem Jahr klappte leider alles von Anfang an und so mussten wir
+uns für den Rest des Congresses weitere Betätigungsfelder erschließen. Das war aber
+gar nicht so schlimm, denn an Tag 2(?) kam 
+`Tim Pritlove <https://de.wikipedia.org/wiki/Tim_Pritlove>`_ bei unserer Anzeige
+vorbei und wollte sie mit seiner eigenen Software ansteuern. Wir hatten viele
+Besucher, die sich für den Aufbau und die Beschaffungsmöglichkeiten 
+interessierten. Selten wollten diese sich auch tiefergehend mit der 
+flippende Materie befassen. 
+Das ist eigentlich schade, da der Congress auch zu einem großen Teil vom
+Machen und Mitmachen lebt. 
+
+Nach ca. 1 Stunde war die Ansteuerung mit Cursor (eine IDE mit KI) 
+und Claude (ein LLM) in Elixir (eine Programmiersprache) fertig. Ein schönes 
+Stück Software mit einem Interface zum zeichnen, einem Dashboard und 
+Textanzeige.
+
+Dann blieb 
+noch genug Zeit, um in einem Gespräch in die Tiefen von Programmiersprachen
+und den Vorzügen von Elixir abzutauschen. Das war durchaus interessant und 
+spannend, da ich die Sprache zwar kannte, mich aber länger nicht und auch nie 
+in der Tiefe mit ihr befasst hatte.
+
+
+Lightning Talks
+---------------
+
+Die Lightning Talks waren für mich in der Vergangenheit immer ein Highlight.
+Man schaut sich eine Reihe kurzer Vorträge an – maximal 5 Minuten pro
+Vortrag. Irgendwie hatte ich immer Lust, so etwas auch einmal zu machen.
+Bei der `pi and more <https://www.youtube.com/watch?v=_8yzRQuGX-Y>`_ hatte ich
+das bereits vor einiger Zeit gemacht, beim Congress jedoch bisher nicht.
+
+Ich hatte mich vorher kurz mit der integrierten Game-Engine pyxel beschäftigt
+und hatte damit schnell ein Thema für einen Talk gefunden:
+`old school demos mit pyxel <https://www.bakera.de/old-school_demos_mit_pyxel>`_
+Hinter dem Link findet ihr die Folien und auch das Video. 
+
+Jedem, der einmal einen Talk auf dem Congress halten möchte, kann ich das
+Format als Einstieg wärmstens empfehlen. 
+
+Tolle Dinge
+-----------
+
+Was gab es noch so? Eine ganze Menge vieler kleiner Projekte, die man findet,
+ohne gezielt nach ihnen zu suchen. Einfach so, weil man in sie hineinläuft.
+
+Die `Voxelbox <https://codeberg.org/VoxelBox/voxelbox/>`_  war eine 
+menschengroße Installation aus 20 x 20 x 20 ansteuerbaren LED, die man über 
+ein einfaches Protokoll direkt ansteurn konnte. Ich habe ein
+`Plasmademo auf der Voxelbox <https://chaos.social/@pintman/113735263326984444>`_ 
+umgesetzt, das ich noch von den Flipdotanzeigen hatte.
+
+Ein `Analogrechner bei Jugend hackt <https://chaos.social/@pintman/113723094930851397>`_ 
+hat mich mit Staunen zurückgelassen. Digitalrechner umgeben uns überall und
+sind gut verstanden. Bei den Analogrechnern stecke ich eine Differenzialgleichung
+zusammen und stelle Koeffizienten mit einem Potientionmeter ein. 
+Vorträge hatte ich dazu 
+bereits gesehen, live durfte noch nicht damit herumspielen. Die Erklärung eines
+mehr als aufgeweckten Schülers ließ mich mit offenem Mund zurück.
+
+Die `Pixelflut <https://c3pixelflut.de>`_ ist eine beliebter Sport
+auf unterschiedlichen Chaos-Veranstaltungen. Christoph hat sich dem Spaß 
+angenommen und das Logo unserer Schule tatsächlich auf das Display senden 
+können. Vor 6 Jahren hatte ich dazu bereits ein 
+`Video <https://www.youtube.com/watch?v=znQGIrJE2ow&t=441s>`_ gemacht. An dem
+Protokoll, um das Display zu bespielen hat sich seitdem wenig geändert.
+
+Podcast
+-------
+
+Auch diesmal stand ein Podcast von Lukas auf der Tageordnung. Es sollte eine
+`Folge zu IT-Sicherheit <https://chaos.social/@pintman/113735229484406608>`_
+werden. Zusammen mit Hendrik haben wir ca. eine Stunde über private 
+Schutzmöglichkeiten, IT-Sicherheit in Unternehmen bis hin zu kritischen 
+Infrastukturen und Gesetzesinitiativen aus der EU gesprochen. Es war ein wilder
+Ritt durch ein breites Themenfeld. Daher war ich froh, dass Hendrik meine
+eher anekdotischen Erfahrungen mit Fachwissen unterfüttern konnte.
+
