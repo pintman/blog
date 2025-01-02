@@ -16,7 +16,7 @@ Lebewesen diesem Aufruf - und ich war eines davon.
 Flip Flap Flop
 --------------
 
-Mit Gum (@elektroschule) habe ich zwei 
+Mit `Gum <https://chaos.social/@elektroschule@mastodon.social>`_  habe ich zwei 
 `Flipdotanzeigen <https://wiki.das-labor.org/w/Projekt/FlipFlapFlop>`_ bei der 
 Assembly des Labors betrieben. Schon beim 37c3 hatten wir die Anzeige dabei. Da 
 es damals jedoch Probleme in der Hardware gab, verbrachten wir viel Zeit damit, 
@@ -27,9 +27,9 @@ uns für den Rest des Congresses weitere Betätigungsfelder erschließen. Das wa
 gar nicht so schlimm, denn an Tag 2(?) kam 
 `Tim Pritlove <https://de.wikipedia.org/wiki/Tim_Pritlove>`_ bei unserer Anzeige
 vorbei und wollte sie mit seiner eigenen Software ansteuern. Wir hatten viele
-Besucher, die sich für den Aufbau und die Beschaffungsmöglichkeiten 
-interessierten. Selten wollten diese sich auch tiefergehend mit der 
-flippende Materie befassen. 
+Besucher, die sich für den Aufbau der Anzeige und deren 
+Beschaffungsmöglichkeiten interessierten. Selten wollten diese sich auch 
+tiefergehend mit der flippende Materie befassen. 
 Das ist eigentlich schade, da der Congress auch zu einem großen Teil vom
 Machen und Mitmachen lebt. 
 
@@ -70,7 +70,7 @@ ohne gezielt nach ihnen zu suchen. Einfach so, weil man in sie hineinläuft.
 
 Die `Voxelbox <https://codeberg.org/VoxelBox/voxelbox/>`_  war eine 
 menschengroße Installation aus 20 x 20 x 20 ansteuerbaren LED, die man über 
-ein einfaches Protokoll direkt ansteurn konnte. Ich habe ein
+ein einfaches Netzwerk-Protokoll direkt ansteurn konnte. Ich habe ein
 `Plasmademo auf der Voxelbox <https://chaos.social/@pintman/113735263326984444>`_ 
 umgesetzt, das ich noch von den Flipdotanzeigen hatte.
 
@@ -87,7 +87,9 @@ auf unterschiedlichen Chaos-Veranstaltungen. Christoph hat sich dem Spaß
 angenommen und das Logo unserer Schule tatsächlich auf das Display senden 
 können. Vor 6 Jahren hatte ich dazu bereits ein 
 `Video <https://www.youtube.com/watch?v=znQGIrJE2ow&t=441s>`_ gemacht. Am Protokoll,
-um das Display zu bespielen, hat sich seitdem wenig geändert.
+um das Display zu bespielen, hat sich seitdem wenig geändert. Die Kunst liegt
+jedoch in der algorithmischen Umsetzung, um ein Bild auf das Display zu bringen.
+Parallelisierung und Zufall scheinen erfolgsversprechende Ansätze zu sein.
 
 Podcast
 -------
