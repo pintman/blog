@@ -2,7 +2,7 @@
 ====
 :date: 2025-01-02 11:00
 :author: marco.bakera
-:tags: python, ccc, video, audio, podcast, hacking, gamge-engine, programmierung, llm
+:tags: python, ccc, video, audio, podcast, hacking, game-engine, programmierung, llm
 :status: published
 :slug: 38c3
 
