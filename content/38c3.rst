@@ -7,7 +7,7 @@
 :slug: 38c3
 
 .. figure:: {static}images/2025/flipdotanzeige.png
-   :alt: Spiegelknoten
+   :alt: Flipdotanzeige beim 38C3
 
 Auch im Jahr 2024 lud der CCC zwischen dem 27. und dem 30.12. wieder zum 
 Chaos Communication Congress nach Hamburg ein. Diesmal folgten 14.000 
