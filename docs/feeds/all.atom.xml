@@ -7,9 +7,9 @@ Chaos Communication Congress nach Hamburg ein. Diesmal folgten 14.000
 Lebewesen diesem Aufruf - und ich war eines davon.&lt;/p&gt;
 &lt;div class="section" id="flip-flap-flop"&gt;
 &lt;h2&gt;Flip Flap Flop&lt;/h2&gt;
-&lt;p&gt;Mit Gum (&amp;#64;elektroschule) habe ich zwei
+&lt;p&gt;Mit &lt;a class="reference external" href="https://chaos.social/&amp;#64;elektroschule&amp;#64;mastodon.social"&gt;Gum&lt;/a&gt;  habe ich zwei
 &lt;a class="reference external" href="https://wiki.das-labor.org/w/Projekt/FlipFlapFlop"&gt;Flipdotanzeigen&lt;/a&gt; bei der
-Assembly des Labors betrieben …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="figure"&gt;
+Assembly des Labors betrieben. Schon …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="figure"&gt;
 &lt;img alt="Flipdotanzeige beim 38C3" src="https://blog.bakera.de/images/2025/flipdotanzeige.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;Auch im Jahr 2024 lud der CCC zwischen dem 27. und dem 30.12. wieder zum
@@ -17,7 +17,7 @@ Chaos Communication Congress nach Hamburg ein. Diesmal folgten 14.000
 Lebewesen diesem Aufruf - und ich war eines davon.&lt;/p&gt;
 &lt;div class="section" id="flip-flap-flop"&gt;
 &lt;h2&gt;Flip Flap Flop&lt;/h2&gt;
-&lt;p&gt;Mit Gum (&amp;#64;elektroschule) habe ich zwei
+&lt;p&gt;Mit &lt;a class="reference external" href="https://chaos.social/&amp;#64;elektroschule&amp;#64;mastodon.social"&gt;Gum&lt;/a&gt;  habe ich zwei
 &lt;a class="reference external" href="https://wiki.das-labor.org/w/Projekt/FlipFlapFlop"&gt;Flipdotanzeigen&lt;/a&gt; bei der
 Assembly des Labors betrieben. Schon beim 37c3 hatten wir die Anzeige dabei. Da
 es damals jedoch Probleme in der Hardware gab, verbrachten wir viel Zeit damit,
@@ -27,9 +27,9 @@ uns für den Rest des Congresses weitere Betätigungsfelder erschließen. Das wa
 gar nicht so schlimm, denn an Tag 2(?) kam
 &lt;a class="reference external" href="https://de.wikipedia.org/wiki/Tim_Pritlove"&gt;Tim Pritlove&lt;/a&gt; bei unserer Anzeige
 vorbei und wollte sie mit seiner eigenen Software ansteuern. Wir hatten viele
-Besucher, die sich für den Aufbau und die Beschaffungsmöglichkeiten
-interessierten. Selten wollten diese sich auch tiefergehend mit der
-flippende Materie befassen.
+Besucher, die sich für den Aufbau der Anzeige und deren
+Beschaffungsmöglichkeiten interessierten. Selten wollten diese sich auch
+tiefergehend mit der flippende Materie befassen.
 Das ist eigentlich schade, da der Congress auch zu einem großen Teil vom
 Machen und Mitmachen lebt.&lt;/p&gt;
 &lt;p&gt;Nach ca. 1 Stunde war die Ansteuerung mit Cursor (eine IDE mit KI)
@@ -62,7 +62,7 @@ Format als Einstieg wärmstens empfehlen.&lt;/p&gt;
 ohne gezielt nach ihnen zu suchen. Einfach so, weil man in sie hineinläuft.&lt;/p&gt;
 &lt;p&gt;Die &lt;a class="reference external" href="https://codeberg.org/VoxelBox/voxelbox/"&gt;Voxelbox&lt;/a&gt;  war eine
 menschengroße Installation aus 20 x 20 x 20 ansteuerbaren LED, die man über
-ein einfaches Protokoll direkt ansteurn konnte. Ich habe ein
+ein einfaches Netzwerk-Protokoll direkt ansteurn konnte. Ich habe ein
 &lt;a class="reference external" href="https://chaos.social/&amp;#64;pintman/113735263326984444"&gt;Plasmademo auf der Voxelbox&lt;/a&gt;
 umgesetzt, das ich noch von den Flipdotanzeigen hatte.&lt;/p&gt;
 &lt;p&gt;Ein &lt;a class="reference external" href="https://chaos.social/&amp;#64;pintman/113723094930851397"&gt;Analogrechner bei Jugend hackt&lt;/a&gt;
@@ -77,7 +77,9 @@ auf unterschiedlichen Chaos-Veranstaltungen. Christoph hat sich dem Spaß
 angenommen und das Logo unserer Schule tatsächlich auf das Display senden
 können. Vor 6 Jahren hatte ich dazu bereits ein
 &lt;a class="reference external" href="https://www.youtube.com/watch?v=znQGIrJE2ow&amp;amp;t=441s"&gt;Video&lt;/a&gt; gemacht. Am Protokoll,
-um das Display zu bespielen, hat sich seitdem wenig geändert.&lt;/p&gt;
+um das Display zu bespielen, hat sich seitdem wenig geändert. Die Kunst liegt
+jedoch in der algorithmischen Umsetzung, um ein Bild auf das Display zu bringen.
+Parallelisierung und Zufall scheinen erfolgsversprechende Ansätze zu sein.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="podcast"&gt;
 &lt;h2&gt;Podcast&lt;/h2&gt;
