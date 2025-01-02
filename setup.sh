@@ -7,8 +7,8 @@ THEMES_VERSION=565cb3fb8c88f1089502dc82a70fda5a7c7b322e
 # exit on error
 set -e
 
-# install python packages
-poetry install
+# update python packages
+poetry update
 
 # install plugins repo
 test -d pelican-plugins || git clone https://github.com/getpelican/pelican-plugins
