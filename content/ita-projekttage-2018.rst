@@ -2,7 +2,7 @@ Wenn ITAs Projekte machen
 =========================
 :date: 2018-07-11 20:09
 :author: marco.bakera
-:tags: ITA, Bildung
+:tags: Bildung
 :slug: ita-projekttage-2018
 :status: published
 

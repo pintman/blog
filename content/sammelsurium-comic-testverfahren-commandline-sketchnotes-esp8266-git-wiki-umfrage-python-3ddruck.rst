@@ -2,7 +2,7 @@ Sammelsurium - Comic, Testverfahren, Commandline, Sketchnotes, ESP8266, git, wik
 ###########################################################################################################
 :date: 2015-06-02 22:08
 :author: marco.bakera
-:tags: Linkliste, 3dDruck, Comic, Commandline, ESP8266, git, Python, Sketchnotes, Testverfahren, Umfrage, wiki
+:tags: Linkliste, 3dDruck, Comic, ESP8266, git, Python, wiki
 :slug: sammelsurium-comic-testverfahren-commandline-sketchnotes-esp8266-git-wiki-umfrage-python-3ddruck
 :status: published
 
