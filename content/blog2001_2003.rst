@@ -2,7 +2,7 @@ Blog 2001-2003
 ==============
 :date: 2018-07-04 14:42
 :author: marco.bakera
-:tags: Archiv, bloggen
+:tags: bloggen
 :slug: blog_2001_2003
 :status: published
 

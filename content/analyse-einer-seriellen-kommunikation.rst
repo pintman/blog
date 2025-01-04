@@ -2,7 +2,7 @@ Analyse einer seriellen Kommunikation
 #####################################
 :date: 2015-01-21 18:58
 :author: marco.bakera
-:tags: Hardware, Informatik, Bus Pirate, Logic Analyzer, Logic Sniffer, Trinket Pro
+:tags: Hardware, Informatik
 :slug: analyse-einer-seriellen-kommunikation
 :status: published
 

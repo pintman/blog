@@ -2,7 +2,7 @@ Bakera packt aus: einen HP 35s
 ##############################
 :date: 2014-06-13 10:16
 :author: marco.bakera
-:tags: Mathe, Video, HP, HP35s, Taschenrechner
+:tags: Mathe, Video, Taschenrechner
 :slug: bakera-packt-aus-einen-hp35s
 :status: published
 
