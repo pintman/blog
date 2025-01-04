@@ -2,7 +2,7 @@ Pagerank mit ChatGPT4 entwickeln - ein Dialog
 =============================================
 :date: 2023-10-31 17:00
 :author: marco.bakera
-:tags: python, chatgpt, programmierung
+:tags: python, programmierung, llm
 :status: published
 :slug: pr-mit-chatgpt4
 
