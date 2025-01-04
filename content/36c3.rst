@@ -2,7 +2,7 @@
 ===============
 :date: 2020-01-02 12:55
 :author: marco.bakera
-:tags: ccc, ctf, badge, video
+:tags: ccc, ctf, video
 :status: published
 :slug: 36c3
 

@@ -2,7 +2,7 @@ Mitglied in der Bibliothek - Toll!
 ##################################
 :date: 2014-04-24 00:07
 :author: marco.bakera
-:tags: Bildung, Bibliothek, Bücher, c't, Dortmund, heise, iX
+:tags: Bildung, Bibliothek, Dortmund
 :slug: mitglied-in-der-bibliothek-toll
 :status: published
 
