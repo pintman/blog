@@ -2,7 +2,7 @@ Auf den RaspberryPi mit der seriellen Schnittstelle verbinden
 #############################################################
 :date: 2015-06-27 17:10
 :author: marco.bakera
-:tags: Hardware, Informatik, Arduino, GPIO, RaspberryPi, rs232, serielle Schnittstelle
+:tags: Hardware, Informatik, RaspberryPi
 :slug: auf-raspberrypi-mit-serieller-schnittstelle-verbinden
 :status: published
 

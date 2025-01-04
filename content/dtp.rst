@@ -2,7 +2,7 @@ Dektop Publishing im Jahr 2019
 ==============================
 :date: 2019-04-25 19:30
 :author: marco.bakera
-:tags: dtp, pdf, software
+:tags: pdf, software
 :status: published
 :slug: dtp2019
 

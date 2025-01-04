@@ -2,7 +2,7 @@
 ============================
 :date: 2019-01-02 15:10
 :author: marco.bakera
-:tags: 35c3, sdr, ctf, lernen
+:tags: 35c3, ctf, lernen
 :status: published
 
 .. image:: {filename}images/2019/35C3Logo.svg

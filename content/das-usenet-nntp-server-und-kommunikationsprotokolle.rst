@@ -2,7 +2,7 @@ Das Usenet, NNTP-Server und Kommunikationsprotokolle
 ####################################################
 :date: 2015-10-16 10:58
 :author: marco.bakera
-:tags: Informatik, Linux, INN, Newsgroup, NNTP, Server, Usenet
+:tags: Informatik, Linux, Server
 :slug: das-usenet-nntp-server-und-kommunikationsprotokolle
 :status: published
 
