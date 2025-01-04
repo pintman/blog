@@ -27,6 +27,10 @@ MENUITEMS = (
 TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'de'
+# Date format for German
+DATE_FORMATS = {
+    'de': '%d.%m.%Y',
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
