@@ -2,7 +2,7 @@ Hobbytronic 2003
 ================
 :date: 2003-02-24 12:20
 :author: marco.bakera
-:tags: Messe, Dortmund, importiert
+:tags: Dortmund, importiert
 :slug: hobbytronic_2003
 :status: published
 

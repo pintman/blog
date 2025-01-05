@@ -2,7 +2,7 @@ Der Nachrichtenaggreagtor
 #########################
 :date: 2008-03-06 15:16
 :author: admin
-:tags: Aggregator
+:tags: 
 :slug: der-nachrichtenaggreagtor
 :status: published
 
