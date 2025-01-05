@@ -2,7 +2,7 @@ Workshop: Autodesk Inventor 3D-CAD im Labor
 ###########################################
 :date: 2010-12-01 11:00
 :author: admin
-:tags: 3D, Software
+:tags: Software
 :slug: workshop-autodesk-inventor-3d-cad-im-labor
 :status: published
 

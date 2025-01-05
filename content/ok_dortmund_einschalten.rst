@@ -2,7 +2,7 @@ OK-Dortmund am 31.3. um 18h einschalten
 =======================================
 :date: 2003-03-27 12:20
 :author: marco.bakera
-:tags: TV, Offener Kanal, importiert
+:tags: TV, importiert
 :slug: ok_dortmund_am_31_3_einschalten
 :status: published
  

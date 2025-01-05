@@ -2,7 +2,7 @@ B&B
 ===
 :date: 2002-06-23 12:20
 :author: marco.bakera
-:tags: TV, bulb, importiert
+:tags: TV, importiert
 :slug: b_und_b
 :status: published
 

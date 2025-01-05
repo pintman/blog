@@ -2,7 +2,7 @@ Ein Besuch im größten Computermuseum der Welt
 #############################################
 :date: 2014-04-27 12:59
 :author: marco.bakera
-:tags: Bildung, Mathe, Tipp, Wissenschaft, Computer
+:tags: Bildung, Mathe, Tipp, Wissenschaft
 :slug: ein-besuch-im-groessten-computermuseum-der-welt
 :status: published
 

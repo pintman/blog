@@ -2,7 +2,7 @@ Bilder sagen mehr als Zahlen - manchmal
 #######################################
 :date: 2014-07-02 13:38
 :author: marco.bakera
-:tags: Mathe, Statistik
+:tags: Mathe
 :slug: bilder-sagen-mehr-als-zahlen-manchmal
 :status: published
 
