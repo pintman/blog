@@ -2,7 +2,7 @@ spring(); break;
 ================
 :date: 2019-03-24 12:20
 :author: marco.bakera
-:tags: bildung, hacking, hardware, lernen, git, workshop, das labor
+:tags: bildung, hacking, hardware, lernen, git, das labor
 :status: published
 :slug: springbreak2019
 
