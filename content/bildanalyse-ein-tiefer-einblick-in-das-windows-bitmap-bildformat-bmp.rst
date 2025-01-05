@@ -2,7 +2,7 @@ Bildanalyse: Ein tiefer Einblick in das Windows Bitmap Bildformat BMP
 #####################################################################
 :date: 2014-12-20 14:27
 :author: marco.bakera
-:tags: Informatik, BMP, HEX
+:tags: Informatik
 :slug: bildanalyse-ein-tiefer-einblick-in-das-windows-bitmap-bildformat-bmp
 :status: published
 

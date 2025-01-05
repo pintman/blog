@@ -1,8 +1,8 @@
-E Mails organisieren
+E-Mails organisieren
 ####################
 :date: 2014-07-11 17:52
 :author: marco.bakera
-:tags: Tipp, Video, E-Mail, GTD
+:tags: Tipp, Video, E-Mail
 :slug: e-mails-organisieren
 :status: published
 

@@ -2,7 +2,7 @@ Ein Jahr #EDchatDE
 ##################
 :date: 2014-07-09 13:38
 :author: marco.bakera
-:tags: Bildung, Chat, edchatde, Twitter
+:tags: Bildung, Chat, Twitter
 :slug: ein-jahr-edchatde
 :status: published
 
