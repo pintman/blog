@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"/><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"/><id>https://blog.bakera.de/</id><updated>2025-10-21T16:50:00+02:00</updated><entry><title>Azubitag beim 39C3</title><link href="https://blog.bakera.de/39c3-azubitag.html" rel="alternate"/><published>2025-10-21T16:50:00+02:00</published><updated>2025-10-21T16:50:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2025-10-21:/39c3-azubitag.html</id><summary type="html">&lt;p&gt;Zum Ende des Jahres ist wieder Zeit für den Kongress des CCC (in diesem Jahr der 39C3), auf dem sich Wesen aus der ganzen Welt in Hamburg versammeln und mit aktuellen (oder nicht mehr aktuellen) Themen um Technik, Kunst und Geselschaft beschäftigen. Da die Tickets sehr begehrt sind und nicht …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Zum Ende des Jahres ist wieder Zeit für den Kongress des CCC (in diesem Jahr der 39C3), auf dem sich Wesen aus der ganzen Welt in Hamburg versammeln und mit aktuellen (oder nicht mehr aktuellen) Themen um Technik, Kunst und Geselschaft beschäftigen. Da die Tickets sehr begehrt sind und nicht jeder ein Ticket bekommt, der eines haben möchte, finde ich es um so erfreulicher, dass es auch in diesem Jahr wieder günstige Tickets für Azubis geben wird.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"/><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"/><id>https://blog.bakera.de/</id><updated>2025-10-21T16:50:00+02:00</updated><entry><title/><link href="https://blog.bakera.de/.html" rel="alternate"/><published>2025-10-21T16:50:00+02:00</published><updated>2025-10-21T16:50:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2025-10-21:/.html</id><content type="html"/><category term="Sonstiges"/></entry><entry><title>Azubitag beim 39C3</title><link href="https://blog.bakera.de/39c3-azubitag.html" rel="alternate"/><published>2025-10-21T16:50:00+02:00</published><updated>2025-10-21T16:50:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2025-10-21:/39c3-azubitag.html</id><summary type="html">&lt;p&gt;Zum Ende des Jahres ist wieder Zeit für den Kongress des CCC (in diesem Jahr der 39C3), auf dem sich Wesen aus der ganzen Welt in Hamburg versammeln und mit aktuellen (oder nicht mehr aktuellen) Themen um Technik, Kunst und Geselschaft beschäftigen. Da die Tickets sehr begehrt sind und nicht …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Zum Ende des Jahres ist wieder Zeit für den Kongress des CCC (in diesem Jahr der 39C3), auf dem sich Wesen aus der ganzen Welt in Hamburg versammeln und mit aktuellen (oder nicht mehr aktuellen) Themen um Technik, Kunst und Geselschaft beschäftigen. Da die Tickets sehr begehrt sind und nicht jeder ein Ticket bekommt, der eines haben möchte, finde ich es um so erfreulicher, dass es auch in diesem Jahr wieder günstige Tickets für Azubis geben wird.&lt;/p&gt;
 &lt;p&gt;Motiviert gerne eure Azubis, daran teilzunehmen, wenn sie offen sind, Neues zu entdecken.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2025/infos/azubi-tag.html"&gt;Mehr Informationen&lt;/a&gt;&lt;/p&gt;
-</content><category term="Sonstiges"/><category term="39c3"/><category term="ccc"/></entry><entry><title>38C3</title><link href="https://blog.bakera.de/38c3.html" rel="alternate"/><published>2025-01-02T11:00:00+01:00</published><updated>2025-01-02T11:00:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2025-01-02:/38c3.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;p&gt;&lt;a href="https://events.ccc.de/congress/2025/infos/azubi-tag.html"&gt;Mehr Informationen&lt;/a&gt;&lt;/p&gt;</content><category term="Sonstiges"/><category term="39c3"/><category term="ccc"/></entry><entry><title>38C3</title><link href="https://blog.bakera.de/38c3.html" rel="alternate"/><published>2025-01-02T11:00:00+01:00</published><updated>2025-01-02T11:00:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2025-01-02:/38c3.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Flipdotanzeige beim 38C3" src="https://blog.bakera.de/images/2025/flipdotanzeige.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;Auch im Jahr 2024 lud der CCC zwischen dem 27. und dem 30.12. wieder zum
@@ -1845,100 +1844,4 @@ sollte.&lt;/p&gt;
 von Satelliten umkreist wurden, ein Koop-Jump'n'Run und fragmentarische
 Entwicklungen an weiteren Spielen.&lt;/p&gt;
 &lt;p&gt;Ich freue mich auf die versprochene nächste Ausgabe in 3 Monaten.&lt;/p&gt;
-</content><category term="Sonstiges"/><category term="Programmierung"/><category term="Spaß"/><category term="Spiele"/><category term="gamejam"/></entry><entry><title>Statische Webseiten bei gitlab und github</title><link href="https://blog.bakera.de/statische-webseiten-gitlab-github.html" rel="alternate"/><published>2018-07-12T22:21:00+02:00</published><updated>2018-07-12T22:21:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-07-12:/statische-webseiten-gitlab-github.html</id><summary type="html">&lt;img alt="Maschine Pipe (https://openclipart.org/detail/300339/machine-pipe)" src="https://blog.bakera.de/images/2018/07/machinepipe.png" /&gt;
-&lt;p&gt;Webseiten gibt es viele. Das Internet ist voll davon.
-Doch, wie kann man einfach und schnell eine eigene Webseite
-aufsetzen und betreiben? Verschiedene Hoster bieten Pakete an, doch in
-vielen Situationen sind selbst diese meist kleinen Pakete nicht nötig.&lt;/p&gt;
-&lt;p&gt;Bei gitlab und github gibt es unter den Stichwörtern &lt;em&gt;github pages …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;img alt="Maschine Pipe (https://openclipart.org/detail/300339/machine-pipe)" src="https://blog.bakera.de/images/2018/07/machinepipe.png" /&gt;
-&lt;p&gt;Webseiten gibt es viele. Das Internet ist voll davon.
-Doch, wie kann man einfach und schnell eine eigene Webseite
-aufsetzen und betreiben? Verschiedene Hoster bieten Pakete an, doch in
-vielen Situationen sind selbst diese meist kleinen Pakete nicht nötig.&lt;/p&gt;
-&lt;p&gt;Bei gitlab und github gibt es unter den Stichwörtern &lt;em&gt;github pages&lt;/em&gt; bzw.
-&lt;em&gt;gitlab pages&lt;/em&gt; die Möglichkeit, schnell und einfach eine statische
-Webseite zu hosten. Für Webseiten mit rein informatorischem
-Anspruch ist das vollkommen ausreichend.&lt;/p&gt;
-&lt;div class="section" id="einrichten"&gt;
-&lt;h2&gt;Einrichten&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Gitlab pages&lt;/strong&gt; lassen sich auf der Webseite in den Projekteinstellungen
-konfigurieren. Hierfür
-wird ein Script benötigt, das automatisch bei jedem Push auf den Server
-ausgeführt wird und die Webseite erzeugt. Dadurch ist das System recht flexibel
-und es gibt eine Reihe von statischen Webseiten-Generatoren, die unterstützt
-werden. Das folgende Skript zeigt ein Beispiel für den Generator
-&lt;a class="reference external" href="https://blog.getpelican.com/"&gt;pelican&lt;/a&gt;.&lt;/p&gt;
-&lt;pre class="code yaml literal-block"&gt;
-&lt;span class="nt"&gt;image&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l-Scalar-Plain"&gt;python:3-alpine&lt;/span&gt;&lt;span class="w"&gt;
-
-&lt;/span&gt;&lt;span class="nt"&gt;pages&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
-  &lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
-  &lt;/span&gt;&lt;span class="p-Indicator"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l-Scalar-Plain"&gt;pip install pelican markdown typogrify&lt;/span&gt;&lt;span class="w"&gt;
-  &lt;/span&gt;&lt;span class="p-Indicator"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l-Scalar-Plain"&gt;pelican -o public -s publishconf.py&lt;/span&gt;&lt;span class="w"&gt;
-
-  &lt;/span&gt;&lt;span class="nt"&gt;artifacts&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
-    &lt;/span&gt;&lt;span class="nt"&gt;paths&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
-    &lt;/span&gt;&lt;span class="p-Indicator"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l-Scalar-Plain"&gt;public/&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p&gt;Weitere Beispiele für andere Generatoren werden in einem
-&lt;a class="reference external" href="https://gitlab.com/pages"&gt;eigenen Repository&lt;/a&gt; von gitlab selbst gesammelt.&lt;/p&gt;
-&lt;p&gt;Bei &lt;strong&gt;github pages&lt;/strong&gt; dagegen muss die generierte Seite in Form von
-HTML-Seiten direkt im Repo liegen - entweder in
-einem speziellen Verzeichnis oder einem gesonderten Branch. In den Repo-
-Einstellungen kann zwischen verschiedenen Varianten gewählt werden.&lt;/p&gt;
-&lt;p&gt;Sowohl bei github als auch bei gitlab muss man sich nach den Einstellungen
-einige Minuten gedulden bis das Ergebnis online erscheint.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="eigene-domain"&gt;
-&lt;h2&gt;Eigene Domain&lt;/h2&gt;
-&lt;p&gt;Die Webseiten werden bei gitlab und github als Subdomain unterhalb einer Domain
-von &lt;tt class="docutils literal"&gt;github.io&lt;/tt&gt; bzw. &lt;tt class="docutils literal"&gt;gitlab.io&lt;/tt&gt; publiziert.
-Eine eigene Domain kann bei beiden Anbietern jedoch einfach und
-kostenlos hinzugefügt werden. Hierfür muss im eigenen DNS ein CNAME-Eintrag
-für eine Subdomain hinzugefügt werden, der auf &lt;tt class="docutils literal"&gt;benutzername.github.io&lt;/tt&gt; bzw.
-&lt;tt class="docutils literal"&gt;benutzername.gitlab.io&lt;/tt&gt; zeigt.  Für Gruppen bzw. Projekte müssen diese URLs
-entsprechend angepasst werden.&lt;/p&gt;
-&lt;p&gt;Bei github wird eine Datei &lt;tt class="docutils literal"&gt;CNAME&lt;/tt&gt; im Wurzelverzeichnis der Webseite
-angelegt. Die Datei enthält lediglich den Namen der Domain.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="https"&gt;
-&lt;h2&gt;HTTPS&lt;/h2&gt;
-&lt;p&gt;Die Unterstützung von TLS/HTTPS bei &lt;strong&gt;Gitlab pages&lt;/strong&gt; ist leider nicht so gut
-ausgebaut. Ich muss das Zertifikat selbst erstellen und auf der  Projektseite in den
-Einstellungen in ein Textfeld kopieren. Da die  Zertifikate von Lets Encrypt nur
-wenige Monate halten, muss dieses  Prozedere regelmäßig wiederholt werden. Bei
-Zertifikaten, die ein Jahr gültig sind, mag dies noch zumutbar sein. Bei kürzeren
-Laufzeiten ist es jedoch ein zusätzlicher Aufwand, der nicht sein muss. Es gibt
-Bestrebungen dies zu ändern und ich hoffe, dass auch gitlab bald automatische
-Zertifikate von Lets Encrypt anbietet.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Github pages&lt;/strong&gt; hat hier eine bessere Unterstützung. TLS-Zertifikate werden
-regelmäßig automatisch erneuert und man muss sich nach der Einrichtung nicht mehr
-darum kümmern.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="datenschutz"&gt;
-&lt;h2&gt;Datenschutz&lt;/h2&gt;
-&lt;p&gt;Ein Wermutstropfen bleibt bei gitlab wie auch github: Beide Anbieter haben
-ihren Sitz nicht in Deutschland und sind damit auch nicht dem deutschen
-Datenschutz unterstellt. Ob sich mit der DSGVO diesbzgl. etwas tut, kann ich
-zum heutigen Tage noch nicht abschätzen. Als Daten fallen vermutlich nur
-die IP-Adresse des Besuchers der Webseite an, da es meist keine weiteren
-aktiven Komponenten auf statischen Webseiten gibt.&lt;/p&gt;
-&lt;p&gt;Wünschenswert wäre jedoch auch ein deutscher Anbieter, der als
-datenschutzfreundliche Alternative auftauchen würde.&lt;/p&gt;
-&lt;p&gt;Neben dem Schutz der Daten der Nutzer, gibt es auch Unterschiede beim Schutz
-der Daten in der Webseite selbst. So lässt github in dem kostenlosten Account keine
-privaten Repositories zu, gitlab dagegen schon. Für nicht öffentliche Inhalte
-im Blog ist gitlab also besser geeignet. Hier können nach Belieben
-private Repositories angelegt werden, die nicht öffentlich einsehbar sind,
-deren Webseiten jedoch schon.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="fazit"&gt;
-&lt;h2&gt;Fazit&lt;/h2&gt;
-&lt;p&gt;Statische Webseiten, die nur Informationen anzeigen und keine Interaktion
-mit dem Besucher der Seite erfordern, lassen sich TSL-gesichert derzeit
-nur auf github praktikabel umsetzen. Sobald gitlab automatische Zertifikate
-anbietet liegt der Anbieter vorn, da der Mechanismus, die Webseite über
-CI-Skripte zu generieren, einen ganz eigenen Reiz besitzt und das Repository
-mit diesem Ansatz insgesamt schlanker bleibt.&lt;/p&gt;
-&lt;/div&gt;
-</content><category term="Sonstiges"/><category term="bloggen"/></entry></feed>
+</content><category term="Sonstiges"/><category term="Programmierung"/><category term="Spaß"/><category term="Spiele"/><category term="gamejam"/></entry></feed>
