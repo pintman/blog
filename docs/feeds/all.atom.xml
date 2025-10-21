@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"/><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"/><id>https://blog.bakera.de/</id><updated>2025-01-02T11:00:00+01:00</updated><entry><title>38C3</title><link href="https://blog.bakera.de/38c3.html" rel="alternate"/><published>2025-01-02T11:00:00+01:00</published><updated>2025-01-02T11:00:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2025-01-02:/38c3.html</id><summary type="html">&lt;div class="figure"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"/><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"/><id>https://blog.bakera.de/</id><updated>2025-10-21T16:50:00+02:00</updated><entry><title>Azubitag beim 39C3</title><link href="https://blog.bakera.de/39c3-azubitag.html" rel="alternate"/><published>2025-10-21T16:50:00+02:00</published><updated>2025-10-21T16:50:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2025-10-21:/39c3-azubitag.html</id><summary type="html">&lt;p&gt;Zum Ende des Jahres ist wieder Zeit für den Kongress des CCC (in diesem Jahr der 39C3), auf dem sich Wesen aus der ganzen Welt in Hamburg versammeln und mit aktuellen (oder nicht mehr aktuellen) Themen um Technik, Kunst und Geselschaft beschäftigen. Da die Tickets sehr begehrt sind und nicht …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Zum Ende des Jahres ist wieder Zeit für den Kongress des CCC (in diesem Jahr der 39C3), auf dem sich Wesen aus der ganzen Welt in Hamburg versammeln und mit aktuellen (oder nicht mehr aktuellen) Themen um Technik, Kunst und Geselschaft beschäftigen. Da die Tickets sehr begehrt sind und nicht jeder ein Ticket bekommt, der eines haben möchte, finde ich es um so erfreulicher, dass es auch in diesem Jahr wieder günstige Tickets für Azubis geben wird.&lt;/p&gt;
+&lt;p&gt;Motiviert gerne eure Azubis, daran teilzunehmen, wenn sie offen sind, Neues zu entdecken.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://events.ccc.de/congress/2025/infos/azubi-tag.html"&gt;Mehr Informationen&lt;/a&gt;&lt;/p&gt;
+</content><category term="Sonstiges"/><category term="39c3"/><category term="ccc"/></entry><entry><title>38C3</title><link href="https://blog.bakera.de/38c3.html" rel="alternate"/><published>2025-01-02T11:00:00+01:00</published><updated>2025-01-02T11:00:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2025-01-02:/38c3.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Flipdotanzeige beim 38C3" src="https://blog.bakera.de/images/2025/flipdotanzeige.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;Auch im Jahr 2024 lud der CCC zwischen dem 27. und dem 30.12. wieder zum
@@ -1938,97 +1941,4 @@ anbietet liegt der Anbieter vorn, da der Mechanismus, die Webseite über
 CI-Skripte zu generieren, einen ganz eigenen Reiz besitzt und das Repository
 mit diesem Ansatz insgesamt schlanker bleibt.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="Sonstiges"/><category term="bloggen"/></entry><entry><title>Wenn ITAs Projekte machen</title><link href="https://blog.bakera.de/ita-projekttage-2018.html" rel="alternate"/><published>2018-07-11T20:09:00+02:00</published><updated>2018-07-11T20:09:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-07-11:/ita-projekttage-2018.html</id><summary type="html">&lt;div class="figure"&gt;
-&lt;img alt="Zwei Personen hinter Maschine" src="https://blog.bakera.de/images/2018/07/an_electrical_machine.jpg" style="width: 75%;" /&gt;
-&lt;p class="caption"&gt;(Quelle: CC-BY
-&lt;a class="reference external" href="https://wellcomecollection.org/works/dazvcmnt"&gt;Wellcome Collection&lt;/a&gt;)&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;In der letzten Woche vor den Ferien passiert in Schulen meiste recht wenig
-im Unterricht. Was nicht heißen soll, dass es nicht noch genug zu tun
-gibt: Zeugnisse erstellen, Räume einrichten etc.&lt;/p&gt;
-&lt;p&gt;Wir haben diese letzte Woche genutzt und zwei Tage mit den ITAs
-(Informationstechnische Assistentinnen …&lt;/p&gt;</summary><content type="html">&lt;div class="figure"&gt;
-&lt;img alt="Zwei Personen hinter Maschine" src="https://blog.bakera.de/images/2018/07/an_electrical_machine.jpg" style="width: 75%;" /&gt;
-&lt;p class="caption"&gt;(Quelle: CC-BY
-&lt;a class="reference external" href="https://wellcomecollection.org/works/dazvcmnt"&gt;Wellcome Collection&lt;/a&gt;)&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;In der letzten Woche vor den Ferien passiert in Schulen meiste recht wenig
-im Unterricht. Was nicht heißen soll, dass es nicht noch genug zu tun
-gibt: Zeugnisse erstellen, Räume einrichten etc.&lt;/p&gt;
-&lt;p&gt;Wir haben diese letzte Woche genutzt und zwei Tage mit den ITAs
-(Informationstechnische Assistentinnen und Assistenten) gemeinsam an
-verschiedenen Projekten gearbeitet. Die Schüler konnten wählen,
-ob sie an einem Mini-Game-Jam teilnehmen und ein kleines Spiel programmieren
-oder, ob sie ein eigenes Hardware- oder Softwareprojekt umsetzen wollen.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/game-jam-themen.jpg"&gt;
-&lt;img alt="Themen für den Mini-Gam-Jam" src="https://blog.bakera.de/images/2018/07/small_game-jam-themen.jpg" /&gt;
-&lt;/a&gt;
-&lt;div class="section" id="tag-1"&gt;
-&lt;h2&gt;Tag 1&lt;/h2&gt;
-&lt;p&gt;Zu Beginn haben sich die Schüler in einem kleinen Spiel gegenseitig erklärt,
-was sie  machen wollen. So konnten erste Ideen ausgetauscht werden und
-Unschlüssige haben noch Anregungen erhalten.&lt;/p&gt;
-&lt;p&gt;Die Schüler haben sich dann in kleinen Gruppen organisiert: 9 Gruppen haben
-sich für den Mini-Game-Jam, 5 Gruppen für eigene Projekte entschieden. In
-den Gruppen haben sie kurz wesentliche Aspekte des Projektes festgehalten:&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;Projekttitel&lt;/li&gt;
-&lt;li&gt;Kurzbeschreibung&lt;/li&gt;
-&lt;li&gt;Das Team&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Das hat einerseits geholfen, sich festzulegen und die Themenfindung nicht
-zu lange hinzuziehen. Andererseite hat es uns bei der Organisation der
-Vorstellungen für den zweiten Tag derart geholfen, dass wir einen Überblick
-über die Projekte bekommen haben und so die Präsentationen in eine Reihenfolge
-bringen konnten.
-Dann ging es an die Arbeit und die Projekte konnten umgesetzt werden.
-Zwischendurch haben wir ganz nerdig Pizza bestellt und gemeinsam gegessen.&lt;/p&gt;
-&lt;p&gt;Als Lehrerteam haben wir auch ein Projekt umgesetzt: ein lineares 1D-Pong auf
-einem Steckbrett. Dazu später jedoch mehr.&lt;/p&gt;
-&lt;p&gt;Ohne Anspruch auf Vollständigkeit greife ich ein paar Projekte heraus, von denen
-ich Bilder machen konnte. Diese Auswahl umfasste z.B. ein Anime-Quiz.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/anime-quiz.jpg"&gt;
-&lt;img alt="Anime Quiz" src="https://blog.bakera.de/images/2018/07/small_anime-quiz.jpg" /&gt;
-&lt;/a&gt;
-&lt;p&gt;Es wurde ein Roboterarm aus einem 3D-Drucker gedruckt, der über Servo-Motoren
-angesteuert wurde.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/roboarm.jpg"&gt;
-&lt;img alt="Roboarm" src="https://blog.bakera.de/images/2018/07/small_roboarm.jpg" /&gt;
-&lt;/a&gt;
-&lt;p&gt;Ein Spiel wurde mit dem Game-Maker-Studio erstellt.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/game-maker.jpg"&gt;
-&lt;img alt="Game Maker" src="https://blog.bakera.de/images/2018/07/small_game-maker.jpg" /&gt;
-&lt;/a&gt;
-&lt;p&gt;Eine RGB-LED leuchtete in verschiedenen Farben.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/rgb-led.jpg"&gt;
-&lt;img alt="RGB LED" src="https://blog.bakera.de/images/2018/07/small_rgb-led.jpg" /&gt;
-&lt;/a&gt;
-&lt;p&gt;Und vieles andere mehr.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="tag-2"&gt;
-&lt;h2&gt;Tag 2&lt;/h2&gt;
-&lt;p&gt;Am zweiten Tag konnten die Schüler ihre Projekte im Rahmen einer Präsentation
-kurz vorstellen. Es waren viele interessante und unterschiedliche Projekte
-dabei. Von rudimentär und einfach bis zu über-ambitioniert. Von witzig und
-erstaunlich bis schräg und seltsam. Es war eine gesunde Mischung und ich hatte
-den Eindruck, dass die Schüler ein Menge Spaß an den beiden Tagen gehabt
-haben.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="breadboardpong"&gt;
-&lt;h2&gt;Breadboardpong&lt;/h2&gt;
-&lt;a class="reference external image-reference" href="https://blog.bakera.de/images/2018/07/1d-pong.jpg"&gt;
-&lt;img alt="1D-Pong auf einem Steckbrett" src="https://blog.bakera.de/images/2018/07/small_1d-pong.jpg" /&gt;
-&lt;/a&gt;
-&lt;p&gt;Das &amp;quot;Lehrerteam&amp;quot; hat auch ein Projekt umgesetzt: &lt;em&gt;Breadboardpong&lt;/em&gt;. Hierbei wandert
-ein Lichtpunkt über LEDs hinweg hin und her. Durch Druck auf den
-Taster im eigenen Feld mit den drei roten LED kann er an den Gegner
-zurückgeschlagen werden. Wer zu spät drückt, hat verloren.&lt;/p&gt;
-&lt;p&gt;Falls jemand das 1D-Pong nachbauen möchte, so findet er oder sie in dem Archiv
-&lt;a class="reference external" href="https://blog.bakera.de/media/breadboardpong.zip"&gt;breadboardpong.zip&lt;/a&gt; den Quelltext für
-unser Projekt. Wir haben die LEDs auf drei Steckbrettern mit Vorwiderständen
-aufgebaut. An den Enden wurde jeweils ein Taster positioniert. Die LEDs hätte
-man direkt über den Pi ansteuern können. Wir haben uns jedoch für den &amp;quot;Umweg&amp;quot;
-entschieden, einen Port-Expander zu verwenden. So hat unser Team auch noch
-etwas Neues hinzulernen können.&lt;/p&gt;
-&lt;/div&gt;
-</content><category term="Sonstiges"/><category term="Bildung"/></entry></feed>
+</content><category term="Sonstiges"/><category term="bloggen"/></entry></feed>
