@@ -1,9 +1,11 @@
 ---
-title: 
-date: 2025-10-21 16:50
+title: VORLAGE
+date: 2020-10-21 16:50
 author: marco.bakera
 tags: 
 status: published
-slug: 
+slug: vorlage-markdown
 ---
+
+Dies ist eine Vorlage für Postings.
 
