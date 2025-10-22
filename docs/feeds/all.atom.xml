@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"/><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"/><id>https://blog.bakera.de/</id><updated>2025-10-21T16:50:00+02:00</updated><entry><title>Azubitag beim 39C3</title><link href="https://blog.bakera.de/39c3-azubitag.html" rel="alternate"/><published>2025-10-21T16:50:00+02:00</published><updated>2025-10-21T16:50:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2025-10-21:/39c3-azubitag.html</id><summary type="html">&lt;p&gt;Zum Ende des Jahres ist wieder Zeit für den Kongress des CCC (in diesem Jahr der 39C3), auf dem sich Wesen aus der ganzen Welt in Hamburg versammeln und mit aktuellen (oder nicht mehr aktuellen) Themen um Technik, Kunst und Gesellschaft beschäftigen. Da die Tickets sehr begehrt sind und nicht …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Zum Ende des Jahres ist wieder Zeit für den Kongress des CCC (in diesem Jahr der 39C3), auf dem sich Wesen aus der ganzen Welt in Hamburg versammeln und mit aktuellen (oder nicht mehr aktuellen) Themen um Technik, Kunst und Gesellschaft beschäftigen. Da die Tickets sehr begehrt sind und nicht jeder ein Ticket bekommt, der eines haben möchte, finde ich es um so erfreulicher, dass es auch in diesem Jahr wieder günstige Tickets für Azubis geben wird.&lt;/p&gt;
 &lt;p&gt;Motiviert gerne eure Azubis, daran teilzunehmen, wenn sie offen sind, Neues zu entdecken.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://events.ccc.de/congress/2025/infos/azubi-tag.html"&gt;Mehr Informationen&lt;/a&gt;&lt;/p&gt;</content><category term="Sonstiges"/><category term="39c3"/><category term="ccc"/></entry><entry><title>38C3</title><link href="https://blog.bakera.de/38c3.html" rel="alternate"/><published>2025-01-02T11:00:00+01:00</published><updated>2025-01-02T11:00:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2025-01-02:/38c3.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;p&gt;&lt;a href="https://events.ccc.de/congress/2025/infos/azubi-tag.html"&gt;Mehr Informationen&lt;/a&gt;&lt;/p&gt;</content><category term="Sonstiges"/><category term="39c3"/><category term="ccc"/></entry><entry><title>Adolescence (Review)</title><link href="https://blog.bakera.de/adolescence-2025.html" rel="alternate"/><published>2025-04-18T00:00:00+02:00</published><updated>2025-04-18T00:00:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2025-04-18:/adolescence-2025.html</id><summary type="html">&lt;p&gt;⭐ 3.5&lt;/p&gt;
+&lt;p&gt;Kraftvoll gespielter und gekonnt inszenierter Kriminalfall um einen Mord zwischen Jugendlichen, der seine Wirkung dadurch entfaltet, genau so jederzeit und überall möglich zu sein. Die Miniserie gewährt Einblicke in eine durch soziale Medien verstärkte Welt männlicher Identitätskrisen während einer jugendlichen Phase der Orientierungssuche. Die technisch aufwendig produzierten One-Shot-Aufnahmen …&lt;/p&gt;</summary><content type="html">&lt;p&gt;⭐ 3.5&lt;/p&gt;
+&lt;p&gt;Kraftvoll gespielter und gekonnt inszenierter Kriminalfall um einen Mord zwischen Jugendlichen, der seine Wirkung dadurch entfaltet, genau so jederzeit und überall möglich zu sein. Die Miniserie gewährt Einblicke in eine durch soziale Medien verstärkte Welt männlicher Identitätskrisen während einer jugendlichen Phase der Orientierungssuche. Die technisch aufwendig produzierten One-Shot-Aufnahmen verdichten die Atmosphäre zusätzlich. 
+Ein Highlight ist Folge 3, die fast ausschließlich in einem Raum spielt und die bestürzend naive Innenwelt des Täters dekonstruiert.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://boxd.it/9rdRCt"&gt;Auf Letterboxd ansehen&lt;/a&gt;&lt;/p&gt;</content><category term="Sonstiges"/><category term="review"/><category term="film"/></entry><entry><title>38C3</title><link href="https://blog.bakera.de/38c3.html" rel="alternate"/><published>2025-01-02T11:00:00+01:00</published><updated>2025-01-02T11:00:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2025-01-02:/38c3.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="Flipdotanzeige beim 38C3" src="https://blog.bakera.de/images/2025/flipdotanzeige.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;Auch im Jahr 2024 lud der CCC zwischen dem 27. und dem 30.12. wieder zum
@@ -1726,85 +1730,4 @@ Output für eine eigene Kategorie.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.scilogs.de/datentyp/feed/"&gt;Datentyp&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</content><category term="Sonstiges"/><category term="bloggen"/><category term="Linkliste"/></entry><entry><title>Python Game-Engines im Vergleich</title><link href="https://blog.bakera.de/python-game-engines.html" rel="alternate"/><published>2018-08-07T12:02:00+02:00</published><updated>2018-08-07T12:02:00+02:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2018-08-07:/python-game-engines.html</id><summary type="html">&lt;object data="https://blog.bakera.de/images/2018/Gamepad-Black.svg" style="width: 60%;" type="image/svg+xml"&gt;Gamepad (Quelle: https://openclipart.org/detail/212647/gamepad-black)&lt;/object&gt;
-&lt;p&gt;Auf der Suche nach einer Spiele-Engine habe ich mir verschiedene Engines
-für Python angeschaut. Die folgende Liste fasst Vor- und Nachteile zusammen.
-Explizit ausgenommen habe ich 3D-Engines wie &lt;em&gt;Blender&lt;/em&gt; oder &lt;em&gt;Panda 3D&lt;/em&gt;.&lt;/p&gt;
-&lt;dl class="docutils"&gt;
-&lt;dt&gt;&lt;a class="reference external" href="http://pygame.org"&gt;Pygame&lt;/a&gt;&lt;/dt&gt;
-&lt;dd&gt;&lt;table class="first last docutils field-list" frame="void" rules="none"&gt;
-&lt;col class="field-name" /&gt;
-&lt;col class="field-body" /&gt;
-&lt;tbody valign="top"&gt;
-&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Pro:&lt;/th&gt;&lt;td class="field-body"&gt;Etabliert und weit verbreitet, Unterstützung für den Raspberry …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/dd&gt;&lt;/dl&gt;</summary><content type="html">&lt;object data="https://blog.bakera.de/images/2018/Gamepad-Black.svg" style="width: 60%;" type="image/svg+xml"&gt;Gamepad (Quelle: https://openclipart.org/detail/212647/gamepad-black)&lt;/object&gt;
-&lt;p&gt;Auf der Suche nach einer Spiele-Engine habe ich mir verschiedene Engines
-für Python angeschaut. Die folgende Liste fasst Vor- und Nachteile zusammen.
-Explizit ausgenommen habe ich 3D-Engines wie &lt;em&gt;Blender&lt;/em&gt; oder &lt;em&gt;Panda 3D&lt;/em&gt;.&lt;/p&gt;
-&lt;dl class="docutils"&gt;
-&lt;dt&gt;&lt;a class="reference external" href="http://pygame.org"&gt;Pygame&lt;/a&gt;&lt;/dt&gt;
-&lt;dd&gt;&lt;table class="first last docutils field-list" frame="void" rules="none"&gt;
-&lt;col class="field-name" /&gt;
-&lt;col class="field-body" /&gt;
-&lt;tbody valign="top"&gt;
-&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Pro:&lt;/th&gt;&lt;td class="field-body"&gt;Etabliert und weit verbreitet, Unterstützung für den Raspberry Pi, gut
-dokumentiert, eingebaute Kollisionserkennung, breite
-Hardware-Unterstützung (MIDI, Kamera, CD-ROM)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Contra:&lt;/th&gt;&lt;td class="field-body"&gt;API stellenweise schwer verständlich, wenig OOP, basiert auf SDL&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/dd&gt;
-&lt;dt&gt;&lt;a class="reference external" href="http://pygame-zero.readthedocs.io"&gt;Pygame Zero&lt;/a&gt;&lt;/dt&gt;
-&lt;dd&gt;&lt;table class="first last docutils field-list" frame="void" rules="none"&gt;
-&lt;col class="field-name" /&gt;
-&lt;col class="field-body" /&gt;
-&lt;tbody valign="top"&gt;
-&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Pro:&lt;/th&gt;&lt;td class="field-body"&gt;Abstraktion basiert auf Pygame, durchdachte API, automatische
-Ressourcenverwaltung für Bilder und Sounds, könnte in Zukunft Pygame ablösen&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Contra:&lt;/th&gt;&lt;td class="field-body"&gt;kein Gamepad Support (aber
-&lt;a class="reference external" href="https://github.com/lordmauve/pgzero/issues/70"&gt;geplant&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/dd&gt;
-&lt;dt&gt;&lt;a class="reference external" href="http://cocos2d.org"&gt;Cocos2d&lt;/a&gt;&lt;/dt&gt;
-&lt;dd&gt;&lt;table class="first last docutils field-list" frame="void" rules="none"&gt;
-&lt;col class="field-name" /&gt;
-&lt;col class="field-body" /&gt;
-&lt;tbody valign="top"&gt;
-&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Pro:&lt;/th&gt;&lt;td class="field-body"&gt;Professionelle Erscheinung, breite Toolunterstützung, Unterstützung
-für viele Programmiersprachen neben Pyhon, Game-Engine vom Spieledesigner
-getrennt, Unterstützung für mehrere Zielplattformen (Desktop und Mobile)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Contra:&lt;/th&gt;&lt;td class="field-body"&gt;Designer für Spiele nur für Windows und Mac, nicht aber für Linux erhältlich,
-komplexe API, komplizierte Installation&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/dd&gt;
-&lt;dt&gt;&lt;a class="reference external" href="http://arcade.academy/"&gt;Arcade Academy&lt;/a&gt;&lt;/dt&gt;
-&lt;dd&gt;&lt;table class="first last docutils field-list" frame="void" rules="none"&gt;
-&lt;col class="field-name" /&gt;
-&lt;col class="field-body" /&gt;
-&lt;tbody valign="top"&gt;
-&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Pro:&lt;/th&gt;&lt;td class="field-body"&gt;einfache API, integrierte Physik-Engine, basiert auf OpenGL, viel
-Beispiel-Code.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class="field"&gt;&lt;th class="field-name"&gt;Contra:&lt;/th&gt;&lt;td class="field-body"&gt;mindestens Python 3.6 notwendig, entwickelt von 1-2 Entwicklern&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;div class="section" id="fazit"&gt;
-&lt;h2&gt;Fazit&lt;/h2&gt;
-&lt;p&gt;Derzeit scheint pygame mit seiner langen Tradition der defacto Standard für
-kleine Spiele mit Python-Unterstützung zu sein. Es gibt viele Erweiterungen
-und Dokumentationen an unterschiedlichen Stellen und es gut, die Bibliothek
-zu kennen. Die Frischzellenkur &lt;em&gt;Pygame
-Zero&lt;/em&gt; tritt an, ein würdiger Nachfolger zu werden. Dezeit muss man jedoch
-noch Abstriche bei der Feature-Auswahl machen.&lt;/p&gt;
-&lt;/div&gt;
-</content><category term="Sonstiges"/><category term="Programmierung"/><category term="Python"/><category term="Spiele"/></entry></feed>
+</content><category term="Sonstiges"/><category term="bloggen"/><category term="Linkliste"/></entry></feed>
