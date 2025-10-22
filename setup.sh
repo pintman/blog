@@ -3,9 +3,9 @@
 # This script sets up the Pelican environment by installing required plugins and themes.
 # It is used by the github action to prepare the environment for building the site.
 
-# git hashes as of 2022-01-07
-PLUGINS_VERSION=483215d2e1998684b7f413b6b1c8e26058fd2e6b
-THEMES_VERSION=565cb3fb8c88f1089502dc82a70fda5a7c7b322e
+# git hashes as of 2025-10-2
+PLUGINS_VERSION=216d1ddb5cf5dc8f5a308d1b1554102013ff7c79
+THEMES_VERSION=90beb1272fe1eef58b0432ad2fa4890847e2283b
 
 # exit on error
 set -e
