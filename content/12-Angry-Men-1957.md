@@ -1,5 +1,5 @@
 ---
-title: "12 Angry Men (Review)"
+title: 12 Angry Men (Review)
 date: 2024-07-24
 author: marco.bakera
 tags: review, film
