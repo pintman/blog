@@ -9,7 +9,7 @@ slug: paddington-2-2017
 
 ⭐ 3 🔄
 
-Auch in der zweiten Sichtung wärmt er das Herz.
+Deutlicher kindlicher als im ersten Teil, wissen dennoch viele witzige Momente und phantasiereiche Ideen zu überzeugen und machen den Film zu einem einfach schönen Erlebnis.
 
 [Auf Letterboxd ansehen](https://boxd.it/89nWQ1)
 

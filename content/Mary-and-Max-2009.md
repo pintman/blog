@@ -7,9 +7,9 @@ status: published
 slug: mary-and-max-2009
 ---
 
-⭐ 4 🔄
+⭐ 4 
 
-Auch bei der zweiten Sichtung wärmt die Geschichte das Herz und vermag ein Tränchen auf die Wange zu zeichnen.
+Eine skurrile, traurige und zugleich urkomische Geschichte um zwei Außenseiter, die mich mit ihrem Alltag tief in ihren Bann gezogen und mich tief haben mitfühlen lassen.
 
 [Auf Letterboxd ansehen](https://boxd.it/7pjjTD)
 
