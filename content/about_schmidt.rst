@@ -2,7 +2,7 @@ About Schmidt: leises Kino
 ==========================
 :date: 2003-08-04 12:20
 :author: marco.bakera
-:tags: Film, importiert
+:tags: Film, importiert, review
 :slug: about_schmidt_leises_kino
 :status: published
 
