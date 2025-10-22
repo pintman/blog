@@ -2,12 +2,10 @@
 title: "12 Angry Men (Review)"
 date: 2024-07-24
 author: marco.bakera
-tags: review
+tags: review, film
 status: published
 slug: 12-angry-men-1957
 ---
-
-# 12 Angry Men (1957)
 
 ⭐ 4
 
