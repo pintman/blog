@@ -13,3 +13,10 @@ Solide und im alten Hollywoodstil streckenweise märchenhaft erzählte Geschicht
 
 [Auf Letterboxd ansehen](https://boxd.it/78HJZR)
 
+*Update (31.10.2025)*
+
+Auch in der zweiten Sichtung ist es eine große Freude, Mia Goths Spiel zuzuschauen. 🎃
+
+Vogelscheuche - Monolog - Abspann
+
+[Auf Letterboxd ansehen](https://letterboxd.com/pintman_/film/pearl-2022/1/)
