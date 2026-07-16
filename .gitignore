@@ -10,3 +10,5 @@ pelican-themes
 
 poetry.lock
 docs_beaker/
+
+*~
