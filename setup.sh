@@ -10,8 +10,8 @@ THEMES_VERSION=90beb1272fe1eef58b0432ad2fa4890847e2283b
 # exit on error
 set -e
 
-# update python packages
-poetry update
+# install python packages from the committed lock file
+poetry install --no-root
 
 # install plugins repo
 test -d pelican-plugins || git clone https://github.com/getpelican/pelican-plugins
