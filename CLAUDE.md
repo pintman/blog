@@ -6,7 +6,7 @@ This is Marco Bakera's personal blog (blog.bakera.de), built with [Pelican](http
 
 - `content/` — all source posts and pages, in Markdown (`.md`) and reST (`.rst`), flat directory (721+ files, no per-year subfolders). `content/pages/` holds static pages (about, impressum, 404, search, wiki). `content/images/`, `content/media/` hold assets referenced from posts. `content/extra/` holds files mapped to site root via `EXTRA_PATH_METADATA` in `pelicanconf.py` (CNAME, favicon, custom.css).
 - `content/_VORLAGE.md` — template for new Markdown posts; copy it for new articles. Frontmatter fields: `title`, `date`, `author`, `tags`, `status`, `slug`.
-- `docs/` — **generated output**, committed to the repo and served via GitHub Pages from the `main` branch (not `gh-pages`). Never hand-edit files here; they're overwritten by `make publish`.
+- `docs/` — **generated output**, committed to the repo and served via GitHub Pages from the `main` branch (not `gh-pages`). Never hand-edit files here; they're overwritten by `make publish`. On every push to `main`, the GitHub workflow `.github/workflows/deploy.yml` runs `make publish` and commits/pushes `docs/` ("Generated new blog release") — so don't build `docs/` locally before pushing, and `git pull` afterwards.
 - `pelicanconf.py` — base/dev config (relative URLs, no feeds, theme settings).
 - `publishconf.py` — production config, imports `pelicanconf.py` and overrides (`SITEURL`, `RELATIVE_URLS = False`, atom feed, `DELETE_OUTPUT_DIRECTORY = True`).
 - `publishconf_beaker.py` — alternate publish config for a Hyper/Beaker Browser mirror (imports `publishconf.py`, overrides `SITEURL` to a `hyper://` address). Output goes to `docs_beaker/` (gitignored).
