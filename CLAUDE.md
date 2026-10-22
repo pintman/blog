@@ -5,7 +5,7 @@ This is Marco Bakera's personal blog (blog.bakera.de), built with [Pelican](http
 ## Architecture
 
 - `content/` — all source posts and pages, in Markdown (`.md`) and reST (`.rst`), flat directory (721+ files, no per-year subfolders). `content/pages/` holds static pages (about, impressum, 404, search, wiki). `content/images/`, `content/media/` hold assets referenced from posts. `content/extra/` holds files mapped to site root via `EXTRA_PATH_METADATA` in `pelicanconf.py` (CNAME, favicon, custom.css).
-- `content/_VORLAGE.md` — template for new Markdown posts; copy it for new articles. Frontmatter fields: `title`, `date`, `author`, `tags`, `status`, `slug`.
+- `newpost.sh` — creates a new Markdown post in `content/` from a title (`./newpost.sh [-p] [-n] "Titel" ["tag1, tag2"]`). Frontmatter fields: `title`, `date`, `author`, `tags`, `status`, `slug`.
 - `docs/` — **generated output**, committed to the repo and served via GitHub Pages from the `main` branch (not `gh-pages`). Never hand-edit files here; they're overwritten by `make publish`. On every push to `main`, the GitHub workflow `.github/workflows/deploy.yml` runs `make publish` and commits/pushes `docs/` ("Generated new blog release") — so don't build `docs/` locally before pushing, and `git pull` afterwards.
 - `pelicanconf.py` — base/dev config (relative URLs, no feeds, theme settings).
 - `publishconf.py` — production config, imports `pelicanconf.py` and overrides (`SITEURL`, `RELATIVE_URLS = False`, atom feed, `DELETE_OUTPUT_DIRECTORY = True`).
@@ -18,5 +18,5 @@ via `setup.sh`
 
 ## Working with content
 
-- New post: copy `content/_VORLAGE.md`, set `title`, `date`, `tags`, `status: published`, `slug`.
+- New post: `./newpost.sh "Titel" "tags"` (default `status: draft`, `-p` for `published`, `-n` to skip opening in VS Code).
 - Older posts use reST (`.rst`) with a title + `####` underline and `:field:` metadata; newer posts use Markdown with `---` frontmatter. Match the format of the file you're editing; use Markdown for new posts.
