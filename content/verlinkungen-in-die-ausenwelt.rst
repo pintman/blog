@@ -82,7 +82,6 @@ Meine Beiträge in Form von
 `Filmkritiken» <http://www.amateurfilm-magazin.de/index.php?page=comments&action=showfromuser&memberid=263>`__
 im `Amateufilm Magazin» <http://www.amateurfilm-magazin.de/>`__.
 
---------------
 
 
 .. |die comicbattle| image:: http://photos13.flickr.com/19825164_1ca2da27bb_t.jpg
