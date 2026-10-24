@@ -7,7 +7,7 @@ status: published
 slug: das-retronom-in-dortmund
 ---
 
-![Toilettentür im Retronom mit dem Schild „Toiletten Mario & Luigi“ und einem grünen Strichmännchen]({static}images/2026/retronom.jpg)
+![Toilettentür im Retronom mit dem Schild „Toiletten Mario & Luigi“ und einem grünen Strichmännchen]({static}images/2026/retronom.png)
 
 In Dortmund, nur ein paar hundert Meter von der [Zeche Zollern](https://zeche-zollern.lwl.org/) entfernt, ist das [Retronom](https://www.arcade-bar.de/) – eine Bar mit alten Arcade-Automaten, Flippern und viel Liebe zum Detail. Man fühlt sich zurückversetzt in die 80er oder 90er Jahre. Auch Brettspiele fehlen nicht. 
 
