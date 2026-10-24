@@ -1,6 +1,7 @@
 # Änderungsprotokoll
 
 ## 2026-10-24
+- refactor: remove tag cloud (7d7b479a7)
 - added todo file (ad53d1118)
 
 ## 2026-10-22
