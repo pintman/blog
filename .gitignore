@@ -11,3 +11,4 @@ pelican-themes
 docs_beaker/
 
 *~
+.env
