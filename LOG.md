@@ -1,6 +1,8 @@
 # Änderungsprotokoll
 
 ## 2026-10-24
+- feat(mastodon): nur bereits online verfügbare artikel tooten (db6974aa9)
+- feat(mastodon): neue posts per skript nach chaos.social tooten (d93e79657)
 - refactor: remove tag cloud (7d7b479a7)
 - added todo file (ad53d1118)
 
