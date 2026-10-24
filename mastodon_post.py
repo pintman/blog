@@ -13,6 +13,7 @@ import re
 import subprocess
 import sys
 import unicodedata
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -80,10 +81,22 @@ def published_posts():
     return posts
 
 
+def post_url(post):
+    return f"{SITEURL}/{post['slug']}.html"
+
+
+def is_online(url):
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, method="HEAD"), timeout=10) as resp:
+            return resp.status == 200
+    except (urllib.error.URLError, TimeoutError):
+        return False
+
+
 def toot_text(post):
     tags = [re.sub(r"\W", "", t) for t in post.get("tags", "").split(",")]
     hashtags = " ".join("#" + t for t in tags if t)
-    text = f"{post['title']}\n\n{SITEURL}/{post['slug']}.html"
+    text = f"{post['title']}\n\n{post_url(post)}"
     return f"{text}\n\n{hashtags}" if hashtags else text
 
 
@@ -127,22 +140,30 @@ def main():
 
     if args.dry_run:
         for post in new:
-            print(f"--- {post['slug']}\n{toot_text(post)}\n")
+            status = "online" if is_online(post_url(post)) else "noch nicht online"
+            print(f"--- {post['slug']} ({status})\n{toot_text(post)}\n")
         return
 
     load_env()
     if not os.environ.get("MASTODON_TOKEN"):
         sys.exit("MASTODON_TOKEN fehlt (.env).")
 
+    tooted = 0
     for post in new:
+        if not is_online(post_url(post)):
+            print(f"Übersprungen, noch nicht online: {post_url(post)}")
+            continue
         url = send_toot(toot_text(post), post["slug"])
         print(f"Getootet: {post['slug']} -> {url}")
         with STATEFILE.open("a") as f:
             f.write(post["slug"] + "\n")
+        tooted += 1
 
+    if not tooted:
+        return
     subprocess.run(["git", "add", STATEFILE.name], cwd=BASEDIR, check=True)
     subprocess.run(
-        ["git", "commit", "-m", "chore: mastodon_posted.txt aktualisiert", "--", STATEFILE.name],
+        ["git", "commit", "-m", "docs: mastodon_posted.txt aktualisieren", "--", STATEFILE.name],
         cwd=BASEDIR, check=True,
     )
 
