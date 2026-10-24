@@ -1,0 +1,2 @@
+- Tagcloud entfernen - produziert bei jedem Run alle Dateien neu.
+- neue Posts auch nach mastodon (chaos.social/pintman) veröffentlichen mit einem Link auf den Artikel.
