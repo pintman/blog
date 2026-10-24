@@ -212,21 +212,6 @@
         </div>
         {% endif %}
     </div>
-
-    <!-- Tag Cloud-->
-    <hr />
-    <div class="tagcloud">
-        {% for tag in tag_cloud %}
-            <span class="tag-{{ tag.1 }}">
-                <a href="{{ SITEURL }}/{{ tag.0.url }}">
-                {{ tag.0 }}
-                    {% if TAG_CLOUD_BADGE %}
-                        <span class="badge">{{ tag.2 }}</span>
-                    {% endif %}
-                </a>
-            </span>
-        {% endfor %}
-    </div>
 </div>
 <!-- End Content Container -->
 

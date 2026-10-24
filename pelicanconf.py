@@ -88,9 +88,7 @@ CUSTOM_CSS = 'static/css/custom.css'
 # https://github.com/pelican-plugins/tipue-search 
 # https://github.com/pelican-plugins/sitemap
 PLUGIN_PATHS = ["pelican-plugins"]
-PLUGINS = ['tipue_search', "sitemap", "tag_cloud"]
-# deterministic order -> stable builds (default is 'random')
-TAG_CLOUD_SORTING = 'alphabetically'
+PLUGINS = ['tipue_search', "sitemap"]
 #DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 DIRECT_TEMPLATES = ('index', 'archives', 'search', 'tags')
 
