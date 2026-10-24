@@ -12,3 +12,4 @@ docs_beaker/
 
 *~
 .env
+.DS_Store
