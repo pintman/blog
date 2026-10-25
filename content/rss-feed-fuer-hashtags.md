@@ -11,5 +11,5 @@ Wenn man an eine beliebige Adresse für ein Hashtag bei Mastodon ein .rss anhän
 
 Das ist schon praktisch, weil manche Inhalte im Strom der Posts nicht selten untergehen. So etwa bei den Posts rund um den 40c3.
 
-https://chaos.social/tags/40c3.rss
+<https://chaos.social/tags/40c3.rss>
 
