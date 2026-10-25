@@ -95,9 +95,9 @@ def is_online(url):
 
 def toot_text(post):
     tags = [re.sub(r"\W", "", t) for t in post.get("tags", "").split(",")]
-    hashtags = " ".join("#" + t for t in tags if t)
-    text = f"{post['title']}\n\n{post_url(post)}"
-    return f"{text}\n\n{hashtags}" if hashtags else text
+    tags = [t for t in tags if t and t.lower() != "blogpost"] + ["blogpost"]
+    hashtags = " ".join("#" + t for t in tags)
+    return f"{post['title']}\n\n{post_url(post)}\n\n{hashtags}"
 
 
 def send_toot(text, slug):
