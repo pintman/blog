@@ -20,4 +20,5 @@ via `setup.sh`
 
 - New post: `./newpost.sh "Titel" "tags"` (default `status: draft`, `-p` for `published`, `-n` to skip opening in VS Code).
 - Mastodon: after committing a published post, run `./mastodon_post.py` (`--dry-run` to preview). It toots title + link + tags to chaos.social for every published post not yet listed in `mastodon_posted.txt`, appends the slug, and commits that file. Token in `.env` (`MASTODON_TOKEN=…`, gitignored, scope `write:statuses`). Aborts if more than 3 posts are new.
+- LinkedIn: `./linkedin_post.py` (`--dry-run` to preview) opens a prefilled LinkedIn share dialog via `open` for every published post not yet listed in `linkedin_posted.txt` (same text as the toot); after clicking "Posten", confirm with `j` in the terminal. Appends the slug and commits that file. No API/token (official API would require a LinkedIn Page). Reuses helpers from `mastodon_post.py`.
 - Older posts use reST (`.rst`) with a title + `####` underline and `:field:` metadata; newer posts use Markdown with `---` frontmatter. Match the format of the file you're editing; use Markdown for new posts.
