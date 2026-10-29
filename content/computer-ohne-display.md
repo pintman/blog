@@ -22,3 +22,5 @@ Die Macher von Folk Computer zeigen ihr System und ihre Design-Entscheidungen in
 
 Update: Hinter [Paper Programs](https://paperprograms.org/) verbirgt sich ein ähnliches System, das komplett im Browser läuft. Da das Projekt sein einiger Zeit ruhr, gibt es den Nachfolger
 [Paper Playground (bzw. Paper Land)](https://phetsims.github.io/paper-land/).
+
+Update: Meine Versuch, einen folk.computer auf macOS (Apple Silicon) zum Laufen zu bringen: Abhängigkeiten, Umgebungsvariablen und nötige Codeänderungen habe ich in einem [Protokoll]({static}/media/folk-macos-log.txt) festgehalten. Es lief bis zum Kalibrieren von Kamera und Projektor durch - ab da habe ich nicht weiter gemacht.

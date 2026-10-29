@@ -1,0 +1,71 @@
+Folk auf macOS (Apple Silicon) zum Laufen bringen
+=================================================
+
+Checkout:
+git clone --depth 1 https://github.com/FolkComputer/folk
+
+
+Abhängigkeiten (Homebrew)
+-------------------------
+brew install vulkan-headers vulkan-loader molten-vk shaderc glfw
+brew install autoconf automake libtool autoconf-archive vulkan-tools pkgconf cmake
+brew install ffmpeg        # Kamera (camera/macos.folk)
+brew install fswatch       # optional: Programme bei Änderung neu laden
+brew install ghostscript   # optional: Drucken/Kalibrierboard
+
+- autoconf/automake/pkgconf: web.folk baut vendor/wslay (pkgconf liefert
+  pkg.m4, sonst "syntax error near PKG_PROG_PKG_CONFIG").
+  Nach fehlgeschlagenem Versuch: rm vendor/wslay/Makefile
+- cmake: apriltags.folk baut vendor/apriltag; ohne libapriltag fehlen
+  print.folk und damit /calibrate (404).
+
+Bauen
+-----
+make deps                  # jimtcl konfigurieren (erzeugt jim-config.h)
+make
+
+Umgebung (in ~/.zshrc bzw. ~/.bash_profile)
+-------------------------------------------
+export CPATH=/opt/homebrew/include
+export LIBRARY_PATH=/opt/homebrew/lib
+export DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib
+
+- CPATH: Laufzeit-Kompilate (enumerate.folk, vma.folk [c++], toy-shader.folk)
+  finden sonst vulkan/vulkan.h bzw. openssl/sha.h nicht.
+- LIBRARY_PATH: Linken von folk (-lssl) und von gpu.folk (-lglfw).
+  Ursache: gpu.folk:55 übergibt -L/opt/homebrew/lib per cflags statt
+  endcflags; lib/c.tcl nutzt beim Linken nur endcflags.
+- DYLD_FALLBACK_LIBRARY_PATH: volk lädt libvulkan per dlopen; macOS sucht
+  nicht in /opt/homebrew/lib -> sonst vkCreateInstance
+  ERROR_INITIALIZATION_FAILED.
+
+Codeänderungen
+--------------
+folk.c
+  Unter macOS RLIMIT_NOFILE beim Start auf min(hard, OPEN_MAX) anheben.
+  Standard-Soft-Limit ist 256; Folk hält pro Programm eine stdout- und
+  stderr-Logdatei offen (~250 fds) -> pipe()/posix_spawn scheiterten mit
+  "Too many open files".
+
+builtin-programs/camera/macos.folk (neu)
+  Kameratreiber für macOS (usb.folk/enumerate.folk nutzen V4L2, nur Linux).
+  - Erkennung: ffmpeg -f avfoundation -list_devices; Modi per Probe mit
+    -video_size 1x1. Claim: $::thisNode has camera /avfoundation/<index>
+    with card ... formats {{fourcc MJPG ...}}. Bildschirmaufnahmen
+    übersprungen.
+  - Aufnahme: ffmpeg per posix_spawnp (POSIX_SPAWN_CLOEXEC_DEFAULT),
+    MJPEG über stdout-Pipe, jeweils neuestes vollständiges JPEG
+    (FFD8..FFD9); poll() statt select().
+  - Gray/RGB-Dekodierung, Crops, Retry-Schleife wie usb.folk.
+  - Keine Belichtungssteuerung.
+
+Bekannte Einschränkungen
+------------------------
+- music.folk: braucht sclang (SuperCollider), jackd/alsa -> Linux.
+- terminal.folk: absichtlich deaktiviert (FIXME im Code).
+- Schwarzes GLFW-Fenster = Projektor-Ausgabe; normal ohne Inhalte.
+
+Offen
+-----
+- gpu.folk:55: -L nach endcflags verschieben; Homebrew-Pfade für
+  enumerate/vma/toy-shader/volk im Code statt per Umgebung.
