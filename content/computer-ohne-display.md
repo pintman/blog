@@ -7,7 +7,7 @@ status: published
 slug: computer-ohne-display
 ---
 
-![Ein aus Papier gebauter Button mit Markierungscode auf einem Holztisch, der auf einen Druck mit dem Finger reagiert](https://folk.computer/_media/button_computer.gif)
+![Ein aus Papier gebauter Button mit Markierungscode auf einem Holztisch, der auf einen Druck mit dem Finger reagiert](https://folk.computer/_media/button_computer.gif)<br>
 *Ein aus Papier selbst gebauter Button, der auf einen Druck reagiert. Quelle: [Folk Computer](https://folk.computer/)*
 
 Ich habe mir schon eine ganze Zeit lang mit Freude das Projekt [Dynamicland](https://dynamicland.org/) angeschaut. Dabei werden eine Webcam, ein Projektor und speziell markierte Papiere benutzt, um Programme in einem Raum laufen zu lassen. Die Eingabe erfolgt über echte Objekte im Raum, während die Ausgabe über den Projektor auf einen Tisch oder den Boden erfolgt.
