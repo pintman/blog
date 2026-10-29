@@ -20,4 +20,5 @@ In einem [Vortrag](https://youtu.be/7wa3nm0qcfM) von [Bret Victor](https://worry
 
 Die Macher von Folk Computer zeigen ihr System und ihre Design-Entscheidungen in einem [anderen interessanten Video](https://youtu.be/uXHHnps4tU8).
 
-Update: Hinter [Paper Programs](https://paperprograms.org/) verbirgt sich ein ähnliches System, das komplett im Browser läuft.
+Update: Hinter [Paper Programs](https://paperprograms.org/) verbirgt sich ein ähnliches System, das komplett im Browser läuft. Da das Projekt sein einiger Zeit ruhr, gibt es den Nachfolger
+[Paper Playground (bzw. Paper Land)](https://phetsims.github.io/paper-land/).
