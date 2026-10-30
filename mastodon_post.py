@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Neue veröffentlichte Posts nach Mastodon tooten.
 
-Aufruf nach dem Commit: ./mastodon_post.py [--dry-run] [--seed]
+Aufruf nach dem Commit: ./mastodon_post.py [--dry-run] [--seed] [--text TEXT] [--tags TAGS]
 Token in .env: MASTODON_TOKEN=..., optional MASTODON_INSTANCE=https://chaos.social
 Bereits getootete Slugs stehen in mastodon_posted.txt.
 """
@@ -22,6 +22,8 @@ STATEFILE = BASEDIR / "mastodon_posted.txt"
 ENVFILE = BASEDIR / ".env"
 SITEURL = "https://blog.bakera.de"
 MAX_TOOTS = 3
+MAX_CHARS = 500  # Limit von chaos.social
+URL_CHARS = 23  # Mastodon zählt jeden Link mit 23 Zeichen
 
 
 def load_env():
@@ -93,11 +95,15 @@ def is_online(url):
         return False
 
 
-def toot_text(post):
-    tags = [re.sub(r"\W", "", t) for t in post.get("tags", "").split(",")]
+def toot_text(post, text=None, tags=None):
+    tags = [re.sub(r"\W", "", t) for t in (tags or post.get("tags", "")).split(",")]
     tags = [t for t in tags if t and t.lower() != "blogpost"] + ["blogpost"]
     hashtags = " ".join("#" + t for t in tags)
-    return f"{post['title']}\n\n{post_url(post)}\n\n{hashtags}"
+    return f"{text or post['title']}\n\n{post_url(post)}\n\n{hashtags}"
+
+
+def toot_length(text, post):
+    return len(text) - len(post_url(post)) + URL_CHARS
 
 
 def send_toot(text, slug):
@@ -120,6 +126,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--dry-run", action="store_true", help="nur anzeigen, nichts senden")
     parser.add_argument("--seed", action="store_true", help="alle veröffentlichten Posts als getootet markieren")
+    parser.add_argument("--text", help="eigener Text statt Titel (nur bei genau einem neuen Post); "
+                        f"Toot max. {MAX_CHARS} Zeichen inkl. Link (zählt {URL_CHARS}) und Hashtags")
+    parser.add_argument("--tags", help="eigene Tags statt der Post-Tags, z.B. \"a, b, c\" (nur bei genau einem neuen Post)")
     args = parser.parse_args()
 
     posted = set(STATEFILE.read_text().split()) if STATEFILE.exists() else set()
@@ -137,11 +146,18 @@ def main():
         return
     if len(new) > MAX_TOOTS:
         sys.exit(f"{len(new)} neue Posts (> {MAX_TOOTS}) – mastodon_posted.txt prüfen. Abbruch.")
+    if (args.text or args.tags) and len(new) > 1:
+        sys.exit("--text/--tags nur bei genau einem neuen Post möglich.")
+    for post in new:
+        length = toot_length(toot_text(post, args.text, args.tags), post)
+        if length > MAX_CHARS:
+            sys.exit(f"{post['slug']}: Toot hat {length} Zeichen (> {MAX_CHARS}). Abbruch.")
 
     if args.dry_run:
         for post in new:
             status = "online" if is_online(post_url(post)) else "noch nicht online"
-            print(f"--- {post['slug']} ({status})\n{toot_text(post)}\n")
+            text = toot_text(post, args.text, args.tags)
+            print(f"--- {post['slug']} ({status}, {toot_length(text, post)}/{MAX_CHARS} Zeichen)\n{text}\n")
         return
 
     load_env()
@@ -153,7 +169,7 @@ def main():
         if not is_online(post_url(post)):
             print(f"Übersprungen, noch nicht online: {post_url(post)}")
             continue
-        url = send_toot(toot_text(post), post["slug"])
+        url = send_toot(toot_text(post, args.text, args.tags), post["slug"])
         print(f"Getootet: {post['slug']} -> {url}")
         with STATEFILE.open("a") as f:
             f.write(post["slug"] + "\n")
