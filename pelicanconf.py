@@ -7,7 +7,9 @@ SITENAME = '/home/bakera/blog'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['images', 'media', 'extra']  
+STATIC_PATHS = ['images', 'media', 'extra']
+# .md-Dateien in media/ nicht als Artikel parsen, nur statisch kopieren
+ARTICLE_EXCLUDES = ['media']
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
     'extra/favicon.ico': {'path': 'favicon.ico'},
