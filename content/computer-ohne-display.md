@@ -25,4 +25,4 @@ Die Macher von Folk Computer zeigen ihr System und ihre Design-Entscheidungen in
 
 **Update:** Meine Versuch, einen folk.computer auf macOS (Apple Silicon) zum Laufen zu bringen: Abhängigkeiten, Umgebungsvariablen und nötige Codeänderungen habe ich in einem [Protokoll]({static}/media/folk-macos-log.txt) festgehalten. Es lief bis zum Kalibrieren von Kamera und Projektor durch - ab da habe ich nicht weiter gemacht.
 
-**Update:** Was die mitgelieferten Programme von Folk für eigene Programme bereitstellen (Beschriften, Zeichnen, Bilder, Interaktion zwischen Blättern, Kamera, Ton u. v. m.), habe ich in einer [Übersicht]({static}/media/folk-builtin-programs.md) zusammengefasst.
+**Update:** Was die mitgelieferten Programme von Folk für eigene Programme bereitstellen (Beschriften, Zeichnen, Bilder, Interaktion zwischen Blättern, Kamera, Ton u. v. m.), habe ich in einer [Übersicht]({static}/media/folk-builtin-programs.txt) zusammengefasst.
