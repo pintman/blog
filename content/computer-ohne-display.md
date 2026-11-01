@@ -26,3 +26,5 @@ Die Macher von Folk Computer zeigen ihr System und ihre Design-Entscheidungen in
 **Update:** Meine Versuch, einen folk.computer auf macOS (Apple Silicon) zum Laufen zu bringen: Abhängigkeiten, Umgebungsvariablen und nötige Codeänderungen habe ich in einem [Protokoll]({static}/media/folk-macos-log.txt) festgehalten. Es lief bis zum Kalibrieren von Kamera und Projektor durch - ab da habe ich nicht weiter gemacht.
 
 **Update:** Was die mitgelieferten Programme von Folk für eigene Programme bereitstellen (Beschriften, Zeichnen, Bilder, Interaktion zwischen Blättern, Kamera, Ton u. v. m.), habe ich in einer [Übersicht]({static}/media/folk-builtin-programs.txt) zusammengefasst.
+
+**Update:** Im Podcast [The Orthogonal Bet](https://podcasts.apple.com/de/podcast/the-orthogonal-bet/id1796494444?i=1000692394100) (Folge 17, Februar 2025) spricht Samuel Arbesman mit Folk-Macher Omar Rizwan über physische Interfaces, die Computing gemeinschaftlich und greifbar machen, über Folk als neue Art von Computing und über die Rolle von KI.
