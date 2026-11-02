@@ -31,6 +31,7 @@ Blatt legen, sodass sie nach oben darauf zeigt. Es erscheint ein Editor.
 | Ctrl+C / X / V | Kopieren / Ausschneiden / Einfügen |
 | Ctrl+R | Änderungen verwerfen |
 | Ctrl+- / Ctrl+= | Schrift kleiner / größer |
+| Ctrl+B | Erstellt ein neues leeres Programm (Blank) |
 
 Geänderte Programme zeigen „(edited …)“ als Titel.
 
