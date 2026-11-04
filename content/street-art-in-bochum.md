@@ -1,9 +1,9 @@
 ---
 title: Street Art in Bochum
-date: 2026-11-03 21:57
+date: 2026-11-04 07:21
 author: marco.bakera
 tags: bochum, street art
-status: hidden
+status: published
 slug: street-art-in-bochum
 ---
 
