@@ -2,7 +2,7 @@
 title: Halbwertszeit von Aussagen zu LLMs
 date: 2026-11-06 15:14
 author: marco.bakera
-tags: KI, LLM, Forschung
+tags: llm, Wissenschaft
 status: published
 slug: halbwertszeit-von-aussagen-zu-llms
 ---
