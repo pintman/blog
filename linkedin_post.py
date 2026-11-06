@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Neue veröffentlichte Posts halbautomatisch auf LinkedIn teilen.
 
-Aufruf nach dem Commit: ./linkedin_post.py [--dry-run] [--seed]
-Öffnet pro Post einen vorausgefüllten Teilen-Dialog im Browser; nach dem
-Posten im Terminal bestätigen. Bereits geteilte Slugs stehen in linkedin_posted.txt.
+Aufruf nach dem Commit: ./linkedin_post.py [--dry-run] [--seed] [--text TEXT] [--tags TAGS]
+Öffnet pro Post einen vorausgefüllten Teilen-Dialog im Browser und trägt den
+Slug ohne Rückfrage in linkedin_posted.txt ein ("Posten" klickt man selbst).
 """
 
 import argparse
@@ -17,14 +17,16 @@ STATEFILE = BASEDIR / "linkedin_posted.txt"
 MAX_POSTS = 3
 
 
-def share_url(post):
-    return "https://www.linkedin.com/feed/?shareActive=true&text=" + urllib.parse.quote(toot_text(post))
+def share_url(text):
+    return "https://www.linkedin.com/feed/?shareActive=true&text=" + urllib.parse.quote(text)
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--dry-run", action="store_true", help="nur anzeigen, nichts öffnen")
     parser.add_argument("--seed", action="store_true", help="alle veröffentlichten Posts als geteilt markieren")
+    parser.add_argument("--text", help="eigener Text statt Titel (nur bei genau einem neuen Post)")
+    parser.add_argument("--tags", help="eigene Tags statt der Post-Tags, z.B. \"a, b, c\" (nur bei genau einem neuen Post)")
     args = parser.parse_args()
 
     posted = set(STATEFILE.read_text().split()) if STATEFILE.exists() else set()
@@ -42,11 +44,14 @@ def main():
         return
     if len(new) > MAX_POSTS:
         sys.exit(f"{len(new)} neue Posts (> {MAX_POSTS}) – linkedin_posted.txt prüfen. Abbruch.")
+    if (args.text or args.tags) and len(new) > 1:
+        sys.exit("--text/--tags nur bei genau einem neuen Post möglich.")
 
     if args.dry_run:
         for post in new:
             status = "online" if is_online(post_url(post)) else "noch nicht online"
-            print(f"--- {post['slug']} ({status})\n{toot_text(post)}\n{share_url(post)}\n")
+            text = toot_text(post, args.text, args.tags)
+            print(f"--- {post['slug']} ({status})\n{text}\n{share_url(text)}\n")
         return
 
     shared = 0
@@ -54,9 +59,8 @@ def main():
         if not is_online(post_url(post)):
             print(f"Übersprungen, noch nicht online: {post_url(post)}")
             continue
-        subprocess.run(["open", share_url(post)], check=True)
-        if input(f"{post['slug']}: auf LinkedIn gepostet? [j/N] ").strip().lower() != "j":
-            continue
+        subprocess.run(["open", share_url(toot_text(post, args.text, args.tags))], check=True)
+        print(f"Teilen-Dialog geöffnet: {post['slug']}")
         with STATEFILE.open("a") as f:
             f.write(post["slug"] + "\n")
         shared += 1
