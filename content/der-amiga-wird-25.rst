@@ -1,7 +1,7 @@
 Der Amiga wird 25
 #################
 :date: 2010-07-27 06:09
-:author: admin
+:author: marco.bakera
 :tags: Tipp
 :slug: der-amiga-wird-25
 :status: published

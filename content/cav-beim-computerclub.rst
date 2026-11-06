@@ -1,7 +1,7 @@
 CAV beim Computerclub
 #####################
 :date: 2007-07-09 04:54
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: cav-beim-computerclub
 :status: published

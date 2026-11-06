@@ -1,7 +1,7 @@
 Stink langweilig...»
 ####################
 :date: 2005-01-20 15:57
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: stink-langweilig
 :status: published

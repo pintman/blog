@@ -1,7 +1,7 @@
 Digitale Emanzipation
 #####################
 :date: 2013-05-09 16:03
-:author: admin
+:author: marco.bakera
 :tags: bloggen
 :slug: digitale-emanzipation
 :status: published

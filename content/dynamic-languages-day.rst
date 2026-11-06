@@ -1,7 +1,7 @@
 Dynamic Languages Day
 #####################
 :date: 2006-06-24 07:02
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: dynamic-languages-day
 :status: published

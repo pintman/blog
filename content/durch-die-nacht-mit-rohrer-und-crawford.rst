@@ -1,7 +1,7 @@
 Durch die Nacht mit Rohrer und Crawford
 #######################################
 :date: 2010-07-25 11:00
-:author: admin
+:author: marco.bakera
 :tags: Audio, Kunst, Programmierung, Spaß, Video
 :slug: durch-die-nacht-mit-rohrer-und-crawford
 :status: published

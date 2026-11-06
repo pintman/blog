@@ -1,7 +1,7 @@
 Das Chaos Communication Camp ist heute gestartet
 ################################################
 :date: 2011-08-10 19:31
-:author: admin
+:author: marco.bakera
 :tags: Informatik, Programmierung, Spaß, Wissenschaft
 :slug: das-chaos-communication-camp-ist-heute-gestartet
 :status: published

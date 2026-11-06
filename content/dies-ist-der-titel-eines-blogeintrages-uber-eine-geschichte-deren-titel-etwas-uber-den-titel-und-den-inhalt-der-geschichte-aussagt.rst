@@ -1,7 +1,7 @@
 Dies ist der Titel eines Blogeintrages über eine Geschichte, deren Titel etwas über den Titel und den Inhalt der Geschichte aussagt
 ###################################################################################################################################
 :date: 2007-02-17 11:27
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: dies-ist-der-titel-eines-blogeintrages-uber-eine-geschichte-deren-titel-etwas-uber-den-titel-und-den-inhalt-der-geschichte-aussagt
 :status: published

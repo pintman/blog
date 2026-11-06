@@ -1,7 +1,7 @@
 Accidental/Holographic Algorithms
 #################################
 :date: 2008-03-22 13:14
-:author: admin
+:author: marco.bakera
 :tags: Informatik, Wissenschaft
 :slug: accidentalholographic-algorithms
 :status: published

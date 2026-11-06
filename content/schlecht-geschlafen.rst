@@ -1,7 +1,7 @@
 Schlecht geschlafen
 ###################
 :date: 2004-08-24 10:21
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: schlecht-geschlafen
 :status: published

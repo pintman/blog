@@ -1,7 +1,7 @@
 Java um eine Scriptsprache erweitern
 ####################################
 :date: 2006-04-25 20:27
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: java-um-eine-scriptsprache-erweitern
 :status: published

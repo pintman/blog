@@ -1,7 +1,7 @@
 Krieg der Welten
 ################
 :date: 2005-07-29 14:59
-:author: admin
+:author: marco.bakera
 :tags: Film, review
 :slug: krieg-der-welten
 :status: published

@@ -1,7 +1,7 @@
 Seite durchsuchen
 #################
 :date: 2005-04-23 21:02
-:author: admin
+:author: marco.bakera
 :tags: admin
 :slug: seite-durchsuchen
 :status: published

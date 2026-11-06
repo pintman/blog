@@ -1,7 +1,7 @@
 Flipped Classroom: Den Unterricht auf den Kopf stellen
 ######################################################
 :date: 2012-02-05 11:08
-:author: admin
+:author: marco.bakera
 :tags: Bildung, Film, Mathe, Video
 :slug: flipped-classroom-den-unterricht-auf-den-kopf-stellen
 :status: published

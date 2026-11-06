@@ -1,7 +1,7 @@
 Fotostream
 ##########
 :date: 2005-05-04 06:41
-:author: admin
+:author: marco.bakera
 :tags: Kunst
 :slug: fotostream
 :status: published

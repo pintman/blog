@@ -1,7 +1,7 @@
 Tricider
 ########
 :date: 2011-06-18 07:47
-:author: admin
+:author: marco.bakera
 :tags: Bildung, Tipp, Tools
 :slug: tricider
 :status: published

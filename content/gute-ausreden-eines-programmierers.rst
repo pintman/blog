@@ -1,7 +1,7 @@
 Gute Ausreden eines Programmierers.
 ###################################
 :date: 2005-11-01 09:06
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: gute-ausreden-eines-programmierers
 :status: published

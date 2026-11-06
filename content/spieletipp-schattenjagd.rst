@@ -1,7 +1,7 @@
 Spieletipp: Schattenjagd
 ########################
 :date: 2011-10-30 11:25
-:author: admin
+:author: marco.bakera
 :tags: Kunst, Spaß, Spiele, Tipp
 :slug: spieletipp-schattenjagd
 :status: published

@@ -1,7 +1,7 @@
 Funktionen und Mengen
 #####################
 :date: 2006-02-17 20:57
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: funktionen-und-mengen
 :status: published

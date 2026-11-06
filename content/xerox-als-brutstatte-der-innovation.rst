@@ -1,7 +1,7 @@
 Xerox als Brutstätte der Innovation
 ###################################
 :date: 2006-04-26 06:55
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: xerox-als-brutstatte-der-innovation
 :status: published

@@ -1,7 +1,7 @@
 Fernsehkritik.tv zu Gast bei Chaosradio Express
 ###############################################
 :date: 2010-08-06 11:50
-:author: admin
+:author: marco.bakera
 :tags: Audio, Tipp
 :slug: fernsehkritik-tv-zu-gast-bei-chaosradio-express
 :status: published

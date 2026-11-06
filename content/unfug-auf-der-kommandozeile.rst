@@ -1,7 +1,7 @@
 Unfug auf der Kommandozeile
 ###########################
 :date: 2006-02-28 09:02
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: unfug-auf-der-kommandozeile
 :status: published

@@ -1,7 +1,7 @@
 Computer in den Mathematikunterricht
 ####################################
 :date: 2010-11-20 17:56
-:author: admin
+:author: marco.bakera
 :tags: Mathe, Video
 :slug: computer-in-den-mathematikunterricht
 :status: published

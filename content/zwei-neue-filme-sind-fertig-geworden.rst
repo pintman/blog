@@ -1,7 +1,7 @@
 Zwei neue Filme sind fertig geworden
 ####################################
 :date: 2005-08-14 08:28
-:author: admin
+:author: marco.bakera
 :tags: Film
 :slug: zwei-neue-filme-sind-fertig-geworden
 :status: published

@@ -1,7 +1,7 @@
 BumpTop - der Desktop der Zukunft
 #################################
 :date: 2006-07-01 22:12
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: bumptop-der-desktop-der-zukunft
 :status: published

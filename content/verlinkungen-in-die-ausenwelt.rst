@@ -1,7 +1,7 @@
 Verlinkungen in die Außenwelt
 #############################
 :date: 2004-01-01 00:00
-:author: admin
+:author: marco.bakera
 :tags: Linkliste
 :slug: verlinkungen-in-die-ausenwelt
 :status: published

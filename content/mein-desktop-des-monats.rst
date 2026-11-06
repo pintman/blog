@@ -1,7 +1,7 @@
 Mein Desktop des Monats »
 #########################
 :date: 2005-01-05 00:09
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: mein-desktop-des-monats
 :status: published

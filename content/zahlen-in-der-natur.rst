@@ -1,7 +1,7 @@
 Zahlen in der Natur
 ###################
 :date: 2010-05-13 15:54
-:author: admin
+:author: marco.bakera
 :tags: Kunst, Mathe, Tipp, Video, Wissenschaft
 :slug: zahlen-in-der-natur
 :status: published

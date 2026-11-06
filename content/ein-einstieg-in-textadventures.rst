@@ -1,7 +1,7 @@
 > Ein Einstieg in Textadventures
 ################################
 :date: 2012-04-13 22:05
-:author: admin
+:author: marco.bakera
 :tags: Text
 :slug: ein-einstieg-in-textadventures
 :status: published

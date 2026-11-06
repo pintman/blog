@@ -1,7 +1,7 @@
 Bau dir deine eigenen Fehlermeldungen »
 #######################################
 :date: 2005-01-27 20:33
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: bau-dir-deine-eigenen-fehlermeldungen
 :status: published

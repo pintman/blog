@@ -1,7 +1,7 @@
 Eine neue DVD ist angekommen
 ############################
 :date: 2005-05-12 15:11
-:author: admin
+:author: marco.bakera
 :tags: Film
 :slug: eine-neue-dvd-ist-angekommen
 :status: published

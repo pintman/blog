@@ -1,7 +1,7 @@
 Durchfall
 #########
 :date: 2005-01-07 11:30
-:author: admin
+:author: marco.bakera
 :tags: Kunst
 :slug: durchfall
 :status: published

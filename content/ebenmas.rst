@@ -1,7 +1,7 @@
 Ebenmaß
 #######
 :date: 2008-03-14 07:00
-:author: admin
+:author: marco.bakera
 :tags: fun
 :slug: ebenmas
 :status: published

@@ -1,7 +1,7 @@
 Unterhaltsame Webserie: Kollegium - Klassenkampf im Lehrerzimmer
 ################################################################
 :date: 2010-08-04 13:34
-:author: admin
+:author: marco.bakera
 :tags: Spaß, Video
 :slug: unterhaltsame-webserie-kollegium-klassenkampf-im-lehrerzimmer
 :status: published

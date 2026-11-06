@@ -1,7 +1,7 @@
 Waffentasche beim Plus
 ######################
 :date: 2005-10-20 06:10
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: waffentasche-beim-plus
 :status: published

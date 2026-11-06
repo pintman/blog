@@ -1,7 +1,7 @@
 113 Tipps für neue Lehrer
 #########################
 :date: 2010-09-08 10:30
-:author: admin
+:author: marco.bakera
 :tags: Bildung
 :slug: 113-tipps-fur-neue-lehrer
 :status: published

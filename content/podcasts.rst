@@ -1,7 +1,7 @@
 Podcasts
 ########
 :date: 2005-03-02 19:49
-:author: admin
+:author: marco.bakera
 :tags: Audio
 :slug: podcasts
 :status: published

@@ -1,7 +1,7 @@
 Diplomarbeit angemeldet
 #######################
 :date: 2006-02-14 18:31
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: diplomarbeit-angemeldet
 :status: published

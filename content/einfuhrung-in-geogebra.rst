@@ -1,7 +1,7 @@
 Einführung in GeoGebra
 ######################
 :date: 2012-12-21 14:00
-:author: admin
+:author: marco.bakera
 :tags: Mathe, Video
 :slug: einfuhrung-in-geogebra
 :status: published

@@ -1,7 +1,7 @@
 Handys im Unterricht: Fluch oder Chance?
 ########################################
 :date: 2010-08-29 08:33
-:author: admin
+:author: marco.bakera
 :tags: Bildung, Video
 :slug: handys-im-unterricht-fluch-oder-chance
 :status: published

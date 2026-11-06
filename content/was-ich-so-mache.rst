@@ -1,7 +1,7 @@
 Was ich so mache
 ################
 :date: 2005-02-02 18:55
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: was-ich-so-mache
 :status: published

@@ -1,7 +1,7 @@
 Furz geht auffe Kirmes
 ######################
 :date: 2005-01-01 19:16
-:author: admin
+:author: marco.bakera
 :tags: Comic, Kunst
 :slug: furz-geht-auffe-kirmes
 :status: published

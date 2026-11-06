@@ -1,7 +1,7 @@
 Selbst-adaptive Systeme
 #######################
 :date: 2008-02-28 15:44
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: selbst-adaptive-systeme
 :status: published

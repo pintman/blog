@@ -1,7 +1,7 @@
 Die Akte CCC
 ############
 :date: 2010-09-12 15:13
-:author: admin
+:author: marco.bakera
 :tags: Informatik, Programmierung, Video
 :slug: die-akte-ccc
 :status: published

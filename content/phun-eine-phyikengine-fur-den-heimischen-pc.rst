@@ -1,7 +1,7 @@
 Phun: Eine Phyikengine für den heimischen PC
 ############################################
 :date: 2008-03-09 11:04
-:author: admin
+:author: marco.bakera
 :tags: Spaß, Video, Wissenschaft
 :slug: phun-eine-phyikengine-fur-den-heimischen-pc
 :status: published

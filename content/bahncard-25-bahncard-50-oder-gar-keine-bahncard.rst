@@ -1,7 +1,7 @@
 Bahncard 25, Bahncard 50 oder gar keine Bahncard?
 #################################################
 :date: 2009-08-22 10:18
-:author: admin
+:author: marco.bakera
 :tags: Mathe, Spaß, Tools
 :slug: bahncard-25-bahncard-50-oder-gar-keine-bahncard
 :status: published

@@ -1,7 +1,7 @@
 Über die Entwicklung von Computerspielen (Staffel 3 von Bubble Universe)
 ########################################################################
 :date: 2011-04-18 07:13
-:author: admin
+:author: marco.bakera
 :tags: Programmierung, Spaß, Video
 :slug: uber-die-entwicklung-von-computerspielen-staffel-3-von-bubble-universe
 :status: published

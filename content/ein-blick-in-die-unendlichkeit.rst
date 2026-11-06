@@ -1,7 +1,7 @@
 Ein Blick in die Unendlichkeit
 ##############################
 :date: 2009-12-17 19:01
-:author: admin
+:author: marco.bakera
 :tags: Audio, Mathe, Tipp
 :slug: ein-blick-in-die-unendlichkeit
 :status: published

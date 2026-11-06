@@ -1,7 +1,7 @@
 Pizza-Volumen
 #############
 :date: 2011-01-25 10:02
-:author: admin
+:author: marco.bakera
 :tags: Bildung, Mathe, Spaß
 :slug: pizza-volumen
 :status: published

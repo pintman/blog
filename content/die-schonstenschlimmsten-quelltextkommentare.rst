@@ -1,7 +1,7 @@
 Die schönsten/schlimmsten Quelltextkommentare
 #############################################
 :date: 2011-05-06 04:39
-:author: admin
+:author: marco.bakera
 :tags: Programmierung
 :slug: die-schonstenschlimmsten-quelltextkommentare
 :status: published

@@ -1,7 +1,7 @@
 Maximilian berichtet über das Informatikstudium
 ###############################################
 :date: 2011-08-09 18:59
-:author: admin
+:author: marco.bakera
 :tags: Audio, Informatik
 :slug: maximilian-berichtet-uber-das-informatikstudium
 :status: published

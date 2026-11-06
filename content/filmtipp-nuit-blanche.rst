@@ -1,7 +1,7 @@
 Filmtipp: Nuit Blanche
 ######################
 :date: 2010-12-03 11:00
-:author: admin
+:author: marco.bakera
 :tags: Tipp, Video
 :slug: filmtipp-nuit-blanche
 :status: published

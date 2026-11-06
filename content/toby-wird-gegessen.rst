@@ -1,7 +1,7 @@
 Toby wird gegessen »
 ####################
 :date: 2005-02-22 21:41
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: toby-wird-gegessen
 :status: published

@@ -1,7 +1,7 @@
 Wahlomat hilft unentschlossenen Wählern
 #######################################
 :date: 2005-08-30 06:48
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: wahlomat-hilft-unentschlossenen-wahlern
 :status: published

@@ -1,7 +1,7 @@
 Nachtrag zum Fitnessstudiotest
 ##############################
 :date: 2005-06-04 09:52
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: nachtrag-zum-fitnessstudiotest
 :status: published

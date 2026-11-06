@@ -1,7 +1,7 @@
 TidlyWiki
 #########
 :date: 2006-04-28 06:32
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: tidlywiki
 :status: published

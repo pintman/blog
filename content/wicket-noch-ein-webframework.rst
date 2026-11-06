@@ -1,7 +1,7 @@
 Wicket: Noch ein Webframework
 #############################
 :date: 2008-03-27 18:31
-:author: admin
+:author: marco.bakera
 :tags: Programmierung
 :slug: wicket-noch-ein-webframework
 :status: published

@@ -1,7 +1,7 @@
 Verteilte Versionierungssysteme
 ###############################
 :date: 2007-07-21 05:44
-:author: admin
+:author: marco.bakera
 :tags: Film, Informatik, Programmierung
 :slug: verteilte-versionierungssysteme
 :status: published

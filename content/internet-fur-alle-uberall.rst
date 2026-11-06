@@ -1,7 +1,7 @@
 Internet für alle – überall
 ###########################
 :date: 2006-07-10 06:43
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: internet-fur-alle-uberall
 :status: published

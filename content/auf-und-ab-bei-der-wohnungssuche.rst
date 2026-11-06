@@ -1,7 +1,7 @@
 Auf und Ab bei der Wohnungssuche
 ################################
 :date: 2005-01-16 20:23
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: auf-und-ab-bei-der-wohnungssuche
 :status: published

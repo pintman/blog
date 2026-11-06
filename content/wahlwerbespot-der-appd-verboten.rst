@@ -1,7 +1,7 @@
 Wahlwerbespot der APPD verboten?
 ################################
 :date: 2005-09-07 07:20
-:author: admin
+:author: marco.bakera
 :tags: Film
 :slug: wahlwerbespot-der-appd-verboten
 :status: published

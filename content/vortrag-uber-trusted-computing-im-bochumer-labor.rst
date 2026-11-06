@@ -1,7 +1,7 @@
 Vortrag über Trusted Computing im Bochumer Labor
 ################################################
 :date: 2010-09-13 10:30
-:author: admin
+:author: marco.bakera
 :tags: Informatik, Termin, das labor
 :slug: vortrag-uber-trusted-computing-im-bochumer-labor
 :status: published

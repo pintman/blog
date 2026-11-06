@@ -1,7 +1,7 @@
 Tweets des Monats Juli
 ######################
 :date: 2012-08-02 07:40
-:author: admin
+:author: marco.bakera
 :tags: Linkliste
 :slug: tweets-des-monats-juli
 :status: published

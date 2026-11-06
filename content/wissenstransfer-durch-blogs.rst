@@ -1,7 +1,7 @@
 Wissenstransfer durch Blogs
 ###########################
 :date: 2008-03-21 09:12
-:author: admin
+:author: marco.bakera
 :tags: Wissenschaft
 :slug: wissenstransfer-durch-blogs
 :status: published

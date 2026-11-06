@@ -1,7 +1,7 @@
 Verschollene Horrorfilme
 ########################
 :date: 2010-10-15 12:13
-:author: admin
+:author: marco.bakera
 :tags: Film, Video
 :slug: verschollene-horrorfilme
 :status: published

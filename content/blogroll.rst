@@ -1,7 +1,7 @@
 Blogroll
 ########
 :date: 2008-02-25 15:47
-:author: admin
+:author: marco.bakera
 :tags: bloggen
 :slug: blogroll
 :status: published

@@ -1,7 +1,7 @@
 Carl Adam Petri ist gestorben
 #############################
 :date: 2010-07-08 07:58
-:author: admin
+:author: marco.bakera
 :tags: Bildung, Informatik, Programmierung
 :slug: carl-adam-petri-ist-gestorben
 :status: published

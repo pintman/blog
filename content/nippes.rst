@@ -1,7 +1,7 @@
 Nippes
 ######
 :date: 2004-09-03 05:35
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: nippes
 :status: published

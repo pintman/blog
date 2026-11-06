@@ -1,7 +1,7 @@
 CSS Frameworks
 ##############
 :date: 2008-04-06 16:22
-:author: admin
+:author: marco.bakera
 :tags:
 :slug: css-frameworks
 :status: published

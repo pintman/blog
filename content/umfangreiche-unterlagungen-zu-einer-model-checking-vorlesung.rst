@@ -1,7 +1,7 @@
 Umfangreiche Unterlagungen zu einer Model-Checking-Vorlesung
 ############################################################
 :date: 2005-11-12 22:46
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: umfangreiche-unterlagungen-zu-einer-model-checking-vorlesung
 :status: published

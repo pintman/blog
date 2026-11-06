@@ -1,7 +1,7 @@
 Digital Life Design
 ###################
 :date: 2008-03-13 15:32
-:author: admin
+:author: marco.bakera
 :tags: Spaß, Wissenschaft
 :slug: digital-life-design
 :status: published

@@ -1,7 +1,7 @@
 .bashrc
 #######
 :date: 2007-02-18 08:48
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: bashrc
 :status: published

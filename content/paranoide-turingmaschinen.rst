@@ -1,7 +1,7 @@
 paranoide Turingmaschinen »
 ###########################
 :date: 2005-01-12 00:03
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: paranoide-turingmaschinen
 :status: published

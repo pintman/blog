@@ -1,7 +1,7 @@
 Furz feiert Silvester
 #####################
 :date: 2005-01-02 19:24
-:author: admin
+:author: marco.bakera
 :tags: Comic, Kunst
 :slug: furz-feiert-silvester
 :status: published

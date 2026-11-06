@@ -1,7 +1,7 @@
 Kurzfilmtipp: Bottle
 ####################
 :date: 2010-09-27 16:12
-:author: admin
+:author: marco.bakera
 :tags: Kunst, Tipp, Video
 :slug: kurzfilmtipp-bottle
 :status: published

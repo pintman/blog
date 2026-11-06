@@ -1,7 +1,7 @@
 Die Seite wurde mal wieder geliftet
 ###################################
 :date: 2005-01-03 20:17
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: die-seite-wurde-mal-wieder-geliftet
 :status: published

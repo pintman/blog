@@ -1,7 +1,7 @@
 Die Kettenregel
 ###############
 :date: 2012-12-14 15:02
-:author: admin
+:author: marco.bakera
 :tags: Mathe, Video
 :slug: die-kettenregel
 :status: published

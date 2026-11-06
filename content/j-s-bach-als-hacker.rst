@@ -1,7 +1,7 @@
 J.S. Bach als Hacker
 ####################
 :date: 2010-07-16 13:22
-:author: admin
+:author: marco.bakera
 :tags: Audio, Bildung, Video
 :slug: j-s-bach-als-hacker
 :status: published

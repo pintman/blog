@@ -1,7 +1,7 @@
 Musiktipp: "Swingset Chain" von Loquat »
 ########################################
 :date: 2005-04-06 18:14
-:author: admin
+:author: marco.bakera
 :tags: Audio
 :slug: musiktipp-swingset-chain-von-loquat
 :status: published

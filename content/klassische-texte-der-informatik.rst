@@ -1,7 +1,7 @@
 Klassische Texte der Informatik
 ###############################
 :date: 2006-05-06 09:57
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: klassische-texte-der-informatik
 :status: published

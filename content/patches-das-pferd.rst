@@ -1,7 +1,7 @@
 Patches das Pferd »
 ###################
 :date: 2005-01-27 20:45
-:author: admin
+:author: marco.bakera
 :tags: Film, Spaß
 :slug: patches-das-pferd
 :status: published

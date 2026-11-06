@@ -1,7 +1,7 @@
 Furz
 ####
 :date: 2004-01-01 10:00
-:author: admin
+:author: marco.bakera
 :tags: Comic, Kunst
 :slug: furz
 :status: published

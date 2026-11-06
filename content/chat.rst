@@ -1,7 +1,7 @@
 Chat
 ####
 :date: 2005-07-01 20:10
-:author: admin
+:author: marco.bakera
 :tags: admin
 :slug: chat
 :status: published

@@ -1,7 +1,7 @@
 Geburtstag überstanden
 ######################
 :date: 2005-01-10 20:29
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: geburtstag-uberstanden
 :status: published

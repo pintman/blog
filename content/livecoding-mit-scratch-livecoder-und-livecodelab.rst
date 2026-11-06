@@ -1,7 +1,7 @@
 LiveCoding mit Scratch, LiveCoder und Livecodelab
 #################################################
 :date: 2013-05-11 21:43
-:author: admin
+:author: marco.bakera
 :tags: Kunst, Programmierung, Video
 :slug: livecoding-mit-scratch-livecoder-und-livecodelab
 :status: published

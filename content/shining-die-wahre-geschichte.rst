@@ -1,7 +1,7 @@
 SHINING - die wahre Geschichte
 ##############################
 :date: 2005-10-16 12:43
-:author: admin
+:author: marco.bakera
 :tags: Film
 :slug: shining-die-wahre-geschichte
 :status: published

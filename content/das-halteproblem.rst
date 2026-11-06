@@ -1,7 +1,7 @@
 Das Halteproblem
 ################
 :date: 2006-02-11 11:59
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: das-halteproblem
 :status: published

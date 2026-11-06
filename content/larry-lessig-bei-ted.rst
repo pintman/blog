@@ -1,7 +1,7 @@
 Larry Lessig bei TED
 ####################
 :date: 2007-12-20 17:30
-:author: admin
+:author: marco.bakera
 :tags: Kunst, Video
 :slug: larry-lessig-bei-ted
 :status: published

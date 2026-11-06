@@ -1,7 +1,7 @@
 Wahrnehmungsdiffusion
 #####################
 :date: 2008-03-20 21:04
-:author: admin
+:author: marco.bakera
 :tags: Spaß, Video, Wissenschaft
 :slug: wahrnehmungsdiffusion
 :status: published

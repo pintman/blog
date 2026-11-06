@@ -1,7 +1,7 @@
 Phsyik für Inge»
 ################
 :date: 2005-04-24 11:04
-:author: admin
+:author: marco.bakera
 :tags: fun
 :slug: phsyik-fur-inge
 :status: published

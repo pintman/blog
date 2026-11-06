@@ -1,7 +1,7 @@
 Die 10 besten SciFi-Filme
 #########################
 :date: 2006-05-23 07:02
-:author: admin
+:author: marco.bakera
 :tags: Film
 :slug: die-10-besten-scifi-filme
 :status: published

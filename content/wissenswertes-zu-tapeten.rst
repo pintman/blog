@@ -1,7 +1,7 @@
 Wissenswertes zu Tapeten
 ########################
 :date: 2005-01-19 19:15
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: wissenswertes-zu-tapeten
 :status: published

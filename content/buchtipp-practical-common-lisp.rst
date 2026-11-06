@@ -1,7 +1,7 @@
 Buchtipp: Practical Common Lisp
 ###############################
 :date: 2006-06-12 06:35
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: buchtipp-practical-common-lisp
 :status: published

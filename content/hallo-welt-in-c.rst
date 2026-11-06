@@ -1,7 +1,7 @@
 "Hallo Welt" in C#
 ##################
 :date: 2012-11-23 14:00
-:author: admin
+:author: marco.bakera
 :tags: Programmierung, Video
 :slug: hallo-welt-in-c
 :status: published

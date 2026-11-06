@@ -1,7 +1,7 @@
 Ich darf selbständig Klettern
 #############################
 :date: 2008-07-17 18:35
-:author: admin
+:author: marco.bakera
 :tags: Spaß, Sport
 :slug: ich-darf-selbstandig-klettern
 :status: published

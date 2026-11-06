@@ -1,7 +1,7 @@
 Vektorrechnung für Programmierer
 ################################
 :date: 2012-02-01 16:52
-:author: admin
+:author: marco.bakera
 :tags: Informatik, Mathe, Programmierung
 :slug: vektorrechnung-fur-programmierer
 :status: published

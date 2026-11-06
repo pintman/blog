@@ -1,7 +1,7 @@
 Weltveränderungen beginnen im Kopf
 ##################################
 :date: 2010-08-01 11:00
-:author: admin
+:author: marco.bakera
 :tags: Sport, Tipp, Video
 :slug: weltveranderungen-beginnen-im-kopf
 :status: published

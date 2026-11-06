@@ -1,7 +1,7 @@
 10 Werbeclips für Linux
 #######################
 :date: 2008-05-03 09:20
-:author: admin
+:author: marco.bakera
 :tags: Video
 :slug: 10-werbeclips-fur-linux
 :status: published

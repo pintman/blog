@@ -1,7 +1,7 @@
 Endlich: Käfige für Kinder und Babys
 ####################################
 :date: 2005-10-20 06:42
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: endlich-kafige-fur-kinder-und-babys
 :status: published

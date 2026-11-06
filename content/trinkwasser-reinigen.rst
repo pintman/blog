@@ -1,7 +1,7 @@
 Trinkwasser reinigen
 ####################
 :date: 2010-07-20 10:00
-:author: admin
+:author: marco.bakera
 :tags: Bildung, Tipp, Video
 :slug: trinkwasser-reinigen
 :status: published

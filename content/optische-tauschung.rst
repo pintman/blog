@@ -1,7 +1,7 @@
 optische Täuschung
 ##################
 :date: 2005-10-24 07:11
-:author: admin
+:author: marco.bakera
 :tags: Kunst
 :slug: optische-tauschung
 :status: published

@@ -1,7 +1,7 @@
 1.0
 ###
 :date: 2005-07-22 07:17
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: 1-0-2
 :status: published

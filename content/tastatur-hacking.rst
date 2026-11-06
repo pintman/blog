@@ -1,7 +1,7 @@
 Tastatur Hacking
 ################
 :date: 2012-10-13 17:03
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: tastatur-hacking
 :status: published

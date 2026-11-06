@@ -1,7 +1,7 @@
 Aufmarsch gegen Rechts
 ######################
 :date: 2005-04-01 14:36
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: aufmarsch-gegen-rechts
 :status: published

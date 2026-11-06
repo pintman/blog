@@ -1,7 +1,7 @@
 Filmtipp: Fifty People, One Question
 ####################################
 :date: 2011-05-29 09:32
-:author: admin
+:author: marco.bakera
 :tags: Kunst, Tipp, Video
 :slug: filmtipp-fifty-people-one-question
 :status: published

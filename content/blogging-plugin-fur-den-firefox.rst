@@ -1,7 +1,7 @@
 Blogging-Plugin für den Firefox
 ###############################
 :date: 2008-07-06 12:27
-:author: admin
+:author: marco.bakera
 :tags:
 :slug: blogging-plugin-fur-den-firefox
 :status: published

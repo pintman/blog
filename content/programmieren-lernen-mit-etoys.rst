@@ -1,7 +1,7 @@
 Programmieren lernen mit Etoys
 ##############################
 :date: 2012-10-18 08:27
-:author: admin
+:author: marco.bakera
 :tags: Informatik, Programmierung, Spaß, Spiele, Tipp
 :slug: programmieren-lernen-mit-etoys
 :status: published

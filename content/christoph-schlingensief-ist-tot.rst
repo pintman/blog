@@ -1,7 +1,7 @@
 Christoph Schlingensief ist tot
 ###############################
 :date: 2010-08-22 07:46
-:author: admin
+:author: marco.bakera
 :tags: Kunst
 :slug: christoph-schlingensief-ist-tot
 :status: published

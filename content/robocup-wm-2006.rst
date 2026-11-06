@@ -1,7 +1,7 @@
 Robocup WM 2006
 ###############
 :date: 2006-06-17 07:21
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: robocup-wm-2006
 :status: published

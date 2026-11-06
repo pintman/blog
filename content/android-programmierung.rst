@@ -1,7 +1,7 @@
 Android Programmierung
 ######################
 :date: 2012-10-06 09:14
-:author: admin
+:author: marco.bakera
 :tags: Programmierung
 :slug: android-programmierung
 :status: published

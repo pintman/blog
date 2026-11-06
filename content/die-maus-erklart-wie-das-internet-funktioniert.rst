@@ -1,7 +1,7 @@
 Die Maus erklärt, wie das Internet funktioniert
 ###############################################
 :date: 2011-05-07 07:06
-:author: admin
+:author: marco.bakera
 :tags: Bildung, Video
 :slug: die-maus-erklart-wie-das-internet-funktioniert
 :status: published

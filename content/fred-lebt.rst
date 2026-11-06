@@ -1,7 +1,7 @@
 Fred lebt
 #########
 :date: 2005-08-24 08:40
-:author: admin
+:author: marco.bakera
 :tags: Comic, Kunst
 :slug: fred-lebt
 :status: published

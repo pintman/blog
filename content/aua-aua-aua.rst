@@ -1,7 +1,7 @@
 Aua, Aua, Aua
 #############
 :date: 2005-09-04 17:33
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: aua-aua-aua
 :status: published

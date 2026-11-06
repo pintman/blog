@@ -1,7 +1,7 @@
 Kreative Stilblüten
 ###################
 :date: 2010-07-19 07:08
-:author: admin
+:author: marco.bakera
 :tags: Bildung, Spaß
 :slug: kreative-stilbluten
 :status: published

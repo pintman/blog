@@ -1,7 +1,7 @@
 Wissenschaftler machen Musik
 ############################
 :date: 2008-05-02 09:47
-:author: admin
+:author: marco.bakera
 :tags: Spaß, Video
 :slug: wissenschaftler-machen-musik
 :status: published

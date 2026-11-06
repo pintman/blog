@@ -1,7 +1,7 @@
 Ein Umzug steht bevor
 #####################
 :date: 2005-01-18 18:50
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: ein-umzug-steht-bevor
 :status: published

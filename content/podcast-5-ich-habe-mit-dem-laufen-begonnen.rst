@@ -1,7 +1,7 @@
 [podcast #5] Ich habe mit dem Laufen begonnen
 #############################################
 :date: 2005-05-06 07:49
-:author: admin
+:author: marco.bakera
 :tags: Audio
 :slug: podcast-5-ich-habe-mit-dem-laufen-begonnen
 :status: published

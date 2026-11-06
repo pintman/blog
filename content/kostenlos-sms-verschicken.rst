@@ -1,7 +1,7 @@
 Kostenlos SMS verschicken
 #########################
 :date: 2008-07-13 11:12
-:author: admin
+:author: marco.bakera
 :tags: 
 :slug: kostenlos-sms-verschicken
 :status: published

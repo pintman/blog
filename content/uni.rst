@@ -1,7 +1,7 @@
 Uni
 ###
 :date: 2005-10-01 05:50
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: uni
 :status: published

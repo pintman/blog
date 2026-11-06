@@ -1,7 +1,7 @@
 Am MIT wird gemalt
 ##################
 :date: 2005-10-20 06:54
-:author: admin
+:author: marco.bakera
 :tags: Film, Informatik, Kunst
 :slug: am-mit-wird-gemalt
 :status: published

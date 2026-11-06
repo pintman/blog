@@ -1,7 +1,7 @@
 Auf ins (hoffentlich) letzte Gefecht
 ####################################
 :date: 2005-03-01 07:45
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: auf-ins-hoffentlich-letzte-gefecht
 :status: published

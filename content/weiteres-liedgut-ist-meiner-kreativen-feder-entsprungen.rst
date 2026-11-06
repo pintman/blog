@@ -1,7 +1,7 @@
 Weiteres Liedgut ist meiner kreativen Feder entsprungen
 #######################################################
 :date: 2005-04-24 15:22
-:author: admin
+:author: marco.bakera
 :tags: Audio
 :slug: weiteres-liedgut-ist-meiner-kreativen-feder-entsprungen
 :status: published

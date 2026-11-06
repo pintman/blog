@@ -1,7 +1,7 @@
 [podcast #7] Die Stümpfe
 ########################
 :date: 2005-05-22 15:26
-:author: admin
+:author: marco.bakera
 :tags: Audio
 :slug: podcast-7-die-stumpfe
 :status: published

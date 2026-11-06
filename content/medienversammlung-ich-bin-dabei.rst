@@ -1,7 +1,7 @@
 Medienversammlung - ich bin dabei »
 ###################################
 :date: 2004-08-27 11:42
-:author: admin
+:author: marco.bakera
 :tags: Film
 :slug: medienversammlung-ich-bin-dabei
 :status: published

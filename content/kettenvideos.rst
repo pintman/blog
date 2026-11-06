@@ -1,7 +1,7 @@
 Kettenvideos »
 ##############
 :date: 2005-01-17 22:24
-:author: admin
+:author: marco.bakera
 :tags: Film, Kunst
 :slug: kettenvideos
 :status: published

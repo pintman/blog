@@ -1,7 +1,7 @@
 ICFP programming contest
 ########################
 :date: 2007-06-27 05:59
-:author: admin
+:author: marco.bakera
 :tags: Informatik, Programmierung
 :slug: icfp-programming-contest
 :status: published

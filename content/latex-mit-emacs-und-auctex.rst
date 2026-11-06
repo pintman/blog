@@ -1,7 +1,7 @@
 LaTeX mit Emacs und AUCTex
 ##########################
 :date: 2007-04-25 05:43
-:author: admin
+:author: marco.bakera
 :tags: Informatik, LaTex
 :slug: latex-mit-emacs-und-auctex
 :status: published

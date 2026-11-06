@@ -1,7 +1,7 @@
 Ein "harter" Arbeitstag nähert sich dem Ende
 ############################################
 :date: 2004-08-26 21:39
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: ein-harter-arbeitstag-nahert-sich-dem-ende
 :status: published

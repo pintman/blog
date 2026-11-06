@@ -1,7 +1,7 @@
 Ipe für die Erstellung von PDF-Dokumenten
 #########################################
 :date: 2007-06-30 18:10
-:author: admin
+:author: marco.bakera
 :tags: Informatik, LaTex, pdf
 :slug: ipe-fur-die-erstellung-von-pdf-dokumenten
 :status: published

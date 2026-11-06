@@ -1,7 +1,7 @@
 Zwei neue Sendungen nehmen ihren Betrieb auf
 ############################################
 :date: 2005-04-04 08:16
-:author: admin
+:author: marco.bakera
 :tags: Audio
 :slug: zwei-neue-sendungen-nehmen-ihren-betrieb-auf
 :status: published

@@ -1,7 +1,7 @@
 [podcast #4] Eine Improvisation ist erschienen
 ##############################################
 :date: 2005-04-28 05:25
-:author: admin
+:author: marco.bakera
 :tags: Audio
 :slug: podcast-4-eine-improvisation-ist-erschienen
 :status: published

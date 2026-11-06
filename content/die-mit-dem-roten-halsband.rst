@@ -1,7 +1,7 @@
 Die mit dem roten Halsband
 ##########################
 :date: 2008-02-29 15:21
-:author: admin
+:author: marco.bakera
 :tags: Spaß, Video
 :slug: die-mit-dem-roten-halsband
 :status: published

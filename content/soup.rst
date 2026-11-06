@@ -1,7 +1,7 @@
 Soup
 ####
 :date: 2008-02-27 16:20
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: soup
 :status: published

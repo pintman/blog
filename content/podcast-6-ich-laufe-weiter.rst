@@ -1,7 +1,7 @@
 [podcast #6] Ich laufe weiter
 #############################
 :date: 2005-05-18 06:16
-:author: admin
+:author: marco.bakera
 :tags: Audio
 :slug: podcast-6-ich-laufe-weiter
 :status: published

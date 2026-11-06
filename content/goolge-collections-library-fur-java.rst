@@ -1,7 +1,7 @@
 Goolge Collections Library für Java
 ###################################
 :date: 2008-03-26 07:07
-:author: admin
+:author: marco.bakera
 :tags: Programmierung
 :slug: goolge-collections-library-fur-java
 :status: published

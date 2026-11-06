@@ -1,7 +1,7 @@
 Referate halten
 ###############
 :date: 2011-01-26 19:07
-:author: admin
+:author: marco.bakera
 :tags: Bildung, Tipp
 :slug: referate-halten
 :status: published

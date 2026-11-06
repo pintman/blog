@@ -1,7 +1,7 @@
 Fira RoboWorld Cup
 ##################
 :date: 2006-06-26 18:13
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: fira-roboworld-cup
 :status: published

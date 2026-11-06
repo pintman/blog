@@ -1,7 +1,7 @@
 Willkommen im neuen Jahr
 ########################
 :date: 2005-01-02 22:56
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: willkommen-im-neuen-jahr
 :status: published

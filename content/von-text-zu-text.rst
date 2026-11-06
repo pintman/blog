@@ -1,7 +1,7 @@
 Von Text zu Text
 ################
 :date: 2006-02-21 22:43
-:author: admin
+:author: marco.bakera
 :tags: Informatik, LaTex
 :slug: von-text-zu-text
 :status: published

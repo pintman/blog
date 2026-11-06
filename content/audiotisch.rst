@@ -1,7 +1,7 @@
 Audiotisch
 ##########
 :date: 2005-04-29 17:37
-:author: admin
+:author: marco.bakera
 :tags: Audio
 :slug: audiotisch
 :status: published

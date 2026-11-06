@@ -1,7 +1,7 @@
 Interaktive Mathematik
 ######################
 :date: 2011-05-29 09:00
-:author: admin
+:author: marco.bakera
 :tags: Bildung, Mathe, Tipp
 :slug: interaktive-mathematik
 :status: published

@@ -1,7 +1,7 @@
 Reisen in die Nacht mit Fotos von Markus Nilling
 ################################################
 :date: 2005-07-20 07:24
-:author: admin
+:author: marco.bakera
 :tags: Kunst
 :slug: reisen-in-die-nacht-mit-fotos-von-markus-nilling
 :status: published

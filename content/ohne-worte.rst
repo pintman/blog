@@ -1,7 +1,7 @@
 Ohne Worte
 ##########
 :date: 2006-06-25 05:48
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: ohne-worte
 :status: published

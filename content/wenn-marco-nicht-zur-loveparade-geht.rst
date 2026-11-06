@@ -1,7 +1,7 @@
 Wenn Marco nicht zur Loveparade geht...
 #######################################
 :date: 2008-07-20 14:23
-:author: admin
+:author: marco.bakera
 :tags: Spaß
 :slug: wenn-marco-nicht-zur-loveparade-geht
 :status: published

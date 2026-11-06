@@ -1,7 +1,7 @@
 Warum "Minus mal Minus" als Ergebnis Plus ergibt
 ################################################
 :date: 2012-07-22 06:37
-:author: admin
+:author: marco.bakera
 :tags: Bildung, Mathe
 :slug: warum-minus-mal-minus-als-ergebnis-plus-ergibt
 :status: published

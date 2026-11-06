@@ -1,7 +1,7 @@
 Analoge Freuden
 ###############
 :date: 2005-01-05 17:22
-:author: admin
+:author: marco.bakera
 :tags: Video
 :slug: analoge-freuden
 :status: published

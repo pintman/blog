@@ -1,7 +1,7 @@
 Wie werden die Daten in Googles Rechenzentren geschützt?
 ########################################################
 :date: 2011-04-25 08:33
-:author: admin
+:author: marco.bakera
 :tags: Video
 :slug: wie-werden-die-daten-in-googles-rechenzentren-geschutzt
 :status: published

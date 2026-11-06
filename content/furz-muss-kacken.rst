@@ -1,7 +1,7 @@
 Furz muss kacken
 ################
 :date: 2005-01-01 19:20
-:author: admin
+:author: marco.bakera
 :tags: Comic, Kunst
 :slug: furz-muss-kacken
 :status: published

@@ -1,7 +1,7 @@
 Ein Festival der Bildung
 ########################
 :date: 2011-06-17 15:17
-:author: admin
+:author: marco.bakera
 :tags: Bildung
 :slug: ein-festival-der-bildung
 :status: published

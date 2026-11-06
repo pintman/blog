@@ -1,7 +1,7 @@
 4-Gewinnt Strategien ganz einfach programmieren
 ###############################################
 :date: 2008-11-15 08:18
-:author: admin
+:author: marco.bakera
 :tags: Programmierung, Spaß, Tipp, Tools
 :slug: 4-gewinnt-strategien-ganz-einfach-programmieren
 :status: published

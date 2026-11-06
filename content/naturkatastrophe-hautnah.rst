@@ -1,7 +1,7 @@
 Naturkatastrophe hautnah
 ########################
 :date: 2005-10-07 23:50
-:author: admin
+:author: marco.bakera
 :tags: Film
 :slug: naturkatastrophe-hautnah
 :status: published

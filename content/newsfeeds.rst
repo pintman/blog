@@ -1,7 +1,7 @@
 Newsfeeds
 #########
 :date: 2007-02-22 06:24
-:author: admin
+:author: marco.bakera
 :tags: Informatik
 :slug: newsfeeds
 :status: published

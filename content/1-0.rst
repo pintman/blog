@@ -1,7 +1,7 @@
 1.0
 ###
 :date: 2005-10-11 15:32
-:author: admin
+:author: marco.bakera
 :tags: Bildung
 :slug: 1-0
 :status: published

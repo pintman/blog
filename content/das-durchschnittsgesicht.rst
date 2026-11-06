@@ -1,7 +1,7 @@
 Das Durchschnittsgesicht
 ########################
 :date: 2005-08-01 21:24
-:author: admin
+:author: marco.bakera
 :tags: Kunst, Spaß
 :slug: das-durchschnittsgesicht
 :status: published

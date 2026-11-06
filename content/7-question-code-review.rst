@@ -1,7 +1,7 @@
 7 Question Code Review
 ######################
 :date: 2008-03-01 16:12
-:author: admin
+:author: marco.bakera
 :tags: Informatik, Programmierung, Wissenschaft
 :slug: 7-question-code-review
 :status: published

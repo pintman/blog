@@ -1,7 +1,7 @@
 Vortrag über Klassische Betriebssysteme
 #######################################
 :date: 2010-07-07 14:07
-:author: admin
+:author: marco.bakera
 :tags: Informatik, Tipp, Wissenschaft, das labor
 :slug: vortrag-uber-klassische-betriebssysteme
 :status: published
