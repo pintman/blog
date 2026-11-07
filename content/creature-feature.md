@@ -2,7 +2,7 @@
 title: Creature Feature
 date: 2026-11-06 08:35
 author: marco.bakera
-tags: film, kino, godzilla, monsterfilm
+tags: film, kino
 status: published
 slug: creature-feature
 mastodon: https://chaos.social/@pintman/117568795550079875

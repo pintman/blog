@@ -2,7 +2,7 @@
 title: Street Art in Bochum
 date: 2026-11-04 07:21
 author: marco.bakera
-tags: bochum, street art
+tags: bochum, kunst
 status: published
 slug: street-art-in-bochum
 mastodon: https://chaos.social/@pintman/117556843822851318

@@ -2,7 +2,7 @@
 title: RSS-Feed für Hashtags
 date: 2026-10-25 09:51
 author: marco.bakera
-tags: RSS, Mastodon, Fediverse, Tipp, ccc, 40c3
+tags: RSS, Fediverse, Tipp, ccc, 40c3
 status: published
 slug: rss-feed-fuer-hashtags
 mastodon: https://chaos.social/@pintman/117500719364691390

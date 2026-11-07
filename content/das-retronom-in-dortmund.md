@@ -2,7 +2,7 @@
 title: Das Retronom in Dortmund
 date: 2026-10-24 13:53
 author: marco.bakera
-tags: Spiele, Spaß, Tipp, Dortmund, Retro
+tags: Spiele, Spaß, Tipp, Dortmund
 status: published
 slug: das-retronom-in-dortmund
 mastodon: https://chaos.social/@pintman/117495812105230212
