@@ -1,0 +1,11 @@
+{% if article and article.backlinks %}
+    <hr/>
+    <section class="backlinks" id="backlinks">
+        <h4>Verlinkt von</h4>
+        <ul>
+        {% for a in article.backlinks %}
+            <li><a href="{{ SITEURL }}/{{ a.url }}">{{ a.title }}</a> ({{ a.locale_date }})</li>
+        {% endfor %}
+        </ul>
+    </section>
+{% endif %}

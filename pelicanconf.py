@@ -89,8 +89,8 @@ CUSTOM_CSS = 'static/css/custom.css'
 # 
 # https://github.com/pelican-plugins/tipue-search 
 # https://github.com/pelican-plugins/sitemap
-PLUGIN_PATHS = ["pelican-plugins"]
-PLUGINS = ['tipue_search', "sitemap"]
+PLUGIN_PATHS = ["pelican-plugins", "plugins.local"]
+PLUGINS = ["tipue_search", "sitemap", "backlinks"]
 #DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 DIRECT_TEMPLATES = ('index', 'archives', 'search', 'tags')
 
