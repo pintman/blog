@@ -3,7 +3,7 @@ title: Paper Computer
 date: 2026-11-07 15:16
 author: marco.bakera
 tags: Hardware, Video, Tools
-status: draft
+status: published
 slug: paper-computer
 ---
 
