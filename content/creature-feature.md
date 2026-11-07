@@ -5,6 +5,7 @@ author: marco.bakera
 tags: film, kino, godzilla, monsterfilm
 status: published
 slug: creature-feature
+mastodon: https://chaos.social/@pintman/117568795550079875
 ---
 
 Monsterfilme kommen anscheinend wieder. Erst kürzlich hatte ich noch einmal in [Godzilla Minus One]({filename}Godzilla-Minus-One-2023.md) reingeschaut (erste Sichtung 2023), nun kommt der Nachfolger – mathematisch korrekt – [*Godzilla Minus Zero*](https://en.wikipedia.org/wiki/Godzilla_Minus_Zero) ins Kino. Eine gute Gelegenheit für Jörg Buttgereit, in einem längeren [Artikel bei epd Film](https://www.epd-film.de/themen/creature-feature-iiiek-mach-das-weg) über das hierzulande weniger gut gelittene Genre der Monsterfilme zu schreiben.

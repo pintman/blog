@@ -5,6 +5,7 @@ author: marco.bakera
 tags: llm, legal, hacking
 status: published
 slug: gesetze-hacken
+mastodon: https://chaos.social/@pintman/117562676742017632
 ---
 
 Was passiert, wenn man ein LLM auf Schwachstellen in Gesetzen und Regeln ansetzt? Das hier:

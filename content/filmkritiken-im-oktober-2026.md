@@ -5,6 +5,7 @@ author: marco.bakera
 tags: review, film
 status: published
 slug: filmkritiken-im-oktober-2026
+mastodon: https://chaos.social/@pintman/117545619588996619
 ---
 
 Im Oktober hatte ich mal wieder etwas Zeit, mir ein paar Filme aus meiner Watchlist anzuschauen.

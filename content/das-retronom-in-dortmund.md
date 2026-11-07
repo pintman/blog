@@ -5,6 +5,7 @@ author: marco.bakera
 tags: Spiele, Spaß, Tipp, Dortmund, Retro
 status: published
 slug: das-retronom-in-dortmund
+mastodon: https://chaos.social/@pintman/117495812105230212
 ---
 
 ![Toilettentür im Retronom mit dem Schild „Toiletten Mario & Luigi“ und einem grünen Strichmännchen]({static}images/2026/retronom.png)

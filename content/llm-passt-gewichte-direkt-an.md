@@ -5,6 +5,7 @@ author: marco.bakera
 tags: llm, Informatik, Wissenschaft
 status: published
 slug: llm-passt-gewichte-direkt-an
+mastodon: https://chaos.social/@pintman/117570497853720138
 ---
 
 Der neue heiße Schice: Weight-Space-Programming. Hierbei schreiben LLMs direkt ins Hirn eines anderen LLM.

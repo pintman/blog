@@ -5,6 +5,7 @@ author: marco.bakera
 tags: bildung, programmierung
 status: published
 slug: byod-in-klausuren
+mastodon: https://chaos.social/@pintman/117495684065119835
 ---
 
 Schon eine ganze Weile schreibe ich Klausuren nach dem [BYOD](https://de.wikipedia.org/wiki/Bring_your_own_device)-Prinzip gerade im Bereich Programmieren auf den Geräten der Schüler:innen. Das hat bislang auch gut funktioniert. Mit dem Einzug von KI sind natürlich auch diese Systeme auf die Schüler-Rechner gewandert und so musste ich von einer vertrauensvollen Arbeitsweise zu einer stärkeren Überwachung wechseln. Eigentlich finde ich das schade und möchte das auch gar nicht machen.

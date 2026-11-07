@@ -5,6 +5,7 @@ author: marco.bakera
 tags: llm, Wissenschaft
 status: published
 slug: halbwertszeit-von-aussagen-zu-llms
+mastodon: https://chaos.social/@pintman/117569951589740323
 ---
 
 Leider halten Aussagen über LLMs nicht so lange, wie man es sich wünschen könnte:

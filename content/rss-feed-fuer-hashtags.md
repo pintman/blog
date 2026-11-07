@@ -5,6 +5,7 @@ author: marco.bakera
 tags: RSS, Mastodon, Fediverse, Tipp, ccc, 40c3
 status: published
 slug: rss-feed-fuer-hashtags
+mastodon: https://chaos.social/@pintman/117500719364691390
 ---
 
 Wenn man an eine beliebige Adresse für ein Hashtag bei Mastodon ein .rss anhängt, bekommt man einen RSS-Feed für genau dieses Hashtag.

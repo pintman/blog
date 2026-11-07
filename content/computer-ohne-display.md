@@ -5,6 +5,7 @@ author: marco.bakera
 tags: Informatik, Programmierung, Hardware, Video, Bildung
 status: published
 slug: computer-ohne-display
+mastodon: https://chaos.social/@pintman/117523178131877512
 ---
 
 ![Ein aus Papier gebauter Button mit Markierungscode auf einem Holztisch, der auf einen Druck mit dem Finger reagiert](https://folk.computer/_media/button_computer.gif)<br>
