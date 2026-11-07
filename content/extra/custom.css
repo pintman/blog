@@ -73,13 +73,15 @@ p {
 	font-family: FontAwesome, Georgia, serif;
 }
 
-/* Mastodon-Kommentar-Hinweis: Links wie in .entry-content (theme style.css) */
-.comments a {
+/* Mastodon-Hinweis und Backlinks: Links wie in .entry-content (theme style.css) */
+.comments a,
+.backlinks a {
 	text-decoration: none;
 	border-bottom: 1px dotted;
 }
 
-.comments a:hover {
+.comments a:hover,
+.backlinks a:hover {
 	text-decoration: none;
 	border-bottom: 1px solid;
 }
