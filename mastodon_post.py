@@ -79,8 +79,28 @@ def published_posts():
         if meta.get("status", "published") != "published" or "title" not in meta:
             continue
         meta.setdefault("slug", slugify(meta["title"]))
+        meta["_path"] = path
         posts.append(meta)
     return posts
+
+
+def add_mastodon_meta(path, url):
+    """Toot-URL als Metadatum 'mastodon' in den Post schreiben (für den Kommentar-Link)."""
+    lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
+    if path.suffix == ".md":
+        if not lines or lines[0].strip() != "---":
+            return False
+        end = next((i for i, l in enumerate(lines[1:], 1) if l.strip() == "---"), None)
+        if end is None or any(re.match(r"^mastodon\s*:", l, re.I) for l in lines[1:end]):
+            return False
+        lines.insert(end, f"mastodon: {url}\n")
+    else:
+        fields = [i for i, l in enumerate(lines) if re.match(r"^:\w+:", l)]
+        if not fields or any(re.match(r"^:mastodon:", lines[i], re.I) for i in fields):
+            return False
+        lines.insert(fields[-1] + 1, f":mastodon: {url}\n")
+    path.write_text("".join(lines), encoding="utf-8")
+    return True
 
 
 def post_url(post):
@@ -164,7 +184,7 @@ def main():
     if not os.environ.get("MASTODON_TOKEN"):
         sys.exit("MASTODON_TOKEN fehlt (.env).")
 
-    tooted = 0
+    tooted, changed = 0, []
     for post in new:
         if not is_online(post_url(post)):
             print(f"Übersprungen, noch nicht online: {post_url(post)}")
@@ -173,15 +193,20 @@ def main():
         print(f"Getootet: {post['slug']} -> {url}")
         with STATEFILE.open("a") as f:
             f.write(post["slug"] + "\n")
+        if add_mastodon_meta(post["_path"], url):
+            changed.append(str(post["_path"].relative_to(BASEDIR)))
         tooted += 1
 
     if not tooted:
         return
-    subprocess.run(["git", "add", STATEFILE.name], cwd=BASEDIR, check=True)
+    files = [STATEFILE.name] + changed
+    subprocess.run(["git", "add", *files], cwd=BASEDIR, check=True)
     subprocess.run(
-        ["git", "commit", "-m", "docs: mastodon_posted.txt aktualisieren", "--", STATEFILE.name],
+        ["git", "commit", "-m", "docs: mastodon-links und mastodon_posted.txt aktualisieren", "--", *files],
         cwd=BASEDIR, check=True,
     )
+    if changed:
+        print("Mastodon-Link in Post eingetragen – 'git push', damit er online geht.")
 
 
 if __name__ == "__main__":
