@@ -1,0 +1,1 @@
+- https://socialspec.org aufnehmen
