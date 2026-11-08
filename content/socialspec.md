@@ -15,4 +15,4 @@ Die Spec ist erst im Oktober entstanden und noch recht neu. Feedreader sollen da
 Eigentlich könnte ich das einfach integrieren, weil sich das System gut mit statischen Seiten wie diesem Blog verträgt. 
 
 
-**Update:** Inzwischen ist es umgesetzt. Dieses Blog liefert [following.opml](https://blog.bakera.de/.well-known/following.opml), [about.md](https://blog.bakera.de/.well-known/about.md) und [contact.vcf](https://blog.bakera.de/.well-known/contact.vcf) aus.
+**Update:** Inzwischen ist es umgesetzt. Dieses Blog liefert [following.opml](https://blog.bakera.de/.well-known/following.opml), [about.md](https://blog.bakera.de/.well-known/about.md) und [contact.vcf](https://blog.bakera.de/.well-known/contact.vcf) aus. [sodir](https://sodir.org/profile.html?d=blog.bakera.de) ist ein Verzeichnis, das diese Profile auswertet. Mein Feed wird leider derzeit noch nicht korrekt ausgewertet.
