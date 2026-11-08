@@ -2,7 +2,7 @@
 title: socialspec
 date: 2026-11-08 16:42
 author: marco.bakera
-tags: blog, socialweb, opml
+tags: bloggen, rss
 status: published
 slug: socialspec
 mastodon: https://chaos.social/@pintman/117581625544937644
