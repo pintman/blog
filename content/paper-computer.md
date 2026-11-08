@@ -2,7 +2,7 @@
 title: Paper Computer
 date: 2026-11-07 15:16
 author: marco.bakera
-tags: Hardware, Video, Tools
+tags: Hardware, Video, Tools, TangibleComputing
 status: published
 slug: paper-computer
 mastodon: https://chaos.social/@pintman/117575625242054008

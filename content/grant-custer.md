@@ -2,7 +2,7 @@
 title: Grant Custer
 date: 2026-11-07 09:36
 author: marco.bakera
-tags: hacking, Hardware, Video, Kunst
+tags: hacking, Hardware, Video, Kunst, TangibleComputing
 status: published
 slug: grant-custer
 mastodon: https://chaos.social/@pintman/117574292433704793

@@ -2,7 +2,7 @@
 title: Computer ohne Display
 date: 2026-10-29 08:54
 author: marco.bakera
-tags: Informatik, Programmierung, Hardware, Video, Bildung
+tags: Informatik, Programmierung, Hardware, Video, Bildung, TangibleComputing
 status: published
 slug: computer-ohne-display
 mastodon: https://chaos.social/@pintman/117523178131877512
