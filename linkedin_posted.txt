@@ -726,3 +726,4 @@ halbwertszeit-von-aussagen-zu-llms
 llm-passt-gewichte-direkt-an
 grant-custer
 paper-computer
+40c3-offener-ticketverkauf
