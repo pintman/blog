@@ -5,6 +5,7 @@ author: marco.bakera
 tags: 40c3, ccc, congress, tickets
 status: published
 slug: 40c3-offener-ticketverkauf
+mastodon: https://chaos.social/@pintman/117580359136073376
 ---
 
 ![Schreibtisch mit mehreren Bildschirmen, Tablet und Laptop, alle zeigen den CCCV-Ticketshop: „Der Ticketverkauf hat noch nicht begonnen“]({static}/images/2026/40c3-ticketverkauf.jpeg)
