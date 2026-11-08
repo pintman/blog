@@ -8,11 +8,18 @@ SITEURL = ''
 
 PATH = 'content'
 STATIC_PATHS = ['images', 'media', 'extra']
-# .md-Dateien in media/ nicht als Artikel parsen, nur statisch kopieren
-ARTICLE_EXCLUDES = ['media']
+# .md-Dateien in media/ und extra/ nicht als Artikel parsen, nur statisch kopieren
+ARTICLE_EXCLUDES = ['media', 'extra']
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
     'extra/favicon.ico': {'path': 'favicon.ico'},
+    # GitHub Pages: Jekyll aus, damit .well-known/ ausgeliefert wird
+    'extra/nojekyll': {'path': '.nojekyll'},
+
+    # socialspec.org
+    'extra/following.opml': {'path': '.well-known/following.opml'},
+    'extra/about.md': {'path': '.well-known/about.md'},
+    'extra/contact.vcf': {'path': '.well-known/contact.vcf'},
 
     # custom CSS/JS for template bootstrap3
     'extra/custom.css': {'path': 'static/css/custom.css'},
