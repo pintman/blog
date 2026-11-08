@@ -2,7 +2,7 @@ Das Schwein und die Kiste
 #########################
 :date: 2006-07-26 06:54
 :author: marco.bakera
-:tags: Informatik
+:tags: Informatik, Buch
 :slug: das-schwein-und-die-kiste
 :status: published
 

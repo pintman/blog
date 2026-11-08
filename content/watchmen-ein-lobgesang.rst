@@ -2,7 +2,7 @@ Watchmen - ein Lobgesang
 ########################
 :date: 2014-10-08 11:37
 :author: marco.bakera
-:tags: Comic, Film, Tipp
+:tags: Comic, Film, Tipp, Buch
 :slug: watchmen-ein-lobgesang
 :status: published
 

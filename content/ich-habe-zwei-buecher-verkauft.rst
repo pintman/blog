@@ -2,7 +2,7 @@ Ich habe zwei Bücher verkauft
 #############################
 :date: 2013-12-19 17:05
 :author: marco.bakera
-:tags: Bildung, Spaß
+:tags: Bildung, Spaß, Buch
 :slug: ich-habe-zwei-buecher-verkauft
 :status: published
 

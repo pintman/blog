@@ -2,7 +2,7 @@ Buchtipp MS Access
 ##################
 :date: 2012-11-16 14:00
 :author: marco.bakera
-:tags: Bildung, Tipp
+:tags: Bildung, Tipp, Buch
 :slug: buchtipp-ms-access
 :status: published
 

@@ -2,7 +2,7 @@ Günstige gebrauchte Bücher
 ##########################
 :date: 2008-04-10 20:16
 :author: marco.bakera
-:tags: Wissenschaft
+:tags: Wissenschaft, Buch
 :slug: gunstige-gebrauchte-bucher
 :status: published
 
