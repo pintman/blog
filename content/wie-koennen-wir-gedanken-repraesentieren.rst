@@ -2,7 +2,7 @@ Wie können wir Gedanken repräsentieren?
 #######################################
 :date: 2015-01-05 18:13
 :author: marco.bakera
-:tags: Video
+:tags: Video, TangibleComputing
 :slug: wie-koennen-wir-gedanken-repraesentieren
 :status: published
 
