@@ -5,6 +5,7 @@ author: marco.bakera
 tags: Python, Programmierung, Bildung, Tools, llm
 status: published
 slug: python-und-uml
+mastodon: https://chaos.social/@pintman/117586894804836526
 ---
 
 Ich habe [wieder]({filename}screen-control.md) ein kleines Tool gebaut – genauer: bauen lassen. Heute macht man das ja mit KI. Ich habe hierfür [Claude Code](https://claude.com/product/claude-code) als Coding-Harness und [OpenSpec](https://github.com/Fission-AI/OpenSpec) als Vorgehensmodell genutzt. Details zum Quelltext liegen [hier](https://github.com/pintman/pyuml).
