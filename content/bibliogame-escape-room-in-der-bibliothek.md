@@ -5,6 +5,7 @@ author: marco.bakera
 tags: Bibliothek, Bildung, Spiele
 status: published
 slug: bibliogame-escape-room-in-der-bibliothek
+mastodon: https://chaos.social/@pintman/117598531499220144
 ---
 
 Am 10.11.2026 war ich in einem Escape Room in der Bibliothek der [Evangelischen Hochschule](https://www.evh-bochum.de/). Genau genommen war es kein echter Escape Room, sondern ein *Bibliogame*.
