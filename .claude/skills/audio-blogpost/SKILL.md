@@ -1,6 +1,7 @@
 ---
 name: audio-blogpost
-description: Transkribiert eine Audioaufnahme (Sprachnotiz, m4a/mp3/wav) lokal mit mlx-whisper und bereitet daraus einen Blogpost-Entwurf in content/ vor. Nutze diesen Skill, wenn eine Aufnahme/Sprachnotiz transkribiert und zu einem Blogartikel gemacht werden soll – auch bei "mach aus der Aufnahme einen Post", "transkribier die Audiodatei in Downloads".
+description: Transkribiert eine Audioaufnahme (Sprachnotiz, m4a/mp3/wav) lokal mit mlx-whisper und bereitet daraus einen Blogpost-Entwurf in content/ vor. Nur per /audio-blogpost aufrufen.
+disable-model-invocation: true
 ---
 
 # Audioaufnahme → Blogpost-Entwurf
