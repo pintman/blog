@@ -5,6 +5,7 @@ author: marco.bakera
 tags: Informatik, Bildung, Mathe, llm
 status: published
 slug: zahlensysteme
+mastodon: https://chaos.social/@pintman/117610351726103946
 ---
 
 ![Zahlenwandler: Umrechnung zwischen verschiedenen Zahlensystemen]({static}/images/2026/zahlenwandler.png)
