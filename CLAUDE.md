@@ -1,28 +1,28 @@
-## Repository purpose
+## Zweck des Repositorys
 
-This is Marco Bakera's personal blog (blog.bakera.de), built with [Pelican](https://getpelican.com/) (static site generator). Content is mostly in German. 
+Dies ist Marco Bakeras persönlicher Blog (blog.bakera.de), gebaut mit [Pelican](https://getpelican.com/) (Static Site Generator). Inhalte sind überwiegend auf Deutsch.
 
-## Architecture
+## Architektur
 
-- `content/` — all source posts and pages, in Markdown (`.md`) and reST (`.rst`), flat directory (721+ files, no per-year subfolders). `content/pages/` holds static pages (about, impressum, 404, search, wiki). `content/images/`, `content/media/` hold assets referenced from posts. `content/extra/` holds files mapped to site root via `EXTRA_PATH_METADATA` in `pelicanconf.py` (CNAME, favicon, custom.css).
-- `newpost.sh` — creates a new Markdown post in `content/` from a title (`./newpost.sh [-p] [-n] "Titel" ["tag1, tag2"]`). Frontmatter fields: `title`, `date`, `author`, `tags`, `status`, `slug`.
-- `docs/` — **generated output**, committed to the repo and served via GitHub Pages from the `main` branch (not `gh-pages`). Never hand-edit files here; they're overwritten by `make publish`. On every push to `main`, the GitHub workflow `.github/workflows/deploy.yml` runs `make publish` and commits/pushes `docs/` ("Generated new blog release") — so don't build `docs/` locally before pushing, and `git pull` afterwards.
-- `pelicanconf.py` — base/dev config (relative URLs, no feeds, theme settings).
-- `publishconf.py` — production config, imports `pelicanconf.py` and overrides (`SITEURL`, `RELATIVE_URLS = False`, atom feed, `DELETE_OUTPUT_DIRECTORY = True`).
-- `publishconf_beaker.py` — alternate publish config for a Hyper/Beaker Browser mirror (imports `publishconf.py`, overrides `SITEURL` to a `hyper://` address). Output goes to `docs_beaker/` (gitignored).
-- Theme: `pelican-themes/pelican-bootstrap3` (Bootswatch "cerulean"), plugins `tipue_search`, `sitemap`, `tag_cloud`, `i18n_subsites` — all cloned into `pelican-plugins/` and `pelican-themes/` by `setup.sh` (both gitignored, not vendored in this repo). `theme.local/base.html` is a local override copied on top of the theme's `templates/` by `setup.sh`.
+- `content/` — alle Quell-Posts und -Seiten in Markdown (`.md`) und reST (`.rst`), flaches Verzeichnis (721+ Dateien, keine Unterordner pro Jahr). `content/pages/` enthält statische Seiten (about, impressum, 404, search, wiki). `content/images/`, `content/media/` enthalten Assets, die von Posts referenziert werden. `content/extra/` enthält Dateien, die per `EXTRA_PATH_METADATA` in `pelicanconf.py` ins Site-Root gemappt werden (CNAME, favicon, custom.css).
+- `newpost.sh` — legt einen neuen Markdown-Post in `content/` aus einem Titel an (`./newpost.sh [-p] [-n] "Titel" ["tag1, tag2"]`). Frontmatter-Felder: `title`, `date`, `author`, `tags`, `status`, `slug`.
+- `docs/` — **generierte Ausgabe**, ins Repo committet und per GitHub Pages vom Branch `main` ausgeliefert (nicht `gh-pages`). Dateien hier nie von Hand bearbeiten; sie werden von `make publish` überschrieben. Bei jedem Push auf `main` führt der GitHub-Workflow `.github/workflows/deploy.yml` `make publish` aus und committet/pusht `docs/` ("Generated new blog release") — daher `docs/` vor dem Push nicht lokal bauen und danach `git pull`.
+- `pelicanconf.py` — Basis-/Dev-Konfiguration (relative URLs, keine Feeds, Theme-Einstellungen).
+- `publishconf.py` — Produktiv-Konfiguration, importiert `pelicanconf.py` und überschreibt (`SITEURL`, `RELATIVE_URLS = False`, Atom-Feed, `DELETE_OUTPUT_DIRECTORY = True`).
+- `publishconf_beaker.py` — alternative Publish-Konfiguration für einen Hyper/Beaker-Browser-Mirror (importiert `publishconf.py`, setzt `SITEURL` auf eine `hyper://`-Adresse). Ausgabe nach `docs_beaker/` (gitignored).
+- Theme: `pelican-themes/pelican-bootstrap3` (Bootswatch "cerulean"), Plugins `tipue_search`, `sitemap`, `tag_cloud`, `i18n_subsites` — alle von `setup.sh` nach `pelican-plugins/` und `pelican-themes/` geklont (beide gitignored, nicht im Repo enthalten). `theme.local/base.html` ist ein lokaler Override, den `setup.sh` über das `templates/`-Verzeichnis des Themes kopiert.
 
 ## Setup
 
-via `setup.sh` 
+über `setup.sh`
 
-## Working with content
+## Arbeiten mit Inhalten
 
-- New post: `./newpost.sh "Titel" "tags"` (default `status: draft`, `-p` for `published`, `-n` to skip opening in VS Code).
+- Neuer Post: `./newpost.sh "Titel" "tags"` (Standard `status: draft`, `-p` für `published`, `-n` um das Öffnen in VS Code zu überspringen).
 - Tag-Übersicht: `./tags.py` listet alle Tags veröffentlichter Posts, `-c` mit Artikelanzahl (nach Häufigkeit sortiert) – nützlich für Tag-Vorschläge.
-- when asked for review: look for undstandabillity, typos, grammar, formatting. When no tags are present, make suggestion based on tags present in other posts.
-- Mastodon: after committing a published post, run `./mastodon_post.py` (`--dry-run` to preview, `--text "…"` to replace the title in the toot; only with exactly one new post). It toots title + link + tags to chaos.social for every published post not yet listed in `mastodon_posted.txt`, appends the slug, writes the toot URL as `mastodon:` metadata (`:mastodon:` in reST) into the post, and commits both. Then `git push`, so the article shows the "comment on Mastodon" link (`theme.local/includes/comments.html`). Token in `.env` (`MASTODON_TOKEN=…`, gitignored, scope `write:statuses`). Aborts if more than 3 posts are new.
-  - When tooting a new post: read it, write a short German summary as toot text, pick exactly 3 fitting hashtags (prefer the post's tags; `#blogpost` is appended automatically), check with `./mastodon_post.py --dry-run --text "…" --tags "a, b, c"`, then run without `--dry-run`. Max. 500 characters total incl. link (counts as 23) and hashtags — shorten the summary to fit; the script aborts if exceeded. `--tags` overrides the post's tags (only with exactly one new post).
-- LinkedIn: `./linkedin_post.py` (`--dry-run` to preview) opens a prefilled LinkedIn share dialog via `open` for every published post not yet listed in `linkedin_posted.txt` (same text as the toot; `--text`/`--tags` like in `mastodon_post.py`, only with exactly one new post); no terminal confirmation — the slug counts as shared once the dialog is opened (click "Posten" yourself). Appends the slug and commits that file. No API/token (official API would require a LinkedIn Page). Reuses helpers from `mastodon_post.py`.
-  - Always pass the exact same `--text` and `--tags` as used for the toot.
-- Older posts use reST (`.rst`) with a title + `####` underline and `:field:` metadata; newer posts use Markdown with `---` frontmatter. Match the format of the file you're editing; use Markdown for new posts.
+- Bei Review-Anfragen: auf Verständlichkeit, Tippfehler, Grammatik und Formatierung achten. Fehlen Tags, Vorschläge auf Basis der Tags anderer Posts machen.
+- Mastodon: nach dem Committen eines veröffentlichten Posts `./mastodon_post.py` ausführen (`--dry-run` für Vorschau, `--text "…"` ersetzt den Titel im Toot; nur bei genau einem neuen Post). Es tootet Titel + Link + Tags auf chaos.social für jeden veröffentlichten Post, der noch nicht in `mastodon_posted.txt` steht, hängt den Slug an, schreibt die Toot-URL als `mastodon:`-Metadatum (`:mastodon:` in reST) in den Post und committet beides. Danach `git push`, damit der Artikel den Link „auf Mastodon kommentieren" zeigt (`theme.local/includes/comments.html`). Token in `.env` (`MASTODON_TOKEN=…`, gitignored, Scope `write:statuses`). Bricht ab, wenn mehr als 3 Posts neu sind.
+  - Beim Tooten eines neuen Posts: Post lesen, kurze deutsche Zusammenfassung als Toot-Text schreiben, genau 3 passende Hashtags wählen (bevorzugt die Tags des Posts; `#blogpost` wird automatisch angehängt), mit `./mastodon_post.py --dry-run --text "…" --tags "a, b, c"` prüfen, dann ohne `--dry-run` ausführen. Max. 500 Zeichen insgesamt inkl. Link (zählt als 23) und Hashtags — Zusammenfassung ggf. kürzen; das Skript bricht bei Überschreitung ab. `--tags` überschreibt die Tags des Posts (nur bei genau einem neuen Post).
+- LinkedIn: `./linkedin_post.py` (`--dry-run` für Vorschau) öffnet per `open` einen vorausgefüllten LinkedIn-Teilen-Dialog für jeden veröffentlichten Post, der noch nicht in `linkedin_posted.txt` steht (gleicher Text wie der Toot; `--text`/`--tags` wie bei `mastodon_post.py`, nur bei genau einem neuen Post); keine Bestätigung im Terminal — der Slug gilt als geteilt, sobald der Dialog geöffnet ist („Posten" selbst klicken). Hängt den Slug an und committet die Datei. Keine API/kein Token (offizielle API würde eine LinkedIn-Page erfordern). Nutzt Hilfsfunktionen aus `mastodon_post.py`.
+  - Immer exakt dieselben `--text` und `--tags` wie beim Toot übergeben.
+- Ältere Posts nutzen reST (`.rst`) mit Titel + `####`-Unterstreichung und `:field:`-Metadaten; neuere Posts nutzen Markdown mit `---`-Frontmatter. Format der bearbeiteten Datei beibehalten; für neue Posts Markdown verwenden.
