@@ -12,12 +12,16 @@ def main():
     p.add_argument("-c", "--count", action="store_true",
                    help="Anzahl Artikel je Tag ausgeben (sortiert nach Häufigkeit)")
     args = p.parse_args()
-    counter = Counter(
-        t.strip()
-        for post in published_posts()
-        for t in set(post.get("tags", "").split(","))
-        if t.strip()
-    )
+    # Groß-/Kleinschreibung zusammenfassen (wie Pelican); Anzeige: häufigste Schreibweise
+    counter = Counter()
+    variants = {}
+    for post in published_posts():
+        tags = {t.strip() for t in post.get("tags", "").split(",") if t.strip()}
+        for key in {t.lower() for t in tags}:
+            counter[key] += 1
+        for t in tags:
+            variants.setdefault(t.lower(), Counter())[t] += 1
+    counter = Counter({variants[k].most_common(1)[0][0]: n for k, n in counter.items()})
     if args.count:
         for tag, n in sorted(counter.items(), key=lambda x: (-x[1], x[0].lower())):
             print(f"{n}\t{tag}")
