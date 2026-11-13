@@ -5,6 +5,7 @@ author: marco.bakera
 tags: TangibleComputing, Spiele, Hardware
 status: published
 slug: escape-rooms-als-tangible-computing
+mastodon: https://chaos.social/@pintman/117609458703844698
 ---
 
 Hier ein paar Gedanken zu Tangible Computing – ergänzend zu den Artikeln [Computer ohne Display]({filename}computer-ohne-display.md), [Paper Computer]({filename}paper-computer.md) und [Grant Custer]({filename}grant-custer.md).
