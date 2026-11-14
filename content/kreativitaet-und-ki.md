@@ -5,6 +5,7 @@ author: marco.bakera
 tags: KI, llm, Kunst, Video, Gesellschaft
 status: published
 slug: kreativitaet-und-ki
+mastodon: https://chaos.social/@pintman/117614355281050563
 ---
 
 Erst jüngst entstand mit dem Video [LGTM](https://www.youtube.com/watch?v=3TNpOD6bov8) ein Werk, das sowohl in Musik als auch im Video von KI-Systemen generiert wurde. LGTM meint "looks good to me": eine Phrase, die Entwickler gerne an Änderungsvorschläge für Quelltext (z. B. über Pull Requests) dranschreiben, wenn sie mit den Änderungen einverstanden sind. Das Video zeigt, wie eine KI die Entwickler ablöst und schließlich ersetzt. Bei LinkedIn hat das geteilte Video bei Entscheidungsträgern Reaktionen der Art "so isses" hervorgerufen.
