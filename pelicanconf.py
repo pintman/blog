@@ -23,7 +23,7 @@ EXTRA_PATH_METADATA = {
 
     # custom CSS/JS for template bootstrap3
     'extra/custom.css': {'path': 'static/css/custom.css'},
-    # 'extra/custom.js': {'path': 'static/js/custom.js'}    
+    'extra/custom.js': {'path': 'static/js/custom.js'},    
 }
 DEFAULT_CATEGORY = 'Sonstiges'
 DISPLAY_CATEGORIES_ON_MENU = False
@@ -89,7 +89,7 @@ BOOTSTRAP_THEME = "cerulean"  # one of https://bootswatch.com/, be aware, not to
 #DISPLAY_ARCHIVE_ON_SIDEBAR = True
 HIDE_SIDEBAR = True
 CUSTOM_CSS = 'static/css/custom.css'
-#CUSTOM_JS = 'static/js/custom.js'
+CUSTOM_JS = 'static/js/custom.js'
 
 # Install all plugins there
 # git clone --recursive https://github.com/getpelican/pelican-plugins
