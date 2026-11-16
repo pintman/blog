@@ -86,8 +86,9 @@ p {
 	border-bottom: 1px solid;
 }
 
-/* Externe Links im Artikeltext mit Pfeil kennzeichnen */
-.entry-content a[href^="http"]:not([href*="//blog.bakera.de"]):not(:has(img))::after {
+/* Externe Links im Artikeltext und Kommentarabschnitt mit Pfeil kennzeichnen */
+.entry-content a[href^="http"]:not([href*="//blog.bakera.de"]):not(:has(img))::after,
+.comments a[href^="http"]::after {
 	content: "\2197";
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 0.75em;
