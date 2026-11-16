@@ -5,6 +5,7 @@ author: marco.bakera
 tags: Informatik, TangibleComputing, Video, Tools
 status: published
 slug: post-wimp
+mastodon: https://chaos.social/@pintman/117627676505468377
 ---
 
 [WIMP](https://en.wikipedia.org/wiki/WIMP_(computing)) ist eine Abkürzung für „Windows, Icons, Menus, Pointer“ - eine Interface-Sprache, die uns auf Computern nur allzu natürlich erscheint und sich seit vielen Jahren etabliert hat. Mindestens genauso lange wird aber auch nach Alternativen zu diesen Interfaces gesucht – zuletzt hatte ich über [Paper Computer]({filename}paper-computer.md) und [Computer ohne Display]({filename}computer-ohne-display.md) geschrieben – Projekte, die genau hier ansetzen.
