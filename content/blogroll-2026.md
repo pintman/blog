@@ -5,6 +5,7 @@ author: marco.bakera
 tags: bloggen, Linkliste
 status: published
 slug: blogroll-2026
+mastodon: https://chaos.social/@pintman/117650773583053828
 ---
 
 ![Alte Frau liest]({static}images/2018/07/old_woman_reading.jpg)
