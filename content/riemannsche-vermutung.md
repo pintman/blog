@@ -20,3 +20,6 @@ Quellen:
 - [Lean-Beweis auf GitHub (Kopie)](https://github.com/CocoSgt/riemann-hypothesis-lean)
 - [Lean (Beweisassistent) – Wikipedia](https://de.wikipedia.org/wiki/Lean_(Beweisassistent))
 - [Collage bei tldraw](https://www.tldraw.com/p/goXV0_RqCNECW-MPzw0-N?d=v-412.-388.3120.3249.page)
+
+**Update:** Gleichzeitig war dies auch eine Gelegenheit, ein [Zooming User Interface](https://en.wikipedia.org/wiki/Zooming_user_interface) ([ich berichtete]({filename}post-wimp.md)) auszuprobieren. [tldraw](https://www.tldraw.com/) ist eine Alternative zum Platzhirsch [Miro](https://miro.com/).
+
