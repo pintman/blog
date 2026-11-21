@@ -15,6 +15,7 @@ Große Dinge passieren derzeit. Eines der bedeutendsten mathematischen Probleme,
 Quellen:
 
 - [Video von DorFuchs](https://www.youtube.com/watch?v=0Iq40g77FsY)
+- [Bericht der Tagesschau](https://www.tagesschau.de/wissen/forschung/anthropic-riemannsche-vermutung-loesung-100.html)
 - [Riemannsche Vermutung – Wikipedia](https://de.wikipedia.org/wiki/Riemannsche_Vermutung)
 - [remark.pdf von Levent Alpöge](https://alpo.ge/remark.pdf)
 - [Lean-Beweis auf GitHub (Kopie)](https://github.com/CocoSgt/riemann-hypothesis-lean)
