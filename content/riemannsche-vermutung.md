@@ -5,6 +5,7 @@ author: marco.bakera
 tags: Mathe, llm, Wissenschaft
 status: published
 slug: riemannsche-vermutung
+mastodon: https://chaos.social/@pintman/117654127882543814
 ---
 
 [![Collage zum Beweis der Riemannschen Vermutung]({static}/images/2026/riemannsche-vermutung.jpg)]({static}/images/2026/riemannsche-vermutung.jpg)
