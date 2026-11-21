@@ -18,6 +18,7 @@ Quellen:
 - [Riemannsche Vermutung – Wikipedia](https://de.wikipedia.org/wiki/Riemannsche_Vermutung)
 - [remark.pdf von Levent Alpöge](https://alpo.ge/remark.pdf)
 - [Lean-Beweis auf GitHub (Kopie)](https://github.com/CocoSgt/riemann-hypothesis-lean)
+- [Blogpost der Lean-Community zur Riemannschen Vermutung](https://leanprover-community.github.io/blog/posts/riemann-hypothesis/)
 - [Lean (Beweisassistent) – Wikipedia](https://de.wikipedia.org/wiki/Lean_(Beweisassistent))
 - [Collage bei tldraw](https://www.tldraw.com/p/goXV0_RqCNECW-MPzw0-N?d=v-412.-388.3120.3249.page)
 
