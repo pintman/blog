@@ -17,5 +17,6 @@ Quellen:
 - [Video von DorFuchs](https://www.youtube.com/watch?v=0Iq40g77FsY)
 - [Riemannsche Vermutung – Wikipedia](https://de.wikipedia.org/wiki/Riemannsche_Vermutung)
 - [remark.pdf von Levent Alpöge](https://alpo.ge/remark.pdf)
+- [Lean-Beweis auf GitHub (Kopie)](https://github.com/CocoSgt/riemann-hypothesis-lean)
 - [Lean (Beweisassistent) – Wikipedia](https://de.wikipedia.org/wiki/Lean_(Beweisassistent))
 - [Collage bei tldraw](https://www.tldraw.com/p/goXV0_RqCNECW-MPzw0-N?d=v-412.-388.3120.3249.page)
