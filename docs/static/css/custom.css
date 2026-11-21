@@ -96,3 +96,11 @@ p {
 	vertical-align: super;
 	line-height: 0;
 }
+
+/* Hohe Bilder in Artikellisten (Startseite, Tags, …) beschneiden */
+.summary img {
+	width: 100%;
+	max-height: 20em;
+	object-fit: cover;
+	object-position: center;
+}
