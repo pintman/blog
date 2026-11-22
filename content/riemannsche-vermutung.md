@@ -14,6 +14,7 @@ mastodon: https://chaos.social/@pintman/117654127882543814
 Texte im Bild:
 Riemannsche Vermutung.
 Die Riemannsche Vermutung, Riemannsche Hypothese, Riemannhypothese oder kurz RH steht im Zusammenhang mit der Verteilung der Primzahlen und war nach Meinung führender Mathematiker lange Zeit das bedeutendste ungelöste Problem der reinen Mathematik. Sie wurde erstmals 1859 von Bernhard Riemann in seiner Arbeit „Über die Anzahl der Primzahlen unter einer gegebenen Größe“ in einem Nebensatz formuliert. Die von Riemann formulierte Vermutung besagt, dass alle Nullstellen ϱ der Riemannschen Zeta-Funktion ζ (für die also ζ(ϱ)=0 gilt) entweder negative gerade Zahlen −2, −4, … sind (die trivialen Nullstellen), oder komplexe Zahlen sind (die nichttrivialen Nullstellen), deren Realteil 1/2 beträgt und die daher alle auf der sogenannten kritischen Geraden liegen. (Quelle: Wikipedia)
+Gesucht: nicht-triviale Nullstellen. Riemann Hypothesis – Numberphile. Critical strip: it is known all (non-trivial) zeros are in here. Critical line: Riemann says all (non-trivial) zeros are on here.
 Mathematiker bei Anthropic: Levent Alpöge. Fields-Medaille erhalten. remark.pdf. CV. Timeline.
 Lean: Programmiersprache für mathematische Beweise. Lean (Beweisassistent) – Wikipedia.
 Repo (Kopie) der Lean-Dateien (ca. 1GB). Darauf sollte man generell achten bei Lean-Beweisen.
@@ -25,6 +26,7 @@ Große Dinge passieren derzeit. Eines der bedeutendsten mathematischen Probleme,
 Quellen:
 
 - [Video von DorFuchs](https://www.youtube.com/watch?v=0Iq40g77FsY)
+- [Riemann Hypothesis – Numberphile](https://www.youtube.com/watch?v=d6c6uIyieoo)
 - [Bericht der Tagesschau](https://www.tagesschau.de/wissen/forschung/anthropic-riemannsche-vermutung-loesung-100.html)
 - [Riemannsche Vermutung – Wikipedia](https://de.wikipedia.org/wiki/Riemannsche_Vermutung)
 - [remark.pdf von Levent Alpöge](https://alpo.ge/remark.pdf)
