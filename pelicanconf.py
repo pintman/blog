@@ -102,7 +102,7 @@ CUSTOM_JS = 'static/js/custom.js'
 # https://github.com/pelican-plugins/tipue-search 
 # https://github.com/pelican-plugins/sitemap
 PLUGIN_PATHS = ["pelican-plugins", "plugins.local"]
-PLUGINS = ["tipue_search", "sitemap", "backlinks"]
+PLUGINS = ["tipue_search", "sitemap", "backlinks", "feed_no_sr_only"]
 #DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 DIRECT_TEMPLATES = ('index', 'archives', 'search', 'tags')
 
