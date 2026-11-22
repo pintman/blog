@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>/home/bakera/blog</title><link href="https://blog.bakera.de/" rel="alternate"/><link href="https://blog.bakera.de/feeds/all.atom.xml" rel="self"/><id>https://blog.bakera.de/</id><updated>2026-11-21T11:54:00+01:00</updated><entry><title>Riemannsche Vermutung</title><link href="https://blog.bakera.de/riemannsche-vermutung.html" rel="alternate"/><published>2026-11-21T11:54:00+01:00</published><updated>2026-11-21T11:54:00+01:00</updated><author><name>marco.bakera</name></author><id>tag:blog.bakera.de,2026-11-21:/riemannsche-vermutung.html</id><summary type="html">&lt;p&gt;&lt;a href="https://blog.bakera.de/images/2026/riemannsche-vermutung.jpg"&gt;&lt;img alt="Collage zum Beweis der Riemannschen Vermutung" src="https://blog.bakera.de/images/2026/riemannsche-vermutung.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Große Dinge passieren derzeit. Eines der bedeutendsten mathematischen Probleme, die Riemannsche Vermutung, wurde vielleicht von Levent Alpöge mit Unterstützung durch Claude bewiesen. &lt;a href="https://www.youtube.com/watch?v=0Iq40g77FsY"&gt;DorFuchs&lt;/a&gt; hat ein schönes Video dazu gemacht, das ich in einem Bild zusammengefasst und ergänzt habe.&lt;/p&gt;
-&lt;p&gt;Quellen:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=0Iq40g77FsY"&gt;Video von DorFuchs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.tagesschau.de/wissen/forschung/anthropic-riemannsche-vermutung-loesung-100.html"&gt;Bericht der Tagesschau&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://de.wikipedia.org/wiki/Riemannsche_Vermutung"&gt;Riemannsche Vermutung – Wikipedia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://alpo.ge/remark.pdf"&gt;remark.pdf …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://blog.bakera.de/images/2026/riemannsche-vermutung.jpg"&gt;&lt;img alt="Collage zum Beweis der Riemannschen Vermutung" src="https://blog.bakera.de/images/2026/riemannsche-vermutung.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="sr-only"&gt;
+Texte im Bild:
+Riemannsche Vermutung.
+Die Riemannsche Vermutung, Riemannsche Hypothese, Riemannhypothese oder kurz RH steht im Zusammenhang mit der Verteilung der Primzahlen und war nach Meinung führender Mathematiker lange Zeit das bedeutendste ungelöste Problem der reinen Mathematik. Sie wurde erstmals 1859 von Bernhard Riemann in seiner Arbeit „Über die Anzahl …&lt;/div&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://blog.bakera.de/images/2026/riemannsche-vermutung.jpg"&gt;&lt;img alt="Collage zum Beweis der Riemannschen Vermutung" src="https://blog.bakera.de/images/2026/riemannsche-vermutung.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="sr-only"&gt;
+Texte im Bild:
+Riemannsche Vermutung.
+Die Riemannsche Vermutung, Riemannsche Hypothese, Riemannhypothese oder kurz RH steht im Zusammenhang mit der Verteilung der Primzahlen und war nach Meinung führender Mathematiker lange Zeit das bedeutendste ungelöste Problem der reinen Mathematik. Sie wurde erstmals 1859 von Bernhard Riemann in seiner Arbeit „Über die Anzahl der Primzahlen unter einer gegebenen Größe“ in einem Nebensatz formuliert. Die von Riemann formulierte Vermutung besagt, dass alle Nullstellen ϱ der Riemannschen Zeta-Funktion ζ (für die also ζ(ϱ)=0 gilt) entweder negative gerade Zahlen −2, −4, … sind (die trivialen Nullstellen), oder komplexe Zahlen sind (die nichttrivialen Nullstellen), deren Realteil 1/2 beträgt und die daher alle auf der sogenannten kritischen Geraden liegen. (Quelle: Wikipedia)
+Mathematiker bei Anthropic: Levent Alpöge. Fields-Medaille erhalten. remark.pdf. CV. Timeline.
+Lean: Programmiersprache für mathematische Beweise. Lean (Beweisassistent) – Wikipedia.
+Repo (Kopie) der Lean-Dateien (ca. 1GB). Darauf sollte man generell achten bei Lean-Beweisen.
+Reaktionen auf Twitter und in den Nachrichten.
+&lt;/div&gt;
+
 &lt;p&gt;Große Dinge passieren derzeit. Eines der bedeutendsten mathematischen Probleme, die Riemannsche Vermutung, wurde vielleicht von Levent Alpöge mit Unterstützung durch Claude bewiesen. &lt;a href="https://www.youtube.com/watch?v=0Iq40g77FsY"&gt;DorFuchs&lt;/a&gt; hat ein schönes Video dazu gemacht, das ich in einem Bild zusammengefasst und ergänzt habe.&lt;/p&gt;
 &lt;p&gt;Quellen:&lt;/p&gt;
 &lt;ul&gt;
