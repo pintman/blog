@@ -35,5 +35,7 @@ Quellen:
 - [Lean (Beweisassistent) – Wikipedia](https://de.wikipedia.org/wiki/Lean_(Beweisassistent))
 - [Collage bei tldraw](https://www.tldraw.com/p/goXV0_RqCNECW-MPzw0-N?d=v-412.-388.3120.3249.page)
 
-**Update:** Gleichzeitig war dies auch eine Gelegenheit, ein [Zooming User Interface](https://en.wikipedia.org/wiki/Zooming_user_interface) ([ich berichtete]({filename}post-wimp.md)) auszuprobieren. [tldraw](https://www.tldraw.com/) ist eine Alternative zum Platzhirsch [Miro](https://miro.com/).
+**Update 21.11.2026:** Gleichzeitig war dies auch eine Gelegenheit, ein [Zooming User Interface](https://en.wikipedia.org/wiki/Zooming_user_interface) ([ich berichtete]({filename}post-wimp.md)) auszuprobieren. [tldraw](https://www.tldraw.com/) ist eine Alternative zum Platzhirsch [Miro](https://miro.com/). Außerdem: Reaktion der Lean-Community und Tagesschau ergänzt.
+
+**Update 22.11.2026:** Numberphile-Erklärung zur Riemannschen Vermutung ergänzt.
 
