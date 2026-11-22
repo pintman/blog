@@ -23,7 +23,12 @@ EXTRA_PATH_METADATA = {
 
     # custom CSS/JS for template bootstrap3
     'extra/custom.css': {'path': 'static/css/custom.css'},
-    'extra/custom.js': {'path': 'static/js/custom.js'},    
+    'extra/custom.js': {'path': 'static/js/custom.js'},
+
+    # PhotoSwipe-Lightbox (theme.local/base.html)
+    **{f'extra/photoswipe/{f}': {'path': f'static/photoswipe/{f}'}
+       for f in ['photoswipe.esm.min.js', 'photoswipe-lightbox.esm.min.js',
+                 'photoswipe.css', 'init.js', 'LICENSE']},
 }
 DEFAULT_CATEGORY = 'Sonstiges'
 DISPLAY_CATEGORIES_ON_MENU = False

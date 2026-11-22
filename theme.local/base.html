@@ -80,6 +80,7 @@
     {% if CUSTOM_CSS %}
         <link href="{{ SITEURL }}/{{ CUSTOM_CSS }}" rel="stylesheet">
     {% endif %}
+    <link href="{{ SITEURL }}/static/photoswipe/photoswipe.css" rel="stylesheet">
     {% if SHARIFF %}
         <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/shariff/shariff.min.css" rel="stylesheet">
     {% endif %}
@@ -232,6 +233,7 @@
 {% if CUSTOM_JS %}
     <script src="{{ SITEURL }}/{{ CUSTOM_JS }}"></script>
 {% endif %}
+<script type="module" src="{{ SITEURL }}/static/photoswipe/init.js"></script>
 
 {% if BANNER %}
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/bodypadding.js"></script>

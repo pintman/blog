@@ -11,6 +11,7 @@ Dies ist Marco Bakeras persönlicher Blog (blog.bakera.de), gebaut mit [Pelican]
 - `publishconf.py` — Produktiv-Konfiguration, importiert `pelicanconf.py` und überschreibt (`SITEURL`, `RELATIVE_URLS = False`, Atom-Feed, `DELETE_OUTPUT_DIRECTORY = True`).
 - `publishconf_beaker.py` — alternative Publish-Konfiguration für einen Hyper/Beaker-Browser-Mirror (importiert `publishconf.py`, setzt `SITEURL` auf eine `hyper://`-Adresse). Ausgabe nach `docs_beaker/` (gitignored).
 - Theme: `pelican-themes/pelican-bootstrap3` (Bootswatch "cerulean"), Plugins `tipue_search`, `sitemap`, `tag_cloud`, `i18n_subsites` — alle von `setup.sh` nach `pelican-plugins/` und `pelican-themes/` geklont (beide gitignored, nicht im Repo enthalten). `theme.local/base.html` ist ein lokaler Override, den `setup.sh` über das `templates/`-Verzeichnis des Themes kopiert.
+- Lightbox: PhotoSwipe 5 liegt lokal in `content/extra/photoswipe/` (per `EXTRA_PATH_METADATA` nach `static/photoswipe/`), eingebunden in `theme.local/base.html`. `init.js` aktiviert sie für Bilder, die auf sich selbst verlinken: `[![alt](bild)](bild)` (Zoom per Mausrad/Pinch, Verschieben per Ziehen).
 
 ## Setup
 
