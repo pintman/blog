@@ -20,7 +20,7 @@ Dies ist Marco Bakeras persönlicher Blog (blog.bakera.de), gebaut mit [Pelican]
 
 ## Arbeiten mit Inhalten
 
-- Neuer Post: `./newpost.sh "Titel" "tags"` (Standard `status: draft`, `-p` für `published`, `-n` um das Öffnen in VS Code zu überspringen).
+- Neuer Post: `./newpost.sh "Titel" "tags"` (Standard `status: draft`, `-p` für `published`, `-n` um das Öffnen in Emacs zu überspringen).
 - Tag-Übersicht: `./tags.py` listet alle Tags veröffentlichter Posts, `-c` mit Artikelanzahl (nach Häufigkeit sortiert) – nützlich für Tag-Vorschläge.
 - Bei Review-Anfragen: auf Verständlichkeit, Tippfehler, Grammatik und Formatierung achten. Fehlen Tags, Vorschläge auf Basis der Tags anderer Posts machen.
 - Mastodon: nach dem Committen eines veröffentlichten Posts `./mastodon_post.py` ausführen (`--dry-run` für Vorschau, `--text "…"` ersetzt den Titel im Toot; nur bei genau einem neuen Post). Es tootet Titel + Link + Tags auf chaos.social für jeden veröffentlichten Post, der noch nicht in `mastodon_posted.txt` steht, hängt den Slug an, schreibt die Toot-URL als `mastodon:`-Metadatum (`:mastodon:` in reST) in den Post und committet beides. Danach `git push`, damit der Artikel den Link „auf Mastodon kommentieren" zeigt (`theme.local/includes/comments.html`). Token in `.env` (`MASTODON_TOKEN=…`, gitignored, Scope `write:statuses`). Bricht ab, wenn mehr als 3 Posts neu sind.

@@ -1,8 +1,8 @@
 #!/bin/bash
-# Legt einen neuen Markdown-Post in content/ an und öffnet ihn in VS Code.
+# Legt einen neuen Markdown-Post in content/ an und öffnet ihn in Emacs.
 # Aufruf: ./newpost.sh [-p] [-n] "Titel" ["tag1, tag2"]
 #   -p  status: published (Default: draft)
-#   -n  Datei nicht in VS Code öffnen
+#   -n  Datei nicht in Emacs öffnen
 
 set -e
 cd "$(dirname "$0")"
@@ -49,5 +49,5 @@ slug: $SLUG
 EOF
 
 echo "$FILE"
-[ "$OPEN" = 1 ] && code "$FILE"
+[ "$OPEN" = 1 ] && emacs +9 "$FILE"
 exit 0
