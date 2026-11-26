@@ -5,6 +5,7 @@ author: marco.bakera
 tags: Mathe, llm, Wissenschaft
 status: published
 slug: loese-alle-millenium-probleme
+mastodon: https://chaos.social/@pintman/117684418398867604
 ---
 
 [![Chat mit Claude: Auf „Löse alle Millenium Probleme" antwortet Claude, dass es das nicht kann, und listet den Stand der Millennium-Probleme auf. Auf die Nachfrage, ob es die Riemann-Vermutung mit Levent bewiesen habe, verneint es.]({static}/images/2026/millenium-probleme-claude.png)]({static}/images/2026/millenium-probleme-claude.png)
