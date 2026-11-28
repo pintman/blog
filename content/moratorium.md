@@ -5,6 +5,7 @@ author: marco.bakera
 tags: Informatik, llm, KI, Buch
 status: published
 slug: moratorium
+mastodon: https://chaos.social/@pintman/117694043899466025
 ---
 
 Donald Knuth nahm Hinweise auf Fehler in seinen Büchern immer gern entgegen und belohnte sie sogar mit einem Scheck über 2,56 $. Durch KI-generierte Einsendungen gibt es inzwischen leider zu viele falsche Hinweise, weshalb er nun ein [Moratorium](https://www-cs-faculty.stanford.edu/~knuth/moratorium.html) verkündet.
